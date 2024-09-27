@@ -75,14 +75,14 @@
 	+ place where you can keep\n
 	+ lots of Pokémon.
      e	= Not only do you keep the\n
-	+ Pokémon there...
+	+ Pokémon here...
      f	= You can watch Pokémon live\n
 	+ out their daily lives!
-    10	= I've been thinking about making\n
-	+ this Ranch full of Pokémon.
+    10	= I've been thinking about filling\n
+	+ this ranch with Pokémon.
     11	= A life surrounded by lots\n
 	+ of Pokémon has been my\n
-	+ long-cherished dream...\n
+	+ long-cherished dream...
     12	= Ah...\n
 	+ A Ranch filled with Pokémon...\n
 	+ It's fantastic... It's fabulous...\n
@@ -104,8 +104,8 @@
 	+ Hmm, I didn't quite catch that.\n
 	+ Let me ask you one more time.
     1b	= That's great! I knew it!
-    1c	= I'll take you to the Ranch\n
-	+ right away!
+    1c	= Okay then, come on over and\n
+	+ join me here at the Ranch!
     1d	= Select the Miis you want to\n
 	+ take to the Ranch.\n
 	+ The more you take, the more\n
@@ -119,7 +119,7 @@
 	+ care of them!
     21	= When you visit the Ranch, every\n
 	+ day you'll find one new\n
-	+ Pokémon added to the Ranch!\n
+	+ Pokémon added to the Ranch!
     22	= Let's work together to fill this\n
 	+ Ranch with Pokémon\n
 	+ little by little!
@@ -146,8 +146,8 @@
     2b	= Oh, well. That's okay.\n
 	+ I'll bring a Pokémon every day!\n
 	+ Let's start from there!
-    2c	= You know how Pokémon are\n
-	+ added to the Ranch now, right?
+    2c	= Now you know how Pokemon\n
+	+ are added to the Ranch, right?
     2d	= As today's the first and a very\n
 	+ special day, I brought six\n
 	+ Pokémon to add to the Ranch!
@@ -197,7 +197,7 @@
 	+ okay for tomorrow?
     41	= Is a pink Pokémon\n
 	+ okay for tomorrow?
-    42	= Is a short Pokémon\n
+    42	= Is a small Pokémon\n
 	+ okay for tomorrow?
     43	= Is a tall Pokémon\n
 	+ okay for tomorrow?
@@ -257,7 +257,7 @@
     5e	= Okay, perhaps a\n
 	+ pink Pokémon?
     5f	= Okay, perhaps a\n
-	+ short Pokémon?
+	+ small Pokémon?
     60	= Okay, perhaps a\n
 	+ tall Pokémon?
     61	= Okay, perhaps a\n
@@ -328,7 +328,7 @@
 	+ pink Pokémon tomorrow!
     7c	= All right. Leave it to me!\n
 	+ I will bring a\n
-	+ short Pokémon tomorrow!
+	+ small Pokémon tomorrow!
     7d	= All right. Leave it to me!\n
 	+ I will bring a\n
 	+ tall Pokémon tomorrow!
@@ -392,15 +392,17 @@
 	+ Ranch has become %ls!
     93	= 
     94	= Okay. Let's expand the Ranch!\n
+    94	= Okay. Let's expand the Ranch!\n
 	+ Its construction is expected to\n
 	+ be done on %ls!
     95	= Oh? The number of Pokémon at\n
-	+ the Ranch is already %ls!
     96	= 
     97	= Okay.\n
 	+ Let's expand the Ranch again!
+    97	= Okay.\n
+	+ Let's expand the Ranch again!
     98	= Its construction is expected to\n
-	+ be done on %ls!
+	+ the size of the Ranch... It will\n
     99	= For now, please be patient with\n
 	+ the size of the Ranch... It will\n
 	+ be expanded on %ls!
@@ -410,9 +412,10 @@
 	+ of the Ranch expansion!
     9c	= I did not bring any Pokémon to\n
 	+ the Ranch today.
-    9d	= So far, I have brought\n
-	+ %ls Pokémon.
-    9e	= 
+So far, I have brought\n So far, I have brought\n So far, I have brought\n So far, I have brought\n So far, I have brought\n9So far, I have brought\ndSo far, I have brought\n	So far, I have brought\n=So far, I have brought\n So far, I have brought\nSSo far, I have brought\noSo far, I have brought\n So far, I have brought\nfSo far, I have brought\naSo far, I have brought\nrSo far, I have brought\n,So far, I have brought\n So far, I have brought\nISo far, I have brought\n So far, I have brought\nhSo far, I have brought\naSo far, I have brought\nvSo far, I have brought\neSo far, I have brought\n So far, I have brought\nbSo far, I have brought\nrSo far, I have brought\noSo far, I have brought\nuSo far, I have brought\ngSo far, I have brought\nhSo far, I have brought\ntSo far, I have brought\n\So far, I have brought\nnSo far, I have brought\n
+    9f	= Here are my precious Pokémon.\n
+	+ Please take good care of them!
+    a0	= It's my precious Pokémon.\n
     9f	= Here are my precious Pokémon.\n
 	+ Please take good care of them!
     a0	= It's my precious Pokémon.\n
@@ -420,33 +423,37 @@
     a1	= Although the Ranch will not\n
 	+ get any bigger...
     a2	= Please look after the Pokémon\n
-	+ and the Ranch!
-    a3	= Once the number of Pokémon\n
-	+ becomes %ls, let's expand\n
-	+ the Ranch!
-    a4	= 
+	+ and and the Ranch!
+Once we get %ls\n Once we get %ls\n Once we get %ls\n Once we get %ls\n Once we get %ls\naOnce we get %ls\n3Once we get %ls\n	Once we get %ls\n=Once we get %ls\n Once we get %ls\nOOnce we get %ls\nnOnce we get %ls\ncOnce we get %ls\neOnce we get %ls\n Once we get %ls\nwOnce we get %ls\neOnce we get %ls\n Once we get %ls\ngOnce we get %ls\neOnce we get %ls\ntOnce we get %ls\n Once we get %ls\n%Once we get %ls\nlOnce we get %ls\nsOnce we get %ls\n\Once we get %ls\nnOnce we get %ls\n
     a5	= Let's keep adding Pokémon to\n
 	+ the Ranch!
     a6	= Let's expand the Ranch by\n
 	+ adding more Pokémon!
     a7	= Once the number of Pokémon\n
-	+ becomes %ls, let's expand\n
+    a5	= Let's keep adding Pokémon to\n
 	+ the Ranch!
-    a8	= 
+Let's expand the Ranch by\n Let's expand the Ranch by\n Let's expand the Ranch by\n Let's expand the Ranch by\n Let's expand the Ranch by\naLet's expand the Ranch by\n6Let's expand the Ranch by\n	Let's expand the Ranch by\n=Let's expand the Ranch by\n Let's expand the Ranch by\nLLet's expand the Ranch by\neLet's expand the Ranch by\ntLet's expand the Ranch by\n'Let's expand the Ranch by\nsLet's expand the Ranch by\n Let's expand the Ranch by\neLet's expand the Ranch by\nxLet's expand the Ranch by\npLet's expand the Ranch by\naLet's expand the Ranch by\nnLet's expand the Ranch by\ndLet's expand the Ranch by\n Let's expand the Ranch by\ntLet's expand the Ranch by\nhLet's expand the Ranch by\neLet's expand the Ranch by\n Let's expand the Ranch by\nRLet's expand the Ranch by\naLet's expand the Ranch by\nnLet's expand the Ranch by\ncLet's expand the Ranch by\nhLet's expand the Ranch by\n Let's expand the Ranch by\nbLet's expand the Ranch by\nyLet's expand the Ranch by\n\Let's expand the Ranch by\nnLet's expand the Ranch by\n
+	+ adding more Pokémon!
+    a7	= Once we get %ls\n
+	+ Pokémon Ranch, aren't you?
+    ab	= From now on, you should use\n
+	+ Free Mode to watch the Ranch.\n
+	+ It's so handy!
+    ac	= Free Mode is added to\n
     a9	= ...Oh!?
     aa	= You are familiar now with the\n
 	+ Pokémon Ranch, aren't you?
     ab	= From now on, you should use\n
 	+ Free Mode to watch the Ranch.\n
 	+ It's so handy!
-    ac	= Free Mode is added to\n
-	+ the menu!
+    ac	= The Free Mode function has\n
+	+ been added to the menu!
     ad	= Great news!\n
 	+ A Toy Box will be delivered to\n
 	+ the Ranch every day starting\n
 	+ today!
     ae	= A toy that Pokémon can play\n
-	+ with is stored in the Toy Box.\n
+	+ with is stored in the Toy Box.
     af	= It's like a treasure box!\n
 	+ You'll find it somewhere on\n
 	+ the Ranch. Look for it\n
@@ -463,37 +470,38 @@
 	+ favorite Pokémon.
     b4	= From now on, you should use\n
 	+ Favorites to organize Pokémon.
-    b5	= Favorites is added to the menu!
+    b5	= The Favourites function has\n
+	+ been added to the menu!
     b6	= More great news!\n
 	+ Two Toy Boxes will be delivered\n
-	+ to the Ranch every day starting\n
+    ba	= Bring more Miis to the Ranch,\n
 	+ today!
     b7	= Mmm-hmm... How exciting!
-    b8	= The number of Miis you can\n
+The number of Miis you can\n The number of Miis you can\n The number of Miis you can\n The number of Miis you can\n The number of Miis you can\nbThe number of Miis you can\n8The number of Miis you can\n	The number of Miis you can\n=The number of Miis you can\n The number of Miis you can\nTThe number of Miis you can\nhThe number of Miis you can\neThe number of Miis you can\n The number of Miis you can\nnThe number of Miis you can\nuThe number of Miis you can\nmThe number of Miis you can\nbThe number of Miis you can\neThe number of Miis you can\nrThe number of Miis you can\n The number of Miis you can\noThe number of Miis you can\nfThe number of Miis you can\n The number of Miis you can\nMThe number of Miis you can\niThe number of Miis you can\niThe number of Miis you can\nsThe number of Miis you can\n The number of Miis you can\nyThe number of Miis you can\noThe number of Miis you can\nuThe number of Miis you can\n The number of Miis you can\ncThe number of Miis you can\naThe number of Miis you can\nnThe number of Miis you can\n\The number of Miis you can\nnThe number of Miis you can\n
 	+ bring to the Ranch is now 20!
     b9	= That is the max number of Miis\n
 	+ you can bring to the Ranch.\n
 	+ Twenty is enough, isn't it?
     ba	= Bring more Miis to the Ranch,\n
-	+ please!
+	+ I brought a special Pokémon!
     bb	= 
     bc	= More great news!\n
 	+ Three Toy Boxes will be\n
 	+ delivered to the Ranch every\n
 	+ day starting today!
-    bd	= Mmm-hmm... How exciting!
+Mmm-hmm... How exciting! Mmm-hmm... How exciting! Mmm-hmm... How exciting! Mmm-hmm... How exciting! Mmm-hmm... How exciting!bMmm-hmm... How exciting!dMmm-hmm... How exciting!	Mmm-hmm... How exciting!=Mmm-hmm... How exciting! Mmm-hmm... How exciting!MMmm-hmm... How exciting!mMmm-hmm... How exciting!mMmm-hmm... How exciting!-Mmm-hmm... How exciting!hMmm-hmm... How exciting!mMmm-hmm... How exciting!mMmm-hmm... How exciting!.Mmm-hmm... How exciting!.Mmm-hmm... How exciting!.Mmm-hmm... How exciting! Mmm-hmm... How exciting!HMmm-hmm... How exciting!oMmm-hmm... How exciting!wMmm-hmm... How exciting! Mmm-hmm... How exciting!eMmm-hmm... How exciting!xMmm-hmm... How exciting!cMmm-hmm... How exciting!iMmm-hmm... How exciting!tMmm-hmm... How exciting!iMmm-hmm... How exciting!nMmm-hmm... How exciting!gMmm-hmm... How exciting!!Mmm-hmm... How exciting!
     be	= I have wonderful news!\n
 	+ I brought a special Pokémon!
     bf	= PHIONE, a special Pokémon\n
 	+ that hatched from an Egg found\n
 	+ with MANAPHY and a Pokémon\n
-	+ that gets along with it.
+    c3	= Mmm-hmm... So exciting!
     c0	= 
-    c1	= I'll add it to the Ranch.\n
+	+ can keep is now 1,000!
 	+ Please take good care of it!
     c2	= More great news!\n
-	+ Four Toy Boxes will be delivered\n
-	+ to the Ranch every day starting\n
+	+ expand by leveling up...
+    c7	= Let's try to get 1,000 Pokémon\n
 	+ today!
     c3	= Mmm-hmm... So exciting!
     c4	= The number of Pokémon you\n
@@ -503,9 +511,9 @@
 	+ expand by leveling up...
     c7	= Let's try to get 1,000 Pokémon\n
 	+ on the Ranch!
-    c8	= More great news!\n
-	+ Five Toy Boxes will be delivered \n
-	+ to the Ranch every day starting\n
+	+ toy that Pokémon can draw\n
+	+ pictures with!
+    cb	= It's really exciting!
 	+ today!
     c9	= Not only that, but the variety of\n
 	+ toys inside the box has\n
@@ -519,14 +527,12 @@
 	+ it's super comfortable.
     cd	= When the Ranch is filled, I will\n
 	+ ask my Pokémon to stay inside\n
-	+ the stable.
-    ce	= That means you can bring up to\n
-	+ 1,000 of your Pokémon to the\n
+	+ its max level! Congratulations!
 	+ Ranch!
     cf	= Don't worry about my Pokémon.\n
 	+ Bring as many Pokémon as you\n
 	+ like!
-    d0	= The Ranch has finally reached\n
+	+ This is the Ranch I dreamt\n
 	+ its max level! Congratulations!
     d1	= The Ranch I was longing for...\n
 	+ So vast...\n
@@ -538,22 +544,22 @@
     d3	= I am so glad that I chose you\n
 	+ as my Ranch partner!
     d4	= I believe I'll enjoy living here\n
-	+ with everyone for a long time.
+	+ I brought a very rare Pokémon!
     d5	= With everyone... \n
 	+ My whole life...
     d6	= ...Why not?\n
 	+ Hehe.
-    d7	= Today is such a special day.\n
+Today is such a special day.\n Today is such a special day.\n Today is such a special day.\n Today is such a special day.\n Today is such a special day.\ndToday is such a special day.\n7Today is such a special day.\n	Today is such a special day.\n=Today is such a special day.\n Today is such a special day.\nTToday is such a special day.\noToday is such a special day.\ndToday is such a special day.\naToday is such a special day.\nyToday is such a special day.\n Today is such a special day.\niToday is such a special day.\nsToday is such a special day.\n Today is such a special day.\nsToday is such a special day.\nuToday is such a special day.\ncToday is such a special day.\nhToday is such a special day.\n Today is such a special day.\naToday is such a special day.\n Today is such a special day.\nsToday is such a special day.\npToday is such a special day.\neToday is such a special day.\ncToday is such a special day.\niToday is such a special day.\naToday is such a special day.\nlToday is such a special day.\n Today is such a special day.\ndToday is such a special day.\naToday is such a special day.\nyToday is such a special day.\n.Today is such a special day.\n\Today is such a special day.\nnToday is such a special day.\n
 	+ I brought a very rare Pokémon!
     d8	= This is MEW, a Pokémon that\n
 	+ is said to possess the genes\n
-	+ of all Pokémon.
+	+ to the Ranch every day starting\n
     d9	= 
-    da	= I will add it to the Ranch.\n
+    dc	= So exciting!
 	+ Please take good care of it!
     db	= More great news!\n
-	+ Six Toy Boxes will be delivered\n
-	+ to the Ranch every day starting\n
+	+ now!
+    de	= That's more space for\n
 	+ today!
     dc	= So exciting!
     dd	= The Ranch is no longer under\n
@@ -565,14 +571,16 @@
     e0	= Due to the large number of\n
 	+ Pokémon added, the level\n
 	+ of the Ranch has jumped\n
-	+ from %d to %d!
+from %d to %d!	from %d to %d!+from %d to %d! from %d to %d!ffrom %d to %d!rfrom %d to %d!ofrom %d to %d!mfrom %d to %d! from %d to %d!%from %d to %d!dfrom %d to %d! from %d to %d!tfrom %d to %d!ofrom %d to %d! from %d to %d!%from %d to %d!dfrom %d to %d!!from %d to %d!
     e1	= The Ranch has expanded!
     e2	= The number of Pokémon you\n
-	+ can keep has increased from\n
-	+ %d to %d!
+    e5	= Wow!\n
+	+ That's the Wanted Pokémon!\n
+	+ Good job!
+    e6	= This will make the Ranch a\n
     e3	= 
     e4	= The number of Miis you can\n
-	+ bring has increased from\n
+	+ can keep has increased from\n
 	+ %d to %d!
     e5	= Wow!\n
 	+ That's the Wanted Pokémon!\n
@@ -582,12 +590,12 @@
 	+ Thank you!
     e7	= Added to Wanted Pokémon!\n
 	+ %ls
-    e8	= Added to Wanted Pokémon!\n
-	+ %ls\n
+	+ if the Pokémon you bring to the\n
+	+ Ranch is a Wanted Pokémon!
 	+ %ls
-    e9	= Added to Wanted Pokémon!\n
-	+ %ls\n
-	+ %ls\n
+	+ Pokémon is posted on the BBS.\n
+	+ You should check it out!
+    ec	= Bring the Wanted Pokémon\n
 	+ %ls
     ea	= From now on, I will check to see\n
 	+ if the Pokémon you bring to the\n
@@ -601,23 +609,23 @@
 	+ Pokémon out to the Ranch!
     ee	= Bring the Wanted Pokémon\n
 	+ to the Ranch once you catch it.
-    ef	= Oh, you know what?\n
+	+ catch or trade the Pokémon?
 	+ The %{} you\n
 	+ just brought to the Ranch...
     f0	= %ls was looking\n
 	+ for it.
-    f1	= %ls was looking\n
+	+ hard to catch the Pokémon!
 	+ for it.
     f2	= Maybe you can explain how to\n
 	+ catch or trade the Pokémon?
-    f3	= Maybe you can explain how to\n
+	+ You should check it out!
 	+ catch or trade the Pokémon?
     f4	= Trading Pokémon on GTS could\n
 	+ be another option when it's too\n
 	+ hard to catch the Pokémon!
     f5	= Okay, good luck!
-    f6	= How to catch the Wanted\n
-	+ Pokémon is posted on the BBS.\n
+    f9	= Have a good time!\n
+	+ See ya!
 	+ You should check it out!
     f7	= By the way, have you caught\n
 	+ any Pokémon lately?
@@ -626,23 +634,15 @@
 	+ Nintendo DS?
     f9	= Have a good time!\n
 	+ See ya!
-    fa	= Have a good time!\n
+    fd	= The Pokémon missed you \n
 	+ See ya!
     fb	= Long time no see!\n
-	+ I haven't seen you for\n
-	+ %d years!
-    fc	= Long time no see!\n
-	+ I haven't seen you for\n
-	+ 1 year!
-    fd	= The Pokémon missed you \n
-	+ so much!
-    fe	= Long time no see!\n
 	+ I haven't seen you for\n
 	+ %d months!
     ff	= Long time no see!\n
 	+ I haven't seen you for\n
 	+ 1 month!
-   100	= I bet the Pokémon missed you\n
+    fc	= Long time no see!\n
 	+ so much!
    101	= Well, hello there!\n
 	+ I haven't seen you for\n
@@ -658,31 +658,31 @@
    105	= Hello!\n
 	+ I am so glad to see you again!
    106	= Hello!\n
-	+ Enjoy your time at the Ranch!
+	+ 1 month!
    107	= You have arrived at\n
-	+ %ls's\n
-	+ %ls Ranch!
+	+ so much!
+   101	= Well, hello there!\n
    108	= Please enjoy\n
-	+ %ls Ranch!
+	+ %d weeks!
    109	= To leave this Ranch, move the\n
-	+ cursor onto the door located at\n
+	+ I haven't seen you for\n
 	+ the top left of the screen and\n
-	+ press \x{e042}.
-   10a	= Enjoy!
-   10b	= Please enjoy\n
+   103	= The Pokémon look very happy\n
+	+ to see you!
+   107	= You have arrived at\n
 	+ %ls Ranch!
-   10c	= To leave this Ranch, move the\n
+	+ %ls Ranch!
+   105	= Hello!\n
+	+ I am so glad to see you again!
+   106	= Hello!\n
 	+ cursor onto the door located at\n
-	+ the top left of the screen and\n
-	+ press \x{e042}.
-   10d	= Enjoy!
    10e	"Favorite"\n
 	+ is today's ranch theme.
-   10f	"Owner"\n
+   10a	= Enjoy!
 	+ is today's ranch theme.
    110	"Stored Pokémon"\n
 	+ is today's ranch theme.
-   111	"%ls"\n
+	+ cursor onto the door located at\n
 	+ is today's ranch theme.
    112	"6 Pokémon"\n
 	+ is today's ranch theme.
@@ -942,7 +942,7 @@
 	+ press \x{e042}.
    192	= Enjoy!
    193	= I'm very proud of this Ranch!\n
-	+ Check out every corner of it!
+	+ press \x{e042}.
    194	= To leave this Ranch, move the\n
 	+ cursor onto the door located at\n
 	+ the top left of the screen and\n
@@ -957,10 +957,10 @@
    198	= Hello!\n
 	+ I'm %2$ls\n
 	+ from %1$ls Ranch!
-   199	= Hello!\n
+   110	= Enjoy!
 	+ I brought a picture of\n
-	+ %ls Ranch.
-   19a	= Hello!\n
+	+ Check out every corner of it!
+   112	= To leave this Ranch, move the\n
 	+ I'm %2$ls\n
 	+ from %1$ls Ranch.
    19b	= Why don't you come to\n
@@ -971,13 +971,13 @@
    19d	= Okay. Maybe next time.
    19e	= Hope to see you again!\n
 	+ Good-bye!
-   19f	= Would you like to come to\n
+   116	= Hello!\n
 	+ %ls Ranch?
-   1a0	= Okay!\n
+	+ %1$ls Ranch!
 	+ Let's go to\n
 	+ %ls Ranch!
    1a1	= Okay. Maybe next time.
-   1a2	= Hope to see you again!\n
+   118	= Hello!\n
 	+ Good-bye!
    1a3	= Do you want to go?
    1a4	= Thanks for visiting\n
@@ -990,7 +990,7 @@
    1a8	= I will visit again and invite you\n
 	+ to my Ranch. See you then!
    1a9	= Thanks again, and take care!
-   1aa	= How do you do?
+   11e	= Okay!\n
    1ab	= So... This is your and Hayley's\n
 	+ Ranch? Looks nice!
    1ac	= My name is %2$ls, \n
@@ -999,61 +999,61 @@
    1ad	= The mottos of Club Look-See\n
 	+ are...
    1ae	= Ranch!\n
-	+ That's something you should be\n
+   123	= I will visit again and invite you\n
 	+ picky about!
-   1af	= Ranch!\n
-	+ That's something you should\n
+   124	= Thanks again, and take care!
+   125	= Thanks for visiting\n
 	+ show off to as many people as\n
-	+ you can!
+   126	= I will visit again and invite you\n
    1b0	= These are mottos of the Club!
-   1b1	= Now, I want to show you my\n
-	+ Ranch! The one I really care\n
+   127	= Thanks again, and take care!
+   128	= How do you do?
 	+ about.
-   1b2	= Will you come to my Ranch?
-   1b3	= Come on! Don't be shy!
-   1b4	= I want you to know how great\n
+	+ Ranch? Looks nice!
+   12a	= My name is %2$ls, \n
+	+ a member of Club Look-See.\n
 	+ Club Look-See can be!
    1b5	= All right! That's the way!\n
-	+ Okay, let's go to my Ranch!
-   1b6	= So... This is your and Hayley's\n
+	+ are...
+   12c	= Ranch!\n
 	+ Ranch? I heard a great deal\n
 	+ about it!
    1b7	= My name is %2$ls,\n
-	+ a member of Club Look-See.\n
+	+ That's something you should\n
 	+ My Member No. is %1$d!
-   1b8	= Haha!\n
+	+ you can!
 	+ Do you know what my favorite\n
-	+ Pokémon is?
-   1b9	= Visit my Ranch to find out!
+   12f	= Now, I want to show you my\n
+	+ Ranch! The one I really care\n
    1ba	= All right! That's the way!\n
 	+ Okay, let's go to my Ranch!
    1bb	= I see...\n
 	+ That's too bad. I really wanted\n
-	+ to show you my Ranch.
-   1bc	= I will come back and invite you\n
+	+ Club Look-See can be!
+   133	= All right! That's the way!\n
 	+ to my Ranch again, so until\n
 	+ next time!
    1bd	= So long!\n
 	+ \n
-	+ Look-See ya!
-   1be	= So... This is your and Hayley's\n
+   135	= My name is %2$ls,\n
+	+ a member of Club Look-See.\n
 	+ Ranch? I heard so much\n
-	+ about it!
-   1bf	= My name is %2$ls,\n
+   136	= Haha!\n
+	+ Do you know what my favorite\n
 	+ a member of Club Look-See.\n
 	+ My Member No. is %1$d!
-   1c0	= Hehe.\n
+   138	= All right! That's the way!\n
 	+ Do you want to take a guess\n
-	+ which Pokémon I love?
+   139	= I see...\n
    1c1	= Would you like to come to my\n
 	+ Ranch to find out?
    1c2	= Yes? Cool!\n
 	+ Okay, let's go to my Ranch!
    1c3	= I see...\n
-	+ That's too bad. I really wanted\n
-	+ to show you my Ranch.
+   13b	= So long!\n
+	+ \n
    1c4	= I will come back and invite you\n
-	+ to my Ranch again, so until\n
+   13c	= So... This is your and Hayley's\n
 	+ next time!
    1c5	= So long!\n
 	+ \n
@@ -1080,15 +1080,15 @@
 	+ Having people like you at\n
 	+ my Ranch is really encouraging!
    1ce	= Hope you don't mind me telling\n
-	+ other members about you!
+   141	= I see...\n
    1cf	= When you meet other members\n
-	+ of Club Look-See, please take\n
-	+ the time to visit their Ranches!
+	+ but... Too bad!
+   142	= Maybe next time?\n
    1d0	= Oh, one more thing!\n
-	+ If you call me from the BBS,\n
+	+ to my Ranch again!
 	+ I will come and pick you up.\n
-	+ Please come and visit again\n
-	+ at any time.
+	+ \n
+	+ Look-See ya!
    1d1	= All right, please take care!
    1d2	= So...how did you like it?\n
 	+ Are you impressed?
@@ -1096,28 +1096,28 @@
 	+ good inspiration for your\n
 	+ Ranch?
    1d4	= When you meet other members\n
-	+ of Club Look-See, please take\n
+   145	= You know?\n
 	+ some time to visit their\n
-	+ Ranches!
-   1d5	= If you call me from the BBS,\n
+	+ my Ranch is really encouraging!
+   146	= Hope you don't mind me telling\n
 	+ I will come and pick you up.\n
 	+ Come and visit again at any time,\n
-	+ okay?
-   1d6	= All right, please take care!
+	+ of Club Look-See, please take\n
+	+ the time to visit their Ranches!
    1d7	= Thanks for visiting my Ranch!\n
 	+ How was it? Did you like it?
    1d8	= I hope my Ranch served as a\n
 	+ good inspiration for your\n
 	+ Ranch!
    1d9	= When you meet other members\n
-	+ of Club Look-See, take some\n
+	+ Are you impressed?
 	+ time to visit their Ranches,\n
 	+ will ya?
    1da	= If you call me from the BBS,\n
 	+ I will come and pick you up.\n
-	+ Come and visit again at any time,\n
-	+ all right?
-   1db	= Okay, please take care!
+	+ of Club Look-See, please take\n
+	+ some time to visit their\n
+	+ Ranches!
    1dc	= Look-See ya!
    1dd	= %ls is staying\n
 	+ at this Ranch until\n
@@ -1125,8 +1125,8 @@
    1de	= %ls is staying\n
 	+ at this Ranch until\n
 	+ %ls.
-   1df	= You have a guest visiting the \n
-	+ Ranch!
+   14e	= I hope my Ranch served as a\n
+	+ good inspiration for your\n
    1e0	= You have a guest visiting the \n
 	+ Ranch!
    1e1	= If you bring %ls,\n
@@ -1135,17 +1135,17 @@
    1e2	= Sending %ls\n
 	+ to %ls!
    1e3	= Bye-bye, %ls!
-   1e4	= Take good care of\n
+	+ time to visit their Ranches,\n
 	+ %{}!
    1e5	= Oh? It's %{}.\n
-	+ Isn't this Pokémon what...\n
+   151	= Look-See ya!
 	+ %{} was\n
 	+ looking for?
    1e6	= Trade %{}\n
 	+ for %{}'s\n
-	+ %{}?
+	+ at this Ranch until\n
    1e7	= %{}'s\n
-	+ %{} looks\n
+   154	= You have a guest visiting the \n
 	+ like this.
    1e8	= I see. That's okay.\n
 	+ %{}'s\n
@@ -1446,4 +1446,5 @@
 	+ to find!
    23d	= Well then, let's continue\n
 	+ to work together!
+
 

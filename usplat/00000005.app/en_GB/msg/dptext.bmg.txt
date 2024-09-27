@@ -137,7 +137,7 @@
     10	= $6$ $7$, 20$5$\n
 	+ A mysterious Pokémon\n
 	+ Egg received from\n
-	+ $8$.\n
+	+ $8$.
     11	= $6$ $7$, 20$5$\n
 	+ A mysterious Pokémon\n
 	+ Egg obtained in\n
@@ -145,7 +145,7 @@
     12	= $6$ $7$, 20$5$\n
 	+ A very mysterious\n
 	+ Pokémon Egg obtained\n
-	+ at $8$.\n
+	+ at $8$.
     13	= $6$ $7$, 20$5$\n
 	+ A very mysterious Pokémon\n
 	+ Egg that came from\n
@@ -366,4 +366,5 @@
     e9	= Riley
     ea	= Cynthia
     eb	= Mystery Zone
+
 

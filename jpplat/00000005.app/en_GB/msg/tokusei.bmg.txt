@@ -1,0 +1,173 @@
+#BMG  <<<  The first 4 characters '#BMG' are the magic for a BMG text file.
+#     <<<  Don't remove them!
+#
+# Details about BMG text files are available in the Web:
+#  * Syntax and Semantics: https://szs.wiimm.de/doc/bmg/text
+#  * The BMG file format:  https://szs.wiimm.de/r/wiki/BMG
+#
+#
+#------------------------------------------------------------------------------
+
+# The endianness of binary files: 0=big endian (default), 1=little endian.
+# Little endian is only tested for encoding UTF-8 (need examples of analysis).
+@ENDIAN = 0
+
+# If 1, then enable legacy (GameCube) mode for old binary BMG files.
+# If enabled, ENCODING is always CP1252.
+@LEGACY = 0
+
+# Define encoding of BMG: 1=CP1252, 2=UTF-16/be, 3=Shift-JIS, 4=UTF-8
+@ENCODING = 2
+
+# Create »MID1« section: 0=off, 1=on
+@BMG-MID = 0
+
+# Size of each element of section 'INF1' (MKW=8).
+# This setting has impact to attributes and MKW features.
+@INF-SIZE = 0x08
+
+# Default attribute values for this BMG (MKW=[1])
+@DEFAULT-ATTRIBS = [0]
+
+# Use MKW specific color names: 0=off, 1=auto, 2=on
+@COLOR-NAMES = 1
+
+# Use MKW messages and track names: 0=off, 1=auto, 2=on
+@MKW-MESSAGES = 1
+
+#
+#------------------------------------------------------------------------------
+
+# This part defines values for unknown parameters of section headers.
+@UNKNOWN-INF32-0C =    0x70000	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
+@UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
+
+#
+#------------------------------------------------------------------------------
+
+     0	= -
+     1	= Stench
+     2	= Drizzle
+     3	= Speed Boost
+     4	= Battle Armor
+     5	= Sturdy
+     6	= Damp
+     7	= Limber
+     8	= Sand Veil
+     9	= Static
+     a	= Volt Absorb
+     b	= Water Absorb
+     c	= Oblivious
+     d	= Cloud Nine
+     e	= Compoundeyes
+     f	= Insomnia
+    10	= Color Change
+    11	= Immunity
+    12	= Flash Fire
+    13	= Shield Dust
+    14	= Own Tempo
+    15	= Suction Cups
+    16	= Intimidate
+    17	= Shadow Tag
+    18	= Rough Skin
+    19	= Wonder Guard
+    1a	= Levitate
+    1b	= Effect Spore
+    1c	= Synchronize
+    1d	= Clear Body
+    1e	= Natural Cure
+    1f	= Lightningrod
+    20	= Serene Grace
+    21	= Swift Swim
+    22	= Chlorophyll
+    23	= Illuminate
+    24	= Trace
+    25	= Huge Power
+    26	= Poison Point
+    27	= Inner Focus
+    28	= Magma Armor
+    29	= Water Veil
+    2a	= Magnet Pull
+    2b	= Soundproof
+    2c	= Rain Dish
+    2d	= Sand Stream
+    2e	= Pressure
+    2f	= Thick Fat
+    30	= Early Bird
+    31	= Flame Body
+    32	= Run Away
+    33	= Keen Eye
+    34	= Hyper Cutter
+    35	= Pickup
+    36	= Truant
+    37	= Hustle
+    38	= Cute Charm
+    39	= Plus
+    3a	= Minus
+    3b	= Forecast
+    3c	= Sticky Hold
+    3d	= Shed Skin
+    3e	= Guts
+    3f	= Marvel Scale
+    40	= Liquid Ooze
+    41	= Overgrow
+    42	= Blaze
+    43	= Torrent
+    44	= Swarm
+    45	= Rock Head
+    46	= Drought
+    47	= Arena Trap
+    48	= Vital Spirit
+    49	= White Smoke
+    4a	= Pure Power
+    4b	= Shell Armor
+    4c	= Air Lock
+    4d	= Tangled Feet
+    4e	= Motor Drive
+    4f	= Rivalry
+    50	= Steadfast
+    51	= Snow Cloak
+    52	= Gluttony
+    53	= Anger Point
+    54	= Unburden
+    55	= Heatproof
+    56	= Simple
+    57	= Dry Skin
+    58	= Download
+    59	= Iron Fist
+    5a	= Poison Heal
+    5b	= Adaptability
+    5c	= Skill Link
+    5d	= Hydration
+    5e	= Solar Power
+    5f	= Quick Feet
+    60	= Normalize
+    61	= Sniper
+    62	= Magic Guard
+    63	= No Guard
+    64	= Stall
+    65	= Technician
+    66	= Leaf Guard
+    67	= Klutz
+    68	= Mold Breaker
+    69	= Super Luck
+    6a	= Aftermath
+    6b	= Anticipation
+    6c	= Forewarn
+    6d	= Unaware
+    6e	= Tinted Lens
+    6f	= Filter
+    70	= Slow Start
+    71	= Scrappy
+    72	= Storm Drain
+    73	= Ice Body
+    74	= Solid Rock
+    75	= Snow Warning
+    76	= Honey Gather
+    77	= Frisk
+    78	= Reckless
+    79	= Multitype
+    7a	= Flower Gift
+    7b	= Bad Dreams
+

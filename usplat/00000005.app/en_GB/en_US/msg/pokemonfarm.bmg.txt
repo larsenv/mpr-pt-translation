@@ -181,7 +181,7 @@
 	+ to an SD Card?
     67	= Saved the picture as\n
 	+ %2$.4s%3$04d.JPG\n
-	+ to folder \\DCIM\\%1$03dNIN01\n
+	+ to folder  ¥DCIM¥%03dNIN01\n
 	+ in the SD Card.
     68	= Ranch News
     69	= Delete all pictures on\n
@@ -240,7 +240,7 @@
 	+ to the SD Card.
     7f	= Is it okay to save everything?
     80	= All pictures have been saved\n
-	+ to folder \\DCIM\\%1$03dNIN01\n
+	+ to folder  ¥DCIM¥%03dNIN01\n
 	+ in the SD Card.
     81	= Delete all unsecured\n
 	+ pictures?

@@ -566,47 +566,47 @@
    1f8	= Activity
    1f9	= Activity type
    1fa	= DEBUG:\n
+   1d6	= Activity type
+   1d7	= DEBUG:\n
 	+ Ignoring the Mii Celebrity data\n
-	+ because it is restricted by\n
-	+ Parental Controls settings.
    1fb	= DEBUG:\n
 	+ Ignoring the Mii Celebrity data\n
-	+ because it is not its distibution\n
-	+ period yet.
+   1d8	= DEBUG:\n
+	+ Ignoring the Mii Celebrity data\n
    1fc	= DEBUG:\n
+	+ period yet.
+   1d9	= DEBUG:\n
 	+ Ignoring the Celebrity Mii data\n
-	+ because the received data\n
-	+ contains illegal settings.
    1fd	= DEBUG:\n
 	+ Ignoring the Celebrity Mii data\n
-	+ because of a wrong region\n
-	+ code.
+   1da	= DEBUG:\n
+	+ Ignoring the Celebrity Mii data\n
    1fe	= DEBUG:\n
 	+ Ignoring the Celebrity Mii data\n
-	+ because of a wrong language\n
-	+ settings.
+   1db	= DEBUG:\n
+	+ Ignoring the Celebrity Mii data\n
    1ff	= DEBUG:\n
 	+ Ignoring the Celebrity Mii data\n
-	+ because forced exit flag is on.
+   1dc	= DEBUG:\n
    200	= DEBUG:\n
 	+ Ignoring the Celebrity Mii data\n
-	+ because the distibution period\n
-	+ has expired.
+   1dd	= DEBUG:\n
+	+ Ignoring the Celebrity Mii data\n
    201	= DEBUG:\n
 	+ Ignoring the Celebrity Mii data\n
-	+ because their distibution date\n
-	+ is identical.
+   1de	= DEBUG:\n
+	+ Ignoring the Celebrity Mii data\n
    202	= DEBUG:\n
-	+ You cannot send any more\n
-	+ invitations today.
+	+ is identical.
+   1df	= DEBUG:\n
    203	= DEBUG:\n
+	+ invitations today.
+   1e0	= DEBUG:\n
 	+ Not sending any data\n
-	+ because the interaction\n
-	+ setting is turned off.
    204	= DEBUG:\n
 	+ Not sending any data\n
-	+ because WiiConnect24 is\n
-	+ temporarily unavailable.
+   1e1	= DEBUG:\n
+	+ Not sending any data\n
    205	= DEBUG:\n
 	+ Not sending any data\n
 	+ because WiiConnect24 is\n
@@ -642,4 +642,5 @@
    20f	= %ls\n
 	+ Sending to: %04d %04d %04d %04d\n
 	+ (%ls)
+
 

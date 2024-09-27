@@ -46,28 +46,28 @@
 #
 #------------------------------------------------------------------------------
 
-     0	= About\n
+     0	= Info. sobre\n
 	+ %ls
-     1	= Location
-     2	= Time
-     3	= Catch it at a Honey Tree.
-     4	= Restore a Fossil at the Mining\n
-	+ Museum in Oreburgh City.
-     5	= Catch it at the Capture Show\n
-	+ in Pal Park.
-     6	= Evolve by leveling up NOSEPASS\n
-	+ in Mt. Coronet.
-     7	= Evolve by making GLIGAR hold\n
-	+ the Razor Fang while leveling up.
-     8	= Evolve by leveling up EEVEE\n
-	+ on Route 217.
-     9	= Evolve by leveling up MANTYKE.
-     a	= Evolve by making SNEASEL hold\n
-	+ the Razor Claw while leveling up.
-     b	= Evolve by leveling up FEEBAS.
-     c	= Evolve by leveling up EEVEE\n
-	+ in Eterna Forest.
-     d	= Evolve by leveling up MAGNETON\n
+     1	= Ubicación
+     2	= Hora
+     3	= Captúralo cubriendo un\n
+	+ árbol de Miel.
+     4	= Restaura un fósil del Museo Minero\n
+	+ de Ciudad Pirita.
+     5	= Atrápalo en un Espectáculo de\n
+	+ Captura en el Parque Compi.
+     6	= NOSEPASS evolucionará si sube de\n
+	+ nivel en el Monte Corona.
+     7	= GLIGAR evolucionará si sube de\n
+	+ nivel llevando un Colmillagudo.
+     8	= EEVEE evolucionará si sube de\n
+	+ nivel en la Ruta 217.
+     9	= MANTYKE evolucionará al subir\n
+	+ de nivel.
+     a	= SNEASEL evolucionará si sube de\n
+	+ nivel llevando una Garrafilada.
+     b	= FEEBAS evolucionará al subir\n
+	+ de nivel.
 	+ in Mt. Coronet.
      e	= Receive it in Veilstone City.
      f	= Hatch the Egg Cynthia gave you in\n
@@ -75,19 +75,19 @@
     10	= Evolve NINCADA with room\n
 	+ in your party.
     11	= Evolve by giving an item to\n
-	+ %ls%ls.
+     d	= MAGNETON evolucionará al subir\n
     12	= Evolve when %ls%ls\n
-	+ is at Lv. %d.
+     e	= %ls%ls evolucionará\n
     13	= Evolve %ls%ls by\n
-	+ leveling up with high Friendship.
+     f	= Cuando %ls%ls\n
     14	= Evolve by trading\n
 	+ %ls%ls.
     15	= Evolve during trade by making\n
-	+ %ls%ls hold an item.
+    11	= %ls%ls evolucionará\n
     16	= Evolve by teaching a move and\n
-	+ leveling up %ls%ls.
+    12	= %ls%ls evolucionará\n
     17	= Obtain an Egg at the Pokémon Day\n
-	+ Care in Solaceon Town and hatch it.
+    13	= %ls%ls evolucionará\n
     18	= How to catch it is unknown.
     19	= You can get it by trading\n
 	+ with other DS Pokémon games.
@@ -133,7 +133,7 @@
     40	= Honey Tree
     41	= Ravaged Path
     42	= Ruin Maniac Cave\n
-	+ (Maniac Tunnel)
+    39	= Ruta 229
     43	= Lake Acuity
     44	= Sendoff Spring
     45	= Celestic Town
@@ -145,7 +145,7 @@
     4b	= Oreburgh Gate
     4c	= Oreburgh Gate
     4d	= Oreburgh Mine
-    4e	= Iron Island
+    48	= Mina Pirita
     4f	= Iron Island
     50	= Iron Island
     51	= Iron Island
@@ -154,8 +154,8 @@
     54	= Trophy Garden
     55	= Lake Verity
     56	= Solaceon Ruins
-    57	= Pastoria Great Marsh
-    58	= Pastoria Great Marsh
+    51	= Ruinas Sosiego
+    52	= Gran Pantano de\n
     59	= Pastoria Great Marsh
     5a	= Pastoria Great Marsh
     5b	= Pastoria Great Marsh
@@ -168,14 +168,14 @@
     62	= Victory Road
     63	= Victory Road
     64	= Victory Road
-    65	= Mt. Coronet
-    66	= Mt. Coronet
-    67	= Mt. Coronet
-    68	= Mt. Coronet
-    69	= Mt. Coronet
-    6a	= Mt. Coronet
-    6b	= Mt. Coronet
-    6c	= Mt. Coronet
+	+ Ciudad Pradera
+    59	= Forja Fuego
+    5a	= Valle Eólico
+    5b	= Calle Victoria
+    5c	= Calle Victoria
+    5d	= Calle Victoria
+    5e	= Calle Victoria
+    5f	= Calle Victoria
     6d	= Mt. Coronet
     6e	= Mt. Coronet
     6f	= Mt. Coronet
@@ -296,52 +296,52 @@
     e2	= ・Trophy Garden
     e3	= ・WURMPLE Evolution
     e4	= Get some Honey in Floaroma Meadow and\n
-	+ slather it on a Honey Tree, then wait for half\n
-	+ a day. Come back to the tree, and you'll find\n
-	+ a Pokémon. The Pokémon you find varies\n
-	+ with the Honey Tree.
+    c8	= ・Poco frecuente en Perla
+    c9	= ・Enjambre de Pokémon
+    ca	= ・Si ha aprendido Doble Golpe
+    cb	= ・Si ha aprendido Poder Pasado
     e5	= A new Pokémon is available daily in each\n
-	+ area of the Pastoria Great Marsh.\n
-	+ Look through the telescope in the upstairs\n
-	+ observatory to check out all the Pokémon\n
-	+ that are available today.
+    cd	= ・Intra-DS (Esmeralda)
+    ce	= ・Intra-DS (Rojo Fuego)
+    cf	= ・Intra-DS (Verde Hoja)
+    d0	= ・Intra-DS (Rubí)
     e6	= The Pokémon and location of the\n
-	+ Mass Outbreak change every day.\n
-	+ Speak to a person in Sandgem Town\n
-	+ to find out information about\n
-	+ the Mass Outbreak.
+    d2	= ・Tras conseguir la Pokédex Nacional
+    d3	= ・Jardín Trofeo
+    d4	= Unta un árbol con la Miel que consigas\n
+	+ en el Prado Aromaflor, ¡y espera durante\n
     e7	= Pokémon seen in the Trophy Garden change\n
-	+ after you have a little chat with Backlot.\n
-	+ You can chat with him only once a day.
+	+ El Pokémon atraído dependerá del árbol.
+    d5	= Diariamente, en cada zona del Gran Pantano\n
     e8	= You can discover an Egg by leaving\n
-	+ HOUNDOOM♀ and a Pokémon that gets\n
-	+ along with it at the Pokémon Day Care.
+	+ Pokémon que podrás capturar. Comprueba\n
+	+ Pueblo Arena a alguien que te pueda\n
     e9	= You can discover an Egg by leaving\n
-	+ WEEZING♀ and a Pokémon that gets\n
+	+ de Pokémon cambia cada día. Busca en\n
 	+ along with it at the Pokémon Day Care.
     ea	= You can discover an Egg by leaving\n
-	+ LOUDRED♀ or EXPLOUD♀ and a\n
-	+ Pokémon that gets along with it\n
-	+ at the Pokémon Day Care.
+    d7	= Los Pokémon que puedes capturar en el\n
+	+ Jardín Trofeo cambian tras hablar con\n
+	+ el Sr. Fortuny. Solo puedes charlar con\n
     eb	= You can discover an Egg by leaving\n
-	+ MIGHTYENA♀ and a Pokémon that gets\n
+    d8	= Si dejas una HOUNDOOM♀ con un Pokémon\n
 	+ along with it at the Pokémon Day Care.
     ec	= You can discover an Egg by leaving\n
-	+ ARIADOS♀ and a Pokémon that gets along\n
-	+ with it at the Pokémon Day Care.
+    d9	= Si dejas una WEEZING♀ con un Pokémon\n
+	+ macho afín en la Guardería, podrás\n
     ed	= You can discover an Egg by leaving\n
-	+ BANETTE♀ and a Pokémon that gets\n
+    da	= Si dejas una LOUDRED♀ o una EXPLOUD♀\n
 	+ along with it at the Pokémon Day Care.
     ee	= You can discover an Egg by leaving\n
-	+ LEDIAN♀ and a Pokémon that gets\n
+    db	= Si dejas una MIGHTYENA♀ con un Pokémon\n
 	+ along with it at the Pokémon Day Care.
     ef	= You can discover an Egg by leaving\n
-	+ WOBBUFFET♀ and a Pokémon that gets\n
-	+ along with it at the Pokémon Day Care.\n
-	+ Either of the Pokémon has to hold the\n
-	+ Lax Incense.
+	+ aparece la Edición Diamante de Pokémon.
+	+ cuál es el de hoy con el telescopio de\n
+	+ macho afín en la Guardería, podrás\n
+	+ conseguir un huevo.
     f0	= You can discover an Egg by leaving\n
-	+ SWELLOW♀ and a Pokémon that gets\n
+	+ macho afín en la Guardería, podrás\n
 	+ along with it at the Pokémon Day Care.
     f1	= You can discover an Egg by leaving\n
 	+ SEALEO♀ and a Pokémon that gets\n
@@ -359,146 +359,146 @@
     f6	= You can get a Dubious Disc on Route 225.
     f7	= You can get a Dubious Disc in Team Galactic HQ.
     f8	= Electirizer is an item that wild ELEKID\n
-	+ sometimes have. You can catch\n
-	+ ELEKID at Valley Windworks.\n
-	+ Dual Slot: FireRed
+    df	= Si dejas una WOBBUFFET♀ con un Pokémon\n
+	+ macho afín en la Guardería, podrás\n
+	+ conseguir un huevo. ¡No olvides que uno de\n
     f9	= Electirizer is an item that wild ELECTABUZZ\n
 	+ sometimes have. You can catch\n
 	+ ELECTABUZZ at Route 222.
     fa	= You can get a Shiny Stone on Iron Island\n
-	+ or on Route 228.
+    e0	= Si dejas una SWELLOW♀ con un Pokémon\n
     fb	= You can get a Fire Stone in Fuego Ironworks.\n
-	+ You can also get it by digging in the\n
-	+ Underground.
+	+ conseguir un huevo.
+    e1	= Puedes conseguir una Mejora en\n
     fc	= You can get a Thunderstone in Sunyshore\n
-	+ City. You can also get it by digging in the\n
+    e2	= Puedes conseguir un Discoxtraño\n
 	+ Underground.
     fd	= DeepSeaTooth is an item that wild\n
-	+ CARVANHA or SHARPEDO sometimes have.
+	+ salvaje que lleva un Electrizador.\n
     fe	= Magmarizer is an item that wild MAGBY\n
 	+ sometimes have. You can catch\n
-	+ MAGBY on Route 227.\n
-	+ Dual Slot: LeafGreen
+    e4	= Puedes conseguir una Piedra Día tanto\n
+	+ en la Isla Hierro como en la Ruta 228.
     ff	= Magmarizer is an item that wild MAGMAR\n
 	+ sometimes have. You can catch\n
 	+ MAGMAR at Fuego Ironworks.
    100	= Metal Coat is an item that wild BRONZOR\n
-	+ or STEELIX sometimes have.
+	+ en la Forja Fuego.\n
    101	= You can get a Dawn Stone at Mt. Coronet\n
-	+ or on Route 225.
+	+ en el Subsuelo.
    102	= You can get a Water Stone on Route 213.\n
 	+ You can also get it by digging in the\n
 	+ Underground.
    103	= King's Rock is an item that Pokémon with\n
-	+ the Pickup ability sometimes find.
+	+ poder de un CARVANHA o un SHARPEDO.
    104	= You can get a Protector on Route 228.
    105	= You can get a Reaper Cloth on Route 229.
    106	= You can get a Leaf Stone in Floaroma\n
-	+ Meadow. You can also get it by digging\n
-	+ in the Underground.
+    e9	= Los BRONZOR y STEELIX a veces tienen\n
+	+ Rev.metálicos.
    107	= Dragon Scale is an item that wild HORSEA\n
-	+ or SEADRA sometimes have.
+	+ el Monte Corona o en la Ruta 225.
    108	= You can get a Sun Stone by digging\n
-	+ in the Underground. Also, wild\n
-	+ SOLROCK sometimes have it.
+	+ la Ruta 213. A veces podrás toparte\n
+	+ con alguna cavando en el Subsuelo.
    109	= You can get a Moon Stone by digging\n
 	+ in the Underground. Also, wild\n
-	+ LUNATONE sometimes have it.
+    ed	= Puedes encontrar un Protector en la\n
    10a	= DeepSeaScale is an item that wild\n
-	+ RELICANTH sometimes have.
+    ee	= Puedes encontrar una Telaterrible en la\n
    10b	= You can get a Dusk Stone in the Galactic\n
-	+ Warehouse or on Victory Road.
+    ef	= Puedes conseguir una Piedra Hoja en el\n
    10c	= Dig for Fossils in the Underground using\n
-	+ the Explorer Kit. You'll find more kinds of\n
-	+ Fossils after obtaining the National Pokédex.
+	+ con alguna cavando en el Subsuelo.
+    f0	= Los HORSEA y SEADRA salvajes a veces\n
    10d	= Pal Park is available on Route 221\n
-	+ after obtaining the National Pokédex.\n
-	+ You can bring over Pokémon caught in\n
-	+ GBA-series Pokémon games and catch them\n
-	+ at the Capture Show.
+    f1	= A veces podrás toparte con una Piedra Solar\n
+	+ cavando en el Subsuelo. Los SOLROCK\n
+	+ salvajes también las llevan a veces.
+    f2	= A veces podrás toparte con una Piedra Lunar\n
    10e	= Once you catch 26 kinds of UNOWN,\n
-	+ the Maniac Tunnel on Route 214 opens.\n
-	+ From there, you can enter the room where\n
-	+ UNOWN! and UNOWN? can be caught.
+	+ salvajes también las llevan en ocasiones.
+    f3	= Los RELICANTH salvajes llevan en ocasiones\n
+	+ Escamas Mar.
    10f	= If its Attack is higher than its Defense, it\n
-	+ evolves to HITMONLEE. If its Defense is\n
-	+ higher than its Attack, it evolves to\n
-	+ HITMONCHAN. If its Attack and its Defense\n
-	+ are the same, it evolves to HITMONTOP.
+	+ almacén del Equipo Galaxia o en la Calle\n
+	+ Victoria.
+    f5	= Usa el Kit Explor. para acceder al Subsuelo,\n
+	+ donde deberás cavar para conseguir fósiles.\n
    110	= Fish by using Surf. FEEBAS only appear\n
-	+ in four spots. Once you find the right\n
-	+ spot, FEEBAS will appear 50% of the\n
-	+ time. The locations change every day.
+	+ obtener la Pokédex Nacional.
+    f6	= Podrás acceder al Parque Compi por la\n
+	+ Ruta 221 tras obtener la Pokédex Nacional.\n
    111	= It appears in front of Valley Windworks\n
-	+ every Friday.
+	+ para la Game Boy Advance en los\n
    112	= Once you obtain the National Pokédex\n
-	+ in Pearl, it appears in the Trophy Garden\n
-	+ after you have a little chat with Backlot.
+    f7	= Si consigues capturar los 26 tipos de\n
+	+ UNOWN, se abrirá la Ruta 214 al Túnel\n
    113	= 1. Put the Odd Keystone in the Broken\n
-	+     Stone Tower.\n
-	+ 2. Go underground using the Explorer Kit.\n
-	+ 3. Greet 32 people in the Underground.\n
-	+ 4. Find SPIRITOMB at the Hallowed Tower.
+	+ la que encontrarás UNOWN! y UNOWN?.
+    f8	= Si el Ataque es más alto que la Defensa,\n
+	+ pasará a ser un HITMONLEE. Si la Defensa\n
+	+ es superior al Ataque, evolucionará a\n
    114	= You can get SHEDINJA if you have room\n
-	+ in your party, have a Poké Ball,\n
-	+ and let NINCADA level up to Lv. 20.
+	+ HITMONTOP.
+    f9	= Usa el movimiento Surf para pescar. Puedes\n
    115	= Once you obtain the National Pokédex\n
-	+ in Diamond, it appears in Trophy Garden\n
+	+ vez en el sitio adecuado, tendrás un 50%\n
 	+ after you have a little chat with Backlot.
    116	= An EEVEE with high Friendship evolves to\n
-	+ either ESPEON or UMBREON by leveling up\n
-	+ the EEVEE at a certain time.
+    fa	= Aparece el viernes de cada semana\n
+	+ frente al Valle Eólico.
    117	= Once you obtain the National Pokédex\n
-	+ in Pearl, you can catch it on Route 224.
+	+ la Pokédex Nacional en Pokémon Perla y\n
    118	= You get the Poké Radar once you obtain\n
-	+ the National Pokédex. When you use it,\n
-	+ grass nearby will start to rustle,\n
-	+ so head toward it.
+    fc	= 1. Pon la P. Espíritu en las ruinas de la torre\n
+	+ de piedra.\n
+	+ 2. Usa el Kit Explor. para ir al Subsuelo.\n
    119	= AIPOM learns Double Hit at Lv. 32.
    11a	= TANGELA learns AncientPower at Lv. 33.
    11b	= YANMA learns AncientPower at Lv. 33.
    11c	= You can teach it AncientPower by\n
-	+ giving the Move Tutor one Heart Scale.\n
-	+ You can find a Heart Scale by digging\n
+	+ Poké Ball y sitio en tu equipo.
+    fe	= Una vez que obtengas la Pokédex Nacional\n
 	+ in the Underground.
    11d	= LICKITUNG learns Rollout at Lv. 33.
    11e	= BONSLY learns Mimic at Lv. 17.
    11f	= MIME JR. learns Mimic at Lv. 18.
    120	= It appears once you insert a GBA-series\n
-	+ Pokémon game into the GBA slot\n
-	+ on your Nintendo DS.
+	+ EEVEE, evolucionará dependiendo del\n
+	+ momento del día a ESPEON o UMBREON.
    121	= You can get a Razor Claw on either\n
-	+ Victory Road or on Route 224.
+	+ Pokémon Perla, podrás capturarlo en la\n
    122	= You can get a Razor Fang in the Battle Park.
    123	= You can get a Razor Fang on Route 225.
    124	= When WURMPLE reaches level 7,\n 
 	+ it evolves into SILCOON or CASCOON.
    125	= Choose from the briefcase that\n
-	+ Prof. Rowan left at Lake Verity.
+	+ la Pokédex Nacional. Al usarlo, verás que\n
    126	= Receive it from Prof. Rowan.
    127	= Hatch the Egg Riley gave you on\n
-	+ Iron Island.
+	+ ¡Ve hacia ellos!
    128	= Investigate the TV in the\n
-	+ Old Chateau at night.
+   103	= TANGELA aprende Poder Pasado en el\n
    129	= You can meet it at Lake Acuity.
    12a	= After you meet it at Lake Verity, it\n
-	+ roams all over the Sinnoh region.
+	+ el nivel 33.
    12b	= You can meet it at Lake Valor.
    12c	= You can find it at the Spear Pillar\n
-	+ on Mt. Coronet.
+	+ movimiento Poder Pasado. Puedes lograr\n
    12d	= You can meet it in Stark Mountain.
    12e	= You can meet it in\n
-	+ Snowpoint Temple.
+	+ al nivel 33.
    12f	= You can meet it in the\n
-	+ Turnback Cave.
+	+ Pokémon para Game Boy Advance en la\n
    130	= You can meet it in the\n
 	+ Distortion World.
    131	= After you find it at Fullmoon Island,\n
-	+ it roams all over the Sinnoh region.
+	+ Nintendo DS.
    132	= You can choose either TURTWIG, PIPLUP,\n
-	+ or CHIMCHAR. If your friend chose a\n
-	+ different Pokémon from yours, have your\n
-	+ friend trade with you.
+	+ en la Calle Victoria como en la Ruta 224.
+   109	= Podrás conseguir un Colmillagudo en\n
+	+ el Parque Batallas.
    133	= Adding REGIROCK, REGICE, and REGISTEEL\n
 	+ to your party enables you to find it.
    134	= Morning/Night
@@ -535,4 +535,5 @@
 	+ see Prof. Oak.
    149	= 
    14a	= New!
+
 

@@ -46,222 +46,222 @@
 #
 #------------------------------------------------------------------------------
 
-     0	= $1$ $2$, 20$0$\n
+     0	= $2$ $1$ 20$0$\n
 	+ $4$\n
-	+ Met at Lv. $3$.
-     1	= $1$ $2$, 20$0$\n
+	+ Ottenuto al L. $3$.
+     1	= $2$ $1$ 20$0$\n
 	+ $4$\n
-	+ Apparently met at\n
-	+ Lv. $3$.
-     2	= $1$ $2$, 20$0$\n
+	+ Probabilmente ottenuto\n
+	+ al L. $3$.
+     2	= $2$ $1$ 20$0$\n
 	+ $4$\n
-	+ Arrived at Lv. $3$.
-     3	= $6$ $7$, 20$5$\n
+	+ Arrivato al L. $3$.
+     3	= $7$ $6$ 20$5$\n
+	+ $8$\n
+	+ Uovo ottenuto.\n
+	+ $2$ $1$ 20$0$\n
+	+ $4$\n
+	+ Uovo schiuso.
+     4	= $7$ $6$ 20$5$\n
 	+ $8$\n
 	+ Egg obtained.\n
+	+ $1$ $2$, 20$0$\n
+	+ $4$\n
+	+ Uovo forse schiuso lì.
+     5	= $7$ $6$ 20$5$\n
+	+ $8$\n
+	+ Uovo ricevuto.\n
 	+ $1$ $2$, 20$0$\n
 	+ $4$\n
 	+ Egg hatched.
-     4	= $6$ $7$, 20$5$\n
-	+ $8$\n
-	+ Egg obtained.\n
-	+ $1$ $2$, 20$0$\n
-	+ $4$\n
-	+ Egg apparently hatched.
-     5	= $6$ $7$, 20$5$\n
+     6	= $7$ $6$ 20$5$\n
 	+ $8$\n
 	+ Egg received.\n
 	+ $1$ $2$, 20$0$\n
 	+ $4$\n
-	+ Egg hatched.
-     6	= $6$ $7$, 20$5$\n
-	+ $8$\n
-	+ Egg received.\n
-	+ $1$ $2$, 20$0$\n
-	+ $4$\n
 	+ Egg apparently hatched.
-     7	= $1$ $2$, 20$0$\n
+     7	= $2$ $1$ 20$0$\n
 	+ $4$\n
-	+ Had a fateful encounter\n
-	+ at Lv. $3$.
-     8	= $1$ $2$, 20$0$\n
+	+ Ottenuto in un'occasione\n
+	+ speciale al L. $3$.
+     8	= $2$ $1$ 20$0$\n
 	+ $4$\n
-	+ Apparently had a\n
-	+ fateful encounter at\n
+	+ Probabilmente ottenuto\n
+	+ in un'occasione\n
 	+ Lv. $3$.
-     9	= $6$ $7$, 20$5$\n
+     9	= $7$ $6$ 20$5$\n
 	+ $8$\n
 	+ Egg obtained.\n
+	+ $1$ $2$, 20$0$\n
+	+ $4$\n
+	+ Uovo schiuso.\n
+	+ Occasione speciale.
+     a	= $7$ $6$ 20$5$\n
+	+ $8$\n
+	+ Egg obtained.\n
+	+ $1$ $2$, 20$0$\n
+	+ $4$\n
+	+ Uovo forse schiuso lì.\n
+	+ Fateful encounter.
+     b	= $7$ $6$ 20$5$\n
+	+ $8$\n
+	+ Uovo arrivato.\n
 	+ $1$ $2$, 20$0$\n
 	+ $4$\n
 	+ Egg hatched.\n
 	+ Fateful encounter.
-     a	= $6$ $7$, 20$5$\n
-	+ $8$\n
-	+ Egg obtained.\n
-	+ $1$ $2$, 20$0$\n
-	+ $4$\n
-	+ Egg apparently hatched.\n
-	+ Fateful encounter.
-     b	= $6$ $7$, 20$5$\n
+     c	= $7$ $6$ 20$5$\n
 	+ $8$\n
 	+ Egg arrived.\n
 	+ $1$ $2$, 20$0$\n
 	+ $4$\n
-	+ Egg hatched.\n
-	+ Fateful encounter.
-     c	= $6$ $7$, 20$5$\n
-	+ $8$\n
-	+ Egg arrived.\n
-	+ $1$ $2$, 20$0$\n
-	+ $4$\n
 	+ Egg apparently hatched.\n
 	+ Fateful encounter.
-     d	= $6$ $7$, 20$5$\n
+     d	= $7$ $6$ 20$5$\n
 	+ $8$\n
 	+ Egg obtained.\n
 	+ $1$ $2$, 20$0$\n
 	+ $4$\n
 	+ Egg hatched.\n
 	+ Fateful encounter.
-     e	= $6$ $7$, 20$5$\n
+     e	= $7$ $6$ 20$5$\n
 	+ $8$\n
 	+ Egg obtained.\n
 	+ $1$ $2$, 20$0$\n
 	+ $4$\n
 	+ Egg apparently hatched.\n
 	+ Fateful encounter.
-     f	= $1$ $2$, 20$0$\n
+     f	= $2$ $1$ 20$0$\n
 	+ $4$\n
 	+ Arrived at Lv. $3$.
-    10	= $6$ $7$, 20$5$\n
+    10	= $7$ $6$ 20$5$\n
+	+ Uovo di Pokémon\n
+	+ misterioso ricevuto da:\n
+	+ $8$.
+    11	= $7$ $6$ 20$5$\n
 	+ A mysterious Pokémon\n
-	+ Egg received from\n
+	+ misterioso ottenuto a:\n
 	+ $8$.\n
-    11	= $6$ $7$, 20$5$\n
-	+ A mysterious Pokémon\n
-	+ Egg obtained in\n
+    12	= $7$ $6$ 20$5$\n
+	+ Uovo di Pokémon molto\n
+	+ misterioso ottenuto a:\n
+	+ $8$.
+    13	= $7$ $6$ 20$5$\n
+	+ Uovo di Pokémon molto\n
+	+ misterioso arrivato da:\n
 	+ $8$.\n
-    12	= $6$ $7$, 20$5$\n
-	+ A very mysterious\n
-	+ Pokémon Egg obtained\n
-	+ at $8$.\n
-    13	= $6$ $7$, 20$5$\n
-	+ A very mysterious Pokémon\n
-	+ Egg that came from\n
-	+ $8$.\n
-    14	= Mystery Zone
-    15	= Twinleaf Town
-    16	= Sandgem Town
-    17	= Floaroma Town
-    18	= Solaceon Town
-    19	= Celestic Town
-    1a	= Jubilife City
-    1b	= Canalave City
-    1c	= Oreburgh City
-    1d	= Eterna City
-    1e	= Hearthome City
-    1f	= Pastoria City
-    20	= Veilstone City
-    21	= Sunyshore City
-    22	= Snowpoint City
-    23	= Pokémon League
-    24	= Route 201
-    25	= Route 202
-    26	= Route 203
-    27	= Route 204
-    28	= Route 205
-    29	= Route 206
-    2a	= Route 207
-    2b	= Route 208
-    2c	= Route 209
-    2d	= Route 210
-    2e	= Route 211
-    2f	= Route 212
-    30	= Route 213
-    31	= Route 214
-    32	= Route 215
-    33	= Route 216
-    34	= Route 217
-    35	= Route 218
-    36	= Route 219
-    37	= Route 220
-    38	= Route 221
-    39	= Route 222
-    3a	= Route 223
-    3b	= Route 224
-    3c	= Route 225
-    3d	= Route 226
-    3e	= Route 227
-    3f	= Route 228
-    40	= Route 229
-    41	= Route 230
-    42	= Oreburgh Mine
-    43	= Valley Windworks
-    44	= Eterna Forest
-    45	= Fuego Ironworks
-    46	= Mt. Coronet
-    47	= Spear Pillar
-    48	= Great Marsh
-    49	= Solaceon Ruins
-    4a	= Victory Road
-    4b	= Pal Park
-    4c	= Amity Square
-    4d	= Ravaged Path
-    4e	= Floaroma Meadow
-    4f	= Oreburgh Gate
-    50	= Fullmoon Island
-    51	= Sendoff Spring
-    52	= Turnback Cave
-    53	= Flower Paradise
-    54	= Snowpoint Temple
-    55	= Wayward Cave
-    56	= Ruin Maniac Cave
-    57	= Maniac Tunnel
-    58	= Trophy Garden
-    59	= Iron Island
-    5a	= Old Chateau
-    5b	= Galactic HQ
-    5c	= Verity Lakefront
-    5d	= Valor Lakefront
-    5e	= Acuity Lakefront
-    5f	= Spring Path
-    60	= Lake Verity
-    61	= Lake Valor
-    62	= Lake Acuity
-    63	= Newmoon Island
-    64	= Battle Tower
-    65	= Fight Area
-    66	= Survival Area
-    67	= Resort Area
-    68	= Stark Mountain
-    69	= Seabreak Path
-    6a	= Hall of Origin
-    6b	= Verity Cavern
-    6c	= Valor Cavern
-    6d	= Acuity Cavern
-    6e	= Jubilife TV
-    6f	= Pokétch Co.
+    14	= Zona Misteriosa
+    15	= Duefoglie
+    16	= Sabbiafine
+    17	= Giardinfiorito
+    18	= Flemminia
+    19	= Memoride
+    1a	= Giubilopoli
+    1b	= Canalipoli
+    1c	= Mineropoli
+    1d	= Evopoli
+    1e	= Cuoripoli
+    1f	= Pratopoli
+    20	= Rupepoli
+    21	= Arenipoli
+    22	= Nevepoli
+    23	= Lega Pokémon
+    24	= Percorso 201
+    25	= Percorso 202
+    26	= Percorso 203
+    27	= Percorso 204
+    28	= Percorso 205
+    29	= Percorso 206
+    2a	= Percorso 207
+    2b	= Percorso 208
+    2c	= Percorso 209
+    2d	= Percorso 210
+    2e	= Percorso 211
+    2f	= Percorso 212
+    30	= Percorso 213
+    31	= Percorso 214
+    32	= Percorso 215
+    33	= Percorso 216
+    34	= Percorso 217
+    35	= Percorso 218
+    36	= Percorso 219
+    37	= Percorso 220
+    38	= Percorso 221
+    39	= Percorso 222
+    3a	= Percorso 223
+    3b	= Percorso 224
+    3c	= Percorso 225
+    3d	= Percorso 226
+    3e	= Percorso 227
+    3f	= Percorso 228
+    40	= Percorso 229
+    41	= Percorso 230
+    42	= Cava Mineropoli
+    43	= Impianto Turbine
+    44	= Bosco Evopoli
+    45	= Fonderie Fuego
+    46	= Monte Corona
+    47	= Vetta Lancia
+    48	= Gran Palude
+    49	= Rovine Flemminia
+    4a	= Via Vittoria
+    4b	= Parco Amici
+    4c	= Parco Concordia
+    4d	= Cammino Roccioso
+    4e	= Prato Fiorito
+    4f	= Varco Mineropoli
+    50	= Isola Lunapiena
+    51	= Fonte Saluto
+    52	= Grotta Ritorno
+    53	= Paradiso Fiore
+    54	= Tempio Nevepoli
+    55	= Grotta Labirinto
+    56	= Grotta Rovine
+    57	= Tunnel Rovine
+    58	= Giardino Trofeo
+    59	= Isola Ferrosa
+    5a	= Antico Château
+    5b	= Sede Galassia
+    5c	= Riva Verità
+    5d	= Riva Valore
+    5e	= Riva Arguzia
+    5f	= Sentiero Fonte
+    60	= Lago Verità
+    61	= Lago Valore
+    62	= Lago Arguzia
+    63	= Isola Lunanuova
+    64	= Torre Lotta
+    65	= Area Sfida
+    66	= Area Provviste
+    67	= Area Svago
+    68	= Monte Ostile
+    69	= Via Frangimare
+    6a	= Spazio Origine
+    6b	= Grotta Verità
+    6c	= Grotta Valore
+    6d	= Grotta Arguzia
+    6e	= Giubilo TV
+    6f	= PokéKron SpA
     70	= GTS
-    71	= Trainers' School
-    72	= Mining Museum
-    73	= Flower Shop
-    74	= Cycle Shop
-    75	= Contest Hall
-    76	= Poffin House
-    77	= Foreign Building
-    78	= Pokémon Day Care
-    79	= Veilstone Store
-    7a	= Game Corner
-    7b	= Canalave Library
-    7c	= Vista Lighthouse
-    7d	= Sunyshore Market
-    7e	= Pokémon Mansion
-    7f	= Footstep House
-    80	= Cafe
-    81	= Grand Lake
-    82	= Restaurant
-    83	= Battle Park
+    71	= Sc. Allenatori
+    72	= Museo Minerario
+    73	= Fiorista
+    74	= Negozio Bici
+    75	= Arena Virtù
+    76	= Casa Poffin
+    77	= Edificio Culture
+    78	= Pensione Pokémon
+    79	= C. C. Rupepoli
+    7a	= Casinò
+    7b	= Bibl. Canalipoli
+    7c	= Faro Panorama
+    7d	= Merc. Arenipoli
+    7e	= Villa Pokémon
+    7f	= Casa Impronta
+    80	= Caffè
+    81	= Grande Lago
+    82	= Ristorante
+    83	= Giardino Lotta
     84	= Battle Frontier
     85	= Battle Factory
     86	= Battle Castle
@@ -366,4 +366,5 @@
     e9	= Riley
     ea	= Cynthia
     eb	= Mystery Zone
+
 

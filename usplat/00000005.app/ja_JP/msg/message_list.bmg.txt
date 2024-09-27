@@ -136,17 +136,15 @@
 	+ accessing Wii system memory.\n
 	+ \fRefer to the Wii Operations\n
 	+ Manual for details.
-    26	= The save data cannot be read.\n
-	+ You cannot start the game.\n
-	+ Please contact a Nintendo Service\n
-	+ Center. For more information,\n
-	+ see the Wii Operations Manual.\n
-	+ The error code is %03d%03d.\n
+    26	= Could not access the save data,\n
+	+ so the game cannot be played.\n
 	+ \n
-	+ Please press and hold the\n
-	+ POWER Button for at least\n
-	+ four seconds to turn the\n
-	+ console off.	
+	+ Visit support.nintendo.com\n
+	+ ERROR CODE: %03d%03d\n
+	+ \n
+	+ Press the Power Button for more\n
+	+ than 4 seconds and turn off the\n
+	+ power.
     27	= There is a problem with the\n
 	+ Wii system memory, so\n
 	+ WiiConnect24 cannot be\n

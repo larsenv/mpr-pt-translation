@@ -47,29 +47,30 @@
 #
 #------------------------------------------------------------------------------
 
-     0	= Hardy
-     1	= Lonely
+     0	= Hardi
+     1	= Solo
      2	= Brave
-     3	= Adamant
-     4	= Naughty
-     5	= Bold
+     3	= Rigide
+     4	= Mauvais
+     5	= Assuré
      6	= Docile
-     7	= Relaxed
-     8	= Impish
-     9	= Lax
-     a	= Timid
-     b	= Hasty
-     c	= Serious
-     d	= Jolly
-     e	= Naive
-     f	= Modest
-    10	= Mild
-    11	= Quiet
-    12	= Bashful
-    13	= Rash
-    14	= Calm
-    15	= Gentle
-    16	= Sassy
-    17	= Careful
-    18	= Quirky
+     7	= Relax
+     8	= Malin
+     9	= Lâche
+     a	= Timide
+     b	= Pressé
+     c	= Sérieux
+     d	= Jovial
+     e	= Naïf
+     f	= Modeste
+    10	= Doux
+    11	= Discret
+    12	= Pudique
+    13	= Foufou
+    14	= Calme
+    15	= Gentil
+    16	= Malpoli
+    17	= Prudent
+    18	= Bizarre
+
 

@@ -95,7 +95,7 @@
     21	= \n
 	+ Failed to connect.\n
 	+ Please try again.
-   22	= \n
+    22	= \n
 	+ Failed to connect.\n
 	+ Please try again.
     23	= Would you like to quit\n
@@ -256,7 +256,7 @@
 	+ inserted into the SD Card slot.
     87	= The SD Card is corrupted.\n
 	+ Would you like to format it?
-    88	== An unrecognized card is\n
+    88	= An unrecognized card is\n
 	+ inserted into the SD Card slot.
     89	= There is not enough available\n
 	+ space on the SD Card.\n
@@ -367,14 +367,14 @@
 	+ No. of Pokémon\n
 	+ Next Level
     be	= %d\n
+	+ %ls\n
 	+ %d\n
-	+ %d\n
-	+ %d\n
+	+ %ls\n
 	+ %d
     bf	= %d\n
+	+ %ls\n
 	+ %d\n
-	+ %d\n
-	+ %d\n
+	+ %ls\n
 	+ ----
     c0	= 
     c1	= 
@@ -430,7 +430,7 @@
 	+ A mysterious Egg was received\n
 	+ from $8$.\n
 	+ \n
-    f0	= No. of Pokémon cared for: %d
+    f0	= No. of Pokémon cared for: %ls
     f1	= Lv. %d
     f2	= ★ Number of Ribbons obtained: %d
     f3	= New!
@@ -443,56 +443,56 @@
     fa	= Pokémon on the Ranch
     fb	= All
     fc	= Favorites
-    fd	= Stored Pokémon
+    fd	= My Pokémon
     fe	= %d
-    ff	= %d stored.
-   100	= %d%ls stored.
+    ff	= Released %d Pokémon.
+   100	= Released %d%ls Pokémon.
    101	= Previous Page
    102	= Next Page
    103	= Return
    104	= Cancel
    105	= Go to a Parade
    106	= Trainer
-   107	= Deposit amount
+   107	= Deposited
    108	= Caretaker
    109	= Parade
    10a	= 
-   10b	= What do you want to store?
+   10b	= Release which Pokémon?
    10c	= Default
-   10d	= List by Pokédex order
-   10e	= List by type
-   10f	= List by marking
-   110	= List by body style
+   10d	= Amount
+   10e	= Type
+   10f	= Marking
+   110	= Kind
    111	= %d/%d
-   112	= red
-   113	= blue
-   114	= yellow
-   115	= green
-   116	= black
-   117	= brown
-   118	= purple
-   119	= gray
-   11a	= white
-   11b	= pink
-   11c	= short
-   11d	= tall
-   11e	= light
-   11f	= heavy
-   120	= fiery
-   121	= cold
-   122	= scary
-   123	= fast
-   124	= round
-   125	= flying
-   126	= sturdy
-   127	= focused
-   128	= paralyzing
-   129	= calm
-   12a	= oblivious
-   12b	= stinky
-   12c	= singing
-   12d	= sweet-smelling
-   12e	= rare
+   112	= Red
+   113	= Blue
+   114	= Yellow
+   115	= Green
+   116	= Black
+   117	= Brown
+   118	= Purple
+   119	= Gray
+   11a	= White
+   11b	= Pink
+   11c	= Short
+   11d	= Tall
+   11e	= Light
+   11f	= Heavy
+   120	= Fiery
+   121	= Cold
+   122	= Scary
+   123	= Fast
+   124	= Round
+   125	= Flying
+   126	= Sturdy
+   127	= Focused
+   128	= Paralyzing
+   129	= Calm
+   12a	= Oblivious
+   12b	= Stinky
+   12c	= Singing
+   12d	= Sweet-smelling
+   12e	= Rare
    12f	= Ranch Rumor %02d
    130	= %02d:%ls
    131	= Attention
@@ -593,18 +593,18 @@
    190	= Horror
    191	= Burmy
    192	= Tropical
-   193  = Toxic Mouth
-   194  = Evolution
-   195  = Underground
-   196  = Mystic
-   197  = Snow Land
-   198  = Wild Bull
-   199  = Wool
-   19a  = Milk Cow
-   19b  = Dragon
-   19c  = Ground
-   19d  = Big Sky
-   19e  = Red
+   193	= Toxic Mouth
+   194	= Evolution
+   195	= Underground
+   196	= Mystic
+   197	= Snow Land
+   198	= Wild Bull
+   199	= Wool
+   19a	= Milk Cow
+   19b	= Dragon
+   19c	= Ground
+   19d	= Big Sky
+   19e	= Red
    19f	= Hungry
    1a0	= Bouncy
    1a1	= © Pokémon/Nintendo.
@@ -659,7 +659,7 @@
    1be	= Point at the object you want\n
 	+ to look at and press \x{e042}.
    1bf	= Basic Operations (2)
-   1c0	 Take Picture (or press \x{e047})
+   1c0	= Take Picture (or press \x{e047})
    1c1	= You can take a picture.\n
 	+ The number shows how many\n
 	+ pictures are remaining.
@@ -692,7 +692,7 @@
 	+ Pokémon Diamond, Pearl and Platinum!\n
    1d1	= 
    1d2	= 
-   1d3	= Platinum Update Information (1)
+   1d3	= Platinum Update Info (1)
    1d4	= Platinum Version Features
    1d5	= ・My Pokémon Ranch can now connect to\n
 	+ 　Pokémon Platinum Version for\n
@@ -700,7 +700,7 @@
 	+ \n
 	+ ・As the Ranch expands,\n
 	+  you can keep up to 1,500 Pokémon.\n
-   1d6	= Platinum Update Information (2)
+   1d6	= Platinum Update Info (2)
    1d7	= "There are new things to try!"
    1d8	= ・More options have been added\n
     + to the menu.\n
@@ -843,15 +843,15 @@
    224	= 
    225	= Deposit Details (1)
    226	= Friends at the Ranch
-   227	= You can check how many Pokémon\n
-	+ are deposited, and who stored them.\n
-	+ You can also sort the Pokémon\n
-	+ to be deposited at the Ranch by\n
-	+ their Pokédex number and type.	
+   227	= You can check who has deposited\n
+	+ Pokémon and how many Pokémon\n
+	+ they have deposited.\n
+	+ You can also select Pokémon to release\n
+	+ to the ranch by type or amount.\n
 	+ \n
-	+ Also, you can change the Mii\n
-	+ Caretaker for Pokémon deposited\n
-	+ from your Nintendo DS.
+	+ Also, you can change the caretaker of\n
+	+ the Pokémon that were deposited\n
+	+ from the Nintendo DS.
    228	= 
    229	= 
    22a	= Deposit Details (2)
@@ -859,13 +859,13 @@
    22c	= You can view the Pokémon\n
 	+ you have stored.\n
 	+ This button opens the\n
-	+ "What do you want to store?"\n
+	+ "Release which Pokémon?"\n
 	+ screen.
-   22d	= What do you want to store?
+   22d	= Release which Pokémon?
    22e	= Choose which Pokémon you'd\n
-	+ like to send to the Ranch.\n
-	+ You can select a type or\n
-	+ Pokédex number.
+	+ like to release to the Ranch.\n
+	+ You can sort by type or\n
+	+ amount.
    22f	= Deposit Details (3)
    230	= Parade
    231	= Pokémon selected from Pokémon\n
@@ -902,7 +902,8 @@
 	+ \n
 	+ You can also see the Ranch\n
 	+ Info.
-   241	= You can change "Today's Music".\n
+   241	=  \n
+	+ You can change "Today's Music".\n
 	+ You can revisit a "Club Look-See"\n
 	+ Ranch you've already visited,
    242	= 
@@ -987,7 +988,7 @@
    270	= Maybe an unexpected guest will show\n
 	+ up at the Ranch? You never know!
    271	= Let's set this to ON!
-   272	 The initial setting is OFF.\n
+   272	= The initial setting is OFF.\n
 	+ Your Ranch data will not be sent\n
 	+ without your knowledge, even\n
 	+ when this setting is turned on.

@@ -46,126 +46,125 @@
 #
 #------------------------------------------------------------------------------
 
-     0	= $1$ $2$, 20$0$\n
+     0	= $2$. $1$ 20$0$\n
 	+ $4$\n
-	+ Met at Lv. $3$.
-     1	= $1$ $2$, 20$0$\n
+	+ Erhalten mit Lv. $3$.
+     1	= $2$. $1$ 20$0$\n
 	+ $4$\n
-	+ Apparently met at\n
+	+ Offenbar erhalten mit\n
 	+ Lv. $3$.
-     2	= $1$ $2$, 20$0$\n
+     2	= $2$. $1$ 20$0$\n
 	+ $4$\n
-	+ Arrived at Lv. $3$.
-     3	= $6$ $7$, 20$5$\n
+	+ Erhalten mit Lv. $3$.
+     3	= $7$. $6$ 20$5$\n
+	+ Ei erhalten bei/von\n
+	+ $8$.\n
+	+ $2$. $1$ 20$0$\n
+	+ $4$\n
+	+ $4$.
+     4	= $7$. $6$ 20$5$\n
 	+ $8$\n
 	+ Egg obtained.\n
+	+ $1$ $2$, 20$0$\n
+	+ $4$\n
+	+ auf $4$.
+     5	= $7$. $6$ 20$5$\n
+	+ $8$\n
+	+ $8$.\n
 	+ $1$ $2$, 20$0$\n
 	+ $4$\n
 	+ Egg hatched.
-     4	= $6$ $7$, 20$5$\n
-	+ $8$\n
-	+ Egg obtained.\n
-	+ $1$ $2$, 20$0$\n
-	+ $4$\n
-	+ Egg apparently hatched.
-     5	= $6$ $7$, 20$5$\n
+     6	= $7$. $6$ 20$5$\n
 	+ $8$\n
 	+ Egg received.\n
 	+ $1$ $2$, 20$0$\n
 	+ $4$\n
-	+ Egg hatched.
-     6	= $6$ $7$, 20$5$\n
-	+ $8$\n
-	+ Egg received.\n
-	+ $1$ $2$, 20$0$\n
-	+ $4$\n
 	+ Egg apparently hatched.
-     7	= $1$ $2$, 20$0$\n
+     7	= $2$. $1$ 20$0$\n
 	+ $4$\n
-	+ Had a fateful encounter\n
-	+ at Lv. $3$.
-     8	= $1$ $2$, 20$0$\n
+	+ Schicksalhafte\n
+	+ Begegnung mit Lv. $3$.
+     8	= $2$. $1$ 20$0$\n
 	+ $4$\n
-	+ Apparently had a\n
-	+ fateful encounter at\n
+	+ Offenbar schicksalhafte\n
+	+ Begegnung mit Lv. $3$.
 	+ Lv. $3$.
-     9	= $6$ $7$, 20$5$\n
+	+ Ei erhalten bei/von\n
 	+ $8$\n
 	+ Egg obtained.\n
+	+ $1$ $2$, 20$0$\n
+	+ $4$\n
+	+ Schicksalhafte Begegn.
+     a	= $7$. $6$ 20$5$\n
+	+ Ei erhalten bei/von\n
+	+ $8$\n
+	+ Egg obtained.\n
+	+ $1$ $2$, 20$0$\n
+	+ $4$\n
+	+ Schicksalhafte Begegn.
+	+ Fateful encounter.
+	+ $8$\n
+	+ $8$\n
+	+ $2$. $1$ 20$0$\n
 	+ $1$ $2$, 20$0$\n
 	+ $4$\n
 	+ Egg hatched.\n
 	+ Fateful encounter.
-     a	= $6$ $7$, 20$5$\n
 	+ $8$\n
-	+ Egg obtained.\n
-	+ $1$ $2$, 20$0$\n
-	+ $4$\n
-	+ Egg apparently hatched.\n
-	+ Fateful encounter.
-     b	= $6$ $7$, 20$5$\n
 	+ $8$\n
 	+ Egg arrived.\n
 	+ $1$ $2$, 20$0$\n
 	+ $4$\n
-	+ Egg hatched.\n
-	+ Fateful encounter.
-     c	= $6$ $7$, 20$5$\n
-	+ $8$\n
-	+ Egg arrived.\n
-	+ $1$ $2$, 20$0$\n
-	+ $4$\n
 	+ Egg apparently hatched.\n
 	+ Fateful encounter.
-     d	= $6$ $7$, 20$5$\n
+	+ Ei erhalten bei/von\n
 	+ $8$\n
 	+ Egg obtained.\n
 	+ $1$ $2$, 20$0$\n
 	+ $4$\n
 	+ Egg hatched.\n
 	+ Fateful encounter.
-     e	= $6$ $7$, 20$5$\n
+	+ Ei erhalten bei/von\n
 	+ $8$\n
 	+ Egg obtained.\n
 	+ $1$ $2$, 20$0$\n
 	+ $4$\n
 	+ Egg apparently hatched.\n
 	+ Fateful encounter.
-     f	= $1$ $2$, 20$0$\n
+	+ $4$\n
 	+ $4$\n
 	+ Arrived at Lv. $3$.
-    10	= $6$ $7$, 20$5$\n
+	+ Ein mysteriöses Pokémon-\n
+	+ Ei. Erhalten bei/von\n
+	+ $8$.
+    11	= $7$. $6$ 20$5$\n
+	+ Ein mysteriöses Pokémon-\n
 	+ A mysterious Pokémon\n
-	+ Egg received from\n
+	+ $8$.
 	+ $8$.\n
-    11	= $6$ $7$, 20$5$\n
-	+ A mysterious Pokémon\n
-	+ Egg obtained in\n
+	+ Ein mysteriöses Pokémon-\n
+	+ Ei. Erhalten bei\n
+	+ $8$.
+    13	= $7$. $6$ 20$5$\n
+	+ Ein sehr mysteriöses\n
+	+ Pokémon-Ei aus\n
+	+ $8$.
 	+ $8$.\n
-    12	= $6$ $7$, 20$5$\n
-	+ A very mysterious\n
-	+ Pokémon Egg obtained\n
-	+ at $8$.\n
-    13	= $6$ $7$, 20$5$\n
-	+ A very mysterious Pokémon\n
-	+ Egg that came from\n
-	+ $8$.\n
-    14	= Mystery Zone
-    15	= Twinleaf Town
-    16	= Sandgem Town
-    17	= Floaroma Town
-    18	= Solaceon Town
-    19	= Celestic Town
-    1a	= Jubilife City
-    1b	= Canalave City
-    1c	= Oreburgh City
-    1d	= Eterna City
-    1e	= Hearthome City
-    1f	= Pastoria City
-    20	= Veilstone City
-    21	= Sunyshore City
-    22	= Snowpoint City
-    23	= Pokémon League
+    15	= Zweiblattdorf
+    16	= Sandgemme
+    17	= Flori
+    18	= Trostu
+    19	= Elyses
+    1a	= Jubelstadt
+    1b	= Fleetburg
+    1c	= Erzelingen
+    1d	= Ewigenau
+    1e	= Herzhofen
+    1f	= Weideburg
+    20	= Schleiede
+    21	= Sonnewik
+    22	= Blizzach
+    23	= Pokémon Liga
     24	= Route 201
     25	= Route 202
     26	= Route 203
@@ -196,72 +195,73 @@
     3f	= Route 228
     40	= Route 229
     41	= Route 230
-    42	= Oreburgh Mine
-    43	= Valley Windworks
-    44	= Eterna Forest
-    45	= Fuego Ironworks
-    46	= Mt. Coronet
-    47	= Spear Pillar
-    48	= Great Marsh
-    49	= Solaceon Ruins
-    4a	= Victory Road
-    4b	= Pal Park
-    4c	= Amity Square
-    4d	= Ravaged Path
-    4e	= Floaroma Meadow
-    4f	= Oreburgh Gate
-    50	= Fullmoon Island
-    51	= Sendoff Spring
-    52	= Turnback Cave
-    53	= Flower Paradise
-    54	= Snowpoint Temple
-    55	= Wayward Cave
-    56	= Ruin Maniac Cave
-    57	= Maniac Tunnel
-    58	= Trophy Garden
-    59	= Iron Island
-    5a	= Old Chateau
-    5b	= Galactic HQ
-    5c	= Verity Lakefront
-    5d	= Valor Lakefront
-    5e	= Acuity Lakefront
-    5f	= Spring Path
-    60	= Lake Verity
-    61	= Lake Valor
-    62	= Lake Acuity
-    63	= Newmoon Island
-    64	= Battle Tower
-    65	= Fight Area
-    66	= Survival Area
-    67	= Resort Area
-    68	= Stark Mountain
-    69	= Seabreak Path
-    6a	= Hall of Origin
-    6b	= Verity Cavern
-    6c	= Valor Cavern
-    6d	= Acuity Cavern
-    6e	= Jubilife TV
-    6f	= Pokétch Co.
+    42	= Erzelingen-Mine
+    43	= Windkraftwerk
+    44	= Ewigwald
+    45	= Feuriohütte
+    46	= Kraterberg
+    47	= Speersäule
+    48	= Großmoor
+    49	= Trostu-Ruinen
+    4a	= Siegesstraße
+    4b	= Park der Freunde
+    4c	= Platz der Treue
+    4d	= Verwüsteter Pfad
+    4e	= Auen von Flori
+    4f	= Erzelingen-Tor
+    50	= Vollmond-Insel
+    51	= Scheidequelle
+    52	= Höhle der Umkehr
+    53	= Blumenparadies
+    54	= Blizzach-Tempel
+    55	= Bizarre Höhle
+    56	= Maniac-Höhle
+    57	= Maniac-Tunnel
+    58	= Trophäengarten
+    59	= Eiseninsel
+    5a	= Alte Villa
+    5b	= Galakti-Zentrale
+    5c	= Wahrheitsufer
+    5d	= Kühnheitsufer
+    5e	= Stärkeufer
+    5f	= Frühlingspfad
+    60	= See der Wahrheit
+    61	= See der Kühnheit
+    62	= See der Stärke
+    63	= Neumond-Insel
+    64	= Duellturm
+    65	= Kampfareal
+    66	= Überlebensareal
+    67	= Erholungsgebiet
+    68	= Kahlberg
+    69	= Buhnen-Pfad
+    6a	= Halle d. Beginns
+    6b	= Wahrheitsgrotte
+    6c	= Kühnheitsgrotte
+    6d	= Stärkegrotte
+    6e	= Jubelstadt TV
+    6f	= Pokétch Ges.
     70	= GTS
-    71	= Trainers' School
-    72	= Mining Museum
-    73	= Flower Shop
-    74	= Cycle Shop
-    75	= Contest Hall
-    76	= Poffin House
-    77	= Foreign Building
-    78	= Pokémon Day Care
-    79	= Veilstone Store
-    7a	= Game Corner
-    7b	= Canalave Library
-    7c	= Vista Lighthouse
-    7d	= Sunyshore Market
-    7e	= Pokémon Mansion
-    7f	= Footstep House
-    80	= Cafe
-    81	= Grand Lake
+    71	= Trainerschule
+    72	= Bergbaumuseum
+    73	= Blumenladen
+    74	= Fahrradladen
+    75	= Wettbewerbshalle
+    76	= Knursperei
+    77	= Begegnungsstätte
+    78	= Pokémon-Pension
+    79	= Schleiede-Kaufh.
+    7a	= Spielhalle
+    7b	= Fleetburg-Bibl.
+    7c	= Leuchtturm
+    7d	= Sonnewik-Markt
+    7e	= PKMN-Landgut
+    7f	= Schrittritt-Haus
+    80	= Café
+    81	= Prachtsee
     82	= Restaurant
-    83	= Battle Park
+    83	= Duellpark
+    84	= Idyll
     84	= Battle Frontier
     85	= Battle Factory
     86	= Battle Castle
@@ -366,4 +366,5 @@
     e9	= Riley
     ea	= Cynthia
     eb	= Mystery Zone
+
 

@@ -10,7 +10,7 @@ livedoor Blog CSS
 */
 
 /* =============================================== */
-/** 01. Customize - ï¿½ï¿½ï¿½ï¿½Ê¸ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ */
+/** 01. Customize - ¿§¤ÈÊ¸»ú¥µ¥¤¥º¤ÎÀßÄê */
 /* ----------------------------------------------- */
 
 /* font-size */
@@ -119,12 +119,12 @@ div.message-board {
 
 
 /* =============================================== */
-/** 02. Common - ï¿½ï¿½ï¿½ï¿½ */
+/** 02. Common - ¶¦ÄÌ */
 /* ----------------------------------------------- */
 
 body
 , textarea {
-	font-family: "Hiragino Kaku Gothic Pro","ï¿½Ò¥é¥®ï¿½Î³Ñ¥ï¿½ Pro W3","ï¿½Í£ï¿½ ï¿½Ð¥ï¿½ï¿½ï¿½ï¿½Ã¥ï¿½",sans-serif;
+	font-family: "Hiragino Kaku Gothic Pro","¥Ò¥é¥®¥Î³Ñ¥´ Pro W3","£Í£Ó £Ð¥´¥·¥Ã¥¯",sans-serif;
 }
 
 a {
@@ -137,7 +137,7 @@ a:hover {
 
 
 /* =============================================== */
-/** 03. Layout - ï¿½ì¥¤ï¿½ï¿½ï¿½ï¿½ï¿½È¤ï¿½ï¿½ï¿½ï¿½ï¿½ */
+/** 03. Layout - ¥ì¥¤¥¢¥¦¥È¤ÎÀßÄê */
 /* ----------------------------------------------- */
 
 body {
@@ -209,7 +209,7 @@ div#extra div.column-inner {
 
 
 /* =============================================== */
-/** 04. Title - ï¿½Ö¥ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È¥ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ */
+/** 04. Title - ¥Ö¥í¥°¥¿¥¤¥È¥ë¤ÎÀßÄê */
 /* ----------------------------------------------- */
 
 div.blog-title-outer {
@@ -239,7 +239,7 @@ p#blog-description {
 }
 
 /* =============================================== */
-/** 05. SubTitle - ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö¥ï¿½ï¿½ï¿½ï¿½È¥ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ */
+/** 05. SubTitle - ¥¢¡¼¥«¥¤¥Ö¥¿¥¤¥È¥ë¤ÎÀßÄê */
 /* ----------------------------------------------- */
 
 div.archives-title-outer {
@@ -260,7 +260,7 @@ h2.archives-title {
 }
 
 /* =============================================== */
-/** 06. Pager - ï¿½Ú¡ï¿½ï¿½ï¿½ï¿½ã¡¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ */
+/** 06. Pager - ¥Ú¡¼¥¸¥ã¡¼¤ÎÀßÄê */
 /* ----------------------------------------------- */
 
 div.pager {}
@@ -276,7 +276,7 @@ div.index-navigator-outer
 , div.article-pager-outer {}
 
 /* ----------------------------------------------- */
-/** IndexNavigator ï¿½È¥Ã¥×¥Ú¡ï¿½ï¿½ï¿½ */
+/** IndexNavigator ¥È¥Ã¥×¥Ú¡¼¥¸ */
 
 ul.index-navigator {
 	padding: 5px 0 0;
@@ -311,7 +311,7 @@ ul.index-navigator li.paging-last a {
 }
 
 /* ----------------------------------------------- */
-/** ArchivesPager ï¿½ï¿½ï¿½Æ¥ï¿½ï¿½ï¿½ï¿½Ì¡ï¿½ï¿½ï¿½ï¿½ï¿½ */
+/** ArchivesPager ¥«¥Æ¥´¥êÊÌ¡¢·îÊÌ */
 
 ul.archives-pager {
 	padding: 5px 0 0;
@@ -328,7 +328,7 @@ ul.archives-pager li a {
 }
 
 /* ----------------------------------------------- */
-/** ArticlePager ï¿½ï¿½ï¿½ï¿½ï¿½Ú¡ï¿½ï¿½ï¿½ */
+/** ArticlePager µ­»ö¥Ú¡¼¥¸ */
 
 div.article-pager-top div.article-pager-outer {
 	padding: 0 0 10px;
@@ -379,7 +379,7 @@ ul.article-pager li.both {}
 
 
 /* =============================================== */
-/** 07. Main - ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ */
+/** 07. Main - µ­»ö¤ÎÀßÄê */
 /* ----------------------------------------------- */
 
 div.article-outer {
@@ -393,7 +393,7 @@ div.article-outer-3 {}
 
 
 /* ----------------------------------------------- */
-/** Message Board - ï¿½ï¿½ï¿½ï¿½Õ¥ï¿½ï¿½á¡¼ï¿½ï¿½ï¿½ï¿½ï¿½ */
+/** Message Board - ¥¤¥ó¥Õ¥©¥á¡¼¥·¥ç¥ó */
 
 div.message-board-outer {
 	margin-bottom: 10px;
@@ -409,7 +409,7 @@ div.message-board {
 }
 
 /* ----------------------------------------------- */
-/** ï¿½ï¿½ï¿½ï¿½ï¿½Ø¥Ã¥ï¿½ï¿½ï¿½ */
+/** µ­»ö¥Ø¥Ã¥À¡¼ */
 
 div.article-header {
 	position: relative;
@@ -422,7 +422,7 @@ div.article-header {
 	zoom: 1;
 }
 
-/*** ï¿½ï¿½ï¿½ï¿½ */
+/*** ÆüÉÕ */
 div.article-date-outer {
 	width: 55px;
 	height: 55px;
@@ -450,7 +450,7 @@ div.article-date-outer span.article-date {
 	font-size: 26px
 }
 
-/*** ï¿½ï¿½ï¿½Æ¥ï¿½ï¿½ï¿½ */
+/*** ¥«¥Æ¥´¥ê */
 div.article-category-outer {
 	background: url(http://parts.blog.livedoor.jp/img/usr/canvas/common/category.gif) no-repeat left top;
 	padding-left: 20px;
@@ -480,7 +480,7 @@ div.article-category-outer dl.article-category dt {
 	text-indent: -9999px;
 }
 
-/*** ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È¥ï¿½ */
+/*** µ­»ö¥¿¥¤¥È¥ë */
 div.article-title-outer {
 	margin-left: 65px;
 }
@@ -493,7 +493,7 @@ h2.article-title {
 }
 
 /* ----------------------------------------------- */
-/** ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê¸ */
+/** µ­»öËÜÊ¸ */
 
 div.article-body {
 	padding: 15px 30px 5px;
@@ -505,7 +505,7 @@ div.article-body-inner {
 	width: 100%;
 }
 
-/*** Â³ï¿½ï¿½ï¿½ï¿½ï¿½É¤ï¿½ */
+/*** Â³¤­¤òÆÉ¤à */
 div.article-body span.article-continue {
 	display: block;
 	margin-top: 1em;
@@ -545,14 +545,14 @@ div.article-body img.pict {
 	margin: 0 5px 5px 0;
 }
 
-/*** ï¿½ï¿½ï¿½Ì¥Æ¡ï¿½ï¿½ï¿½ */
+/*** ¶¦ÄÌ¥Æ¡¼¥Þ */
 dl.common-theme {
 	margin: 0 0 15px;
 }
 
 
 
-/*** ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ */
+/*** µ­»ö¥¿¥° */
 dl.article-tags {
 	margin: 15px 0 0;
 	background: url(http://parts.blog.livedoor.jp/img/usr/canvas/common/tag.gif) no-repeat left top;
@@ -560,7 +560,7 @@ dl.article-tags {
 	padding-left: 20px;
 }
 
-/*** ï¿½×¥é¥¤ï¿½Ù¡ï¿½ï¿½È¥â¡¼ï¿½ï¿½ */
+/*** ¥×¥é¥¤¥Ù¡¼¥È¥â¡¼¥É */
 div.private-mode-announcement {
 	margin-top: 15px;
 	line-height: 1.35;
@@ -569,7 +569,7 @@ div.private-mode-announcement {
 }
 
 /* ----------------------------------------------- */
-/** ï¿½ï¿½ï¿½ï¿½ï¿½Õ¥Ã¥ï¿½ï¿½ï¿½ */
+/** µ­»ö¥Õ¥Ã¥¿¡¼ */
 
 div.article-footer {
 	padding: 10px;
@@ -642,7 +642,7 @@ ul.article-post li img {
 }
 
 /* =============================================== */
-/** 08. Option - ï¿½È¥ï¿½Ã¥ï¿½ï¿½Ð¥Ã¥ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È¥ï¿½ï¿½ê¥¢ */
+/** 08. Option - ¥È¥é¥Ã¥¯¥Ð¥Ã¥¯¡õ¥³¥á¥ó¥È¥¨¥ê¥¢ */
 /* ----------------------------------------------- */
 
 div#article-options {
@@ -659,7 +659,7 @@ div.article-option h3 {
 	font-size: 90%;
 }
 
-/*** ï¿½ï¿½ï¿½ê¤·ï¿½ä¤¹ï¿½ï¿½ï¿½è¤¦styleReset */
+/*** »ØÄê¤·¤ä¤¹¤¤¤è¤¦styleReset */
 	h4.ping-title
 	, ul.ping-info
 	, ul.ping-info li
@@ -675,7 +675,7 @@ div.article-option h3 {
 	}
 
 /* ----------------------------------------------- */
-/** ï¿½È¥ï¿½Ã¥ï¿½ï¿½Ð¥Ã¥ï¿½URL */
+/** ¥È¥é¥Ã¥¯¥Ð¥Ã¥¯URL */
 
 div#trackback-form ul {
 	margin: 0 30px;
@@ -710,7 +710,7 @@ div#trackback-form ul li.trackback-form-submit {
 div#trackback-form ul li.trackback-form-submit input {}
 
 /* ----------------------------------------------- */
-/** ï¿½È¥ï¿½Ã¥ï¿½ï¿½Ð¥Ã¥ï¿½ï¿½ï¿½ï¿½ï¿½ */
+/** ¥È¥é¥Ã¥¯¥Ð¥Ã¥¯°ìÍ÷ */
 
 li.trackback-set {
 	padding: 0 50px 10px;
@@ -751,7 +751,7 @@ ul.ping-info li.ping-excerpt {
 ul.ping-info li.ping-excerpt img.trackback-rating {}
 
 /* ----------------------------------------------- */
-/** ï¿½ï¿½ï¿½ï¿½ï¿½È°ï¿½ï¿½ï¿½ */
+/** ¥³¥á¥ó¥È°ìÍ÷ */
 
 li.comment-set {
 	padding: 0 50px 10px;
@@ -782,7 +782,7 @@ ul.comment-info li.comment-body {
 ul.comment-info li.comment-body img.trackback-rating {}
 
 /* ----------------------------------------------- */
-/** ï¿½ï¿½ï¿½ï¿½ï¿½È¥Õ¥ï¿½ï¿½ï¿½ï¿½ï¿½ */
+/** ¥³¥á¥ó¥È¥Õ¥©¡¼¥à */
 
 div#comment-form-body {
 	padding: 15px 50px;
@@ -850,7 +850,7 @@ div#comment-form-body table tr.submit td {
 	text-align: center;
 }
 
-/*** ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç§ï¿½ï¿½ */
+/*** ¥³¥á¥ó¥ÈÇ§¾Ú */
 div.comment-auth-announcement {
 	margin: 10px 50px;
 	font-size: 83%;
@@ -863,7 +863,7 @@ div.comment-auth-announcement p a {
 }
 
 /* ----------------------------------------------- */
-/** ï¿½ï¿½Ï¢ï¿½ï¿½ï¿½ï¿½ */
+/** ´ØÏ¢µ­»ö */
 
 div.related-articles {
 	padding: 15px 0 0;
@@ -895,7 +895,7 @@ div.related-articles ul li{
 
 
 /* =============================================== */
-/** 09. Sub & Extra - ï¿½×¥é¥°ï¿½ï¿½ï¿½ó¥¨¥ê¥¢ */
+/** 09. Sub & Extra - ¥×¥é¥°¥¤¥ó¥¨¥ê¥¢ */
 /* ----------------------------------------------- */
 
 div.sidetitlebody {}
@@ -929,7 +929,7 @@ div.sidebody {
 }
 
 /* ----------------------------------------------- */
-/** ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ */
+/** ¥«¥ì¥ó¥À¡¼ */
 
 div.calendarheadbody {}
 div.calendarheadbody div.calendarhead {
@@ -985,7 +985,7 @@ td table.caltblday td.calendardbg {}
 td table.caltblday td span.calendar {}
 
 /* ----------------------------------------------- */
-/** ï¿½×¥ï¿½ï¿½Õ¥ï¿½ï¿½ï¿½ï¿½ï¿½Ê¥×¥é¥°ï¿½ï¿½ï¿½ï¿½ï¿½ */
+/** ¥×¥í¥Õ¥£¡¼¥ë¡Ê¥×¥é¥°¥¤¥ó¡Ë */
 
 .nickname {
 	font-weight: bold;
@@ -1005,7 +1005,7 @@ ul#ld-services {
 }
 
 /* =============================================== */
-/** 10. Header & Footer - ï¿½Ø¥Ã¥ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Õ¥Ã¥ï¿½ï¿½ï¿½ */
+/** 10. Header & Footer - ¥Ø¥Ã¥À¡¼¡¦¥Õ¥Ã¥¿¡¼ */
 /* ----------------------------------------------- */
 /** Header */
 
@@ -1035,9 +1035,9 @@ div#footer p {
 }
 
 /* =============================================== */
-/** 11. Others - ADï¿½ï¿½ï¿½ê¥¢ etc. */
+/** 11. Others - AD¥¨¥ê¥¢ etc. */
 /* ----------------------------------------------- */
-/** ADï¿½ï¿½ï¿½ê¥¢ */
+/** AD¥¨¥ê¥¢ */
 
 div#ad {
 	margin: 25px auto 0;
@@ -1117,7 +1117,7 @@ div.message-board:after {
 }
 
 
-/* ï¿½ï¿½ï¿½ó¤¿¤ó¥¿¥ï¿½ï¿½È¥ï¿½ï¿½ï¿½ï¿½ */
+/* ¤«¤ó¤¿¤ó¥¿¥¤¥È¥ë²èÁü */
 .blog-title-outer.show-image {
 	background: transparent;
 	height: auto;

@@ -1,0 +1,1447 @@
+#BMG  <<<  The first 4 characters '#BMG' are the magic for a BMG text file.
+#     <<<  Don't remove them!
+#
+# Details about BMG text files are available in the Web:
+#  * Syntax and Semantics: https://szs.wiimm.de/doc/bmg/text
+#  * The BMG file format:  https://szs.wiimm.de/r/wiki/BMG
+#
+#
+#------------------------------------------------------------------------------
+
+# The endianness of binary files: 0=big endian (default), 1=little endian.
+# Little endian is only tested for encoding UTF-8 (need examples of analysis).
+@ENDIAN = 0
+
+# If 1, then enable legacy (GameCube) mode for old binary BMG files.
+# If enabled, ENCODING is always CP1252.
+@LEGACY = 0
+
+# Define encoding of BMG: 1=CP1252, 2=UTF-16/be, 3=Shift-JIS, 4=UTF-8
+@ENCODING = 2
+
+# Create »MID1« section: 0=off, 1=on
+@BMG-MID = 0
+
+# Size of each element of section 'INF1' (MKW=8).
+# This setting has impact to attributes and MKW features.
+@INF-SIZE = 0x08
+
+# Default attribute values for this BMG (MKW=[1])
+@DEFAULT-ATTRIBS = [0]
+
+# Use MKW specific color names: 0=off, 1=auto, 2=on
+@COLOR-NAMES = 1
+
+# Use MKW messages and track names: 0=off, 1=auto, 2=on
+@MKW-MESSAGES = 1
+
+#
+#------------------------------------------------------------------------------
+
+# This part defines values for unknown parameters of section headers.
+@UNKNOWN-INF32-0C =    0xa0000	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
+@UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
+
+#
+#------------------------------------------------------------------------------
+
+     0	= 
+     1	= Welcome to My Pokémon\n
+	+ Ranch!
+     2	= My name is Hayley.\n
+	+ I'm the creator of the\n
+	+ Pokémon Ranch!\n
+	+ It's so nice to meet you!
+     3	= The Pokémon Ranch is a place\n
+	+ where people and Pokémon\n
+	+ enjoy living together.
+     4	= You'll soon see what kind of\n
+	+ place the Pokémon Ranch is by\n
+	+ simply taking a look around!
+     5	= I'm on my way to the Ranch...\n
+	+ Keep your eyes on me, okay?
+     6	= Are you ready?
+     7	= 3...
+     8	= 2...
+     9	= 1...
+     a	= Here we go!
+     b	= ...Here we are!\n
+	+ This is the Pokémon Ranch!
+     c	= At this Ranch, both people and\n
+	+ Pokémon turn into this form.\n
+	+ Look! So cute, right?
+     d	= The Pokémon Ranch is a\n
+	+ place where you can keep\n
+	+ lots of Pokémon.
+     e	= Not only do you keep the\n
+	+ Pokémon there...
+     f	= You can watch Pokémon live\n
+	+ out their daily lives!
+    10	= I've been thinking about making\n
+	+ this Ranch full of Pokémon.
+    11	= A life surrounded by lots\n
+	+ of Pokémon has been my\n
+	+ long-cherished dream...\n
+    12	= Ah...\n
+	+ A Ranch filled with Pokémon...\n
+	+ It's fantastic... It's fabulous...\n
+	+ It's...it's...fantabulous...
+    13	= !
+    14	= Oops! Sorry!\n
+	+ I was daydreaming again.
+    15	= These are all the Pokémon\n
+	+ I have so far.
+    16	= I want to keep adding more\n
+	+ Pokémon to the Ranch.
+    17	= And, you!\n
+	+ May I ask you a favor?
+    18	= How does you and me filling\n
+	+ this Ranch with Pokémon\n
+	+ sound to you?
+    19	= Will you help me?
+    1a	= ...What?\n
+	+ Hmm, I didn't quite catch that.\n
+	+ Let me ask you one more time.
+    1b	= That's great! I knew it!
+    1c	= I'll take you to the Ranch\n
+	+ right away!
+    1d	= Select the Miis you want to\n
+	+ take to the Ranch.\n
+	+ The more you take, the more\n
+	+ lively it gets, so don't be shy!
+    1e	= Now, to let you in on my plan\n
+	+ about how we'll fill this Ranch\n
+	+ with Pokémon!
+    1f	= Beginning today, I will bring a\n
+	+ Pokémon a day to the Ranch.
+    20	= I only ask that you take good\n
+	+ care of them!
+    21	= When you visit the Ranch, every\n
+	+ day you'll find one new\n
+	+ Pokémon added to the Ranch!\n
+    22	= Let's work together to fill this\n
+	+ Ranch with Pokémon\n
+	+ little by little!
+    23	= You can bring Pokémon that\n
+	+ you caught in Pokémon game versions\n
+	+ for the Nintendo DS.
+    24	= That's one way to add more\n
+	+ Pokémon to the Ranch!
+    25	= If you have any Pokémon,\n
+	+ be sure to bring them here!
+    26	= By the way... Do you have\n
+	+ a Nintendo DS?
+    27	= Wow! That's wonderful!\n
+	+ You can bring your own\n
+	+ Pokémon to the Ranch!
+    28	= That's one way to add more\n
+	+ Pokémon to the Ranch!
+    29	= Yes, if you have any Pokémon,\n
+	+ be sure to bring them here!
+    2a	= I see...\n
+	+ If you did, that could be one\n
+	+ way to add a large number\n
+	+ of Pokémon to the Ranch.
+    2b	= Oh, well. That's okay.\n
+	+ I'll bring a Pokémon every day!\n
+	+ Let's start from there!
+    2c	= You know how Pokémon are\n
+	+ added to the Ranch now, right?
+    2d	= As today's the first and a very\n
+	+ special day, I brought six\n
+	+ Pokémon to add to the Ranch!
+    2e	= Let's start our Ranch with these\n
+	+ six Pokémon!
+    2f	= Beginning tomorrow,\n
+	+ %ls,\n
+	+ I will bring one Pokémon a day.\n
+	+ Isn't that so exciting!?
+    30	= If you are interested in more\n
+	+ details, press the "?" button\n
+	+ located at the lower left of\n
+	+ the screen.
+    31	= The Ranch will become more\n
+	+ lively as you get more and\n
+	+ more Pokémon.
+    32	= Enjoy watching Pokémon at the\n
+	+ Ranch!
+    33	= Let's have a great time!
+    34	= Ah, are you leaving?\n
+	+ Well, thanks for your help!
+    35	= May I ask you a question before\n
+	+ you go?
+    36	= Tomorrow is %ls.\n
+	+ I've been wondering what kind\n
+	+ of Pokémon I should bring to\n
+	+ the Ranch...
+    37	= Will %ls\n
+	+ Pokémon be okay tomorrow?
+    38	= Is a red Pokémon\n
+	+ okay for tomorrow?
+    39	= Is a blue Pokémon\n
+	+ okay for tomorrow?
+    3a	= Is a yellow Pokémon\n
+	+ okay for tomorrow?
+    3b	= Is a green Pokémon\n
+	+ okay for tomorrow?
+    3c	= Is a black Pokémon\n
+	+ okay for tomorrow?
+    3d	= Is a brown Pokémon\n
+	+ okay for tomorrow?
+    3e	= Is a purple Pokémon\n
+	+ okay for tomorrow?
+    3f	= Is a gray Pokémon\n
+	+ okay for tomorrow?
+    40	= Is a white Pokémon\n
+	+ okay for tomorrow?
+    41	= Is a pink Pokémon\n
+	+ okay for tomorrow?
+    42	= Is a short Pokémon\n
+	+ okay for tomorrow?
+    43	= Is a tall Pokémon\n
+	+ okay for tomorrow?
+    44	= Is a light Pokémon\n
+	+ okay for tomorrow?
+    45	= Is a heavy Pokémon\n
+	+ okay for tomorrow?
+    46	= Is a fiery Pokémon\n
+	+ okay for tomorrow?
+    47	= Is a cold Pokémon\n
+	+ okay for tomorrow?
+    48	= Is a scary Pokémon\n
+	+ okay for tomorrow?
+    49	= Is a fast Pokémon\n
+	+ okay for tomorrow?
+    4a	= Is a round Pokémon\n
+	+ okay for tomorrow?
+    4b	= Is a flying Pokémon\n
+	+ okay for tomorrow?
+    4c	= Is a sturdy Pokémon\n
+	+ okay for tomorrow?
+    4d	= Is a focused Pokémon\n
+	+ okay for tomorrow?
+    4e	= Is a paralyzing Pokémon\n
+	+ okay for tomorrow?
+    4f	= Is an easygoing Pokémon\n
+	+ okay for tomorrow?
+    50	= Is an oblivious Pokémon\n
+	+ okay for tomorrow?
+    51	= Is a stinky Pokémon\n
+	+ okay for tomorrow?
+    52	= Is a singing Pokémon\n
+	+ okay for tomorrow?
+    53	= Is a sweet-smelling Pokémon\n
+	+ okay for tomorrow?
+    54	= Okay, perhaps\n
+	+ %ls\n
+	+ Pokémon?
+    55	= Okay, perhaps a\n
+	+ red Pokémon?
+    56	= Okay, perhaps a\n
+	+ blue Pokémon?
+    57	= Okay, perhaps a\n
+	+ yellow Pokémon?
+    58	= Okay, perhaps a\n
+	+ green Pokémon?
+    59	= Okay, perhaps a\n
+	+ black Pokémon?
+    5a	= Okay, perhaps a\n
+	+ brown Pokémon?
+    5b	= Okay, perhaps a\n
+	+ purple Pokémon?
+    5c	= Okay, perhaps a\n
+	+ gray Pokémon?
+    5d	= Okay, perhaps a\n
+	+ white Pokémon?
+    5e	= Okay, perhaps a\n
+	+ pink Pokémon?
+    5f	= Okay, perhaps a\n
+	+ short Pokémon?
+    60	= Okay, perhaps a\n
+	+ tall Pokémon?
+    61	= Okay, perhaps a\n
+	+ light Pokémon?
+    62	= Okay, perhaps a\n
+	+ heavy Pokémon?
+    63	= Okay, perhaps a\n
+	+ fiery Pokémon?
+    64	= Okay, perhaps a\n
+	+ cold Pokémon?
+    65	= Okay, perhaps a\n
+	+ scary Pokémon?
+    66	= Okay, perhaps a\n
+	+ fast Pokémon?
+    67	= Okay, perhaps a\n
+	+ round Pokémon?
+    68	= Okay, perhaps a\n
+	+ flying Pokémon?
+    69	= Okay, perhaps a\n
+	+ sturdy Pokémon?
+    6a	= Okay, perhaps a\n
+	+ focused Pokémon?
+    6b	= Okay, perhaps a\n
+	+ paralyzing Pokémon?
+    6c	= Okay, perhaps an\n
+	+ easygoing Pokémon?
+    6d	= Okay, perhaps an\n
+	+ oblivious Pokémon?
+    6e	= Okay, perhaps a\n
+	+ stinky Pokémon?
+    6f	= Okay, perhaps a\n
+	+ singing Pokémon?
+    70	= Okay, perhaps a\n
+	+ sweet-smelling Pokémon?
+    71	= All right. Leave it to me!\n
+	+ I will bring\n
+	+ %ls\n
+	+ Pokémon tomorrow!
+    72	= All right. Leave it to me!\n
+	+ I will bring a\n
+	+ red Pokémon tomorrow!
+    73	= All right. Leave it to me!\n
+	+ I will bring a\n
+	+ blue Pokémon tomorrow!
+    74	= All right. Leave it to me!\n
+	+ I will bring a\n
+	+ yellow Pokémon tomorrow!
+    75	= All right. Leave it to me!\n
+	+ I will bring a\n
+	+ green Pokémon tomorrow!
+    76	= All right. Leave it to me!\n
+	+ I will bring a\n
+	+ black Pokémon tomorrow!
+    77	= All right. Leave it to me!\n
+	+ I will bring a\n
+	+ brown Pokémon tomorrow!
+    78	= All right. Leave it to me!\n
+	+ I will bring a\n
+	+ purple Pokémon tomorrow!
+    79	= All right. Leave it to me!\n
+	+ I will bring a\n
+	+ gray Pokémon tomorrow!
+    7a	= All right. Leave it to me!\n
+	+ I will bring a\n
+	+ white Pokémon tomorrow!
+    7b	= All right. Leave it to me!\n
+	+ I will bring a\n
+	+ pink Pokémon tomorrow!
+    7c	= All right. Leave it to me!\n
+	+ I will bring a\n
+	+ short Pokémon tomorrow!
+    7d	= All right. Leave it to me!\n
+	+ I will bring a\n
+	+ tall Pokémon tomorrow!
+    7e	= All right. Leave it to me!\n
+	+ I will bring a\n
+	+ light Pokémon tomorrow!
+    7f	= All right. Leave it to me!\n
+	+ I will bring a\n
+	+ heavy Pokémon tomorrow!
+    80	= All right. Leave it to me!\n
+	+ I will bring a\n
+	+ fiery Pokémon tomorrow!
+    81	= All right. Leave it to me!\n
+	+ I will bring a\n
+	+ cold Pokémon tomorrow!
+    82	= All right. Leave it to me!\n
+	+ I will bring a\n
+	+ scary Pokémon tomorrow!
+    83	= All right. Leave it to me!\n
+	+ I will bring a\n
+	+ fast Pokémon tomorrow!
+    84	= All right. Leave it to me!\n
+	+ I will bring a\n
+	+ round Pokémon tomorrow!
+    85	= All right. Leave it to me!\n
+	+ I will bring a\n
+	+ flying Pokémon tomorrow!
+    86	= All right. Leave it to me!\n
+	+ I will bring a\n
+	+ sturdy Pokémon tomorrow!
+    87	= All right. Leave it to me!\n
+	+ I will bring a\n
+	+ focused Pokémon tomorrow!
+    88	= All right. Leave it to me!\n
+	+ I will bring a\n
+	+ paralyzing Pokémon tomorrow!
+    89	= All right. Leave it to me!\n
+	+ I will bring an\n
+	+ easygoing Pokémon tomorrow!
+    8a	= All right. Leave it to me!\n
+	+ I will bring an\n
+	+ oblivious Pokémon tomorrow!
+    8b	= All right. Leave it to me!\n
+	+ I will bring a\n
+	+ stinky Pokémon tomorrow!
+    8c	= All right. Leave it to me!\n
+	+ I will bring a\n
+	+ singing Pokémon tomorrow!
+    8d	= All right. Leave it to me!\n
+	+ I will bring a sweet-smelling \n
+	+ Pokémon tomorrow!
+    8e	= All right. Leave it to me!\n
+	+ I will bring a Pokémon\n
+	+ I'm interested in tomorrow!
+    8f	= All right!\n
+	+ I think I know just the Pokémon!
+    90	= I bet you can't wait to see the\n
+	+ Pokémon I bring here tomorrow!
+    91	= See ya!
+    92	= The number of Pokémon at the\n
+	+ Ranch has become %d!
+    93	= 
+    94	= Okay. Let's expand the Ranch!\n
+	+ Its construction is expected to\n
+	+ be done on %ls!
+    95	= Oh? The number of Pokémon at\n
+	+ the Ranch is already %d!
+    96	= 
+    97	= Okay.\n
+	+ Let's expand the Ranch again!
+    98	= Its construction is expected to\n
+	+ be done on %ls!
+    99	= For now, please be patient with\n
+	+ the size of the Ranch... It will\n
+	+ be expanded on %ls!
+    9a	= I brought a Pokémon again!
+    9b	= I brought extra Pokémon\n
+	+ to celebrate the completion\n
+	+ of the Ranch expansion!
+    9c	= I did not bring any Pokémon to\n
+	+ the Ranch today.
+    9d	= So far, I have brought\n
+	+ %d Pokémon.
+    9e	= 
+    9f	= Here are my precious Pokémon.\n
+	+ Please take good care of them!
+    a0	= It's my precious Pokémon.\n
+	+ Please take good care of it!
+    a1	= Although the Ranch will not\n
+	+ get any bigger...
+    a2	= Please look after the Pokémon\n
+	+ and the Ranch!
+    a3	= Once the number of Pokémon\n
+	+ becomes %d, let's expand\n
+	+ the Ranch!
+    a4	= 
+    a5	= Let's keep adding Pokémon to\n
+	+ the Ranch!
+    a6	= Let's expand the Ranch by\n
+	+ adding more Pokémon!
+    a7	= Once the number of Pokémon\n
+	+ becomes %d, let's expand\n
+	+ the Ranch!
+    a8	= 
+    a9	= ...Oh!?
+    aa	= You are familiar now with the\n
+	+ Pokémon Ranch, aren't you?
+    ab	= From now on, you should use\n
+	+ Free Mode to watch the Ranch.\n
+	+ It's so handy!
+    ac	= Free Mode is added to\n
+	+ the menu!
+    ad	= Great news!\n
+	+ A Toy Box will be delivered to\n
+	+ the Ranch every day starting\n
+	+ today!
+    ae	= A toy that Pokémon can play\n
+	+ with is stored in the Toy Box.\n
+    af	= It's like a treasure box!\n
+	+ You'll find it somewhere on\n
+	+ the Ranch. Look for it\n
+	+ using Free Mode.
+    b0	= How do you open the box?\n
+	+ Well, that's one thing I\n
+	+ don't know.
+    b1	= Hmm... Maybe you can try\n
+	+ opening it using Free Mode.
+    b2	= I see a good crowd of Pokémon\n
+	+ gathering on the Ranch!
+    b3	= With this many Pokémon, I bet\n
+	+ it's not easy to find your\n
+	+ favorite Pokémon.
+    b4	= From now on, you should use\n
+	+ Favorites to organize Pokémon.
+    b5	= Favorites is added to the menu!
+    b6	= More great news!\n
+	+ Two Toy Boxes will be delivered\n
+	+ to the Ranch every day starting\n
+	+ today!
+    b7	= Mmm-hmm... How exciting!
+    b8	= The number of Miis you can\n
+	+ bring to the Ranch is now 20!
+    b9	= That is the max number of Miis\n
+	+ you can bring to the Ranch.\n
+	+ Twenty is enough, isn't it?
+    ba	= Bring more Miis to the Ranch,\n
+	+ please!
+    bb	= 
+    bc	= More great news!\n
+	+ Three Toy Boxes will be\n
+	+ delivered to the Ranch every\n
+	+ day starting today!
+    bd	= Mmm-hmm... How exciting!
+    be	= I have wonderful news!\n
+	+ I brought a special Pokémon!
+    bf	= PHIONE, a special Pokémon\n
+	+ that hatched from an Egg found\n
+	+ with MANAPHY and a Pokémon\n
+	+ that gets along with it.
+    c0	= 
+    c1	= I'll add it to the Ranch.\n
+	+ Please take good care of it!
+    c2	= More great news!\n
+	+ Four Toy Boxes will be delivered\n
+	+ to the Ranch every day starting\n
+	+ today!
+    c3	= Mmm-hmm... So exciting!
+    c4	= The number of Pokémon you\n
+	+ can keep is now 1,000!
+    c5	= Congratulations!
+    c6	= The Ranch will continue to\n
+	+ expand by leveling up...
+    c7	= Let's try to get 1,000 Pokémon\n
+	+ on the Ranch!
+    c8	= More great news!\n
+	+ Five Toy Boxes will be delivered \n
+	+ to the Ranch every day starting\n
+	+ today!
+    c9	= Not only that, but the variety of\n
+	+ toys inside the box has\n
+	+ increased!
+    ca	= You might get lucky and find a\n
+	+ toy that Pokémon can draw\n
+	+ pictures with!
+    cb	= It's really exciting!
+    cc	= Oh, you know what? The stable\n
+	+ has been remodeled, and\n
+	+ it's super comfortable.
+    cd	= When the Ranch is filled, I will\n
+	+ ask my Pokémon to stay inside\n
+	+ the stable.
+    ce	= That means you can bring up to\n
+	+ 1,000 of your Pokémon to the\n
+	+ Ranch!
+    cf	= Don't worry about my Pokémon.\n
+	+ Bring as many Pokémon as you\n
+	+ like!
+    d0	= The Ranch has finally reached\n
+	+ its max level! Congratulations!
+    d1	= The Ranch I was longing for...\n
+	+ So vast...\n
+	+ So full of Pokémon...
+    d2	= It's so fantabulous!\n
+	+ This is the Ranch I dreamt\n
+	+ about, and it's right in front\n
+	+ of me!
+    d3	= I am so glad that I chose you\n
+	+ as my Ranch partner!
+    d4	= I believe I'll enjoy living here\n
+	+ with everyone for a long time.
+    d5	= With everyone... \n
+	+ My whole life...
+    d6	= ...Why not?\n
+	+ Hehe.
+    d7	= Today is such a special day.\n
+	+ I brought a very rare Pokémon!
+    d8	= This is MEW, a Pokémon that\n
+	+ is said to possess the genes\n
+	+ of all Pokémon.
+    d9	= 
+    da	= I will add it to the Ranch.\n
+	+ Please take good care of it!
+    db	= More great news!\n
+	+ Six Toy Boxes will be delivered\n
+	+ to the Ranch every day starting\n
+	+ today!
+    dc	= So exciting!
+    dd	= The Ranch is no longer under\n
+	+ construction, and it's bigger\n
+	+ now!
+    de	= That's more space for\n
+	+ Pokémon!
+    df	= The Ranch is now Level %d!
+    e0	= Due to the large number of\n
+	+ Pokémon added, the level\n
+	+ of the Ranch has jumped\n
+	+ from %d to %d!
+    e1	= The Ranch has expanded!
+    e2	= The number of Pokémon you\n
+	+ can keep has increased from\n
+	+ %d to %d!
+    e3	= 
+    e4	= The number of Miis you can\n
+	+ bring has increased from\n
+	+ %d to %d!
+    e5	= Wow!\n
+	+ That's the Wanted Pokémon!\n
+	+ Good job!
+    e6	= This will make the Ranch a\n
+	+ little more fun and lively!\n
+	+ Thank you!
+    e7	= Added to Wanted Pokémon!\n
+	+ %ls
+    e8	= Added to Wanted Pokémon!\n
+	+ %ls\n
+	+ %ls
+    e9	= Added to Wanted Pokémon!\n
+	+ %ls\n
+	+ %ls\n
+	+ %ls
+    ea	= From now on, I will check to see\n
+	+ if the Pokémon you bring to the\n
+	+ Ranch is a Wanted Pokémon!
+    eb	= How to catch the Wanted\n
+	+ Pokémon is posted on the BBS.\n
+	+ You should check it out!
+    ec	= Bring the Wanted Pokémon\n
+	+ here when you catch it.
+    ed	= Please take the Wanted\n
+	+ Pokémon out to the Ranch!
+    ee	= Bring the Wanted Pokémon\n
+	+ to the Ranch once you catch it.
+    ef	= Oh, you know what?\n
+	+ The %ls you\n
+	+ just brought to the Ranch...
+    f0	= %ls was looking\n
+	+ for it.
+    f1	= %ls was looking\n
+	+ for it.
+    f2	= Maybe you can explain how to\n
+	+ catch or trade the Pokémon?
+    f3	= Maybe you can explain how to\n
+	+ catch or trade the Pokémon?
+    f4	= Trading Pokémon on GTS could\n
+	+ be another option when it's too\n
+	+ hard to catch the Pokémon!
+    f5	= Okay, good luck!
+    f6	= How to catch the Wanted\n
+	+ Pokémon is posted on the BBS.\n
+	+ You should check it out!
+    f7	= By the way, have you caught\n
+	+ any Pokémon lately?
+    f8	= I'd love to see your Pokédex!\n
+	+ Why don't you connect your\n
+	+ Nintendo DS?
+    f9	= Have a good time!\n
+	+ See ya!
+    fa	= Have a good time!\n
+	+ See ya!
+    fb	= Long time no see!\n
+	+ I haven't seen you for\n
+	+ %d years!
+    fc	= Long time no see!\n
+	+ I haven't seen you for\n
+	+ 1 year!
+    fd	= The Pokémon missed you \n
+	+ so much!
+    fe	= Long time no see!\n
+	+ I haven't seen you for\n
+	+ %d months!
+    ff	= Long time no see!\n
+	+ I haven't seen you for\n
+	+ 1 month!
+   100	= I bet the Pokémon missed you\n
+	+ so much!
+   101	= Well, hello there!\n
+	+ I haven't seen you for\n
+	+ %d weeks!
+   102	= Well, hello there!\n
+	+ I haven't seen you for\n
+	+ 1 week!
+   103	= The Pokémon look very happy\n
+	+ to see you!
+   104	= Hello!\n
+	+ Thanks for coming back to the\n
+	+ Ranch today!
+   105	= Hello!\n
+	+ I am so glad to see you again!
+   106	= Hello!\n
+	+ Enjoy your time at the Ranch!
+   107	= You have arrived at\n
+	+ %ls's\n
+	+ %ls Ranch!
+   108	= Please enjoy\n
+	+ %ls Ranch!
+   109	= To leave this Ranch, move the\n
+	+ cursor onto the door located at\n
+	+ the top left of the screen and\n
+	+ press \x{e042}.
+   10a	= Enjoy!
+   10b	= Please enjoy\n
+	+ %ls Ranch!
+   10c	= To leave this Ranch, move the\n
+	+ cursor onto the door located at\n
+	+ the top left of the screen and\n
+	+ press \x{e042}.
+   10d	= Enjoy!
+   10e	= 「おきにいり」が\n
+	+ きょうの ぼくじょうの テーマです。
+   10f	= 「オーナー」が\n
+	+ きょうの ぼくじょうの テーマです。
+   110	= 「あずけたポケモン」が\n
+	+ きょうの ぼくじょうの テーマです。
+   111	= 「%ls」が\n
+	+ きょうの ぼくじょうの テーマです。
+   112	= 「6ひき」が\n
+	+ きょうの ぼくじょうの テーマです。
+   113	= 「20ひき」が\n
+	+ きょうの ぼくじょうの テーマです。
+   114	= 「50ひき」が\n
+	+ きょうの ぼくじょうの テーマです。
+   115	= 「100ひき」が\n
+	+ きょうの ぼくじょうの テーマです。
+   116	= 「200ひき」が\n
+	+ きょうの ぼくじょうの テーマです。
+   117	= 「500ひき」が\n
+	+ きょうの ぼくじょうの テーマです。
+   118	= 「800ひき」が\n
+	+ きょうの ぼくじょうの テーマです。
+   119	= 「1000ひき」が\n
+	+ きょうの ぼくじょうの テーマです。
+   11a	= 「ノーマル」が\n
+	+ きょうの ぼくじょうの テーマです。
+   11b	= 「かくとう」が\n
+	+ きょうの ぼくじょうの テーマです。
+   11c	= 「ひこう」が\n
+	+ きょうの ぼくじょうの テーマです。
+   11d	= 「どく」が\n
+	+ きょうの ぼくじょうの テーマです。
+   11e	= 「じめん」が\n
+	+ きょうの ぼくじょうの テーマです。
+   11f	= 「いわ」が\n
+	+ きょうの ぼくじょうの テーマです。
+   120	= 「むし」が\n
+	+ きょうの ぼくじょうの テーマです。
+   121	= 「ゴースト」が\n
+	+ きょうの ぼくじょうの テーマです。
+   122	= 「はがね」が\n
+	+ きょうの ぼくじょうの テーマです。
+   123	= ?
+   124	= 「ほのお」が\n
+	+ きょうの ぼくじょうの テーマです。
+   125	= 「みず」が\n
+	+ きょうの ぼくじょうの テーマです。
+   126	= 「くさ」が\n
+	+ きょうの ぼくじょうの テーマです。
+   127	= 「でんき」が\n
+	+ きょうの ぼくじょうの テーマです。
+   128	= 「エスパー」が\n
+	+ きょうの ぼくじょうの テーマです。
+   129	= 「こおり」が\n
+	+ きょうの ぼくじょうの テーマです。
+   12a	= 「ドラゴン」が\n
+	+ きょうの ぼくじょうの テーマです。
+   12b	= 「あく」が\n
+	+ きょうの ぼくじょうの テーマです。
+   12c	= 「●」が\n
+	+ きょうの ぼくじょうの テーマです。
+   12d	= 「▲」が\n
+	+ きょうの ぼくじょうの テーマです。
+   12e	= 「■」が\n
+	+ きょうの ぼくじょうの テーマです。
+   12f	= 「♥」が\n
+	+ きょうの ぼくじょうの テーマです。
+   130	= 「★」が\n
+	+ きょうの ぼくじょうの テーマです。
+   131	= 「◆」が\n
+	+ きょうの ぼくじょうの テーマです。
+   132	= 「あか」が\n
+	+ きょうの ぼくじょうの テーマです。
+   133	= 「あお」が\n
+	+ きょうの ぼくじょうの テーマです。
+   134	= 「きいろ」が\n
+	+ きょうの ぼくじょうの テーマです。
+   135	= 「みどり」が\n
+	+ きょうの ぼくじょうの テーマです。
+   136	= 「くろ」が\n
+	+ きょうの ぼくじょうの テーマです。
+   137	= 「ちゃいろ」が\n
+	+ きょうの ぼくじょうの テーマです。
+   138	= 「むらさき」が\n
+	+ きょうの ぼくじょうの テーマです。
+   139	= 「はいいろ」が\n
+	+ きょうの ぼくじょうの テーマです。
+   13a	= 「しろ」が\n
+	+ きょうの ぼくじょうの テーマです。
+   13b	= 「ピンク」が\n
+	+ きょうの ぼくじょうの テーマです。
+   13c	= 「ちいさい」が\n
+	+ きょうの ぼくじょうの テーマです。
+   13d	= 「おおきい」が\n
+	+ きょうの ぼくじょうの テーマです。
+   13e	= 「かるい」が\n
+	+ きょうの ぼくじょうの テーマです。
+   13f	= 「おもい」が\n
+	+ きょうの ぼくじょうの テーマです。
+   140	= 「あつい」が\n
+	+ きょうの ぼくじょうの テーマです。
+   141	= 「つめたい」が\n
+	+ きょうの ぼくじょうの テーマです。
+   142	= 「こわい」が\n
+	+ きょうの ぼくじょうの テーマです。
+   143	= 「すばやい」が\n
+	+ きょうの ぼくじょうの テーマです。
+   144	= 「まるい」が\n
+	+ きょうの ぼくじょうの テーマです。
+   145	= 「とぶ」が\n
+	+ きょうの ぼくじょうの テーマです。
+   146	= 「がんじょう」が\n
+	+ きょうの ぼくじょうの テーマです。
+   147	= 「きあいが はいってる」が\n
+	+ きょうの ぼくじょうの テーマです。
+   148	= 「しびれる」が\n
+	+ きょうの ぼくじょうの テーマです。
+   149	= 「マイペース」が\n
+	+ きょうの ぼくじょうの テーマです。
+   14a	= 「どんかん」が\n
+	+ きょうの ぼくじょうの テーマです。
+   14b	= 「くさい」が\n
+	+ きょうの ぼくじょうの テーマです。
+   14c	= 「うたう」が\n
+	+ きょうの ぼくじょうの テーマです。
+   14d	= 「あまい かおり」が\n
+	+ きょうの ぼくじょうの テーマです。
+   14e	= 「めずらしい」が\n
+	+ きょうの ぼくじょうの テーマです。
+   14f	= 「おきにいり」が\n
+	+ きょうの ぼくじょうの テーマです。
+   150	= 「オーナー」が\n
+	+ きょうの ぼくじょうの テーマです。
+   151	= 「あずけたポケモン」が\n
+	+ きょうの ぼくじょうの テーマです。
+   152	= 「%ls」が\n
+	+ きょうの ぼくじょうの テーマです。
+   153	= 「6ひき」が\n
+	+ きょうの ぼくじょうの テーマです。
+   154	= 「20ひき」が\n
+	+ きょうの ぼくじょうの テーマです。
+   155	= 「50ひき」が\n
+	+ きょうの ぼくじょうの テーマです。
+   156	= 「100ひき」が\n
+	+ きょうの ぼくじょうの テーマです。
+   157	= 「200ひき」が\n
+	+ きょうの ぼくじょうの テーマです。
+   158	= 「500ひき」が\n
+	+ きょうの ぼくじょうの テーマです。
+   159	= 「800ひき」が\n
+	+ きょうの ぼくじょうの テーマです。
+   15a	= 「1000ひき」が\n
+	+ きょうの ぼくじょうの テーマです。
+   15b	= 「ノーマル」が\n
+	+ きょうの ぼくじょうの テーマです。
+   15c	= 「かくとう」が\n
+	+ きょうの ぼくじょうの テーマです。
+   15d	= 「ひこう」が\n
+	+ きょうの ぼくじょうの テーマです。
+   15e	= 「どく」が\n
+	+ きょうの ぼくじょうの テーマです。
+   15f	= 「じめん」が\n
+	+ きょうの ぼくじょうの テーマです。
+   160	= 「いわ」が\n
+	+ きょうの ぼくじょうの テーマです。
+   161	= 「むし」が\n
+	+ きょうの ぼくじょうの テーマです。
+   162	= 「ゴースト」が\n
+	+ きょうの ぼくじょうの テーマです。
+   163	= 「はがね」が\n
+	+ きょうの ぼくじょうの テーマです。
+   164	= ?
+   165	= 「ほのお」が\n
+	+ きょうの ぼくじょうの テーマです。
+   166	= 「みず」が\n
+	+ きょうの ぼくじょうの テーマです。
+   167	= 「くさ」が\n
+	+ きょうの ぼくじょうの テーマです。
+   168	= 「でんき」が\n
+	+ きょうの ぼくじょうの テーマです。
+   169	= 「エスパー」が\n
+	+ きょうの ぼくじょうの テーマです。
+   16a	= 「こおり」が\n
+	+ きょうの ぼくじょうの テーマです。
+   16b	= 「ドラゴン」が\n
+	+ きょうの ぼくじょうの テーマです。
+   16c	= 「あく」が\n
+	+ きょうの ぼくじょうの テーマです。
+   16d	= 「●」が\n
+	+ きょうの ぼくじょうの テーマです。
+   16e	= 「▲」が\n
+	+ きょうの ぼくじょうの テーマです。
+   16f	= 「■」が\n
+	+ きょうの ぼくじょうの テーマです。
+   170	= 「♥」が\n
+	+ きょうの ぼくじょうの テーマです。
+   171	= 「★」が\n
+	+ きょうの ぼくじょうの テーマです。
+   172	= 「◆」が\n
+	+ きょうの ぼくじょうの テーマです。
+   173	= 「あか」が\n
+	+ きょうの ぼくじょうの テーマです。
+   174	= 「あお」が\n
+	+ きょうの ぼくじょうの テーマです。
+   175	= 「きいろ」が\n
+	+ きょうの ぼくじょうの テーマです。
+   176	= 「みどり」が\n
+	+ きょうの ぼくじょうの テーマです。
+   177	= 「くろ」が\n
+	+ きょうの ぼくじょうの テーマです。
+   178	= 「ちゃいろ」が\n
+	+ きょうの ぼくじょうの テーマです。
+   179	= 「むらさき」が\n
+	+ きょうの ぼくじょうの テーマです。
+   17a	= 「はいいろ」が\n
+	+ きょうの ぼくじょうの テーマです。
+   17b	= 「しろ」が\n
+	+ きょうの ぼくじょうの テーマです。
+   17c	= 「ピンク」が\n
+	+ きょうの ぼくじょうの テーマです。
+   17d	= 「ちいさい」が\n
+	+ きょうの ぼくじょうの テーマです。
+   17e	= 「おおきい」が\n
+	+ きょうの ぼくじょうの テーマです。
+   17f	= 「かるい」が\n
+	+ きょうの ぼくじょうの テーマです。
+   180	= 「おもい」が\n
+	+ きょうの ぼくじょうの テーマです。
+   181	= 「あつい」が\n
+	+ きょうの ぼくじょうの テーマです。
+   182	= 「つめたい」が\n
+	+ きょうの ぼくじょうの テーマです。
+   183	= 「こわい」が\n
+	+ きょうの ぼくじょうの テーマです。
+   184	= 「すばやい」が\n
+	+ きょうの ぼくじょうの テーマです。
+   185	= 「まるい」が\n
+	+ きょうの ぼくじょうの テーマです。
+   186	= 「とぶ」が\n
+	+ きょうの ぼくじょうの テーマです。
+   187	= 「がんじょう」が\n
+	+ きょうの ぼくじょうの テーマです。
+   188	= 「きあいが はいってる」が\n
+	+ きょうの ぼくじょうの テーマです。
+   189	= 「しびれる」が\n
+	+ きょうの ぼくじょうの テーマです。
+   18a	= 「マイペース」が\n
+	+ きょうの ぼくじょうの テーマです。
+   18b	= 「どんかん」が\n
+	+ きょうの ぼくじょうの テーマです。
+   18c	= 「くさい」が\n
+	+ きょうの ぼくじょうの テーマです。
+   18d	= 「うたう」が\n
+	+ きょうの ぼくじょうの テーマです。
+   18e	= 「あまい かおり」が\n
+	+ きょうの ぼくじょうの テーマです。
+   18f	= 「めずらしい」が\n
+	+ きょうの ぼくじょうの テーマです。
+   190	= I'm very proud of this Ranch!\n
+	+ Check out every corner of it!
+   191	= To leave this Ranch, move the\n
+	+ cursor onto the door located at\n
+	+ the top left of the screen and\n
+	+ press \x{e042}.
+   192	= Enjoy!
+   193	= I'm very proud of this Ranch!\n
+	+ Check out every corner of it!
+   194	= To leave this Ranch, move the\n
+	+ cursor onto the door located at\n
+	+ the top left of the screen and\n
+	+ press \x{e042}.
+   195	= Enjoy!
+   196	= %2$ls has arrived\n
+	+ from %1$ls\n
+	+ Ranch.
+   197	= Hello!\n
+	+ I brought a picture of\n
+	+ %ls Ranch.
+   198	= Hello!\n
+	+ I'm %2$ls\n
+	+ from %1$ls Ranch!
+   199	= Hello!\n
+	+ I brought a picture of\n
+	+ %ls Ranch.
+   19a	= Hello!\n
+	+ I'm %2$ls\n
+	+ from %1$ls Ranch.
+   19b	= Why don't you come to\n
+	+ %ls Ranch?
+   19c	= Okay!\n
+	+ Let's go to\n
+	+ %ls Ranch!
+   19d	= Okay. Maybe next time.
+   19e	= Hope to see you again!\n
+	+ Good-bye!
+   19f	= Would you like to come to\n
+	+ %ls Ranch?
+   1a0	= Okay!\n
+	+ Let's go to\n
+	+ %ls Ranch!
+   1a1	= Okay. Maybe next time.
+   1a2	= Hope to see you again!\n
+	+ Good-bye!
+   1a3	= Do you want to go?
+   1a4	= Thanks for visiting\n
+	+ %ls Ranch!
+   1a5	= I will visit again and invite you\n
+	+ to my Ranch. See you then!
+   1a6	= Thanks again, and take care!
+   1a7	= Thanks for visiting\n
+	+ %ls Ranch!
+   1a8	= I will visit again and invite you\n
+	+ to my Ranch. See you then!
+   1a9	= Thanks again, and take care!
+   1aa	= How do you do?
+   1ab	= So... This is your and Hayley's\n
+	+ Ranch? Looks nice!
+   1ac	= My name is %2$ls, \n
+	+ a member of Club Look-See.\n
+	+ My Member No. is %1$d!
+   1ad	= The mottos of Club Look-See\n
+	+ are...
+   1ae	= Ranch!\n
+	+ That's something you should be\n
+	+ picky about!
+   1af	= Ranch!\n
+	+ That's something you should\n
+	+ show off to as many people as\n
+	+ you can!
+   1b0	= These are mottos of the Club!
+   1b1	= Now, I want to show you my\n
+	+ Ranch! The one I really care\n
+	+ about.
+   1b2	= Will you come to my Ranch?
+   1b3	= Come on! Don't be shy!
+   1b4	= I want you to know how great\n
+	+ Club Look-See can be!
+   1b5	= All right! That's the way!\n
+	+ Okay, let's go to my Ranch!
+   1b6	= So... This is your and Hayley's\n
+	+ Ranch? I heard a great deal\n
+	+ about it!
+   1b7	= My name is %2$ls,\n
+	+ a member of Club Look-See.\n
+	+ My Member No. is %1$d!
+   1b8	= Haha!\n
+	+ Do you know what my favorite\n
+	+ Pokémon is?
+   1b9	= Visit my Ranch to find out!
+   1ba	= All right! That's the way!\n
+	+ Okay, let's go to my Ranch!
+   1bb	= I see...\n
+	+ That's too bad. I really wanted\n
+	+ to show you my Ranch.
+   1bc	= I will come back and invite you\n
+	+ to my Ranch again, so until\n
+	+ next time!
+   1bd	= So long!\n
+	+ \n
+	+ Look-See ya!
+   1be	= So... This is your and Hayley's\n
+	+ Ranch? I heard so much\n
+	+ about it!
+   1bf	= My name is %2$ls,\n
+	+ a member of Club Look-See.\n
+	+ My Member No. is %1$d!
+   1c0	= Hehe.\n
+	+ Do you want to take a guess\n
+	+ which Pokémon I love?
+   1c1	= Would you like to come to my\n
+	+ Ranch to find out?
+   1c2	= Yes? Cool!\n
+	+ Okay, let's go to my Ranch!
+   1c3	= I see...\n
+	+ That's too bad. I really wanted\n
+	+ to show you my Ranch.
+   1c4	= I will come back and invite you\n
+	+ to my Ranch again, so until\n
+	+ next time!
+   1c5	= So long!\n
+	+ \n
+	+ Look-See ya!
+   1c6	= かいいんばんごう %1$dばん\n
+	+ %2$ls、\n
+	+ ただいま さんじょう!
+   1c7	= よんだ ってことは……\n
+	+ ぼくの ぼくじょうが みたいんだね?
+   1c8	= かいいんばんごう %1$dばん\n
+	+ %2$ls、\n
+	+ ただいま さんじょう!
+   1c9	= よんだ ってことは……\n
+	+ ワタシの ぼくじょうが みたいのね?
+   1ca	= いまから また ぼくの ぼくじょうを\n
+	+ みにきて くれないかな?
+   1cb	= いまから また ワタシの ぼくじょうを\n
+	+ みにきて くれないかしら?
+   1cc	= Thanks for coming and\n
+	+ checking out my Ranch!
+   1cd	= You know?\n
+	+ Having people like you at\n
+	+ my Ranch is really encouraging!
+   1ce	= Hope you don't mind me telling\n
+	+ other members about you!
+   1cf	= When you meet other members\n
+	+ of Club Look-See, please take\n
+	+ the time to visit their Ranches!
+   1d0	= あっ、それから!\n
+	+ 「けいじばん」から よんでくれれば\n
+	+ むかえにいくよ。\n
+	+ また いつでも あそびにきてくれ。
+   1d1	= All right, please take care!
+   1d2	= So...how did you like it?\n
+	+ Are you impressed?
+   1d3	= Didn't my Ranch serve as a\n
+	+ good inspiration for your\n
+	+ Ranch?
+   1d4	= When you meet other members\n
+	+ of Club Look-See, please take\n
+	+ some time to visit their\n
+	+ Ranches!
+   1d5	= 「けいじばん」から よんでくれれば\n
+	+ むかえにいくよ。\n
+	+ また いつでも あそびにきてくれ。\n
+	+ たのんだよ!
+   1d6	= All right, please take care!
+   1d7	= Thanks for visiting my Ranch!\n
+	+ How was it? Did you like it?
+   1d8	= I hope my Ranch served as a\n
+	+ good inspiration for your\n
+	+ Ranch!
+   1d9	= When you meet other members\n
+	+ of Club Look-See, take some\n
+	+ time to visit their Ranches,\n
+	+ will ya?
+   1da	= 「けいじばん」から よんでくれれば\n
+	+ むかえにいくわよ。\n
+	+ また いつでも あそびにきてね。\n
+	+ おねがいよ!
+   1db	= Okay, please take care!
+   1dc	= Look-See ya!
+   1dd	= %ls is staying\n
+	+ at this Ranch until\n
+	+ %ls.。
+   1de	= %ls is staying\n
+	+ at this Ranch until\n
+	+ %ls.
+   1df	= You have a guest visiting the \n
+	+ Ranch!
+   1e0	= You have a guest visiting the \n
+	+ Ranch!
+   1e1	= If you bring %ls,\n
+	+ you can trade it for\n
+	+ %ls.
+   1e2	= Sending %ls\n
+	+ to %ls!
+   1e3	= Bye-bye, %ls!
+   1e4	= Take good care of\n
+	+ %ls!
+   1e5	= Oh? It's %ls.\n
+	+ Isn't this Pokémon what...\n
+	+ %ls was\n
+	+ looking for?
+   1e6	= Trade %ls\n
+	+ for %ls's\n
+	+ %ls?
+   1e7	= %ls's\n
+	+ %ls looks\n
+	+ like this.
+   1e8	= I see. That's okay.\n
+	+ %ls's\n
+	+ %ls looks pretty\n
+	+ nice, you know?
+   1e9	= %ls looked\n
+	+ very happy! Thanks for trading!
+   1ea	= Ah...the %ls you\n
+	+ just brought to the Ranch...\n
+	+ I always wanted one, too!
+   1eb	= Will you trade it in return for\n
+	+ my %ls?
+   1ec	= Oh! %ls!\n
+	+ A Pokémon I've always wanted!
+   1ed	= Hey, why don't you trade your\n
+	+ %ls for\n
+	+ my %ls?
+   1ee	= My %ls\n
+	+ looks like this.
+   1ef	= I see. That's okay.\n
+	+ Just let me play with your\n
+	+ %ls here then!
+   1f0	= By the way, I am trying so hard\n
+	+ to catch %ls,\n
+	+ but with no luck...
+   1f1	= If you happen to catch\n
+	+ %ls, will you\n
+	+ trade it in return for\n
+	+ my %ls?
+   1f2	= See? Not a bad deal, is it?\n
+	+ Please bring %ls\n
+	+ to the Ranch once you catch it!
+   1f3	= Thank you for the trade!\n
+	+ Please take good care of\n
+	+ %ls!
+   1f4	= By the way, I want to regain the\n
+	+ feeling I had when I first\n
+	+ started taking care of Pokémon.
+   1f5	= So, I want an Egg without\n
+	+ knowing what Pokémon\n
+	+ hatches from it!
+   1f6	= 
+   1f7	= If you find an Egg,\n
+	+ will you trade it in return for\n
+	+ my %ls?
+   1f8	= See? Not a bad deal, is it?\n
+	+ Please bring an Egg to the\n
+	+ Ranch when you find one!
+   1f9	= Trade Pokémon?
+   1fa	= Trade this %ls?
+   1fb	= Okay...\n
+	+ Trade this %ls?
+   1fc	= Are you sure you want to trade\n
+	+ this %ls?
+   1fd	= It's holding an item. Do you still\n
+	+ want to trade this Pokémon?
+   1fe	= Oh?\n
+	+ You want to cancel trading?
+   1ff	= %ls  %ls  Lv. %d\n
+	+ Name: %ls\n
+	+ OT: %ls\n
+	+ Trainer: %ls\n
+	+ Mark: %ls
+   200	= %ls  %ls  Lv. %d\n
+	+ Name: %ls\n
+	+ OT: %ls
+   201	= Egg\n
+	+ Obtained: %ls\n
+	+ Trainer: %ls\n
+	+ Mark: %ls
+   202	= Thank you for bringing your\n
+	+ Pokémon to the Ranch!
+   203	= This will make the Ranch more\n
+	+ fun and lively!
+   204	= I'd like for you to keep bringing\n
+	+ Pokémon to the Ranch, but...
+   205	= If you're going to catch\n
+	+ Pokémon anyway, why don't\n
+	+ you try to catch Pokémon not\n
+	+ found in your Pokédex?
+   206	= According to your Pokédex,\n
+	+ you have...\n
+	+ Seen: %d\n
+	+ Obtained: %d
+   207	= According to your Pokédex,\n
+	+ you have...\n
+	+ Seen: %d\n
+	+ Obtained: %d
+   208	= How great! You have collected\n
+	+ all the Pokémon in the Pokédex!
+   209	= I thought I could help you to\n
+	+ complete your Pokédex, but\n
+	+ I guess there is no need for it.
+   20a	= You've got skills!\n
+	+ Maybe I can ask you for a\n
+	+ Pokémon I am interested in?
+   20b	= To complete your Pokédex...\n
+	+ Let me see...
+   20c	= Ah!\n
+	+ How about this Pokémon?
+   20d	= Okay.\n
+	+ I've been thinking about asking\n
+	+ you to bring some more\n
+	+ Pokémon to the Ranch.
+   20e	= Knowing you have the skills\n
+	+ to complete your Pokédex,\n
+	+ may I ask you a favor again?
+   20f	= Since last time,\n
+	+ the number has increased by...\n
+	+ Seen: %d\n
+	+ Obtained: %d
+   210	= Since last time,\n
+	+ the number has increased by...\n
+	+ Seen: %d\n
+	+ Obtained: %d
+   211	= You finally completed your\n
+	+ Pokédex! That's awesome!
+   212	= Since you have such skill to\n
+	+ complete the Pokédex, may I\n
+	+ ask for a Pokémon I'm\n
+	+ interested in?
+   213	= Wow!\n
+	+ You've finally seen all the\n
+	+ Pokémon in the Pokédex!\n
+	+ Congratulations!
+   214	= この ちょうしで、ポケモンずかんの\n
+	+ ポケモンを ぜんぶ\n
+	+ つかまえよう!
+   215	= このまえから\n
+	+ みつけたかずが %dひき、\n
+	+ つかまえたかずが %dひき、\n
+	+ ふえたみたいね。
+   216	= このまえから\n
+	+ みつけたかずが %d%ls、\n
+	+ つかまえたかずが %d%ls、\n
+	+ ふえたみたいね。
+   217	= You are one step closer to\n
+	+ completing your Pokédex!\n
+	+ Congratulations!
+   218	= To complete your Pokédex...\n
+	+ Let me see..
+   219	= Ah!\n
+	+ How about this Pokémon?
+   21a	= my preferred
+   21b	= %ls has left.
+   21c	= %ls has left.
+   21d	= BUNEARY, a Pokémon you can\n
+	+ catch in the Eterna Forest.\n
+	+ \fA cute, fluffy Pokémon, isn't it?\n
+	+ \fA BUNEARY with a high\n
+	+ Friendship level evolves into a\n
+	+ new Pokémon. How about you\n
+	+ treat it well and make it happy?
+   21e	= This STARAVIA evolved from a\n
+	+ STARLY I was taking care of.\n
+	+ \fIt will take you anywhere once\n
+	+ it learns Fly, and you can count\n
+	+ on it during battle, too!
+   21f	= SHROOMISH, a Pokémon you\n
+	+ can catch in the Pastoria\n
+	+ Great Marsh.\n
+	+ \fIt learns moves that are\n
+	+ useful for catching Pokémon.\n
+	+ \fMaybe you can catch more\n
+	+ Pokémon when you have it in\n
+	+ your party?
+   220	= FINNEON, a Pokémon I caught\n
+	+ on Route 205 using the\n
+	+ Good Rod.\n
+	+ \fOnce it evolves, it may become\n
+	+ a more attractive Pokémon!
+   221	= I caught this PACHIRISU on\n
+	+ Route 205.\n
+	+ \fIt has a fluffy tail. A very cute\n
+	+ Pokémon, isn't it?\n
+	+ Its bucktoothed smile is also\n
+	+ very charming!
+   222	= PONYTA, a Pokémon you can\n
+	+ catch on Route 211.\n
+	+ \fWith a red fiery tail and a\n
+	+ cool mane, it's the perfect\n
+	+ Pokémon to have on the Ranch!
+   223	= SHELLOS, a Pokémon I caught\n
+	+ on Route 213.\n
+	+ \fIts colors differ from region\n
+	+ to region.\n
+	+ \fMaybe you can look for a pink\n
+	+ SHELLOS on Route 205?
+   224	= I caught a CROAGUNK in the\n
+	+ Pastoria Great Marsh.\n
+	+ \fIt may be feisty, but it's hard to\n
+	+ hate that face!\n
+	+ \fIt learns several useful moves\n
+	+ for battle.\n
+   225	= SNOVER, a Pokémon I caught\n
+	+ on Route 216.\n
+	+ \fIt's a very friendly Pokémon.\n
+	+ \fOnce it evolves, it becomes a\n
+	+ powerful Pokémon.
+   226	= PIKACHU, a Pokémon I caught\n
+	+ in the Trophy Garden.\n
+	+ \fIt's a lovely Pokémon, isn't it?\n
+	+ When you have a PIKACHU in\n
+	+ your party, you can enter into\n
+	+ Amity Square.
+   227	= WAILMER, a Pokémon I caught\n
+	+ on Route 223 using the\n
+	+ Super Rod.\n
+	+ \fI heard it evolves into a huge\n
+	+ Pokémon!
+   228	= MILTANK, a Pokémon you can\n
+	+ catch on Route 209 using\n
+	+ the Poké Radar.\n
+	+ \fDon't you think MILTANK\n
+	+ is a Pokémon that matches\n
+	+ the image of the Ranch well?
+   229	= YANMA, a Pokémon you can\n
+	+ catch in the Pastoria Great\n
+	+ Marsh.\n
+	+ \fIt evolves into a powerful\n
+	+ Pokémon by leveling it up once\n
+	+ it's learned the move\n
+	+ AncientPower.
+   22a	= LICKITUNG, a Pokémon I caught\n
+	+ near Lake Valor during a\n
+	+ Mass Outbreak.\n
+	+ \fIt's a cute Pokémon with its\n
+	+ tongue sticking out!
+   22b	= WYNAUT, a Pokémon that\n
+	+ hatched from an Egg.\n
+	+ \fI get delighted just by looking\n
+	+ at it.\n
+	+ \fI heard it evolves into an\n
+	+ interesting Pokémon.
+   22c	= EEVEE, a Pokémon I caught\n
+	+ in the Trophy Garden.\n
+	+ \fIt's a rare Pokémon that has\n
+	+ several evolutionary forms.
+   22d	= AERODACTYL, it was restored\n
+	+ from an Old Amber obtained in\n
+	+ the Underground.\n
+	+ \fIt's a Pokémon that makes you\n
+	+ believe there was a so-called\n
+	+ "ancient era," isn't it?
+   22e	= VULPIX, a Pokémon you can\n
+	+ catch on Route 209.\n
+	+ \fBecause so few have seen it,\n
+	+ you should show it off to your\n
+	+ friends!
+   22f	= TANGELA, a Pokémon you\n
+	+ can catch in the Pal Park.\n
+	+ \fIt is shrouded by vines...\n
+	+ Such a mysterious Pokémon!
+   230	= COMBEE, a Pokémon I caught\n
+	+ by putting Honey on a\n
+	+ Honey Tree.\n
+	+ \fOnly female COMBEE evolve,\n
+	+ and they're very hard to find!
+   231	= PHIONE, a special Pokémon\n
+	+ that hatched from an Egg found\n
+	+ with MANAPHY and a Pokémon\n
+	+ that gets along with it.\n
+	+ \fWhat about introducing it to\n
+	+ your friends by having it in your\n
+	+ party?
+   232	= MEW, a very rare Pokémon that\n
+	+ is said to possess the genes\n
+	+ of all Pokémon!\n
+	+ \fNo doubt it is useful for\n
+	+ battle, and you could show\n
+	+ it off to your friends!
+   233	= こんにちは! ユカリだよ。
+   234	= こんにちは! ユカリだよ。\n
+	+ おひさしぶりだね!
+   235	= ぼくじょうに いくまえに\n
+	+ ちょっと いいかな?\n
+	+ きみたちに つたえたいことが あるの。
+   236	= なんと!\n
+	+ わたしたちの ぼくじょうが\n
+	+ ポケットモンスター プラチナとも\n
+	+ つながるように なったんだよ!
+   237	= さらに!\n
+	+ ぼくじょうの いろんなとこを\n
+	+ グレードアップしちゃったよ!
+   238	= こんかい あたらしく なったのは\n
+	+ こんな ところだよ。
+   239	= それじゃ さっそく\n
+	+ あたらしく なった ぼくじょうに\n
+	+ いってみましょ!\n
+	+ レッツ ゴー!
+   23a	= ここが わたしたちの\n
+	+ あたらしく なった ぼくじょうだよ!
+   23b	= ぼくじょうが おおきく なって\n
+	+ ポケットモンスター プラチナと\n
+	+ つながるように なったよ!
+   23c	= いろんな ところが\n
+	+ まえとは かわっているけど\n
+	+ ぜんぶは おしえないでおくよ。\n
+	+ あとは これからの おたのしみ!
+   23d	= それじゃ あらためて\n
+	+ これからも よろしくね!
+

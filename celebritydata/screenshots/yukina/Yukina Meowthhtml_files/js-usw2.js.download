@@ -4,14 +4,14 @@ usw2aim=1;
 usw2state=0;
 usw2time=0;
 usw2button='START';
-usw2disp='ï¿½Ô¤Ã¤ï¿½ï¿½ï¿½ '+usw2aim+' ï¿½ï¿½ ï¿½ï¿½\nï¿½ß¤ï¿½ï¿½ï¿½ë¤«ï¿½Ê¡ï¿½';
+usw2disp='¤Ô¤Ã¤¿¤ê '+usw2aim+' ÉÃ ¤Ç\n»ß¤á¤é¤ì¤ë¤«¤Ê¡©';
 
 function usw2judge(){
 	if(usw2state==0){
 		usw2timerstart=new Date();
 		usw2state=1;
 		document.images["usw2usagi"].src='http://blog-imgs-41.fc2.com/e/w/a/ewalk2/chakin_tokeiusagi4.gif';
-		document.usw2form.usw2disp.value = 'ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½';
+		document.usw2form.usw2disp.value = '¡¦¡¦¡¦¡¦¡¦';
 		document.usw2form.usw2but.value = 'STOP';
 	}
 	else if(usw2state==1){
@@ -22,21 +22,21 @@ function usw2judge(){
 
 		if(usw2time==usw2aim){
 			document.images["usw2usagi"].src='http://blog-imgs-41.fc2.com/e/w/a/ewalk2/chakin_tokeiusagi3.gif';
-			document.usw2form.usw2disp.value = usw2time+' ï¿½ï¿½ ï¿½ï¿½ï¿½ã¥¹ï¿½ï¿½!!\nï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ã¡ï¿½ï¿½ï¿½';
+			document.usw2form.usw2disp.value = usw2time+' ÉÃ ¥¸¥ã¥¹¥È!!\n¤ª¤ª¡¼¤Ã¡ª¡ª';
 		}
 		else if(usw2time>usw2aim*0.97&&usw2time<usw2aim*1.03){
 			document.images["usw2usagi"].src='http://blog-imgs-41.fc2.com/e/w/a/ewalk2/chakin_tokeiusagi2.gif';
-			document.usw2form.usw2disp.value = usw2time+' ï¿½ï¿½ \nï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ã¡ï¿½ï¿½ï¿½';
+			document.usw2form.usw2disp.value = usw2time+' ÉÃ \n¤ª¤·¡¼¤¤¤Ã¡ª¡ª';
 		}
 		else if(usw2time>usw2aim*0.90&&usw2time<usw2aim*1.10){
 			document.images["usw2usagi"].src='http://blog-imgs-41.fc2.com/e/w/a/ewalk2/chakin_tokeiusagi2.gif';
-			document.usw2form.usw2disp.value = usw2time+' ï¿½ï¿½ \nï¿½Þ¤ï¿½ï¿½Å¤ï¿½ï¿½ï¿½';
+			document.usw2form.usw2disp.value = usw2time+' ÉÃ \n¤Þ¤À´Å¤¤¡ª';
 		}
 		else{
 			document.images["usw2usagi"].src='http://blog-imgs-41.fc2.com/e/w/a/ewalk2/chakin_tokeiusagi2.gif';
-			document.usw2form.usw2disp.value = usw2time+' ï¿½ï¿½\nï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í¤ï¿½ï¿½';
+			document.usw2form.usw2disp.value = usw2time+' ÉÃ\n¤¶¡¼¤ó¤Í¤ó¢ö';
 		}
-		document.usw2form.usw2but.value = 'ï¿½â¤¦ï¿½ï¿½ï¿½ï¿½';
+		document.usw2form.usw2but.value = '¤â¤¦°ìÅÙ';
 	}
 	else if(usw2state==2){
 		usw2state=0;

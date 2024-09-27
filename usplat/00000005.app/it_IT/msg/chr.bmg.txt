@@ -47,29 +47,30 @@
 #
 #------------------------------------------------------------------------------
 
-     0	= Hardy
-     1	= Lonely
-     2	= Brave
-     3	= Adamant
-     4	= Naughty
-     5	= Bold
-     6	= Docile
-     7	= Relaxed
-     8	= Impish
-     9	= Lax
-     a	= Timid
-     b	= Hasty
-     c	= Serious
-     d	= Jolly
-     e	= Naive
-     f	= Modest
-    10	= Mild
-    11	= Quiet
-    12	= Bashful
-    13	= Rash
-    14	= Calm
-    15	= Gentle
-    16	= Sassy
-    17	= Careful
-    18	= Quirky
+     0	= N. Ardita
+     1	= N. Schiva
+     2	= N. Audace
+     3	= N. Decisa
+     4	= N. Birbona
+     5	= N. Sicura
+     6	= N. Docile
+     7	= N. Placida
+     8	= N. Scaltra
+     9	= N. Fiacca
+     a	= N. Timida
+     b	= N. Lesta
+     c	= N. Seria
+     d	= N. Allegra
+     e	= N. Ingenua
+     f	= N. Modesta
+    10	= N. Mite
+    11	= N. Quieta
+    12	= N. Ritrosa
+    13	= N. Ardente
+    14	= N. Calma
+    15	= N. Gentile
+    16	= N. Vivace
+    17	= N. Cauta
+    18	= N. Furba
+
 

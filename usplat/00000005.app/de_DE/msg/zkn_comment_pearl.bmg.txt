@@ -47,1483 +47,1484 @@
 #------------------------------------------------------------------------------
 
      0	= 
-     1	= For some time after its birth, it\n
-	+ grows by gaining nourishment from\n
-	+ the seed on its back.
-     2	= When the bud on its back starts\n
-	+ swelling, a sweet aroma wafts to\n
-	+ indicate the flower's coming bloom.
-     3	= After a rainy day, the flower on\n
-	+ its back smells stronger. The\n
-	+ scent attracts other Pokémon.
-     4	= The fire on the tip of its tail is a\n
-	+ measure of its life. If healthy,\n
-	+ its tail burns intensely.
-     5	= In the rocky mountains where\n
-	+ CHARMELEON live, their fiery\n
-	+ tails shine at night like stars.
-     6	= It is said that CHARIZARD's fire\n
-	+ burns hotter if it has\n
-	+ experienced harsh battles.
-     7	= It shelters itself in its shell,\n
-	+ then strikes back with spouts of\n
-	+ water at every opportunity.
-     8	= It is said to live 10,000 years.\n
-	+ Its furry tail is popular as a\n
-	+ symbol of longevity.
-     9	= The jets of water it spouts from\n
-	+ the rocket cannons on its shell\n
-	+ can punch through thick steel.
-     a	= It releases a stench from its red\n
-	+ antenna to repel enemies. It\n
-	+ grows by molting repeatedly.
-     b	= A steel-hard shell protects its\n
-	+ tender body. It quietly endures\n
-	+ hardships while awaiting evolution.
-     c	= It loves the honey of flowers and\n
-	+ can locate flower patches that\n
-	+ have even tiny amounts of pollen.
-     d	= It eats its weight in leaves every\n
-	+ day. It fends off attackers with\n
-	+ the needle on its head.
-     e	= While awaiting evolution, it\n
-	+ hides from predators under\n
-	+ leaves and in nooks of branches.
-     f	= Its best attack involves flying\n
-	+ around at high speed, striking with\n
-	+ poison needles, then flying off.
-    10	= It is docile and prefers to avoid\n
-	+ conflict. If disturbed, however,\n
-	+ it can ferociously strike back.
-    11	= It flies over its wide territory in\n
-	+ search of prey, downing it\n
-	+ with its highly developed claws.
-    12	= By flapping its wings with all its\n
-	+ might, PIDGEOT can make a gust of\n
-	+ wind capable of bending tall trees.
-    13	= Cautious in the extreme, its\n
-	+ hardy vitality lets it live in\n
-	+ any kind of environment.
-    14	= It whittles its constantly growing\n
-	+ fangs by gnawing on hard things.\n
-	+ It can chew apart cinder walls.
-    15	= It flaps its small wings busily to\n
-	+ fly. Using its beak, it searches\n
-	+ in grass for prey.
-    16	= It has the stamina to keep flying\n
-	+ all day on its broad wings. It\n
-	+ fights by using its sharp beak.
-    17	= It sneaks through grass without\n
-	+ making a sound and strikes\n
-	+ unsuspecting prey from behind.
-    18	= The pattern on its belly is for\n
-	+ intimidation. It constricts foes\n
-	+ while they are frozen in fear.
-    19	= If it looses crackling power from\n
-	+ the electric pouches on its\n
-	+ cheeks, it is being wary.
-    1a	= It can loose 100,000-volt bursts\n
-	+ of electricity, instantly downing\n
-	+ foes several times its size.
-    1b	= To protect itself from attackers,\n
-	+ it curls up into a ball. It lives in\n
-	+ arid regions with minimal rainfall.
-    1c	= It curls up, then rolls into foes\n
-	+ with its back. Its sharp spines\n
-	+ inflict severe damage.
-    1d	= While it does not prefer to fight,\n
-	+ even one drop of the poison it\n
-	+ secretes from barbs can be fatal.
-    1e	= When it senses danger, it raises\n
-	+ all the barbs on its body. These\n
-	+ barbs grow slower than NIDORINO's.
-    1f	= Its entire body is armored with\n
-	+ hard scales. It will protect the\n
-	+ young in its burrow with its life.
-    20	= It scans its surroundings by\n
-	+ raising its ears out of the grass.\n
-	+ Its toxic horn is for protection.
-    21	= It has a violent disposition and\n
-	+ stabs foes with its horn, which\n
-	+ oozes poison upon impact.
-    22	= One swing of its mighty tail can\n
-	+ snap a telephone pole as if it were\n
-	+ a matchstick.
-    23	= It flies using the wings on its\n
-	+ back to collect moonlight. This\n
-	+ Pokémon is difficult to find.
-    24	= Its hearing is so acute it can\n
-	+ hear a pin drop over half a mile\n
-	+ away. It lives on quiet mountains.
-    25	= It controls balls of fire. As it\n
-	+ grows, its six tails split from\n
-	+ their tips to make more tails.
-    26	= Its nine tails are said to be\n
-	+ imbued with a mystic power.\n
-	+ It can live for a thousand years.
-    27	= When it wavers its big, round\n
-	+ eyes, it begins singing a lullaby\n
-	+ that makes everyone drowsy.
-    28	= Its fine fur feels sublime to the\n
-	+ touch. It can expand its body by\n
-	+ inhaling air.
-    29	= Disliking sunlight, it sleeps\n
-	+ deep in forests and caves\n
-	+ until sundown.
-    2a	= Once it starts sucking blood, it\n
-	+ does not stop until it is full. It\n
-	+ flies at night in search of prey.
-    2b	= It often plants its root feet in the\n
-	+ ground during the day and sows\n
-	+ seeds as it walks about at night.
-    2c	= The honey it drools from its mouth\n
-	+ smells so atrocious, it can curl\n
-	+ noses more than a mile away.
-    2d	= Its petals are the largest in the\n
-	+ world. As it walks, it scatters\n
-	+ extremely allergenic pollen.
-    2e	= Mushrooms named tochukaso grow\n
-	+ on its back. They grow along\n
-	+ with the host PARAS.
-    2f	= It is controlled by a mushroom\n
-	+ grown larger than the bug body.\n
-	+ It is said to prefer damp places.
-    30	= Its big eyes are actually clusters\n
-	+ of tiny eyes. At night, its kind is\n
-	+ drawn by light.
-    31	= It flutters its wings to scatter\n
-	+ dustlike scales. The scales leach\n
-	+ toxins if they contact skin.
-    32	= A Pokémon that lives underground.\n
-	+ Because of its dark habitat, it is\n
-	+ repelled by bright sunlight.
-    33	= Its three heads move alternately,\n
-	+ driving it through tough soil to\n
-	+ depths of over 60 miles.
-    34	= It is nocturnal in nature. If it\n
-	+ spots something shiny, its eyes\n
-	+ glitter brightly.
-    35	= A very haughty Pokémon. Among\n
-	+ fans, the size of the jewel in its\n
-	+ forehead is a topic of much talk.
-    36	= It never remembers using its\n
-	+ odd powers, so it always tilts\n
-	+ its head in puzzlement.
-    37	= The flippers of its well-developed\n
-	+ limbs give it shocking speed. It is\n
-	+ the best swimmer among Pokémon.
-    38	= It lives in treetop colonies.\n
-	+ If one becomes enraged, the whole\n
-	+ colony rampages for no reason.
-    39	= It grows angry if you see its eyes\n
-	+ and gets angrier if you run. If you\n
-	+ beat it, it gets even madder.
-    3a	= A Pokémon with a loyal nature.\n
-	+ It will remain motionless until it is\n
-	+ given an order by its Trainer.
-    3b	= Its proud and regal appearance\n
-	+ has captured the hearts of\n
-	+ people since long ago.
-    3c	= Its skin is so thin, its internal\n
-	+ organs are visible. It has trouble\n
-	+ walking on its newly grown feet.
-    3d	= The spiral pattern on its belly\n
-	+ subtly undulates. Staring at it\n
-	+ gradually causes drowsiness.
-    3e	= With its extremely tough muscles,\n
-	+ it can keep swimming in the Pacific\n
-	+ Ocean without resting.
-    3f	= Even while asleep, it maintains a\n
-	+ telepathic radar. It teleports\n
-	+ when it is threatened.
-    40	= When it uses its psychic power, it\n
-	+ emits strong alpha waves that can\n
-	+ ruin precision devices.
-    41	= Its highly developed brain is on\n
-	+ par with a supercomputer. It can\n
-	+ use all forms of psychic abilities.
-    42	= Its muscles never cramp however\n
-	+ much it trains. It lives in the\n
-	+ mountains away from humans.
-    43	= It can lift a dump truck with one\n
-	+ hand. Using that power, it helps\n
-	+ people with heavy jobs.
-    44	= It can knock a train flying with a\n
-	+ punch. However, it is terrible at\n
-	+ delicate work using its fingers.
-    45	= It prefers hot and humid\n
-	+ environments. It is quick at\n
-	+ capturing prey with its vines.
-    46	= A Pokémon that appears to be a\n
-	+ plant. It captures unwary prey by\n
-	+ dousing them with a toxic powder.
-    47	= It pools in its mouth a fluid with\n
-	+ a honeylike scent, which is really\n
-	+ an acid that dissolves anything.
-    48	= It drifts in sea currents.\n
-	+ Countless fishermen are\n
-	+ hurt by its poison stingers.
-    49	= It alerts others to danger by\n
-	+ stridently flashing the red orbs\n
-	+ on its head.
-    4a	= It is impossible to distinguish from\n
-	+ rocks. It slams against others in\n
-	+ contests of hardness.
-    4b	= It tumbles down slopes, heedless\n
-	+ of any body parts chipping off.\n
-	+ It eats a ton of rocks daily.
-    4c	= It tumbles down mountains, leaving\n
-	+ grooves from peak to base.\n
-	+ Stay clear of these grooves.
-    4d	= Its legs grow strong while it\n
-	+ chases after its parent. It runs\n
-	+ in fields and mountains all day.
-    4e	= It has astounding acceleration.\n
-	+ From a standstill, it can reach\n
-	+ top speed within 10 steps.
-    4f	= Although slow, it is skilled at\n
-	+ fishing with its tail. It does not\n
-	+ feel pain if its tail is bitten.
-    50	= Though usually dim witted, it\n
-	+ seems to become inspired if the\n
-	+ SHELLDER on its tail bites down.
-    51	= The units at its sides generate\n
-	+ electromagnetic waves that keep it\n
-	+ airborne. It feeds on electricity.
-    52	= It is actually three MAGNEMITE\n
-	+ linked by magnetism. A group can\n
-	+ set off a magnetic storm.
-    53	= It can't live without the stalk it\n
-	+ holds. That's why it defends the\n
-	+ stalk from attackers with its life.
-    54	= The brains in its two heads appear\n
-	+ to communicate emotions to each\n
-	+ other with a telepathic power.
-    55	= When DODUO evolves into this odd\n
-	+ breed, one of its heads splits into\n
-	+ two. It runs at nearly 40 mph.
-    56	= A Pokémon that lives on icebergs.\n
-	+ It swims in the sea using the point\n
-	+ on its head to break up ice.
-    57	= In snow, the pure white coat\n
-	+ covering its body obscures it from\n
-	+ predators.
-    58	= It was born when sludge in a dirty\n
-	+ stream was exposed to the moon's\n
-	+ X-rays. It appears among filth.
-    59	= A toxic fluid seeps from its body.\n
-	+ The fluid instantly kills plants and\n
-	+ trees on contact.
-    5a	= It swims backward by opening and\n
-	+ closing its two shells. Its large\n
-	+ tongue is always kept hanging out.
-    5b	= It fights by keeping its shell\n
-	+ tightly shut for protection and\n
-	+ by shooting spikes to repel foes.
-    5c	= A Pokémon born from poison gases.\n
-	+ It defeats even the largest foes\n
-	+ by enveloping them in gas.
-    5d	= It licks with its gaseous tongue\n
-	+ to steal the victim's life force.\n
-	+ It lurks in darkness for prey.
-    5e	= Lurking in the shadowy corners\n
-	+ of rooms, it awaits chances to\n
-	+ steal its prey's life force.
-    5f	= It squirms through the ground\n
-	+ using its long and rugged body.\n
-	+ It always eats while burrowing.
-    60	= It can tell what people are\n
-	+ dreaming by sniffing with its big\n
-	+ nose. It loves fun dreams.
-    61	= Seeing its swinging pendulum can\n
-	+ induce sleep in three seconds,\n
-	+ even in someone who just woke up.
-    62	= It lives in burrows dug on sandy\n
-	+ beaches. Its pincers fully grow\n
-	+ back if they are broken in battle.
-    63	= The larger pincer has 10,000-\n
-	+ horsepower strength. However, it\n
-	+ is so heavy, it is difficult to aim.
-    64	= It looks just like a Poké Ball.\n
-	+ It is dangerous because it may\n
-	+ electrocute or explode on touch.
-    65	= It is known to drift on winds if it\n
-	+ is bloated to bursting with stored\n
-	+ electricity.
-    66	= Its six eggs converse using\n
-	+ telepathy. They can quickly gather\n
-	+ if they become separated.
-    67	= It is called “The Walking Jungle.”\n
-	+ If a head grows too big, it falls\n
-	+ off and becomes an EXEGGCUTE.
-    68	= When it thinks of its dead mother,\n
-	+ it cries. Its crying makes the\n
-	+ skull it wears rattle hollowly.
-    69	= From its birth, this savage Pokémon\n
-	+ constantly holds bones. It is\n
-	+ skilled in using them as weapons.
-    6a	= Its legs can stretch double.\n
-	+ First-time foes are startled by\n
-	+ its extensible reach.
-    6b	= The arm-twisting punches it throws\n
-	+ pulverize even concrete. It rests\n
-	+ after three minutes of fighting.
-    6c	= Instead of hands, it uses its\n
-	+ tongue, which is twice its height.\n
-	+ Its sticky saliva grips anything.
-    6d	= Lighter-than-air gases in its body\n
-	+ keep it aloft. The gases not only\n
-	+ smell, they are also explosive.
-    6e	= It grows by feeding on gases\n
-	+ released by garbage. Though very\n
-	+ rare, triplets have been found.
-    6f	= Its body is clad in a thick hide,\n
-	+ and its tackles topple buildings.\n
-	+ Unfortunately, it is not smart.
-    70	= Its brain developed after it stood\n
-	+ up on its hind legs. Its drill horn\n
-	+ bores tunnels through solid rock.
-    71	= It lays several eggs a day and\n
-	+ won't share them with those\n
-	+ who have evil in their hearts.
-    72	= It is shrouded by blue vines.\n
-	+ No one has seen the face hidden\n
-	+ behind this growth of vines.
-    73	= It raises its offspring in its belly\n
-	+ pouch. It lets the baby out to\n
-	+ play only when it feels safe.
-    74	= It makes its nest in the shade of\n
-	+ corals. If it senses danger, it\n
-	+ spits murky ink and flees.
-    75	= Its spines provide protection.\n
-	+ Its fins and bones are prized as\n
-	+ traditional medicine ingredients.
-    76	= It swims at a steady 5 knots.\n
-	+ If it senses danger, it will strike\n
-	+ back with its sharp horn.
-    77	= To protect its family, it will fight\n
-	+ with its drill-sharp horn. It lives\n
-	+ in hollowed rocks in streams.
-    78	= If its body is torn, it can grow\n
-	+ back if the red core remains.\n
-	+ The core flashes at midnight.
-    79	= At the center of its body is a red\n
-	+ core, which sends mysterious\n
-	+ radio signals into the night sky.
-    7a	= Emanations from its fingertips\n
-	+ solidify the air into invisible walls\n
-	+ that repel even harsh attacks.
-    7b	= It is nearly impossible to parry\n
-	+ its attacking scythes. Its\n
-	+ movements are like a ninja's.
-    7c	= Its cries sound like human speech.\n
-	+ However, it is impossible to tell\n
-	+ what it is trying to say.
-    7d	= Half of all blackouts occur when\n
-	+ this Pokémon appears at power\n
-	+ plants and eats electricity.
-    7e	= Born in the spout of a volcano,\n
-	+ its body is covered by flames\n
-	+ that shimmer like the sun.
-    7f	= It grips prey with its pincers\n
-	+ until the prey is torn in half.\n
-	+ What it can't tear, it tosses far.
-    80	= Once it takes aim at its foe, it\n
-	+ makes a headlong charge. It is\n
-	+ famous for its violent nature.
-    81	= It is unable to swim against even\n
-	+ slow-moving currents. It always\n
-	+ splashes about for some reason.
-    82	= In ancient literature, there is a\n
-	+ record of a GYARADOS that razed\n
-	+ a village when violence flared.
-    83	= It loves crossing the sea with\n
-	+ people and Pokémon on its back.\n
-	+ It understands human speech.
-    84	= It has the ability to reconstitute\n
-	+ its entire cellular structure to\n
-	+ transform into whatever it sees.
-    85	= A rare Pokémon that adapts to\n
-	+ harsh environments by taking on\n
-	+ different evolutionary forms.
-    86	= It has evolved to be suitable for\n
-	+ an aquatic life. It can invisibly\n
-	+ melt away into water.
-    87	= It controls 10,000-volt power\n
-	+ and can raise all the fur on its\n
-	+ body as if it were sharp needles.
-    88	= It has a flame sac in its body.\n
-	+ Its body temperature tops 1,650\n
-	+ degrees Fahrenheit before battle.
-    89	= The world's first artificially\n
-	+ created Pokémon. It can travel\n
-	+ through electronic space.
-    8a	= A Pokémon that was resurrected\n
-	+ from a fossil using modern science.\n
-	+ It swam in ancient seas.
-    8b	= It is thought that this Pokémon\n
-	+ became extinct because its spiral\n
-	+ shell grew too large.
-    8c	= It is thought to have inhabited\n
-	+ beaches 300 million years ago.\n
-	+ It is protected by a stiff shell.
-    8d	= It is thought that this Pokémon\n
-	+ came onto land because its\n
-	+ prey adapted to life on land.
-    8e	= A Pokémon that roamed the skies\n
-	+ in the dinosaur era. Its teeth are\n
-	+ like saw blades.
-    8f	= It stops eating only to sleep.\n
-	+ It doesn't feel full unless it\n
-	+ eats nearly 900 pounds a day.
-    90	= A legendary bird Pokémon.\n
-	+ It can create blizzards by\n
-	+ freezing moisture in the air.
-    91	= A legendary Pokémon that is said\n
-	+ to live in thunderclouds. It freely\n
-	+ controls lightning bolts.
-    92	= One of the legendary bird Pokémon.\n
-	+ It is said that its appearance\n
-	+ indicates the coming of spring.
-    93	= It is called the “Mirage Pokémon”\n
-	+ because so few have seen it.\n
-	+ Its shed skin has been found.
-    94	= If its body takes on an aura, the\n
-	+ weather changes instantly. It is\n
-	+ said to live in seas and lakes.
-    95	= It is said to make its home\n
-	+ somewhere in the sea. It guides\n
-	+ crews of shipwrecks to shore.
-    96	= A Pokémon created by recombining\n
-	+ MEW's genes. It's said to have the\n
-	+ most savage heart among Pokémon.
-    97	= Because it can use all kinds of\n
-	+ moves, many scientists believe MEW\n
-	+ to be the ancestor of Pokémon.
-    98	= It uses the leaf on its head to\n
-	+ determine the temperature and\n
-	+ humidity. It loves to sunbathe.
-    99	= The buds that ring its neck give\n
-	+ off a spicy aroma that perks\n
-	+ people up.
-    9a	= Its breath has the fantastic\n
-	+ ability to revive dead plants and\n
-	+ flowers.
-    9b	= It has a timid nature. If it is\n
-	+ startled, the flames on its back\n
-	+ burn more vigorously.
-    9c	= It intimidates foes with the heat\n
-	+ of its flames. The fire burns more\n
-	+ strongly when it readies to fight.
-    9d	= It attacks using blasts of fire.\n
-	+ It creates heat shimmers with\n
-	+ intense fire to hide itself.
-    9e	= It has the habit of biting anything\n
-	+ with its developed jaws. Even its\n
-	+ Trainer needs to be careful.
-    9f	= Once it bites down, it won't let go\n
-	+ until it loses its fangs. New fangs\n
-	+ quickly grow into place.
-    a0	= It usually moves slowly, but it\n
-	+ goes at blinding speed when it\n
-	+ attacks and bites prey.
-    a1	= It has a very nervous nature.\n
-	+ It stands up high on its tail so it\n
-	+ can scan wide areas.
-    a2	= The mother puts its offspring to\n
-	+ sleep by curling up around them.\n
-	+ It corners foes with speed.
-    a3	= It switches its standing foot so\n
-	+ quickly, it can't be seen. It cries\n
-	+ at the same time every day.
-    a4	= If it flips its head upside down,\n
-	+ it's a sign that it is engaged in\n
-	+ very complex thinking.
-    a5	= It is so timid, it can't move if it\n
-	+ isn't with a swarm of others. It\n
-	+ conveys its feelings with scent.
-    a6	= It uses starlight as energy. When\n
-	+ more stars appear at night, the\n
-	+ patterns on its back grow larger.
-    a7	= It sets a trap by spinning a web\n
-	+ with thin but strong silk. It waits\n
-	+ motionlessly for prey to arrive.
-    a8	= It attaches silk to its prey and\n
-	+ sets it free. Later, it tracks the\n
-	+ silk to the prey and its friends.
-    a9	= A Pokémon that gained vastly\n
-	+ enhanced flying performance by\n
-	+ having its legs turn into wings.
-    aa	= It discharges positive and\n
-	+ negative electricity from its\n
-	+ antenna tips to shock its foes.
-    ab	= LANTURN's light can shine up from\n
-	+ great depths. It is nicknamed\n
-	+ “The Deep-Sea Star.”
-    ac	= It plays with others by touching\n
-	+ tails and setting off sparks. This\n
-	+ appears to be a test of courage.
-    ad	= Many appear when the night skies\n
-	+ are filled with shooting stars.\n
-	+ They disappear with sunrise.
-    ae	= It has a soft and bouncy body.\n
-	+ Once it starts bouncing, it\n
-	+ becomes impossible to stop.
-    af	= Its shell is said to be stuffed\n
-	+ with happiness that it shares with\n
-	+ kindhearted people.
-    b0	= It is said to appear in front of\n
-	+ kindly people to scatter a glowing\n
-	+ down called “joy dust.”
-    b1	= It picks food from cactus plants,\n
-	+ deftly avoiding buds and spines.\n
-	+ It seems to skip about to move.
-    b2	= This odd Pokémon can see both\n
-	+ the past and the future. It eyes\n
-	+ the sun's movement all day.
-    b3	= Its fluffy coat swells to double\n
-	+ when static electricity builds up.\n
-	+ Touching it can be shocking.
-    b4	= If its coat becomes fully charged\n
-	+ with electricity, its tail lights up.\n
-	+ It fires hair that zaps on impact.
-    b5	= The tip of its tail shines brightly.\n
-	+ In the olden days, people sent\n
-	+ signals using the tail's light.
-    b6	= When the heavy rainfall season\n
-	+ ends, it is drawn out by warm\n
-	+ sunlight to dance in the open.
-    b7	= The tip of its tail is filled with oil\n
-	+ that is lighter than water, so it\n
-	+ acts as a float.
-    b8	= Its long ears are superb sensors.\n
-	+ It can distinguish the movements\n
-	+ of living things on riverbeds.
-    b9	= It stands along paths pretending\n
-	+ to be a tree. If it starts raining,\n
-	+ it seems to disappear.
-    ba	= It gathers groups of others as\n
-	+ their leader. Its cries make\n
-	+ POLIWAG obey.
-    bb	= It drifts on winds. It is said that\n
-	+ when HOPPIP gather in fields and\n
-	+ mountains, spring is on the way.
-    bc	= It blooms when the weather warms.\n
-	+ It floats in the sky to soak up as\n
-	+ much sunlight as possible.
-    bd	= Blown by seasonal winds, it\n
-	+ circles the globe, scattering\n
-	+ cotton spores as it goes.
-    be	= It lives atop giant trees.\n
-	+ It wraps its tail around a branch\n
-	+ so it won't fall off while asleep.
-    bf	= It suddenly falls out of the sky in\n
-	+ the morning. A year after a cold\n
-	+ summer, their population explodes.
-    c0	= It gets energy from warm sunlight\n
-	+ and is known for its habit of\n
-	+ moving in pursuit of it.
-    c1	= Its eyes can see 360 degrees\n
-	+ without moving its head. It won't\n
-	+ miss prey--even those behind it.
-    c2	= When the temperature cools in the\n
-	+ evening, they emerge from water\n
-	+ to seek food along the shore.
-    c3	= A dim-witted Pokémon. It doesn't\n
-	+ care if it bumps its head into\n
-	+ boats or rocks while swimming.
-    c4	= Its fur has the look and feel of\n
-	+ velvet. The orb on its forehead\n
-	+ glows when it uses psycho-power.
-    c5	= The light of the moon changed\n
-	+ EEVEE's genetic structure. It\n
-	+ lurks in darkness for prey.
-    c6	= It appears near travelers to lure\n
-	+ them into deep forests. It is said\n
-	+ to carry misfortune.
-    c7	= Being bitten by SHELLDER gave it\n
-	+ intelligence comparable to that of\n
-	+ award-winning scientists.
-    c8	= It gets nourishment from fear\n
-	+ that it absorbs into its red orbs.\n
-	+ In daytime, it sleeps in darkness.
-    c9	= They seem to communicate among\n
-	+ each other telepathically. They\n
-	+ are always found stuck on walls.
-    ca	= It desperately tries to keep its\n
-	+ black tail hidden. It is said to be\n
-	+ proof the tail hides a secret.
-    cb	= While it sleeps, the head on its\n
-	+ tail keeps watch. The tail doesn't\n
-	+ need to sleep.
-    cc	= It looks just like a pinecone.\n
-	+ Its shell protects it from bird\n
-	+ Pokémon that peck it by mistake.
-    cd	= It is encased in a steel shell. Its\n
-	+ peering eyes are all that can be\n
-	+ seen of its mysterious innards.
-    ce	= It digs into the ground with its\n
-	+ tail and makes a mazelike nest.\n
-	+ It can fly just a little.
-    cf	= It sails on the winds with its\n
-	+ limbs extended to strike from the\n
-	+ sky. It aims for the prey's face.
-    d0	= It chews its way through boulders\n
-	+ with its sturdy jaws. Its eyes can\n
-	+ see in the darkness underground.
-    d1	= Small Pokémon flee from its scary\n
-	+ face. It is, however, considered\n
-	+ by women to be cute.
-    d2	= It is timid in spite of its looks.\n
-	+ If it becomes enraged, however,\n
-	+ it will strike with its huge fangs.
-    d3	= It shoots the poison spines on its\n
-	+ body in all directions. Its round\n
-	+ form makes it a poor swimmer.
-    d4	= It has a steel-hard body. It\n
-	+ intimidates foes by upraising its\n
-	+ eye-patterned pincers.
-    d5	= It stores berries in its shell.\n
-	+ The berries eventually ferment to\n
-	+ become delicious juices.
-    d6	= With powerful legs and claws,\n
-	+ it generates enough power to hurl\n
-	+ foes over great distances.
-    d7	= It is extremely vicious and will not\n
-	+ stop attacking until its foe is\n
-	+ incapable of moving.
-    d8	= It lets honey soak into its paws\n
-	+ so it can lick them all the time.\n
-	+ Every set of paws tastes unique.
-    d9	= In its territory, it leaves\n
-	+ scratches on trees that bear\n
-	+ delicious berries or fruits.
-    da	= Its body is made of magma.\n
-	+ If it doesn't keep moving, its\n
-	+ body will cool and harden.
-    db	= Its body temperature is roughly\n
-	+ 18,000 degrees F. Flames spout\n
-	+ from gaps in its hardened shell.
-    dc	= It loves eating mushrooms that\n
-	+ grow under dead grass. It also\n
-	+ finds hot springs while foraging.
-    dd	= Its shaggy coat makes it unable\n
-	+ to see. It checks surroundings\n
-	+ with its sensitive nose instead.
-    de	= Many live in the clean seas of the\n
-	+ south. They apparently can't live\n
-	+ in polluted waters.
-    df	= It clings to MANTINE to feed on\n
-	+ the big Pokémon's scraps. This is\n
-	+ an adaptation to avoid foes.
-    e0	= It obscures its foe's vision by\n
-	+ spitting a cloud of murky ink.\n
-	+ It makes its nest among boulders.
-    e1	= It carries food rolled up in its\n
-	+ tail. It has the habit of sharing\n
-	+ food with people lost in mountains.
-    e2	= It swims elegantly, mindless of\n
-	+ REMORAID hitching on to its broad\n
-	+ fins. It has a docile nature.
-    e3	= Despite being clad entirely in\n
-	+ iron-hard armor, it flies at\n
-	+ speeds over 180 mph.
-    e4	= It conveys its feelings using\n
-	+ different cries. It works in a pack\n
-	+ to cleverly take down prey.
-    e5	= Long ago, people imagined\n
-	+ its eerie howls to be the call\n
-	+ of the grim reaper.
-    e6	= It lives in caves on the seafloor\n
-	+ and creates giant whirlpools\n
-	+ every time it moves.
-    e7	= It is strong despite its compact\n
-	+ size. It can easily pick up and\n
-	+ carry an adult human on its back.
-    e8	= It attacks by curling up, then\n
-	+ rolling into its foe. It can blow\n
-	+ apart a house in one hit.
-    e9	= With planetary development\n
-	+ software installed, it became\n
-	+ capable of working in space.
-    ea	= Staring at its antlers creates\n
-	+ an odd sensation as if one were\n
-	+ being drawn into their centers.
-    eb	= It marks its territory by using its\n
-	+ tail like a paintbrush. There are\n
-	+ more than 5,000 different marks.
-    ec	= It is famous for its eagerness to\n
-	+ fight and always nurses injuries\n
-	+ from challenging larger foes.
-    ed	= It fights while spinning like a top.\n
-	+ The centrifugal force boosts its\n
-	+ destructive power by ten.
-    ee	= It tests everything by touching\n
-	+ with its lips, which remember\n
-	+ what it likes and dislikes.
-    ef	= It generates electricity by\n
-	+ whirling its arms. However, it\n
-	+ can't store the energy it makes.
-    f0	= Its body temperature is around\n
-	+ 1,100 degrees F. It is healthy if\n
-	+ it is breathing yellow flames.
-    f1	= It is said that kids who drink\n
-	+ MILTANK's milk grow up to become\n
-	+ hearty, healthy adults.
-    f2	= It is a Pokémon that delivers\n
-	+ happiness. Eating its egg is said\n
-	+ to make one kind to everyone.
-    f3	= It is said to have fallen with\n
-	+ lightning. It can fire thunderbolts\n
-	+ from the rain clouds on its back.
-    f4	= It is said that when it roars, a\n
-	+ volcano erupts somewhere around\n
-	+ the globe.
-    f5	= It races around the world to\n
-	+ purify fouled water. It dashes\n
-	+ away with the north wind.
-    f6	= A Pokémon that eats soil. Once it\n
-	+ has eaten a large mountain, it\n
-	+ goes to sleep so it can grow.
-    f7	= Its body is as hard as bedrock.\n
-	+ By venting pressurized gas, it can\n
-	+ launch itself like a rocket.
-    f8	= If it rampages, it knocks down\n
-	+ mountains and buries rivers. Maps\n
-	+ must be redrawn afterward.
-    f9	= It sleeps in a deep-sea trench.\n
-	+ If it flaps its wings, it is said to\n
-	+ cause a 40-day storm.
-    fa	= Its feathers are in seven colors.\n
-	+ It is said that anyone seeing it is\n
-	+ promised eternal happiness.
-    fb	= It has the power to travel across\n
-	+ time, but it is said to appear only\n
-	+ in peaceful times.
-    fc	= The soles of its feet are covered\n
-	+ by countless tiny spikes, enabling\n
-	+ it to walk on walls and ceilings.
-    fd	= It lives in dense jungles. While \n
-	+ closing in on its prey, it leaps\n
-	+ from branch to branch.
-    fe	= The leaves that grow on its arms\n
-	+ can slice down thick trees. It is\n
-	+ without peer in jungle combat.
-    ff	= A fire burns inside, so it feels\n
-	+ very warm to hug. It launches\n
-	+ fireballs of 1,800 degrees F.
-   100	= Its kicking mastery lets it loose\n
-	+ 10 kicks per second. It emits\n
-	+ sharp cries to intimidate foes.
-   101	= Flames spout from its wrists,\n
-	+ enveloping its knuckles. Its\n
-	+ punches scorch its foes.
-   102	= To alert it, the fin on its head\n
-	+ senses the flow of water. It has\n
-	+ the strength to heft boulders.
-   103	= Its sturdy legs give it sure\n
-	+ footing, even in mud. It\n
-	+ burrows into dirt to sleep.
-   104	= It can swim while towing a large\n
-	+ ship. It bashes down foes with a\n
-	+ swing of its thick arms.
-   105	= A Pokémon with a persistent\n
-	+ nature, it chases its chosen prey\n
-	+ until the prey becomes exhausted.
-   106	= It chases down prey in a pack.\n
-	+ It will never disobey the commands\n
-	+ of a skilled Trainer.
-   107	= It walks in zigzag fashion. It is\n
-	+ good at finding items in the\n
-	+ grass and even in the ground.
-   108	= It charges prey at speeds over\n
-	+ 60 mph. However, because it can\n
-	+ only run straight, it often fails.
-   109	= It spits a white silk that turns\n
-	+ sticky when it contacts air. It is\n
-	+ used to immobilize foes.
-   10a	= It drinks dew that collects on its\n
-	+ silk and waits for evolution. Its\n
-	+ hard cocoon repels attacks.
-   10b	= When flower fields bloom, it flits\n
-	+ around, collecting pollen. Despite\n
-	+ its appearance, it is savage.
-   10c	= Encased within its tough cocoon, it\n
-	+ endures attacks. It never forgets\n
-	+ the appearance of its foes.
-   10d	= It violently flutters its wings to\n
-	+ scatter toxic dust when attacked.\n
-	+ It becomes active after sunset.
-   10e	= It looks like an aquatic plant and\n
-	+ serves as a ferry to Pokémon\n
-	+ that can't swim.
-   10f	= It has a mischievous spirit. If it\n
-	+ spots an angler, it will tug on the\n
-	+ fishing line to interfere.
-   110	= If it hears festive music, all its\n
-	+ muscles fill with energy. It can't\n
-	+ help breaking out into a dance.
-   111	= When it dangles from a tree\n
-	+ branch, it looks just like an acorn.\n
-	+ It enjoys scaring other Pokémon.
-   112	= The sound of its grass flute makes\n
-	+ its listeners uneasy. It lives deep\n
-	+ in forests.
-   113	= By flapping its leafy fan, it can\n
-	+ whip up gusts of 100 ft/second\n
-	+ that can level houses.
-   114	= It has a gutsy spirit that makes\n
-	+ it bravely take on tough foes. It\n
-	+ flies in search of warm climates.
-   115	= It circles the sky in search of\n
-	+ prey. When it spots one, it dives\n
-	+ steeply to catch the prey.
-   116	= Catching sea winds with its long\n
-	+ wings, it soars as if it were a\n
-	+ glider. It folds its wings to rest.
-   117	= It acts as a delivery service by\n
-	+ carrying small Pokémon in its bill.\n
-	+ It bobs on the waves to rest.
-   118	= It uses the horns on its head to\n
-	+ sense human emotions. It is said to\n
-	+ appear in front of cheerful people.
-   119	= It is highly perceptive of its\n
-	+ Trainer's feelings. It dances when\n
-	+ it is feeling happy.
-   11a	= It will try to guard its trusted\n
-	+ Trainer with its life. It has the\n
-	+ ability to see the future.
-   11b	= It appears as if it is skating on\n
-	+ water. It draws prey with a sweet\n
-	+ scent from the tip of its head.
-   11c	= Its antennae have eye patterns\n
-	+ on them. Its four wings enable it\n
-	+ to hover and fly in any direction.
-   11d	= It spouts poison spores from the\n
-	+ top of its head. These spores\n
-	+ cause pain all over if inhaled.
-   11e	= Its short arms stretch when it\n
-	+ throws punches. Its technique is\n
-	+ equal to that of pro boxers.
-   11f	= It spends nearly all its time in a\n
-	+ day sprawled out. Just seeing it\n
-	+ makes one drowsy.
-   120	= Its heart beats at a tenfold\n
-	+ tempo, so it cannot sit still for\n
-	+ even a moment.
-   121	= The world's laziest Pokémon. When\n
-	+ it is lounging, it is actually saving\n
-	+ energy for striking back.
-   122	= It grows underground, sensing\n
-	+ its surroundings using antennae\n
-	+ instead of its virtually blind eyes.
-   123	= Because it moves so quickly, it\n
-	+ sometimes becomes unseeable. It\n
-	+ congregates around tree sap.
-   124	= A discarded bug shell that came to\n
-	+ life. Peering into the crack on its\n
-	+ back is said to steal one's spirit.
-   125	= Usually, its cries are like quiet\n
-	+ murmurs. If frightened, it shrieks\n
-	+ at the same volume as a jet plane.
-   126	= The shock waves from its cries can\n
-	+ tip over trucks. It stamps its\n
-	+ feet to power up.
-   127	= Its howls can be heard over six\n
-	+ miles away. It emits all sorts of\n
-	+ noises from the ports on its body.
-   128	= It toughens its body by slamming\n
-	+ into thick trees. Many snapped\n
-	+ trees can be found near its nest.
-   129	= It loves to match power with\n
-	+ big-bodied Pokémon. It can knock a\n
-	+ truck flying with its arm thrusts.
-   12a	= Its tail is filled with nutrients\n
-	+ necessary for growth. It plays\n
-	+ by bouncing on its tail.
-   12b	= Its nose is a magnet. As a result,\n
-	+ this Pokémon always keeps its face\n
-	+ pointing north.
-   12c	= It can't stop itself from chasing\n
-	+ moving things, and it runs in a\n
-	+ circle, chasing its own tail.
-   12d	= It is highly popular among female\n
-	+ Trainers for its sublime fur.\n
-	+ It does not keep a nest.
-   12e	= It hides in the darkness of caves.\n
-	+ Its diet of gems has transformed\n
-	+ its eyes into gemstones.
-   12f	= Attached to its head is a huge\n
-	+ set of jaws formed by horns.\n
-	+ It can chew through iron beams.
-   130	= It usually lives deep in mountains.\n
-	+ However, hunger may drive it to\n
-	+ eat railroad tracks and cars.
-   131	= For food, it digs up iron ore. It\n
-	+ smashes its steely body against\n
-	+ others to fight over territory.
-   132	= While seeking iron for food, it\n
-	+ digs tunnels by breaking through\n
-	+ bedrock with its steel horns.
-   133	= It never misses its daily yoga\n
-	+ workouts, and it heightens its\n
-	+ spiritual power through meditation.
-   134	= Through daily meditation, it hones\n
-	+ its spiritual power. It can sense\n
-	+ what others are thinking.
-   135	= Using electricity stored in its fur,\n
-	+ it stimulates its muscles to\n
-	+ heighten its reaction speed.
-   136	= It discharges electricity from its\n
-	+ mane. It creates a thundercloud\n
-	+ overhead to drop lightning bolts.
-   137	= It cheers on friends with pom-poms\n
-	+ made of sparks. It drains power\n
-	+ from telephone poles.
-   138	= It cheers on friends. If its\n
-	+ friends are losing, its body lets\n
-	+ off more and more sparks.
-   139	= It communicates with others by\n
-	+ lighting up its rear at night. It\n
-	+ loves ILLUMISE's sweet aroma.
-   13a	= With its sweet aroma, it guides\n
-	+ VOLBEAT to draw signs with light in\n
-	+ the night sky.
-   13b	= The beautiful flowers on its arms\n
-	+ have toxic thorns. Don't even\n
-	+ think about picking those flowers.
-   13c	= Almost all its body is its stomach.\n
-	+ Its harsh digestive juices quickly\n
-	+ dissolve anything it swallows.
-   13d	= It swallows anything whole.\n
-	+ It sweats toxic fluids from its\n
-	+ follicles to douse foes.
-   13e	= They swarm any foe that invades\n
-	+ their territory. Their sharp fangs\n
-	+ can tear out boat hulls.
-   13f	= Its fangs rip through sheet iron.\n
-	+ It swims at 75 mph and is known as\n
-	+ “The Bully of the Sea.”
-   140	= On sunny days, it lands on beaches\n
-	+ to bounce like a ball and play.\n
-	+ It spouts water from its nose.
-   141	= The biggest of all Pokémon.\n
-	+ It can dive to a depth of almost\n
-	+ 10,000 feet on only one breath.
-   142	= Its humped back stores intensely\n
-	+ hot magma. In rain, the magma\n
-	+ cools, slowing its movement.
-   143	= It has volcanoes on its back. If\n
-	+ magma builds up in its body, it\n
-	+ shudders, then erupts violently.
-   144	= It burns coal inside its shell for\n
-	+ energy. It blows out black soot if\n
-	+ it is endangered.
-   145	= It bounces constantly, using its\n
-	+ tail like a spring. The shock of\n
-	+ bouncing keeps its heart beating.
-   146	= It uses black pearls to amplify its\n
-	+ psycho-power. It does an odd\n
-	+ dance to gain control over foes.
-   147	= No two SPINDA have the same\n
-	+ pattern of spots. Its tottering\n
-	+ step fouls the aim of foes.
-   148	= It makes a conical pit in desert\n
-	+ sand and lies in wait at the bottom\n
-	+ for prey to come tumbling down.
-   149	= It violently shudders its wings,\n
-	+ generating ultrasonic waves to\n
-	+ induce headaches in people.
-   14a	= It whips up sandstorms with\n
-	+ powerful flaps of its wings. It is\n
-	+ known as “The Desert Spirit.”
-   14b	= By storing water in its body, this\n
-	+ desert dweller can survive for 30\n
-	+ days without water.
-   14c	= It becomes active at night,\n
-	+ seeking prey that is exhausted\n
-	+ from the day's desert heat.
-   14d	= Its wings are like cotton tufts.\n
-	+ If it perches on someone's head,\n
-	+ it looks like a cotton hat.
-   14e	= It looks like a fluffy cloud when\n
-	+ it is in flight. It hums with its\n
-	+ soprano voice.
-   14f	= It has feuded with SEVIPER for\n
-	+ many generations. Its sharp claws\n
-	+ are its biggest weapons.
-   150	= For many generations, it has\n
-	+ feuded with ZANGOOSE. It whets its\n
-	+ bladed tail on rocks for battle.
-   151	= Because it turns active on nights\n
-	+ of the full moon, it is said to have\n
-	+ some link to the lunar phases.
-   152	= A new Pokémon species, rumored\n
-	+ to be from the sun. It gives off\n
-	+ light while spinning.
-   153	= Its whiskers make a superb radar.\n
-	+ They are used to locate prey,\n
-	+ even in the murkiest of water.
-   154	= As a result of causing tremors by\n
-	+ thrashing about, it developed the\n
-	+ ability to foretell real quakes.
-   155	= Its hardy vitality enables it to\n
-	+ adapt to any environment. Its\n
-	+ pincers will never release prey.
-   156	= It is a ruffian that uses its\n
-	+ pincers to pick up and toss out\n
-	+ other Pokémon from its pond.
-   157	= It moves by spinning on its foot.\n
-	+ It is a rare Pokémon that was\n
-	+ discovered in ancient ruins.
-   158	= An ancient clay figurine that came\n
-	+ to life as a Pokémon from exposure\n
-	+ to a mysterious ray of light.
-   159	= It lived on the seafloor 100\n
-	+ million years ago and was\n
-	+ reanimated scientifically.
-   15a	= It lives in the shallows of warm\n
-	+ seas. When the tide goes out, it\n
-	+ digs up prey from beaches.
-   15b	= A Pokémon ancestor that was\n
-	+ reanimated from a fossil. It lived\n
-	+ in the sea and hunted with claws.
-   15c	= It went ashore after evolving.\n
-	+ Its entire body is clad in a sturdy\n
-	+ armor.
-   15d	= It eats anything, so it can even\n
-	+ live in polluted streams and lakes.\n
-	+ No one pays any attention to it.
-   15e	= It is the world's most beautiful\n
-	+ Pokémon. There are many works of\n
-	+ art featuring MILOTIC.
-   15f	= Its appearance changes with the\n
-	+ weather. Recently, its molecules\n
-	+ were found to be just like water.
-   160	= It can freely change its body's\n
-	+ color. The zigzag pattern on its\n
-	+ belly doesn't change, however.
-   161	= It loves vengeful emotions and\n
-	+ hangs in rows under the eaves of\n
-	+ houses where vengeful people live.
-   162	= A doll that became a Pokémon over\n
-	+ its grudge from being junked. It\n
-	+ seeks the child that disowned it.
-   163	= It doggedly pursues its prey\n
-	+ wherever it goes. However, the\n
-	+ chase is abandoned at sunrise.
-   164	= Its body is hollow. It is said that\n
-	+ those who look into its body are\n
-	+ sucked into the void.
-   165	= Because it continually ate only\n
-	+ its favorite fruit, the fruit\n
-	+ started growing around its neck.
-   166	= Emitting ultrasonic cries, it\n
-	+ floats on winds to travel great\n
-	+ distances.
-   167	= It senses coming disasters and\n
-	+ appears before people only to\n
-	+ warn them of impending danger.
-   168	= It grows strong by pushing up\n
-	+ against others en masse.\n
-	+ It loves eating sweet fruit.
-   169	= In the snow country, certain\n
-	+ folklore says a house will\n
-	+ prosper if a SNORUNT lives there.
-   16a	= To protect itself, it clads its\n
-	+ body in an armor of ice, made\n
-	+ by freezing moisture in the air.
-   16b	= It rolls across ice floes to reach\n
-	+ shore because its body is poorly\n
-	+ shaped for swimming.
-   16c	= It habitually spins things on its\n
-	+ nose. By doing so, it learns\n
-	+ textures and odors.
-   16d	= It shatters ice with its big tusks.\n
-	+ Its thick blubber repels not only\n
-	+ the cold, but also enemy attacks.
-   16e	= It makes a single pearl during\n
-	+ its lifetime. The pearl is said\n
-	+ to amplify psychic power.
-   16f	= It lives deep in the sea. With a\n
-	+ tail shaped like a small fish, it\n
-	+ attracts unsuspecting prey.
-   170	= It lives at the bottom of the sea.\n
-	+ In the springtime, its pink body\n
-	+ turns more vivid for some reason.
-   171	= A rare Pokémon discovered during\n
-	+ a deep-sea exploration. It has not\n
-	+ changed in over 100 million years.
-   172	= It lives in warm seas. It is said\n
-	+ that a couple finding this Pokémon\n
-	+ will be blessed with eternal love.
-   173	= Dreaming of one day flying, it\n
-	+ practices by leaping off cliffs\n
-	+ every day.
-   174	= Within its rugged shell, its cells\n
-	+ have begun changing. The shell\n
-	+ peels off the instant it evolves.
-   175	= As a result of its long-held dream\n
-	+ of flying, its cellular structure\n
-	+ changed, and wings grew out.
-   176	= It converses with others by using\n
-	+ magnetic pulses. In a swarm, they\n
-	+ move in perfect unison.
-   177	= It is formed by two BELDUM joining\n
-	+ together. Its steel body won't be\n
-	+ scratched if it collides with a jet.
-   178	= METANG combined to form it.\n
-	+ With four brains, it has the\n
-	+ intelligence of a supercomputer.
-   179	= Its entire body is made of rock.\n
-	+ If any part chips off in battle, it\n
-	+ attaches rocks to repair itself.
-   17a	= Its body is made of ice from the\n
-	+ ice age. It controls frigid air of\n
-	+ -328 degrees Fahrenheit.
-   17b	= Tempered by pressure underground\n
-	+ over tens of thousands of years,\n
-	+ its body cannot be scratched.
-   17c	= Its body is covered with a down\n
-	+ that can refract light in such a\n
-	+ way that it becomes invisible.
-   17d	= A highly intelligent Pokémon.\n
-	+ By folding back its wings in flight,\n
-	+ it can overtake jet planes.
-   17e	= It is said to have widened the\n
-	+ seas by causing downpours. It had\n
-	+ been asleep in a marine trench.
-   17f	= It had been asleep in underground\n
-	+ magma ever since it fiercely\n
-	+ fought KYOGRE long ago.
-   180	= It lives in the ozone layer far\n
-	+ above the clouds and cannot be\n
-	+ seen from the ground.
-   181	= It is said to have the ability to\n
-	+ grant any wish for just one week\n
-	+ every thousand years.
-   182	= An alien virus that fell to earth\n
-	+ on a meteor underwent a DNA\n
-	+ mutation to become this Pokémon.
-   183	= It undertakes photosynthesis with\n
-	+ its body, making oxygen. The leaf\n
-	+ on its head wilts if it is thirsty.
-   184	= The shell is hardened soil. Some\n
-	+ Pokémon come to peck the berries\n
-	+ growing on the trees on its back.
-   185	= Groups of this Pokémon migrating\n
-	+ in search of water have been\n
-	+ mistaken for “moving forests.”
-   186	= Its fiery rear end is fueled by\n
-	+ gas made in its belly. Even rain\n
-	+ can't extinguish the fire.
-   187	= It uses ceilings and walls to\n
-	+ launch aerial attacks. Its fiery\n
-	+ tail is but one weapon.
-   188	= Its crown of fire is indicative of\n
-	+ its fiery nature. It is beaten by\n
-	+ none in terms of quickness.
-   189	= It lives along shores in northern\n
-	+ countries. A skilled swimmer, it\n
-	+ dives for over 10 minutes to hunt.
-   18a	= Its wings deliver wicked blows that\n
-	+ snap even the thickest of trees.\n
-	+ It searches for prey in icy seas.
-   18b	= It swims as fast as a jet boat.\n
-	+ The edges of its wings are sharp\n
-	+ and can slice apart drifting ice.
-   18c	= Usually with a large flock, it is\n
-	+ barely noticeable when alone.\n
-	+ Its cries are very strident.
-   18d	= It lives in forests and fields.\n
-	+ Squabbles over territory occur\n
-	+ when flocks collide.
-   18e	= The muscles in its wings and legs\n
-	+ are strong. It can easily fly while\n
-	+ gripping a small Pokémon.
-   18f	= It constantly gnaws on logs and\n
-	+ rocks to whittle down its front\n
-	+ teeth. It nests alongside water.
-   190	= While its movements out of water\n
-	+ are sluggish, it can swim as fast\n
-	+ as any FEEBAS.
-   191	= It chats with others using the\n
-	+ sounds of its colliding antennae.\n
-	+ These sounds are fall hallmarks.
-   192	= It signals its emotions with its\n
-	+ melodies. Scientists are studying\n
-	+ these melodic patterns.
-   193	= Its forelegs have a muscle-based\n
-	+ system of generating electricity.\n
-	+ Its body shines if endangered.
-   194	= It rests its forelegs on others to\n
-	+ communicate with rhythmic electric\n
-	+ pulses from its claws.
-   195	= When its eyes gleam gold, it can\n
-	+ spot hiding prey--even those\n
-	+ taking shelter behind a wall.
-   196	= It lives alongside clear ponds.\n
-	+ It scatters pollen that induces\n
-	+ harsh sneezing and runny noses.
-   197	= With the movements of a dancer,\n
-	+ it strikes with whips that are\n
-	+ densely lined with poison thorns.
-   198	= It was resurrected from an iron\n
-	+ ball-like fossil. It downs prey with\n
-	+ its head butts.
-   199	= Its skull is as hard as iron. It is\n
-	+ a brute that tears down jungle\n
-	+ trees while catching prey.
-   19a	= It habitually polishes its face by\n
-	+ rubbing it against tree trunks. It\n
-	+ is weak to attacks from behind.
-   19b	= When attacked, they form a wall\n
-	+ with their shieldlike faces to\n
-	+ protect their young.
-   19c	= If its cloak is broken in battle,\n
-	+ it quickly remakes the cloak with\n
-	+ materials nearby.
-   19d	= Its appearance changes depending\n
-	+ on where it evolved. The materials\n
-	+ on hand become a part of its body.
-   19e	= It does not keep a nest. It flies\n
-	+ over fields and mountains in\n
-	+ constant search of floral honey.
-   19f	= It collects and delivers honey to\n
-	+ its colony. At night, they cluster\n
-	+ to form a beehive and sleep.
-   1a0	= When endangered, grubs from its\n
-	+ six-cell honeycomb strike back.\n
-	+ There is only one in a colony.
-   1a1	= It makes electricity with pouches\n
-	+ in its cheeks and shoots charges\n
-	+ from its tail. It lives atop trees.
-   1a2	= It swims by rotating its two tails\n
-	+ like a screw. When it dives, its\n
-	+ flotation sac collapses.
-   1a3	= Its flotation sac developed as a\n
-	+ result of pursuing aquatic prey.\n
-	+ It can double as a rubber raft.
-   1a4	= Sunlight colors it red. When the\n
-	+ small ball is drained of nutrients,\n
-	+ it shrivels to herald evolution.
-   1a5	= It is docile as a bud, but turns\n
-	+ cheerful when it blooms. It folds\n
-	+ back into a bud if sunlight wanes.
-   1a6	= It lives along bodies of water.\n
-	+ Its body shape has changed to\n
-	+ suit its habitat.
-   1a7	= It apparently had a huge shell for\n
-	+ protection in ancient times.\n
-	+ It lives in shallow tidal pools.
-   1a8	= They work in large colonies and\n
-	+ make rings by linking their\n
-	+ tails, apparently in friendship.
-   1a9	= It tugs on the hands of children\n
-	+ to steal them away. However, it\n
-	+ gets pulled around instead.
-   1aa	= It carries people and Pokémon\n
-	+ when it flies. But since it only\n
-	+ drifts, it can end up anywhere.
-   1ab	= When it senses danger, it perks up\n
-	+ its ears. On cold nights, it sleeps\n
-	+ with its head tucked into its fur.
-   1ac	= It is very conscious of its looks\n
-	+ and never fails to groom its ears.\n
-	+ It runs with sprightly jumps.
-   1ad	= It chants incantations. While they\n
-	+ usually torment targets, some\n
-	+ chants bring happiness.
-   1ae	= It makes its MURKROW cronies\n
-	+ bring it food. It idles its time\n
-	+ away, grooming itself in its nest.
-   1af	= With its sharp glare, it puts\n
-	+ foes in a mild hypnotic state.\n
-	+ It is a very fickle Pokémon.
-   1b0	= To make itself appear intimidatingly\n
-	+ beefy, it tightly cinches its waist\n
-	+ with its twin tails.
-   1b1	= Each time it hops, it makes a\n
-	+ ringing sound. It deafens foes by\n
-	+ emitting high-frequency cries.
-   1b2	= It sprays a nose-curling,\n
-	+ stinky fluid from its rear to\n
-	+ repel attackers.
-   1b3	= It sprays a stinky fluid from its\n
-	+ tail. The fluid smells worse the\n
-	+ longer it is allowed to fester.
-   1b4	= X-ray photos were taken to check\n
-	+ its body structure. Nothing\n
-	+ appeared, however.
-   1b5	= It can summon rain clouds.\n
-	+ People long ago revered it as the\n
-	+ bringer of plentiful harvests.
-   1b6	= It prefers arid environments. It\n
-	+ leaks water from its eyes to\n
-	+ adjust its body's fluid levels.
-   1b7	= It likes places where people\n
-	+ gather. It mimics foes to confuse\n
-	+ them, then makes its getaway.
-   1b8	= It carries a round, egg-shaped\n
-	+ rock in its belly pouch and gives\n
-	+ the rock to its friends.
-   1b9	= It keeps rhythm by flicking its\n
-	+ tail feathers like a metronome.\n
-	+ It imitates human speech.
-   1ba	= It was bound to a fissure in an\n
-	+ odd keystone as punishment for\n
-	+ misdeeds 500 years ago.
-   1bb	= It once lived in the tropics. To\n
-	+ avoid the cold, it lives in caves\n
-	+ warmed by geothermal heat.
-   1bc	= It habitually digs up and hoards\n
-	+ gems in its nest. Its loot is\n
-	+ constantly targeted by thieves.
-   1bd	= It flies at speeds equal to a jet\n
-	+ fighter plane. It never allows its\n
-	+ prey to escape.
-   1be	= It hides food under its long body\n
-	+ hair. However, it forgets it has\n
-	+ hidden the food.
-   1bf	= Its body is lithe yet powerful.\n
-	+ It can crest three mountains and\n
-	+ cross two canyons in one night.
-   1c0	= By catching the aura emanating\n
-	+ from others, it can read their\n
-	+ thoughts and movements.
-   1c1	= It enshrouds itself with sand to\n
-	+ protect itself from germs.\n
-	+ It does not enjoy getting wet.
-   1c2	= Its huge mouth is almost seven\n
-	+ feet across. It has enough power\n
-	+ to completely crush a car.
-   1c3	= It lives in arid lands. It buries\n
-	+ itself in sand and lies in wait for\n
-	+ unsuspecting prey.
-   1c4	= Its body is encased in a sturdy\n
-	+ shell. Its head rotates 180\n
-	+ degrees, eliminating blind spots.
-   1c5	= Inflating its poison sacs, it\n
-	+ makes an eerie blubbering sound\n
-	+ for intimidation.
-   1c6	= The toxin made in its poison sacs\n
-	+ is pumped to the knuckle claws\n
-	+ through tubes down its arms.
-   1c7	= Hanging from branches using its\n
-	+ tentacles, it looks like a plant.\n
-	+ It awaits prey, mouth wide open.
-   1c8	= The way its two tail fins flutter\n
-	+ while it swims has earned it the\n
-	+ nickname “BEAUTIFLY of the Sea.”
-   1c9	= To avoid detection by predators,\n
-	+ it crawls along the seafloor using\n
-	+ the two fins on its chest.
-   1ca	= Scientists discovered that the\n
-	+ distinctive patterns on its back\n
-	+ differ by region.
-   1cb	= In the spring, it grows berries\n
-	+ with the texture of frozen treats\n
-	+ around its belly.
-   1cc	= It blankets wide areas in snow by\n
-	+ whipping up blizzards. It is also\n
-	+ known as “The Ice Monster.”
-   1cd	= It sends signals to others by\n
-	+ carving odd patterns in frost-\n
-	+ covered trees and ice.
-   1ce	= It evolved from exposure to a\n
-	+ special magnetic field.\n
-	+ Three units generate magnetism.
-   1cf	= It wraps things with its extensible\n
-	+ tongue. Getting too close to it\n
-	+ will leave you soaked with drool.
-   1d0	= It puts rocks in holes in its palms\n
-	+ and uses its muscles to shoot them.\n
-	+ GEODUDE are shot at rare times.
-   1d1	= It ensnares prey by extending\n
-	+ arms made of vines. Losing arms to\n
-	+ predators does not trouble it.
-   1d2	= It pushes the tips of its two tails\n
-	+ against the foe, then lets loose\n
-	+ with over 20,000 volts of power.
-   1d3	= It blasts fireballs of over 3,600\n
-	+ degrees F from the ends of its\n
-	+ arms. It lives in volcanic craters.
-   1d4	= It will never appear where there\n
-	+ is strife. Its sightings have\n
-	+ become rare recently.
-   1d5	= By churning its wings, it creates\n
-	+ shock waves that inflict critical\n
-	+ internal injuries to foes.
-   1d6	= Just like a plant, it uses\n
-	+ photosynthesis. As a result, it is\n
-	+ always enveloped in clear air.
-   1d7	= As a protective technique, it can\n
-	+ completely freeze its fur to make\n
-	+ its hairs stand like needles.
-   1d8	= It observes prey while hanging\n
-	+ inverted from branches. When the\n
-	+ chance presents itself, it swoops!
-   1d9	= Its impressive tusks are made of\n
-	+ ice. The population thinned when it\n
-	+ turned warm after the ice age.
-   1da	= Additional software was installed\n
-	+ to make it a better Pokémon.\n
-	+ It began acting oddly, however.
-   1db	= A master of courtesy and\n
-	+ swordsmanship, it fights using\n
-	+ extending swords on its elbows.
-   1dc	= It exudes strong magnetism from\n
-	+ all over. It controls three small\n
-	+ units called Mini-Noses.
-   1dd	= The antenna on its head captures\n
-	+ radio waves from the world of spirits\n
-	+ that command it to take people there.
-   1de	= It freezes foes with an icy breath\n
-	+ nearly -60 degrees F. What seems\n
-	+ to be its body is actually hollow.
-   1df	= Its body is composed of plasma. It\n
-	+ is known to infiltrate electronic\n
-	+ devices and wreak havoc.
-   1e0	= It is said that its emergence\n
-	+ gave humans the intelligence to\n
-	+ improve their quality of life.
-   1e1	= It sleeps at the bottom of a lake.\n
-	+ Its spirit is said to leave its body\n
-	+ to fly on the lake's surface.
-   1e2	= It is thought that UXIE, MESPRIT\n
-	+ and AZELF all came from the same\n
-	+ egg.
-   1e3	= A Pokémon spoken of in legend.\n
-	+ It is said that time began moving\n
-	+ when DIALGA was born.
-   1e4	= It is said to live in a gap in the\n
-	+ spatial dimension parallel to ours.\n
-	+ It appears in mythology.
-   1e5	= It dwells in volcanic caves. It\n
-	+ digs in with its cross-shaped feet\n
-	+ to crawl on ceilings and walls.
-   1e6	= There is an enduring legend that\n
-	+ states this Pokémon towed\n
-	+ continents with ropes.
-   1e7	= A Pokémon that is said to live in a\n
-	+ world on the reverse side of ours.\n
-	+ It appears in an ancient cemetery.
-   1e8	= Shiny particles are released from\n
-	+ its wings like a veil. It is said\n
-	+ to represent the crescent moon.
-   1e9	= A Pokémon that lives in warm seas.\n
-	+ It inflates the flotation sac on its\n
-	+ head to drift and search for food.
-   1ea	= Water makes up 80% of its body.\n
-	+ This Pokémon is easily affected by\n
-	+ its environment.
-   1eb	= Folklore has it that on moonless\n
-	+ nights, this Pokémon will make\n
-	+ people see horrific nightmares.
-   1ec	= It can dissolve toxins in the air\n
-	+ to instantly transform ruined land\n
+     1	= Nach der Geburt nimmt es für eine\n
+	+ Weile Nährstoffe über den Samen\n
+	+ auf seinem Rücken auf.
+     2	= Sobald die Knospe auf seinem Rücken\n
+	+ ein süßes Aroma abgibt, steht die\n
+	+ Blüte kurz bevor.
+     3	= Nach einem Regentag riecht die\n
+	+ Blume auf seinem Rücken intensiver.\n
+	+ Das Aroma zieht andere Pokémon an.
+     4	= Lodert die Flamme auf seiner\n
+	+ Schweifspitze hell, ist GLUMANDA\n
+	+ gesund.
+     5	= GLUTEXO leben in den Bergen. Die\n
+	+ Flammen auf ihren Schweifspitzen\n
+	+ leuchten in der Nacht wie Sterne.
+     6	= Man sagt, GLURAKs Feuer lodert\n
+	+ stärker, wenn es harte Kämpfe\n
+	+ überstanden hat.
+     7	= Es zieht sich in seinen Panzer\n
+	+ zurück und greift dann mit\n
+	+ Wasserstrahlen seine Gegner an.
+     8	= Man sagt, es werde 10 000 Jahre\n
+	+ alt. Sein buschiger Schweif ist ein\n
+	+ Symbol für langes Leben.
+     9	= Der Wasserstrahl, der aus den\n
+	+ Wasserdüsen schießt, kann\n
+	+ sogar Stahlwände durchdringen.
+     a	= Seine roten Antennen sondern einen\n
+	+ Gestank ab, der Feinde verjagt. Es\n
+	+ wächst, indem es sich häutet.
+     b	= Der stahlharte Panzer schützt\n
+	+ seinen zarten Körper. Es wartet\n
+	+ geduldig auf seine Entwicklung.
+     c	= Es liebt Blütenhonig. Es findet\n
+	+ selbst Blumen, die sehr wenig\n
+	+ Pollen haben.
+     d	= Es frisst täglich sein Gewicht in\n
+	+ Blättern. Die Nadel auf seinem Kopf\n
+	+ dient der Verteidigung.
+     e	= Während es auf seine Entwicklung\n
+	+ wartet, versteckt es sich unter\n
+	+ Blättern und zwischen Ästen.
+     f	= Sein bester Angriff: Schnell auf den\n
+	+ Gegner zufliegen, mit Giftstacheln\n
+	+ zustechen und davonfliegen.
+    10	= Reizt man dieses an sich gutmütige\n
+	+ Pokémon, wehrt es sich wütend.
+    11	= Auf der Suche nach Nahrung, die es\n
+	+ mit scharfen Krallen schlägt, fliegt\n
+	+ es durch riesiges Territorium.
+    12	= Schlägt TAUBOSS mit ganzer Kraft\n
+	+ seine Flügel, beugen sich selbst\n
+	+ große Bäume durch den Windstoß.
+    13	= Es strotzt vor Lebenskraft und\n
+	+ kann in jeder Umgebung leben. Es\n
+	+ ist extrem vorsichtig.
+    14	= Es wetzt seine ständig wachsenden\n
+	+ Zähne an harten Dingen. Es kann\n
+	+ Wände aus Beton zernagen.
+    15	= Im Flug schlägt es eifrig mit den\n
+	+ Flügeln. Mit seinem Schnabel sucht\n
+	+ es im Gras nach Beute.
+    16	= Es hat genügend Ausdauer, den\n
+	+ ganzen Tag zu fliegen. Sein\n
+	+ scharfer Schnabel dient als Waffe.
+    17	= Es bewegt sich ohne einen Laut\n
+	+ durch das Gras und greift seine\n
+	+ ahnungslose Beute von hinten an.
+    18	= Das Muster auf seinem Bauch\n
+	+ schüchtert Gegner ein. Sind sie vor\n
+	+ Angst erstarrt, umklammert es sie.
+    19	= Ist es angespannt, setzt es\n
+	+ knisternd Elektrizität aus seinen\n
+	+ Backentaschen frei.
+    1a	= Es kann 100 000 Volt mit einem\n
+	+ Schlag freisetzen und so viel\n
+	+ größere Gegner besiegen.
+    1b	= Es lebt in trockenen Regionen mit\n
+	+ wenig Regen. Es rollt sich ein, um\n
+	+ sich vor Gegnern zu schützen.
+    1c	= Es rollt sich zusammen und rollt\n
+	+ dann auf Gegner zu, die durch\n
+	+ seine Stacheln Schaden nehmen.
+    1d	= Es mag keine Kämpfe. Ein einziger\n
+	+ Tropfen des Gifts aus seinen\n
+	+ Widerhaken hat eine fatale Wirkung.
+    1e	= Bei Gefahr fährt es die Wider-\n
+	+ haken am Körper aus. Diese wachsen\n
+	+ langsamer als die von NIDORINO.
+    1f	= Sein ganzer Körper ist mit harten\n
+	+ Schuppen bedeckt. Es beschützt\n
+	+ sein Junges mit seinem Leben.
+    20	= Es untersucht die Umgebung, indem\n
+	+ es die Ohren spitzt und lauscht.\n
+	+ Sein giftiges Horn schützt es.
+    21	= Es ist aggressiv und greift seine\n
+	+ Gegner mit dem Horn an, welches\n
+	+ bei Berührung Gift absondert.
+    22	= Ein Schlag mit seinem gewaltigen\n
+	+ Schweif kann einen Telegrafen-\n
+	+ masten knicken wie ein Streichholz.
+    23	= Es fliegt, indem es mit seinen\n
+	+ Flügeln schlägt. Dabei sammelt es\n
+	+ Mondlicht. Es ist schwer zu finden.
+    24	= Es kann eine Nadel hören, die in\n
+	+ 1 km Entfernung zu Boden fällt.\n
+	+ Es lebt in der Stille der Berge.
+    25	= Es beherrscht Feuerbälle. Während\n
+	+ es wächst, teilen sich seine sechs\n
+	+ Schweife, um weitere zu bilden.
+    26	= Seine neun Schweife sollen\n
+	+ mystische Kräfte besitzen. Es kann\n
+	+ tausend Jahre leben.
+    27	= Sobald es mit seinen großen, runden\n
+	+ Augen rollt, fängt es an, ein Lied\n
+	+ zu singen und jeder schläft ein.
+    28	= Sein feines Fell fühlt sich herrlich\n
+	+ an. Es kann sich größer machen,\n
+	+ indem es Luft einatmet.
+    29	= Es mag das Sonnenlicht nicht\n
+	+ und hält sich daher tief in\n
+	+ Wäldern und Höhlen auf.
+    2a	= Hat es einmal angefangen Blut zu\n
+	+ saugen, hört es erst wieder auf,\n
+	+ wenn es satt ist. Es jagt nachts.
+    2b	= Tagsüber verankert es sich mit\n
+	+ seinen Wurzelfüßen im Boden. Nachts\n
+	+ wandert es und verteilt Samen.
+    2c	= Der Honig, den es abgibt, riecht so\n
+	+ entsetzlich, dass sich sogar Nasen\n
+	+ in 2 km Entfernung rümpfen.
+    2d	= Es besitzt die größten Blätter der\n
+	+ Welt. Es verteilt beim Gehen Pollen,\n
+	+ die schreckliche Allergien auslösen.
+    2e	= Auf seinem Rücken wachsen Pilze,\n
+	+ die Tochukaso. Sie nehmen an Größe\n
+	+ zu, wenn PARAS wächst.
+    2f	= Es wird von einem Pilz, der größer\n
+	+ als sein Käferkörper ist, kontrol-\n
+	+ liert. Es bevorzugt feuchte Orte.
+    30	= Seine großen Augen bestehen aus\n
+	+ vielen kleinen Augen. Nachts wird\n
+	+ es von Licht angezogen.
+    31	= Es schlägt mit den Flügeln, um\n
+	+ staubartige Schuppen abzusondern.\n
+	+ Diese geben bei Kontakt Gift ab.
+    32	= Dieses Pokémon lebt unterirdisch.\n
+	+ Da es an Dunkelheit gewöhnt ist,\n
+	+ schreckt helles Licht es ab.
+    33	= Die drei Köpfe bewegen sich abwech-\n
+	+ selnd, um sich durch harte Erde in\n
+	+ Tiefen von bis zu 100 km zu graben.
+    34	= Ein nachtaktives Pokémon. Sieht es\n
+	+ etwas Schimmerndes, fangen\n
+	+ seine Augen an zu glänzen.
+    35	= Ein sehr stolzes Pokémon. Für Fans\n
+	+ ist die Größe des Juwels auf seiner\n
+	+ Stirn Anlass für Diskussionen.
+    36	= Es verfügt über seltsame Kräfte,\n
+	+ an die es sich nicht erinnert.\n
+	+ Daher wirkt es stets verwundert.
+    37	= Dank seiner Flossen kann es in\n
+	+ atemberaubender Geschwindigkeit\n
+	+ schwimmen.
+    38	= Es lebt mit anderen in Baumkronen.\n
+	+ Wird eines von ihnen wütend, werden\n
+	+ alle anderen auch wütend.
+    39	= Siehst du ihm in die Augen, wird es\n
+	+ wütend. Rennst du weg, wird es\n
+	+ noch wütender. Ärgerst du es...
+    3a	= Ein loyales Pokémon. Es wird erst\n
+	+ dann aktiv, wenn sein Trainer ihm\n
+	+ Anweisungen gegeben hat.
+    3b	= Mit seiner stolzen und königlichen\n
+	+ Erscheinung gewinnt es die\n
+	+ Herzen der Menschen.
+    3c	= Seine Haut ist so dünn, dass man die\n
+	+ inneren Organe sehen kann. Es hat\n
+	+ Schwierigkeiten beim Laufen.
+    3d	= Das Spiralmuster auf seinem Bauch\n
+	+ dreht sich langsam. Starrt man\n
+	+ darauf, wird einem schwindelig.
+    3e	= Es hat extrem starke Muskeln und\n
+	+ kann durch den Ozean schwimmen,\n
+	+ ohne sich ausruhen zu müssen.
+    3f	= Selbst im Schlaf ist sein telepa-\n
+	+ thisches Radar aktiv. Bei Gefahr\n
+	+ teleportiert es sich.
+    40	= Setzt es seine Psycho-Kräfte ein,\n
+	+ sondert es Alphawellen ab, die\n
+	+ Präzisionsgeräten schaden können.
+    41	= Sein hoch entwickeltes Gehirn ist\n
+	+ vergleichbar mit einem Supercompu-\n
+	+ ter. Es verfügt über Psycho-Fähig.
+    42	= Es bekommt niemals Muskelkater,\n
+	+ egal, wie sehr es trainiert. Es lebt\n
+	+ abseits d. Menschen in den Bergen.
+    43	= Es kann einen LKW mit einer Hand\n
+	+ hochheben. Es nutzt die Kraft, um\n
+	+ anderen bei der Arbeit zu helfen.
+    44	= Es kann einen Zug mit einem Schlag\n
+	+ entgleisen lassen. Für feine Ar-\n
+	+ beiten sind seine Finger ungeeignet.
+    45	= Es bevorzugt heiße und feuchte\n
+	+ Umgebungen. Seine Beute fängt es\n
+	+ blitzschnell mit seinen Ranken.
+    46	= Ein Pokémon, das wie eine Pflanze\n
+	+ aussieht. Es fängt Beute, indem es\n
+	+ giftigen Puder darüber verteilt.
+    47	= In seinem Maul sammelt sich eine\n
+	+ Flüssigkeit, die nach Honig riecht,\n
+	+ in Wahrheit aber ätzend ist.
+    48	= Es lässt sich von der Strömung\n
+	+ treiben. Viele Fischer werden\n
+	+ von seinen Giftstacheln verletzt.
+    49	= Es warnt andere vor Gefahr, indem\n
+	+ es seine roten Kugeln auf dem Kopf\n
+	+ grell aufleuchten lässt.
+    4a	= Man kann es nicht von Felsbrocken\n
+	+ unterscheiden. Es rempelt andere\n
+	+ an, um sich zu beweisen.
+    4b	= Sie rollen Abhänge herunter, wobei\n
+	+ sie auch Körperteile verlieren.\n
+	+ Sie essen eine Tonne Steine am Tag.
+    4c	= Sie rollen Berge hinunter und\n
+	+ hinterlassen Spurrillen. Halte\n
+	+ dich von diesen Rillen fern.
+    4d	= Seine Beine werden kräftig, da es\n
+	+ hinter seinen Eltern her rennt. Es\n
+	+ rennt den ganzen Tag umher.
+    4e	= Es braucht aus dem Stand nur 10\n
+	+ Schritte, um seine Höchst-\n
+	+ geschwindigkeit zu erreichen.
+    4f	= Es ist langsam, hat aber ein Talent,\n
+	+ mit seinem Schweif zu fischen. Beißt\n
+	+ etwas an, tut es ihm nicht weh.
+    50	= Ein begriffsstutziges Pokémon.\n
+	+ Beißt das MUSCHAS am Schweif zu,\n
+	+ scheint es Intelligenz zu gewinnen.
+    51	= Die Vorrichtungen an seinem Körper\n
+	+ generieren elektromagnetische\n
+	+ Wellen, die es schweben lassen.
+    52	= Eigentlich sind es drei MAGNETILO,\n
+	+ die durch Magnetismus verbunden\n
+	+ sind.
+    53	= Ohne seinen Stock kann es nicht\n
+	+ leben. Daher beschützt es den\n
+	+ Stock mit seinem Leben.
+    54	= Die Gehirne der beiden Köpfe\n
+	+ kommunizieren ihre Gefühle\n
+	+ über Telepathie.
+    55	= Entwickelt sich DODU, teilt sich\n
+	+ einer der Köpfe in zwei. Es kann\n
+	+ sich mit 60 km/h fortbewegen.
+    56	= Dieses Pokémon lebt auf Eisbergen.\n
+	+ Es schwimmt im Eiswasser und bricht\n
+	+ das Eis mithilfe seines Horns.
+    57	= Sein Körper ist mit einem weißen Fell\n
+	+ bedeckt, das es im Schnee fast\n
+	+ unsichtbar für Gegner macht.
+    58	= Es wurde geboren, als Schlamm von\n
+	+ den Strahlen des Mondes getroffen\n
+	+ wurde. Es erscheint, wo Unrat ist.
+    59	= Sein Körper sondert eine giftige\n
+	+ Substanz ab, die bei Kontakt\n
+	+ Pflanzen und Bäume vernichtet.
+    5a	= Es schwimmt rückwärts, indem es\n
+	+ seine Schale öffnet und schließt.\n
+	+ Es zeigt immer seine breite Zunge.
+    5b	= Im Kampf schließt es seine Schale,\n
+	+ um sich zu schützen. Es schießt mit\n
+	+ Stacheln auf seine Gegner.
+    5c	= Dieses PKMN entstand aus giftigen\n
+	+ Gasen. Es besiegt auch stärkere\n
+	+ Gegner, indem es sie darin einhüllt.
+    5d	= Es beleckt seine Opfer mit seiner\n
+	+ Zunge und stiehlt ihnen so Lebens-\n
+	+ kraft. Es lauert im Dunkeln auf sie.
+    5e	= Es lauert im Schatten von Räumen\n
+	+ und wartet auf Beute, der es die\n
+	+ Lebenskraft rauben kann.
+    5f	= Es gräbt sich mithilfe seines langen\n
+	+ und schroffen Körpers durch den\n
+	+ Boden. Dabei nimmt es Nahrung auf.
+    60	= Mit seiner großen Nase kann es die\n
+	+ Träume anderer erkennen.\n
+	+ Es liebt lustige Träume.
+    61	= Ein Blick auf das Pendel versetzt\n
+	+ einen in 3 Sekunden in Schlaf,\n
+	+ selbst wenn man gar nicht müde ist.
+    62	= Es lebt in Höhlen am Strand. Seine\n
+	+ Scheren wachsen nach, wenn es sie\n
+	+ im Kampf verliert.
+    63	= Die großen Scheren haben eine\n
+	+ Stärke von 10 000 PS. Aber sie sind\n
+	+ schwer und kaum zu handhaben.
+    64	= Sieht aus wie ein Pokéball. Es ist\n
+	+ gefährlich, da es bei Berührung\n
+	+ explodieren kann.
+    65	= Es lässt sich vom Wind treiben,\n
+	+ wenn es so voller Elektrizität ist,\n
+	+ dass es fast explodiert.
+    66	= Die sechs Eier kommunizieren\n
+	+ telepathisch. Werden sie getrennt,\n
+	+ finden sie sich schnell wieder.
+    67	= Man nennt es den “Laufenden\n
+	+ Dschungel”. Wird ein Kopf zu groß,\n
+	+ fällt er ab und wird zu einem OWEI.
+    68	= Denkt es an seine verstorbene\n
+	+ Mutter, weint es, wobei der Schädel\n
+	+ auf seinem Kopf hohl klingt.
+    69	= Von Geburt an trägt dieses wilde\n
+	+ Pokémon Knochen. Es setzt sie\n
+	+ talentiert als Waffen ein.
+    6a	= Seine Beine können die doppelte\n
+	+ Länge annehmen. Gegner, die das\n
+	+ nicht wissen, erschrecken.
+    6b	= Die Schläge, die es austeilt, können\n
+	+ Beton pulverisieren. Es muss sich\n
+	+ im Kampf alle 3 Minuten ausruhen.
+    6c	= Statt Händen verwendet es seine\n
+	+ Zunge, die zweimal so groß wie\n
+	+ sein Körper und klebrig ist.
+    6d	= Gase, die leichter als Luft sind,\n
+	+ lassen es schweben. Diese Gase\n
+	+ stinken und sind explosiv.
+    6e	= Es wächst, indem es Gase aufnimmt,\n
+	+ die aus dem Müll aufsteigen. Selten\n
+	+ kann man Drillinge von ihnen finden.
+    6f	= Sein Körper ist von einer dicken\n
+	+ Haut umgeben und es kann wackelige\n
+	+ Gebäude zum Einsturz bringen.
+    70	= Sein Gehirn entwickelt sich, wenn es\n
+	+ sich auf die Hinterbeine stellt. Mit\n
+	+ dem Horn bohrt es durch Gestein.
+    71	= Es legt jeden Tag mehrere Eier,\n
+	+ die es aber nicht mit denen teilt,\n
+	+ die Schlechtes im Herzen tragen.
+    72	= Es ist von blauen Ranken umgeben.\n
+	+ Niemand hat jemals das Gesicht\n
+	+ dieses Pokémon gesehen.
+    73	= Sein Nachwuchs wächst in seinem\n
+	+ Beutel heran. Nur wenn es sicher\n
+	+ ist, darf das Junge aus dem Beutel.
+    74	= Im Schatten von Korallen legt es\n
+	+ sein Nest an. Bei Gefahr versprüht\n
+	+ es Tinte und flieht.
+    75	= Seine Stacheln schützen es. Seine\n
+	+ Flossen und Knochen werden bei der\n
+	+ Herstellung von Medizin verwendet.
+    76	= Es schwimmt mit 5 Knoten. Wird es\n
+	+ angegriffen, wehrt es sich mit\n
+	+ seinem scharfen Horn.
+    77	= Um seine Familie zu schützen, setzt\n
+	+ es sein scharfes Horn ein. Es lebt\n
+	+ in ausgehöhlten Steinen im Fluss.
+    78	= Wird sein Körper verletzt, kann\n
+	+ es sich regenerieren, sofern\n
+	+ der rote Kern intakt ist.
+    79	= In der Körpermitte befindet sich\n
+	+ ein roter Kern, der mysteriöse\n
+	+ Radiowellen in die Nacht sendet.
+    7a	= Seine Fingerspitzen sondern etwas\n
+	+ ab, das die Luft zu einer\n
+	+ schützenden Wand werden lässt.
+    7b	= Es ist fast unmöglich, seinen\n
+	+ Sensen auszuweichen, da es mit der\n
+	+ Schnelligkeit eines Ninja zuschlägt.
+    7c	= Sein Ruf klingt wie menschliche\n
+	+ Sprache. Trotzdem ist nicht zu\n
+	+ verstehen, was es sagt.
+    7d	= Die Hälfte aller Stromausfälle wird\n
+	+ durch dieses PKMN ausgelöst, das\n
+	+ in E-Werken Elektrizität frisst.
+    7e	= Es wurde bei einem Vulkanausbruch\n
+	+ geboren. Sein Körper ist von\n
+	+ hellen Flammen umgeben.
+    7f	= Es hält seine Beute mit seiner\n
+	+ Zange fest und teilt sie dann. Was\n
+	+ es nicht teilen kann, wirft es fort.
+    80	= Sobald es einen Gegner ins Visier\n
+	+ genommen hat, rennt es mit dem\n
+	+ Kopf voran auf ihn zu.
+    81	= Es kann nicht einmal gegen schwache\n
+	+ Strömungen anschwimmen. Es\n
+	+ platscht ohne Unterlass herum.
+    82	= In alten Schriften wird von einem\n
+	+ GARADOS berichtet, das in einem\n
+	+ Wutanfall ein Dorf zerstörte.
+    83	= Es liebt es, das Meer mit PKMN und\n
+	+ Menschen auf dem Rücken zu über-\n
+	+ queren. Es versteht die Menschen.
+    84	= Es kann seine Zellstruktur so\n
+	+ verändern, dass es sich in alles\n
+	+ verwandeln kann, was es sieht.
+    85	= Ein seltenes PKMN, das sich seiner\n
+	+ Umgebung anpasst, indem es sich in\n
+	+ unterschiedlicher Form entwickelt.
+    86	= Es hat sich so entwickelt, dass es\n
+	+ im Wasser leben kann. Im Wasser\n
+	+ selbst wird es unsichtbar.
+    87	= Es kontrolliert 10 000 Volt. Es\n
+	+ kann sein Fell so aufstellen, dass\n
+	+ es wie scharfe Nadeln wirkt.
+    88	= In seinem Körper befindet sich eine\n
+	+ Flamme. Seine Körpertemperatur\n
+	+ liegt vor dem Kampf bei 900 Grad.
+    89	= Das erste künstlich erzeugte PKMN\n
+	+ der Welt. Es kann durch\n
+	+ elektronischen Raum reisen.
+    8a	= Dieses PKMN wurde von der modernen\n
+	+ Wissenschaft aus einem Fossil ge-\n
+	+ schaffen. Es lebte im urzeitl. Meer.
+    8b	= Man geht davon aus, dass das PKMN\n
+	+ ausgestorben ist, weil seine spiral-\n
+	+ förmige Schale zu groß wurde.
+    8c	= Man geht davon aus, dass dieses\n
+	+ PKMN vor 300 Millionen Jahren die\n
+	+ Strände bevölkerte.
+    8d	= Man geht davon aus, dass dieses\n
+	+ PKMN an Land kam, weil seine Beute\n
+	+ ebenfalls irgendwann an Land lebte.
+    8e	= Dieses PKMN flog zu Zeiten der\n
+	+ Dinosaurier am Himmel. Seine\n
+	+ Zähne sind wie Sägeblätter.
+    8f	= Nur wenn es schläft, isst es nicht.\n
+	+ Es ist erst dann satt, wenn es\n
+	+ 400 kg verdrückt hat.
+    90	= Ein Legendäres Vogel-Pokémon.\n
+	+ Es kann Blizzards verursachen,\n
+	+ indem es Feuchtigkeit gefriert.
+    91	= Ein Legendäres Vogel-Pokémon,\n
+	+ das in Gewitterwolken leben soll.\n
+	+ Es kontrolliert Blitze.
+    92	= Eines der Legendären Vogel-\n
+	+ Pokémon. Es wird als Bote des\n
+	+ Frühlings angesehen.
+    93	= Man nennt es “Illusion-Pokémon”,\n
+	+ denn nur wenige haben es gesehen.\n
+	+ Nur seine Haut wurde oft gefunden.
+    94	= Erscheint um seinen Körper eine\n
+	+ Aura, gibt es einen Wetterwechsel.\n
+	+ Es soll in Seen und Meeren leben.
+    95	= Man sagt, es lebe in den Meeren.\n
+	+ Es bringt Schiffbrüchige sicher\n
+	+ an Land.
+    96	= Die Gene von MEW wurden neu\n
+	+ angeordnet, wodurch dieses PKMN\n
+	+ entstand. Es hat ein wildes Herz.
+    97	= Es beherrscht alle möglichen\n
+	+ Attacken, daher sieht man in ihm\n
+	+ den Vorfahren aller Pokémon.
+    98	= Mit dem Blatt auf seinem Kopf\n
+	+ bestimmt es die Temperatur und\n
+	+ Feuchtigkeit. Es liebt Sonnenbäder.
+    99	= Die Knospen an seinem Hals\n
+	+ geben ein würziges Aroma ab,\n
+	+ das andere aufheitert.
+    9a	= Mit seinem Atem kann es tote\n
+	+ Pflanzen und Blumen zu neuem\n
+	+ Leben erwecken.
+    9b	= Erschrickt sich dieses scheue PKMN,\n
+	+ lodern die Flammen auf seinem\n
+	+ Rücken kräftiger.
+    9c	= Es bedroht seine Gegner mit der\n
+	+ Hitze seiner Flammen. Ist es\n
+	+ kampfbereit, lodern sie stärker.
+    9d	= Es greift seine Gegner mit Feuer\n
+	+ an. Dabei entsteht ein Hitze-\n
+	+ flimmern, in dem es sich versteckt.
+    9e	= Es hat die Angewohnheit, nach allem\n
+	+ zu schnappen, was es sieht. Selbst\n
+	+ seine Trainer müssen aufpassen.
+    9f	= Hat es einmal zugebissen, lässt es\n
+	+ erst los, wenn es seine Zähne\n
+	+ verliert, die schnell nachwachsen.
+    a0	= Eigentlich bewegt es sich langsam,\n
+	+ doch seine Beute greift es\n
+	+ blitzschnell an.
+    a1	= Ein sehr nervöses PKMN. Es steht\n
+	+ auf seinem Schweif und betrachtet\n
+	+ seine Umgebung ganz genau.
+    a2	= Es rollt sich um seine Jungen, wenn\n
+	+ diese schlafen sollen. Gegnern\n
+	+ begegnet es mit Schnelligkeit.
+    a3	= Es wechselt sein Standbein so\n
+	+ schnell, dass man es nicht sieht.\n
+	+ Jeden Tag ruft es zur selben Zeit.
+    a4	= Neigt es seinen Kopf nach unten,\n
+	+ denkt es angestrengt über\n
+	+ komplexe Dinge nach.
+    a5	= Es ist so scheu, dass es sich\n
+	+ nur dann bewegt, wenn es sich\n
+	+ in einem Schwarm befindet.
+    a6	= Es zieht Energie aus dem Licht der\n
+	+ Sterne. Je mehr Sterne zu sehen\n
+	+ sind, desto größer ist sein Muster.
+    a7	= Es baut eine Falle, indem es ein\n
+	+ Netz mit dünner, starker Seide\n
+	+ spinnt. Es wartet still auf Beute.
+    a8	= Es befestigt Seide an der Beute und\n
+	+ lässt sie frei. Es folgt dem Seiden-\n
+	+ faden zur Beute u. ihren Freunden.
+    a9	= Da seine Beine sich im Laufe der Zeit\n
+	+ zu Flügeln entwickelten, besitzt es\n
+	+ ausgezeichnete Flugfähigkeiten.
+    aa	= Über seine Antennen entlädt es\n
+	+ Elektrizität, mit der es seinen\n
+	+ Gegnern einen Schlag versetzt.
+    ab	= LANTURNs Licht kann aus großen\n
+	+ Tiefen heraufscheinen. Man nennt\n
+	+ es auch “Tiefseestern”.
+    ac	= Sie spielen miteinander, indem sie\n
+	+ ihre Schweifspitzen aneinander-\n
+	+ halten und Funken fliegen lassen.
+    ad	= In Nächten mit vielen Stern-\n
+	+ schnuppen sieht man diese PKMN.\n
+	+ Am Morgen sind sie verschwunden.
+    ae	= Es hat einen weichen, elastischen\n
+	+ Körper. Hat es einmal angefangen\n
+	+ zu hüpfen, ist es nicht zu stoppen.
+    af	= Seine Schale ist mit Glücksgefühlen\n
+	+ gefüllt, die es mit gutherzigen\n
+	+ Lebewesen teilt.
+    b0	= Man sagt, es erscheint vor denen,\n
+	+ die gutherzig sind, und verteilt\n
+	+ glänzenden “Glücksstaub”.
+    b1	= Es pickt seine Nahrung aus\n
+	+ Kakteen, wobei es Knospen und\n
+	+ Dornen verschont.
+    b2	= Dieses PKMN kann die Vergangenheit\n
+	+ und die Zukunft sehen. Es\n
+	+ beobachtet ständig die Sonne.
+    b3	= Sein weiches Fell wird doppelt so\n
+	+ dick, wenn sich Elektrizität\n
+	+ aufbaut.
+    b4	= Hat es sich mit Elektrizität aufge-\n
+	+ laden, leuchtet sein Schweif und es\n
+	+ feuert Haare ab, die sich entladen.
+    b5	= Seine Schweifspitze leuchtet hell.\n
+	+ In alten Zeiten hat man mit seiner\n
+	+ Hilfe Lichtsignale gegeben.
+    b6	= Sobald die Regenzeit vorbei ist,\n
+	+ wird es von der warmen Sonne nach\n
+	+ draußen gezogen, wo es tanzt.
+    b7	= Seine Schweifspitze ist mit Öl ge-\n
+	+ füllt, das leichter als Wasser ist,\n
+	+ so dass es nicht untergeht.
+    b8	= Seine langen Ohren sind hervor-\n
+	+ ragende Sensoren. Mit ihnen kann\n
+	+ es Bewegungen im Fluss wahrnehmen.
+    b9	= Es steht an Pfaden und tut so, als\n
+	+ sei es ein Baum. Im Regen scheint\n
+	+ es zu verschwinden.
+    ba	= Es versammelt andere PKMN um sich\n
+	+ herum und führt sie an.\n
+	+ POLIWAG gehorchen seinem Ruf.
+    bb	= Es reitet auf dem Wind. Man sagt,\n
+	+ wenn sich HOPPSPROSS ver-\n
+	+ sammeln, kommt der Frühling bald.
+    bc	= Sobald es wärmer wird, blüht es\n
+	+ auf. Es schwebt am Himmel und nimmt\n
+	+ so viel Sonnenlicht auf wie möglich.
+    bd	= Es lässt sich von den Winden um den\n
+	+ Globus tragen und verteilt auf\n
+	+ seinem Flug Baumwollsamen.
+    be	= Es lebt in den Wipfeln von Riesen-\n
+	+ bäumen. Es wickelt seinen Schweif\n
+	+ um einen Ast, um sich festzuhalten.
+    bf	= Morgens fällt es plötzlich aus dem\n
+	+ Himmel. War der Sommer kalt,\n
+	+ explodiert seine Population.
+    c0	= Warmes Sonnenlicht gibt ihm\n
+	+ Energie. Daher wandert es stets\n
+	+ dem Sonnenlicht hinterher.
+    c1	= Mit seinen Augen hat es einen Blick-\n
+	+ winkel von 360 Grad. Es sieht sogar\n
+	+ Beute, die sich hinter ihm befindet.
+    c2	= Wenn es am Abend kühler wird,\n
+	+ kommen sie an Land, um nach\n
+	+ Nahrung zu suchen.
+    c3	= Ein begriffsstutziges PKMN. Stößt\n
+	+ es sich den Kopf beim Schwimmen,\n
+	+ macht ihm das gar nichts aus.
+    c4	= Sein Fell ist wie Samt. Setzt es\n
+	+ Psycho-Kräfte ein, leuchtet die\n
+	+ Kugel in seiner Stirn.
+    c5	= Mondlicht hat die genetische\n
+	+ Struktur von EVOLI verändert.\n
+	+ Im Dunkeln wartet es auf Beute.
+    c6	= Es lockt Wanderer tief in den Wald.\n
+	+ Man sagt, es bringe Unglück.
+    c7	= Wird es von MUSCHAS gebissen, wird\n
+	+ es so intelligent, dass es sich mit\n
+	+ Nobelpreisträgern messen kann.
+    c8	= Es nährt sich von der Angst\n
+	+ anderer Wesen und nimmt diese in\n
+	+ roten Kugeln auf. Schläft am Tage.
+    c9	= Es scheint, als ob diese PKMN per\n
+	+ Telepathie miteinander\n
+	+ kommunizieren. Sie sitzen in Wänden.
+    ca	= Verzweifelt versucht es, seinen\n
+	+ schwarzen Schweif zu verstecken.\n
+	+ Er soll ein Geheimnis enthalten.
+    cb	= Während es schläft, hält sein\n
+	+ Schweif Wache. Dieser benötigt\n
+	+ keinen Schlaf.
+    cc	= Es sieht aus wie ein Tannenzapfen.\n
+	+ Seine Schale schützt es vor Vogel-\n
+	+ Pokémon, die an ihm picken wollen.
+    cd	= Dieses PKMN ist von einer Stahlhülle\n
+	+ umgeben. Seine stechenden Augen\n
+	+ sind alles, was man von ihm sieht.
+    ce	= Es gräbt sich mit seinem Schweif in\n
+	+ die Erde und baut ein labyrinth-\n
+	+ artiges Nest. Es kann kaum fliegen.
+    cf	= Es segelt durch die Lüfte und\n
+	+ breitet seine Gliedmaßen aus, um\n
+	+ aus der Luft anzugreifen.
+    d0	= Es beißt sich seinen Weg mit seinen\n
+	+ Kiefern durch Felsen. Es kann auch\n
+	+ im Dunkeln sehen.
+    d1	= Kleine PKMN fliehen beim Anblick\n
+	+ seines Gesichts. Frauen aber finden\n
+	+ es niedlich.
+    d2	= Es ist trotz seines Äußeren\n
+	+ schüchtern. Wird es wütend,\n
+	+ schnappt es mit seinen Fängen zu.
+    d3	= Es verschießt die giftigen Stacheln\n
+	+ seines Körpers in alle Richtungen.\n
+	+ Es ist kein guter Schwimmer.
+    d4	= Sein Körper ist stahlhart. Es\n
+	+ bedroht seine Gegner, indem es die\n
+	+ Augen auf seinen Scheren zeigt.
+    d5	= In seiner Schale bewahrt es Beeren\n
+	+ auf. Diese fermentieren zu einem\n
+	+ leckeren Saft.
+    d6	= Mit kräftigen Beinen und Krallen\n
+	+ kann es seine Gegner über große\n
+	+ Entfernungen schleudern.
+    d7	= Es ist sehr grausam und hört nicht\n
+	+ eher mit seinem Angriff auf, bis der\n
+	+ Gegner bewegungsunfähig ist.
+    d8	= Es lässt Honig in seine Pranken\n
+	+ eindringen, so dass es immer\n
+	+ welchen dabeihat.
+    d9	= Es durchstreift sein Revier und\n
+	+ markiert Bäume, die Früchte\n
+	+ oder Beeren tragen, mit Kratzern.
+    da	= Sein Körper besteht aus Magma.\n
+	+ Bleibt es nicht ständig in Bewegung,\n
+	+ kühlt es aus und verhärtet sich.
+    db	= Seine Körpertemperatur beträgt\n
+	+ etwa 10 000 Grad. Aus seiner Schale\n
+	+ treten immer wieder Flammen aus.
+    dc	= Es liebt Pilze, die unter totem Gras\n
+	+ wachsen. Auf der Suche nach\n
+	+ Nahrung findet es heiße Quellen.
+    dd	= Sein dichtes Fell verdeckt seine\n
+	+ Augen. Es untersucht seine\n
+	+ Umgebung mit seiner Nase.
+    de	= Viele von ihnen leben in den\n
+	+ sauberen Seen im Süden. In ver-\n
+	+ schmutzten können sie nicht leben.
+    df	= Es heftet sich an MANTAX, ernährt\n
+	+ sich von dessen Essensresten\n
+	+ und weicht so auch Gegnern aus.
+    e0	= Es versprüht dunkle Tinte, um die\n
+	+ Sicht des Gegners zu behindern. Es\n
+	+ nistet zwischen Felsen.
+    e1	= Im eingerollten Schweif transpor-\n
+	+ tiert es Futter, das es mit denen\n
+	+ teilt, die sich verlaufen haben.
+    e2	= Dieses friedliche PKMN ist ein ele-\n
+	+ ganter Schwimmer. Es stört ihn\n
+	+ nicht, dass REMORAID an ihm haftet.
+    e3	= Es wird komplett von einer eisen-\n
+	+ harten Rüstung geschützt. Wenn es\n
+	+ fliegt, erreicht es bis zu 300 km/h.
+    e4	= Durch unterschiedliche Schreie\n
+	+ drückt es seine Gefühle aus. Diese\n
+	+ PKMN jagen im Verbund nach Beute.
+    e5	= In alten Zeiten glaubte man, das\n
+	+ Heulen dieses PKMN sei der Ruf\n
+	+ des Todes.
+    e6	= Es lebt in Höhlen auf dem Meeres-\n
+	+ grund. Jedes Mal, wenn es sich\n
+	+ bewegt, entsteht ein Strudel.
+    e7	= Trotz seiner geringen Größe ist es\n
+	+ stark. Es kann einen Erwachsenen\n
+	+ mühelos auf dem Rücken tragen.
+    e8	= Wenn es angreift, rollt es sich\n
+	+ zusammen und auf den Gegner zu. Es\n
+	+ kann Häuser zum Einsturz bringen.
+    e9	= Interstellare Software wurde\n
+	+ installiert, so dass dieses PKMN\n
+	+ sich auch im All bewegen kann.
+    ea	= Starrt man auf sein Geweih, bekommt\n
+	+ man das seltsame Gefühl, in dessen\n
+	+ Mitte gezogen zu werden.
+    eb	= Sein Revier markiert es mit seinem\n
+	+ pinselartigen Schweif. Es kennt\n
+	+ mehr als 5 000 Markierungen.
+    ec	= Es ist bekannt für seine Kampfbe-\n
+	+ gierde. Es erholt sich ständig von\n
+	+ Verletzungen.
+    ed	= Es kämpft, während es sich wie ein\n
+	+ Kreisel dreht. Die Zentrifugalkraft\n
+	+ erhöht die Kampfkraft um 10.
+    ee	= Dieses PKMN berührt alles mit den\n
+	+ Lippen. Diese merken sich, was es\n
+	+ mag und nicht mag.
+    ef	= Es bewegt seine Arme und generiert\n
+	+ damit Elektrizität. Diese kann es\n
+	+ aber nicht speichern.
+    f0	= Seine Körpertemperatur liegt bei\n
+	+ etwa 600 Grad. Ist es gesund,\n
+	+ atmet es gelbe Flammen aus.
+    f1	= Man sagt, dass Kinder, die MILTANKs\n
+	+ Milch trinken, zu gesunden\n
+	+ Erwachsenen heranwachsen.
+    f2	= Dieses PKMN bringt das Glück.\n
+	+ Isst man sein Ei, so soll man\n
+	+ freundlich zu allen werden.
+    f3	= Dieses PKMN ist der personifizierte\n
+	+ Blitz. Es kann aus den Wolken über\n
+	+ seinem Rücken Blitze schleudern.
+    f4	= Man sagt, wenn es brüllt, bricht\n
+	+ irgendwo in der Welt ein Vulkan aus.
+    f5	= Es wandert beständig in der Welt\n
+	+ herum, um verunreinigtes Wasser zu\n
+	+ reinigen. Es zieht mit dem Nordwind.
+    f6	= Dieses PKMN frisst das Erdreich.\n
+	+ Hat es einen Berg verspeist,\n
+	+ schläft es ein, um zu wachsen.
+    f7	= Sein Körper ist hart wie Fels. Es\n
+	+ lässt mit Hochdruck Gas ab, um wie\n
+	+ eine Rakete nach oben zu schießen.
+    f8	= Bei einem Tobsuchtsanfall zerstört\n
+	+ es ganze Gebirge und legt Flüsse\n
+	+ trocken.
+    f9	= Es schläft in einem Tiefseegraben.\n
+	+ Schwingt es seine Flügel, entsteht\n
+	+ ein Sturm, der 40 Tage dauert.
+    fa	= Seine Federn besitzen 7 Farben.\n
+	+ Man sagt, dass demjenigen, der es\n
+	+ sieht, ewiges Glück beschieden ist.
+    fb	= Es kann durch die Zeit reisen,\n
+	+ aber es erscheint nur zu\n
+	+ friedlichen Zeiten.
+    fc	= Seine Fußsohlen sind mit kleinen\n
+	+ Stacheln bedeckt, so dass es an\n
+	+ Wänden und Decken Halt findet.
+    fd	= Es lebt im dichten Dschungel.\n
+	+ Es springt von Ast zu Ast, wenn es\n
+	+ sich einer Beute nähert.
+    fe	= Die Blätter an seinen Armen können\n
+	+ dicke Bäume fällen. Im Dschungel-\n
+	+ kampf gibt es kein stärkeres PKMN.
+    ff	= In seinem Inneren lodert ein Feuer.\n
+	+ Es schleudert 1 000 Grad heiße\n
+	+ Feuerbälle.
+   100	= Es kann 10 Tritte pro Sekunde aus-\n
+	+ teilen. Es gibt schrille Schreie von\n
+	+ sich, um Gegner einzuschüchtern.
+   101	= Aus seinen Handgelenken kommt\n
+	+ Feuer, das seine Knöchel umhüllt.\n
+	+ Schläge verbrennen den Gegner.
+   102	= Die Flosse auf seinem Kopf prüft\n
+	+ die Strömung des Wassers. Dieses\n
+	+ PKMN kann Felsen heben.
+   103	= Seine kräftigen Beine geben ihm\n
+	+ sicheren Halt. Es gräbt sich in\n
+	+ Dreck ein, wenn es schlafen will.
+   104	= Es kann im Schwimmen ein großes\n
+	+ Schiff ziehen. Seine Gegner schlägt\n
+	+ es mit Schlägen seiner Arme zurück.
+   105	= Ein beharrliches PKMN, das seine\n
+	+ Beute jagt, bis diese erschöpft\n
+	+ ist.
+   106	= Es jagt seine Beute im Rudel. Den\n
+	+ Befehlen eines erfahrenen Trainers\n
+	+ wird es stets folgen.
+   107	= Es läuft im Zickzack. Es hat das\n
+	+ Talent, Items im Gras, aber auch im\n
+	+ Boden, zu finden.
+   108	= Es stürzt sich mit 100 km/h auf\n
+	+ Beute. Aber es kann nur geradeaus\n
+	+ laufen und die Jagd misslingt oft.
+   109	= Es spuckt weiße Seide, die an der\n
+	+ Luft fest wird. Damit macht es\n
+	+ Gegner bewegungsunfähig.
+   10a	= Es trinkt den Tau, der sich in der\n
+	+ Seide fängt und wartet auf seine\n
+	+ Entwicklung. Sein Kokon schützt es.
+   10b	= Blühen die Blumen, sammelt es\n
+	+ Pollen. Es sieht zwar nicht so\n
+	+ aus, aber es ist aggressiv.
+   10c	= In seinem Kokon sicher unterge-\n
+	+ bracht, übersteht es Angriffe. Es\n
+	+ vergisst niemals einen Gegner.
+   10d	= Wird es angegriffen, flattert es mit\n
+	+ den Flügeln und verteilt giftigen\n
+	+ Puder. Es ist nachtaktiv.
+   10e	= Es sieht aus wie eine Wasser-\n
+	+ pflanze. Es dient den PKMN, die\n
+	+ nicht schwimmen können, als Fähre.
+   10f	= Es hat ein spitzbübisches Wesen.\n
+	+ Sieht es einen Angler, zieht es an\n
+	+ der Angelschnur, um ihn zu ärgern.
+   110	= Hört es fröhliche Musik, füllen sich\n
+	+ seine Muskeln mit Energie. Es muss\n
+	+ dann einfach tanzen.
+   111	= Es sieht aus wie eine Eichel, die am\n
+	+ Baum hängt. Es liebt es, andere\n
+	+ PKMN zu erschrecken.
+   112	= Der Ton seiner Grasflöte\n
+	+ beunruhigt die, die ihn hören.\n
+	+ Es lebt tief in den Wäldern.
+   113	= Seine großen Fächer erzeugen Böen,\n
+	+ die eine Geschwindigkeit von\n
+	+ 30 m/sek erreichen können.
+   114	= Es ist sehr mutig und stellt sich\n
+	+ auch starken Gegnern. Es sucht\n
+	+ ständig nach warmen Regionen.
+   115	= Es fliegt auf der Suche nach Beute\n
+	+ ständig umher. Findet es Beute,\n
+	+ stürzt es sich im Sturzflug auf sie.
+   116	= Es lässt sich vom Wind der Meere\n
+	+ treiben, als wäre es ein Segelflug-\n
+	+ zeug.
+   117	= Es transportiert kleine PKMN im\n
+	+ Schnabel von einem Ort zum anderen\n
+	+ und ruht sich auf Wellen aus.
+   118	= Mit dem Horn kann es menschliche\n
+	+ Gefühle wahrnehmen. Es erscheint\n
+	+ fröhlichen Menschen.
+   119	= Es nimmt die Gefühle seines Trainers\n
+	+ deutlich wahr. Wenn es glücklich\n
+	+ ist, tanzt es.
+   11a	= Es wird seinen Trainer mit dem Leben\n
+	+ beschützen, wenn es ihm vertraut.\n
+	+ Es kann in die Zukunft blicken.
+   11b	= Scheinbar reitet es auf dem Wasser.\n
+	+ Es lockt seine Beute mit einem\n
+	+ süßen Duft an.
+   11c	= Seine Antenne besitzt ein Augen-\n
+	+ muster. Seine vier Flügel erlauben\n
+	+ es, in alle Richtungen zu fliegen.
+   11d	= Es setzt an seinem Kopf Giftsporen\n
+	+ frei. Werden diese eingeatmet,\n
+	+ verursachen sie Schmerzen.
+   11e	= Seine kurzen Arme dehnen sich aus,\n
+	+ wenn es zuschlägt. Seine Technik\n
+	+ ähnelt der von Profi-Boxern.
+   11f	= Es verbringt fast den ganzen Tag\n
+	+ mit Faulenzen und Schlafen. Selbst\n
+	+ sein Anblick macht bereits müde.
+   120	= Sein Herz schlägt schneller als das\n
+	+ anderer Lebewesen. Daher kann es\n
+	+ nicht für einen Moment still sitzen.
+   121	= Das faulste PKMN der Welt. Wenn es\n
+	+ faulenzt, sammelt es in Wahrheit\n
+	+ Energie, um zuzuschlagen.
+   122	= Es wächst unterirdisch heran und\n
+	+ nimmt seine Umgebung mit Antennen\n
+	+ wahr, da es nahezu blind ist.
+   123	= Es bewegt sich so schnell, dass es\n
+	+ manchmal unsichtbar zu sein\n
+	+ scheint. Es liebt Baumsaft.
+   124	= Ein weggeworfener Käferpanzer, der\n
+	+ zum Leben erwachte. Schaut man\n
+	+ hinein, stiehlt es einem die Seele.
+   125	= Normalerweise klingen seine Rufe\n
+	+ wie Gemurmel. Hat es aber Angst,\n
+	+ ist es so laut wie ein Flugzeug.
+   126	= Die Schockwellen, die durch sein\n
+	+ Rufen entstehen, können einen\n
+	+ LKW umkippen.
+   127	= Sein Heulen hört man in 10 km\n
+	+ Entfernung. Es gibt alle Arten von\n
+	+ Geräuschen von sich.
+   128	= Es stärkt seinen Körper, indem es\n
+	+ gegen Bäume rennt. In seiner Nähe\n
+	+ finden sich viele umgekippte Bäume.
+   129	= Es liebt das Kräftemessen mit\n
+	+ großen PKMN. Mit seinem Armwurf\n
+	+ kann es LKW durch die Luft werfen.
+   12a	= Sein Schweif ist mit Nährstoffen ge-\n
+	+ füllt, die es zum Wachsen braucht.\n
+	+ Es hüpft darauf, wenn es spielt.
+   12b	= Seine Nase ist ein Magnet. Daher\n
+	+ sieht das PKMN immer nach Norden.
+   12c	= Es muss Dinge, die sich bewegen,\n
+	+ einfach jagen. Es rennt oft im Kreis\n
+	+ und jagt seinen eigenen Schweif.
+   12d	= Dieses PKMN ist bei weiblichen\n
+	+ Trainern aufgrund seines Fells\n
+	+ beliebt.
+   12e	= Es versteckt sich im Dunkeln von\n
+	+ Höhlen. Seine Augen sind\n
+	+ Edelsteine.
+   12f	= Auf seinem Kopf befindet sich ein\n
+	+ riesiger Kiefer, der aus Hörnern\n
+	+ besteht. Er kann Eisen zermalmen.
+   130	= Normalerweise lebt es in dunklen\n
+	+ Bergen. Ist es hungrig, frisst es\n
+	+ auch Eisenbahnschienen und Autos.
+   131	= Es ernährt sich von Eisenerz. Um\n
+	+ sein Revier zu sichern, setzt es\n
+	+ seinen harten Körper ein.
+   132	= Auf der Suche nach Eisen, seiner\n
+	+ Nahrung, gräbt es mit seinen Stahl-\n
+	+ hörnern sogar Tunnel durch Felsen.
+   133	= Es vergisst niemals seine Yoga-\n
+	+ übungen. Mit Meditation stärkt es\n
+	+ seine spirituelle Kraft.
+   134	= Mit täglicher Meditation verbessert\n
+	+ es seine spirituelle Kraft. Es fühlt\n
+	+ die Gedanken anderer.
+   135	= Die Elektrizität, die es im Fell\n
+	+ speichert, nutzt es, um seine\n
+	+ Muskeln zu stimulieren.
+   136	= Aus seiner Mähne entlädt es Elekt-\n
+	+ rizität. Es generiert eine Gewitter-\n
+	+ wolke, aus der es Blitze entlädt.
+   137	= Es feuert Freunde mit Pompons an,\n
+	+ die aus Funken bestehen. Es holt\n
+	+ sich Energie aus Telegrafenmasten.
+   138	= Es feuert Freunde an. Sind diese im\n
+	+ Begriff zu verlieren, gibt sein\n
+	+ Körper immer mehr Funken ab.
+   139	= Es kommuniziert mit anderen, indem\n
+	+ es sein Hinterteil zum Leuchten\n
+	+ bringt. Es liebt ILLUMISEs Duft.
+   13a	= Sein süßer Duft leitet VOLBEAT an,\n
+	+ Zeichen aus Licht an den\n
+	+ Nachthimmel zu malen.
+   13b	= Die schönen Blumen an seinen Armen\n
+	+ haben giftige Dornen. Denk nicht\n
+	+ mal daran, sie zu pflücken!
+   13c	= Sein Körper besteht fast nur aus\n
+	+ Magen. Seine starken Verdauungs-\n
+	+ säfte zersetzen alles sehr schnell.
+   13d	= Es verschluckt alles in einem\n
+	+ Stück und sondert giftige Stoffe\n
+	+ ab, mit denen es Gegner besprüht.
+   13e	= Sie begegnen jedem Gegner, der in\n
+	+ ihr Revier eindringt, im Schwarm.\n
+	+ Ihre Zähne durchdringen alles.
+   13f	= Seine Zähne durchdringen sogar\n
+	+ Eisen. Es schwimmt mit 120 km/h und\n
+	+ wird “Tyrann des Meeres” genannt.
+   140	= An sonnigen Tagen trifft man diese\n
+	+ Pokémon an Stränden, wo sie wie\n
+	+ Bälle herumhüpfen.
+   141	= Das größte PKMN. Es kann mit nur\n
+	+ einem Atemzug in Tiefen bis\n
+	+ 3 000 Meter tauchen.
+   142	= In seinem Rücken speichert es sehr\n
+	+ heißes Magma. Regnet es, kühlt das\n
+	+ Magma ab und es wird langsamer.
+   143	= Auf seinem Rücken befinden sich\n
+	+ Vulkane. Magma bildet sich in seinem\n
+	+ Körper, die irgendwann ausbricht.
+   144	= In seinem Panzer verbrennt es\n
+	+ Kohle und gewinnt daraus Energie.\n
+	+ Bei Gefahr sondert es Ruß ab.
+   145	= Es hüpft beständig umher, wobei es\n
+	+ seinen Schweif als Feder verwendet.\n
+	+ Nur so bleibt sein Herz aktiv.
+   146	= Mit schwarzen Perlen verstärkt es\n
+	+ seine Psycho-Kräfte. Mit einem\n
+	+ Tanz kontrolliert es seine Gegner.
+   147	= Das Muster eines PANDIR ist wie\n
+	+ ein Fingerabdruck. Sein Taumeln\n
+	+ senkt die gegn. Zielsicherheit.
+   148	= Es baut im Wüstensand eine\n
+	+ Fallgrube, setzt sich in ihr auf den\n
+	+ Boden und wartet auf Beute.
+   149	= Es schlägt wild mit den Flügeln.\n
+	+ So entstehen Ultraschallwellen,\n
+	+ die Kopfschmerzen verursachen.
+   14a	= Mit mächtigem Flügelschlag verur-\n
+	+ sacht es einen Sandsturm. Es wird\n
+	+ “Geist der Wüste” genannt.
+   14b	= Dieser Wüstenbewohner speichert\n
+	+ Wasser in seinem Körper. So kann er\n
+	+ 30 Tage ohne Wasser überleben.
+   14c	= Ein nachtaktives PKMN, das Beute\n
+	+ sucht, die durch die Tageshitze der\n
+	+ Wüste bereits erschöpft ist.
+   14d	= Seine Flügel sehen aus wie Baum-\n
+	+ wolle. Legt es sie jemandem auf den\n
+	+ Kopf, sehen sie wie ein Wollhut aus.
+   14e	= Im Flug sieht es aus wie eine\n
+	+ watteweiche Wolke. Es singt mit\n
+	+ einer Sopranstimme.
+   14f	= Seit Generationen ist es mit\n
+	+ VIPITIS verfeindet. Seine scharfen\n
+	+ Klauen sind seine stärksten Waffen.
+   150	= Seit Generationen ist es mit SENGO\n
+	+ verfeindet. Es wetzt seinen\n
+	+ scharfen Schweif an Felsen.
+   151	= Da es in Vollmondnächten aktiv wird,\n
+	+ sagt man ihm nach, mit den Mond-\n
+	+ phasen in Verbindung zu stehen.
+   152	= Eine neue PKMN-Spezies, von der\n
+	+ man annimmt, sie käme von der\n
+	+ Sonne. Sie strahlt Licht ab.
+   153	= Seine Barthaare sind ein hervorra-\n
+	+ gendes Radar. Mit ihnen spürt es\n
+	+ selbst in Dreckwasser Beute auf.
+   154	= Da es Erschütterungen auslöst,\n
+	+ hat es die Fähigkeit entwickelt,\n
+	+ Beben vorhersagen zu können.
+   155	= Ein robustes PKMN, das sich jeder\n
+	+ Umgebung anpassen kann. Seine\n
+	+ Zangen geben keine Beute frei.
+   156	= Dieser Grobian ergreift andere PKMN\n
+	+ mit seinen Scheren und wirft sie\n
+	+ aus seinem Teich.
+   157	= Es bewegt sich, indem es sich auf\n
+	+ seinem Fuß dreht. Ein seltenes\n
+	+ PKMN, das in alten Ruinen lebte.
+   158	= Eine antike Lehmstatue, die durch\n
+	+ ein mysteriöses Licht zum Leben\n
+	+ erwacht ist.
+   159	= Vor 100 Millionen Jahren lebte\n
+	+ dieses PKMN auf dem Meeresgrund.\n
+	+ Die Wissenschaft belebte es neu.
+   15a	= Es lebt in seichten Stellen warmer\n
+	+ Meere. Bei Ebbe sucht es im Sand\n
+	+ nach Beute.
+   15b	= Ein Vorfahre der PKMN, der aus\n
+	+ einem Fossil neu belebt wurde. Es\n
+	+ lebte im Meer und jagte mit Klauen.
+   15c	= Nach seiner Entwicklung ging es an\n
+	+ Land. Sein Körper ist von einer\n
+	+ robusten Rüstung umgeben.
+   15d	= Es frisst einfach alles und kann\n
+	+ daher auch in verschmutzter Um-\n
+	+ gebung leben. Niemand beachtet es.
+   15e	= Dies ist das schönste PKMN der\n
+	+ Welt. Es gibt viele Kunstwerke, die\n
+	+ MILOTIC darstellen.
+   15f	= Seine Gestalt ändert sich mit dem\n
+	+ Wetter. Vor kurzem entdeckte man,\n
+	+ dass seine Moleküle wie Wasser sind.
+   160	= Es kann nach Belieben seine Farbe\n
+	+ ändern. Nur das gezackte Muster\n
+	+ auf seinem Bauch bleibt gleich.
+   161	= Es liebt Rachegefühle. Diese PKMN\n
+	+ hängen sich an Dachrinnen von Häu-\n
+	+ sern, in denen Rachsüchtige leben.
+   162	= Dieses PKMN war eine Puppe, die\n
+	+ weggeworfen wurde. Es sucht nun\n
+	+ das Kind, das dies getan hat.
+   163	= Verbissen verfolgt es seine Beute\n
+	+ überallhin. Doch sobald die Sonne\n
+	+ aufgeht, ist die Jagd vorbei.
+   164	= Sein Körper ist hohl. Man sagt,\n
+	+ dass diejenigen, die in den Körper\n
+	+ blicken, hineingezogen werden.
+   165	= Da es ausschließlich seine Lieb-\n
+	+ lingsfrucht frisst, begann diese,\n
+	+ um seinen Hals herumzuwachsen.
+   166	= Es setzt Ultraschallwellen frei,\n
+	+ während es sich vom Wind über\n
+	+ große Distanzen tragen lässt.
+   167	= Es spürt drohende Katastrophen\n
+	+ und erscheint nur dann, wenn es\n
+	+ andere vor der Gefahr warnen will.
+   168	= Es wird stärker, indem es andere\n
+	+ ständig anrempelt. Es liebt\n
+	+ Süßigkeiten.
+   169	= Im Land des Schnees sagt eine\n
+	+ Legende, dass in ein Haus Wohl-\n
+	+ stand einzieht, wenn es darin lebt.
+   16a	= Um sich zu schützen, umgibt es\n
+	+ seinen Körper mit einer Rüstung\n
+	+ aus Eis.
+   16b	= Es rollt über Eisschollen, um Land\n
+	+ zu erreichen, da sein Körper zum\n
+	+ Schwimmen nicht geeignet ist.
+   16c	= Es balanciert Dinge auf seiner\n
+	+ Nase. Dabei lernt es etwas über die\n
+	+ Beschaffenheit und den Geruch.
+   16d	= Mit seinen Stoßzähnen bricht es\n
+	+ durch Eis. Eine Speckschicht\n
+	+ schützt es vor Kälte und Angriffen.
+   16e	= In seinem Leben erschafft es eine\n
+	+ einzige Perle. Diese soll Psycho-\n
+	+ Kräfte verstärken.
+   16f	= Es lebt tief im Meer. Sein Schweif\n
+	+ ist wie ein kleiner Fisch geformt.\n
+	+ Mit ihm lockt es Beute an.
+   170	= Es lebt auf dem Grund des Meeres.\n
+	+ Im Frühling wirkt die Farbe seines\n
+	+ Körpers viel kräftiger.
+   171	= Tiefseeforscher fanden dieses\n
+	+ seltene PKMN, das sich in 100 Mio.\n
+	+ Jahren nicht verändert hat.
+   172	= Es lebt in warmen Meeren. Man sagt,\n
+	+ dass Verliebte, die es sehen, mit\n
+	+ ewiger Liebe gesegnet sind.
+   173	= Es träumt davon, eines Tages\n
+	+ fliegen zu können und springt daher\n
+	+ jeden Tag von hohen Klippen.
+   174	= Die Zellen seines Panzers fingen an,\n
+	+ sich zu verändern. Er fällt ab,\n
+	+ sobald sich das PKMN entwickelt.
+   175	= Seine Zellstruktur änderte sich, es\n
+	+ wuchsen ihm Flügel, da es immer\n
+	+ davon träumte, fliegen zu können.
+   176	= Es kommuniziert mit anderen durch\n
+	+ magnetische Impulse. Im Schwarm\n
+	+ bilden sie eine perfekte Einheit.
+   177	= Das PKMN besteht aus zwei TANHEL.\n
+	+ Es bekommt selbst dann keinen\n
+	+ Kratzer, wenn ein Jet es streift.
+   178	= Mehrere METANG bilden dieses PKMN.\n
+	+ Mit seinen 4 Gehirnen besitzt es die\n
+	+ Intelligenz eines Supercomputers.
+   179	= Sein Körper besteht aus Stein.\n
+	+ Bricht im Kampf etwas heraus, wird\n
+	+ es durch Stein wieder ersetzt.
+   17a	= Sein Körper besteht aus Eis aus der\n
+	+ Eiszeit. Es kontrolliert gefrorene\n
+	+ Luft, die minus 200 Grad kalt ist.
+   17b	= Im Laufe der Jahrtausende, die es\n
+	+ unterirdisch lebte, wurde sein\n
+	+ Körper durch Druck u. Wärme hart.
+   17c	= Sein Körper ist mit Daunen bedeckt,\n
+	+ die das Licht so brechen, dass das\n
+	+ PKMN unsichtbar wird.
+   17d	= Ein hochintelligentes PKMN. Wenn es\n
+	+ im Flug seine Flügel nach hinten\n
+	+ legt, ist es schneller als ein Jet.
+   17e	= Man sagt, es habe die Meere ver-\n
+	+ größert, indem es es regnen ließ.\n
+	+ Es schlief in einem Meeresgraben.
+   17f	= Es hat seit dem Kampf gegen\n
+	+ KYOGRE in Magma unter dem\n
+	+ Erdboden geschlafen.
+   180	= Es lebt in der Ozonschicht hoch\n
+	+ über den Wolken und kann vom\n
+	+ Boden aus nicht gesehen werden.
+   181	= Man sagt, es kann alle tausend\n
+	+ Jahre für eine Woche jeden Wunsch\n
+	+ erfüllen.
+   182	= Ein außerirdischer Virus kam mit\n
+	+ einem Meteor auf die Erde. Seine\n
+	+ DNA mutierte. So entstand DEOXYS.
+   183	= Sein Körper lebt von der Photosyn-\n
+	+ these, die Sauerstoff freisetzt.\n
+	+ Ist es durstig, welkt sein Blatt.
+   184	= Seine Schale ist harter Lehm.\n
+	+ PKMN naschen von den Beeren\n
+	+ in den Bäumen auf seinem Rücken.
+   185	= Gruppen dieser PKMN, die auf der\n
+	+ Suche nach Wasser umherlaufen,\n
+	+ werden “Wandernder Wald” genannt.
+   186	= Das Feuer an seinem Hinterteil wird\n
+	+ durch Gase im Bauch genährt.\n
+	+ Selbst Regen löscht es nicht.
+   187	= Es stürzt sich von Decken und\n
+	+ Wänden auf Beute. Sein feuriger\n
+	+ Schweif ist nur eine seiner Waffen.
+   188	= Seine Krone aus Feuer ist Zeichen\n
+	+ seines feurigen Wesens. Niemand ist\n
+	+ schneller im Kampf als dieses PKMN.
+   189	= Es lebt an den Küsten der nörd-\n
+	+ lichen Länder. Es kann über 10\n
+	+ Minuten unter Wasser bleiben.
+   18a	= Seine Flügel schlagen so kräftig zu,\n
+	+ dass es sogar Bäume umknicken\n
+	+ kann. Im Eismeer sucht es Beute.
+   18b	= Es schwimmt so schnell wie ein Renn-\n
+	+ boot. Seine Flügel haben scharfe\n
+	+ Seiten u. können Packeis schneiden.
+   18c	= Normalerweise ist es immer im\n
+	+ Schwarm unterwegs. Sein Ruf ist\n
+	+ äußerst durchdringend.
+   18d	= Es lebt in Wäldern und auf Wiesen.\n
+	+ Treffen Schwärme aufeinander,\n
+	+ streiten sie sich um das Revier.
+   18e	= Die Muskeln in seinen Flügeln und\n
+	+ Beinen sind stark. Es kann im Flug\n
+	+ sogar ein anderes PKMN tragen.
+   18f	= Es knabbert ständig an Holz und\n
+	+ Steinen, um seine Vorderzähne zu\n
+	+ kürzen. Es nistet am Wasser.
+   190	= Seine Bewegungen an Land sind\n
+	+ unbeholfen. Im Wasser aber ist es\n
+	+ so schnell wie ein BARSCHWA.
+   191	= Diese PKMN unterhalten sich, indem\n
+	+ sie ihre Antennen aneinanderschla-\n
+	+ gen. Der Ton ist ihr Kennzeichen.
+   192	= Über seine Melodien teilt es seine\n
+	+ Gefühle mit. Wissenschaftler unter-\n
+	+ suchen das Muster der Melodien.
+   193	= Ihre Vorderbeine stellen über die\n
+	+ Muskeln Elektrizität her. Bei\n
+	+ Gefahr leuchtet ihr Körper.
+   194	= Es legt seine Vorderbeine auf\n
+	+ andere, um mit elektr. Impulsen\n
+	+ aus den Krallen zu kommunizieren.
+   195	= Leuchten seine Augen golden auf,\n
+	+ kann es Beute, die sich versteckt,\n
+	+ sehen. Es kann durch Wände sehen.
+   196	= Es lebt an sauberen Seen. Es\n
+	+ sondert Pollen ab, die für eine\n
+	+ laufende Nase und Niesen sorgen.
+   197	= Mit den Bewegungen eines Tänzers\n
+	+ holt es aus und schlägt mit Ranken\n
+	+ um sich, die giftige Dornen haben.
+   198	= Es wurde aus einem ballartigen,\n
+	+ eisernen Fossil geschaffen. Es\n
+	+ schlägt Beute mit einem Kopfstoß.
+   199	= Sein Schädel ist hart wie Eisen. Es\n
+	+ reißt Dschungelbäume nieder,\n
+	+ während es seine Beute jagt.
+   19a	= Es reibt sein Gesicht an Baum-\n
+	+ stämmen, um es zu polieren. Es ist\n
+	+ leicht, es von hinten anzugreifen.
+   19b	= Werden sie angegriffen, bilden sie\n
+	+ einen Schutzwall mit ihren Köpfen,\n
+	+ um ihre Jungen zu schützen.
+   19c	= Wird sein Umhang im Kampf zerstört,\n
+	+ macht es sich schnell aus dem, was\n
+	+ es findet, einen neuen.
+   19d	= Die Umgebung, in der es sich ent-\n
+	+ wickelt, bestimmt sein Aussehen.\n
+	+ Dinge dort werden zu Körperteilen.
+   19e	= Es baut sich kein Nest. Es fliegt\n
+	+ über Felder und Wiesen in der\n
+	+ ständigen Suche nach Honig.
+   19f	= Es sammelt Honig und bringt ihn in\n
+	+ seine Kolonie. Nachts bilden sie\n
+	+ einen Bienenstock und schlafen.
+   1a0	= Wird es angegriffen, wehren sich\n
+	+ ihre Larven im Bau. Es gibt nur\n
+	+ eine pro Kolonie.
+   1a1	= In seinen Backentaschen produziert\n
+	+ es Elektrizität u. entlädt sie über\n
+	+ den Schweif. Es lebt in Baumwipfeln.
+   1a2	= Es schwimmt, indem es seine beiden\n
+	+ Schweife wie eine Schiffsschraube\n
+	+ rotieren lässt.
+   1a3	= Da es seit jeher Beute im\n
+	+ Wasser jagt, entwickelte es\n
+	+ einen Rettungsring.
+   1a4	= Sonnenlicht färbt es rot. Verliert\n
+	+ das kleine Bällchen Nährstoffe,\n
+	+ welkt es u. die Entwicklung beginnt.
+   1a5	= Es ist sanft als Knospe und fröhlich\n
+	+ als Blüte. Lässt das Sonnenlicht\n
+	+ nach, wird es wieder zur Knospe.
+   1a6	= Es lebt in der Nähe von Wasser.\n
+	+ Seine Körperform hat sich seiner\n
+	+ Umgebung angepasst.
+   1a7	= In Urzeiten muss es einen großen\n
+	+ Schutzpanzer besessen haben. Es\n
+	+ lebt in kleinen Wasserstellen.
+   1a8	= Sie arbeiten in großen Kolonien und\n
+	+ verbinden ihre Schweife in\n
+	+ Freundschaft.
+   1a9	= Es zieht Kinder an den Händen, um\n
+	+ sie mitzunehmen. Doch stets wird es\n
+	+ dabei durch die Gegend gezogen.
+   1aa	= Es trägt Menschen und PKMN im Flug.\n
+	+ Aber da es sich vom Wind nur tragen\n
+	+ lässt, weiß man nie, wo es hingeht.
+   1ab	= Nimmt es Gefahr wahr, richtet es\n
+	+ seine Ohren auf. In kalten Nächten\n
+	+ vergräbt es den Kopf in seinem Fell.
+   1ac	= Es ist sehr bedacht auf sein\n
+	+ Äußeres und vergisst nie, seine\n
+	+ Ohren zu kämmen.
+   1ad	= Es spricht Beschwörungen. Viele\n
+	+ lösen Schmerzen aus, manche aber\n
+	+ bringen Glück.
+   1ae	= Es lässt sich von KRAMURX Essen\n
+	+ bringen. Es vertrödelt seine Zeit\n
+	+ und liegt den ganzen Tag im Nest.
+   1af	= Durch seinen scharfen Blick fallen\n
+	+ seine Gegner in eine leichte\n
+	+ Hypnose. Es ist sehr launenhaft.
+   1b0	= Damit es bedrohlicher und größer\n
+	+ aussieht, umschlingt es seine Taille\n
+	+ fest mit seinen beiden Schweifen.
+   1b1	= Jedes Mal, wenn es hüpft, entsteht\n
+	+ ein klingender Laut. Seine hohen\n
+	+ Schreie machen die Gegner taub.
+   1b2	= Es versprüht eine übel stinkende\n
+	+ Flüssigkeit aus seinem Hinterleib,\n
+	+ um Angreifer zu verjagen.
+   1b3	= Es spritzt eine stinkende Substanz\n
+	+ aus seinem Schweif. Hat sie lange\n
+	+ gegärt, stinkt sie stärker.
+   1b4	= Man hat Röntgenaufnahmen gemacht,\n
+	+ um die Körperstruktur dieses PKMN\n
+	+ zu untersuchen. Ohne Ergebnis.
+   1b5	= Es kann Regenwolken beschwören.\n
+	+ Vor langer Zeit wurde es verehrt,\n
+	+ da es so für gute Ernten sorgte.
+   1b6	= Es bevorzugt trockene Gebiete. Es\n
+	+ gibt über die Augen Wasser ab, um\n
+	+ den Wasserhaushalt zu regulieren.
+   1b7	= Es mag Orte, an denen viele Leute\n
+	+ zusammenkommen. Es ahmt seine\n
+	+ Gegner nach, um sie zu verwirren.
+   1b8	= In seinem Beutel trägt es einen\n
+	+ runden, eiförmigen Stein, den\n
+	+ es Freunden gibt.
+   1b9	= Es hält den Takt, indem es seine\n
+	+ Schwanzfedern wie ein Metronom be-\n
+	+ wegt. Ahmt menschl. Sprache nach.
+   1ba	= Es wurde in einen Spalt eines Steins\n
+	+ gebannt, als Sühne für Untaten, die\n
+	+ es vor 500 Jahren begangen hatte.
+   1bb	= Einst lebte es in den Tropen. Um\n
+	+ der Kälte zu entgehen, lebt es in\n
+	+ Höhlen, in der es Erdwärme gibt.
+   1bc	= Es gräbt Edelsteine aus und hortet\n
+	+ sie in seinem Nest. Daher ist dieses\n
+	+ ein beliebtes Ziel mancher Diebe.
+   1bd	= Es fliegt mit der Geschwindigkeit\n
+	+ eines Kampfjets. Es lässt nicht zu,\n
+	+ dass ihm seine Beute entkommt.
+   1be	= Unter seinem langen Fell versteckt\n
+	+ es Nahrung. Aber es vergisst, dass\n
+	+ es sie dort versteckt hat.
+   1bf	= Sein Körper ist schlank, aber\n
+	+ kräftig. Es kann in einer Nacht 3\n
+	+ Berge und 2 Täler durchqueren.
+   1c0	= Es nimmt die Aura seines Gegners\n
+	+ wahr. So kann es dessen Gedanken\n
+	+ und Bewegungen erkennen.
+   1c1	= Es bedeckt sich mit Sand, um sich\n
+	+ vor Keimen zu schützen. Es mag es\n
+	+ gar nicht, wenn es nass wird.
+   1c2	= Sein Maul ist fast 2 m breit. Es hat\n
+	+ genügend Kraft, um ein Auto\n
+	+ zu zermalmen.
+   1c3	= Es lebt in trockenen Gegenden. Es\n
+	+ vergräbt sich im Sand und wartet\n
+	+ dann auf ahnungslose Beute.
+   1c4	= Sein Körper ist von einem robusten\n
+	+ Panzer umgeben. Es kann den Kopf\n
+	+ um 180 Grad drehen. Es sieht alles.
+   1c5	= Wenn es seine giftigen Backen\n
+	+ aufbläst, hört man ein unheimliches\n
+	+ Geräusch, welches Gegner ängstigt.
+   1c6	= Das Gift aus seinen Backentaschen\n
+	+ wird über zwei Venen in seinen Armen\n
+	+ zu den Fingergelenken gepumpt.
+   1c7	= Es hängt mit seinen Tentakeln an\n
+	+ Ästen u. wirkt wie eine Pflanze. Mit\n
+	+ offenem Maul wartet es auf Beute.
+   1c8	= Seine beiden Flossen bewegen sich,\n
+	+ als ob es fliegen würde. Man nennt\n
+	+ es auch “Schmetterling der Meere”.
+   1c9	= Um nicht von Fressfeinden entdeckt\n
+	+ zu werden, krabbelt es auf zwei\n
+	+ Brustflossen am Meeresboden.
+   1ca	= Wissenschaftler haben entdeckt,\n
+	+ dass die Muster auf dem Rücken sich\n
+	+ von Region zu Region unterscheiden.
+   1cb	= Im Frühjahr wachsen Beeren, die wie\n
+	+ gefrorene Süßigkeiten aussehen, um\n
+	+ seinen Bauch herum.
+   1cc	= Es bedeckt weite Gebiete mit\n
+	+ Schnee, indem es Blizzards auslöst.\n
+	+ Man nennt es “Das Eismonster”.
+   1cd	= Es schnitzt seltsame Muster in\n
+	+ gefrorene Baumrinden und Eis und\n
+	+ sendet so den anderen Signale.
+   1ce	= Es entwickelte sich, als es einem\n
+	+ besonderen Magnetfeld ausgesetzt\n
+	+ wurde.
+   1cf	= Es umklammert Dinge mit seiner\n
+	+ dehnbaren Zunge. Kommt man ihm zu\n
+	+ nahe, wird man eingespeichelt.
+   1d0	= Es legt Steine in die Löcher seiner\n
+	+ Hände und wirft sie mit Muskelkraft.\n
+	+ Sogar GEOROK werden verwendet.
+   1d1	= Es umwickelt Beute, indem es seine\n
+	+ Arme, die aus Ranken bestehen,\n
+	+ verlängert.
+   1d2	= Es berührt den Gegner mit seinen\n
+	+ beiden Schweifspitzen und entlädt\n
+	+ dann über 20 000 Volt.
+   1d3	= Aus den Enden seiner Arme schießen\n
+	+ Feuerbälle mit 2 000 Grad.\n
+	+ Es lebt in Vulkankratern.
+   1d4	= Es zeigt sich niemals dort, wo\n
+	+ es Streitigkeiten gibt. In letzter\n
+	+ Zeit wurde es nur selten gesehen.
+   1d5	= Durch die Bewegung seiner Flügel\n
+	+ entstehen Schockwellen, die dem\n
+	+ Gegn. innere Verletzungen zufügen.
+   1d6	= Genau wie eine Pflanze führt es die\n
+	+ Photosynthese aus. Deshalb ist es\n
+	+ ständig von reiner Luft umgeben.
+   1d7	= Will es sich schützen, kann es sein\n
+	+ Fell gefrieren, so dass jedes Haar\n
+	+ wie eine Nadel absteht.
+   1d8	= Es hängt kopfüber von einem Ast\n
+	+ und beobachtet seine Beute. Bei\n
+	+ Gelegenheit stürzt es sich auf sie.
+   1d9	= Die beeindruckenden Stoßzähne\n
+	+ dieser PKMN sind aus Eis. Nach der\n
+	+ Eiszeit nahm ihre Population ab.
+   1da	= Zusätzliche Software wurde instal-\n
+	+ liert, um das PKMN zu verbessern.\n
+	+ Seitdem benimmt es sich seltsam.
+   1db	= Es kämpft, indem es die Schwerter\n
+	+ an seinen Ellbogen verlängert. Es\n
+	+ ist ein Meister des Kampfes.
+   1dc	= Es gibt starken Magnetismus ab. Es\n
+	+ steuert drei kleine Einheiten, die\n
+	+ sich Mininasen nennen.
+   1dd	= Die Antenne auf seinem Kopf\n
+	+ empfängt Radiowellen aus einer\n
+	+ anderen Dimension.
+   1de	= Sein eisiger Atem mit minus 50 Grad\n
+	+ friert Gegner ein. Was aussieht wie\n
+	+ sein Körper, ist tatsächlich hohl.
+   1df	= Sein Körper besteht aus Plasma. Mit\n
+	+ ihm kann es in elektrische Geräte\n
+	+ eindringen und für Chaos sorgen.
+   1e0	= Man sagt, dass durch sein Auf-\n
+	+ tauchen Menschen die Intelligenz\n
+	+ erhielten, ihr Leben zu verbessern.
+   1e1	= Es schläft auf dem Grund eines\n
+	+ Sees. Man sagt, sein Geist verlasse\n
+	+ den Körper und fliege über den See.
+   1e2	= Man glaubt, dass SELFE,\n
+	+ VESPRIT und TOBUTZ alle\n
+	+ aus demselben Ei kamen.
+   1e3	= Ein PKMN, das in Legenden zu finden\n
+	+ ist. Man sagt, als DIALGA geboren\n
+	+ wurde, fing die Zeit an zu leben.
+   1e4	= Man sagt, es lebe in einem Spalt\n
+	+ in einer Paralleldimension. Es\n
+	+ wird in der Mythologie erwähnt.
+   1e5	= Es lebt in vulkanischen Höhlen.\n
+	+ Mit seinen kreuzförmigen Klauen\n
+	+ kann es sogar an der Decke laufen.
+   1e6	= Es gibt eine Legende, wonach\n
+	+ dieses PKMN die Kontinente mit\n
+	+ einem Seil gezogen hat.
+   1e7	= Ein PKMN, von dem man sagt, es lebt\n
+	+ in der Spiegelwelt unserer Welt.\n
+	+ Es erscheint auf alten Friedhöfen.
+   1e8	= Seine Flügel geben schimmernde\n
+	+ Partikel ab, wie einen Schleier. Man\n
+	+ sagt, es steht für die Mondsichel.
+   1e9	= Es lebt in warmen Meeren. Geht\n
+	+ es auf Nahrungssuche, füllt es den\n
+	+ Beutel auf seinem Kopf mit Luft.
+   1ea	= Sein Körper besteht zu 80 % aus\n
+	+ Wasser. Dieses PKMN wird leicht von\n
+	+ seiner Umgebung beeinflusst.
+   1eb	= Laut einer Volkssage erscheint\n
+	+ dieses Pokémon in mondlosen\n
+	+ Nächten und verursacht Alpträume.
+   1ec	= Es kann die Luft von Giften reinigen\n
+	+ und Ödland in ein üppig blühendes\n
+	+ Blumenfeld verwandeln.
+   1ed	= Die Mythologie erzählt, dass dieses\n
+	+ PKMN geboren wurde, bevor das\n
+	+ Universum überhaupt existierte.
 	+ into a lush field of flowers.
    1ed	= It is told in mythology that this\n
 	+ Pokémon was born before the\n
 	+ universe even existed.
+
 

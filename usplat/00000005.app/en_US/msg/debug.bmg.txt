@@ -476,7 +476,7 @@
    19e	= Many lines (focus object)
    19f	= Album
    1a0	= Controls overview
-   1a1	= Bulletin Board
+   1a1	= BBS
    1a2	= Pokedex doesn't exist
    1a3	= Connect to DS
    1a4	= Connection lost

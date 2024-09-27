@@ -76,7 +76,7 @@
     1b	= %1${} is petting %2${}.
     1c	= %1${} is carrying %2${}.
     1d	= Can %1${} lift %2${}?
-    1e	= Oh!?
+    1e	= Ups!
     1f	= Did %{} give up on carrying?
     20	= %{} is joyful.
     21	= %{} is joyful.
@@ -95,7 +95,7 @@
     2e	= %{} is sleeping.
     2f	= %1${} is napping with %2${}.
     30	= %1${} is playing with %2${}.
-    31	= What?
+    31	= Hey!
     32	= %1${} is running with %2${}.
     33	= %1${} is running with %2${}.
     34	= %{} looks delighted.
@@ -168,8 +168,8 @@
     77	= %1${} challenged the %2${}.
     78	= %1${} challenged the %2${}.
     79	= %1${} challenged the %2${}.
-    7a	= The challenge was a success!
-    7b	= It's too big to fit in a Pitfall.
+    78	= %{} möchte die %{}-Herausforderung probieren!
+    79	= %{} möchte die %{}-Herausforderung probieren!
     7c	= %1${} dived into the %2${}.
     7d	= %1${} fell into the %2${}.
     7e	= %1${} fell into the %2${}.
@@ -187,7 +187,7 @@
     8a	= Does %{} want more attention?
     8b	= %{} might want to attract attention...
     8c	= %{} might want to attract attention...
-    8d	= The challenge was a failure!
+    8b	= %{} will die Aufmerksamkeit von allen erregen.
     8e	= Is %{} trying to blast off to somewhere?
     8f	= Is %{} trying to blast off to somewhere?
     90	= Is %{} trying to blast off to somewhere?
@@ -317,3 +317,4 @@
    10c	= %1${} transformed into %2${}.
    10d	= %1${} transformed into %2${}.
    10e	= %1${} transformed into %2${}.
+

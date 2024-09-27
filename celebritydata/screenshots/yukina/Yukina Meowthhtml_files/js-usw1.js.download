@@ -4,14 +4,14 @@ usw1aim=10;
 usw1state=0;
 usw1time=0;
 usw1button='START';
-usw1disp='ï¿½Ô¤Ã¤ï¿½ï¿½ï¿½ '+usw1aim+' ï¿½Ã¤ï¿½\nï¿½ß¤ï¿½ï¿½ï¿½ë¤«ï¿½Ê¡ï¿½';
+usw1disp='¤Ô¤Ã¤¿¤ê '+usw1aim+' ÉÃ¤Ç\n»ß¤á¤é¤ì¤ë¤«¤Ê¡©';
 
 function usw1judge(){
 	if(usw1state==0){
 		usw1timerstart=new Date();
 		usw1state=1;
 		document.images["usw1usagi"].src='http://blog-imgs-41.fc2.com/e/w/a/ewalk2/chakin_tokeiusagi4.gif';
-		document.usw1form.usw1disp.value = 'ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½';
+		document.usw1form.usw1disp.value = '¡¦¡¦¡¦¡¦¡¦';
 		document.usw1form.usw1but.value = 'STOP';
 	}
 	else if(usw1state==1){
@@ -22,21 +22,21 @@ function usw1judge(){
 
 		if(usw1time==usw1aim){
 			document.images["usw1usagi"].src='http://blog-imgs-41.fc2.com/e/w/a/ewalk2/chakin_tokeiusagi5.gif';
-			document.usw1form.usw1disp.value = usw1time+' ï¿½Ã¤Ô¤Ã¤ï¿½ï¿½ï¿½!!\nï¿½ï¿½ï¿½Ä¤ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ã¡ï¿½ï¿½ï¿½';
+			document.usw1form.usw1disp.value = usw1time+' ÉÃ¤Ô¤Ã¤¿¤ê!!\n¤ª¡Ä¤ª¸«»ö¤Ã¡ª¡ª';
 		}
 		else if(usw1time>usw1aim*0.95&&usw1time<usw1aim*1.05){
 			document.images["usw1usagi"].src='http://blog-imgs-41.fc2.com/e/w/a/ewalk2/chakin_tokeiusagi3.gif';
-			document.usw1form.usw1disp.value = usw1time+' ï¿½ï¿½ !!?\nï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ã¡ï¿½';
+			document.usw1form.usw1disp.value = usw1time+' ÉÃ !!?\n¤ª¤·¡¼¤¤¤Ã¡ª';
 		}
 		else if(usw1time>usw1aim*0.90&&usw1time<usw1aim*1.10){
 			document.images["usw1usagi"].src='http://blog-imgs-41.fc2.com/e/w/a/ewalk2/chakin_tokeiusagi2.gif';
-			document.usw1form.usw1disp.value = usw1time+' ï¿½ï¿½ \nï¿½Þ¤ï¿½ï¿½Å¤ï¿½ï¿½Ã¡ï¿½';
+			document.usw1form.usw1disp.value = usw1time+' ÉÃ \n¤Þ¤À´Å¤¤¤Ã¡ª';
 		}
 		else{
 			document.images["usw1usagi"].src='http://blog-imgs-41.fc2.com/e/w/a/ewalk2/chakin_tokeiusagi2.gif';
-			document.usw1form.usw1disp.value = usw1time+' ï¿½ï¿½\nï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í¤ï¿½ï¿½';
+			document.usw1form.usw1disp.value = usw1time+' ÉÃ\n¤¶¡¼¤ó¤Í¤ó¢ö';
 		}
-		document.usw1form.usw1but.value = 'ï¿½â¤¦ï¿½ï¿½ï¿½ï¿½';
+		document.usw1form.usw1but.value = '¤â¤¦°ìÅÙ';
 	}
 	else if(usw1state==2){
 		usw1state=0;

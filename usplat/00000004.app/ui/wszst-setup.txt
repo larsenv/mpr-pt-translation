@@ -1,0 +1,954 @@
+
+###############################################################################
+#
+# wszst settings:
+# ---------------
+#
+# This is the settings file for wszst (tool of "Wiimms SZS Tools"). It
+# was created by the EXTRACT command and is needed by the CREATE command
+# to rebuild the original source archive with or without modifications.
+# You can edit it, if you know what you do.
+#
+###############################################################################
+
+# The first part contains some general settings:
+
+# The internal archive format (U8, WU8, BRRES, BREFF or BREFT):
+archive-format = U8
+
+# The file format (YAZ0, YAZ1 or BZ for a compressed archive, other ignored):
+file-format = U8
+
+# An archive format related version number (-1: unknown or not relevant)
+version = -1
+
+# For U8+WU8 archives: Is there a special '.' base directory:
+have-pt-dir = 0
+
+# The minimum and maximum file data positions:
+min-data-offset = 0x0
+max-data-offset = 0x224820
+
+# The calculated alignment of all files:
+data-align = 0x20
+
+###############################################################################
+#
+# Some general rules for the next sections:
+#   All paths are relative to the current base directory (directory that
+#   contains the file wszst-setup.txt). Prefix at least paths that starts
+#   not with a letter, digit, point, star or underscore with "./".
+#
+#------------------------------------------------------------------------------
+
+[include-pattern]
+
+# All files and directories start with a . are hidden (unix like) and excluded
+# automatically. But filenames in one of the include sections are included
+# independent of this point. Also the include sections takes precedence over
+# the exclude sections.
+
+# This section expects file patterns with wildcards.
+
+#------------------------------------------------------------------------------
+
+[include]
+
+# This second include section accpepts only complete file names and none of
+# characters have any special meaning.
+
+
+#------------------------------------------------------------------------------
+
+[exclude-pattern]
+
+# Files and directories in this section are ignored by the CREATE command.
+# The include sections takes precedence over the exclude sections.
+
+# This section expects file patterns with wildcards.
+# Here we exclude all original, backup and temp files:
+
+*.orig
+*.bak
+*.tmp
+*.temp
+
+# Exclude all *.d directories. To enable it, remove "# " at the beginning.
+# *.d
+
+# Exclude all PNG files. The intention is to allow the creation of new PNG
+# images and mipmap files without any need to edit this setup file. All
+# extracted PNG files are automatically listed in the [exclude] section.
+# So the exclusion of all PNG is not really needed, but may help. The second
+# (disabled) line is an alternative to exclude all mipmap PNG files.
+
+*.png
+# *.mm#.png
+
+#------------------------------------------------------------------------------
+
+[exclude]
+
+# Files and directories in this section are ignored by the CREATE command.
+# This second exclude section accepts only complete file names and none of
+# characters have any special meaning.
+
+./arc/timg/back_bw.tpl.d
+./arc/timg/back_bw8.tpl.d
+./arc/timg/ball.tpl.d
+./arc/timg/ball_l.tpl.d
+./arc/timg/ball_l2.tpl.d
+./arc/timg/ball_w.tpl.d
+./arc/timg/ball_w_l.tpl.d
+./arc/timg/balloon.tpl.d
+./arc/timg/button_bar.tpl.d
+./arc/timg/button_bar_l.tpl.d
+./arc/timg/button_c_normal.tpl.d
+./arc/timg/button_down.tpl.d
+./arc/timg/button_hover.tpl.d
+./arc/timg/button_l_hover.tpl.d
+./arc/timg/button_l_normal.tpl.d
+./arc/timg/button_left.tpl.d
+./arc/timg/button_normal.tpl.d
+./arc/timg/button_r_hover.tpl.d
+./arc/timg/button_r_normal.tpl.d
+./arc/timg/button_rc_hover.tpl.d
+./arc/timg/button_right.tpl.d
+./arc/timg/button_up.tpl.d
+./arc/timg/cursor_B.tpl.d
+./arc/timg/cursor_arrow_02.tpl.d
+./arc/timg/cursor_arrow_02b.tpl.d
+./arc/timg/cursor_diff_ring.tpl.d
+./arc/timg/cursor_disable.tpl.d
+./arc/timg/cursor_grab.tpl.d
+./arc/timg/cursor_grab_shadow.tpl.d
+./arc/timg/cursor_main.tpl.d
+./arc/timg/cursor_num_four.tpl.d
+./arc/timg/cursor_num_one.tpl.d
+./arc/timg/cursor_num_three.tpl.d
+./arc/timg/cursor_num_two.tpl.d
+./arc/timg/cursor_shadow.tpl.d
+./arc/timg/cursor_shadowB.tpl.d
+./arc/timg/diff_0.tpl.d
+./arc/timg/diff_01.tpl.d
+./arc/timg/diff_01b.tpl.d
+./arc/timg/diff_0b.tpl.d
+./arc/timg/diff_1.tpl.d
+./arc/timg/diff_1b.tpl.d
+./arc/timg/ds_line.tpl.d
+./arc/timg/dummy.tpl.d
+./arc/timg/favorite.tpl.d
+./arc/timg/favorite_hover.tpl.d
+./arc/timg/favorite_normal.tpl.d
+./arc/timg/help_basis_00_00.tpl.d
+./arc/timg/help_photo_03_00.tpl.d
+./arc/timg/help_photo_04_00.tpl.d
+./arc/timg/help_photo_05_00.tpl.d
+./arc/timg/icon_32_1.tpl.d
+./arc/timg/icon_32_2.tpl.d
+./arc/timg/icon_32_A.tpl.d
+./arc/timg/icon_32_B.tpl.d
+./arc/timg/icon_32_ball.tpl.d
+./arc/timg/icon_32_cursor.tpl.d
+./arc/timg/icon_32_home.tpl.d
+./arc/timg/icon_32_juji.tpl.d
+./arc/timg/icon_32_minus.tpl.d
+./arc/timg/icon_32_plus.tpl.d
+./arc/timg/icon_a.tpl.d
+./arc/timg/icon_album.tpl.d
+./arc/timg/icon_back.tpl.d
+./arc/timg/icon_camera.tpl.d
+./arc/timg/icon_cinema.tpl.d
+./arc/timg/icon_ds.tpl.d
+./arc/timg/icon_ds_bar.tpl.d
+./arc/timg/icon_farm.tpl.d
+./arc/timg/icon_focus.tpl.d
+./arc/timg/icon_gomibako.tpl.d
+./arc/timg/icon_help.tpl.d
+./arc/timg/icon_keijiban.tpl.d
+./arc/timg/icon_lock.tpl.d
+./arc/timg/icon_look_me.tpl.d
+./arc/timg/icon_mii.tpl.d
+./arc/timg/icon_okuru.tpl.d
+./arc/timg/icon_option2.tpl.d
+./arc/timg/icon_parade.tpl.d
+./arc/timg/icon_question.tpl.d
+./arc/timg/icon_remocon.tpl.d
+./arc/timg/icon_sankaku.tpl.d
+./arc/timg/icon_sd.tpl.d
+./arc/timg/icon_sd_all.tpl.d
+./arc/timg/icon_sddel.tpl.d
+./arc/timg/icon_unlock.tpl.d
+./arc/timg/icon_x.tpl.d
+./arc/timg/icon_yameru.tpl.d
+./arc/timg/ill_ds.tpl.d
+./arc/timg/ill_wii.tpl.d
+./arc/timg/line.tpl.d
+./arc/timg/map.tpl.d
+./arc/timg/map_marker.tpl.d
+./arc/timg/mii64.tpl.d
+./arc/timg/name_mii.tpl.d
+./arc/timg/name_mii_face.tpl.d
+./arc/timg/name_mii_hover.tpl.d
+./arc/timg/name_mii_hover_button.tpl.d
+./arc/timg/p010_00.tpl.d
+./arc/timg/saving_bg.tpl.d
+./arc/timg/ss_frame.tpl.d
+./arc/timg/ss_frame_shadow.tpl.d
+./arc/timg/ss_frame_spec.tpl.d
+./arc/timg/telopwindow_2.tpl.d
+./arc/timg/wa.tpl.d
+./arc/timg/wanted_waku.tpl.d
+./arc/timg/wii_setuzoku_waku.tpl.d
+./arc/timg/window_ita.tpl.d
+./arc/timg/window_paper.tpl.d
+./arc/timg/window_pin.tpl.d
+./arc/timg/window_text.tpl.d
+./arc/timg/xiiselect_first.tpl.d
+./arc/timg/xiiselect_name.tpl.d
+./arc/timg/xiiselect_sbar.tpl.d
+./arc/timg/xiiselect_sthumb.tpl.d
+./arc/timg/yajirusi.tpl.d
+./course.kcl.d
+./course.kcl.flag
+./course.kcl.mtl
+./course.kcl.obj
+./course.kmp.d
+./course.kmp.txt
+./course.lex.txt
+./wszst-setup.txt
+
+#------------------------------------------------------------------------------
+
+[encode]
+
+# Encode (and overwrite without notice) the listed files before adding them
+# to the new archive. The source is searched under the same filename with the
+# correct source extension added or, if this failed, a replaced extension.
+#   Example: For "message.bmg" search files "message.bmg.txt" or "message.txt"
+# The source file itself is set on the exclude list and will not stored into
+# the new archive.
+#
+# The syntax of this file section is a little bit different as the other file
+# sections. Each line begins with a comma separated list of keywords followed
+# by an equal sign.
+#   Syntax:  COMMA_SEPARATED_FORMAT_LIST = relative_filename
+#   Example: BREFT,IA8,3 = ./files/rk_steam
+# The first keyword is the file format. The following keywords describe sub
+# formats. An additonal integer is a file type specific information:
+#  -> For image files it is the number of images (main image + mipmaps).
+#     A value of 0 means: Use the tools default (see option --n-mipmaps).
+#
+# A file is only encoded if the destination does not exist or if the source
+# is younger than the destination. Encoding can be controlled by options
+# --no-encode, --encode-img and --encode-all (short: --noenc --eimg --eall).
+
+TPL,IA4,1	= ./arc/timg/back_bw.tpl
+TPL,IA4,1	= ./arc/timg/back_bw8.tpl
+TPL,IA4,1	= ./arc/timg/ball.tpl
+TPL,I8,1	= ./arc/timg/ball_l.tpl
+TPL,I4,1	= ./arc/timg/ball_l2.tpl
+TPL,IA8,1	= ./arc/timg/ball_w.tpl
+TPL,IA8,1	= ./arc/timg/ball_w_l.tpl
+TPL,IA4,1	= ./arc/timg/balloon.tpl
+TPL,IA4,1	= ./arc/timg/button_bar.tpl
+TPL,C4,P-RGB565,1	= ./arc/timg/button_bar_l.tpl
+TPL,IA8,1	= ./arc/timg/button_c_normal.tpl
+TPL,C8,P-RGB5A3,1	= ./arc/timg/button_down.tpl
+TPL,IA8,1	= ./arc/timg/button_hover.tpl
+TPL,IA4,1	= ./arc/timg/button_l_hover.tpl
+TPL,IA4,1	= ./arc/timg/button_l_normal.tpl
+TPL,C8,P-RGB5A3,1	= ./arc/timg/button_left.tpl
+TPL,IA8,1	= ./arc/timg/button_normal.tpl
+TPL,IA4,1	= ./arc/timg/button_r_hover.tpl
+TPL,IA4,1	= ./arc/timg/button_r_normal.tpl
+TPL,IA8,1	= ./arc/timg/button_rc_hover.tpl
+TPL,C8,P-RGB5A3,1	= ./arc/timg/button_right.tpl
+TPL,C8,P-RGB5A3,1	= ./arc/timg/button_up.tpl
+TPL,IA8,1	= ./arc/timg/cursor_B.tpl
+TPL,I4,1	= ./arc/timg/cursor_arrow_02.tpl
+TPL,I4,1	= ./arc/timg/cursor_arrow_02b.tpl
+TPL,IA8,1	= ./arc/timg/cursor_diff_ring.tpl
+TPL,C4,P-RGB5A3,1	= ./arc/timg/cursor_disable.tpl
+TPL,IA8,1	= ./arc/timg/cursor_grab.tpl
+TPL,I4,1	= ./arc/timg/cursor_grab_shadow.tpl
+TPL,IA8,1	= ./arc/timg/cursor_main.tpl
+TPL,C4,P-RGB5A3,1	= ./arc/timg/cursor_num_four.tpl
+TPL,C4,P-RGB5A3,1	= ./arc/timg/cursor_num_one.tpl
+TPL,C4,P-RGB5A3,1	= ./arc/timg/cursor_num_three.tpl
+TPL,C4,P-RGB5A3,1	= ./arc/timg/cursor_num_two.tpl
+TPL,I4,1	= ./arc/timg/cursor_shadow.tpl
+TPL,I4,1	= ./arc/timg/cursor_shadowB.tpl
+TPL,I4,1	= ./arc/timg/diff_0.tpl
+TPL,I4,1	= ./arc/timg/diff_01.tpl
+TPL,I4,1	= ./arc/timg/diff_01b.tpl
+TPL,I4,1	= ./arc/timg/diff_0b.tpl
+TPL,I4,1	= ./arc/timg/diff_1.tpl
+TPL,I4,1	= ./arc/timg/diff_1b.tpl
+TPL,I4,1	= ./arc/timg/ds_line.tpl
+TPL,CMPR,1	= ./arc/timg/dummy.tpl
+TPL,C8,P-RGB5A3,1	= ./arc/timg/favorite.tpl
+TPL,IA8,1	= ./arc/timg/favorite_hover.tpl
+TPL,IA8,1	= ./arc/timg/favorite_normal.tpl
+TPL,CMPR,1	= ./arc/timg/help_basis_00_00.tpl
+TPL,CMPR,1	= ./arc/timg/help_photo_03_00.tpl
+TPL,CMPR,1	= ./arc/timg/help_photo_04_00.tpl
+TPL,CMPR,1	= ./arc/timg/help_photo_05_00.tpl
+TPL,IA8,1	= ./arc/timg/icon_32_1.tpl
+TPL,IA8,1	= ./arc/timg/icon_32_2.tpl
+TPL,IA8,1	= ./arc/timg/icon_32_A.tpl
+TPL,IA8,1	= ./arc/timg/icon_32_B.tpl
+TPL,C8,P-RGB5A3,1	= ./arc/timg/icon_32_ball.tpl
+TPL,IA8,1	= ./arc/timg/icon_32_cursor.tpl
+TPL,C8,P-RGB5A3,1	= ./arc/timg/icon_32_home.tpl
+TPL,IA8,1	= ./arc/timg/icon_32_juji.tpl
+TPL,IA8,1	= ./arc/timg/icon_32_minus.tpl
+TPL,IA8,1	= ./arc/timg/icon_32_plus.tpl
+TPL,IA4,1	= ./arc/timg/icon_a.tpl
+TPL,C8,P-RGB5A3,1	= ./arc/timg/icon_album.tpl
+TPL,C8,P-RGB5A3,1	= ./arc/timg/icon_back.tpl
+TPL,C8,P-RGB5A3,1	= ./arc/timg/icon_camera.tpl
+TPL,C8,P-RGB5A3,1	= ./arc/timg/icon_cinema.tpl
+TPL,C8,P-RGB5A3,1	= ./arc/timg/icon_ds.tpl
+TPL,C8,P-RGB5A3,1	= ./arc/timg/icon_ds_bar.tpl
+TPL,C8,P-RGB5A3,1	= ./arc/timg/icon_farm.tpl
+TPL,I4,1	= ./arc/timg/icon_focus.tpl
+TPL,C8,P-RGB5A3,1	= ./arc/timg/icon_gomibako.tpl
+TPL,C8,P-RGB5A3,1	= ./arc/timg/icon_help.tpl
+TPL,C8,P-RGB5A3,1	= ./arc/timg/icon_keijiban.tpl
+TPL,C8,P-RGB5A3,1	= ./arc/timg/icon_lock.tpl
+TPL,C8,P-RGB5A3,1	= ./arc/timg/icon_look_me.tpl
+TPL,C8,P-RGB5A3,1	= ./arc/timg/icon_mii.tpl
+TPL,C8,P-RGB5A3,1	= ./arc/timg/icon_okuru.tpl
+TPL,C8,P-RGB5A3,1	= ./arc/timg/icon_option2.tpl
+TPL,C8,P-RGB5A3,1	= ./arc/timg/icon_parade.tpl
+TPL,C4,P-RGB5A3,1	= ./arc/timg/icon_question.tpl
+TPL,C8,P-RGB5A3,1	= ./arc/timg/icon_remocon.tpl
+TPL,IA8,1	= ./arc/timg/icon_sankaku.tpl
+TPL,C8,P-RGB5A3,1	= ./arc/timg/icon_sd.tpl
+TPL,C8,P-RGB5A3,1	= ./arc/timg/icon_sd_all.tpl
+TPL,C8,P-RGB5A3,1	= ./arc/timg/icon_sddel.tpl
+TPL,C8,P-RGB5A3,1	= ./arc/timg/icon_unlock.tpl
+TPL,C8,P-RGB5A3,1	= ./arc/timg/icon_x.tpl
+TPL,C8,P-RGB5A3,1	= ./arc/timg/icon_yameru.tpl
+TPL,IA8,1	= ./arc/timg/ill_ds.tpl
+TPL,C8,P-RGB5A3,1	= ./arc/timg/ill_wii.tpl
+TPL,I8,1	= ./arc/timg/line.tpl
+TPL,C8,P-RGB565,1	= ./arc/timg/map.tpl
+TPL,C4,P-RGB5A3,1	= ./arc/timg/map_marker.tpl
+TPL,RGB5A3,1	= ./arc/timg/mii64.tpl
+TPL,C8,P-RGB5A3,1	= ./arc/timg/name_mii.tpl
+TPL,IA4,1	= ./arc/timg/name_mii_face.tpl
+TPL,IA8,1	= ./arc/timg/name_mii_hover.tpl
+TPL,IA4,1	= ./arc/timg/name_mii_hover_button.tpl
+TPL,C4,P-RGB5A3,1	= ./arc/timg/p010_00.tpl
+TPL,IA4,1	= ./arc/timg/saving_bg.tpl
+TPL,CMPR,1	= ./arc/timg/ss_frame.tpl
+TPL,I8,1	= ./arc/timg/ss_frame_shadow.tpl
+TPL,IA8,1	= ./arc/timg/ss_frame_spec.tpl
+TPL,IA4,1	= ./arc/timg/telopwindow_2.tpl
+TPL,I8,1	= ./arc/timg/wa.tpl
+TPL,I4,1	= ./arc/timg/wanted_waku.tpl
+TPL,I4,1	= ./arc/timg/wii_setuzoku_waku.tpl
+TPL,CMPR,1	= ./arc/timg/window_ita.tpl
+TPL,CMPR,1	= ./arc/timg/window_paper.tpl
+TPL,C8,P-RGB5A3,1	= ./arc/timg/window_pin.tpl
+TPL,C8,P-RGB5A3,1	= ./arc/timg/window_text.tpl
+TPL,C8,P-RGB5A3,1	= ./arc/timg/xiiselect_first.tpl
+TPL,IA8,1	= ./arc/timg/xiiselect_name.tpl
+TPL,IA8,1	= ./arc/timg/xiiselect_sbar.tpl
+TPL,C8,P-RGB5A3,1	= ./arc/timg/xiiselect_sthumb.tpl
+TPL,I4,1	= ./arc/timg/yajirusi.tpl
+KCL		= ./course.kcl
+KMP		= ./course.kmp
+LEX		= ./course.lex
+
+#------------------------------------------------------------------------------
+
+[create]
+
+# Create (and overwrite without notice) the listed files before adding them to
+# the new archive. The source directory is searched under the same filename
+# with an appended ".d" or, if this fails, with an extension replaced by ".d".
+# If a source directory does not exist, the job is ignored silently.
+#   Example: For "my.brres" search directories "my.brres.d" or "my.d"
+# The source directory itself is set on the exclude list and will not stored
+# into the new archive. Creating can be controlled by the options:
+#   --no-recurse  : Do not create archives recursively.
+#   --no-encode   : Do not encode files before creating an archive.
+#   --encode-img  : Encode all image files (TEX,TPL,BREFT/sub), overrides --no-encode.
+#   --encode-all  : Encode all files and ignore timestamps.
+#   --pt-dir      : Set `point directory' mode.
+#   --u8          : Create an U8 archive.
+#   --brres       : Create an BRRES archive.
+#   --breff       : Create an BREFF archive.
+#   --breft       : Create an BREFT archive.
+#   --no-compress : Create an uncompressed file (U8 instead of SZS).
+#   ...
+
+
+#------------------------------------------------------------------------------
+
+[order]
+
+# This list contains all extracted files in the order of the original archive.
+# If creating archives (but not U8) this list will be used to sort the found
+# files. For archives with directory support (all but not PACK) it is very
+# important, that the directories are listed before the files that resides in
+# the directories.
+#
+# The value before the equal sign is the file offset in the original archive
+# and is ignored for sorting.
+
+		= ./arc/
+		= ./arc/anim/
+    0x4680	= ./arc/anim/album_begin.brlan
+    0x5460	= ./arc/anim/album_begin_txt.brlan
+    0x62a0	= ./arc/anim/album_disable.brlan
+    0x7000	= ./arc/anim/album_enable.brlan
+    0x7d60	= ./arc/anim/album_end.brlan
+    0x8ae0	= ./arc/anim/album_end_txt.brlan
+    0x98c0	= ./arc/anim/album_hover_normal.brlan
+    0xa6a0	= ./arc/anim/album_normal_hover.brlan
+    0xb4e0	= ./arc/anim/album_pressed.brlan
+    0xc3e0	= ./arc/anim/album_select.brlan
+    0xd120	= ./arc/anim/album_unselect.brlan
+    0xde60	= ./arc/anim/album_upper_fadein.brlan
+    0xeba0	= ./arc/anim/album_upper_fadeout.brlan
+    0xf8e0	= ./arc/anim/album_upper_next.brlan
+   0x10620	= ./arc/anim/album_upper_next_fast.brlan
+   0x11360	= ./arc/anim/album_upper_prev.brlan
+   0x120a0	= ./arc/anim/album_upper_prev_fast.brlan
+   0x12de0	= ./arc/anim/autocamera_begin.brlan
+   0x12fa0	= ./arc/anim/autocamera_end.brlan
+   0x13140	= ./arc/anim/common_a_begin.brlan
+   0x13200	= ./arc/anim/common_a_end.brlan
+   0x132c0	= ./arc/anim/common_a_loop.brlan
+   0x133a0	= ./arc/anim/common_bg_begin.brlan
+   0x13ec0	= ./arc/anim/common_bg_D_begin.brlan
+   0x149c0	= ./arc/anim/common_bg_D_end.brlan
+   0x154c0	= ./arc/anim/common_bg_D_loop.brlan
+   0x15fc0	= ./arc/anim/common_bg_D_P.brlan
+   0x16b40	= ./arc/anim/common_bg_D_Pt.brlan
+   0x176e0	= ./arc/anim/common_bg_end.brlan
+   0x18200	= ./arc/anim/common_bg_loop.brlan
+   0x18ec0	= ./arc/anim/common_bg_Pt_begin.brlan
+   0x19a60	= ./arc/anim/common_bg_Pt_D.brlan
+   0x1a600	= ./arc/anim/common_bg_Pt_end.brlan
+   0x1b1a0	= ./arc/anim/common_bg_Pt_loop.brlan
+   0x1bca0	= ./arc/anim/common_bg_Pt_P.brlan
+   0x1c840	= ./arc/anim/common_bg_P_begin.brlan
+   0x1d340	= ./arc/anim/common_bg_P_D.brlan
+   0x1dec0	= ./arc/anim/common_bg_P_end.brlan
+   0x1e9c0	= ./arc/anim/common_bg_P_loop.brlan
+   0x1f4c0	= ./arc/anim/common_bg_P_Pt.brlan
+   0x20060	= ./arc/anim/common_close_begin.brlan
+   0x20260	= ./arc/anim/common_close_begin_txt.brlan
+   0x20480	= ./arc/anim/common_close_end.brlan
+   0x20660	= ./arc/anim/common_close_end_txt.brlan
+   0x20860	= ./arc/anim/common_close_hover_normal.brlan
+   0x20a60	= ./arc/anim/common_close_normal_hover.brlan
+   0x20c80	= ./arc/anim/common_close_pressed.brlan
+   0x20ea0	= ./arc/anim/dlg_b3_begin.brlan
+   0x21240	= ./arc/anim/dlg_b3_begin_txt.brlan
+   0x215e0	= ./arc/anim/dlg_b3_disable.brlan
+   0x21980	= ./arc/anim/dlg_b3_enable.brlan
+   0x21d20	= ./arc/anim/dlg_b3_end.brlan
+   0x220c0	= ./arc/anim/dlg_b3_end_txt.brlan
+   0x22460	= ./arc/anim/dlg_b3_fadein.brlan
+   0x22800	= ./arc/anim/dlg_b3_fadeout.brlan
+   0x22ba0	= ./arc/anim/dlg_b3_hover_normal.brlan
+   0x22f80	= ./arc/anim/dlg_b3_normal_hover.brlan
+   0x23360	= ./arc/anim/dlg_b3_pressed.brlan
+   0x23780	= ./arc/anim/dlg_b3_select.brlan
+   0x23b20	= ./arc/anim/dlg_b3_unselect.brlan
+   0x23ec0	= ./arc/anim/dlg_b4_begin.brlan
+   0x24c60	= ./arc/anim/dlg_b4_begin_txt.brlan
+   0x259c0	= ./arc/anim/dlg_b4_end.brlan
+   0x26760	= ./arc/anim/dlg_b4_end_txt.brlan
+   0x274c0	= ./arc/anim/dlg_b4_fadein.brlan
+   0x28200	= ./arc/anim/dlg_b4_fadeout.brlan
+   0x28f40	= ./arc/anim/dlg_b4_hover_normal.brlan
+   0x29d60	= ./arc/anim/dlg_b4_next.brlan
+   0x2aaa0	= ./arc/anim/dlg_b4_next_fast.brlan
+   0x2b7e0	= ./arc/anim/dlg_b4_normal_hover.brlan
+   0x2c620	= ./arc/anim/dlg_b4_pressed.brlan
+   0x2d520	= ./arc/anim/dlg_b4_prev.brlan
+   0x2e260	= ./arc/anim/dlg_b4_prev_fast.brlan
+   0x2efa0	= ./arc/anim/dlg_b4_select.brlan
+   0x2ff00	= ./arc/anim/dlg_b4_unselect.brlan
+   0x30e60	= ./arc/anim/dlg_b8s_begin.brlan
+   0x32640	= ./arc/anim/dlg_b8s_begin_txt.brlan
+   0x33d80	= ./arc/anim/dlg_b8s_end.brlan
+   0x35560	= ./arc/anim/dlg_b8s_end_txt.brlan
+   0x36ca0	= ./arc/anim/dlg_b8s_fadein.brlan
+   0x383c0	= ./arc/anim/dlg_b8s_fadeout.brlan
+   0x39ae0	= ./arc/anim/dlg_b8s_hover_normal.brlan
+   0x3b3a0	= ./arc/anim/dlg_b8s_next.brlan
+   0x3cac0	= ./arc/anim/dlg_b8s_next_fast.brlan
+   0x3e1e0	= ./arc/anim/dlg_b8s_normal_hover.brlan
+   0x3fac0	= ./arc/anim/dlg_b8s_pressed.brlan
+   0x41520	= ./arc/anim/dlg_b8s_prev.brlan
+   0x42c40	= ./arc/anim/dlg_b8s_prev_fast.brlan
+   0x44360	= ./arc/anim/dlg_b8s_select.brlan
+   0x45ee0	= ./arc/anim/dlg_b8s_unselect.brlan
+   0x47a60	= ./arc/anim/ds_setuzokub_begin.brlan
+   0x47c60	= ./arc/anim/ds_setuzokub_begin_txt.brlan
+   0x47e80	= ./arc/anim/ds_setuzokub_end.brlan
+   0x48060	= ./arc/anim/ds_setuzokub_end_txt.brlan
+   0x48260	= ./arc/anim/ds_setuzokub_hover_normal.brlan
+   0x48460	= ./arc/anim/ds_setuzokub_normal_hover.brlan
+   0x48680	= ./arc/anim/ds_setuzokub_pressed.brlan
+   0x488a0	= ./arc/anim/ds_setuzoku_begin.brlan
+   0x494e0	= ./arc/anim/ds_setuzoku_end.brlan
+   0x4a0c0	= ./arc/anim/ds_setuzoku_loop_beacon.brlan
+   0x4ad40	= ./arc/anim/ds_setuzoku_loop_download.brlan
+   0x4b9e0	= ./arc/anim/ds_setuzoku_loop_establish.brlan
+   0x4c5c0	= ./arc/anim/ds_setuzoku_mode_begin.brlan
+   0x4d1c0	= ./arc/anim/ds_setuzoku_mode_end.brlan
+   0x4dda0	= ./arc/anim/focuslock_begin.brlan
+   0x4df40	= ./arc/anim/focuslock_end.brlan
+   0x4e0e0	= ./arc/anim/focuslock_loop.brlan
+   0x4e240	= ./arc/anim/help_auto_begin.brlan
+   0x4e440	= ./arc/anim/help_auto_begin_txt.brlan
+   0x4e620	= ./arc/anim/help_auto_end.brlan
+   0x4e800	= ./arc/anim/help_auto_end_txt.brlan
+   0x4e9c0	= ./arc/anim/help_auto_hover_normal.brlan
+   0x4eba0	= ./arc/anim/help_auto_normal_hover.brlan
+   0x4ed80	= ./arc/anim/help_auto_pressed.brlan
+   0x4ef80	= ./arc/anim/help_details_begin.brlan
+   0x4fb40	= ./arc/anim/help_details_begin_txt.brlan
+   0x50720	= ./arc/anim/help_details_disable.brlan
+   0x51300	= ./arc/anim/help_details_enable.brlan
+   0x51ee0	= ./arc/anim/help_details_end.brlan
+   0x52aa0	= ./arc/anim/help_details_end_txt.brlan
+   0x53680	= ./arc/anim/help_details_fadein.brlan
+   0x54240	= ./arc/anim/help_details_fadeout.brlan
+   0x54e00	= ./arc/anim/help_details_fadeout_next.brlan
+   0x559c0	= ./arc/anim/help_details_hover_normal.brlan
+   0x56660	= ./arc/anim/help_details_next.brlan
+   0x57220	= ./arc/anim/help_details_normal_hover.brlan
+   0x57ee0	= ./arc/anim/help_details_pressed.brlan
+   0x58c60	= ./arc/anim/help_details_prev.brlan
+   0x59820	= ./arc/anim/help_details_select.brlan
+   0x5a600	= ./arc/anim/help_details_unselect.brlan
+   0x5b3e0	= ./arc/anim/help_page_next.brlan
+   0x5b480	= ./arc/anim/help_page_prev.brlan
+   0x5b520	= ./arc/anim/kouryuu_begin.brlan
+   0x5b6c0	= ./arc/anim/kouryuu_begin_txt.brlan
+   0x5b880	= ./arc/anim/kouryuu_disable.brlan
+   0x5ba20	= ./arc/anim/kouryuu_enable.brlan
+   0x5bbc0	= ./arc/anim/kouryuu_end.brlan
+   0x5bd60	= ./arc/anim/kouryuu_end_txt.brlan
+   0x5bf00	= ./arc/anim/kouryuu_fadein.brlan
+   0x5c0c0	= ./arc/anim/kouryuu_fadeout.brlan
+   0x5c280	= ./arc/anim/kouryuu_hover_normal.brlan
+   0x5c440	= ./arc/anim/kouryuu_next.brlan
+   0x5c600	= ./arc/anim/kouryuu_normal_hover.brlan
+   0x5c7c0	= ./arc/anim/kouryuu_pressed.brlan
+   0x5c9a0	= ./arc/anim/kouryuu_prev.brlan
+   0x5cb60	= ./arc/anim/kouryuu_select.brlan
+   0x5cd60	= ./arc/anim/kouryuu_unselect.brlan
+   0x5cf60	= ./arc/anim/main_album_rest_0.brlan
+   0x5e320	= ./arc/anim/main_album_rest_many.brlan
+   0x5f6e0	= ./arc/anim/main_begin.brlan
+   0x60be0	= ./arc/anim/main_begin_txt.brlan
+   0x62160	= ./arc/anim/main_end.brlan
+   0x635c0	= ./arc/anim/main_end_txt.brlan
+   0x64aa0	= ./arc/anim/main_hover_normal.brlan
+   0x65f80	= ./arc/anim/main_normal_hover.brlan
+   0x67520	= ./arc/anim/main_pressed.brlan
+   0x68be0	= ./arc/anim/mii_motinusi_begin.brlan
+   0x6b880	= ./arc/anim/mii_motinusi_begin_txt.brlan
+   0x6e620	= ./arc/anim/mii_motinusi_disable.brlan
+   0x713c0	= ./arc/anim/mii_motinusi_enable.brlan
+   0x74160	= ./arc/anim/mii_motinusi_end.brlan
+   0x76e00	= ./arc/anim/mii_motinusi_end_txt.brlan
+   0x79ba0	= ./arc/anim/mii_motinusi_fadein.brlan
+   0x7c820	= ./arc/anim/mii_motinusi_fadeout.brlan
+   0x7f4a0	= ./arc/anim/mii_motinusi_hover_normal.brlan
+   0x823a0	= ./arc/anim/mii_motinusi_next.brlan
+   0x85020	= ./arc/anim/mii_motinusi_normal_hover.brlan
+   0x87f20	= ./arc/anim/mii_motinusi_pressed.brlan
+   0x8b080	= ./arc/anim/mii_motinusi_prev.brlan
+   0x8dd00	= ./arc/anim/mii_motinusi_select.brlan
+   0x90a60	= ./arc/anim/mii_motinusi_unselect.brlan
+   0x937e0	= ./arc/anim/mii_settei_begin.brlan
+   0x950c0	= ./arc/anim/mii_settei_begin_txt.brlan
+   0x96ac0	= ./arc/anim/mii_settei_disable.brlan
+   0x98320	= ./arc/anim/mii_settei_enable.brlan
+   0x99b80	= ./arc/anim/mii_settei_end.brlan
+   0x9b3c0	= ./arc/anim/mii_settei_end_txt.brlan
+   0x9cdc0	= ./arc/anim/mii_settei_fadein.brlan
+   0x9e600	= ./arc/anim/mii_settei_fadeout.brlan
+   0x9fe40	= ./arc/anim/mii_settei_hover_normal.brlan
+   0xa1840	= ./arc/anim/mii_settei_next.brlan
+   0xa3080	= ./arc/anim/mii_settei_normal_hover.brlan
+   0xa4a80	= ./arc/anim/mii_settei_pressed.brlan
+   0xa65a0	= ./arc/anim/mii_settei_prev.brlan
+   0xa7de0	= ./arc/anim/mii_settei_select.brlan
+   0xa9700	= ./arc/anim/mii_settei_unselect.brlan
+   0xab020	= ./arc/anim/msgwindow_a_button.brlan
+   0xab3e0	= ./arc/anim/msgwindow_begin.brlan
+   0xab800	= ./arc/anim/msgwindow_end.brlan
+   0xabc20	= ./arc/anim/msgwindow_hover_normal.brlan
+   0xac020	= ./arc/anim/msgwindow_normal_hover.brlan
+   0xac420	= ./arc/anim/msgwindow_null.brlan
+   0xac7e0	= ./arc/anim/msgwindow_pressed.brlan
+   0xacc00	= ./arc/anim/namehover_begin.brlan
+   0xacce0	= ./arc/anim/namehover_begin_fast.brlan
+   0xacda0	= ./arc/anim/namehover_end.brlan
+   0xace80	= ./arc/anim/namemii_begin.brlan
+   0xacf60	= ./arc/anim/namemii_end.brlan
+   0xad040	= ./arc/anim/name_begin.brlan
+   0xad300	= ./arc/anim/name_begin_fast.brlan
+   0xad5a0	= ./arc/anim/name_end.brlan
+   0xad840	= ./arc/anim/name_hover_normal.brlan
+   0xadae0	= ./arc/anim/name_h_hover_begin.brlan
+   0xadda0	= ./arc/anim/name_h_hover_end.brlan
+   0xae060	= ./arc/anim/name_h_hover_loop.brlan
+   0xae300	= ./arc/anim/name_normal_hover.brlan
+   0xae5c0	= ./arc/anim/name_pressed.brlan
+   0xae880	= ./arc/anim/name_select.brlan
+   0xaeb20	= ./arc/anim/name_unselect.brlan
+   0xaedc0	= ./arc/anim/omoide_begin.brlan
+   0xafd80	= ./arc/anim/omoide_begin_txt.brlan
+   0xb0dc0	= ./arc/anim/omoide_disable.brlan
+   0xb1da0	= ./arc/anim/omoide_enable.brlan
+   0xb2d80	= ./arc/anim/omoide_end.brlan
+   0xb3d40	= ./arc/anim/omoide_end_txt.brlan
+   0xb4d80	= ./arc/anim/omoide_fadein.brlan
+   0xb5d40	= ./arc/anim/omoide_fadeout.brlan
+   0xb6d00	= ./arc/anim/omoide_hover_normal.brlan
+   0xb7dc0	= ./arc/anim/omoide_next.brlan
+   0xb8d80	= ./arc/anim/omoide_normal_hover.brlan
+   0xb9e40	= ./arc/anim/omoide_pressed.brlan
+   0xbafc0	= ./arc/anim/omoide_prev.brlan
+   0xbbf80	= ./arc/anim/omoide_select.brlan
+   0xbcf20	= ./arc/anim/omoide_unselect.brlan
+   0xbdec0	= ./arc/anim/parade_begin.brlan
+   0xbe120	= ./arc/anim/parade_end.brlan
+   0xbe360	= ./arc/anim/parade_hover_normal.brlan
+   0xbe5a0	= ./arc/anim/parade_info_begin.brlan
+   0xbe780	= ./arc/anim/parade_info_end.brlan
+   0xbe960	= ./arc/anim/parade_normal_hover.brlan
+   0xbebc0	= ./arc/anim/parade_pressed.brlan
+   0xbee20	= ./arc/anim/pii_count_begin.brlan
+   0xbef80	= ./arc/anim/pii_count_begin_to_denom.brlan
+   0xbf0e0	= ./arc/anim/pii_count_end.brlan
+   0xbf240	= ./arc/anim/pii_count_end_from_denom.brlan
+   0xbf3a0	= ./arc/anim/pii_count_hide_denom.brlan
+   0xbf520	= ./arc/anim/pii_count_show_denom.brlan
+   0xbf6a0	= ./arc/anim/piprojection_begin.brlan
+   0xbf960	= ./arc/anim/piprojection_disappear.brlan
+   0xbfc40	= ./arc/anim/piprojection_end.brlan
+   0xbff00	= ./arc/anim/piprojection_select.brlan
+   0xc0160	= ./arc/anim/saving_begin.brlan
+   0xc0200	= ./arc/anim/saving_end.brlan
+   0xc02a0	= ./arc/anim/saving_loop.brlan
+   0xc0340	= ./arc/anim/screenshot_taken.brlan
+   0xc0460	= ./arc/anim/telop_begin.brlan
+   0xc0500	= ./arc/anim/telop_end.brlan
+   0xc05a0	= ./arc/anim/todaysfarm_begin.brlan
+   0xc0900	= ./arc/anim/todaysfarm_begin_txt.brlan
+   0xc0c80	= ./arc/anim/todaysfarm_disable.brlan
+   0xc1000	= ./arc/anim/todaysfarm_enable.brlan
+   0xc1380	= ./arc/anim/todaysfarm_end.brlan
+   0xc16e0	= ./arc/anim/todaysfarm_end_txt.brlan
+   0xc1a60	= ./arc/anim/todaysfarm_fadein.brlan
+   0xc1dc0	= ./arc/anim/todaysfarm_fadeout.brlan
+   0xc2120	= ./arc/anim/todaysfarm_hover_normal.brlan
+   0xc24a0	= ./arc/anim/todaysfarm_next.brlan
+   0xc2800	= ./arc/anim/todaysfarm_normal_hover.brlan
+   0xc2b80	= ./arc/anim/todaysfarm_pressed.brlan
+   0xc2f20	= ./arc/anim/todaysfarm_prev.brlan
+   0xc3280	= ./arc/anim/todaysfarm_select.brlan
+   0xc35c0	= ./arc/anim/todaysfarm_unselect.brlan
+   0xc3900	= ./arc/anim/uchiwake_begin.brlan
+   0xc4280	= ./arc/anim/uchiwake_begin_txt.brlan
+   0xc4c20	= ./arc/anim/uchiwake_end.brlan
+   0xc5580	= ./arc/anim/uchiwake_end_txt.brlan
+   0xc5f00	= ./arc/anim/uchiwake_fadein.brlan
+   0xc6840	= ./arc/anim/uchiwake_fadeout.brlan
+   0xc7180	= ./arc/anim/uchiwake_fadeout_next.brlan
+   0xc7ac0	= ./arc/anim/uchiwake_hover_normal.brlan
+   0xc84e0	= ./arc/anim/uchiwake_next.brlan
+   0xc8e20	= ./arc/anim/uchiwake_normal_hover.brlan
+   0xc9880	= ./arc/anim/uchiwake_pressed.brlan
+   0xca3c0	= ./arc/anim/uchiwake_prev.brlan
+   0xcad00	= ./arc/anim/uchiwake_select.brlan
+   0xcb640	= ./arc/anim/uchiwake_unselect.brlan
+   0xcbf80	= ./arc/anim/uwasa_fadein.brlan
+   0xcc020	= ./arc/anim/uwasa_fadeout.brlan
+   0xcc0c0	= ./arc/anim/wanted_begin.brlan
+   0xcc9c0	= ./arc/anim/wanted_begin_txt.brlan
+   0xcd300	= ./arc/anim/wanted_disable.brlan
+   0xcdc20	= ./arc/anim/wanted_down.brlan
+   0xce4e0	= ./arc/anim/wanted_enable.brlan
+   0xcee00	= ./arc/anim/wanted_end.brlan
+   0xcf700	= ./arc/anim/wanted_end_txt.brlan
+   0xd0040	= ./arc/anim/wanted_hover_normal.brlan
+   0xd0980	= ./arc/anim/wanted_lower_fadein.brlan
+   0xd1260	= ./arc/anim/wanted_lower_fadeout.brlan
+   0xd1b40	= ./arc/anim/wanted_lower_next.brlan
+   0xd2400	= ./arc/anim/wanted_lower_prev.brlan
+   0xd2cc0	= ./arc/anim/wanted_lower_stable.brlan
+   0xd3580	= ./arc/anim/wanted_map_begin.brlan
+   0xd36e0	= ./arc/anim/wanted_map_blink.brlan
+   0xd3840	= ./arc/anim/wanted_map_end.brlan
+   0xd39a0	= ./arc/anim/wanted_map_fadein.brlan
+   0xd3b00	= ./arc/anim/wanted_map_fadeout.brlan
+   0xd3c60	= ./arc/anim/wanted_map_hover_normal.brlan
+   0xd3da0	= ./arc/anim/wanted_map_normal_hover.brlan
+   0xd3ee0	= ./arc/anim/wanted_map_null.brlan
+   0xd4020	= ./arc/anim/wanted_map_pressed.brlan
+   0xd4160	= ./arc/anim/wanted_normal_hover.brlan
+   0xd4aa0	= ./arc/anim/wanted_pressed.brlan
+   0xd5440	= ./arc/anim/wanted_select.brlan
+   0xd5d00	= ./arc/anim/wanted_sinka_begin.brlan
+   0xd5f00	= ./arc/anim/wanted_sinka_end.brlan
+   0xd6100	= ./arc/anim/wanted_sinka_fadein.brlan
+   0xd6300	= ./arc/anim/wanted_sinka_fadeout.brlan
+   0xd6500	= ./arc/anim/wanted_sinka_hover_normal.brlan
+   0xd6700	= ./arc/anim/wanted_sinka_normal_hover.brlan
+   0xd6900	= ./arc/anim/wanted_sinka_null.brlan
+   0xd6ae0	= ./arc/anim/wanted_sinka_pressed.brlan
+   0xd6ce0	= ./arc/anim/wanted_stamp.brlan
+   0xd75e0	= ./arc/anim/wanted_stamp2.brlan
+   0xd7ec0	= ./arc/anim/wanted_unselect.brlan
+   0xd8780	= ./arc/anim/wanted_up.brlan
+   0xd9040	= ./arc/anim/wanted_upper_fadein.brlan
+   0xd9920	= ./arc/anim/wanted_upper_fadeout.brlan
+   0xda200	= ./arc/anim/wanted_upper_next.brlan
+   0xdaac0	= ./arc/anim/wanted_upper_prev.brlan
+   0xdb380	= ./arc/anim/wanted_upper_stable.brlan
+   0xdbc40	= ./arc/anim/wanted_ver_begin.brlan
+   0xdbde0	= ./arc/anim/wanted_ver_end.brlan
+   0xdbf80	= ./arc/anim/wanted_ver_hover_normal.brlan
+   0xdc140	= ./arc/anim/wanted_ver_normal_hover.brlan
+   0xdc300	= ./arc/anim/wanted_ver_null.brlan
+   0xdc4a0	= ./arc/anim/wanted_ver_pressed.brlan
+   0xdc660	= ./arc/anim/wanted_ver_select.brlan
+   0xdc800	= ./arc/anim/wanted_ver_unselect.brlan
+   0xdc9c0	= ./arc/anim/xiiselect_begin.brlan
+   0xdce20	= ./arc/anim/xiiselect_end.brlan
+   0xdd280	= ./arc/anim/xiiselect_next.brlan
+   0xdd7a0	= ./arc/anim/xiiselect_normal.brlan
+   0xddc00	= ./arc/anim/xiiselect_prev.brlan
+   0xde120	= ./arc/anim/yokoku_fadein.brlan
+   0xde1e0	= ./arc/anim/yokoku_fadeout.brlan
+		= ./arc/blyt/
+   0xde280	= ./arc/blyt/album.brlyt
+   0xe5420	= ./arc/blyt/autocamera.brlyt
+   0xe6ca0	= ./arc/blyt/common_a.brlyt
+   0xe6f60	= ./arc/blyt/common_bg.brlyt
+   0xe92c0	= ./arc/blyt/common_close.brlyt
+   0xe9fa0	= ./arc/blyt/copyright.brlyt
+   0xea920	= ./arc/blyt/cursor.brlyt
+   0xf32e0	= ./arc/blyt/dlg_b3.brlyt
+   0xf4500	= ./arc/blyt/dlg_b4.brlyt
+   0xf8300	= ./arc/blyt/dlg_b8s.brlyt
+   0xfdfc0	= ./arc/blyt/ds_connect_limit0.brlyt
+   0xfe720	= ./arc/blyt/ds_connect_limit1.brlyt
+   0xfeea0	= ./arc/blyt/ds_connect_no_zukan.brlyt
+   0xff600	= ./arc/blyt/ds_connect_report.brlyt
+   0xffd80	= ./arc/blyt/ds_connect_undo.brlyt
+  0x1001e0	= ./arc/blyt/ds_connect_warning.brlyt
+  0x100980	= ./arc/blyt/ds_setuzoku.brlyt
+  0x104420	= ./arc/blyt/ds_setuzokub.brlyt
+  0x105100	= ./arc/blyt/focuslock.brlyt
+  0x105780	= ./arc/blyt/help_auto.brlyt
+  0x106800	= ./arc/blyt/help_basis_00.brlyt
+  0x107a40	= ./arc/blyt/help_basis_01.brlyt
+  0x1092e0	= ./arc/blyt/help_basis_02.brlyt
+  0x109de0	= ./arc/blyt/help_basis_03.brlyt
+  0x10a6a0	= ./arc/blyt/help_basis_09.brlyt
+  0x10ae60	= ./arc/blyt/help_basis_10.brlyt
+  0x10b600	= ./arc/blyt/help_basis_11.brlyt
+  0x10bdc0	= ./arc/blyt/help_board_00.brlyt
+  0x10ccc0	= ./arc/blyt/help_board_01.brlyt
+  0x10d4c0	= ./arc/blyt/help_board_02.brlyt
+  0x10e780	= ./arc/blyt/help_board_03.brlyt
+  0x10ee60	= ./arc/blyt/help_board_04.brlyt
+  0x10fce0	= ./arc/blyt/help_board_05.brlyt
+  0x110800	= ./arc/blyt/help_board_06.brlyt
+  0x1114e0	= ./arc/blyt/help_details.brlyt
+  0x114380	= ./arc/blyt/help_ds_00.brlyt
+  0x115500	= ./arc/blyt/help_ds_01.brlyt
+  0x115ca0	= ./arc/blyt/help_faq_00.brlyt
+  0x116760	= ./arc/blyt/help_faq_01.brlyt
+  0x117200	= ./arc/blyt/help_faq_02.brlyt
+  0x117ca0	= ./arc/blyt/help_faq_03.brlyt
+  0x118740	= ./arc/blyt/help_faq_04.brlyt
+  0x1191e0	= ./arc/blyt/help_faq_05.brlyt
+  0x119c80	= ./arc/blyt/help_f_mii_00.brlyt
+  0x11a3e0	= ./arc/blyt/help_f_mii_01.brlyt
+  0x11af60	= ./arc/blyt/help_option_00.brlyt
+  0x11bd60	= ./arc/blyt/help_option_01.brlyt
+  0x11c8e0	= ./arc/blyt/help_option_03.brlyt
+  0x11d4a0	= ./arc/blyt/help_option_04.brlyt
+  0x11e020	= ./arc/blyt/help_page.brlyt
+  0x11e220	= ./arc/blyt/help_photo_00.brlyt
+  0x11f3e0	= ./arc/blyt/help_photo_01.brlyt
+  0x11fe00	= ./arc/blyt/help_photo_02.brlyt
+  0x1212e0	= ./arc/blyt/help_photo_03.brlyt
+  0x122120	= ./arc/blyt/help_photo_04.brlyt
+  0x123640	= ./arc/blyt/help_photo_05.brlyt
+  0x124080	= ./arc/blyt/help_sousa_00.brlyt
+  0x125dc0	= ./arc/blyt/help_sousa_01.brlyt
+  0x126880	= ./arc/blyt/help_sousa_02.brlyt
+  0x127380	= ./arc/blyt/help_sousa_03.brlyt
+  0x128520	= ./arc/blyt/help_sousa_04.brlyt
+  0x128fe0	= ./arc/blyt/help_sousa_05.brlyt
+  0x129b40	= ./arc/blyt/help_uchiwake_00.brlyt
+  0x12a620	= ./arc/blyt/help_uchiwake_01.brlyt
+  0x12b8a0	= ./arc/blyt/help_uchiwake_02.brlyt
+  0x12caa0	= ./arc/blyt/help_uchiwake_03.brlyt
+  0x12d240	= ./arc/blyt/help_uchiwake_04.brlyt
+  0x12e4a0	= ./arc/blyt/kouryuu.brlyt
+  0x12f120	= ./arc/blyt/main.brlyt
+  0x1385e0	= ./arc/blyt/mii_motinusi.brlyt
+  0x143940	= ./arc/blyt/mii_settei.brlyt
+  0x14e120	= ./arc/blyt/msgwindow.brlyt
+  0x14f220	= ./arc/blyt/name.brlyt
+  0x151620	= ./arc/blyt/namehover.brlyt
+  0x152e00	= ./arc/blyt/namemii.brlyt
+  0x153160	= ./arc/blyt/omoide.brlyt
+  0x157280	= ./arc/blyt/parade.brlyt
+  0x1580e0	= ./arc/blyt/parade_info.brlyt
+  0x1593c0	= ./arc/blyt/pii_count.brlyt
+  0x159cc0	= ./arc/blyt/piprojection.brlyt
+  0x159ee0	= ./arc/blyt/saving.brlyt
+  0x15a3c0	= ./arc/blyt/screenshot.brlyt
+  0x15af60	= ./arc/blyt/sousa_guide.brlyt
+  0x15cba0	= ./arc/blyt/telop.brlyt
+  0x15d5c0	= ./arc/blyt/telopscroll.brlyt
+  0x15ddc0	= ./arc/blyt/todaysfarm.brlyt
+  0x15fc80	= ./arc/blyt/uchiwake.brlyt
+  0x167480	= ./arc/blyt/uwasa.brlyt
+  0x167e00	= ./arc/blyt/wanted.brlyt
+  0x170600	= ./arc/blyt/wanted_map.brlyt
+  0x171280	= ./arc/blyt/wanted_sinka.brlyt
+  0x171ee0	= ./arc/blyt/wanted_ver.brlyt
+  0x1724a0	= ./arc/blyt/xiiselect.brlyt
+  0x17a3a0	= ./arc/blyt/yokoku.brlyt
+		= ./arc/timg/
+  0x17afc0	= ./arc/timg/back_bw.tpl
+  0x17b800	= ./arc/timg/back_bw8.tpl
+  0x17c040	= ./arc/timg/ball.tpl
+  0x17c980	= ./arc/timg/balloon.tpl
+  0x1809c0	= ./arc/timg/ball_l.tpl
+  0x181a00	= ./arc/timg/ball_l2.tpl
+  0x182240	= ./arc/timg/ball_w.tpl
+  0x184280	= ./arc/timg/ball_w_l.tpl
+  0x18c2c0	= ./arc/timg/button_bar.tpl
+  0x18d300	= ./arc/timg/button_bar_l.tpl
+  0x18e1c0	= ./arc/timg/button_c_normal.tpl
+  0x190200	= ./arc/timg/button_down.tpl
+  0x1913e0	= ./arc/timg/button_hover.tpl
+  0x193420	= ./arc/timg/button_left.tpl
+  0x194f20	= ./arc/timg/button_l_hover.tpl
+  0x198760	= ./arc/timg/button_l_normal.tpl
+  0x19bfa0	= ./arc/timg/button_normal.tpl
+  0x19dfe0	= ./arc/timg/button_rc_hover.tpl
+  0x1a0020	= ./arc/timg/button_right.tpl
+  0x1a1b00	= ./arc/timg/button_r_hover.tpl
+  0x1a4b40	= ./arc/timg/button_r_normal.tpl
+  0x1a7b80	= ./arc/timg/button_up.tpl
+  0x1a8d80	= ./arc/timg/cursor_arrow_02.tpl
+  0x1a8fc0	= ./arc/timg/cursor_arrow_02b.tpl
+  0x1a9200	= ./arc/timg/cursor_B.tpl
+  0x1ab240	= ./arc/timg/cursor_diff_ring.tpl
+  0x1ab480	= ./arc/timg/cursor_disable.tpl
+  0x1ab580	= ./arc/timg/cursor_grab.tpl
+  0x1ad5c0	= ./arc/timg/cursor_grab_shadow.tpl
+  0x1ade00	= ./arc/timg/cursor_main.tpl
+  0x1afe40	= ./arc/timg/cursor_num_four.tpl
+  0x1b00c0	= ./arc/timg/cursor_num_one.tpl
+  0x1b0340	= ./arc/timg/cursor_num_three.tpl
+  0x1b05c0	= ./arc/timg/cursor_num_two.tpl
+  0x1b0840	= ./arc/timg/cursor_shadow.tpl
+  0x1b1080	= ./arc/timg/cursor_shadowB.tpl
+  0x1b14c0	= ./arc/timg/diff_0.tpl
+  0x1b1520	= ./arc/timg/diff_01.tpl
+  0x1b1580	= ./arc/timg/diff_01b.tpl
+  0x1b1600	= ./arc/timg/diff_0b.tpl
+  0x1b1660	= ./arc/timg/diff_1.tpl
+  0x1b17a0	= ./arc/timg/diff_1b.tpl
+  0x1b18e0	= ./arc/timg/ds_line.tpl
+  0x1b1940	= ./arc/timg/dummy.tpl
+  0x1b1a00	= ./arc/timg/favorite.tpl
+  0x1b2020	= ./arc/timg/favorite_hover.tpl
+  0x1b2860	= ./arc/timg/favorite_normal.tpl
+  0x1b30a0	= ./arc/timg/help_basis_00_00.tpl
+  0x1b46e0	= ./arc/timg/help_photo_03_00.tpl
+  0x1b5d20	= ./arc/timg/help_photo_04_00.tpl
+  0x1b7360	= ./arc/timg/help_photo_05_00.tpl
+  0x1b89a0	= ./arc/timg/icon_32_1.tpl
+  0x1b91e0	= ./arc/timg/icon_32_2.tpl
+  0x1b9a20	= ./arc/timg/icon_32_A.tpl
+  0x1ba260	= ./arc/timg/icon_32_B.tpl
+  0x1ba8a0	= ./arc/timg/icon_32_ball.tpl
+  0x1bae00	= ./arc/timg/icon_32_cursor.tpl
+  0x1bb540	= ./arc/timg/icon_32_home.tpl
+  0x1bba40	= ./arc/timg/icon_32_juji.tpl
+  0x1bc280	= ./arc/timg/icon_32_minus.tpl
+  0x1bcac0	= ./arc/timg/icon_32_plus.tpl
+  0x1bd300	= ./arc/timg/icon_a.tpl
+  0x1be340	= ./arc/timg/icon_album.tpl
+  0x1bf540	= ./arc/timg/icon_back.tpl
+  0x1c06a0	= ./arc/timg/icon_camera.tpl
+  0x1c18e0	= ./arc/timg/icon_cinema.tpl
+  0x1c24e0	= ./arc/timg/icon_ds.tpl
+  0x1c36c0	= ./arc/timg/icon_ds_bar.tpl
+  0x1c3b60	= ./arc/timg/icon_farm.tpl
+  0x1c4cc0	= ./arc/timg/icon_focus.tpl
+  0x1c4e20	= ./arc/timg/icon_gomibako.tpl
+  0x1c6000	= ./arc/timg/icon_help.tpl
+  0x1c6d20	= ./arc/timg/icon_keijiban.tpl
+  0x1c7940	= ./arc/timg/icon_lock.tpl
+  0x1c8660	= ./arc/timg/icon_look_me.tpl
+  0x1c9860	= ./arc/timg/icon_mii.tpl
+  0x1caa20	= ./arc/timg/icon_okuru.tpl
+  0x1cbc80	= ./arc/timg/icon_option2.tpl
+  0x1ccde0	= ./arc/timg/icon_parade.tpl
+  0x1cdb60	= ./arc/timg/icon_question.tpl
+  0x1ce3e0	= ./arc/timg/icon_remocon.tpl
+  0x1cf0c0	= ./arc/timg/icon_sankaku.tpl
+  0x1cf900	= ./arc/timg/icon_sd.tpl
+  0x1d0460	= ./arc/timg/icon_sddel.tpl
+  0x1d1220	= ./arc/timg/icon_sd_all.tpl
+  0x1d1fc0	= ./arc/timg/icon_unlock.tpl
+  0x1d2cc0	= ./arc/timg/icon_x.tpl
+  0x1d3ea0	= ./arc/timg/icon_yameru.tpl
+  0x1d4b80	= ./arc/timg/ill_ds.tpl
+  0x1e09c0	= ./arc/timg/ill_wii.tpl
+  0x1e5540	= ./arc/timg/line.tpl
+  0x1e6580	= ./arc/timg/map.tpl
+  0x1ef400	= ./arc/timg/map_marker.tpl
+  0x1efc80	= ./arc/timg/mii64.tpl
+  0x1f1cc0	= ./arc/timg/name_mii.tpl
+  0x1f3920	= ./arc/timg/name_mii_face.tpl
+  0x1f4960	= ./arc/timg/name_mii_hover.tpl
+  0x1f7ba0	= ./arc/timg/name_mii_hover_button.tpl
+  0x1f8be0	= ./arc/timg/p010_00.tpl
+  0x1f8e60	= ./arc/timg/saving_bg.tpl
+  0x1f92a0	= ./arc/timg/ss_frame.tpl
+  0x1f9300	= ./arc/timg/ss_frame_shadow.tpl
+  0x1f9440	= ./arc/timg/ss_frame_spec.tpl
+  0x1fb5c0	= ./arc/timg/telopwindow_2.tpl
+  0x1fc600	= ./arc/timg/wa.tpl
+  0x1fd640	= ./arc/timg/wanted_waku.tpl
+  0x1fd7a0	= ./arc/timg/wii_setuzoku_waku.tpl
+  0x1fe200	= ./arc/timg/window_ita.tpl
+  0x20ea40	= ./arc/timg/window_paper.tpl
+  0x21d120	= ./arc/timg/window_pin.tpl
+  0x21d5e0	= ./arc/timg/window_text.tpl
+  0x21f900	= ./arc/timg/xiiselect_first.tpl
+  0x220a80	= ./arc/timg/xiiselect_name.tpl
+  0x222ac0	= ./arc/timg/xiiselect_sbar.tpl
+  0x224300	= ./arc/timg/xiiselect_sthumb.tpl
+  0x2247c0	= ./arc/timg/yajirusi.tpl
+
+#------------------------------------------------------------------------------
+

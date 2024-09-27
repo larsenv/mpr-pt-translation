@@ -541,3 +541,4 @@
    1ec	= Gratitude Pokémon
    1ed	= Alpha Pokémon
 
+

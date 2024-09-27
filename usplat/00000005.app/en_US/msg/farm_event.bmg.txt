@@ -124,8 +124,8 @@
 	+ Ranch with Pokémon\n
 	+ little by little!
     23	= You can bring Pokémon that\n
-	+ you caught in Pokémon game versions\n
-	+ for the Nintendo DS.
+	+ you caught in Pokémon game\n
+	+ versions for the Nintendo DS.
     24	= That's one way to add more\n
 	+ Pokémon to the Ranch!
     25	= If you have any Pokémon,\n
@@ -378,7 +378,7 @@
 	+ I will bring a\n
 	+ singing Pokémon tomorrow!
     8d	= All right. Leave it to me!\n
-	+ I will bring a sweet-smelling \n
+	+ I will bring a sweet-smelling\n
 	+ Pokémon tomorrow!
     8e	= All right. Leave it to me!\n
 	+ I will bring a Pokémon\n
@@ -390,13 +390,15 @@
     91	= See ya!
     92	= The number of Pokémon at the\n
 	+ Ranch has become %ls!
-    93	= 
+    93	= The number of Pokémon at the\n
+	+ Ranch has become %d%ls!
     94	= Okay. Let's expand the Ranch!\n
 	+ Its construction is expected to\n
 	+ be done on %ls!
     95	= Oh? The number of Pokémon at\n
 	+ the Ranch is already %ls!
-    96	= 
+    96	= Oh? The number of Pokémon at\n
+	+ the Ranch is already %d%ls! 
     97	= Okay.\n
 	+ Let's expand the Ranch again!
     98	= Its construction is expected to\n
@@ -412,7 +414,8 @@
 	+ the Ranch today.
     9d	= So far, I have brought\n
 	+ %ls Pokémon.
-    9e	= 
+    9e	= So far, I have brought\n
+	+ %d%ls Pokémon. 
     9f	= Here are my precious Pokémon.\n
 	+ Please take good care of them!
     a0	= It's my precious Pokémon.\n
@@ -424,7 +427,9 @@
     a3	= Once the number of Pokémon\n
 	+ becomes %ls, let's expand\n
 	+ the Ranch!
-    a4	= 
+    a4	= Once the number of Pokémon\n
+	+ becomes %d%ls, let's expand\n
+	+ the Ranch!
     a5	= Let's keep adding Pokémon to\n
 	+ the Ranch!
     a6	= Let's expand the Ranch by\n
@@ -432,7 +437,9 @@
     a7	= Once the number of Pokémon\n
 	+ becomes %ls, let's expand\n
 	+ the Ranch!
-    a8	= 
+    a8	= Once the number of Pokémon\n
+	+ becomes %d%ls, let's expand\n
+	+ the Ranch! 
     a9	= ...Oh!?
     aa	= You are familiar now with the\n
 	+ Pokémon Ranch, aren't you?
@@ -504,7 +511,7 @@
     c7	= Let's try to get 1,000 Pokémon\n
 	+ on the Ranch!
     c8	= More great news!\n
-	+ Five Toy Boxes will be delivered \n
+	+ Five Toy Boxes will be delivered\n
 	+ to the Ranch every day starting\n
 	+ today!
     c9	= Not only that, but the variety of\n
@@ -520,14 +527,12 @@
     cd	= When the Ranch is filled, I will\n
 	+ ask my Pokémon to stay inside\n
 	+ the stable.
-    ce	= That means you can bring up to\n
-	+ 1,000 of your Pokémon to the\n
-	+ Ranch!
+    ce	= 
     cf	= Don't worry about my Pokémon.\n
 	+ Bring as many Pokémon as you\n
 	+ like!
     d0	= The Ranch has finally reached\n
-	+ its max level! Congratulations!
+	+ level %d! Congratulations!
     d1	= The Ranch I was longing for...\n
 	+ So vast...\n
 	+ So full of Pokémon...
@@ -539,7 +544,7 @@
 	+ as my Ranch partner!
     d4	= I believe I'll enjoy living here\n
 	+ with everyone for a long time.
-    d5	= With everyone... \n
+    d5	= With everyone...\n
 	+ My whole life...
     d6	= ...Why not?\n
 	+ Hehe.
@@ -569,8 +574,10 @@
     e1	= The Ranch has expanded!
     e2	= The number of Pokémon you\n
 	+ can keep has increased from\n
-	+ %d to %d!
-    e3	= 
+	+ %ls to %ls!
+    e3	= The number of Pokémon you\n
+	+ can keep has increased from\n
+	+ %d%ls to %d%ls!
     e4	= The number of Miis you can\n
 	+ bring has increased from\n
 	+ %d to %d!
@@ -634,7 +641,7 @@
     fc	= Long time no see!\n
 	+ I haven't seen you for\n
 	+ 1 year!
-    fd	= The Pokémon missed you \n
+    fd	= The Pokémon missed you\n
 	+ so much!
     fe	= Long time no see!\n
 	+ I haven't seen you for\n
@@ -676,263 +683,263 @@
 	+ the top left of the screen and\n
 	+ press \x{e042}.
    10d	= Enjoy!
-   10e	"Favorite"\n
+   10e	= "Favorite"\n
 	+ is today's ranch theme.
-   10f	"Owner"\n
+   10f	= "Owner"\n
 	+ is today's ranch theme.
-   110	"Stored Pokémon"\n
+   110	= "Stored Pokémon"\n
 	+ is today's ranch theme.
-   111	"%ls"\n
+   111	= "%ls"\n
 	+ is today's ranch theme.
-   112	"6 Pokémon"\n
+   112	= "6 Pokémon"\n
 	+ is today's ranch theme.
-   113	"20 Pokémon"\n
+   113	= "20 Pokémon"\n
 	+ is today's ranch theme.
-   114	"50 Pokémon"\n
+   114	= "50 Pokémon"\n
 	+ is today's ranch theme.
-   115	"100 Pokémon"\n
+   115	= "100 Pokémon"\n
 	+ is today's ranch theme.
-   116	"200 Pokémon"\n
+   116	= "200 Pokémon"\n
 	+ is today's ranch theme.
-   117	"500 Pokémon"\n
+   117	= "500 Pokémon"\n
 	+ is today's ranch theme.
-   118	"800 Pokémon"\n
+   118	= "800 Pokémon"\n
 	+ is today's ranch theme.
-   119	"1000 Pokémon"\n
+   119	= "1000 Pokémon"\n
 	+ is today's ranch theme.
-   11a	"Normal"\n
+   11a	= "Normal"\n
 	+ is today's ranch theme.
-   11b	"Fighting"\n
+   11b	= "Fighting"\n
 	+ is today's ranch theme.
-   11c	"Flying"\n
+   11c	= "Flying"\n
 	+ is today's ranch theme.
-   11d	"Poison"\n
+   11d	= "Poison"\n
 	+ is today's ranch theme.
-   11e	"Ground"\n
+   11e	= "Ground"\n
 	+ is today's ranch theme.
-   11f	"Rock"\n
+   11f	= "Rock"\n
 	+ is today's ranch theme.
-   120	"Bug"\n
+   120	= "Bug"\n
 	+ is today's ranch theme.
-   121	"Ghost"\n
+   121	= "Ghost"\n
 	+ is today's ranch theme.
-   122	"Steel"\n
+   122	= "Steel"\n
 	+ is today's ranch theme.
    123	= ?
-   124	"Fire"\n
+   124	= "Fire"\n
 	+ is today's ranch theme.
-   125	"Water"\n
+   125	= "Water"\n
 	+ is today's ranch theme.
-   126	"Grass"\n
+   126	= "Grass"\n
 	+ is today's ranch theme.
-   127	"Electric"\n
+   127	= "Electric"\n
 	+ is today's ranch theme.
-   128	"Psychic"\n
+   128	= "Psychic"\n
 	+ is today's ranch theme.
-   129	"Ice"\n
+   129	= "Ice"\n
 	+ is today's ranch theme.
-   12a	"Dragon"\n
+   12a	= "Dragon"\n
 	+ is today's ranch theme.
-   12b	"Dark"\n
+   12b	= "Dark"\n
 	+ is today's ranch theme.
-   12c	"●"\n
+   12c	= "●"\n
 	+ is today's ranch theme.
-   12d	"▲"\n
+   12d	= "▲"\n
 	+ is today's ranch theme.
-   12e	"■"\n
+   12e	= "■"\n
 	+ is today's ranch theme.
-   12f	"♥"\n
+   12f	= "♥"\n
 	+ is today's ranch theme.
-   130	"★"\n
+   130	= "★"\n
 	+ is today's ranch theme.
-   131	"◆"\n
+   131	= "◆"\n
 	+ is today's ranch theme.
-   132	"Red"\n
+   132	= "Red"\n
 	+ is today's ranch theme.
-   133	"Blue"\n
+   133	= "Blue"\n
 	+ is today's ranch theme.
-   134	"Yellow"\n
+   134	= "Yellow"\n
 	+ is today's ranch theme.
-   135	"Green"\n
+   135	= "Green"\n
 	+ is today's ranch theme.
-   136	"Black"\n
+   136	= "Black"\n
 	+ is today's ranch theme.
-   137	"Brown"\n
+   137	= "Brown"\n
 	+ is today's ranch theme.
-   138	"Purple"\n
+   138	= "Purple"\n
 	+ is today's ranch theme.
-   139	"Gray"\n
+   139	= "Gray"\n
 	+ is today's ranch theme.
-   13a	"White"\n
+   13a	= "White"\n
 	+ is today's ranch theme.
-   13b	"Pink"\n
+   13b	= "Pink"\n
 	+ is today's ranch theme.
-   13c	"Short"\n
+   13c	= "Short"\n
 	+ is today's ranch theme.
-   13d	"Tall"\n
+   13d	= "Tall"\n
 	+ is today's ranch theme.
-   13e	"Light"\n
+   13e	= "Light"\n
 	+ is today's ranch theme.
-   13f	"Heavy"\n
+   13f	= "Heavy"\n
 	+ is today's ranch theme.
-   140	"Fiery"\n
+   140	= "Fiery"\n
 	+ is today's ranch theme.
-   141	"Cold"\n
+   141	= "Cold"\n
 	+ is today's ranch theme.
-   142	"Scary"\n
+   142	= "Scary"\n
 	+ is today's ranch theme.
-   143	"Fast"\n
+   143	= "Fast"\n
 	+ is today's ranch theme.
-   144	"Round"\n
+   144	= "Round"\n
 	+ is today's ranch theme.
-   145	"Flying"\n
+   145	= "Flying"\n
 	+ is today's ranch theme.
-   146	"Sturdy"\n
+   146	= "Sturdy"\n
 	+ is today's ranch theme.
-   147	"Focused"\n
+   147	= "Focused"\n
 	+ is today's ranch theme.
-   148	"Paralyzing"\n
+   148	= "Paralyzing"\n
 	+ is today's ranch theme.
-   149	"Easygoing"\n
+   149	= "Easygoing"\n
 	+ is today's ranch theme.
-   14a	"Oblivious"\n
+   14a	= "Oblivious"\n
 	+ is today's ranch theme.
-   14b	"Stinky"\n
+   14b	= "Stinky"\n
 	+ is today's ranch theme.
-   14c	"Singing"\n
+   14c	= "Singing"\n
 	+ is today's ranch theme.
-   14d	"Sweet-Smelling"\n
+   14d	= "Sweet-Smelling"\n
 	+ is today's ranch theme.
-   14e	"Rare"\n
+   14e	= "Rare"\n
 	+ is today's ranch theme.
-   14f	"Favorite"\n
+   14f	= "Favorite"\n
 	+ is today's ranch theme.
-   150	"Owner"\n
+   150	= "Owner"\n
 	+ is today's ranch theme.
-   151	"Stored Pokémon"\n
+   151	= "Stored Pokémon"\n
 	+ is today's ranch theme.
-   152	"%ls"\n
+   152	= "%ls"\n
 	+ is today's ranch theme.
-   153	"6 Pokémon"\n
+   153	= "6 Pokémon"\n
 	+ is today's ranch theme.
-   154	"20 Pokémon"\n
+   154	= "20 Pokémon"\n
 	+ is today's ranch theme.
-   155	"50 Pokémon"\n
+   155	= "50 Pokémon"\n
 	+ is today's ranch theme.
-   156	"100 Pokémon"\n
+   156	= "100 Pokémon"\n
 	+ is today's ranch theme.
-   157	"200 Pokémon"\n
+   157	= "200 Pokémon"\n
 	+ is today's ranch theme.
-   158	"500 Pokémon"\n
+   158	= "500 Pokémon"\n
 	+ is today's ranch theme.
-   159	"800 Pokémon"\n
+   159	= "800 Pokémon"\n
 	+ is today's ranch theme.
-   15a	"1000 Pokémon"\n
+   15a	= "1000 Pokémon"\n
 	+ is today's ranch theme.
-   11a	"Normal"\n
+   15b	= "Normal"\n
 	+ is today's ranch theme.
-   11b	"Fighting"\n
+   15c	= "Fighting"\n
 	+ is today's ranch theme.
-   11c	"Flying"\n
+   15d	= "Flying"\n
 	+ is today's ranch theme.
-   11d	"Poison"\n
+   15e	= "Poison"\n
 	+ is today's ranch theme.
-   11e	"Ground"\n
+   15f	= "Ground"\n
 	+ is today's ranch theme.
-   11f	"Rock"\n
+   160	= "Rock"\n
 	+ is today's ranch theme.
-   120	"Bug"\n
+   161	= "Bug"\n
 	+ is today's ranch theme.
-   121	"Ghost"\n
+   162	= "Ghost"\n
 	+ is today's ranch theme.
-   122	"Steel"\n
+   163	= "Steel"\n
 	+ is today's ranch theme.
-   123	= ?
-   124	"Fire"\n
+   164	= ?
+   165	= "Fire"\n
 	+ is today's ranch theme.
-   125	"Water"\n
+   166	= "Water"\n
 	+ is today's ranch theme.
-   126	"Grass"\n
+   167	= "Grass"\n
 	+ is today's ranch theme.
-   127	"Electric"\n
+   168	= "Electric"\n
 	+ is today's ranch theme.
-   128	"Psychic"\n
+   169	= "Psychic"\n
 	+ is today's ranch theme.
-   129	"Ice"\n
+   16a	= "Ice"\n
 	+ is today's ranch theme.
-   12a	"Dragon"\n
+   16b	= "Dragon"\n
 	+ is today's ranch theme.
-   12b	"Dark"\n
+   16c	= "Dark"\n
 	+ is today's ranch theme.
-   12c	"●"\n
+   16d	= "●"\n
 	+ is today's ranch theme.
-   12d	"▲"\n
+   16e	= "▲"\n
 	+ is today's ranch theme.
-   12e	"■"\n
+   16f	= "■"\n
 	+ is today's ranch theme.
-   12f	"♥"\n
+   170	= "♥"\n
 	+ is today's ranch theme.
-   130	"★"\n
+   171	= "★"\n
 	+ is today's ranch theme.
-   131	"◆"\n
+   172	= "◆"\n
 	+ is today's ranch theme.
-   132	"Red"\n
+   173	= "Red"\n
 	+ is today's ranch theme.
-   133	"Blue"\n
+   174	= "Blue"\n
 	+ is today's ranch theme.
-   134	"Yellow"\n
+   175	= "Yellow"\n
 	+ is today's ranch theme.
-   135	"Green"\n
+   176	= "Green"\n
 	+ is today's ranch theme.
-   136	"Black"\n
+   177	= "Black"\n
 	+ is today's ranch theme.
-   137	"Brown"\n
+   178	= "Brown"\n
 	+ is today's ranch theme.
-   138	"Purple"\n
+   179	= "Purple"\n
 	+ is today's ranch theme.
-   139	"Gray"\n
+   17a	= "Gray"\n
 	+ is today's ranch theme.
-   13a	"White"\n
+   17b	= "White"\n
 	+ is today's ranch theme.
-   17c	"Pink"\n
+   17c	= "Pink"\n
 	+ is today's ranch theme.
-   17d	"Short"\n
+   17d	= "Short"\n
 	+ is today's ranch theme.
-   17e	"Tall"\n
+   17e	= "Tall"\n
 	+ is today's ranch theme.
-   17f	"Light"\n
+   17f	= "Light"\n
 	+ is today's ranch theme.
-   180	"Heavy"\n
+   180	= "Heavy"\n
 	+ is today's ranch theme.
-   181	"Fiery"\n
+   181	= "Fiery"\n
 	+ is today's ranch theme.
-   182	"Cold"\n
+   182	= "Cold"\n
 	+ is today's ranch theme.
-   183	"Scary"\n
+   183	= "Scary"\n
 	+ is today's ranch theme.
-   184	"Fast"\n
+   184	= "Fast"\n
 	+ is today's ranch theme.
-   185	"Round"\n
+   185	= "Round"\n
 	+ is today's ranch theme.
-   186	"Flying"\n
+   186	= "Flying"\n
 	+ is today's ranch theme.
-   187	"Sturdy"\n
+   187	= "Sturdy"\n
 	+ is today's ranch theme.
-   188	"Focused"\n
+   188	= "Focused"\n
 	+ is today's ranch theme.
-   189	"Paralyzing"\n
+   189	= "Paralyzing"\n
 	+ is today's ranch theme.
-   18a	"Easygoing"\n
+   18a	= "Easygoing"\n
 	+ is today's ranch theme.
-   18b	"Oblivious"\n
+   18b	= "Oblivious"\n
 	+ is today's ranch theme.
-   18c	"Stinky"\n
+   18c	= "Stinky"\n
 	+ is today's ranch theme.
-   18d	"Singing"\n
+   18d	= "Singing"\n
 	+ is today's ranch theme.
-   18e	"Sweet-Smelling"\n
+   18e	= "Sweet-Smelling"\n
 	+ is today's ranch theme.
-   18f	"Rare"\n
+   18f	= "Rare"\n
 	+ is today's ranch theme.
    190	= I'm very proud of this Ranch!\n
 	+ Check out every corner of it!
@@ -948,21 +955,21 @@
 	+ the top left of the screen and\n
 	+ press \x{e042}.
    195	= Enjoy!
-   196	= %2$ls has arrived\n
-	+ from %1$ls\n
+   196	= %ls has arrived\n
+	+ from %ls\n
 	+ Ranch.
    197	= Hello!\n
 	+ I brought a picture of\n
 	+ %ls Ranch.
    198	= Hello!\n
-	+ I'm %2$ls\n
-	+ from %1$ls Ranch!
+	+ I'm %ls\n
+	+ from %ls Ranch!
    199	= Hello!\n
 	+ I brought a picture of\n
 	+ %ls Ranch.
    19a	= Hello!\n
-	+ I'm %2$ls\n
-	+ from %1$ls Ranch.
+	+ I'm %ls\n
+	+ from %ls Ranch.
    19b	= Why don't you come to\n
 	+ %ls Ranch?
    19c	= Okay!\n
@@ -993,7 +1000,7 @@
    1aa	= How do you do?
    1ab	= So... This is your and Hayley's\n
 	+ Ranch? Looks nice!
-   1ac	= My name is %2$ls, \n
+   1ac	= My name is %2$ls,\n
 	+ a member of Club Look-See.\n
 	+ My Member No. is %1$d!
    1ad	= The mottos of Club Look-See\n
@@ -1058,18 +1065,16 @@
    1c5	= So long!\n
 	+ \n
 	+ Look-See ya!
-   1c6	= My name is %2$ls, \n
+   1c6	= My name is %2$ls,\n
 	+ a member of Club Look-See.\n
 	+ My Member No. is %1$d!
-   1c7	= So…\n
-	+ I'd heard you're coming to
+   1c7	= So... I'd heard you're coming to\n
 	+ visit my Ranch, right?	
-   1c8	= My name is %2$ls, \n
+   1c8	= My name is %2$ls,\n
 	+ a member of Club Look-See.\n
 	+ My Member No. is %1$d!
-   1c9	= So…\n
-	+ I hear you'd like to see my
-	+ Ranch, huh?
+   1c9	= So... I hear you'd like to see\n
+	+ my Ranch, huh?
    1ca	= Won't you come and visit\n
 	+ my Ranch again sometime?
    1cb	= Come and visit my Ranch\n
@@ -1101,8 +1106,8 @@
 	+ Ranches!
    1d5	= If you call me from the BBS,\n
 	+ I will come and pick you up.\n
-	+ Come and visit again at any time,\n
-	+ okay?
+	+ Come and visit again at any\n
+	+ time, okay?
    1d6	= All right, please take care!
    1d7	= Thanks for visiting my Ranch!\n
 	+ How was it? Did you like it?
@@ -1115,19 +1120,19 @@
 	+ will ya?
    1da	= If you call me from the BBS,\n
 	+ I will come and pick you up.\n
-	+ Come and visit again at any time,\n
-	+ all right?
+	+ Come and visit again at any\n
+	+ time, all right?
    1db	= Okay, please take care!
    1dc	= Look-See ya!
    1dd	= %ls is staying\n
 	+ at this Ranch until\n
-	+ %ls.。
+	+ %ls.
    1de	= %ls is staying\n
 	+ at this Ranch until\n
 	+ %ls.
-   1df	= You have a guest visiting the \n
+   1df	= You have a guest visiting the\n
 	+ Ranch!
-   1e0	= You have a guest visiting the \n
+   1e0	= You have a guest visiting the\n
 	+ Ranch!
    1e1	= If you bring %ls,\n
 	+ you can trade it for\n
@@ -1276,8 +1281,8 @@
 	+ the Pokédex!
    215	= Since last time,\n
 	+ the number has increased by...\n
-	+ Seen: %d%ls\n
-	+ Obtained: %d%ls
+	+ Seen: %d\n
+	+ Obtained: %d
    216	= Since last time,\n
 	+ the number has increased by...\n
 	+ Seen: %d%ls\n
@@ -1440,10 +1445,8 @@
 	+ connecting to Pokémon\n
 	+ Platinum!
    23c	= A lot has changed,\n
-	+ but I won't tell you\n
-	+ about all of it.\n
-	+ The rest is for you\n
-	+ to find!
+	+ but I won't tell you about all of it.\n
+	+ The rest is for you to find!
    23d	= Well then, let's continue\n
 	+ to work together!
 

@@ -1,0 +1,369 @@
+#BMG  <<<  The first 4 characters '#BMG' are the magic for a BMG text file.
+#     <<<  Don't remove them!
+#
+# Details about BMG text files are available in the Web:
+#  * Syntax and Semantics: https://szs.wiimm.de/doc/bmg/text
+#  * The BMG file format:  https://szs.wiimm.de/r/wiki/BMG
+#
+#
+#------------------------------------------------------------------------------
+
+# The endianness of binary files: 0=big endian (default), 1=little endian.
+# Little endian is only tested for encoding UTF-8 (need examples of analysis).
+@ENDIAN = 0
+
+# If 1, then enable legacy (GameCube) mode for old binary BMG files.
+# If enabled, ENCODING is always CP1252.
+@LEGACY = 0
+
+# Define encoding of BMG: 1=CP1252, 2=UTF-16/be, 3=Shift-JIS, 4=UTF-8
+@ENCODING = 2
+
+# Create »MID1« section: 0=off, 1=on
+@BMG-MID = 0
+
+# Size of each element of section 'INF1' (MKW=8).
+# This setting has impact to attributes and MKW features.
+@INF-SIZE = 0x08
+
+# Default attribute values for this BMG (MKW=[1])
+@DEFAULT-ATTRIBS = [0]
+
+# Use MKW specific color names: 0=off, 1=auto, 2=on
+@COLOR-NAMES = 1
+
+# Use MKW messages and track names: 0=off, 1=auto, 2=on
+@MKW-MESSAGES = 1
+
+#
+#------------------------------------------------------------------------------
+
+# This part defines values for unknown parameters of section headers.
+@UNKNOWN-INF32-0C =    0xd0000	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
+@UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
+
+#
+#------------------------------------------------------------------------------
+
+     0	= $1$ $2$, 20$0$\n
+	+ $4$\n
+	+ Met at Lv. $3$.
+     1	= $1$ $2$, 20$0$\n
+	+ $4$\n
+	+ Apparently met at\n
+	+ Lv. $3$.
+     2	= $1$ $2$, 20$0$\n
+	+ $4$\n
+	+ Arrived at Lv. $3$.
+     3	= $6$ $7$, 20$5$\n
+	+ $8$\n
+	+ Egg obtained.\n
+	+ $1$ $2$, 20$0$\n
+	+ $4$\n
+	+ Egg hatched.
+     4	= $6$ $7$, 20$5$\n
+	+ $8$\n
+	+ Egg obtained.\n
+	+ $1$ $2$, 20$0$\n
+	+ $4$\n
+	+ Egg apparently hatched.
+     5	= $6$ $7$, 20$5$\n
+	+ $8$\n
+	+ Egg received.\n
+	+ $1$ $2$, 20$0$\n
+	+ $4$\n
+	+ Egg hatched.
+     6	= $6$ $7$, 20$5$\n
+	+ $8$\n
+	+ Egg received.\n
+	+ $1$ $2$, 20$0$\n
+	+ $4$\n
+	+ Egg apparently hatched.
+     7	= $1$ $2$, 20$0$\n
+	+ $4$\n
+	+ Had a fateful encounter\n
+	+ at Lv. $3$.
+     8	= $1$ $2$, 20$0$\n
+	+ $4$\n
+	+ Apparently had a\n
+	+ fateful encounter at\n
+	+ Lv. $3$.
+     9	= $6$ $7$, 20$5$\n
+	+ $8$\n
+	+ Egg obtained.\n
+	+ $1$ $2$, 20$0$\n
+	+ $4$\n
+	+ Egg hatched.\n
+	+ Fateful encounter.
+     a	= $6$ $7$, 20$5$\n
+	+ $8$\n
+	+ Egg obtained.\n
+	+ $1$ $2$, 20$0$\n
+	+ $4$\n
+	+ Egg apparently hatched.\n
+	+ Fateful encounter.
+     b	= $6$ $7$, 20$5$\n
+	+ $8$\n
+	+ Egg arrived.\n
+	+ $1$ $2$, 20$0$\n
+	+ $4$\n
+	+ Egg hatched.\n
+	+ Fateful encounter.
+     c	= $6$ $7$, 20$5$\n
+	+ $8$\n
+	+ Egg arrived.\n
+	+ $1$ $2$, 20$0$\n
+	+ $4$\n
+	+ Egg apparently hatched.\n
+	+ Fateful encounter.
+     d	= $6$ $7$, 20$5$\n
+	+ $8$\n
+	+ Egg obtained.\n
+	+ $1$ $2$, 20$0$\n
+	+ $4$\n
+	+ Egg hatched.\n
+	+ Fateful encounter.
+     e	= $6$ $7$, 20$5$\n
+	+ $8$\n
+	+ Egg obtained.\n
+	+ $1$ $2$, 20$0$\n
+	+ $4$\n
+	+ Egg apparently hatched.\n
+	+ Fateful encounter.
+     f	= $1$ $2$, 20$0$\n
+	+ $4$\n
+	+ Arrived at Lv. $3$.
+    10	= $6$ $7$, 20$5$\n
+	+ A mysterious Pokémon\n
+	+ Egg received from\n
+	+ $8$.\n
+    11	= $6$ $7$, 20$5$\n
+	+ A mysterious Pokémon\n
+	+ Egg obtained in\n
+	+ $8$.\n
+    12	= $6$ $7$, 20$5$\n
+	+ A very mysterious\n
+	+ Pokémon Egg obtained\n
+	+ at $8$.\n
+    13	= $6$ $7$, 20$5$\n
+	+ A very mysterious Pokémon\n
+	+ Egg that came from\n
+	+ $8$.\n
+    14	= Mystery Zone
+    15	= Twinleaf Town
+    16	= Sandgem Town
+    17	= Floaroma Town
+    18	= Solaceon Town
+    19	= Celestic Town
+    1a	= Jubilife City
+    1b	= Canalave City
+    1c	= Oreburgh City
+    1d	= Eterna City
+    1e	= Hearthome City
+    1f	= Pastoria City
+    20	= Veilstone City
+    21	= Sunyshore City
+    22	= Snowpoint City
+    23	= Pokémon League
+    24	= Route 201
+    25	= Route 202
+    26	= Route 203
+    27	= Route 204
+    28	= Route 205
+    29	= Route 206
+    2a	= Route 207
+    2b	= Route 208
+    2c	= Route 209
+    2d	= Route 210
+    2e	= Route 211
+    2f	= Route 212
+    30	= Route 213
+    31	= Route 214
+    32	= Route 215
+    33	= Route 216
+    34	= Route 217
+    35	= Route 218
+    36	= Route 219
+    37	= Route 220
+    38	= Route 221
+    39	= Route 222
+    3a	= Route 223
+    3b	= Route 224
+    3c	= Route 225
+    3d	= Route 226
+    3e	= Route 227
+    3f	= Route 228
+    40	= Route 229
+    41	= Route 230
+    42	= Oreburgh Mine
+    43	= Valley Windworks
+    44	= Eterna Forest
+    45	= Fuego Ironworks
+    46	= Mt. Coronet
+    47	= Spear Pillar
+    48	= Great Marsh
+    49	= Solaceon Ruins
+    4a	= Victory Road
+    4b	= Pal Park
+    4c	= Amity Square
+    4d	= Ravaged Path
+    4e	= Floaroma Meadow
+    4f	= Oreburgh Gate
+    50	= Fullmoon Island
+    51	= Sendoff Spring
+    52	= Turnback Cave
+    53	= Flower Paradise
+    54	= Snowpoint Temple
+    55	= Wayward Cave
+    56	= Ruin Maniac Cave
+    57	= Maniac Tunnel
+    58	= Trophy Garden
+    59	= Iron Island
+    5a	= Old Chateau
+    5b	= Galactic HQ
+    5c	= Verity Lakefront
+    5d	= Valor Lakefront
+    5e	= Acuity Lakefront
+    5f	= Spring Path
+    60	= Lake Verity
+    61	= Lake Valor
+    62	= Lake Acuity
+    63	= Newmoon Island
+    64	= Battle Tower
+    65	= Fight Area
+    66	= Survival Area
+    67	= Resort Area
+    68	= Stark Mountain
+    69	= Seabreak Path
+    6a	= Hall of Origin
+    6b	= Verity Cavern
+    6c	= Valor Cavern
+    6d	= Acuity Cavern
+    6e	= Jubilife TV
+    6f	= Pokétch Co.
+    70	= GTS
+    71	= Trainers' School
+    72	= Mining Museum
+    73	= Flower Shop
+    74	= Cycle Shop
+    75	= Contest Hall
+    76	= Poffin House
+    77	= Foreign Building
+    78	= Pokémon Day Care
+    79	= Veilstone Store
+    7a	= Game Corner
+    7b	= Canalave Library
+    7c	= Vista Lighthouse
+    7d	= Sunyshore Market
+    7e	= Pokémon Mansion
+    7f	= Footstep House
+    80	= Cafe
+    81	= Grand Lake
+    82	= Restaurant
+    83	= Battle Park
+    84	= Battle Frontier
+    85	= Battle Factory
+    86	= Battle Castle
+    87	= Battle Arcade
+    88	= Battle Hall
+    89	= Distortion World
+    8a	= Global Terminal
+    8b	= Villa
+    8c	= Battleground
+    8d	= Rotom's Room
+    8e	= T.G. Eterna Bldg
+    8f	= Iron Ruins
+    90	= Iceberg Ruins
+    91	= Rock Peak Ruins
+    92	= Lovely place
+    93	= Pokémon Ranger
+    94	= Faraway place
+    94	= Pokémon Movie
+    95	= Pokémon Movie 06
+    96	= Pokémon Movie 07
+    97	= Pokémon Movie 08
+    98	= Pokémon Movie 09
+    99	= Pokémon Movie 10
+    9a	= Pokémon Movie 11
+    9b	= Pokémon Movie 12
+    9c	= Pokémon Movie 13
+    9d	= Pokémon Movie 14
+    9e	= Pokémon Movie 15
+    9f	= Pokémon Movie 16
+    a1	= Pokémon Cartoon
+    a2	= Space World
+    a3	= Space World 06
+    a4	= Space World 07
+    a5	= Space World 08
+    a6	= Space World 09
+    a7	= Space World 10
+    a8	= Space World 11
+    a9	= Space World 12
+    aa	= Space World 13
+    ab	= Space World 14
+    ac	= Space World 15
+    ad	= Space World 16
+    ae	= Pokémon Festa
+    af	= Pokémon Festa 06
+    b0	= Pokémon Festa 07
+    b1	= Pokémon Festa 08
+    b2	= Pokémon Festa 09
+    b3	= Pokémon Festa 10
+    b4	= Pokémon Festa 11
+    b5	= Pokémon Festa 12
+    b6	= Pokémon Festa 13
+    b7	= Pokémon Festa 14
+    b8	= Pokémon Festa 15
+    b9	= Pokémon Festa 16
+    ba	= POKéPARK
+    bb	= POKéPARK 06
+    bc	= POKéPARK 07
+    bd	= POKéPARK 08
+    be	= POKéPARK 09
+    bf	= POKéPARK 10
+    c0	= POKéPARK 11
+    c1	= POKéPARK 12
+    c2	= POKéPARK 13
+    c3	= POKéPARK 14
+    c4	= POKéPARK 15
+    c5	= POKéPARK 16
+    c6	= Pokémon Center
+    c7	= PC Tokyo
+    c8	= PC Osaka
+    c9	= PC Fukuoka
+    ca	= PC Nagoya
+    cb	= PC Sapporo
+    cc	= PC Yokohama
+    cd	= Nintendo World
+    ce	= Pokémon Event
+    cf	= Pokémon Event 06
+    d0	= Pokémon Event 07
+    d1	= Pokémon Event 08
+    d2	= Pokémon Event 09
+    d3	= Pokémon Event 10
+    d4	= Pokémon Event 11
+    d5	= Pokémon Event 12
+    d6	= Pokémon Event 13
+    d7	= Pokémon Event 14
+    d8	= Pokémon Event 15
+    d9	= Pokémon Event 16
+    da	= Wi-Fi Event
+    db	= Wi-Fi Gift
+    dc	= Pokémon Fan Club
+    dd	= Event Site
+    de	= Concert Event
+    df	= Day-Care Couple
+    e0	= Link trade
+    e1	= Link trade
+    e2	= Kanto
+    e3	= Johto
+    e4	= Hoenn
+    e5	= Sinnoh
+    e6	= ----------
+    e7	= Distant land
+    e8	= Traveling Man
+    e9	= Riley
+    ea	= Cynthia
+    eb	= Mystery Zone
+

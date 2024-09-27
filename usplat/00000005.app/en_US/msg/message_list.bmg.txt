@@ -165,20 +165,16 @@
     2b	= The WiiConnect24 setting\n
 	+ is not turned on. Please\n
 	+ check the settings under\n
-	+ Wii Options. Refer to the\n
-	+ Wii Operations Manual for\n
-	+ details.
+	+ Wii Options.
     2c	= An Internet connection\n
 	+ cannot be established, so\n
 	+ WiiConnect24 cannot be\n
 	+ used. Check the Internet\n
 	+ settings and connection.\n
-	+ Refer to the Wii Operations\n
-	+ Manual for details.
     2d	= WiiConnect24 is\n
 	+ temporarily unavailable.\n
 	+ Please try again later.
-    2e	== WiiConnect24 is\n
+    2e	= WiiConnect24 is\n
 	+ temporarily unavailable.\n
 	+ Please try again later.
     2f	= There is a problem with the\n

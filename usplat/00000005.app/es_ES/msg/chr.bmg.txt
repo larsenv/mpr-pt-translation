@@ -47,29 +47,30 @@
 #
 #------------------------------------------------------------------------------
 
-     0	= Hardy
-     1	= Lonely
-     2	= Brave
-     3	= Adamant
-     4	= Naughty
-     5	= Bold
-     6	= Docile
-     7	= Relaxed
-     8	= Impish
-     9	= Lax
-     a	= Timid
-     b	= Hasty
-     c	= Serious
-     d	= Jolly
-     e	= Naive
-     f	= Modest
-    10	= Mild
-    11	= Quiet
-    12	= Bashful
-    13	= Rash
-    14	= Calm
-    15	= Gentle
-    16	= Sassy
-    17	= Careful
-    18	= Quirky
+     0	= Fuerte
+     1	= Huraña
+     2	= Audaz
+     3	= Firme
+     4	= Pícara
+     5	= Osada
+     6	= Dócil
+     7	= Plácida
+     8	= Agitada
+     9	= Floja
+     a	= Miedosa
+     b	= Activa
+     c	= Seria
+     d	= Alegre
+     e	= Ingenua
+     f	= Modesta
+    10	= Afable
+    11	= Mansa
+    12	= Tímida
+    13	= Alocada
+    14	= Serena
+    15	= Amable
+    16	= Grosera
+    17	= Cauta
+    18	= Rara
+
 

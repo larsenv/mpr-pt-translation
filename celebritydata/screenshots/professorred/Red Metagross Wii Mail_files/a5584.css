@@ -2,28 +2,28 @@
 
 /*
 
-ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É¤ï¿½ï¿½Æ¤ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ê¤¬ï¿½È¤ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Þ¤ï¿½ï¿½ï¿½
+¥À¥¦¥ó¥í¡¼¥É¤·¤Æ¤¤¤¿¤À¤­¡¢¤¢¤ê¤¬¤È¤¦¤´¤¶¤¤¤Þ¤¹¡£
 
-ï¿½×¥é¥°ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð±ï¿½ï¿½Ë¤Ê¤Ã¤Æ¤ï¿½ï¿½Þ¤ï¿½ï¿½ï¿½
+¥×¥é¥°¥¤¥ó¡¦Á´µ­»öÂÐ±þ¤Ë¤Ê¤Ã¤Æ¤¤¤Þ¤¹¡£
 
-ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ¤Ë³ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö¥ï¿½ï¿½ï¿½ï¿½Ç¤Î¤ï¿½ï¿½ï¿½ï¿½Ñ¤Ï¤ï¿½ï¿½ï¿½Î¸ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+²¼µ­ÆâÍÆ¤Ë³ºÅö¤¹¤ë¥Ö¥í¥°¤Ç¤Î¤´»ÈÍÑ¤Ï¤´±óÎ¸¤¯¤À¤µ¤¤¡£
 
-ï¿½Ä´ï¿½Åªï¿½Ê¥ï¿½ï¿½ï¿½Æ¥ï¿½ï¿½
-ï¿½ï¿½Ë¡ï¿½ï¿½ï¿½ï¿½ï¿½Æ¤ò°·¤ï¿½ï¿½ï¿½ï¿½
-ï¿½ï¿½ï¿½ï¿½Åªï¿½Ê¥ï¿½ï¿½ï¿½Æ¥ï¿½ï¿½
-ï¿½ï¿½ï¿½ï¿½Åªï¿½ï¿½ï¿½ï¿½ï¿½Æ¤ò°·¤ï¿½ï¿½ï¿½ï¿½
+ÎÄ´ñÅª¤Ê¥³¥ó¥Æ¥ó¥Ä
+°ãË¡¤ÊÆâÍÆ¤ò°·¤¦¤â¤Î
+½¡¶µÅª¤Ê¥³¥ó¥Æ¥ó¥Ä
+º¹ÊÌÅª¤ÊÆâÍÆ¤ò°·¤¦¤â¤Î
 
-ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È¥ï¿½ï¿½ï¿½Æ¥ï¿½Ä¤Ë´Ø¤ï¿½ï¿½Þ¤ï¿½ï¿½Æ¤Ï¡ï¿½ï¿½Ä¿Í¤Î¼ï¿½Ì£ï¿½ï¿½ï¿½Ï°Ï¤Ç¤ï¿½ï¿½ï¿½ï¿½OKï¿½Ç¤ï¿½ï¿½ï¿½
+¥¢¥À¥ë¥È¥³¥ó¥Æ¥ó¥Ä¤Ë´Ø¤·¤Þ¤·¤Æ¤Ï¡¢¸Ä¿Í¤Î¼ñÌ£¤ÎÈÏ°Ï¤Ç¤¢¤ì¤ÐOK¤Ç¤¹¡ú
 
-ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È¥ê¡¼ï¿½Ë¤Æ¥Æ¥ï¿½×¥ì¡¼ï¿½È¤ï¿½ï¿½ï¿½ï¿½Ñµï¿½ï¿½ó¤¬¤ï¿½ï¿½ï¿½Þ¤ï¿½ï¿½Î¤Ç¡ï¿½
-ï¿½Ü¤ï¿½ï¿½Ì¤ï¿½ï¿½Æ¤ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È¤ï¿½ï¿½ê¤¬ï¿½ï¿½ï¿½ï¿½ï¿½Ç¤ï¿½ï¿½ï¿½
-ï¿½Æ¥ï¿½×¥ì¡¼ï¿½È¤Î½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ¤â¤³ï¿½ï¿½ï¿½ï¿½Ç¤ï¿½ï¿½ï¿½
+²¼µ­¥¨¥ó¥È¥ê¡¼¤Ë¤Æ¥Æ¥ó¥×¥ì¡¼¥È¤ÎÍøÍÑµ¬Ìó¤¬¤¢¤ê¤Þ¤¹¤Î¤Ç¡¢
+ÌÜ¤òÄÌ¤·¤Æ¤¤¤¿¤À¤±¤ë¤È¤¢¤ê¤¬¤¿¤¤¤Ç¤¹¡£
+¥Æ¥ó¥×¥ì¡¼¥È¤Î½¤Àµ¡¦¹¹¿·ÆâÍÆ¤â¤³¤Á¤é¤Ç¤¹¡£
   
 http://cloudyvanilla.blog26.fc2.com/
 
  */
 
-/* ï¿½Ö¥é¥¦ï¿½ï¿½ï¿½Î¥Ç¥Õ¥ï¿½ï¿½ï¿½È¤Ë°ï¿½Â¸ï¿½ï¿½ï¿½Ê¤ï¿½ï¿½è¤¦ï¿½ï¿½ï¿½ï¿½ï¿½Æ¤Î¥Þ¡ï¿½ï¿½ï¿½ï¿½ï¿½È¥Ñ¥Ç¥ï¿½ï¿½ó¥°¤ï¿½0ï¿½Ë¤ï¿½ï¿½Æ¤ï¿½ï¿½Þ¤ï¿½ */
+/* ¥Ö¥é¥¦¥¶¤Î¥Ç¥Õ¥©¥ë¥È¤Ë°ÍÂ¸¤·¤Ê¤¤¤è¤¦¤ËÁ´¤Æ¤Î¥Þ¡¼¥¸¥ó¤È¥Ñ¥Ç¥£¥ó¥°¤ò0¤Ë¤·¤Æ¤¤¤Þ¤¹ */
 * {
    margin: 0;
    padding: 0;
@@ -31,20 +31,20 @@ http://cloudyvanilla.blog26.fc2.com/
 }
 
 <!-->
-/* htmlï¿½Ê¥ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð¡ï¿½ï¿½Î¿ï¿½ï¿½ï¿½ï¿½ê¤¬È¿ï¿½Ç¤ï¿½ï¿½ï¿½ï¿½Î¤ï¿½IEï¿½Î¤ß¡ï¿½ */
+/* html¡Ê¥¹¥¯¥í¡¼¥ë¥Ð¡¼¤Î¿§ÀßÄê¤¬È¿±Ç¤µ¤ì¤ë¤Î¤ÏIE¤Î¤ß¡Ë */
 html {
-        scrollbar-face-color: #ffffff; /* ï¿½Ð¡ï¿½ï¿½Î¿ï¿½ */
-        scrollbar-3dlight-color: #ffffff; /* ï¿½ï¿½ï¿½å³°Â¦ï¿½é¥¤ï¿½ï¿½ */
-        scrollbar-highlight-color: #dcdcdc; /* ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Â¦ï¿½é¥¤ï¿½ï¿½ */
-        scrollbar-shadow-color: #ffffff; /* ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Â¦ï¿½é¥¤ï¿½ï¿½ */
-        scrollbar-darkshadow-color: #d3d3d3; /* ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Â¦ï¿½é¥¤ï¿½ï¿½ */
-        scrollbar-arrow-color: #b0c4de; /* ï¿½ï¿½ï¿½ */
-        scrollbar-track-color: #f5f5f5; /* ï¿½È¥ï¿½Ã¥ï¿½ï¿½ï¿½Ê¬ */
+        scrollbar-face-color: #ffffff; /* ¥Ð¡¼¤Î¿§ */
+        scrollbar-3dlight-color: #ffffff; /* º¸¾å³°Â¦¥é¥¤¥ó */
+        scrollbar-highlight-color: #dcdcdc; /* º¸¾åÆâÂ¦¥é¥¤¥ó */
+        scrollbar-shadow-color: #ffffff; /* ±¦²¼ÆâÂ¦¥é¥¤¥ó */
+        scrollbar-darkshadow-color: #d3d3d3; /* ±¦²¼³°Â¦¥é¥¤¥ó */
+        scrollbar-arrow-color: #b0c4de; /* Ìð°õ */
+        scrollbar-track-color: #f5f5f5; /* ¥È¥é¥Ã¥¯ÉôÊ¬ */
 }
 -->
 
 /*---------------------------------------------------------
-ï¿½Ö¥ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Î¤Î³ï¿½ï¿½ï¿½ï¿½ï¿½Ê¬
+¥Ö¥í¥°Á´ÂÎ¤Î³°ÏÈÉôÊ¬
 ---------------------------------------------------------*/
 #container {
 	position:relative;
@@ -55,68 +55,68 @@ html {
 }
 
 
-/*ï¿½ï¿½ï¿½ï¿½ï¿½Î¤ï¿½ï¿½ï¿½ï¿½ê¡¡--------------------------------------------*/
+/*¡¡Á´ÂÎ¤ÎÀßÄê¡¡--------------------------------------------*/
 
  body{
-           text-align:center; /* IEï¿½Î¥Ð¥ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ñ¤ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ */
-          /* ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê¸ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ò¤·¤Æ¤ï¿½ï¿½Þ¤ï¿½ */
-           text-align: left; /* Ê¸ï¿½ï¿½ï¿½òº¸¤ï¿½ï¿½ï¿½ï¿½ï¿½ */
-           line-height: 1.6; /* Ê¸ï¿½ï¿½ï¿½Ö³ï¿½ */
-           font-size: 12px; /* Ê¸ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ */
-           font-family:arial unicode ms; /* Ê¸ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ */
-           color: #999999; /* Ê¸ï¿½ï¿½ï¿½ï¿½ */
-       /* ï¿½Ø·Ê¤ï¿½ï¿½ï¿½ï¿½ê¤·ï¿½Æ¤ï¿½ï¿½Þ¤ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ñ¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï¡ï¿½backgroundï¿½ï¿½url()ï¿½ï¿½Î²ï¿½ï¿½ï¿½ï¿½Î»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ñ¹ï¿½ï¿½ï¿½ï¿½Æ¤ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ */
+           text-align:center; /* IE¤Î¥Ð¥°¤òÍøÍÑ¤·¤ÆÃæ±û¤ËÇÛÃÖ */
+          /* ¥µ¥¤¥ÈÆâ¤ÎÊ¸»ú¤ÎÀßÄê¤ò¤·¤Æ¤¤¤Þ¤¹ */
+           text-align: left; /* Ê¸»ú¤òº¸¤ËÀßÄê */
+           line-height: 1.6; /* Ê¸»ú´Ö³Ö */
+           font-size: 12px; /* Ê¸»ú¥µ¥¤¥º */
+           font-family:arial unicode ms; /* Ê¸»ú¼ïÎà */
+           color: #999999; /* Ê¸»ú¿§ */
+       /* ÇØ·Ê¤òÀßÄê¤·¤Æ¤¤¤Þ¤¹¡£²èÁü¤òÊÑ¹¹¤¹¤ë¾ì¹ç¤Ï¡¢background¤Îurl()Æâ¤Î²èÁü¤Î»²¾ÈÀè¤òÊÑ¹¹¤·¤Æ¤¯¤À¤µ¤¤ */
             background:url(http://blog-imgs-40-origin.fc2.com/c/l/o/cloudyvanilla/darksky.jpg) ;         
                     background-color: #000000; 
             background-attachment:fixed; 
-            background-position:center ;/*ï¿½ï¿½ï¿½ï¿½ */
+            background-position:center ;/*ÇÛÃÖ */
             margin:0;
             padding:0;
 }
 
-/* ï¿½ï¿½ï¿½Ê¸ï¿½ï¿½ ---------------------------*/
+/* ¥ê¥ó¥¯Ê¸»ú ---------------------------*/
 
 a {
-        text-decoration: none; /* ï¿½ï¿½ï¿½ï¿½Ìµï¿½ï¿½ */
-        color: #eeeeee; /* Ê¸ï¿½ï¿½ï¿½ï¿½ */
+        text-decoration: none; /* ²¼ÀþÌµ¤· */
+        color: #eeeeee; /* Ê¸»ú¿§ */
 }
 
-/* ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö¤ï¿½ï¿½ï¿½ï¿½È¤ï¿½ï¿½Î¥ï¿½ï¿½Ê¸ï¿½ï¿½ */
+/* ¥«¡¼¥½¥ë¤òÃÖ¤¤¤¿¤È¤­¤Î¥ê¥ó¥¯Ê¸»ú */
 a:hover {
-        text-decoration: none; /* ï¿½ï¿½ï¿½ï¿½ */
-        color: #666666; /* Ê¸ï¿½ï¿½ï¿½ï¿½ */
+        text-decoration: none; /* ²¼Àþ */
+        color: #666666; /* Ê¸»ú¿§ */
 }
 
-/* ï¿½ï¿½ï¿½á¡¼ï¿½ï¿½ï¿½Ë¥ï¿½ó¥¯¤ï¿½Å½ï¿½Ã¤ï¿½ï¿½È¤ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ */
+/* ¥¤¥á¡¼¥¸¤Ë¥ê¥ó¥¯¤òÅ½¤Ã¤¿¤È¤­¤ÎÀßÄê */
 a img {
-       border : none; /* ï¿½ï¿½Ìµï¿½ï¿½ */
+       border : none; /* ÀþÌµ¤· */
 }
 
-/* ï¿½ï¿½ï¿½ï¿½ï¿½Î°ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ -----------------------*/
+/* ÆþÎÏÎÎ°è¤ÎÀßÄê -----------------------*/
 
 input,textarea,select,button,submit {
-        color:silver;/* Ê¸ï¿½ï¿½ï¿½ï¿½ */
+        color:silver;/* Ê¸»ú¿§ */
         background-color: #000000; 
         border: 1px solid  #666666;
 }
 
 
-/* ï¿½ï¿½Ê¸ï¿½ï¿½ ------------------------------*/
+/* ³¨Ê¸»ú ------------------------------*/
 
 img.emoji {
-        vertical-align: middle; /* ï¿½ï¿½ï¿½ */
-        border: 0; /* ï¿½ï¿½Ìµï¿½ï¿½ */
+        vertical-align: middle; /* ¾å´ó¤» */
+        border: 0; /* ÀþÌµ¤· */
 }
 
 
-/* ï¿½Æ¡ï¿½ï¿½Ö¥ë¥»ï¿½ï¿½ï¿½ï¿½ï¿½Ì¤ï¿½Ê¸ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ------------*/
+/* ¥Æ¡¼¥Ö¥ë¥»¥ëÁ´ÈÌ¤ÎÊ¸»úÀßÄê ------------*/
 
 th,td {
-        vertical-align: top; /* ï¿½ï¿½ï¿½ */
+        vertical-align: top; /* ¾å´ó¤» */
 }
 
 
-/*ï¿½ï¿½ï¿½Ä¥ê¡¼ï¿½ï¿½ï¿½ï¿½---------------------------*/
+/*¡¡¥Ä¥ê¡¼²½¡¡---------------------------*/
 
 ul {
        padding:0px;
@@ -130,9 +130,9 @@ ul li {
       padding: 0px 0px 1px 21px;
       background: url(http://blog-imgs-24-origin.fc2.com/c/l/o/cloudyvanilla/cloudy-vanilla-tree.gif) no-repeat;
 }
-/* ï¿½Ú¡ï¿½ï¿½ï¿½ï¿½ï¿½Æ° ------------------------------*/
+/* ¥Ú¡¼¥¸°ÜÆ° ------------------------------*/
 
-.entry_navi {font-size: 12px; /* Ê¸ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ */
+.entry_navi {font-size: 12px; /* Ê¸»ú¥µ¥¤¥º */
         text-align: center;
         margin-bottom: 10px;
         padding: 0px;
@@ -140,16 +140,16 @@ ul li {
 
 
 .page_navi {
-       margin: 10px; /* ï¿½å²¼ï¿½ï¿½ï¿½ï¿½ï¿½Ë´Ö³Ö¤ï¿½ï¿½Ã¤Æ¤ï¿½ï¿½Þ¤ï¿½ */
-       text-align: center; /* Ê¸ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ */
+       margin: 10px; /* ¾å²¼º¸±¦¤Ë´Ö³Ö¤ò¼è¤Ã¤Æ¤¤¤Þ¤¹ */
+       text-align: center; /* Ê¸»úÃæ±û´ó¤» */
 }
 
 
 
-/*ï¿½ì¥¤ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ----------------------------------------------*/
+/*¥ì¥¤¥¢¥¦¥ÈÀßÄê ----------------------------------------------*/
 
 
-/* ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê¬ï¿½Èºï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½   */
+/* µ­»öÉôÊ¬¤Èº¸¥«¥é¥à¤ÎÀßÄê   */
 
 #wrapper {
            float:left;
@@ -161,12 +161,12 @@ ul li {
 }
 
 
-/* ï¿½á¥¤ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ */
+/* ¥á¥¤¥ó¤ÎÀßÄê */
 
 #main{ 
          float:right;
          width : 580px;  
-        /* ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ¤ï¿½ï¿½Þ¤ï¿½ */
+        /* ÏÈÀþ¤òÉÁ¤¤¤Æ¤¤¤Þ¤¹ */
          border: 2px solid #666666;
          background-color : ;
          margin-left:auto;
@@ -177,14 +177,14 @@ ul li {
 
 
 
-/* ï¿½Ø¥Ã¥ï¿½ï¿½ï¿½ï¿½ï¿½Ê¬ */
+/* ¥Ø¥Ã¥À¡¼ÉôÊ¬ */
 
 #header {
-        width :800px; /* ï¿½Ø¥Ã¥ï¿½ï¿½ï¿½ï¿½ï¿½Ê¬ï¿½ï¿½ï¿½ï¿½ */
-        height: 150px; /* ï¿½â¤µï¿½ï¿½ï¿½ï¿½ï¿½ê¤·ï¿½Þ¤ï¿½ */
+        width :800px; /* ¥Ø¥Ã¥À¡¼ÉôÊ¬¤ÎÉý */
+        height: 150px; /* ¹â¤µ¤òÀßÄê¤·¤Þ¤¹ */
         background: url(http://blog-imgs-26-origin.fc2.com/c/l/o/cloudyvanilla/wing-bl.gif) ;
-        background-repeat:no-repeat; /* ï¿½Ø·Ê¤ò·«¤ï¿½ï¿½Ö¤ï¿½ï¿½Ê¤ï¿½ */
-        background-position:left top ; /* ï¿½ï¿½ï¿½ï¿½ */
+        background-repeat:no-repeat; /* ÇØ·Ê¤ò·«¤êÊÖ¤µ¤Ê¤¤ */
+        background-position:left top ; /* ÇÛÃÖ */
         margin-top:20px;
         margin-left:auto;
         margin-right:auto;
@@ -192,27 +192,27 @@ ul li {
         padding-right : auto;
 }
 
-/* ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ */
+/* º¸¥«¥é¥à¤ÎÀßÄê */
 
 #left{
         float:left;    
         width:200px;
-        margin:0 auto; /* ï¿½ï¿½ï¿½ï¿½ï¿½Þ¡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ°ï¿½ï¿½ï¿½Ð¤ï¿½ï¿½Æ¥ï¿½ï¿½ó¥¿¥ï¿½ï¿½ */
+        margin:0 auto; /* º¸±¦¥Þ¡¼¥¸¥ó¤ò¼«Æ°»»½Ð¤·¤Æ¥»¥ó¥¿¥ê¥ó¥° */
         padding :0 auto;
 }
 
 
-/* ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ */
+/* ±¦¥«¥é¥à¤ÎÀßÄê */
 
 #right{ 
         float:right;       
         width:200px;
-        margin:0 auto; /* ï¿½ï¿½ï¿½ï¿½ï¿½Þ¡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ°ï¿½ï¿½ï¿½Ð¤ï¿½ï¿½Æ¥ï¿½ï¿½ó¥¿¥ï¿½ï¿½ */
+        margin:0 auto; /* º¸±¦¥Þ¡¼¥¸¥ó¤ò¼«Æ°»»½Ð¤·¤Æ¥»¥ó¥¿¥ê¥ó¥° */
         padding :0 auto;
 }
 
 
-/*ï¿½ï¿½ï¿½Õ¥Ã¥ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ê¡¡*/
+/*¡¡¥Õ¥Ã¥¿¡¼¤ÎÀßÄê¡¡*/
 
 #footer { 
         width: 580px;
@@ -220,7 +220,7 @@ ul li {
         clear: both;
         text-align:center;
         background-position:center;        
-        padding: 15px 0px 0px 0px;/* ï¿½ï¿½Â¦Í¾ï¿½ï¿½Ä´ï¿½ï¿½ ï¿½å±¦ï¿½ï¿½ï¿½ï¿½ */
+        padding: 15px 0px 0px 0px;/* ÆâÂ¦Í¾ÇòÄ´À° ¾å±¦²¼º¸ */
         margin-left:auto;
         margin-right:auto;
         margin-bottom:10px;
@@ -229,38 +229,38 @@ ul li {
 
 
 
-/*ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È¥ê¡¼ï¿½ï¿½Ê¬ï¿½ï¿½ï¿½ï¿½ï¿½ê¡¡*/
+/*¡¡¥¨¥ó¥È¥ê¡¼ÉôÊ¬¤ÎÀßÄê¡¡*/
 
 #entry_top {
        width:500px;   
         overflow: hidden;
        background: url(http://blog-imgs-40-origin.fc2.com/c/l/o/cloudyvanilla/wing-blk.gif) ;
-       background-repeat:no-repeat; /* ï¿½Ø·Ê¤ò·«¤ï¿½ï¿½Ö¤ï¿½ï¿½Ê¤ï¿½ */
-       background-position:left; /* ï¿½ï¿½ï¿½ï¿½ */       
+       background-repeat:no-repeat; /* ÇØ·Ê¤ò·«¤êÊÖ¤µ¤Ê¤¤ */
+       background-position:left; /* ÇÛÃÖ */       
        margin:0 10px 0 10px;
-        padding: 0px 0px 0px 50px;/* ï¿½ï¿½Â¦Í¾ï¿½ï¿½Ä´ï¿½ï¿½ ï¿½å±¦ï¿½ï¿½ï¿½ï¿½ */
+        padding: 0px 0px 0px 50px;/* ÆâÂ¦Í¾ÇòÄ´À° ¾å±¦²¼º¸ */
 }
 
 
 .entry_body {
         width: 560px;
          overflow: hidden;
-      /* ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï¡ï¿½backgroundï¿½ï¿½url()ï¿½ï¿½Î²ï¿½ï¿½ï¿½ï¿½Î»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ñ¹ï¿½ï¿½ï¿½ï¿½Æ¤ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ */
+      /* ¥¢¥¤¥³¥ó²èÁü¤òÆþ¤ì¤ë¾ì¹ç¤Ï¡¢background¤Îurl()Æâ¤Î²èÁü¤Î»²¾ÈÀè¤òÊÑ¹¹¤·¤Æ¤¯¤À¤µ¤¤ */
 
        background: url(http://blog-imgs-40-origin.fc2.com/c/l/o/cloudyvanilla/feather-dark00.gif) no-repeat;  
- ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½background-repeat:no-repeat; /* ï¿½Ø·Ê¤ò·«¤ï¿½ï¿½Ö¤ï¿½ï¿½Ê¤ï¿½ */
-        background-position:center; /* ï¿½ï¿½ï¿½ï¿½ */
-        margin: 0 0px 0 10px; /* ï¿½å²¼ï¿½ï¿½ï¿½ï¿½ï¿½Ë´Ö³Ö¤ï¿½ï¿½Ã¤Æ¤ï¿½ï¿½Þ¤ï¿½ */
+ ¡¡¡¡¡¡background-repeat:no-repeat; /* ÇØ·Ê¤ò·«¤êÊÖ¤µ¤Ê¤¤ */
+        background-position:center; /* ÇÛÃÖ */
+        margin: 0 0px 0 10px; /* ¾å²¼º¸±¦¤Ë´Ö³Ö¤ò¼è¤Ã¤Æ¤¤¤Þ¤¹ */
         padding-left : auto;
         padding-right : auto;
 }
 #entry_bottom {        
-        margin: 10px; /* ï¿½å²¼ï¿½ï¿½ï¿½ï¿½ï¿½Ë´Ö³Ö¤ï¿½ï¿½Ã¤Æ¤ï¿½ï¿½Þ¤ï¿½ */
+        margin: 10px; /* ¾å²¼º¸±¦¤Ë´Ö³Ö¤ò¼è¤Ã¤Æ¤¤¤Þ¤¹ */
         padding-left : auto;
         padding-right : auto;
 }
 
-/*ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Î¥Æ¥ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ê¡¡----------------------------*/
+/*¡¡³ÆÉô¤Î¥Æ¥­¥¹¥ÈÀßÄê¡¡----------------------------*/
 
 .top_title {
         width :750px; 
@@ -271,12 +271,12 @@ ul li {
         padding: 50px 0px 0px 10px;
 }
 
-/* ï¿½Ì¾ï¡¦Ë¬ï¿½ï¿½Ñ¤ß¥ï¿½ó¥¯¥ï¿½ï¿½é¡¼ */
+/* ÄÌ¾ï¡¦Ë¬ÌäºÑ¤ß¥ê¥ó¥¯¥«¥é¡¼ */
 .top_title a:link { color: silver;
                    text-decoration : none;}
 
-/* ï¿½Þ¥ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ë½Å¤Í¤ï¿½ï¿½ï¿½ï¿½ï¿½ó¥¯¥ï¿½ï¿½é¡¼ */
-.top_title a:hover{ color: #666666; /* Ê¸ï¿½ï¿½ï¿½ï¿½ */
+/* ¥Þ¥¦¥¹¤ò¾å¤Ë½Å¤Í¤¿»þ¥ê¥ó¥¯¥«¥é¡¼ */
+.top_title a:hover{ color: #666666; /* Ê¸»ú¿§ */
                    text-decoration : none;}
 
 
@@ -291,29 +291,29 @@ ul li {
         color:#FF99FF;
         text-align :left;
         font-weight: bold;
-        border-bottom:1px solid #eeeeee;   /* ï¿½é¥¤ï¿½ï¿½ï¿½ñ¤¤¤Æ¤ï¿½ï¿½Þ¤ï¿½ */
-        margin:0 auto; /* ï¿½ï¿½ï¿½ï¿½ï¿½Þ¡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ°ï¿½ï¿½ï¿½Ð¤ï¿½ï¿½Æ¥ï¿½ï¿½ó¥¿¥ï¿½ï¿½ */
+        border-bottom:1px solid #eeeeee;   /* ¥é¥¤¥ó¤ò½ñ¤¤¤Æ¤¤¤Þ¤¹ */
+        margin:0 auto; /* º¸±¦¥Þ¡¼¥¸¥ó¤ò¼«Æ°»»½Ð¤·¤Æ¥»¥ó¥¿¥ê¥ó¥° */
         padding: 35px 0px 0px 20px;
 }
 
 .entry_title a {
-        text-decoration: none; /* ï¿½ï¿½ï¿½ï¿½Ìµï¿½ï¿½ */
-        color: #666666; /* Ê¸ï¿½ï¿½ï¿½ï¿½ */
+        text-decoration: none; /* ²¼ÀþÌµ¤· */
+        color: #666666; /* Ê¸»ú¿§ */
 }
 
 .entry_title a:hover {
-        text-decoration: none; /* ï¿½ï¿½ï¿½ï¿½ */
-        color: silver; /* Ê¸ï¿½ï¿½ï¿½ï¿½ */
+        text-decoration: none; /* ²¼Àþ */
+        color: silver; /* Ê¸»ú¿§ */
 }
 
 .entry_text {
-        font-family:arial unicode ms; /* Ê¸ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ */
+        font-family:arial unicode ms; /* Ê¸»ú¼ïÎà */
         font-size:12px;
         text-align: left;
         line-height: 1.5;
         letter-spacing: 1px;
         margin:0 ; 
-        padding: 0px 10px 30px 10px;/* ï¿½ï¿½Â¦Í¾ï¿½ï¿½Ä´ï¿½ï¿½ ï¿½å±¦ï¿½ï¿½ï¿½ï¿½ */
+        padding: 0px 10px 30px 10px;/* ÆâÂ¦Í¾ÇòÄ´À° ¾å±¦²¼º¸ */
 }
 
 
@@ -321,35 +321,35 @@ ul li {
        font-family: Georgia;
        font-size:20px;
        text-align : right;
-       overflow:hidden; /* ï¿½Ï¤ß½Ð¤ï¿½ï¿½ï¿½ï¿½ï¿½Ê¬ï¿½ò±£¤ï¿½ */
+       overflow:hidden; /* ¤Ï¤ß½Ð¤·¤¿ÉôÊ¬¤ò±£¤¹ */
        padding: 0px;
        margin-bottom:15px ;
  }
 
 .entry_date a {
-        text-decoration: none; /* ï¿½ï¿½ï¿½ï¿½Ìµï¿½ï¿½ */
-        color: silver; /* Ê¸ï¿½ï¿½ï¿½ï¿½ */
+        text-decoration: none; /* ²¼ÀþÌµ¤· */
+        color: silver; /* Ê¸»ú¿§ */
 }
 
 .entry_date a:hover {
-        text-decoration: none; /* ï¿½ï¿½ï¿½ï¿½ */
-        color: #666666; /* Ê¸ï¿½ï¿½ï¿½ï¿½ */
+        text-decoration: none; /* ²¼Àþ */
+        color: #666666; /* Ê¸»ú¿§ */
 }
 
 
 
-/* ï¿½ï¿½ï¿½Æ¡ï¿½ï¿½ï¿½ï¿½ï¿½ */
+/* ¥¹¥Æ¡¼¥¿¥¹ */
 
 .entry_state {
-        font-family:arial unicode ms; /* Ê¸ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ */
-        text-align: right; /* Ê¸ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ */
+        font-family:arial unicode ms; /* Ê¸»ú¼ïÎà */
+        text-align: right; /* Ê¸»ú±¦´ó¤» */
         font-size: 12px; 
         padding: 0px;
         margin:0 ; 
 }
 
 
-/*ï¿½È¥ï¿½Ã¥ï¿½ï¿½Ð¥Ã¥ï¿½  -----------------------------------*/
+/*¥È¥é¥Ã¥¯¥Ð¥Ã¥¯  -----------------------------------*/
 
 .trackback_url {
 margin:5px 0 5px 0px;
@@ -386,13 +386,13 @@ padding :10px;
 
 
 
-/*ï¿½ï¿½ï¿½ï¿½ï¿½È¥ï¿½ï¿½ê¥¢  ----------------------------------*/
+/*¥³¥á¥ó¥È¥¨¥ê¥¢  ----------------------------------*/
 .comment_title {
 width:500px;
 background: url(http://blog-imgs-40-origin.fc2.com/c/l/o/cloudyvanilla/wing-blk.gif) ;
-background-repeat:no-repeat; /* ï¿½Ø·Ê¤ò·«¤ï¿½ï¿½Ö¤ï¿½ï¿½Ê¤ï¿½ */
-background-position:left; /* ï¿½ï¿½ï¿½ï¿½ */
-border-bottom:1px solid #666666;   /* ï¿½ï¿½ï¿½Ë¥é¥¤ï¿½ï¿½ï¿½ñ¤¤¤Æ¤ï¿½ï¿½Þ¤ï¿½ */
+background-repeat:no-repeat; /* ÇØ·Ê¤ò·«¤êÊÖ¤µ¤Ê¤¤ */
+background-position:left; /* ÇÛÃÖ */
+border-bottom:1px solid #666666;   /* ²¼¤Ë¥é¥¤¥ó¤ò½ñ¤¤¤Æ¤¤¤Þ¤¹ */
 margin:0 0 0 10px;
 padding:0;
 }
@@ -405,7 +405,7 @@ padding: 10px 20px 10px 10px;
 .comment_state {
 width:500px; 
 text-align:right;
-border-bottom:1px solid #666666;   /* ï¿½ï¿½ï¿½Ë¥é¥¤ï¿½ï¿½ï¿½ñ¤¤¤Æ¤ï¿½ï¿½Þ¤ï¿½ */
+border-bottom:1px solid #666666;   /* ²¼¤Ë¥é¥¤¥ó¤ò½ñ¤¤¤Æ¤¤¤Þ¤¹ */
 margin:5px 10px 10px 10px;
 }
 
@@ -434,14 +434,14 @@ background: url() no-repeat right bottom;
 }
 
 .form_button {
-color: #666666; /* Ê¸ï¿½ï¿½ï¿½ï¿½ */
+color: #666666; /* Ê¸»ú¿§ */
 border:1px solid #666666;
 background:;
 margin:5px 0;
 }
 
 .form_button2 {width:500px; 
-color: #666666; /* Ê¸ï¿½ï¿½ï¿½ï¿½ */
+color: #666666; /* Ê¸»ú¿§ */
 border:1px solid #666666;
 background:;
 }
@@ -455,23 +455,23 @@ display:block;
 margin-bottom:5px;
 }
 
-/* ï¿½ï¿½ï¿½ï¿½ï¿½È¥ê¥¹ï¿½È¤ï¿½ï¿½ï¿½ï¿½ï¿½  ----------------------------*/
+/* ¥³¥á¥ó¥È¥ê¥¹¥È¤ÎÀßÄê  ----------------------------*/
 
 .sidehide{display:none;}
 
 .topentry_comment_body{
        width:500px; 
        font-size: 12px;
-       border-bottom:1px solid #666666;   /* ï¿½é¥¤ï¿½ï¿½ï¿½ñ¤¤¤Æ¤ï¿½ï¿½Þ¤ï¿½ */
+       border-bottom:1px solid #666666;   /* ¥é¥¤¥ó¤ò½ñ¤¤¤Æ¤¤¤Þ¤¹ */
        padding:10px 10px 15px 10px;
        margin:0px 0px 0px 10px;
 }
 
 .comment_title {
         width:500px; 
-        height: 50px; /* ï¿½â¤µï¿½ï¿½ï¿½ï¿½ï¿½ê¤·ï¿½Þ¤ï¿½ */
+        height: 50px; /* ¹â¤µ¤òÀßÄê¤·¤Þ¤¹ */
         font-size: 12px;
-        color: silver; /* Ê¸ï¿½ï¿½ï¿½ï¿½ */
+        color: silver; /* Ê¸»ú¿§ */
         text-align: left;
         font-weight: bold;
         margin:0px 0px 15px 10px;
@@ -482,7 +482,7 @@ margin-bottom:5px;
         width:580px; 
         font-size: 15px;
         font-weight: bold;
-        color: #666666; /* Ê¸ï¿½ï¿½ï¿½ï¿½ */
+        color: #666666; /* Ê¸»ú¿§ */
         text-align: center;
         margin: 0px;
         background: url() no-repeat;
@@ -491,35 +491,35 @@ margin-bottom:5px;
 
 
 
-/*ï¿½ï¿½ï¿½ï¿½Ë¥å¡¼ï¿½Î¾Üºï¿½ï¿½ï¿½ï¿½ê¡¡---------------------------------*/
+/*¡¡¥á¥Ë¥å¡¼¤Î¾ÜºÙÀßÄê¡¡---------------------------------*/
 
 .sidemenu_block { 
         font-size: 12px;
-        /* ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ¤ï¿½ï¿½Þ¤ï¿½ */
+        /* ÏÈÀþ¤òÉÁ¤¤¤Æ¤¤¤Þ¤¹ */
          border: 2px solid #666666;
         margin:0 0 10px;
-        padding: 5px 5px 0px 5px;/* ï¿½ï¿½Â¦Í¾ï¿½ï¿½Ä´ï¿½ï¿½ ï¿½å±¦ï¿½ï¿½ï¿½ï¿½ */
-        overflow:hidden; /* ï¿½Ï¤ß½Ð¤ï¿½ï¿½ï¿½ï¿½ï¿½Ê¬ï¿½ò±£¤ï¿½ */
+        padding: 5px 5px 0px 5px;/* ÆâÂ¦Í¾ÇòÄ´À° ¾å±¦²¼º¸ */
+        overflow:hidden; /* ¤Ï¤ß½Ð¤·¤¿ÉôÊ¬¤ò±£¤¹ */
         background-color: ;   
 }
 
 .sidemenu_block1 { 
         font-size: 12px;
-        /* ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ¤ï¿½ï¿½Þ¤ï¿½ */
+        /* ÏÈÀþ¤òÉÁ¤¤¤Æ¤¤¤Þ¤¹ */
          border: 2px solid #666666;
         margin:0 0 10px;
-        padding: 5px 5px 0px 5px;/* ï¿½ï¿½Â¦Í¾ï¿½ï¿½Ä´ï¿½ï¿½ ï¿½å±¦ï¿½ï¿½ï¿½ï¿½ */
-        overflow:hidden; /* ï¿½Ï¤ß½Ð¤ï¿½ï¿½ï¿½ï¿½ï¿½Ê¬ï¿½ò±£¤ï¿½ */
+        padding: 5px 5px 0px 5px;/* ÆâÂ¦Í¾ÇòÄ´À° ¾å±¦²¼º¸ */
+        overflow:hidden; /* ¤Ï¤ß½Ð¤·¤¿ÉôÊ¬¤ò±£¤¹ */
         background-color: ;   
 }
 .sidemenu_title {
          text-align :center;
          font-weight: bold;
          font-size: 13px;
-         color: silver; /* Ê¸ï¿½ï¿½ï¿½ï¿½ */
+         color: silver; /* Ê¸»ú¿§ */
          height: 20px;
          background: url() no-repeat;
-         overflow:hidden; /* ï¿½Ï¤ß½Ð¤ï¿½ï¿½ï¿½ï¿½ï¿½Ê¬ï¿½ò±£¤ï¿½ */
+         overflow:hidden; /* ¤Ï¤ß½Ð¤·¤¿ÉôÊ¬¤ò±£¤¹ */
          margin-right: 5px;
          margin-rleft:5px;
          padding: 15px 0px 10px 10px ;
@@ -533,9 +533,9 @@ margin-bottom:5px;
 
 
 
-/* ï¿½×¥é¥°ï¿½ï¿½ï¿½ï¿½Î¥ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ */
+/* ¥×¥é¥°¥¤¥ó¤Î¥«¥ì¥ó¥À¡¼¤ÎÀßÄê */
 
-/* ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½---------------------------*/
+/* ¥«¥ì¥ó¥À¡¼ÀßÄê---------------------------*/
 .calender{
 	width:150px;
 	margin:0 0px 0 5px;
@@ -568,11 +568,11 @@ margin-bottom:5px;
 
 
 
-/* ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ -------------------------------*/
+/* ²£¥«¥ì¥ó¥À¡¼¤ÎÀßÄê -------------------------------*/
 
 .line_calendar { 
       font-size : 11px;  
-      color: #666666; /* Ê¸ï¿½ï¿½ï¿½ï¿½ */
+      color: #666666; /* Ê¸»ú¿§ */
       text-align:center; 
       font-family : Georgia;
       margin: 20px 30px 5px 20px;
@@ -585,18 +585,18 @@ margin-bottom:5px;
 }
 
 .line_calendar a {
-      text-decoration: none; /* ï¿½ï¿½ï¿½ï¿½Ìµï¿½ï¿½ */
-      color: silver; /* Ê¸ï¿½ï¿½ï¿½ï¿½ */
+      text-decoration: none; /* ²¼ÀþÌµ¤· */
+      color: silver; /* Ê¸»ú¿§ */
 }
 
 .line_calendar a:hover {
-      text-decoration: none; /* ï¿½ï¿½ï¿½ï¿½ */
-      color: #666666; /* Ê¸ï¿½ï¿½ï¿½ï¿½ */
+      text-decoration: none; /* ²¼Àþ */
+      color: #666666; /* Ê¸»ú¿§ */
 }
 
 
 
-/*ï¿½Ñ¥ó¤¯¤ï¿½ï¿½ê¥¹ï¿½ï¿½-------------------------------------*/
+/*¥Ñ¥ó¤¯¤º¥ê¥¹¥È-------------------------------------*/
 
 .pankuzu {
       font-size:12px; 
@@ -604,12 +604,12 @@ margin-bottom:5px;
       margin:5px 0px 10px 10px;
 } 
 .pankuzu a {
-      text-decoration: none; /* ï¿½ï¿½ï¿½ï¿½Ìµï¿½ï¿½ */
-      color: silver; /* Ê¸ï¿½ï¿½ï¿½ï¿½ */
+      text-decoration: none; /* ²¼ÀþÌµ¤· */
+      color: silver; /* Ê¸»ú¿§ */
 }
 .pankuzu a:hover {
-      text-decoration: none; /* ï¿½ï¿½ï¿½ï¿½ */
-      color: #666666; /* Ê¸ï¿½ï¿½ï¿½ï¿½ */
+      text-decoration: none; /* ²¼Àþ */
+      color: #666666; /* Ê¸»ú¿§ */
 }
 
 .code {
@@ -625,16 +625,16 @@ margin-bottom:5px;
 
 
 
-/* ï¿½ï¿½ï¿½ï¿½Ê¸ï¿½ï¿½ -------------------------------------*/
+/* °úÍÑÊ¸ÏÈ -------------------------------------*/
 
 blockquote {
                width : 480px;
                clear: both;
                font-size:11px;
-               /* ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ¤ï¿½ï¿½Þ¤ï¿½ */
+               /* ÏÈÀþ¤òÉÁ¤¤¤Æ¤¤¤Þ¤¹ */
                border: 1px solid  #666666;               
                padding: 20px;
-              margin:0 auto; /* ï¿½ï¿½ï¿½ï¿½ï¿½Þ¡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ°ï¿½ï¿½ï¿½Ð¤ï¿½ï¿½Æ¥ï¿½ï¿½ó¥¿¥ï¿½ï¿½ */
+              margin:0 auto; /* º¸±¦¥Þ¡¼¥¸¥ó¤ò¼«Æ°»»½Ð¤·¤Æ¥»¥ó¥¿¥ê¥ó¥° */
 }
 
 
@@ -644,12 +644,12 @@ blockquote {
 }
 
 
-/* MACï¿½ï¿½IEï¿½Ð¥ï¿½ï¿½ï¿½ï¿½ï¿½ */
+/* MAC¡¦IE¥Ð¥°²óÈò */
 textarea,input,select {
 font-family : "\30D2\30E9\30AE\30CE\20Pro\20W3","Osaka","Verdana","Helvetica","Arial","\FF2D\FF33\20\FF30\30B4\30B7\30C3\30AF",sans-serif;
 }
 
-/* IEï¿½ï¿½ï¿½Ô¥Ð¥ï¿½ï¿½ï¿½ï¿½ï¿½ */
+/* IE²þ¹Ô¥Ð¥°²óÈò */
 br {
 letter-spacing:normal;
 }

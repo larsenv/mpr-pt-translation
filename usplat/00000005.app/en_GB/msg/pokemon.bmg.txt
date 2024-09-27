@@ -543,3 +543,4 @@
    1ee	= Bad Egg
    1ef	= NIDORAN
 
+

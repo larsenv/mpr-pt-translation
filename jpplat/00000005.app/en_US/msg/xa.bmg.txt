@@ -1,0 +1,320 @@
+#BMG  <<<  The first 4 characters '#BMG' are the magic for a BMG text file.
+#     <<<  Don't remove them!
+#
+# Details about BMG text files are available in the Web:
+#  * Syntax and Semantics: https://szs.wiimm.de/doc/bmg/text
+#  * The BMG file format:  https://szs.wiimm.de/r/wiki/BMG
+#
+#
+#------------------------------------------------------------------------------
+
+# The endianness of binary files: 0=big endian (default), 1=little endian.
+# Little endian is only tested for encoding UTF-8 (need examples of analysis).
+@ENDIAN = 0
+
+# If 1, then enable legacy (GameCube) mode for old binary BMG files.
+# If enabled, ENCODING is always CP1252.
+@LEGACY = 0
+
+# Define encoding of BMG: 1=CP1252, 2=UTF-16/be, 3=Shift-JIS, 4=UTF-8
+@ENCODING = 2
+
+# Create »MID1« section: 0=off, 1=on
+@BMG-MID = 0
+
+# Size of each element of section 'INF1' (MKW=8).
+# This setting has impact to attributes and MKW features.
+@INF-SIZE = 0x08
+
+# Default attribute values for this BMG (MKW=[1])
+@DEFAULT-ATTRIBS = [0]
+
+# Use MKW specific color names: 0=off, 1=auto, 2=on
+@COLOR-NAMES = 1
+
+# Use MKW messages and track names: 0=off, 1=auto, 2=on
+@MKW-MESSAGES = 1
+
+#
+#------------------------------------------------------------------------------
+
+# This part defines values for unknown parameters of section headers.
+@UNKNOWN-INF32-0C =    0xb0000	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
+@UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
+
+#
+#------------------------------------------------------------------------------
+
+     0	= %ls is communicating with %ls.
+     1	= %ls is communicating with %ls.
+     2	= %ls is communicating with %ls.
+     3	= Is %ls talking to someone?
+     4	= Is %ls talking to someone?
+     5	= Is %ls talking to someone?
+     6	= %ls looks hungry.
+     7	= %ls gave %ls some snacks.
+     8	= %ls gave %ls some snacks.
+     9	= %ls looks happy.
+     a	= %ls looks happy.
+     b	= %ls looks happy.
+     c	= %ls is popular.
+     d	= %ls is popular.
+     e	= Is %ls chasing %ls?
+     f	= Is %ls chasing %ls?
+    10	= Is %ls chasing %ls?
+    11	= %ls is chasing someone.
+    12	= %ls is chasing someone.
+    13	= %ls is chasing someone.
+    14	= Is %ls running from %ls?
+    15	= Is %ls running from %ls?
+    16	= Is %ls running from %ls?
+    17	= %ls is running from someone.
+    18	= %ls is running from someone.
+    19	= %ls is running from someone.
+    1a	= %ls is petting %ls.
+    1b	= %ls is petting %ls.
+    1c	= %ls is carrying %ls.
+    1d	= Can %ls lift %ls?
+    1e	= Oh!?
+    1f	= Did %ls give up on carrying?
+    20	= %ls is joyful.
+    21	= %ls is joyful.
+    22	= %ls is joyful.
+    23	= %ls is in a good mood.
+    24	= %ls is in a good mood.
+    25	= %ls is enjoying riding on %ls.
+    26	= %ls is enjoying riding on %ls.
+    27	= %ls is enjoying riding on %ls.
+    28	= %ls looks relaxed.
+    29	= %ls looks relaxed.
+    2a	= %ls tripped over %ls.
+    2b	= %ls tripped over %ls.
+    2c	= %ls is sleeping.
+    2d	= %ls is sleeping.
+    2e	= %ls is sleeping.
+    2f	= %ls is napping with %ls.
+    30	= %ls is playing with %ls.
+    31	= What?
+    32	= %ls is running with %ls.
+    33	= %ls is running with %ls.
+    34	= %ls looks delighted.
+    35	= %ls looks delighted.
+    36	= %ls is in a really good mood.
+    37	= %ls is in a really good mood.
+    38	= %ls is repairing a fence.
+    39	= %ls is repairing a fence.
+    3a	= %ls picked up the %ls.
+    3b	= %ls picked up the %ls.
+    3c	= %ls is enjoying marching with everyone.
+    3d	= %ls is enjoying marching with everyone.
+    3e	= %ls is enjoying marching with everyone.
+    3f	= %ls is marching.
+    40	= %ls is marching.
+    41	= %ls is marching.
+    42	= %ls put %ls up high.
+    43	= %ls put %ls up high.
+    44	= %ls looks disappointed.
+    45	= %ls looks disappointed.
+    46	= %ls is putting %ls up high.
+    47	= %ls is putting %ls up high.
+    48	= Is %ls interested in %ls?
+    49	= Is %ls interested in %ls?
+    4a	= Is %ls interested in %ls?
+    4b	= %ls looks interested in something.
+    4c	= %ls looks interested in something.
+    4d	= %ls looks interested in something.
+    4e	= Is %ls curious about %ls?
+    4f	= Is %ls curious about %ls?
+    50	= Is %ls curious about %ls?
+    51	= %ls looks curious about something.
+    52	= %ls looks curious about something.
+    53	= %ls looks curious about something.
+    54	= %ls is spacing out.
+    55	= %ls is spacing out.
+    56	= %ls is spacing out.
+    57	= %ls looks interested in its friends.
+    58	= %ls looks interested in joining.
+    59	= %ls looks interested in joining.
+    5a	= %ls looks interested in joining.
+    5b	= %ls looks sleepy.
+    5c	= %ls looks sleepy.
+    5d	= %ls looks sleepy.
+    5e	= %ls is taking a break.
+    5f	= %ls is taking a break.
+    60	= %ls looks like it wants to run wild.
+    61	= %ls looks friendly.
+    62	= %ls is not getting along with the %ls type.
+    63	= %ls seems more energetic at night.
+    64	= %ls is taking a stroll.
+    65	= %ls likes to stay close to its friends.
+    66	= Does %ls want to stay close to its friends?
+    67	= %ls really enjoys staying close to %ls.
+    68	= Does %ls want to stay close to %ls?
+    69	= %ls is having a good time.
+    6a	= %ls is having a good time.
+    6b	= %ls is having a good time.
+    6c	= %ls ran away.
+    6d	= %ls ran away.
+    6e	= %ls ran away.
+    6f	= %ls enjoyed the %ls challenge.
+    70	= %ls dodged well.
+    71	= %ls is spinning around.
+    72	= %ls is spinning around.
+    73	= %ls is spinning around.
+    74	= %ls jumped really high.
+    75	= %ls jumped really high.
+    76	= %ls jumped really high.
+    77	= %ls challenged the %ls.
+    78	= %ls challenged the %ls.
+    79	= %ls challenged the %ls.
+    7a	= The challenge was a success!
+    7b	= It's too big to fit in a Pitfall.
+    7c	= %ls dived into the %ls.
+    7d	= %ls fell into the %ls.
+    7e	= %ls fell into the %ls.
+    7f	= %ls is surprised by the %ls.
+    80	= %ls is surprised by the %ls.
+    81	= %ls is staring at the %ls.
+    82	= %ls is staring at the %ls.
+    83	= %ls is staring at the %ls.
+    84	= Is %ls taking a stroll in the sky?
+    85	= Is %ls taking a stroll in the sky?
+    86	= Is %ls taking a stroll in the sky?
+    87	= %ls picked up something unusual!
+    88	= %ls picked up something unusual!
+    89	= Does %ls want more attention?
+    8a	= Does %ls want more attention?
+    8b	= %ls might want to attract attention...
+    8c	= %ls might want to attract attention...
+    8d	= The challenge was a failure!
+    8e	= Is %ls trying to blast off to somewhere?
+    8f	= Is %ls trying to blast off to somewhere?
+    90	= Is %ls trying to blast off to somewhere?
+    91	= %ls came out.
+    92	= %ls came out.
+    93	= %ls came out.
+    94	= %ls came out.
+    95	= %ls came out.
+    96	= %ls came out.
+    97	= Is %ls pleased?
+    98	= Is %ls mimicking %ls?
+    99	= %ls looks like it's singing a song.
+    9a	= %ls looks lonely.
+    9b	= Does %ls have a headache?
+    9c	= %ls is acting strangely.
+    9d	= %ls is carried by %ls.
+    9e	= %ls is carried by %ls.
+    9f	= %ls is carried by %ls.
+    a0	= %ls looks content.
+    a1	= %ls seems to be chasing %ls.
+    a2	= %ls is running wild.
+    a3	= Is %ls chasing its own tail?
+    a4	= %ls is walking backward.
+    a5	= There are so many Pokémon I want to bring to this Ranch...
+    a6	= It would be so great living here with lots of Pokémon.
+    a7	= Maybe I can place toys Pokémon can play with.
+    a8	= Spending some time with Pokémon can be relaxing...
+    a9	= Hold that pose! Taking pictures with Pokémon would be so cool!
+    aa	= It's like a dream, spending time with Pokémon like that every day..
+    ab	= %ls woke up.
+    ac	= %ls woke up.
+    ad	= %ls woke up.
+    ae	= %ls seems to be heading somewhere.
+    af	= %ls seems to be heading somewhere.
+    b0	= %ls seems to be heading somewhere.
+    b1	= %ls wants to know more about its friends.
+    b2	= Does %ls want to know more about its friends?
+    b3	= %ls looks interested in %ls.
+    b4	= %ls looks interested in %ls.
+    b5	= %ls looks interested in %ls.
+    b6	= Is %ls scared of %ls?
+    b7	= Is %ls scared of %ls?
+    b8	= Is %ls scared of %ls?
+    b9	= %ls looks scared of something.
+    ba	= %ls looks scared of something.
+    bb	= %ls looks scared of something.
+    bc	= Is %ls not good with %ls?
+    bd	= Is %ls not good with %ls?
+    be	= Is %ls not good with %ls?
+    bf	= %ls fell down.
+    c0	= %ls fell down.
+    c1	= %ls fell down.
+    c2	= This is %ls %ls.
+    c3	= This is %ls.
+    c4	= This is %ls.
+    c5	= %ls is practicing a move.
+    c6	= %ls seems to be calling everybody.
+    c7	= This is %ls's %ls.
+    c8	= This is %ls's %ls. Its nickname is %ls.
+    c9	= %ls is enjoying the %ls.
+    ca	= %ls is enjoying the %ls.
+    cb	= %ls is enjoying the %ls.
+    cc	= %ls came too close to the %ls.
+    cd	= %ls came too close to the %ls.
+    ce	= %ls came too close to the %ls.
+    cf	= KA-BOOM!
+    d0	= %{}が こっちを みてる
+    d1	= %{}が こっちを みてる
+    d2	= %{}が こっちを みてる
+    d3	= %{}は はねかえされた
+    d4	= %{}は はねかえされた
+    d5	= %{}は はねかえされた
+    d6	= %{}は しゃしんを とられたいのかな
+    d7	= %{}は しゃしんを とられたいのかな
+    d8	= %{}は しゃしんを とられたいのかな
+    d9	= %{}は よい かおりが するみたい
+    da	= %{}は よい かおりが するみたい
+    db	= %{}は よい かおりが するみたい
+    dc	= %{}は よい かおりが するみたい
+    dd	= %{}は よい かおりが するみたい
+    de	= %{}は よい かおりが するみたい
+    df	= %{}は かがやいた
+    e0	= %{}は かがやいた
+    e1	= %{}は かがやいた
+    e2	= %{}は かがやいた
+    e3	= %{}は かがやいた
+    e4	= %{}は かがやいた
+    e5	= %{}は きえた
+    e6	= %{}は きえた
+    e7	= %{}は きえた
+    e8	= %{}は きえた
+    e9	= %{}は きえた
+    ea	= %{}は きえた
+    eb	= %{}は しびれた
+    ec	= %{}は しびれた
+    ed	= %{}は しびれた
+    ee	= %{}は まちくたびれたみたい
+    ef	= %{}は まちくたびれたみたい
+    f0	= %{}は まちくたびれたみたい
+    f1	= %{}は まちあわせを してるみたい
+    f2	= %{}は まちあわせを してるみたい
+    f3	= %{}は まちあわせを してるみたい
+    f4	= %1${}の まちあわせの あいては %2${}だったみたい
+    f5	= %1${}は %2${}を まわした
+    f6	= %1${}は %2${}を まわした
+    f7	= %1${}は %2${}を まわした
+    f8	= %1${}は %2${}を ふった
+    f9	= %1${}は %2${}を ふった
+    fa	= %1${}は %2${}を ふった
+    fb	= ハッピーバースデー %{}!
+    fc	= あっ!
+    fd	= %1${}は %2${}と おはなししたいみたい
+    fe	= %1${}は %2${}と おはなししたいみたい
+    ff	= %1${}は %2${}と おはなししたいみたい
+   100	= %{}は さわいでる
+   101	= %{}は さわいでる
+   102	= %{}は さわいでる
+   103	= %{}は エサを さがしてるようだ
+   104	= %{}は エサを さがしてるようだ
+   105	= %{}は エサを さがしてるようだ
+   106	= %{}は じめんに もぐってる
+   107	= %{}は じめんに もぐってる
+   108	= %{}は じめんに もぐってる
+   109	= %1${}は %2${}に いたずらを した
+   10a	= %1${}は %2${}に いたずらを した
+   10b	= %1${}は %2${}に いたずらを した
+   10c	= %1${}は %2${}に へんしんした
+   10d	= %1${}は %2${}に へんしんした
+   10e	= %1${}は %2${}に へんしんした
+

@@ -46,126 +46,126 @@
 #
 #------------------------------------------------------------------------------
 
-     0	= $1$ $2$, 20$0$\n
+     0	= $2$ $1$ 20$0$\n
 	+ $4$\n
-	+ Met at Lv. $3$.
-     1	= $1$ $2$, 20$0$\n
+	+ Rencontré au N. $3$.
+     1	= $2$ $1$ 20$0$\n
 	+ $4$\n
-	+ Apparently met at\n
-	+ Lv. $3$.
-     2	= $1$ $2$, 20$0$\n
+	+ Apparemment rencontré\n
+	+ au N. $3$.
+     2	= $2$ $1$ 20$0$\n
 	+ $4$\n
-	+ Arrived at Lv. $3$.
-     3	= $6$ $7$, 20$5$\n
+	+ Arrivé au N. $3$.
+     3	= $7$ $6$ 20$5$\n
+	+ $8$\n
+	+ Oeuf obtenu.\n
+	+ $2$ $1$ 20$0$\n
+	+ $4$\n
+	+ Oeuf éclos.
+     4	= $7$ $6$ 20$5$\n
 	+ $8$\n
 	+ Egg obtained.\n
+	+ $1$ $2$, 20$0$\n
+	+ $4$\n
+	+ Oeuf apparemment éclos.
+     5	= $7$ $6$ 20$5$\n
+	+ $8$\n
+	+ Oeuf obtenu.\n
 	+ $1$ $2$, 20$0$\n
 	+ $4$\n
 	+ Egg hatched.
-     4	= $6$ $7$, 20$5$\n
-	+ $8$\n
-	+ Egg obtained.\n
-	+ $1$ $2$, 20$0$\n
-	+ $4$\n
-	+ Egg apparently hatched.
-     5	= $6$ $7$, 20$5$\n
+     6	= $7$ $6$ 20$5$\n
 	+ $8$\n
 	+ Egg received.\n
 	+ $1$ $2$, 20$0$\n
 	+ $4$\n
-	+ Egg hatched.
-     6	= $6$ $7$, 20$5$\n
-	+ $8$\n
-	+ Egg received.\n
-	+ $1$ $2$, 20$0$\n
-	+ $4$\n
 	+ Egg apparently hatched.
-     7	= $1$ $2$, 20$0$\n
+     7	= $2$ $1$ 20$0$\n
 	+ $4$\n
-	+ Had a fateful encounter\n
-	+ at Lv. $3$.
-     8	= $1$ $2$, 20$0$\n
+	+ Rencontré par hasard au\n
+	+ N. $3$.
+     8	= $2$ $1$ 20$0$\n
 	+ $4$\n
-	+ Apparently had a\n
-	+ fateful encounter at\n
+	+ Apparemment rencontré\n
+	+ par hasard au\n
 	+ Lv. $3$.
-     9	= $6$ $7$, 20$5$\n
+     9	= $7$ $6$ 20$5$\n
 	+ $8$\n
 	+ Egg obtained.\n
+	+ $1$ $2$, 20$0$\n
+	+ $4$\n
+	+ Oeuf éclos.\n
+	+ Rencontré par hasard.
+     a	= $7$ $6$ 20$5$\n
+	+ $8$\n
+	+ Egg obtained.\n
+	+ $1$ $2$, 20$0$\n
+	+ $4$\n
+	+ Oeuf apparemment éclos.\n
+	+ Fateful encounter.
+     b	= $7$ $6$ 20$5$\n
+	+ $8$\n
+	+ Oeuf arrivé.\n
 	+ $1$ $2$, 20$0$\n
 	+ $4$\n
 	+ Egg hatched.\n
 	+ Fateful encounter.
-     a	= $6$ $7$, 20$5$\n
-	+ $8$\n
-	+ Egg obtained.\n
-	+ $1$ $2$, 20$0$\n
-	+ $4$\n
-	+ Egg apparently hatched.\n
-	+ Fateful encounter.
-     b	= $6$ $7$, 20$5$\n
+     c	= $7$ $6$ 20$5$\n
 	+ $8$\n
 	+ Egg arrived.\n
 	+ $1$ $2$, 20$0$\n
 	+ $4$\n
-	+ Egg hatched.\n
-	+ Fateful encounter.
-     c	= $6$ $7$, 20$5$\n
-	+ $8$\n
-	+ Egg arrived.\n
-	+ $1$ $2$, 20$0$\n
-	+ $4$\n
 	+ Egg apparently hatched.\n
 	+ Fateful encounter.
-     d	= $6$ $7$, 20$5$\n
+     d	= $7$ $6$ 20$5$\n
 	+ $8$\n
 	+ Egg obtained.\n
 	+ $1$ $2$, 20$0$\n
 	+ $4$\n
 	+ Egg hatched.\n
 	+ Fateful encounter.
-     e	= $6$ $7$, 20$5$\n
+     e	= $7$ $6$ 20$5$\n
 	+ $8$\n
 	+ Egg obtained.\n
 	+ $1$ $2$, 20$0$\n
 	+ $4$\n
 	+ Egg apparently hatched.\n
 	+ Fateful encounter.
-     f	= $1$ $2$, 20$0$\n
+     f	= $2$ $1$ 20$0$\n
 	+ $4$\n
 	+ Arrived at Lv. $3$.
-    10	= $6$ $7$, 20$5$\n
+    10	= $7$ $6$ 20$5$\n
+	+ Un mystérieux Oeuf de\n
+	+ Pokémon offert par\n
+	+ $8$.
+    11	= $7$ $6$ 20$5$\n
 	+ A mysterious Pokémon\n
-	+ Egg received from\n
+	+ Pokémon obtenu à\n
 	+ $8$.\n
-    11	= $6$ $7$, 20$5$\n
-	+ A mysterious Pokémon\n
-	+ Egg obtained in\n
+    12	= $7$ $6$ 20$5$\n
+	+ Un mystérieux Oeuf de\n
+	+ Pokémon obtenu à\n
+	+ $8$.
+    13	= $7$ $6$ 20$5$\n
+	+ Un Oeuf de Pokémon très\n
+	+ mystérieux provenant de\n
 	+ $8$.\n
-    12	= $6$ $7$, 20$5$\n
-	+ A very mysterious\n
-	+ Pokémon Egg obtained\n
-	+ at $8$.\n
-    13	= $6$ $7$, 20$5$\n
-	+ A very mysterious Pokémon\n
-	+ Egg that came from\n
-	+ $8$.\n
-    14	= Mystery Zone
-    15	= Twinleaf Town
-    16	= Sandgem Town
-    17	= Floaroma Town
-    18	= Solaceon Town
-    19	= Celestic Town
-    1a	= Jubilife City
-    1b	= Canalave City
-    1c	= Oreburgh City
-    1d	= Eterna City
-    1e	= Hearthome City
-    1f	= Pastoria City
-    20	= Veilstone City
-    21	= Sunyshore City
-    22	= Snowpoint City
-    23	= Pokémon League
+    14	= Zone Mystère
+    15	= Bonaugure
+    16	= Littorella
+    17	= Floraville
+    18	= Bonville
+    19	= Célestia
+    1a	= Féli-Cité
+    1b	= Joliberges
+    1c	= Charbourg
+    1d	= Vestigion
+    1e	= Unionpolis
+    1f	= Verchamps
+    20	= Voilaroc
+    21	= Rivamar
+    22	= Frimapic
+    23	= Ligue Pokémon
     24	= Route 201
     25	= Route 202
     26	= Route 203
@@ -185,83 +185,83 @@
     34	= Route 217
     35	= Route 218
     36	= Route 219
-    37	= Route 220
+    37	= Chenal 220
     38	= Route 221
     39	= Route 222
-    3a	= Route 223
+    3a	= Chenal 223
     3b	= Route 224
     3c	= Route 225
-    3d	= Route 226
+    3d	= Chenal 226
     3e	= Route 227
     3f	= Route 228
     40	= Route 229
-    41	= Route 230
-    42	= Oreburgh Mine
-    43	= Valley Windworks
-    44	= Eterna Forest
-    45	= Fuego Ironworks
-    46	= Mt. Coronet
-    47	= Spear Pillar
-    48	= Great Marsh
-    49	= Solaceon Ruins
-    4a	= Victory Road
-    4b	= Pal Park
-    4c	= Amity Square
-    4d	= Ravaged Path
-    4e	= Floaroma Meadow
-    4f	= Oreburgh Gate
-    50	= Fullmoon Island
-    51	= Sendoff Spring
-    52	= Turnback Cave
-    53	= Flower Paradise
-    54	= Snowpoint Temple
-    55	= Wayward Cave
-    56	= Ruin Maniac Cave
-    57	= Maniac Tunnel
-    58	= Trophy Garden
-    59	= Iron Island
-    5a	= Old Chateau
-    5b	= Galactic HQ
-    5c	= Verity Lakefront
-    5d	= Valor Lakefront
-    5e	= Acuity Lakefront
-    5f	= Spring Path
-    60	= Lake Verity
-    61	= Lake Valor
-    62	= Lake Acuity
-    63	= Newmoon Island
-    64	= Battle Tower
-    65	= Fight Area
-    66	= Survival Area
-    67	= Resort Area
-    68	= Stark Mountain
-    69	= Seabreak Path
-    6a	= Hall of Origin
-    6b	= Verity Cavern
-    6c	= Valor Cavern
-    6d	= Acuity Cavern
-    6e	= Jubilife TV
-    6f	= Pokétch Co.
+    41	= Chenal 230
+    42	= Mine Charbourg
+    43	= Les Eoliennes
+    44	= Forêt Vestigion
+    45	= Forge Fuego
+    46	= Mont Couronné
+    47	= Colonnes Lances
+    48	= Grand Marais
+    49	= Ruines Bonville
+    4a	= Route Victoire
+    4b	= Parc des Amis
+    4c	= Square Paisible
+    4d	= Chemin Rocheux
+    4e	= Pré Floraville
+    4f	= Entrée Charbourg
+    50	= Ile Pleine Lune
+    51	= Source Adieu
+    52	= Grotte Retour
+    53	= Paradis Fleuri
+    54	= Temple Frimapic
+    55	= Grotte Revêche
+    56	= Grotte Ruineman.
+    57	= Tunnel Ruineman.
+    58	= Jardin Trophée
+    59	= Ile de Fer
+    5a	= Vieux Château
+    5b	= QG Galaxie
+    5c	= Rive Lac Vérité
+    5d	= Rive Lac Courage
+    5e	= Rive Lac Savoir
+    5f	= Chemin Source
+    60	= Lac Vérité
+    61	= Lac Courage
+    62	= Lac Savoir
+    63	= Ile Nouvellune
+    64	= Tour de Combat
+    65	= Aire de Combat
+    66	= Aire de Survie
+    67	= Aire de Détente
+    68	= Mont Abrupt
+    69	= Passage Marin
+    6a	= Salle Originelle
+    6b	= Caverne Vérité
+    6c	= Caverne Courage
+    6d	= Caverne Savoir
+    6e	= Féli-Télé
+    6f	= Pokémontre S.A.
     70	= GTS
-    71	= Trainers' School
-    72	= Mining Museum
-    73	= Flower Shop
-    74	= Cycle Shop
-    75	= Contest Hall
-    76	= Poffin House
-    77	= Foreign Building
-    78	= Pokémon Day Care
-    79	= Veilstone Store
-    7a	= Game Corner
-    7b	= Canalave Library
-    7c	= Vista Lighthouse
-    7d	= Sunyshore Market
-    7e	= Pokémon Mansion
-    7f	= Footstep House
-    80	= Cafe
-    81	= Grand Lake
+    71	= Ecole Dresseurs
+    72	= Musée Minier
+    73	= Fleuriste
+    74	= Boutique de Vélo
+    75	= Salle Concours
+    76	= Poffinerie
+    77	= Bâtiment Etrange
+    78	= Pension Pokémon
+    79	= C. Com. Voilaroc
+    7a	= Casino
+    7b	= Bibl. Joliberges
+    7c	= Phare Panorama
+    7d	= Marché Rivamar
+    7e	= Manoir Pokémon
+    7f	= Abri Petitpas
+    80	= Café
+    81	= Grand Lac
     82	= Restaurant
-    83	= Battle Park
+    83	= Parc des Combats
     84	= Battle Frontier
     85	= Battle Factory
     86	= Battle Castle
@@ -366,4 +366,5 @@
     e9	= Riley
     ea	= Cynthia
     eb	= Mystery Zone
+
 

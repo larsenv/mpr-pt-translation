@@ -46,40 +46,41 @@
 #
 #------------------------------------------------------------------------------
 
-     0	= Normal
-     1	= Fighting
-     2	= Flying
-     3	= Poison
-     4	= Ground
-     5	= Rock
-     6	= Bug
-     7	= Ghost
-     8	= Steel
+     0	= Normale
+     1	= Lotta
+     2	= Volante
+     3	= Veleno
+     4	= Terra
+     5	= Roccia
+     6	= Coleottero
+     7	= Spettro
+     8	= Acciaio
      9	= ?
-     a	= Fire
-     b	= Water
-     c	= Grass
-     d	= Electric
-     e	= Psychic
-     f	= Ice
-    10	= Dragon
-    11	= Dark
-    12	= NORMAL
-    13	= FIGHT
-    14	= FLYING
-    15	= POISON
-    16	= GROUND
-    17	= ROCK
-    18	= BUG
-    19	= GHOST
-    1a	= STEEL
+     a	= Fuoco
+     b	= Acqua
+     c	= Erba
+     d	= Elettro
+     e	= Psico
+     f	= Ghiaccio
+    10	= Drago
+    11	= Buio
+    12	= NORM
+    13	= LOTTA
+    14	= VOLAN
+    15	= VELENO
+    16	= TERRA
+    17	= ROCCIA
+    18	= COLEOT
+    19	= SP.TRO
+    1a	= ACC.IO
     1b	= ?
-    1c	= FIRE
-    1d	= WATER
-    1e	= GRASS
-    1f	= ELECTR
-    20	= PSYCHC
-    21	= ICE
-    22	= DRAGON
-    23	= DARK
+    1c	= FUOCO
+    1d	= ACQUA
+    1e	= ERBA
+    1f	= ELETT
+    20	= PSICO
+    21	= GHIACC
+    22	= DRAGO
+    23	= BUIO
+
 

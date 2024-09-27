@@ -539,7 +539,8 @@
    1ea	= DARKRAI
    1eb	= SHAYMIN
    1ec	= ARCEUS
-   1ed	= Egg
-   1ee	= Bad Egg
+   1ed	= Uovo
+   1ee	= Uovo peste
    1ef	= NIDORAN
+
 
