@@ -116,12 +116,12 @@
     43	= Magnet
     44	= Twirler
     45	= Twirler
-    46	= Bound Pad
-    47	= Bound Pad
+    46	= Bounce Pad
+    47	= Bounce Pad
     48	= Tree
     49	= Tree
-    4a	= Large Apple Box
-    4b	= Large Apple Box
-    4c	= Large Picture Frame
-    4d	= Large Picture Frame
+    4a	= Big Apple Box
+    4b	= Big Apple Box
+    4c	= Big Picture Frame
+    4d	= Big Picture Frame
 
