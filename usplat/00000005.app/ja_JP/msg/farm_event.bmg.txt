@@ -1442,8 +1442,10 @@
 	+ connecting to Pokémon\n
 	+ Platinum!
    23c	= A lot has changed,\n
-	+ but I won't tell you about all of it.\n
-	+ The rest is for you to find!
+	+ but I won't tell you\n
+	+ about all of it.\n
+	+ The rest is for you\n
+	+ to find!
    23d	= Well then, let's continue\n
 	+ to work together!
 
