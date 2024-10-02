@@ -55,7 +55,7 @@
      6	= Bicho
      7	= Fantasma
      8	= Acero
-     9	= ?
+     9	= (?)
      a	= Fuego
      b	= Agua
      c	= Planta
@@ -73,7 +73,7 @@
     18	= BICHO
     19	= FANT
     1a	= ACERO
-    1b	= ?
+    1b	= (?)
     1c	= FUEGO
     1d	= AGUA
     1e	= PLANTA
@@ -82,5 +82,4 @@
     21	= HIELO
     22	= DRAGÓN
     23	= SINIE
-
 

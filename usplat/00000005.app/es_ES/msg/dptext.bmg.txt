@@ -64,22 +64,22 @@
 	+ Huevo eclosionado.
      4	= $7$/$6$/20$5$\n
 	+ $8$\n
-	+ Egg obtained.\n
-	+ $1$ $2$, 20$0$\n
+	+ Huevo obtenido.\n
+	+ $2$/$1$/20$0$\n
 	+ $4$\n
 	+ Huevo aparent. abierto.
      5	= $7$/$6$/20$5$\n
 	+ $8$\n
 	+ Huevo recibido.\n
-	+ $1$ $2$, 20$0$\n
+	+ $2$/$1$/20$0$\n
 	+ $4$\n
-	+ Egg hatched.
+	+ Huevo eclosionado.
      6	= $7$/$6$/20$5$\n
 	+ $8$\n
-	+ Egg received.\n
-	+ $1$ $2$, 20$0$\n
+	+ Huevo recibido.\n
+	+ $2$/$1$/20$0$\n
 	+ $4$\n
-	+ Egg apparently hatched.
+	+ Huevo aparent. abierto.
      7	= $2$/$1$/20$0$\n
 	+ $4$\n
 	+ Encuentro fatídico\n
@@ -91,57 +91,57 @@
 	+ Lv. $3$.
      9	= $7$/$6$/20$5$\n
 	+ $8$\n
-	+ Egg obtained.\n
-	+ $1$ $2$, 20$0$\n
+	+ Huevo obtenido.\n
+	+ $2$/$1$/20$0$\n
 	+ $4$\n
 	+ Huevo eclosionado.\n
 	+ Encuentro fatídico.
      a	= $7$/$6$/20$5$\n
 	+ $8$\n
-	+ Egg obtained.\n
-	+ $1$ $2$, 20$0$\n
+	+ Huevo obtenido.\n
+	+ $2$/$1$/20$0$\n
 	+ $4$\n
 	+ Huevo aparent. abierto.\n
-	+ Fateful encounter.
+	+ Encuentro fatídico.
      b	= $7$/$6$/20$5$\n
 	+ $8$\n
 	+ El huevo ha llegado.\n
-	+ $1$ $2$, 20$0$\n
+	+ $2$/$1$/20$0$\n
 	+ $4$\n
-	+ Egg hatched.\n
-	+ Fateful encounter.
+	+ Huevo eclosionado.\n
+	+ Encuentro fatídico.
      c	= $7$/$6$/20$5$\n
 	+ $8$\n
-	+ Egg arrived.\n
-	+ $1$ $2$, 20$0$\n
+	+ El huevo ha llegado.\n
+	+ $2$/$1$/20$0$\n
 	+ $4$\n
-	+ Egg apparently hatched.\n
-	+ Fateful encounter.
+	+ Huevo aparent. abierto.\n
+	+ Encuentro fatídico.
      d	= $7$/$6$/20$5$\n
 	+ $8$\n
-	+ Egg obtained.\n
-	+ $1$ $2$, 20$0$\n
+	+ Huevo obtenido.\n
+	+ $2$/$1$/20$0$\n
 	+ $4$\n
-	+ Egg hatched.\n
-	+ Fateful encounter.
+	+ Huevo eclosionado.\n
+	+ Encuentro fatídico.
      e	= $7$/$6$/20$5$\n
 	+ $8$\n
-	+ Egg obtained.\n
-	+ $1$ $2$, 20$0$\n
+	+ Huevo obtenido.\n
+	+ $2$/$1$/20$0$\n
 	+ $4$\n
-	+ Egg apparently hatched.\n
-	+ Fateful encounter.
+	+ Huevo aparent. abierto.\n
+	+ Encuentro fatídico.
      f	= $2$/$1$/20$0$\n
 	+ $4$\n
-	+ Arrived at Lv. $3$.
+	+ Llegado Nv. $3$.
     10	= $7$/$6$/20$5$\n
 	+ ¡Misterioso huevo de\n
 	+ Pokémon recibido de\n
 	+ $8$!
     11	= $7$/$6$/20$5$\n
-	+ A mysterious Pokémon\n
+	+ ¡Misterioso huevo de\n
 	+ Pokémon obtenido\n
-	+ $8$.\n
+	+ en $8$!
     12	= $7$/$6$/20$5$\n
 	+ ¡Huevo de Pokémon muy\n
 	+ misterioso obtenido\n
@@ -149,7 +149,7 @@
     13	= $7$/$6$/20$5$\n
 	+ ¡Huevo de Pokémon muy\n
 	+ misterioso procedente\n
-	+ $8$.\n
+	+ de $8$!
     14	= Zona Misteriosa
     15	= Pueblo Hojaverde
     16	= Pueblo Arena
@@ -262,36 +262,36 @@
     81	= Gran Lago
     82	= Restaurante
     83	= Parque Batalla
-    84	= Battle Frontier
-    85	= Battle Factory
-    86	= Battle Castle
-    87	= Battle Arcade
-    88	= Battle Hall
-    89	= Distortion World
-    8a	= Global Terminal
-    8b	= Villa
-    8c	= Battleground
-    8d	= Rotom's Room
-    8e	= T.G. Eterna Bldg
-    8f	= Iron Ruins
-    90	= Iceberg Ruins
-    91	= Rock Peak Ruins
-    92	= Lovely place
+    84	= Frente Batalla
+    85	= Fábrica Batalla
+    86	= Castillo Batalla
+    87	= Ruleta Batalla
+    88	= Sala Batalla
+    89	= Mundo Distorsión
+    8a	= Terminal Global
+    8b	= Mansión
+    8c	= Café Revancha
+    8d	= Sala de Rotom
+    8e	= Edificio Galaxia
+    8f	= Ruinas Hierro
+    90	= Ruinas Iceberg
+    91	= Ruinas Pico Roca
+    92	= Lugar encantador
     93	= Pokémon Ranger
-    94	= Faraway place
-    95	= Pokémon Movie
-    96	= Pokémon Movie 06
-    97	= Pokémon Movie 07
-    98	= Pokémon Movie 08
-    99	= Pokémon Movie 09
-    9a	= Pokémon Movie 10
-    9b	= Pokémon Movie 11
-    9c	= Pokémon Movie 12
-    9d	= Pokémon Movie 13
-    9e	= Pokémon Movie 14
-    9f	= Pokémon Movie 15
-    a0	= Pokémon Movie 16
-    a1	= Pokémon Cartoon
+    94	= Lugar lejano
+    95	= Película Pokémon
+    96	= Película PKMN 06
+    97	= Película PKMN 07
+    98	= Película PKMN 08
+    99	= Película PKMN 09
+    9a	= Película PKMN 10
+    9b	= Película PKMN 11
+    9c	= Película PKMN 12
+    9d	= Película PKMN 13
+    9e	= Película PKMN 14
+    9f	= Película PKMN 15
+    a0	= Película PKMN 16
+    a1	= Animación PKMN
     a2	= Space World
     a3	= Space World 06
     a4	= Space World 07
@@ -336,35 +336,34 @@
     cb	= PC Sapporo
     cc	= PC Yokohama
     cd	= Nintendo World
-    ce	= Pokémon Event
-    cf	= Pokémon Event 06
-    d0	= Pokémon Event 07
-    d1	= Pokémon Event 08
-    d2	= Pokémon Event 09
-    d3	= Pokémon Event 10
-    d4	= Pokémon Event 11
-    d5	= Pokémon Event 12
-    d6	= Pokémon Event 13
-    d7	= Pokémon Event 14
-    d8	= Pokémon Event 15
-    d9	= Pokémon Event 16
-    da	= Wi-Fi Event
-    db	= Wi-Fi Gift
-    dc	= Pokémon Fan Club
-    dd	= Event Site
-    de	= Concert Event
-    df	= Day-Care Couple
-    e0	= Link trade
-    e1	= Link trade
+    ce	= Evento PKMN
+    cf	= Evento PKMN 06
+    d0	= Evento PKMN 07
+    d1	= Evento PKMN 08
+    d2	= Evento PKMN 09
+    d3	= Evento PKMN 10
+    d4	= Evento PKMN 11
+    d5	= Evento PKMN 12
+    d6	= Evento PKMN 13
+    d7	= Evento PKMN 14
+    d8	= Evento PKMN 15
+    d9	= Evento PKMN 16
+    da	= Evento Wi-Fi
+    db	= Regalo Wi-Fi
+    dc	= Club Fans PKMN
+    dd	= Sitio Evento
+    de	= Concierto Evento
+    df	= Pareja guardería
+    e0	= Intercambio
+    e1	= Intercambio
     e2	= Kanto
     e3	= Johto
     e4	= Hoenn
     e5	= Sinnoh
-    e6	= ----
-    e7	= Distant land
-    e8	= Traveling Man
-    e9	= Riley
-    ea	= Cynthia
-    eb	= Mystery Zone
-
+    e6	= ----------
+    e7	= Tierra Lejana
+    e8	= Viajero
+    e9	= Quinoa
+    ea	= Cintia
+    eb	= Zona Misteriosa
 
