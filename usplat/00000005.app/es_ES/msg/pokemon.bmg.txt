@@ -542,4 +542,3 @@
    1ed	= Huevo
    1ee	= Huevo malo
    1ef	= NIDORAN
-

@@ -215,9 +215,9 @@
     a6	= ¡Sería estupendo vivir aquí con muchos Pokémon!
     a7	= Quizá pueda darles juguetes a los Pokémon para que se entretengan.
     a8	= Pasar tiempo con Pokémon puede ser muy relajante...
-    a9	= ¡Atención todos! ¡Sonreíd! ¡Me gustaría hacerme fotos con\n
+    a9	= ¡Atención todos! ¡Sonreíd! ¡Me gustaría hacerme fotos con
 	+  Pokémon!
-    aa	= No se me ocurre mejor forma de pasar cada día que estar en compañía\n
+    aa	= No se me ocurre mejor forma de pasar cada día que estar en compañía
 	+  de Pokémon.
     ab	= ¡%{} se ha despertado!
     ac	= ¡%{} se ha despertado!

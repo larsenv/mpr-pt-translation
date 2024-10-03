@@ -48,8 +48,8 @@
 
      0	= 
      1	= Inserta una tarjeta DS de las\n
-	+ Ediciones Diamante o Perla de\n
-	+ Pokémon en la consola Nintendo\n
+	+ Ediciones Diamante, Perla o\n
+	+ Platino en la consola Nintendo\n
 	+ DS y elige CONECTAR CON Wii.
      2	= Si la opción CONECTAR CON Wii\n
 	+ no aparece en el menú principal,\n
@@ -186,8 +186,8 @@
 	+ en una tarjeta SD?
     67	= Se ha guardado la foto en\n
 	+ la tarjeta SD con el nombre\n
-	+ %.4s%04d.JPG en la\n
-	+ carpeta \\DCIM\\%03dNIN01.
+	+ %2$.4s%3$04d.JPG en la\n
+	+ carpeta ¥DCIM¥%03dNIN01.
     68	= Noticias
     69	= Borrar todas las fotos de\n
 	+ la tarjeta SD
@@ -241,11 +241,11 @@
 	+ datos de las fotos.
     7d	= Guardar todas las fotos a la\n
 	+ tarjeta SD.
-    7e	= Guardar todas las fotos en el álbum\n
-	+ a la tarjeta SD.
+    7e	= Guardar todas las fotos en el\n
+	+ álbum a la tarjeta SD.
     7f	= ¿Quieres guardar todo?
     80	= Se han guardado todas las fotos\n
-	+ en la carpeta \\DCIM\\%03dNIN01\n
+	+ en la carpeta ¥DCIM¥%03dNIN01\n
 	+ dentro de la tarjeta SD.
     81	= ¿Borrar todas las fotos desprotegidas?
     82	= ¿De verdad quieres borrar todo?\n
@@ -374,7 +374,7 @@
     b7	= Este servicio puede ser\n
 	+ cancelado sin previo aviso.
     b8	= Pokémon buscados
-    b9  = Música de hoy
+    b9  = Música
     ba	= Club Mírame
     bb	= ～Lleno de %{}～
     bc	= ～Lleno de huevos～
@@ -410,7 +410,7 @@
     cd	= Página siguiente
     ce	= Aceptar y volver
     cf	= Otros
-    d0	= (Sin Música)
+    d0	= Silenciar
     d1	= ♪Platinum Farm
     d2	= ♪Soft Sunlight
     d3	= ♪Leisurely Walk
@@ -457,7 +457,8 @@
     f7	= ♂
     f8	= ♀
     f9	= Amigos en el rancho
-    fa	= Pokémon en el rancho
+    fa	= Pokémon en el\n
+	+ rancho
     fb	= Todos
     fc	= Favoritos
     fd	= Mis Pokémon
@@ -473,7 +474,7 @@
    107	= Total:
    108	= Encargado:
    109	= Desfile
-   10a	= contact Fillo
+   10a	= 
    10b	= ¿Liberar a este Pokémon?
    10c	= Por defecto
    10d	= Cantidad
@@ -710,27 +711,25 @@
 	+ y Platino de Pokémon.
    1d1	= 
    1d2	= 
-   1d3	=  Sobre la actualización de Platino (1)
-   1d4	= Características de la Edición Platino
-   1d5	= ・My Pokémon Ranch ya puede conectarse\n
-	+ 　Pokémon Platino para la consola\n
-	+ 　Nintendo DS.\n
+   1d3	= Sobre la actualización (1)
+   1d4	= Novedades
+   1d5	= ・My Pokémon Ranch ya puede\n
+	+ 　conectarse a Pokémon Platino\n
+	+ 　de la consola Nintendo DS.\n
 	+ \n
 	+ ・Cuando el rancho se amplíe,\n
-	+  ¡podrás almacenar hasta 1,500 Pokémon!\n
-   1d6	= Sobre la actualización de Platino (2)
-   1d7	= "¡Hay muchísimas novedades!"
-   1d8	= ・Se han añadido nuevas opciones\n
-        + 　en el menú.\n
+	+  podrás guardar hasta 1,500 Pokémon.
+   1d6	= Sobre la actualización (2)
+   1d7	= ¿Ahora que puedo hacer?
+   1d8	= ・Hay nuevas opciones en el menú.\n
 	+ \n
-	+ ・Ahora puedes almacenar\n
-	+ 　hasta 30 fotos.\n
+	+ ・Se puede almacenar hasta\n
+	+  30 fotos.\n
 	+ \n
-	+ ・Puedes cambiar la música.\n
+	+ ・Se puede cambiar la música.\n
 	+ \n
-	+ ・Puedes volver a ver los\n
-        +  Ranchos del Club Mírame que\n
-        +  ya hayas visitado.
+	+ ・Se puede volver a ver los Ranchos\n
+        +  del Club Mírame ya visitados.
    1d9	= Controles
    1da	= Enfoque
    1db	= Buscar
@@ -840,15 +839,16 @@
    219	= Guardar en una tarjeta SD
    21a	= Guarda todas las fotos de un Álbum\n
         + a la tarjeta SD.
-   21b	= Conectar a DS (1)
-   21c	= Conectar a DS
-   21d	= La conexión con las Ediciones Diamante,\n
+   21b	= Conectar con DS (1)
+   21c	= Conectar con DS
+   21d	= Conectarse con las Ediciones Diamante,\n
 	+ Perla y Platino de Pokémon te permite\n
-	+ retirar y depositar Pokémon en el rancho.
+	+ retirar y depositar Pokémon\n
+	+ en el rancho.
    21e	= Interrumpir conexión
    21f	= Usa esta opción para cancelar\n
 	+ la conexión.
-   220	= Conectar a DS (2)
+   220	= Conectar con DS (2)
    221	= ¡Cuidado!
    222	= Solo puedes sacar los Pokémon que\n
 	+ depositaste en el rancho si usas la\n
@@ -865,20 +865,15 @@
    227	= Usa esta opción para conocer cuántos\n
 	+ Pokémon te han dejado y quién los ha\n
 	+ depositado.\n
-        + También puedes soltar Pokémon y\n
-        + filtrar por tipo o cantidad.
 	+ \n
-	+ Por último, puedes cambiar el Mii\n
+	+ También puedes cambiar el Mii\n
 	+ encargado de cuidar los Pokémon que\n
 	+ proceden de una tarjeta DS.
    228	= 
    229	= 
    22a	= Detalles (2)
    22b	= Pokémon en el rancho
-   22c	= Aquí se encuentran los\n
-	+ Pokémon depositados.\n
-        + \n
-	+ Elige los Pokémon que\n
+   22c	= Elige los Pokémon que\n
 	+ quieres que anden sueltos\n
 	+ por el rancho.
    22d	= ¿Soltar Pokémon?
@@ -926,10 +921,9 @@
 	+ También puedes consultar la\n
 	+ opción Informe del rancho.
    241  =  \n
-        + Puedes cambiar la música\n
-        + Visita cualquier Rancho\n
-        + del Club Mírame que ya hayas\n
-        + visto cuando te apetezca.
+        + Cambia la música o\n
+        + visita cualquier Rancho del\n
+        + Club Mírame ya visto.\n
    242	= 
    243	= Pokémon buscados (1)
    244	= Pokémon buscados
@@ -951,33 +945,34 @@
 	+ y consejos para capturar los\n
 	+ Pokémon buscados.
    24b  = Cambiar de edición
-   24c  = Pulsa este botón para cambiar\n
-        + entre pistas para Diamante, Perla\n
-        + o Platino.
+   24c  = Pulsa este botón para\n
+        + elegir entre pistas de\n
+        + Diamante, Perla o Platino.
    24d	= Informe del rancho
    24e	= Informe del rancho
    24f	= Aquí puedes consultar la situación\n
 	+ actual del rancho.
    250	= 
    251	= 
-   252  = Música de hoy (1)
-   253	= Música de hoy
-   254	= Aquí puedes mirar las canciones\n
-	+ que suenan en el Rancho.\n
+   252  = Música (1)
+   253	= Música
+   254	= Aquí puedes ver los nombres\n
+	+ de las canciones del juego.\n
 	+ Pulsa sobre el nombre para\n
 	+ cambiar la música que suena.
    255	= 
    256	= 
-   257	= Música de hoy (2)
+   257	= Música (2)
    258	= Otros
-   259	= Puedes escoger entre\n
-        + varias canciones
-   25a	= (Sin Música)
-   25b	= Detén la música.
+   259	= Hay muchas canciones\n
+        + para escoger, míralas.
+   25a	= Silenciar
+   25b	= Juega sin música
    25c	= Club Mírame
    25d	= Club Mírame
-   25e	= Vuelve a un Rancho\n
-        + del Club Mírame.
+   25e	= Puedes revisitar un\n
+        + Rancho del Club Mírame.\n
+        + si has estado ahí antes.
    25f	= Opciones
    260	= Opciones
    261	= Esta función te permite\n
@@ -1018,7 +1013,7 @@
    274	= Pregunta
    275	= Si deposito un Pokémon de la Edición\n
 	+ Diamante de Pokémon, ¿puedo sacarlo\n
-	+ usando la Edición Perla de Pokémon?
+	+ usando otra Edición de Pokémon?
    276	= Respuesta
    277	= No.\n
 	+ Solo puedes sacar un Pokémon con la\n
@@ -1066,9 +1061,9 @@
    28d	= Pregunta
    28e	= ¿Cómo se desactiva la música?
    28f	= Respuesta
-   290	= Elige (Sin Música) en "Música de hoy"\n
-        + o al empezar el juego, mantén pulsados\n
-	+ \x{e043} y \x{e041}↓. De estos modos, podrás jugar\n
+   290	= Selecciona "Silenciar" en "Música" o
+	+ al empezar el juego, mantén pulsados\n
+	+ \x{e043} y \x{e041}↓. De este modo, podrás jugar\n
 	+ sin música.
    291	= Miis en el rancho (1)
    292	= Escoger Miis
@@ -1110,25 +1105,25 @@
 	+ Si borras los datos guardados, no\n
 	+ podrás retirar ningún Pokémon que\n
 	+ hayas depositado.
-   2a1	= Conectar a DS
+   2a1	= Conectar con DS
    2a2	= 
    2a3	= La conexión con Nintendo DS terminó\n
 	+ antes de poder guardar los datos.\n
 	+ El rancho volverá a la situación en la\n
 	+ que se encontraba la última vez que se\n
 	+ guardaron los datos.
-   2a4	= Conectar a DS
+   2a4	= Conectar con DS
    2a5	= Límite de tarjetas
    2a6	= Puedes guardar Pokémon de hasta\n
 	+ 8 tarjetas DS.
-   2a7	= Conectar a DS
+   2a7	= Conectar con DS
    2a8	= Límite de tarjetas
    2a9	= Si deseas dejar Pokémon de una nueva\n
 	+ tarjeta DS de las Ediciones Diamante,\n
 	+ Perla o Platino de Pokémon,\n
 	+ retira todos los Pokémon que hayas\n
 	+ depositado desde cualquier tarjeta.
-   2aa	= Conectar a DS
+   2aa	= Conectar con DS
    2ab	= No hay Pokédex.
    2ac	= Necesitas una Pokédex para poder\n
 	+ depositar Pokémon en el rancho.
@@ -1189,4 +1184,3 @@
    2c0	= Diamante
    2c1	= Perla
    2c2	= Platino
-

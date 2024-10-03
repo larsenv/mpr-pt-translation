@@ -485,8 +485,10 @@
 	+ una Esc. Corazón cavando en el Subsuelo.
    11d	= LICKITUNG aprenderá Desenrollar tras subir\n
 	+ al nivel 33.
-   11e	= BONSLY aprenderá Mimético tras subir al nivel 17.
-   11f	= MIME JR. aprenderá Mimético tras subir al nivel 18.
+   11e	= BONSLY aprenderá Mimético tras subir\n 
+	+ al nivel 17.
+   11f	= MIME JR. aprenderá Mimético tras subir\n
+	+ al nivel 18.
    120	= Aparecerá al introducir un juego de\n
 	+ Pokémon para Game Boy Advance en la\n
 	+ ranura para cartuchos de tu consola\n
@@ -529,7 +531,7 @@
    133	= Podrás capturar a este Pokémon\n
 	+ si tienes en tu equipo a REGIROCK,\n
 	+ REGICE y REGISTEEL.
-   134	= Morning o Noche
+   134	= Mañana o Noche
    135	= Procura que FEEBAS tenga mucha Belleza\n
 	+ cuando suba de nivel.
    136	= Procura tener un REMORAID en tu equipo\n
