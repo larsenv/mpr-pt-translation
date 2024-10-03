@@ -448,7 +448,7 @@
     fd	= My Pokémon
     fe	= %d
     ff	= Released %d Pokémon.
-   100	= Released %d%ls Pokémon.
+   100	= Released %d Pokémon.
    101	= Previous Page
    102	= Next Page
    103	= Return
