@@ -1260,7 +1260,7 @@ wieder! Tschüss!	wieder! Tschüss!+wieder! Tschüss! wieder! Tschüss!wwieder! 
 	+ Mitgliedern des Pokéschau-\n
 	+ the number has increased by...\n
 	+ %ls tauschen.
-	+ Obtained: %d%ls
+	+ Obtained: %d
    211	= You finally completed your\n
 	+ Pokédex! That's awesome!
    212	= Since you have such skill to\n
@@ -1276,12 +1276,12 @@ wieder! Tschüss!	wieder! Tschüss!+wieder! Tschüss! wieder! Tschüss!wwieder! 
 	+ unserer Ranch!
    155	= Wir haben Gäste auf unserer\n
 	+ Ranch!
-	+ Seen: %d%ls\n
-	+ Obtained: %d%ls
+	+ Seen: %d\n
+	+ Obtained: %d
    216	= Since last time,\n
 	+ the number has increased by...\n
-	+ Seen: %d%ls\n
-	+ Obtained: %d%ls
+	+ Seen: %d\n
+	+ Obtained: %d
    217	= You are one step closer to\n
 	+ completing your Pokédex!\n
 	+ Congratulations!

@@ -464,7 +464,7 @@
     fd	= Mis Pokémon
     fe	= %d
     ff	= Has liberado a %d.
-   100	= Has liberado a %d%ls.
+   100	= Has liberado a %d%.
    101	= Página anterior
    102	= Página siguiente
    103	= Atrás

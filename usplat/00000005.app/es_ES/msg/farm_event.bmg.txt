@@ -1290,8 +1290,8 @@
 	+ Vistos: %d\n
 	+ Capturados: %d
    207  = Veamos tu Pokédex...\n
-	+ Vistos: %d%ls\n
-	+ Capturados: %d%ls
+	+ Vistos: %d\n
+	+ Capturados: %d
    208  = ¡Asombroso! ¡Has capturado\n
 	+ todos y cada uno de los\n
 	+ Pokémon de la Pokédex!
@@ -1323,8 +1323,8 @@
 	+ Capturados: %d
    210  = A ver qué ha pasado desde la\n
 	+ última vez...\n
-	+ Vistos: %d%ls\n
-	+ Capturados: %d%ls
+	+ Vistos: %d\n
+	+ Capturados: %d
    211  = ¡Así se hace! ¡Has capturado\n
 	+ todos y cada uno de los\n
 	+ Pokémon de la Pokédex!\n
@@ -1344,8 +1344,8 @@
 	+ Capturados: %d
    216  = A ver qué ha pasado desde la\n
 	+ última vez...\n
-	+ Vistos: %d%ls\n
-	+ Capturados: %d%ls
+	+ Vistos: %d\n
+	+ Capturados: %d
    217  = Cada vez te queda menos\n
 	+ para completar tu Pokédex...\n
 	+ ¡Enhorabuena!

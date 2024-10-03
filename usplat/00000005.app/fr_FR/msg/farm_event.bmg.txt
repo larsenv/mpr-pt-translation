@@ -1260,7 +1260,7 @@ Eh bien dans ce cas,\n Eh bien dans ce cas,\n Eh bien dans ce cas,\n Eh bien dan
 	+ contre mon %ls?
 	+ the number has increased by...\n
    168	= Merci d'avoir bien voulu\n
-	+ Obtained: %d%ls
+	+ Obtained: %d
    211	= You finally completed your\n
 	+ Pokédex! That's awesome!
    212	= Since you have such skill to\n
@@ -1276,12 +1276,12 @@ Eh bien dans ce cas,\n Eh bien dans ce cas,\n Eh bien dans ce cas,\n Eh bien dan
 	+ the Pokédex!
    215	= Since last time,\n
 	+ the number has increased by...\n
-	+ Seen: %d%ls\n
-	+ Obtained: %d%ls
+	+ Seen: %d\n
+	+ Obtained: %d
    216	= Since last time,\n
 	+ the number has increased by...\n
-	+ Seen: %d%ls\n
-	+ Obtained: %d%ls
+	+ Seen: %d\n
+	+ Obtained: %d
    217	= You are one step closer to\n
 	+ completing your Pokédex!\n
 	+ Congratulations!

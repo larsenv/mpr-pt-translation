@@ -446,7 +446,7 @@
     fd	= Stored Pokémon
     fe	= %d
     ff	= %d stored.
-   100	= %d%ls stored.
+   100	= %d stored.
    101	= Previous Page
    102	= Next Page
    103	= Return
