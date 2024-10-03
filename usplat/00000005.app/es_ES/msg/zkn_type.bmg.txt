@@ -541,4 +541,3 @@
    1ec	= Pokémon Gratitud
    1ed	= Pokémon Alfa
 
-

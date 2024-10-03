@@ -1190,4 +1190,3 @@
    2c1	= Perla
    2c2	= Platino
 
-

@@ -360,7 +360,7 @@
     e3	= Johto
     e4	= Hoenn
     e5	= Sinnoh
-    e6	= ----------
+    e6	= ----
     e7	= Tierra Lejana
     e8	= Viajero
     e9	= Quinoa

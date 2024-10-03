@@ -515,4 +515,3 @@
    1d2	= Vien. Aciago
    1d3	= Golpe Umbrío
 
-
