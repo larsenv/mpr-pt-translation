@@ -759,7 +759,7 @@
 	+ Es la temática de hoy.
    127	= "Tipo Electrico"\n
 	+ Es la temática de hoy.
-   128	"Tipo Psíquico"\n
+   128	= "Tipo Psíquico"\n
 	+ Es la temática de hoy.
    129	= "Tipo Hielo"\n
 	+ Es la temática de hoy.
