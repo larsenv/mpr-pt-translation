@@ -187,7 +187,7 @@
     67	= Se ha guardado la foto en\n
 	+ la tarjeta SD con el nombre\n
 	+ %2$.4s%3$04d.JPG en la\n
-	+ carpeta ¥DCIM¥%03dNIN01.
+	+ carpeta \\DCIM\\%03dNIN01.
     68	= Noticias
     69	= Borrar todas las fotos de\n
 	+ la tarjeta SD
@@ -245,7 +245,7 @@
 	+ álbum a la tarjeta SD.
     7f	= ¿Quieres guardar todo?
     80	= Se han guardado todas las fotos\n
-	+ en la carpeta ¥DCIM¥%03dNIN01\n
+	+ en la carpeta \\DCIM\\%03dNIN01\n
 	+ dentro de la tarjeta SD.
     81	= ¿Borrar todas las fotos desprotegidas?
     82	= ¿De verdad quieres borrar todo?\n
@@ -393,8 +393,8 @@
 	+ %d\n
 	+ %ls\n
 	+ ----
-    c0	= Alejar
-    c1	= Acercar
+    c0	= 
+    c1	= 
     c2	= Informe del rancho
     c3	= Tablón de anuncios
     c4	= Registros
@@ -464,7 +464,7 @@
     fd	= Mis Pokémon
     fe	= %d
     ff	= Has liberado a %d.
-   100	= Has liberado a %d%.
+   100	= Has liberado a %d.
    101	= Página anterior
    102	= Página siguiente
    103	= Atrás
@@ -841,10 +841,10 @@
         + a la tarjeta SD.
    21b	= Conectar con DS (1)
    21c	= Conectar con DS
-   21d	= Conectarse con las Ediciones Diamante,\n
-	+ Perla y Platino de Pokémon te permite\n
-	+ retirar y depositar Pokémon\n
-	+ en el rancho.
+   21d	= La conexión con las Ediciones\n
+	+ Diamante, Perla y Platino de\n
+	+ Pokémon te permite retirar y\n
+	+ depositar Pokémon en el rancho.
    21e	= Interrumpir conexión
    21f	= Usa esta opción para cancelar\n
 	+ la conexión.
@@ -877,8 +877,8 @@
 	+ quieres que anden sueltos\n
 	+ por el rancho.
    22d	= ¿Soltar Pokémon?
-   22e	= Elige que Pokémon quieres\n
-	+ que ande suelto por el Rancho.\n
+   22e	= Elige los Pokémon que\n
+	+ andan sueltos por el Rancho.\n
 	+ Puedes filtrar por tipo o\n
 	+ cantidad.
    22f	= Detalles (3)
@@ -1061,7 +1061,7 @@
    28d	= Pregunta
    28e	= ¿Cómo se desactiva la música?
    28f	= Respuesta
-   290	= Selecciona "Silenciar" en "Música" o
+   290	= Selecciona "Silenciar" en "Música" o\n
 	+ al empezar el juego, mantén pulsados\n
 	+ \x{e043} y \x{e041}↓. De este modo, podrás jugar\n
 	+ sin música.

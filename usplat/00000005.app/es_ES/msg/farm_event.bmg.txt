@@ -989,8 +989,8 @@
 	+ en la parte superior izquierda\n
 	+ de la pantalla y pulsa \x{e042}.
    195	= Pues venga, ¡a disfrutar!
-   196	= %ls ha venido\n
-	+ del Rancho %ls\n
+   196	= %2$ls ha venido\n
+	+ del Rancho %1$ls\n
 	+ a visitarnos.
    197	= ¡Hola! He traído una foto del \n
 	+ Rancho %ls.
@@ -1001,8 +1001,8 @@
 	+ del Rancho\n
 	+ %ls!
    19a  = ¡¿Qué tal?!\n
-	+ Soy %ls, del\n
-	+ Rancho %ls.
+	+ Soy %2$ls, del\n
+	+ Rancho %1$ls.
    19b	= Si tienes un rato, ¿por qué no\n
 	+ te vienes a ver el Rancho\n
 	+ %ls?
@@ -1190,19 +1190,19 @@
    1e4	= Cuida bien de\n
 	+ %{}, ¿vale?
    1e5	= ¿Eh? Oye... Pues parece que\n
-	+ %{} estaba\n
+	+ %2${} estaba\n
 	+ buscando precisamente un\n
-	+ %{}.
+	+ %1${}.
    1e6	= ¿Quieres intercambiar tu\n
-	+ %{} y obtener\n
-	+ el %{} de\n
-	+ %{}?
-   1e7	= El %{} de\n
-	+ %{} tiene este\n
+	+ %1${} y obtener\n
+	+ el %3${} de\n
+	+ %2${}?
+   1e7	= El %2${} de\n
+	+ %1${} tiene este\n
 	+ aspecto.
    1e8	= Ah... Bueno, vale.\n
-	+ Pero %{} tiene\n
-	+ un %{} muy\n
+	+ Pero %1${} tiene\n
+	+ un %2${} muy\n
 	+ bonito, ¿no es verdad?
    1e9	= ¡%ls\n
 	+ se ha alegrado muchísimo!\n
