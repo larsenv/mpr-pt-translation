@@ -546,16 +546,13 @@
     cd	= Cuando el rancho esté lleno,\n
 	+ haré que mis Pokémon se\n
 	+ queden en el establo.
-    ce	= Así no tendrás problemas para\n
-	+ tener 1000 Pokémon. Si vas a\n
-	+ traer muchos, es esencial tener\n
-	+ espacio y no hacinarlos.
+    ce	= 
     cf	= No te preocupes por mis\n
 	+ Pokémon. ¡Sigue trayendo\n
 	+ todos los que quieras!
     d0	= ¡Genial!\n
 	+ ¡El rancho ha alcanzado el nivel\n
-	+ máximo (%d)! ¡Felicidades!
+	+ (%d)! ¡Felicidades!
     d1	= Mi sueño ha sido desde siempre\n
 	+ tener un rancho lleno hasta\n
 	+ arriba de Pokémon...
@@ -891,7 +888,7 @@
 	+ Es la temática de hoy.
    168	= "Tipo Eléctrico"\n
 	+ Es la temática de hoy.
-   169	"Tipo Psíquico"\n
+   169	= "Tipo Psíquico"\n
 	+ Es la temática de hoy.
    16a	= "Tipo Hielo"\n
 	+ Es la temática de hoy.
@@ -966,7 +963,7 @@
    18d	= "Cantarín"\n
 	+ Es la temática de hoy.
    18e	= "Aromático"\n
-	+ is today's ranch theme.
+	+ Es la temática de hoy.
    18f	= "Raro"\n
 	+ Es la temática de hoy.
    190	= Este es mi rancho... Es la niña\n
@@ -1491,17 +1488,18 @@
         + ¡Cuánto tiempo sin verte!
    235  = Antes de regresar al Rancho,\n
         + ¿tienes un momento?\n
-        + Hay algo que quiero decirte.
-   236  = Escucha bien.\n
+        + ¡Tengo algo que decirte!
+   236  = ¡\n
         + ¡El Rancho se ha conectado\n
         + a Pokémon Platino!
    237  = Y además,\n
         + ¡he mejorado el Rancho con\n
         + muchas funciones!
-   238  = Bueno, eso es todo.
+   238  = Aquí tienes los detalles.
    239  = ¡Venga!\n
         + ¡Veamos todas las novedades\n
-        + que hay en el Rancho!
+        + que hay en el Rancho!\n
+        + ¡Qué emoción!
    23a  = ¡Este es nuestro nuevo Rancho!
    23b  = ¡El Rancho ha crecido gracias\n
         + a la conexión con Pokémon\n
