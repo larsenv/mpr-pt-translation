@@ -1527,4 +1527,3 @@
 	+ Pokémon was born before the\n
 	+ universe even existed.
 
-

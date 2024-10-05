@@ -182,7 +182,7 @@
 	+ to an SD Card?
     67	= Saved the picture as\n
 	+ %2$.4s%3$04d.JPG\n
-	+ to folder  ¥DCIM¥%03dNIN01\n
+	+ to folder ¥DCIM¥%03dNIN01\n
 	+ in the SD Card.
     68	= Ranch News
     69	= Delete all pictures on\n
@@ -193,7 +193,7 @@
     6b	= Is it okay to delete all of the\n
 	+ pictures?
     6c	= It is okay to delete\n
-	+ %d pictures?
+	+ %d picture(s)?
     6d	= Are you sure you want to\n
 	+ delete 1 picture?
     6e	= Are you sure you want to\n
@@ -261,7 +261,7 @@
 	+ inserted into the SD Card slot.
     89	= There is not enough available\n
 	+ space on the SD Card.\n
-	+ Create %d blocks of free\n
+	+ Create %d block(s) of free\n
 	+ space to save the data.
     8a	= There is not enough available\n
 	+ space on the SD Card.\n
@@ -998,7 +998,7 @@
    274	= Question
    275	= Can I withdraw Pokémon that I\n
 	+ deposited from Pokémon Diamond\n
-	+ into Pokémon Pearl?
+	+ into Pokémon Pearl?\n
    276	= Answer
    277	= No, you cannot.\n
 	+ You can withdraw Pokémon only to the\n

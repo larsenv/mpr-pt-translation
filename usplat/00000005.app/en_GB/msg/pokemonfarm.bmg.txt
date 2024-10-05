@@ -95,7 +95,7 @@
     21	= \n
 	+ Failed to connect.\n
 	+ Please try again.
-   22	= \n
+    22	= \n
 	+ Failed to connect.\n
 	+ Please try again.
     23	= Would you like to quit\n
@@ -167,80 +167,81 @@
     5b	= Next Picture
     5c	= Previous Picture
     5d	= Delete
-    5e	= Post on the Wii Message Board
-   1ac	= 
+    5e	= Post on the Wii Message\n
+	+ Board
+    5f	= At %ls Ranch
     60	= %2d/%2d
     61	= Post this picture on\n
 	+ the Wii Message Board?
-    5f	= Post this picture on\n
+    62	= The picture is now posted on\n
 	+ the Wii Message Board.
-    60	= The picture is now posted on\n
+    63	= Is it okay to delete this picture?
     64	= The picture was deleted.
     65	= Save to SD Card
     66	= Is it okay to save this picture\n
 	+ to an SD Card?
-    64	= Is it okay to save this picture\n
+    67	= Saved the picture as\n
 	+ %2$.4s%3$04d.JPG\n
-    65	= Saved the picture as\n
-	+ %2$.4s%3$04d.JPG\n
-	+ to folder  ¥DCIM¥%03dNIN01\n
+	+ to folder ¥DCIM¥%03dNIN01\n
+	+ in the SD Card.
+    68	= Ranch News
     69	= Delete all pictures on\n
 	+ SD Card
-    67	= Delete all pictures on\n
+    6a	= This will delete all of the\n
 	+ pictures of My Pokémon Ranch\n
-    68	= This will delete all of the\n
-	+ pictures of My Pokémon Ranch\n
+	+ saved on the SD Card.
+    6b	= Is it okay to delete all of the\n
 	+ pictures?
-    69	= Is it okay to delete all of the\n
+    6c	= It is okay to delete\n
 	+ %d pictures?
     6d	= Are you sure you want to\n
 	+ delete 1 picture?
     6e	= Are you sure you want to\n
 	+ delete all of the pictures?
-    6b	= It is okay to delete\n
+    6f	= Checking the pictures on\n
 	+ the SD Card...
-    6c	= Are you sure you want to\n
-	+ Pokémon Ranch were\n
-    6d	= Checking the pictures on\n
-	+ the SD Card...
-	+ Pokémon Ranch pictures\n
+    70	= No pictures from My\n
 	+ Pokémon Ranch were\n
 	+ found on the SD Card.
+    71	= Deleting all of the My\n
+	+ Pokémon Ranch pictures\n
+	+ saved on the SD Card...
+    72	= Deleting all of the My\n
 	+ Pokémon Ranch pictures\n
 	+ saved on the SD Card...\n
-	+ saved on the SD Card...
-    70	= Deleting all of the My\n
-	+ pictures on the SD Card were\n
-	+ saved on the SD Card...\n
 	+ %d/%d
+    73	= All of the My Pokémon Ranch\n
+	+ pictures on the SD Card were\n
+	+ deleted.
+    74	= Some pictures on the SD Card\n
 	+ could not be deleted
     75	= -Alert-\n
-	+ Picture files are large, and the\n
-    72	= Some pictures on the SD Card\n
-	+ could not be deleted.
-    73	= -Alert-\n
 	+ Picture files are large, and the\n
 	+ message board data fills easily\n
 	+ if you post a number of them.\n
 	+ \fWhen the message board data\n
 	+ is full, the oldest messages will\n
+	+ automatically be deleted.\n
+	+ \fRefer to the Wii Operations\n
+	+ Manual for details.
+    76	= Secure
     77	= Cancel Secure
     78	= You can secure up to 29\n
 	+ pictures.
-    74	= Secure
+    79	= The corrupted pictures\n
 	+ were deleted.
-    76	= You can secure up to 19\n
+    7a	= The corrupted pictures\n
 	+ were deleted.
     7b	= Data was corrupted, and all of\n
 	+ the pictures were deleted.
-    77	= The corrupted pictures\n
+    7c	= Could not load the picture data.
     7d	= Save all pictures to the\n
 	+ SD Card.
     7e	= Save all pictures in the album\n
 	+ to the SD Card.
     7f	= Is it okay to save everything?
     80	= All pictures have been saved\n
-	+ to folder  ¥DCIM¥%03dNIN01\n
+	+ to folder ¥DCIM¥%03dNIN01\n
 	+ in the SD Card.
     81	= Delete all unsecured\n
 	+ pictures?
@@ -251,18 +252,18 @@
     84	= An SD Card is not inserted.
     85	= Cannot write data to an\n
 	+ SD Card. Check the\n
-    79	= Data was corrupted, and all of\n
-	+ the pictures were deleted.
+	+ write-protection switch.
+    86	= An unrecognized card is\n
 	+ inserted into the SD Card slot.
-    7b	= An SD Card is not inserted.
+    87	= The SD Card is corrupted.\n
 	+ Would you like to format it?
-	+ SD Card. Check the\n
+    88	= An unrecognized card is\n
 	+ inserted into the SD Card slot.
     89	= There is not enough available\n
 	+ space on the SD Card.\n
-    7e	= The SD Card is corrupted.\n
+	+ Create %d blocks of free\n
 	+ space to save the data.
-    7f	= An unrecognized card is\n
+    8a	= There is not enough available\n
 	+ space on the SD Card.\n
 	+ Create 1 block of free\n
 	+ space to save the data.
@@ -270,51 +271,51 @@
     8c	= The SD Card could not be read.
     8d	= Saving to the SD Card...\n
 	+ Do not remove the SD Card\n
-	+ Create %d blocks of free\n
-	+ space to save the data.
+	+ or turn off the power.
+    8e	= Could not save the data to\n
 	+ the SD Card.
-	+ space on the SD Card.\n
+    8f	= You cannot save any more\n
 	+ pictures to this SD Card.
-	+ space to save the data.
+    90	= Formatting the SD Card...\n
 	+ Do not remove the SD card\n
-    83	= The SD Card could not be read.
+	+ or turn off the power.
     91	= The SD Card was formatted.
     92	= Could not format the SD Card.
     93	= Formatting was canceled since\n
 	+ the SD Card was removed.
-	+ the SD Card.
+    94	= Deleting was canceled because\n
 	+ the SD Card was removed.
     95	= Formatting was canceled\n
 	+ because the SD Card was\n
-	+ Do not remove the SD card\n
-	+ or turn off the power.
+	+ removed.
+    96	= Deleting was canceled because\n
 	+ the SD Card was removed.
     97	= Saving was canceled because\n
 	+ the SD Card was removed.
     98	= An SD Card read error has\n
 	+ occurred.\n
-	+ the SD Card was removed.
-    8c	= Formatting was canceled\n
+	+ Press RESET and try again.
+    99	= Saving was canceled because\n
 	+ the SD Card was reinserted.
     9a	= Select a Mii to take to the Ranch
     9b	= Now: %d You can choose %d more.
     9c	= Previous Page
     9d	= Next Page
     9e	= Select a Mii to take care of\n
-	+ Pokémon this Trainer deposited.
-	+ the SD Card was removed.
+	+ this Trainer's Pokémon.
+    9f	= Select from\n
 	+ the Ranch
-	+ occurred.\n
+    a0	= Select a\n
 	+ different Mii
-    90	= Select a Mii to take to the Ranch.
+    a1	= The Mii you had at the Ranch\n
 	+ was erased from the Mii\n
-    92	= Previous Page
+	+ Channel
     a2	= The Mii you had at the Ranch\n
 	+ was erased from the Mii\n
 	+ Channel
     a3	= The Caretaker Mii was erased\n
 	+ from the Mii Channel.
-	+ this Trainer's Pokémon.
+    a4	= The Caretaker Mii was erased\n
 	+ from the Mii Channel.
     a5	= Hayley
     a6	= Hayley
@@ -324,59 +325,59 @@
     aa	= Hayley
     ab	= An error has occurred.\n
 	+ Save the data, RESET,\n
-    98	= The Miis you had at the Ranch\n
-	+ were erased from the Mii\n
+	+ and try again.
+    ac	= ERROR CODE: %06d
     ad	= Please wait...
     ae	= Please wait...
     af	= ON
     b0	= OFF
     b1	= When this setting is turned on,\n
 	+ pictures or Ranch-status\n
-    9c	= Hayley
-    9d	= Owner
-    9e	= Randall
-	+ maybe an unexpected guest will\n
-    a0	= Hayley
-    a1	= An error has occurred.\n
-	+ Save the data, RESET,\n
-	+ maybe an unexpected guest\n
-    a2	= ERROR CODE: %06d
-    a3	= Please wait...
-    a4	= Please wait...
-    a5	= ON
-    a6	= OFF
-	+ been restricted. Check the\n
-	+ pictures or Ranch-status\n
 	+ information will be exchanged\n
-	+ is not turned on.\n
-    a8	= When this setting is turned on,\n
+	+ with your Wii Friends.
+    b2	= When this setting is turned on,\n
 	+ maybe an unexpected guest will\n
 	+ visit your Ranch through\n
-	+ \fRegister a Wii Friend under\n
-    a9	= When the setting is turned on,\n
+	+ WiiConnect24?
+    b3	= When the setting is turned on,\n
 	+ maybe an unexpected guest\n
+	+ will visit your Ranch through\n
+	+ WiiConnect24?\n
+	+ (Guests won't visit the Ranch\n
+	+ after a certain period.)
+    b4	= Use of network features have\n
+	+ been restricted. Check the\n
+	+ settings of the Parental Controls.
+    b5	= The WiiConnect24 setting\n
+	+ is not turned on.\n
+	+ Please check the setting\n
+	+ under Wii Options.
+    b6	= No Wii Friends are registered.\n
+	+ \fRegister a Wii Friend under\n
+	+ the Wii Message Board menu.
+    b7	= This service may be terminated\n
 	+ without notice.
-WiiConnect24?\n	WiiConnect24?\n+WiiConnect24?\n WiiConnect24?\nWWiiConnect24?\niWiiConnect24?\niWiiConnect24?\nCWiiConnect24?\noWiiConnect24?\nnWiiConnect24?\nnWiiConnect24?\neWiiConnect24?\ncWiiConnect24?\ntWiiConnect24?\n2WiiConnect24?\n4WiiConnect24?\n?WiiConnect24?\n\WiiConnect24?\nnWiiConnect24?\n
+    b8	= Pokémon Wanted
     b9	= Today's Music
     ba	= Club Look-See
     bb	= ～Full of %{}～
     bc	= ～Full of Eggs～
     bd	= Ranch Level\n
 	+ Max No. of Pkmn\n
-	+ been restricted. Check the\n
-	+ settings of the Parental Controls.
-    ab	= The WiiConnect24 setting\n
-	+ is not turned on.\n
+	+ Max No. of Miis\n
+	+ No. of Pokémon\n
+	+ Next Level
+    be	= %d\n
+	+ %ls\n
 	+ %d\n
-	+ %d\n
-	+ under Wii Options.
+	+ %ls\n
 	+ %d
     bf	= %d\n
+	+ %ls\n
 	+ %d\n
-	+ %d\n
-	+ %d\n
+	+ %ls\n
 	+ ----
-    b0	= ～Full of Eggs～
+    c0	= 
     c1	= 
     c2	= Ranch Info
     c3	= BBS
@@ -385,9 +386,9 @@ WiiConnect24?\n	WiiConnect24?\n+WiiConnect24?\n WiiConnect24?\nWWiiConnect24?\ni
     c6	= Anyone
     c7	= %ls\n
 	+ succeeded!
-	+ %ls\n
+    c8	= By %ls
     c9	= until %ls
-    ca	= Trade with %ls!
+    ca	= Trade for %ls!
     cb	= Choose Music
     cc	= Previous Page
     cd	= Next Page
@@ -426,11 +427,11 @@ WiiConnect24?\n	WiiConnect24?\n+WiiConnect24?\n WiiConnect24?\nWWiiConnect24?\ni
     ed	= %d/%d
     ee	= $1$ $2$, 20$0$\n
 	+ Brought by Hayley.
-    bf	= Tomorrow...
+    ef	= $6$ $7$, 20$5$\n
 	+ A mysterious Egg was received\n
-    c1	= ...is coming!
-    c2	= Focus Lock
-    f0	= No. of Pokémon cared for: %d
+	+ from $8$.\n
+	+ \n
+    f0	= No. of Pokémon cared for: %ls
     f1	= Lv. %d
     f2	= ★ Number of Ribbons obtained: %d
     f3	= New!
@@ -440,59 +441,60 @@ WiiConnect24?\n	WiiConnect24?\n+WiiConnect24?\n WiiConnect24?\nWWiiConnect24?\ni
     f7	= ♂
     f8	= ♀
     f9	= Friends at the Ranch
-    fa	= Pokémon on the Ranch
+    fa	= Pokémon on the\n
+	+ Ranch
     fb	= All
-   137	= Tropical
-    fd	= Stored Pokémon
+    fc	= Favorites
+    fd	= My Pokémon
     fe	= %d
-    ff	= %d stored.
-   100	= %d stored.
+    ff	= Released %d Pokémon.
+   100	= Released %d Pokémon.
    101	= Previous Page
    102	= Next Page
-   103	= Return
+   103	= Back
    104	= Cancel
    105	= Go to a Parade
    106	= Trainer
-   107	= Deposit amount
+   107	= Deposited
    108	= Caretaker
    109	= Parade
    10a	= 
-   10b	= What do you want to store?
+   10b	= Release Pokémon?
    10c	= Default
-   10d	= List by Pokédex order
-   10e	= List by type
-   10f	= List by marking
-   110	= List by body style
+   10d	= Amount
+   10e	= Type
+   10f	= Marking
+   110	= Kind
    111	= %d/%d
-   112	= red
-   113	= blue
-   114	= yellow
-   115	= green
-   116	= black
-   117	= brown
-   118	= purple
-   119	= gray
-   11a	= white
-   11b	= pink
-   11c	= short
-   11d	= tall
-   11e	= light
-   11f	= heavy
-   120	= fiery
-   121	= cold
-   122	= scary
-   123	= fast
-   124	= round
-   125	= flying
-   126	= sturdy
-   127	= focused
-   128	= paralyzing
-   129	= calm
-   12a	= oblivious
-   12b	= stinky
-   12c	= singing
-   12d	= sweet-smelling
-   12e	= rare
+   112	= Red
+   113	= Blue
+   114	= Yellow
+   115	= Green
+   116	= Black
+   117	= Brown
+   118	= Purple
+   119	= Gray
+   11a	= White
+   11b	= Pink
+   11c	= Short
+   11d	= Tall
+   11e	= Light
+   11f	= Heavy
+   120	= Fiery
+   121	= Cold
+   122	= Scary
+   123	= Fast
+   124	= Round
+   125	= Flying
+   126	= Sturdy
+   127	= Focused
+   128	= Paralyzing
+   129	= Calm
+   12a	= Oblivious
+   12b	= Stinky
+   12c	= Singing
+   12d	= Sweet-smelling
+   12e	= Rare
    12f	= Ranch Rumor %02d
    130	= %02d:%ls
    131	= Attention
@@ -564,9 +566,9 @@ WiiConnect24?\n	WiiConnect24?\n+WiiConnect24?\n WiiConnect24?\nWWiiConnect24?\ni
    173	= Nita
    174	= Trevor
    175	= Lucius
-   176	= Munchin
-   177	= Bunny
-   178	= Rita
+   176	= Rita
+   177	= Munchin
+   178	= Bunny
    179	= Flower
    17a	= Water
    17b	= Fire
@@ -593,18 +595,18 @@ WiiConnect24?\n	WiiConnect24?\n+WiiConnect24?\n WiiConnect24?\nWWiiConnect24?\ni
    190	= Horror
    191	= Burmy
    192	= Tropical
-   193  = Toxic Mouth
-   194  = Evolution
-   195  = Underground
-   196  = Mystic
-   197  = Snow Land
-   198  = Wild Bull
-   199  = Wool
-   19a  = Milk Cow
-   19b  = Dragon
-   19c  = Ground
-   19d  = Big Sky
-   19e  = Red
+   193	= Toxic Mouth
+   194	= Evolution
+   195	= Underground
+   196	= Mystic
+   197	= Snow Land
+   198	= Wild Bull
+   199	= Wool
+   19a	= Milk Cow
+   19b	= Dragon
+   19c	= Ground
+   19d	= Big Sky
+   19e	= Red
    19f	= Hungry
    1a0	= Bouncy
    1a1	= © Pokémon/Nintendo.
@@ -621,30 +623,30 @@ WiiConnect24?\n	WiiConnect24?\n+WiiConnect24?\n WiiConnect24?\nWWiiConnect24?\ni
    1ab	= In My Pokémon Ranch,\n
 	+ Miis created in the Mii\n
 	+ Channel are used.
+   1ac	= Create a Mii by selecting the\n
+	+ Mii Channel from the Wii Menu.\n
+	+ Press \x{e042} to return to\n
+	+ the Wii Menu.
+   1ad	= Checking the Wii console's\n
+	+ calendar.
+   1ae	= Calendar: %ls %ls\n
+	+ Is this correct?
+   1af	= Adjust your Wii console's\n
 	+ calendar settings.\n
 	+ Press \x{e042} to go to the\n
-	+ Press \x{e042} to return to\n
-   152	= The calendar has been set\n
+	+ Wii System Settings.
+   1b0	= The calendar has been set\n
 	+ back.
-   153	= Please note: when the time is\n
-   1ae	= Calendar: %ls %ls\n
-	+ game.
-   1af	= Adjust your Wii console's\n
-   155	= 【Music Off】\n
-	+ Press \x{e042} to go to the\n
-	+ Starting the game without\n
-	+ music.
-Press \x{e042} to go to the\n Press \x{e042} to go to the\n Press \x{e042} to go to the\n Press \x{e042} to go to the\n1Press \x{e042} to go to the\n5Press \x{e042} to go to the\n6Press \x{e042} to go to the\n	Press \x{e042} to go to the\n=Press \x{e042} to go to the\n Press \x{e042} to go to the\nPPress \x{e042} to go to the\nrPress \x{e042} to go to the\nePress \x{e042} to go to the\nsPress \x{e042} to go to the\nsPress \x{e042} to go to the\n Press \x{e042} to go to the\n\Press \x{e042} to go to the\nxPress \x{e042} to go to the\n{Press \x{e042} to go to the\nePress \x{e042} to go to the\n0Press \x{e042} to go to the\n4Press \x{e042} to go to the\n2Press \x{e042} to go to the\n}Press \x{e042} to go to the\n Press \x{e042} to go to the\ntPress \x{e042} to go to the\noPress \x{e042} to go to the\n Press \x{e042} to go to the\ngPress \x{e042} to go to the\noPress \x{e042} to go to the\n Press \x{e042} to go to the\ntPress \x{e042} to go to the\noPress \x{e042} to go to the\n Press \x{e042} to go to the\ntPress \x{e042} to go to the\nhPress \x{e042} to go to the\nePress \x{e042} to go to the\n\Press \x{e042} to go to the\nnPress \x{e042} to go to the\n
    1b1	= Please note: when the time is\n
-   157	= Press \x{e042} to go to the\n
+	+ set back, it could affect the\n
 	+ game.
-   158	= Would you like to return to\n
-	+ the Wii Menu?
+   1b2	= Would you like to continue?
+   1b3	= 【Music Off】\n
 	+ \x{e043} and \x{e041}↓ have been pushed.\n
 	+ Starting the game without\n
-   15b	= Erasing deletes stored Pokémon.
-   15c	= Basic Operations (1)
-   15d	= Move the cursor
+	+ music.
+   1b4	= Press the \x{e042} button to\n
+	+ return to the Wii Menu.
    1b5	= Press the \x{e042} button to\n
 	+ return to the Wii Menu.
    1b6	= Return to Wii Menu?
@@ -656,26 +658,26 @@ Press \x{e042} to go to the\n Press \x{e042} to go to the\n Press \x{e042} to go
    1bc	= Use the Wii Remote to move\n
 	+ the cursor.
    1bd	= Focus
-Look This Way (or press \x{e048}) Look This Way (or press \x{e048}) Look This Way (or press \x{e048}) Look This Way (or press \x{e048})1Look This Way (or press \x{e048})6Look This Way (or press \x{e048})4Look This Way (or press \x{e048})	Look This Way (or press \x{e048})=Look This Way (or press \x{e048}) Look This Way (or press \x{e048})LLook This Way (or press \x{e048})oLook This Way (or press \x{e048})oLook This Way (or press \x{e048})kLook This Way (or press \x{e048}) Look This Way (or press \x{e048})TLook This Way (or press \x{e048})hLook This Way (or press \x{e048})iLook This Way (or press \x{e048})sLook This Way (or press \x{e048}) Look This Way (or press \x{e048})WLook This Way (or press \x{e048})aLook This Way (or press \x{e048})yLook This Way (or press \x{e048}) Look This Way (or press \x{e048})(Look This Way (or press \x{e048})oLook This Way (or press \x{e048})rLook This Way (or press \x{e048}) Look This Way (or press \x{e048})pLook This Way (or press \x{e048})rLook This Way (or press \x{e048})eLook This Way (or press \x{e048})sLook This Way (or press \x{e048})sLook This Way (or press \x{e048}) Look This Way (or press \x{e048})\Look This Way (or press \x{e048})xLook This Way (or press \x{e048}){Look This Way (or press \x{e048})eLook This Way (or press \x{e048})0Look This Way (or press \x{e048})4Look This Way (or press \x{e048})8Look This Way (or press \x{e048})}Look This Way (or press \x{e048}))Look This Way (or press \x{e048})
+   1be	= Point at the object you want\n
 	+ to look at and press \x{e042}.
    1bf	= Basic Operations (2)
-   166	= Save
+   1c0	= Take Picture (or press \x{e047})
    1c1	= You can take a picture.\n
 	+ The number shows how many\n
 	+ pictures are remaining.
-	+ \n
-	+ Don't turn off the power or\n
+   1c2	= Look This Way (or press \x{e048})
+   1c3	= Pokémon and Miis direct their\n
 	+ attention to you.
    1c4	= Save
-   169	= 
+   1c5	= Save
    1c6	= Game data will automatically\n
 	+ be saved.\n
 	+ \n
-   16d	= Press this to quit the game.
+	+ Don't turn off the power or\n
 	+ press RESET when you see\n
-   16f	= 
-   170	= Introduction
-   171	= My Pokémon Ranch
+	+ "Saving..." on the screen.
+   1c7	= 
+   1c8	= 
    1c9	= How do I quit?
    1ca	= Return to the Wii Menu
    1cb	= Press this to quit the game.
@@ -686,24 +688,24 @@ Look This Way (or press \x{e048}) Look This Way (or press \x{e048}) Look This Wa
    1d0	= My Pokémon Ranch is a place\n
 	+ where Pokémon and Miis\n
 	+ can interact with each other.\n
-   176	= Focus
-   177	= Find
+	+ \n
+	+ Let's make the Ranch lively by visiting\n
 	+ it every day or migrating Pokémon from\n
-   179	= Look This Way
+	+ Pokémon Diamond, Pearl and Platinum!
    1d1	= 
    1d2	= 
-   1d3	= Platinum Update Information (1)
+   1d3	= Platinum Update Info (1)
    1d4	= Platinum Version Features
-   1d5	= ・My Pokémon Ranch can now connect to\n
-	+ 　Pokémon Platinum Version for\n
+   1d5	= ・My Pokémon Ranch can now connect\n
+	+ 　to Pokémon Platinum Version for\n
 	+ 　the Nintendo DS.\n
 	+ \n
-	+ ・As the Ranch expands,\n
-	+  you can keep up to 1,500 Pokémon.\n
-   1d6	= Platinum Update Information (2)
+	+ ・As the Ranch expands, you can\n
+	+ 　keep up to 1,500 Pokémon.\n
+   1d6	= Platinum Update Info (2)
    1d7	= "There are new things to try!"
    1d8	= ・More options have been added\n
-    + to the menu.\n
+    + 　to the menu.\n
 	+ \n
 	+ ・You can now save up to\n
 	+ 　30 pictures.\n
@@ -728,95 +730,95 @@ Look This Way (or press \x{e048}) Look This Way (or press \x{e048}) Look This Wa
    1e6	= You can find Pokémon, Miis,\n
 	+ and Toys using the \x{e041}.\n
 	+ \n
-	+ Pokémon or Mii, you can\n
+	+ ↑↓: One by One\n
 	+ ←→: Previous or Next
-	+ \n
-	+ When the Focus Lock is on\n
+   1e7	= 
+   1e8	= 
    1e9	= Focus Lock
    1ea	= Focus Lock
    1eb	= By pressing \x{e042} on a\n
 	+ Pokémon or Mii, you can\n
 	+ set the Focus Lock.\n
-Free Mode Free Mode Free Mode Free Mode1Free Mode8Free ModebFree Mode	Free Mode=Free Mode Free ModeFFree ModerFree ModeeFree ModeeFree Mode Free ModeMFree ModeoFree ModedFree ModeeFree Mode
-This mode allows you to view the\n This mode allows you to view the\n This mode allows you to view the\n This mode allows you to view the\n1This mode allows you to view the\n8This mode allows you to view the\ncThis mode allows you to view the\n	This mode allows you to view the\n=This mode allows you to view the\n This mode allows you to view the\nTThis mode allows you to view the\nhThis mode allows you to view the\niThis mode allows you to view the\nsThis mode allows you to view the\n This mode allows you to view the\nmThis mode allows you to view the\noThis mode allows you to view the\ndThis mode allows you to view the\neThis mode allows you to view the\n This mode allows you to view the\naThis mode allows you to view the\nlThis mode allows you to view the\nlThis mode allows you to view the\noThis mode allows you to view the\nwThis mode allows you to view the\nsThis mode allows you to view the\n This mode allows you to view the\nyThis mode allows you to view the\noThis mode allows you to view the\nuThis mode allows you to view the\n This mode allows you to view the\ntThis mode allows you to view the\noThis mode allows you to view the\n This mode allows you to view the\nvThis mode allows you to view the\niThis mode allows you to view the\neThis mode allows you to view the\nwThis mode allows you to view the\n This mode allows you to view the\ntThis mode allows you to view the\nhThis mode allows you to view the\neThis mode allows you to view the\n\This mode allows you to view the\nnThis mode allows you to view the\n
+	+ \n
+	+ When the Focus Lock is on\n
 	+ a Pokémon or Mii, your\n
-	+ by reaching a certain Ranch level.
-   18d	= Auto Mode
-   18e	= This mode automatically\n
+	+ view is locked on it.
+   1ec	= 
+   1ed	= 
    1ee	= Modes
    1ef	= Free Mode
    1f0	= This mode allows you to view the\n
 	+ Ranch freely. It becomes available\n
 	+ by reaching a certain Ranch level.
-	+ \x{e043} + \x{e058} : Scroll\n
-\x{e045} : Zoom In\n	\x{e045} : Zoom In\n+\x{e045} : Zoom In\n \x{e045} : Zoom In\n\\x{e045} : Zoom In\nx\x{e045} : Zoom In\n{\x{e045} : Zoom In\ne\x{e045} : Zoom In\n0\x{e045} : Zoom In\n4\x{e045} : Zoom In\n5\x{e045} : Zoom In\n}\x{e045} : Zoom In\n \x{e045} : Zoom In\n:\x{e045} : Zoom In\n \x{e045} : Zoom In\nZ\x{e045} : Zoom In\no\x{e045} : Zoom In\no\x{e045} : Zoom In\nm\x{e045} : Zoom In\n \x{e045} : Zoom In\nI\x{e045} : Zoom In\nn\x{e045} : Zoom In\n\\x{e045} : Zoom In\nn\x{e045} : Zoom In\n
+   1f1	= Auto Mode
+   1f2	= This mode automatically\n
 	+ changes which Pokémon\n
 	+ or Mii is focused on.
-   193	= 
-   194	= Nunchuk Controller
+   1f3	= Free Mode
+   1f4	= Free Mode enables you to...
    1f5	= \x{e042} + \x{e043} : Grab\n
 	+ \x{e043} + \x{e058} : Scroll\n
 	+ \x{e045} : Zoom In\n
-	+ Ranch.
-   197	= How to use the Nunchuk
-   198	= \x{e049} : Change the Camera Angle\n
+	+ \x{e046} : Zoom Out
+   1f6	= 
+   1f7	= 
    1f8	= Nunchuk Controller
    1f9	= In Free Mode...
    1fa	= By using the Nunchuk in Free Mode,\n
 	+ you can more freely view the\n
 	+ Ranch.
-	+ pictures remaining. When it reaches\n
-zero and you take a picture, the\n	zero and you take a picture, the\n+zero and you take a picture, the\n zero and you take a picture, the\nzzero and you take a picture, the\nezero and you take a picture, the\nrzero and you take a picture, the\nozero and you take a picture, the\n zero and you take a picture, the\nazero and you take a picture, the\nnzero and you take a picture, the\ndzero and you take a picture, the\n zero and you take a picture, the\nyzero and you take a picture, the\nozero and you take a picture, the\nuzero and you take a picture, the\n zero and you take a picture, the\ntzero and you take a picture, the\nazero and you take a picture, the\nkzero and you take a picture, the\nezero and you take a picture, the\n zero and you take a picture, the\nazero and you take a picture, the\n zero and you take a picture, the\npzero and you take a picture, the\nizero and you take a picture, the\nczero and you take a picture, the\ntzero and you take a picture, the\nuzero and you take a picture, the\nrzero and you take a picture, the\nezero and you take a picture, the\n,zero and you take a picture, the\n zero and you take a picture, the\ntzero and you take a picture, the\nhzero and you take a picture, the\nezero and you take a picture, the\n\zero and you take a picture, the\nnzero and you take a picture, the\n
+   1fb	= How to use the Nunchuk
+   1fc	= \x{e049} : Change the Camera Angle\n
 	+ \x{e04a} : Take Picture\n
 	+ \x{e04b} + \x{e049} : Smooth Zoom
-	+ Any pictures you do not wish to have\n
-	+ deleted should be secured on the\n
+   1fd	= Take Picture
+   1fe	= Take Picture (or press \x{e047})
    1ff	= This number represents the number of\n
 	+ pictures remaining. When it reaches\n
 	+ zero and you take a picture, the\n
-   19e	= Album (1)
-   19f	= Album
-   1a0	= You can view all of the pictures youYou can view all of the pictures you\n
-	+ have taken.
-   1a1	= 
-   1a2	= 
-Album (2) Album (2) Album (2) Album (2)1Album (2)aAlbum (2)3Album (2)	Album (2)=Album (2) Album (2)AAlbum (2)lAlbum (2)bAlbum (2)uAlbum (2)mAlbum (2) Album (2)(Album (2)2Album (2))Album (2)
+	+ oldest picture will automatically be\n
+	+ deleted.\n
+	+ Any pictures you do not wish to have\n
+	+ deleted should be secured on the\n
+	+ Album menu.
+   200	= 
+   201	= 
    202	= Album (1)
    203	= Album
    204	= You can view all of the pictures you\n
 	+ have taken.
    205	= 
-	+ from being deleted.
+   206	= 
    207	= Album (2)
    208	= Delete
    209	= You can delete the picture that \n
 	+ is currently displayed.
    20a	= Secure
-	+ those pictures to your Wii\n
+   20b	= You can secure a picture\n
 	+ from being deleted.
    20c	= Album (3)
-	+ When this space fills, the\n
+   20d	= Post on the Wii Message\n
 	+ Board
    20e	= You can post pictures on the\n
 	+ Wii Message Board and send\n
 	+ those pictures to your Wii\n
-   1ae	= Save to SD Card
-You can save pictures to an\n You can save pictures to an\n You can save pictures to an\n You can save pictures to an\n1You can save pictures to an\naYou can save pictures to an\nfYou can save pictures to an\n	You can save pictures to an\n=You can save pictures to an\n You can save pictures to an\nYYou can save pictures to an\noYou can save pictures to an\nuYou can save pictures to an\n You can save pictures to an\ncYou can save pictures to an\naYou can save pictures to an\nnYou can save pictures to an\n You can save pictures to an\nsYou can save pictures to an\naYou can save pictures to an\nvYou can save pictures to an\neYou can save pictures to an\n You can save pictures to an\npYou can save pictures to an\niYou can save pictures to an\ncYou can save pictures to an\ntYou can save pictures to an\nuYou can save pictures to an\nrYou can save pictures to an\neYou can save pictures to an\nsYou can save pictures to an\n You can save pictures to an\ntYou can save pictures to an\noYou can save pictures to an\n You can save pictures to an\naYou can save pictures to an\nnYou can save pictures to an\n\You can save pictures to an\nnYou can save pictures to an\n
-SD Card inserted into the\n	SD Card inserted into the\n+SD Card inserted into the\n SD Card inserted into the\nSSD Card inserted into the\nDSD Card inserted into the\n SD Card inserted into the\nCSD Card inserted into the\naSD Card inserted into the\nrSD Card inserted into the\ndSD Card inserted into the\n SD Card inserted into the\niSD Card inserted into the\nnSD Card inserted into the\nsSD Card inserted into the\neSD Card inserted into the\nrSD Card inserted into the\ntSD Card inserted into the\neSD Card inserted into the\ndSD Card inserted into the\n SD Card inserted into the\niSD Card inserted into the\nnSD Card inserted into the\ntSD Card inserted into the\noSD Card inserted into the\n SD Card inserted into the\ntSD Card inserted into the\nhSD Card inserted into the\neSD Card inserted into the\n\SD Card inserted into the\nnSD Card inserted into the\n
-	+ SD Card slot.
-   1b0	= Delete all of the pictures \n
-	+ on the SD Card
+	+ Friends or view them in\n
+	+ the Photo Channel.\n
+	+ When this space fills, the\n
+	+ oldest files will be deleted.
+   20f	= 
+   210	= 
    211	= Album (4)
    212	= Save to SD Card
    213	= You can save pictures to an\n
 	+ SD Card inserted into the\n
 	+ SD Card slot.
-   1b5	= Connect to DS
-   1b6	= You can deposit Pokémon to and\n
+   214	= Delete all of the pictures \n
+	+ on the SD Card
    215	= You can delete all of the My Pokémon\n
-	+ connecting with Pokémon Diamond\n
+	+ Ranch pictures on your SD Card.
    216	= 
-   1b7	= Cancel Connection
+   217	= 
    218	= Album (5)
    219	= Save to SD Card
    21a	= Save all pictures in the\n
@@ -826,32 +828,32 @@ SD Card inserted into the\n	SD Card inserted into the\n+SD Card inserted into th
    21d	= You can deposit Pokémon to and\n
 	+ withdraw Pokémon from the Ranch by\n
 	+ connecting with Pokémon Diamond,\n
-	+ you used to deposit them.\n
+	+ Pearl and Platinum.
    21e	= Cancel Connection
    21f	= Press this to end the connection.
    220	= Connect to DS (2)
    221	= Warning!
-   222	= You can only withdraw Pokémon that\n
-	+ you deposited into the Ranch from a DS\n
-	+ Game Card to that same Game Card.\n
-   1be	= Deposit Details (1)
-   1bf	= Friends at the Ranch
-	+ You cannot withdraw Pokémon when\n
-	+ Pokémon and how many Pokémon\n
-	+ they have deposited.\n
+   222	= You can only withdraw Pokémon\n
+	+ using the same DS Game Card\n
+	+ you used to deposit them.\n
 	+ \n
-	+ Also, you can change the Caretaker of\n
+	+ -Alert-\n
+	+ You cannot withdraw Pokémon when\n
+	+ you restart the game or delete the save\n
+	+ data of that Game Card.
+   223	= 
+   224	= 
    225	= Deposit Details (1)
    226	= Friends at the Ranch
-   227	= You can check how many Pokémon\n
-	+ are deposited, and who stored them.\n
-	+ You can also sort the Pokémon\n
-   1c4	= Pokémon on the Ranch
-   1c5	= Select whose Pokémon to\n
+   227	= You can check who has deposited\n
+	+ Pokémon and how many Pokémon\n
+	+ they have deposited.\n
+	+ You can also select Pokémon to release\n
+	+ to the ranch by type or amount.\n
 	+ \n
-	+ Also, you can change the Mii\n
-	+ Caretaker for Pokémon deposited\n
-	+ from your Nintendo DS.
+	+ Also, you can change the caretaker of\n
+	+ the Pokémon that were deposited\n
+	+ from the Nintendo DS.
    228	= 
    229	= 
    22a	= Deposit Details (2)
@@ -859,83 +861,84 @@ SD Card inserted into the\n	SD Card inserted into the\n+SD Card inserted into th
    22c	= You can view the Pokémon\n
 	+ you have stored.\n
 	+ This button opens the\n
-	+ "What do you want to store?"\n
-	+ screen.
-   22d	= What do you want to store?
-   22e	= Choose which Pokémon you'd\n
-	+ like to send to the Ranch.\n
-	+ You can select a type or\n
-	+ Pokédex number.
+	+ "Release Pokémon?" screen.\n.
+   22d	= Release Pokémon?
+   22e	= Choose which Pokémon you\n
+	+ want to release to the Ranch.\n
+	+ You can sort by type or\n
+	+ amount.
    22f	= Deposit Details (3)
    230	= Parade
    231	= Pokémon selected from Pokémon\n
 	+ on the Ranch and their Caretakers\n
-	+ Pokémon on the Ranch under the\n
-	+ Deposit Details menu.\n
+	+ march in a parade.
+   232	= Caretaker
    233	= You can change the\n
 	+ Caretaker by selecting the\n
-   1cd	= Favorites (1)
-   1ce	= Favorites
+	+ Mii and pressing \x{e042}.
+   234	= Favorites (1)
    235	= Favorites
    236	= You can mark your favorite Pokémon.\n
 	+ To bring only those Pokémon to the\n
-   1d2	= Favorites (2)
-   1d3	= Add to Favorites
-   1d4	= Point at this and press \x{e042}\n
-	+ to add the Pokémon to\n
+	+ Ranch, select Favorites from\n
+	+ Pokémon on the Ranch under the\n
+	+ Deposit Details menu.\n
+	+ \n
 	+ This feature becomes available when\n
-   1d5	= Remove from Favorites
-   1d6	= Press \x{e042} again to remove\n
+	+ your Ranch reaches a certain level.
+   237	= 
    238	= 
    239	= Favorites (2)
    23a	= Add to Favorites
    23b	= Point at this and press \x{e042}\n
 	+ to add the Pokémon to\n
-	+ \n
-	+ You can also see the Ranch\n
+	+ Favorites.
+   23c	= Remove from Favorites
    23d	= Press \x{e042} again to remove\n
 	+ it from Favorites.
-   1db	= 
+   23e	= BBS
    23f	= BBS
    240	= You can check the Pokémon\n
 	+ Wanted.\n
-	+ to complete your Pokédex in\n
+	+ \n
 	+ You can also see the Ranch\n
-It's done by catching the Wanted\n	It's done by catching the Wanted\n+It's done by catching the Wanted\n It's done by catching the Wanted\nIIt's done by catching the Wanted\ntIt's done by catching the Wanted\n'It's done by catching the Wanted\nsIt's done by catching the Wanted\n It's done by catching the Wanted\ndIt's done by catching the Wanted\noIt's done by catching the Wanted\nnIt's done by catching the Wanted\neIt's done by catching the Wanted\n It's done by catching the Wanted\nbIt's done by catching the Wanted\nyIt's done by catching the Wanted\n It's done by catching the Wanted\ncIt's done by catching the Wanted\naIt's done by catching the Wanted\ntIt's done by catching the Wanted\ncIt's done by catching the Wanted\nhIt's done by catching the Wanted\niIt's done by catching the Wanted\nnIt's done by catching the Wanted\ngIt's done by catching the Wanted\n It's done by catching the Wanted\ntIt's done by catching the Wanted\nhIt's done by catching the Wanted\neIt's done by catching the Wanted\n It's done by catching the Wanted\nWIt's done by catching the Wanted\naIt's done by catching the Wanted\nnIt's done by catching the Wanted\ntIt's done by catching the Wanted\neIt's done by catching the Wanted\ndIt's done by catching the Wanted\n\It's done by catching the Wanted\nnIt's done by catching the Wanted\n
-	+ Pokémon in these games and\n
+	+ Info.
+   241	=  \n
+	+ You can change "Today's Music".\n
 	+ You can revisit a "Club Look-See"\n
 	+ Ranch you've already visited,
    242	= 
    243	= Pokémon Wanted (1)
    244	= Pokémon Wanted
-   245	= Hayley often gives advice on how\n
-	+ to complete your Pokédex in\n
-	+ Pokémon Diamond and Pearl.\n
+   245	= Hayley often gives advice on how to\n
+	+ complete your Pokédex in Pokémon\n
+	+ Diamond, Pearl and Platinum.\n
 	+ It's done by catching the Wanted\n
 	+ Pokémon in these games and\n
-   1e2	= How to catch the Pokémon
-   1e3	= Press \x{e042} on the billboardPress \x{e042} on the billboard\n
-	+ posting to see information\n
+	+ bringing them to the Ranch.\n
+	+ \n
+	+ If you succeed, maybe something\n
 	+ good will happen.
-	+ how to catch it.
-   1e4	= 
+   246	= 
+   247	= 
    248	= Pokémon Wanted (2)
    249	= How to catch the Pokémon
    24a	= Press \x{e042} on the billboard\n
 	+ posting to see information\n
 	+ on the Wanted Pokémon and\n
-   1e9	= 
-   1ea	= 
-   1eb	= Options
-	+ between viewing Pokémon Platinum,\n
-	+ Diamond or Pearl.
+	+ how to catch it.
+   24b	= Switch Versions
+   24c	= Press the button to switch\n
+	+ between viewing Pokémon\n
+	+ Platinum, Diamond, or\n
+	+ Pearl.
    24d	= Ranch Info
    24e	= Ranch Info
    24f	= You can check the current status\n
 	+ of the Ranch.
    250	= 
    251	= 
-   1ee	= 
+   252	= Today's Music (1)
    253	= Today's Music
    254	= You can see the names of the\n
 	+ music heard in the Ranch.\n
@@ -960,20 +963,20 @@ It's done by catching the Wanted\n	It's done by catching the Wanted\n+It's done 
 	+ bring to the Ranch, change\n
 	+ the WiiConnect24 settings,\n
 	+ etc.
-	+ As the Ranch's level gets higher,\n
-	+ this number increases.
-   1f3	= Warning!
+   262	= 
+   263	= 
+   264	= Bring Mii
    265	= Mii Number
    266	= The initial maximum number of Miis\n
 	+ you can bring to the Ranch is five.\n
 	+ As the Ranch's level gets higher,\n
 	+ this number increases.
-	+ status info with your Wii Friends.\n
-	+ Maybe you'll get invited to your\n
-	+ Wii Friends' Ranches?
+   267	= Warning!
+   268	= If you erase a Mii from the Mii Channel,\n
+	+ that Mii disappears from the Ranch.
    269	= Look at My Ranch!
    26a	= When this setting is on...
-	+ Your Ranch data will only be sent to\n
+   26b	= You can exchange pictures or Ranch-\n
 	+ status info with your Wii Friends.\n
 	+ Maybe you'll get invited to your\n
 	+ Wii Friends' Ranches?
@@ -987,7 +990,7 @@ It's done by catching the Wanted\n	It's done by catching the Wanted\n+It's done 
    270	= Maybe an unexpected guest will show\n
 	+ up at the Ranch? You never know!
    271	= Let's set this to ON!
-   272	 The initial setting is OFF.\n
+   272	= The initial setting is OFF.\n
 	+ Your Ranch data will not be sent\n
 	+ without your knowledge, even\n
 	+ when this setting is turned on.
@@ -1044,10 +1047,10 @@ It's done by catching the Wanted\n	It's done by catching the Wanted\n+It's done 
    28d	= Question
    28e	= How do I play without music?
    28f	= Answer
-   290	= Hold down \x{e043} and \x{e041}↓\n
-	+ when you start the game.\n
-	+ Then you can play the game without\n
-	+ music.
+   290	= Select (No Music) from "Today's Music"\n
+	+ under the BBS, or hold down \x{e043} and \x{e041}↓\n
+	+ when you start the game. Then you\n
+	+ can play the game without music.
    291	= Miis at the Ranch (1)
    292	= Select a Mii
    293	= You can bring a Mii to the Ranch by\n
@@ -1070,9 +1073,9 @@ It's done by catching the Wanted\n	It's done by catching the Wanted\n+It's done 
 	+ that Mii will disappear from the Ranch.
    29b	= Connect to DS
    29c	= Warning!
-   29d	= You can only withdraw Pokémon that\n
-	+ you deposited into the Ranch from a DS\n
-	+ Game Card to that same Game Card.\n
+   29d	= You can only withdraw Pokémon\n
+	+ using the same DS Game Card\n
+	+ you used to deposit them.\n
 	+ \n
 	+ -Alert-\n
 	+ You cannot withdraw Pokémon when\n
@@ -1089,9 +1092,9 @@ It's done by catching the Wanted\n	It's done by catching the Wanted\n+It's done 
 	+ Pokémon if the save data is erased.
    2a1	= Connect to DS
    2a2	= 
-   2a3	= The previous Ranch data will be loaded\n
-	+ because you closed the connection with\n
-	+ the Nintendo DS without saving.
+   2a3	= The previous Ranch data will be\n
+	+ loaded because the connection to the\n
+	+ Nintendo DS was lost prior to saving.
    2a4	= Connect to DS
    2a5	= Game Card Limit
    2a6	= You can deposit Pokémon from eight\n
@@ -1164,5 +1167,4 @@ It's done by catching the Wanted\n	It's done by catching the Wanted\n+It's done 
    2c0	= Diamond
    2c1	= Pearl
    2c2	= Platinum
-
 

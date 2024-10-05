@@ -425,7 +425,7 @@
 	+ higher than its Attack, it evolves to\n
 	+ HITMONCHAN. If its Attack and its Defense\n
 	+ are the same, it evolves to HITMONTOP.
-   110	= Fish by using Surf. FEEBAS only appear\n
+   110	= Fish while using Surf. FEEBAS only appear\n
 	+ in four spots. Once you find the right\n
 	+ spot, FEEBAS will appear 50% of the\n
 	+ time. The locations change every day.
@@ -535,5 +535,4 @@
 	+ see Prof. Oak.
    149	= 
    14a	= New!
-
 
