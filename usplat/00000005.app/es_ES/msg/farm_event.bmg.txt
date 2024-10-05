@@ -131,7 +131,7 @@
 	+ en las Ediciones Diamante,\n
 	+ Perla o Platino de Pokémon.
     24	= ¡Así podremos reunir Pokémon\n
-	+ a Nintendo DS?
+	+ mucho más rápido!
     25	= Vamos, que si tienes algún\n
 	+ Pokémon, ¡espero que lo\n
 	+ traigas aquí!
@@ -499,8 +499,7 @@
         + más que suficiente, ¿no?
     ba	= ¡Haz muchos Miis y tráetelos al\n
 	+ rancho!
-    bb	= "unused" line, if you\n
-	+ read this, contact Fillo.
+    bb	= 
     bc  = Además, ¡a partir de ahora\n
 	+ vamos a recibir tres Cajas de\n
 	+ Juegos cada día!
@@ -513,8 +512,7 @@
 	+ especial que sale de un\n
 	+ huevo encontrado junto a\n
 	+ MANAPHY y un Pokémon afín.
-    c0  = "unused" line, if you\n
-        + read this, contact Fillo.
+    c0  = 
     c1	= Se instalará en el rancho,\n
 	+ así que pórtate especialmente\n
 	+ bien, ¿vale?
@@ -580,8 +578,7 @@
 	+ que se dice que contiene el\n
 	+ código genético de todos los\n
 	+ demás Pokémon.
-    d9  = "unused" line, if you\n
-        + read this, contact Fillo.
+    d9  = 
     da	= Lo dejaré en el rancho, cuida\n
 	+ muchísimo de él, ¿vale?
     db	= Ah, ya se me olvidaba...\n
@@ -1242,8 +1239,7 @@
 	+ el huevo de un Pokémon\n
 	+ desconocido! ¡Seguro que me\n
 	+ llevo una grata sorpresa!
-   1f6  = "unused", if you see this,\n
-        + call Fillo.
+   1f6  = 
    1f7  = Si por un casual encuentras un\n
 	+ huevo de Pokémon, ¿me lo\n
 	+ darías a cambio de mi querido\n
