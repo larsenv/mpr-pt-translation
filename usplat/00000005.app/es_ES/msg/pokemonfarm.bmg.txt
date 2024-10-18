@@ -410,16 +410,16 @@
     cd	= Página siguiente
     ce	= Aceptar y volver
     cf	= Otros
-    d0	= Silenciar
-    d1	= ♪Platinum Farm
-    d2	= ♪Soft Sunlight
-    d3	= ♪Leisurely Walk
-    d4	= ♪Connected World
-    d5	= ♪My Dream
-    d6	= ♪Let's Go!
-    d7	= ♪Welcome to the Ranch
-    d8	= ♪My Pokémon Parade
-    d9	= ♪Jigglypuff's Song
+    d0	= (Silenciar)
+    d1	= ♪Granja Platino
+    d2	= ♪Bajo el tibio sol
+    d3	= ♪Paseo plácido
+    d4	= ♪Un mundo conectado
+    d5	= ♪Mi sueño
+    d6	= ♪¡Vamos!
+    d7	= ♪Bienvenido al Rancho
+    d8	= ♪Desfile Pokémon
+    d9	= ♪Canción de Jigglypuff
     da	= Club Mírame
     db	= Página anterior
     dc	= Página siguiente
@@ -477,10 +477,10 @@
    10a	= 
    10b	= Filtrar Pokémon
    10c	= Por defecto
-   10d	= Cantidad
-   10e	= Tipo
-   10f	= Marca
-   110	= Especie
+   10d	= Por cantidad
+   10e	= Por tipo
+   10f	= Por marca
+   110	= Por especie
    111	= %d/%d
    112	= Rojo
    113	= Azul
@@ -1061,7 +1061,7 @@
    28d	= Pregunta
    28e	= ¿Cómo se desactiva la música?
    28f	= Respuesta
-   290	= Selecciona "Silenciar" en "Música" o\n
+   290	= Selecciona "(Silenciar)" en "Música" o\n
 	+ al empezar el juego, mantén pulsados\n
 	+ \x{e043} y \x{e041}↓. De este modo, podrás jugar\n
 	+ sin música.
