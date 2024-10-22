@@ -1484,29 +1484,30 @@
 	+ \f¡Usa a MEW en los combates y\n
 	+ deja a tus amigos estupefactos!
    233  = ¡Hola! Soy yo, Eulalia.
-   234  = ¡Hola! Soy yo, Eulalia\n
+   234  = ¡Hola! Soy yo, Eulalia.\n
         + ¡Cuánto tiempo sin verte!
    235  = Antes de regresar al Rancho,\n
         + ¿tienes un momento?\n
         + ¡Tengo algo que decirte!
-   236  = ¡\n
-        + ¡El Rancho se ha conectado\n
-        + a Pokémon Platino!
+   236  = ¡El Rancho se ha conectado\n
+        + a Pokémon Edición Platino!\n
+        + ¡Increíble!
    237  = Y además,\n
         + ¡he mejorado el Rancho con\n
-        + muchas funciones!
+        + nuevas funciones!
    238  = Aquí tienes los detalles.
    239  = ¡Venga!\n
         + ¡Veamos todas las novedades\n
-        + que hay en el Rancho!\n
-        + ¡Qué emoción!
+        + que esperan en el Rancho!\n
+        + ¡Allá vamos!
    23a  = ¡Este es nuestro nuevo Rancho!
    23b  = ¡El Rancho ha crecido gracias\n
         + a la conexión con Pokémon\n
         + Edición Platino!
-   23c  = Más cosas han cambiado\n
-        + pero no te las he contado.\n
-        + ¡Descúbrelo por tu cuenta!
-   23d  = ¡Gracias por tu ayuda!\n
+   23c  = Aún más cosas han cambiado\n
+        + pero no te las voy a contar.\n
+        + ¡Deberás descubrirlas por\n
+        + tu cuenta!
+   23d  = ¡Gracias por toda tu ayuda!\n
         + ¡Sigamos trabajando\n
         + codo a codo!

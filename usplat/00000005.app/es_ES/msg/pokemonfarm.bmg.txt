@@ -410,16 +410,16 @@
     cd	= Página siguiente
     ce	= Aceptar y volver
     cf	= Otros
-    d0	= Silenciar
-    d1	= ♪Platinum Farm
-    d2	= ♪Soft Sunlight
-    d3	= ♪Leisurely Walk
-    d4	= ♪Connected World
-    d5	= ♪My Dream
-    d6	= ♪Let's Go!
-    d7	= ♪Welcome to the Ranch
-    d8	= ♪My Pokémon Parade
-    d9	= ♪Jigglypuff's Song
+    d0	= (Silenciar)
+    d1	= ♪Granja Platino
+    d2	= ♪Bajo el tibio sol
+    d3	= ♪Paseo plácido
+    d4	= ♪Un mundo conectado
+    d5	= ♪Mi sueño
+    d6	= ♪¡Vamos!
+    d7	= ♪Bienvenido al Rancho
+    d8	= ♪Desfile Pokémon
+    d9	= ♪Canción de Jigglypuff
     da	= Club Mírame
     db	= Página anterior
     dc	= Página siguiente
@@ -475,42 +475,42 @@
    108	= Encargado:
    109	= Desfile
    10a	= 
-   10b	= ¿Liberar a este Pokémon?
+   10b	= Filtrar Pokémon
    10c	= Por defecto
-   10d	= Cantidad
-   10e	= Tipo
-   10f	= Marca
-   110	= Especie
+   10d	= Por cantidad
+   10e	= Por tipo
+   10f	= Por marca
+   110	= Por especie
    111	= %d/%d
-   112	= rojo
-   113	= azul
-   114	= amarillo
-   115	= verde
-   116	= negro
-   117	= marrón
-   118	= violeta
-   119	= gris
-   11a	= blanco
-   11b	= rosa
-   11c	= pequeño
-   11d	= grande
-   11e	= ligero
-   11f	= pesado
-   120	= ígeno
-   121	= gélido
-   122	= terrorífico
-   123	= rapidísimo
-   124	= redondo
-   125	= volador
-   126	= fuerte
-   127	= concentrado
-   128	= paralizante
-   129	= tranquilo
-   12a	= despreocupado
-   12b	= maloliente
-   12c	= cantarín
-   12d	= aromático
-   12e	= raro
+   112	= Rojo
+   113	= Azul
+   114	= Amarillo
+   115	= Verde
+   116	= Negro
+   117	= Marrón
+   118	= Violeta
+   119	= Gris
+   11a	= Blanco
+   11b	= Rosa
+   11c	= Pequeño
+   11d	= Grande
+   11e	= Ligero
+   11f	= Pesado
+   120	= Ígneo
+   121	= Gélido
+   122	= Terrorífico
+   123	= Rapidísimo
+   124	= Redondo
+   125	= Volador
+   126	= Fuerte
+   127	= Enérgico
+   128	= Paralizante
+   129	= Tranquilo
+   12a	= Despreocupado
+   12b	= Maloliente
+   12c	= Cantarín
+   12d	= Aromático
+   12e	= Raro
    12f	= Rumor %02d
    130	= %02d:%ls
    131	= ¡Atención!
@@ -536,7 +536,7 @@
    145	= Empujoncitos
    146	= Baile flor
    147	= Viaje
-   148	= Órbitaje
+   148	= Órbita
    149	= Resurrección
    14a	= Hacia el norte
    14b	= Salto surf
@@ -873,18 +873,18 @@
    229	= 
    22a	= Detalles (2)
    22b	= Pokémon en el rancho
-   22c	= Elige los Pokémon que\n
-	+ quieres que anden sueltos\n
-	+ por el rancho.
-   22d	= ¿Soltar Pokémon?
+   22c	= Puedes ver los Pokémon\n
+	+ que hayas depositado.\n
+	+ Este botón abre el\n
+        + menú de filtros.
+   22d	= Filtrar Pokémon
    22e	= Elige los Pokémon que\n
 	+ andan sueltos por el Rancho.\n
 	+ Puedes filtrar por tipo o\n
 	+ cantidad.
    22f	= Detalles (3)
    230	= Desfile
-   231	= Los Pokémon seleccionados de\n
-	+ entre los que están en el rancho\n
+   231	= Los Pokémon seleccionados\n
 	+ participarán en un desfile junto\n
 	+ a sus Miis cuidadores.
    232	= Mii encargado
@@ -1061,7 +1061,7 @@
    28d	= Pregunta
    28e	= ¿Cómo se desactiva la música?
    28f	= Respuesta
-   290	= Selecciona "Silenciar" en "Música" o\n
+   290	= Selecciona "(Silenciar)" en "Música" o\n
 	+ al empezar el juego, mantén pulsados\n
 	+ \x{e043} y \x{e041}↓. De este modo, podrás jugar\n
 	+ sin música.

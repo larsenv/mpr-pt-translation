@@ -82,7 +82,7 @@
     19	= No hay suficiente espacio\n
         + libre en la memoria de la\n
         + consola Wii para\n
-        + My Pokémon Ranch: Edición Platino.\n
+        + My Pokémon Ranch.\n
         + \fBloques libres necesarios: %d.\n
         + Transfiere datos a una\n
         + tarjeta SD o borra los que\n
@@ -99,7 +99,7 @@
     1b	= No hay suficiente espacio\n
         + libre en la memoria de la\n
         + consola Wii para\n
-        + My Pokémon Ranch: Edición Platino.\n
+        + My Pokémon Ranch.\n
         + \fBloques libres necesarios: 1.\n
         + Transfiere datos a una\n
         + tarjeta SD o borra los que\n
@@ -114,8 +114,8 @@
         + \fde gestión de datos.\n
     1d	= No queda espacio libre\n
         + en la memoria de\n
-        + la consola Wii para.\n
-        + My Pokémon Ranch: Edición Platino\n
+        + la consola Wii para\n
+        + My Pokémon Ranch.\n
 	+ \fTransfiere datos a una\n
         + tarjeta SD o borra los que\n
         + no necesites en la pantalla\n
@@ -154,17 +154,18 @@
         + operaciones de la consola\n
         + Wii para obtener más\n
         + información.\n
-    25	= Se ha producido un error al
-        + intentar acceder a la memoria de
-        + \fla consola Wii. Consulta el manual
-        + de operaciones de la consola Wii
-        + para obtener más información.
+    25	= Se ha producido un error al\n
+        + intentar acceder a la memoria\n
+        + \fde la consola Wii. Consulta el\n
+        + manual de operaciones de la\n
+        + consola Wii para obtener más\n
+        + información.\n
     26	= El programa no pudo iniciar\n
-	+ porque no han podido leer los.\n
-        + datos guardados.
+	+ porque no han podido leer\n
+        + los datos guardados.\n
 	+ Contacta al Soporte Nintendo\n
-	+ de tu zona. Consulta el manual de\n
-        + operaciones de la consola\n
+	+ de tu zona. Consulta el manual\n
+        + de operaciones de la consola\n
         + Wii para obtener más\n
         + información.\n
         + \n
@@ -199,13 +200,14 @@
         + \fmanual de operaciones de\n
         + la consola Wii para obtener\n
         + más información.
-    2c	= WiiConnect24 no está disponible\n
-        + porque no se puede establecer una\n
-        + conexión a internet. Revisa la\n
-        + \fconexión y la configuración de\n
-        + internet. Consulta el manual de\n
-        + \foperaciones de la consola Wii\n
-        + para obtener más información.
+    2c	= WiiConnect24 no está\n
+        + disponible porque no se puede\n
+        + \festablecer una conexión a\n
+        + internet. Revisa la conexión\n
+        + \fy la configuración de\n
+        + internet. Consulta el manual\n
+        + \fde operaciones de la consola\n
+        + Wii para obtener más información.
     2d	= En estos momentos\n
         + WiiConnect24\n
         + no está disponible.\n
