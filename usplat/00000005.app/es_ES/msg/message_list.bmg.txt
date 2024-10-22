@@ -160,21 +160,16 @@
         + manual de operaciones de la\n
         + consola Wii para obtener más\n
         + información.\n
-    26	= El programa no pudo iniciar\n
-	+ porque no han podido leer\n
-        + los datos guardados.\n
-	+ Contacta al Soporte Nintendo\n
-	+ de tu zona. Consulta el manual\n
-        + de operaciones de la consola\n
-        + Wii para obtener más\n
-        + información.\n
-        + \n
-	+ Error %03d%03d.\n
+    26	= No se pueden leer los datos\n
+	+ guardados. El juego no puede\n
+        + iniciar. Contacta al Soporte\n
+	+ Nintendo de tu zona. Consulta\n
+	+ el manual de operaciones de la\n
+        + consola Wii para obtener más\n
+        + información. Error %03d%03d.\n
 	+ \n
-	+ Oprime y mantén el\n
-	+ Botón POWER por cuatro\n
-	+ segundos para apagar\n
-	+ la consola Wii.	
+	+ Pulsa y mantén el Botón POWER\n
+	+ hasta que se apague la consola Wii.	
     27	= No se puede usar\n
         + WiiConnect24 debido a un\n
         + problema de la memoria\n
