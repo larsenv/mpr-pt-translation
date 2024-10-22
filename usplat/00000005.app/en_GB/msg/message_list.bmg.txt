@@ -144,9 +144,8 @@
 	+ The error code is %03d%03d.\n
 	+ \n
 	+ Please press and hold the\n
-	+ POWER Button for at least\n
-	+ four seconds to turn the\n
-	+ console off.	
+	+ POWER Button for at least four\n
+	+ seconds to turn the console off.
     27	= There is a problem with the\n
 	+ Wii system memory, so\n
 	+ WiiConnect24 cannot be\n
@@ -188,7 +187,6 @@
     31	/
     32	= Use of network features has\n
 	+ been restricted.\n
-	+ \n
 	+ \n
 	+ Please check the settings\n
 	+ for Parental Controls under\n
