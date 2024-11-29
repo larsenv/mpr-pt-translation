@@ -391,14 +391,14 @@
     92	= The number of Pokémon at the\n
 	+ Ranch has become %ls!
     93	= The number of Pokémon at the\n
-	+ Ranch has become %d%ls!
+	+ Ranch has become %d!
     94	= Okay. Let's expand the Ranch!\n
 	+ Its construction is expected to\n
 	+ be done on %ls!
     95	= Oh? The number of Pokémon at\n
 	+ the Ranch is already %ls!
     96	= Oh? The number of Pokémon at\n
-	+ the Ranch is already %d%ls!
+	+ the Ranch is already %d!
     97	= Okay.\n
 	+ Let's expand the Ranch again!
     98	= Its construction is expected to\n
@@ -415,7 +415,7 @@
     9d	= So far, I have brought\n
 	+ %ls Pokémon.
     9e	= So far, I have brought\n
-	+ %d%ls Pokémon.
+	+ %d Pokémon.
     9f	= Here are my precious Pokémon.\n
 	+ Please take good care of them!
     a0	= It's my precious Pokémon.\n
@@ -425,7 +425,7 @@
     a2	= Please look after the Pokémon\n
 	+ and the Ranch!
     a3	= Once the number of Pokémon\n
-	+ becomes %d%ls, let's expand\n
+	+ becomes %d, let's expand\n
 	+ the Ranch!
     a4	= Once the number of Pokémon\n
 	+ becomes %ls, let's expand\n
@@ -438,7 +438,7 @@
 	+ becomes %ls, let's expand\n
 	+ the Ranch!
     a8	= Once the number of Pokémon\n
-	+ becomes %d%ls, let's expand\n
+	+ becomes %d, let's expand\n
 	+ the Ranch!
     a9	= ...Oh!?
     aa	= You are familiar now with the\n
@@ -579,7 +579,7 @@
 	+ %ls to %ls !
     e3	= The number of Pokémon you\n
 	+ can keep has increased from\n
-	+ %d%ls to %d%ls ! 
+	+ %d to %d ! 
     e4	= The number of Miis you can\n
 	+ bring has increased from\n
 	+ %d to %d!
@@ -1285,8 +1285,8 @@
 	+ つかまえたかずが %dひき、\n
 	+ ふえたみたいね。
    216	= このまえから\n
-	+ みつけたかずが %d%ls、\n
-	+ つかまえたかずが %d%ls、\n
+	+ みつけたかずが %d、\n
+	+ つかまえたかずが %d、\n
 	+ ふえたみたいね。
    217	= You are one step closer to\n
 	+ completing your Pokédex!\n

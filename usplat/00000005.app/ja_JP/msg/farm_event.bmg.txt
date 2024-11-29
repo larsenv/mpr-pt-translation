@@ -572,7 +572,7 @@
 	+ %ls to %ls!
     e3	= The number of Pokémon you\n
 	+ can keep has increased from\n
-	+ %d%ls to %d%ls!
+	+ %d to %d!
     e4	= The number of Miis you can\n
 	+ bring has increased from\n
 	+ %d to %d!

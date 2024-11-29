@@ -106,10 +106,10 @@
 	+ Nintendo DS et la connexion\n
 	+ a été interrompue.
     25	= %d Pokémon ont rejoint le Ranch.
-    27	= %d%ls Pokémon joined.
+    27	= %d Pokémon joined.
     27	= 
     28	= %d Pokémon ont quitté le Ranch.
-    2a	= %d%ls Pokémon left.
+    2a	= %d Pokémon left.
     2a	= 
     2b	= La connexion à la Nintendo DS\n
 	+ a échoué.\n

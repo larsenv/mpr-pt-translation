@@ -106,10 +106,10 @@
     23	= Ohne Speichern beenden?
     24	= Übertragungsfehler!\n
 	+ Die Verbindung mit dem\n
-    27	= %d%ls Pokémon joined.
+    27	= %d Pokémon joined.
 	+ unterbrochen.
     25	= %d Pokémon sind\n
-    2a	= %d%ls Pokémon left.
+    2a	= %d Pokémon left.
     26	= Ein Pokémon ist auf der Ranch\n
 	+ eingetroffen.
     27	= 

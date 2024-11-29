@@ -106,10 +106,10 @@
 	+ the Nintendo DS was ended.
     25	= %d Pokémon joined.
     26	= 1 Pokémon joined.
-    27	= %d%ls Pokémon joined.
+    27	= %d Pokémon joined.
     28	= %d Pokémon left.
     29	= 1 Pokémon left.
-    2a	= %d%ls Pokémon left.
+    2a	= %d Pokémon left.
     2b	= Failed to complete the\n
 	+ connection to the DS.\n
 	+ \fPlease restart My Pokémon\n

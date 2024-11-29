@@ -110,10 +110,10 @@
 	+ la consola Nintendo DS.
     25	= Han llegado %d Pokémon.
     26	= Ha llegado 1 Pokémon.
-    27	= Han llegado %d%ls Pokémon.
+    27	= Han llegado %d Pokémon.
     28	= Se han ido %d Pokémon.
     29	= Se ha ido 1 Pokémon.
-    2a	= Se han ido %d%ls Pokémon.
+    2a	= Se han ido %d Pokémon.
     2b	= No se ha podido conectar con\n
 	+ la consola Nintendo DS.\n
 	+ \fReinicia My Pokémon Ranch\n

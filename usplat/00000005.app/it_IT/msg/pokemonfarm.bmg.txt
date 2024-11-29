@@ -106,10 +106,10 @@
 	+ comunicazione il collegamento\n
 	+ alla console Nintendo DS\n
 	+ è stato interrotto.
-    27	= %d%ls Pokémon joined.
+    27	= %d Pokémon joined.
     26	= Un nuovo Pokémon al Ranch.
     27	= 
-    2a	= %d%ls Pokémon left.
+    2a	= %d Pokémon left.
 	+ lasciato il Ranch.
     29	= Un Pokémon ha lasciato il Ranch.
     2a	= 
