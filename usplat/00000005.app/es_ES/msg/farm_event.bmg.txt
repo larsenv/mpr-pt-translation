@@ -398,7 +398,7 @@
 	+ traer %ls Pokémon al\n
 	+ rancho...
     93	= ¡Qué bien! Hemos conseguido\n
-	+ traer %d Pokémon al\n
+	+ traer %d%ls Pokémon al\n
 	+ rancho... 
     94	= ¡Hay que ampliar este rancho!\n
 	+ El %ls concluirán las\n
@@ -407,7 +407,7 @@
     95	= Vaya, ¡parece que ya tenemos\n
 	+ %ls Pokémon en el rancho!
     96	= Vaya, ¡parece que ya tenemos\n
-	+ %d Pokémon en el rancho!
+	+ %d%ls Pokémon en el rancho!
     97	= ¡Parece que tendremos que\n
 	+ ampliar el rancho aún más!
     98	= La construcción debería\n
@@ -425,7 +425,7 @@
 	+ rancho ningún Pokémon.
     9d	= Hasta ahora he traído %ls\n
 	+ Pokémon.
-    9e  = Hasta ahora he traído %d\n
+    9e  = Hasta ahora he traído %d%ls\n
 	+ Pokémon.
     9f	= Estos son mis queridísimos\n
         + Pokémon. ¡Cuídamelos bien!
@@ -439,7 +439,7 @@
     a3	= En cuanto consigamos %ls\n
 	+ Pokémon, ¡ampliaremos el\n
 	+ rancho!
-    a4	= En cuanto consigamos %d\n
+    a4	= En cuanto consigamos %d%ls\n
 	+ Pokémon, ¡ampliaremos el\n
 	+ rancho!
     a5	= ¡Llenemos el rancho con más\n
@@ -451,7 +451,7 @@
 	+ %ls Pokémon, ¡vamos a\n
 	+ ampliar el rancho!
     a8  = En cuanto consigamos reunir\n
-	+ %d Pokémon, ¡vamos a\n
+	+ %d%ls Pokémon, ¡vamos a\n
 	+ ampliar el rancho!
     a9	= Hum...
     aa	= Parece que te has habituado\n
@@ -599,7 +599,7 @@
 	+ %ls a %ls!
     e3	= ¡El número de Pokémon que\n
 	+ puedes cuidar ha pasado de\n
-	+ %d a %d!
+	+ %d%ls a %d%ls!
     e4	= ¡El número de Miis que puedes\n
 	+ traer al rancho ha pasado de\n
 	+ %d a %d!
@@ -1283,8 +1283,8 @@
 	+ Vistos: %d\n
 	+ Capturados: %d
    207  = Veamos tu Pokédex...\n
-	+ Vistos: %d\n
-	+ Capturados: %d
+	+ Vistos: %d%ls\n
+	+ Capturados: %d%ls
    208  = ¡Asombroso! ¡Has capturado\n
 	+ todos y cada uno de los\n
 	+ Pokémon de la Pokédex!
@@ -1316,8 +1316,8 @@
 	+ Capturados: %d
    210  = A ver qué ha pasado desde la\n
 	+ última vez...\n
-	+ Vistos: %d\n
-	+ Capturados: %d
+	+ Vistos: %d%ls\n
+	+ Capturados: %d%ls
    211  = ¡Así se hace! ¡Has capturado\n
 	+ todos y cada uno de los\n
 	+ Pokémon de la Pokédex!\n
@@ -1337,8 +1337,8 @@
 	+ Capturados: %d
    216  = A ver qué ha pasado desde la\n
 	+ última vez...\n
-	+ Vistos: %d\n
-	+ Capturados: %d
+	+ Vistos: %d%ls\n
+	+ Capturados: %d%ls
    217  = Cada vez te queda menos\n
 	+ para completar tu Pokédex...\n
 	+ ¡Enhorabuena!
