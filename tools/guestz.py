@@ -349,4 +349,4 @@ with open("talentzz.dat", "wb") as f:
     for value in celebrity.values():
         f.write(value)
 
-subprocess.call(["/usr/bin/python3", "sign_encrypt.py", "-t", "enc", "-in", "talentzz.dat", "-out", "/opt/nwcs/wbm/talent_pt.ja_JP.enc", "-key", "610B782DAD94000572F66AB3AFB6BDEF", "-rsa", "/opt/key/pkmndungeon.pem"])
+subprocess.call(["/usr/bin/python3", "sign_encrypt.py", "-t", "enc", "-in", "talentzz.dat", "-out", "/opt/nwcs/wbm/talent_pt.ja_JP.enc", "-key", "610B782DAD94000572F66AB3AFB6BDEF", "-rsa", "/opt/key/ranch.pem"])
