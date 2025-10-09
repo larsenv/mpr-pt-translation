@@ -193,6 +193,8 @@ text = [
             "Thank you." + "\n" +
             "So, let's trade." + "\0",
 
+            # begin letter
+
             "I have to return to" + "\n",
             "the PokéSun Company soon..." + "\n" +
             "Let's meet again on Pokémon Sunday!" + "\n" +
@@ -203,6 +205,8 @@ text = [
             "My Homerun is really strong~!" + "\n" +
             "Please take good care of it!" + "\0",
 
+            # end letter
+
             "Well, actually, I heard an amazing" + "\n" +
             "rumor that if you " + "\n" +
             "gather 8 Fighting Type Pokémon in the new ranch," + "\n" +
@@ -212,9 +216,9 @@ text = [
 
             "I'm going to watch the Pokémon on the ranch for a while." + "\0",
 
-            "Professor Red" + "\0",
+            "Professor Red" + "\0", # name
 
-            "From Professor Red" + "\0",
+            "From Professor Red" + "\0", # name from
         ],
         "ja_JP": [
             "ポケモーニング!" + "\n" +
@@ -230,6 +234,8 @@ text = [
             "ありがとう。" + "\n" +
             "では、こうかんしましょうか。" + "\0",
 
+            # begin letter
+            
             "そろそろ ポケサンカンパニーに " + "\r\n" +
             "かえらなくては……" + "\r\n" +
             "また 「ポケモン☆サンデー」で" + "\r\n" +
@@ -242,6 +248,8 @@ text = [
             "わたしの ホームランは" + "\r\n" +
             "つよいですよ～!" + "\r\n" +
             "ちゃんと かわいがってくださいね!" + "\0",
+
+            # end letter
 
             "いや～、じつはですね、すごいウワサを " + "\n" +
             "みみにしたんですが、" + "
@@ -259,9 +267,9 @@ text = [
             "しばらく ぼくじょうで ポケモンたちを" + "\n" +
             "かんさつすることにするよ。" + "\0",
 
-            "レッドはかせ" + "\0",
+            "レッドはかせ" + "\0", # name
 
-            "レッドはかせより" + "\0",
+            "レッドはかせより" + "\0", # name from
         ],
     },
     {
