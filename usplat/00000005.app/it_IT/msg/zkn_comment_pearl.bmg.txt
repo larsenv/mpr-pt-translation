@@ -1523,8 +1523,5 @@
    1ed	= Nei racconti mitologici si dice che\n
 	+ questo Pokémon sia nato ancor\n
 	+ prima dell'universo.
-   1ed	= It is told in mythology that this\n
-	+ Pokémon was born before the\n
-	+ universe even existed.
 
 

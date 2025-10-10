@@ -64,22 +64,22 @@
 	+ Uovo schiuso.
      4	= $7$ $6$ 20$5$\n
 	+ $8$\n
-	+ Egg obtained.\n
-	+ $1$ $2$, 20$0$\n
+	+ Uovo ottenuto.\n
+	+ $2$ $1$ 20$0$\n
 	+ $4$\n
 	+ Uovo forse schiuso lì.
      5	= $7$ $6$ 20$5$\n
 	+ $8$\n
 	+ Uovo ricevuto.\n
-	+ $1$ $2$, 20$0$\n
+	+ $2$ $1$ 20$0$\n
 	+ $4$\n
-	+ Egg hatched.
+	+ Uovo schiuso.
      6	= $7$ $6$ 20$5$\n
 	+ $8$\n
-	+ Egg received.\n
-	+ $1$ $2$, 20$0$\n
+	+ Uovo ricevuto.\n
+	+ $2$ $1$ 20$0$\n
 	+ $4$\n
-	+ Egg apparently hatched.
+	+ Uovo forse schiuso lì.
      7	= $2$ $1$ 20$0$\n
 	+ $4$\n
 	+ Ottenuto in un'occasione\n
@@ -88,60 +88,60 @@
 	+ $4$\n
 	+ Probabilmente ottenuto\n
 	+ in un'occasione\n
-	+ Lv. $3$.
+	+ speciale al L. $3$.
      9	= $7$ $6$ 20$5$\n
 	+ $8$\n
-	+ Egg obtained.\n
-	+ $1$ $2$, 20$0$\n
+	+ Uovo ottenuto.\n
+	+ $2$ $1$ 20$0$\n
 	+ $4$\n
 	+ Uovo schiuso.\n
 	+ Occasione speciale.
      a	= $7$ $6$ 20$5$\n
 	+ $8$\n
-	+ Egg obtained.\n
-	+ $1$ $2$, 20$0$\n
+	+ Uovo ottenuto.\n
+	+ $2$ $1$ 20$0$\n
 	+ $4$\n
 	+ Uovo forse schiuso lì.\n
-	+ Fateful encounter.
+	+ Occasione speciale.
      b	= $7$ $6$ 20$5$\n
 	+ $8$\n
 	+ Uovo arrivato.\n
-	+ $1$ $2$, 20$0$\n
+	+ $2$ $1$ 20$0$\n
 	+ $4$\n
-	+ Egg hatched.\n
-	+ Fateful encounter.
+	+ Uovo schiuso.\n
+	+ Occasione speciale.
      c	= $7$ $6$ 20$5$\n
 	+ $8$\n
-	+ Egg arrived.\n
-	+ $1$ $2$, 20$0$\n
+	+ Uovo arrivato.\n
+	+ $2$ $1$ 20$0$\n
 	+ $4$\n
-	+ Egg apparently hatched.\n
-	+ Fateful encounter.
+	+ Uovo forse schiuso lì.\n
+	+ Occasione speciale.
      d	= $7$ $6$ 20$5$\n
 	+ $8$\n
-	+ Egg obtained.\n
-	+ $1$ $2$, 20$0$\n
+	+ Uovo ottenuto.\n
+	+ $2$ $1$ 20$0$\n
 	+ $4$\n
-	+ Egg hatched.\n
-	+ Fateful encounter.
+	+ Uovo schiuso.\n
+	+ Occasione speciale.
      e	= $7$ $6$ 20$5$\n
 	+ $8$\n
-	+ Egg obtained.\n
-	+ $1$ $2$, 20$0$\n
+	+ Uovo ottenuto.\n
+	+ $2$ $1$ 20$0$\n
 	+ $4$\n
-	+ Egg apparently hatched.\n
-	+ Fateful encounter.
+	+ Uovo forse schiuso lì.\n
+	+ Occasione speciale.
      f	= $2$ $1$ 20$0$\n
 	+ $4$\n
-	+ Arrived at Lv. $3$.
+	+ Arrivato al L. $3$.
     10	= $7$ $6$ 20$5$\n
 	+ Uovo di Pokémon\n
 	+ misterioso ricevuto da:\n
 	+ $8$.
     11	= $7$ $6$ 20$5$\n
-	+ A mysterious Pokémon\n
+	+ Uovo di Pokémon\n
 	+ misterioso ottenuto a:\n
-	+ $8$.\n
+	+ $8$.
     12	= $7$ $6$ 20$5$\n
 	+ Uovo di Pokémon molto\n
 	+ misterioso ottenuto a:\n
@@ -262,36 +262,36 @@
     81	= Grande Lago
     82	= Ristorante
     83	= Giardino Lotta
-    84	= Battle Frontier
-    85	= Battle Factory
-    86	= Battle Castle
-    87	= Battle Arcade
-    88	= Battle Hall
-    89	= Distortion World
-    8a	= Global Terminal
+    84	= Parco Lotta
+    85	= Azienda Lotta
+    86	= Maniero Lotta
+    87	= Arena Lotta
+    88	= Palco Lotta
+    89	= Mondo Distorto
+    8a	= Centro Globale
     8b	= Villa
-    8c	= Battleground
-    8d	= Rotom's Room
+    8c	= Casa Lotta
+    8d	= Stanza di Rotom
     8e	= T.G. Eterna Bldg
-    8f	= Iron Ruins
-    90	= Iceberg Ruins
-    91	= Rock Peak Ruins
-    92	= Lovely place
+    8f	= Rovine Ferro
+    90	= Rovine Iceberg
+    91	= Rovine Picco
+    92	= Luogo Grazioso
     93	= Pokémon Ranger
-    94	= Faraway place
-    95	= Pokémon Movie
-    96	= Pokémon Movie 06
-    97	= Pokémon Movie 07
-    98	= Pokémon Movie 08
-    99	= Pokémon Movie 09
-    9a	= Pokémon Movie 10
-    9b	= Pokémon Movie 11
-    9c	= Pokémon Movie 12
-    9d	= Pokémon Movie 13
-    9e	= Pokémon Movie 14
-    9f	= Pokémon Movie 15
-    a0	= Pokémon Movie 16
-    a1	= Pokémon Cartoon
+    94	= Luogo Remoto
+    94	= Film Pokémon
+    95	= Film Pokémon 06
+    96	= Film Pokémon 07
+    97	= Film Pokémon 08
+    98	= Film Pokémon 09
+    99	= Film Pokémon 10
+    9a	= Film Pokémon 11
+    9b	= Film Pokémon 12
+    9c	= Film Pokémon 13
+    9d	= Film Pokémon 14
+    9e	= Film Pokémon 15
+    9f	= Film Pokémon 16
+    a1	= Cartone Pokémon
     a2	= Space World
     a3	= Space World 06
     a4	= Space World 07
@@ -328,43 +328,43 @@
     c3	= POKéPARK 14
     c4	= POKéPARK 15
     c5	= POKéPARK 16
-    c6	= Pokémon Center
-    c7	= PC Tokyo
-    c8	= PC Osaka
-    c9	= PC Fukuoka
-    ca	= PC Nagoya
-    cb	= PC Sapporo
-    cc	= PC Yokohama
+    c6	= Centro Pokémon
+    c7	= CP Tokyo
+    c8	= CP Osaka
+    c9	= CP Fukuoka
+    ca	= CP Nagoya
+    cb	= CP Sapporo
+    cc	= CP Yokohama
     cd	= Nintendo World
-    ce	= Pokémon Event
-    cf	= Pokémon Event 06
-    d0	= Pokémon Event 07
-    d1	= Pokémon Event 08
-    d2	= Pokémon Event 09
-    d3	= Pokémon Event 10
-    d4	= Pokémon Event 11
-    d5	= Pokémon Event 12
-    d6	= Pokémon Event 13
-    d7	= Pokémon Event 14
-    d8	= Pokémon Event 15
-    d9	= Pokémon Event 16
-    da	= Wi-Fi Event
-    db	= Wi-Fi Gift
+    ce	= Evento Pokémon
+    cf	= Even. Pokémon 06
+    d0	= Even. Pokémon 07
+    d1	= Even. Pokémon 08
+    d2	= Even. Pokémon 09
+    d3	= Even. Pokémon 10
+    d4	= Even. Pokémon 11
+    d5	= Even. Pokémon 12
+    d6	= Even. Pokémon 13
+    d7	= Even. Pokémon 14
+    d8	= Even. Pokémon 15
+    d9	= Even. Pokémon 16
+    da	= Evento Wi-Fi
+    db	= Dono Wi-Fi
     dc	= Pokémon Fan Club
-    dd	= Event Site
-    de	= Concert Event
-    df	= Day-Care Couple
-    e0	= Link trade
-    e1	= Link trade
+    dd	= Luogo Evento
+    de	= Concerto
+    df	= Coppia Pensione
+    e0	= Scambio in link
+    e1	= Scambio in link
     e2	= Kanto
     e3	= Johto
     e4	= Hoenn
     e5	= Sinnoh
-    e6	= ----
-    e7	= Distant land
-    e8	= Traveling Man
-    e9	= Riley
-    ea	= Cynthia
-    eb	= Mystery Zone
+    e6	= ----------
+    e7	= Terra Lontana
+    e8	= Viaggiatore
+    e9	= Marisio
+    ea	= Camilla
+    eb	= Zona Misteriosa
 
 

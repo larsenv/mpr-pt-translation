@@ -47,48 +47,49 @@
 #------------------------------------------------------------------------------
 
      0	= 
-     1	= Start a Nintendo DS Pokémon\n
-	+ game on the Nintendo DS system\n
+     1	= Avvia un gioco Pokémon di\n
+	+ Quarta Generazione sul tuo\n
 	+ Nintendo DS e seleziona\n
 	+ Collegamento alla console Wii.
      2	= Se questa opzione non appare\n
 	+ nel menu principale, torna allo\n
 	+ schermo del titolo e riprova.
-     3	= Collegamento annullato con il DS.
-     4	= Accettare il DS nel modo di\n
+     3	= Collegamento con il DS annullato.
+     4	= Accettando il DS con l'opzione\n
 	+ "COLLEGATI ALLA CONSOLE Wii".
-     5	= Accettare il DS nel\n
-	+ modo di "Download DS".
-     6	= Commutato al modo di "COLLEGATI ALLA CONSOLE Wii".
-     7	= Commutato al modo di "Download DS".
-     8	= Finto collegare con il DS.
+     5	= Accettando il DS con l'opzione\n
+	+ "Download DS".
+     6	= Modificata l'opzione in "COLLEGATI ALLA CONSOLE Wii".
+     7	= Modificata l'opzione in di "Download DS".
+     8	= Simulazione di connessione con il DS in corso.
      9	= Collegamento alla console\n
-	+ Nintendo DS...
-     a	= [it]Cancelled to accept DS\n
-	+ due to timeout. (60 seconds)
-     b	= (fixme) Download saltato.
-     c	= (fixme) Annullato per trasferire e\n
-	+ finto collegare con la DS.
+	+ Nintendo DS in corso...
+     a	= Collegamento al DS annullato:\n
+	+ tempo limite per la connessione scaduto (60 secondi).
+     b	= Download annullato.
+     c	= Download cancellato, e\n
+	+ simulazione di connessione con il DS in corso.
      d	= Download completato.
+     e	= Download cancellato.
      f	= \n
-     f	= (fixme) \n
-	+ %.3f secondi sono trascorso.
+	+ Tempo trascorso: %.3f secondi.
     10	= Attendi...
     11	= Collegamento alla console\n
 	+ Nintendo DS effettuato.
-    12	= (fixme) Staccando con la DS.
-    13	= (fixme) Staccato con la DS.
+    12	= Disconnessione dal DS in corso...
+    13	= Disconnessione dal DS completata.
     14	= Collegati al DS
     15	= Prova
     16	= Deposita
     17	= Ritira
     18	= Salva
-    19	= (fixme) [Rapporto1]
+    19	= Salvataggio in corso...\n
+        + Non spegnere la console.
     1a	= Dati salvati.
-    1b	= %ls è al Ranch.
-    1c	= Collegamento con l'Allenatore\n
+    1b	= %ls è arrivato al Ranch.
+    1c	= Connesso con l'Allenatore\n
 	+ %ls.
-    1d	= Collegamento con: %ls
+    1d	= Connesso con: %ls
     1e	= Collegamento interrotto.
     20	= \n
 	+ il Ranch.
@@ -96,8 +97,8 @@
 	+ Non è stata trovata nessuna\n
 	+ console Nintendo DS.
    22	= \n
-	+ Failed to connect.\n
-	+ Please try again.
+	+ Tentativo di connessione fallito.\n
+	+ Per favore, riprova.
     22	= \n
 	+ Collegamento non riuscito.\n
     24	= \n
@@ -106,10 +107,10 @@
 	+ comunicazione il collegamento\n
 	+ alla console Nintendo DS\n
 	+ è stato interrotto.
-    27	= %d Pokémon joined.
+    27	= %d%ls Pokémon joined.
     26	= Un nuovo Pokémon al Ranch.
     27	= 
-    2a	= %d Pokémon left.
+    2a	= %d%ls Pokémon left.
 	+ lasciato il Ranch.
     29	= Un Pokémon ha lasciato il Ranch.
     2a	= 
@@ -127,18 +128,18 @@
     35	= Nature:\040
     36	= Mark:\040
     37	= NONE
-    38	= Deposited
+    38	= Depositato
     39	= Pokédex No.
-    3a	= Name
-    3b	= Nickname
-    3c	= Level
-    3d	= Item
-    3e	= HP
-    3f	= Attack
-    40	= Defense
-    41	= Sp. Atk
-    42	= Sp. Def
-    43	= Speed
+    3a	= Nome
+    3b	= Soprannome
+    3c	= Livello
+    3d	= Oggetto
+    3e	= PS
+    3f	= Attacco
+    40	= Difesa
+    41	= Attacco Sp.
+    42	= Difesa Sp.
+    43	= Velocità
     44	= WT
     45	= HT
     46	= Wanted Pokémon:
@@ -153,7 +154,7 @@
     4e	= Help
     4f	= BBS
     50	= Look This Way
-    51	= Options
+    51	= Opzioni
     52	= Free Mode
     53	= Auto Mode
     54	= Deposit\n
@@ -163,40 +164,40 @@
     57	= Bring Mii
     58	= Look at My Ranch!
     59	= Guest
-    5a	= Options
+    5a	= Opzioni
     5b	= Next Picture
     5c	= Previous Picture
-    5d	= Delete
-    5e	= Post on the Wii Message Board
+    5d	= Cancella
+    5e	= Posta sulla Bacheca Wii
    1a0	= Qui puoi vedere tutte le foto\n
     60	= %2d/%2d
-    61	= Post this picture on\n
-	+ the Wii Message Board?
+    61	= Vuoi postare questa foto\n
+	+ sulla Bacheca Wii?
     59	= Foto successiva
-	+ the Wii Message Board.
+	+ la Bacheca Wii.
     5b	= Cancella
-    64	= The picture was deleted.
-    65	= Save to SD Card
-    66	= Is it okay to save this picture\n
-	+ to an SD Card?
+    64	= La foto è stata cancellata.
+    65	= Salva sulla scheda SD
+    66	= Vuoi salvare questa foto\n
+	+ sulla scheda SD?
 	+ foto alla bacheca Wii?
 	+ %2$.4s%3$04d.JPG\n
 	+ bacheca Wii.
     61	= Vuoi davvero cancellare\n
 	+ questa foto?
-    69	= Delete all pictures on\n
-	+ SD Card
+    69	= Cancella tutte le immagini\n
+	+ sulla scheda SD
     64	= Vuoi salvare questa foto\n
-	+ pictures of My Pokémon Ranch\n
+	+ foto di My Pokémon Ranch\n
     65	= Foto salvata come\n
 	+ %2$.4s%3$04d.JPG nella\n
-	+ pictures?
+	+ foto?
 	+ della scheda SD.
-	+ %d pictures?
-    6d	= Are you sure you want to\n
-	+ delete 1 picture?
-    6e	= Are you sure you want to\n
-	+ delete all of the pictures?
+	+ %d foto?
+    6d	= Sei sicuro di voler\n
+	+ cancellare 1 foto?
+    6e	= Sei sicuro di voler\n
+	+ cancellare tutte le foto?
     68	= Cancella tutte le foto di\n
 	+ the SD Card...
 	+ nella scheda SD.
@@ -446,7 +447,7 @@
     fd	= Stored Pokémon
     fe	= %d
     ff	= %d stored.
-   100	= %d stored.
+   100	= %d%ls stored.
    101	= Previous Page
    102	= Next Page
    103	= Return
@@ -1160,9 +1161,9 @@ aumenta.	aumenta.+aumenta. aumenta.aaumenta.uaumenta.maumenta.eaumenta.naumenta.
 	+ language to Italian.
    2be	= Would you like to return\n
 	+ to your Ranch?
-   2bf	= Version
-   2c0	= Diamond
-   2c1	= Pearl
-   2c2	= Platinum
+   2bf	= Versione
+   2c0	= Diamante
+   2c1	= Perla
+   2c2	= Platino
 
 

@@ -1018,9 +1018,9 @@ Ranch %ls!	Ranch %ls!+Ranch %ls! Ranch %ls!RRanch %ls!aRanch %ls!nRanch %ls!cRan
 	+ Ranch %ls!
 	+ Ranch? I heard a great deal\n
 	+ about it!
-   1b7	= My name is %2$ls,\n
+   1b7	= Il mio nome è %2$ls,\n
    128	= Come stai?
-	+ My Member No. is %1$d!
+	+ Il mio membro N° è %1$d!
 	+ appartiene a te e a\n
 	+ Do you know what my favorite\n
 	+ è proprio un bel posto!
@@ -1232,8 +1232,8 @@ Ranch %ls!	Ranch %ls!+Ranch %ls! Ranch %ls!RRanch %ls!aRanch %ls!nRanch %ls!cRan
 	+ Obtained: %d
    207	= According to your Pokédex,\n
 	+ you have...\n
-	+ Seen: %d\n
-	+ Obtained: %d
+	+ Seen: %d%ls\n
+	+ Obtained: %d%ls
    208	= How great! You have collected\n
 	+ all the Pokémon in the Pokédex!
    209	= I thought I could help you to\n
@@ -1259,8 +1259,8 @@ Ranch %ls!	Ranch %ls!+Ranch %ls! Ranch %ls!RRanch %ls!aRanch %ls!nRanch %ls!cRan
 	+ Obtained: %d
    210	= Since last time,\n
 	+ the number has increased by...\n
-	+ Seen: %d\n
-	+ Obtained: %d
+	+ Seen: %d%ls\n
+	+ Obtained: %d%ls
    211	= You finally completed your\n
 	+ Pokédex! That's awesome!
    212	= Since you have such skill to\n
@@ -1276,12 +1276,12 @@ Ranch %ls!	Ranch %ls!+Ranch %ls! Ranch %ls!RRanch %ls!aRanch %ls!nRanch %ls!cRan
 	+ the Pokédex!
    215	= Since last time,\n
 	+ the number has increased by...\n
-	+ Seen: %d\n
-	+ Obtained: %d
+	+ Seen: %d%ls\n
+	+ Obtained: %d%ls
    216	= Since last time,\n
 	+ the number has increased by...\n
-	+ Seen: %d\n
-	+ Obtained: %d
+	+ Seen: %d%ls\n
+	+ Obtained: %d%ls
    217	= You are one step closer to\n
 	+ completing your Pokédex!\n
 	+ Congratulations!

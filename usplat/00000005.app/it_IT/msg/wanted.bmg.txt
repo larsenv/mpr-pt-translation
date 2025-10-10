@@ -64,16 +64,17 @@
 	+ di livello.
      a	= SNEASEL si evolve se sale di livello\n
 	+ mentre tiene un Affilartigli.
-     b	= FEEBAS si evolve salendo di livello.
-     c	= EEVEE si evolve se passa di livello\n
+     b	= FEEBAS si evolve salendo di livello\n
+        + con la statistica di Bellezza molto alta.
+     c	= EEVEE si evolve in LEAFEON se sale di livello\n
 	+ nel Bosco Evopoli.
      d	= MAGNETON si evolve salendo di\n
-	+ in Mt. Coronet.
-     e	= Receive it in Veilstone City.
-     f	= Hatch the Egg Cynthia gave you in\n
-	+ Eterna City.
-    10	= Evolve NINCADA with room\n
-	+ in your party.
+	+ livello sul Monte Corona.
+     e	= Ricevilo a Rupepoli.
+     f	= Schiudi l'uovo che Camilla ti ha dato\n
+	+ a Evopoli.
+    10	= SHEDINJA si ottiene evolvendo NINCADA in\n
+	+ NINJASK con uno spazio in squadra e una Poké Ball nella borsa.
     11	= Evolve by giving an item to\n
 	+ si evolve dandogli uno strumento.
     12	= Evolve when %ls%ls\n
