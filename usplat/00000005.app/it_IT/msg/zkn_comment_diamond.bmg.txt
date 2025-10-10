@@ -1,0 +1,1526 @@
+#BMG  <<<  The first 4 characters '#BMG' are the magic for a BMG text file.
+#     <<<  Don't remove them!
+#
+# Details about BMG text files are available in the Web:
+#  * Syntax and Semantics: https://szs.wiimm.de/doc/bmg/text
+#  * The BMG file format:  https://szs.wiimm.de/r/wiki/BMG
+#
+#
+#------------------------------------------------------------------------------
+
+# The endianness of binary files: 0=big endian (default), 1=little endian.
+# Little endian is only tested for encoding UTF-8 (need examples of analysis).
+@ENDIAN = 0
+
+# If 1, then enable legacy (GameCube) mode for old binary BMG files.
+# If enabled, ENCODING is always CP1252.
+@LEGACY = 0
+
+# Define encoding of BMG: 1=CP1252, 2=UTF-16/be, 3=Shift-JIS, 4=UTF-8
+@ENCODING = 2
+
+# Create »MID1« section: 0=off, 1=on
+@BMG-MID = 0
+
+# Size of each element of section 'INF1' (MKW=8).
+# This setting has impact to attributes and MKW features.
+@INF-SIZE = 0x08
+
+# Default attribute values for this BMG (MKW=[1])
+@DEFAULT-ATTRIBS = [0]
+
+# Use MKW specific color names: 0=off, 1=auto, 2=on
+@COLOR-NAMES = 1
+
+# Use MKW messages and track names: 0=off, 1=auto, 2=on
+@MKW-MESSAGES = 1
+
+#
+#------------------------------------------------------------------------------
+
+# This part defines values for unknown parameters of section headers.
+@UNKNOWN-INF32-0C =    0x50000	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
+@UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
+
+#
+#------------------------------------------------------------------------------
+
+     0	= 
+     1	= Dopo la nascita, cresce traendo\n
+	+ nutrimento dal seme piantato\n
+	+ sul suo dorso.
+     2	= Quando il bocciolo che ha sul dorso\n
+	+ si gonfia, emana un dolce profumo.\n
+	+ È indice dell'imminente fioritura.
+     3	= Dopo la pioggia, il fiore sul suo\n
+	+ dorso emana un profumo più\n
+	+ intenso e attira gli altri Pokémon.
+     4	= La fiamma sulla punta della coda\n
+	+ indica la sua vitalità. Se sta bene,\n
+	+ la fiamma è più ardente.
+     5	= Sui monti rocciosi, sua dimora,\n
+	+ la coda di CHARMELEON brilla\n
+	+ come una stella nella notte.
+     6	= Pare che la temperatura della\n
+	+ fiamma di CHARIZARD aumenti\n
+	+ dopo che ha affrontato dure lotte.
+     7	= Si ritira nel suo guscio e, alla prima\n
+	+ occasione, contrattacca colpendo\n
+	+ il nemico con spruzzi d'acqua.
+     8	= Pare che viva 10000 anni. Ha\n
+	+ la coda ricoperta da una folta\n
+	+ pelliccia, indice di longevità.
+     9	= I getti d'acqua lanciati dai\n
+	+ cannoni sul suo guscio riescono\n
+	+ a perforare persino l'acciaio.
+     a	= Dalle antenne rosse emana un puzzo\n
+	+ che respinge il nemico. Cresce\n
+	+ cambiando più volte la pelle.
+     b	= Ha una corazza dura come l'acciaio\n
+	+ che protegge il suo fragile corpo.\n
+	+ Attende immobile di evolversi.
+     c	= Adora il nettare dei fiori e riesce a\n
+	+ localizzare i campi in cui si trova\n
+	+ anche una minima quantità di polline.
+     d	= Divora ogni giorno una quantità di\n
+	+ foglie pari al suo peso. Respinge i\n
+	+ nemici con l'aculeo sulla testa.
+     e	= Si nasconde dai predatori dietro\n
+	+ le foglie e fra i rami, in attesa\n
+	+ dell'evoluzione.
+     f	= Vola intorno al nemico ad alta\n
+	+ velocità, attacca con i pungiglioni\n
+	+ avvelenati e si allontana rapido.
+    10	= È docile e preferisce evitare i\n
+	+ conflitti. Ma se viene disturbato,\n
+	+ contrattacca ferocemente.
+    11	= Sorvola il suo ampio territorio a\n
+	+ caccia di prede, afferrandole con\n
+	+ i suoi artigli affilati.
+    12	= Sbattendo le ali a più non posso,\n
+	+ PIDGEOT crea un vento tanto\n
+	+ forte da piegare alberi possenti.
+    13	= Un'incredibile vitalità gli permette\n
+	+ di adattarsi a qualsiasi tipo di\n
+	+ habitat. È estremamente cauto.
+    14	= Si affila le zanne in perenne\n
+	+ crescita rosicchiando cose dure.\n
+	+ Riesce a frantumare persino i muri.
+    15	= Sbatte con foga le sue alette per\n
+	+ sollevarsi in volo. Cerca le prede\n
+	+ beccando nell'erba.
+    16	= Le sue ampie ali robuste gli permet-\n
+	+ tono di volare tutto il giorno.\n
+	+ Combatte usando il becco aguzzo.
+    17	= Striscia nell'erba senza fare il\n
+	+ minimo rumore e colpisce alle\n
+	+ spalle le prede ignare del pericolo.
+    18	= Prima paralizza i nemici con il terri-\n
+	+ ficante disegno che ha sul ventre,\n
+	+ poi gli si avvinghia intorno.
+    19	= Vive nelle foreste insieme agli\n
+	+ altri. Immagazzina elettricità\n
+	+ nelle sacche sulle guance.
+    1a	= Diventa aggressivo se accumula\n
+	+ in sé troppa carica elettrica.\n
+	+ Scarica l'elettricità dalla coda.
+    1b	= Vive in zone aride con precipitazioni\n
+	+ minime. Si arrotola come se fosse\n
+	+ una palla per difendersi dai nemici.
+    1c	= Si arrotola come una palla e rotola\n
+	+ sul dorso verso i nemici. Gli aculei\n
+	+ aguzzi provocano gravi danni.
+    1d	= Non ama combattere, ma anche una\n
+	+ sola goccia del veleno che secerne\n
+	+ dagli aculei può essere fatale.
+    1e	= Quando avverte il pericolo, rizza\n
+	+ gli aculei, che fuoriescono più\n
+	+ lentamente di quelli di NIDORINO.
+    1f	= Una robusta armatura ricopre\n
+	+ l'intero corpo. Protegge i propri\n
+	+ cuccioli a costo della vita.
+    20	= Esamina l'ambiente circostante ten-\n
+	+ dendo le orecchie fuori dall'erba.\n
+	+ Si protegge con il corno velenoso.
+    21	= Ha un temperamento violento e\n
+	+ infilza i nemici con il corno, che,\n
+	+ all'impatto, rilascia veleno.
+    22	= Con un solo colpo della potente\n
+	+ coda può abbattere un palo del te-\n
+	+ lefono come se fosse un fiammifero.
+    23	= È molto amato per la sua indole\n
+	+ docile. Si pensa che viva in gruppo\n
+	+ nella quiete delle montagne.
+    24	= Si vedono raramente. Pare che nelle\n
+	+ notti di luna piena vadano a giocare\n
+	+ in prossimità di laghetti sperduti.
+    25	= Controlla palle infuocate. Via via\n
+	+ che cresce, dalle sue sei code\n
+	+ se ne generano delle altre.
+    26	= Si dice che le sue nove code\n
+	+ posseggano un potere magico.\n
+	+ Vive anche 1000 anni.
+    27	= Muove le pupille e comincia a\n
+	+ cantare una ninnananna che fa\n
+	+ addormentare chiunque l'ascolti.
+    28	= Il suo pelo è morbidissimo.\n
+	+ Riesce a gonfiarsi e a ingrandirsi\n
+	+ semplicemente inalando aria.
+    29	= Non ha occhi, ma avverte gli\n
+	+ ostacoli con le onde ultrasoniche\n
+	+ che emette dalla bocca.
+    2a	= Ama il sangue umano e quello dei\n
+	+ Pokémon. Vola nel buio della notte\n
+	+ in cerca di vene da succhiare.
+    2b	= Durante il giorno, pianta i piedi\n
+	+ per terra come se fossero radici.\n
+	+ Di notte cammina seminando.
+    2c	= Il fluido che fuoriesce dalla sua\n
+	+ bocca è così puzzolente che si\n
+	+ sente anche a 2 km di distanza.
+    2d	= I suoi petali sono i più grandi al\n
+	+ mondo. Mentre cammina diffonde\n
+	+ un polline che causa allergie.
+    2e	= Ha sul dorso dei funghi chiamati\n
+	+ tochukaso, che crescono insieme\n
+	+ al PARAS su cui si trovano.
+    2f	= PARASECT è controllato da un fungo\n
+	+ ancora più grosso del suo corpo.\n
+	+ Diffonde spore velenose.
+    30	= I suoi grandi occhi sono in realtà\n
+	+ un insieme di tanti piccoli occhi.\n
+	+ Di notte, è attirato dalla luce.
+    31	= Sbattendo le ali sparge una\n
+	+ polvere velenosa a contatto\n
+	+ con la pelle.
+    32	= Un Pokémon che vive sottoterra.\n
+	+ Poiché è abituato a vivere al buio,\n
+	+ non sopporta la luce solare.
+    33	= Le sue tre teste si muovono a\n
+	+ turno per scavare nel duro suolo\n
+	+ fino ad una profondità di 100 km.
+    34	= È un Pokémon attivo di notte.\n
+	+ Se nota qualcosa di luccicante,\n
+	+ i suoi occhi cominciano a brillare.
+    35	= Un Pokémon molto altezzoso. I fan\n
+	+ parlano spesso delle dimensioni\n
+	+ del gioiello che ha sulla testa.
+    36	= Se la sua costante emicrania\n
+	+ peggiora, inizia ad usare poteri\n
+	+ misteriosi. Ma poi non se lo ricorda.
+    37	= Un Pokémon che vive nei laghi.\n
+	+ Nuota più velocemente di un\n
+	+ campione di nuoto.
+    38	= Vive in colonie sugli alberi. Se uno\n
+	+ si adira, l'intera colonia comincia a\n
+	+ agire violentemente senza motivo.
+    39	= Se lo guardi fisso negli occhi, si\n
+	+ adira. Se corri, s'infuria. Se poi lo\n
+	+ sconfiggi, s'arrabbia ancor di più.
+    3a	= Un Pokémon fedele per natura.\n
+	+ Rimane immobile finché non\n
+	+ riceve ordini dal suo Allenatore.
+    3b	= Con il suo aspetto fiero ed\n
+	+ elegante, è riuscito da tempo\n
+	+ a conquistare i cuori della gente.
+    3c	= La sua pelle è così sottile che si\n
+	+ intravedono gli organi. Cammina a\n
+	+ fatica sulle zampe poco sviluppate.
+    3d	= Il disegno spiraliforme sulla pancia\n
+	+ ondeggia leggermente. Chi lo fissa,\n
+	+ piano piano si assopisce.
+    3e	= Ha dei muscoli tanto sviluppati da\n
+	+ riuscire ad attraversare a nuoto\n
+	+ l'Oceano Pacifico senza fermarsi.
+    3f	= Dorme per 18 ore al giorno.\n
+	+ Anche da sveglio, si teletrasporta\n
+	+ rimanendo seduto.
+    40	= Se lo si avvicina, fa apparire alla\n
+	+ televisione un'ombra inquietante\n
+	+ che porta sfortuna a chi la guarda.
+    41	= La sua incredibile memoria gli\n
+	+ fa ricordare ogni evento fin dalla\n
+	+ nascita. Il suo QI supera 5000.
+    42	= Solleva GRAVELER ripetutamente\n
+	+ per mantenersi forte. Conosce\n
+	+ ogni tipo di arte marziale.
+    43	= La sua incredibile forza può essere\n
+	+ molto pericolosa. Indossa una cin-\n
+	+ tura per tenerla sotto controllo.
+    44	= Tira pugni con le quattro braccia\n
+	+ ad una velocità impressionante.\n
+	+ Scaglia 1000 pugni ogni 2 secondi.
+    45	= Preferisce gli habitat caldi e umidi.\n
+	+ Cattura velocemente le prede \n
+	+ con i suoi rampicanti.
+    46	= Questo Pokémon sembra una pianta.\n
+	+ Cattura le prede con una polvere\n
+	+ tossica.
+    47	= Tiene in bocca un liquido dall'aroma\n
+	+ simile al miele, che in realtà è un\n
+	+ acido altamente corrosivo.
+    48	= Il suo corpo è quasi interamente\n
+	+ composto d'acqua. Emette dei raggi\n
+	+ misteriosi dagli occhi cristallini.
+    49	= Ha 80 tentacoli per intrappolare\n
+	+ la preda e non la rilascia finché il\n
+	+ veleno non l'ha indebolita.
+    4a	= Molti vivono sui sentieri montani\n
+	+ e se ne stanno mezzi infossati nel\n
+	+ terreno ad osservare gli scalatori.
+    4b	= Costruisce la sua tana in fessure\n
+	+ scavate nelle pareti di precipizi e\n
+	+ dirupi scoscesi.
+    4c	= Muta il guscio una volta all'anno. Il\n
+	+ suo corpo duro come la roccia non\n
+	+ è scalfito neanche dalla dinamite.
+    4d	= Un'ora dopo la nascita, gli\n
+	+ crescono criniera e coda, che gli\n
+	+ donano un aspetto solenne.
+    4e	= Galoppa alla velocità di 240 km/h.\n
+	+ Corre come una freccia facendo\n
+	+ ondeggiare la criniera ardente.
+    4f	= Anche se è lento, è abile a pescare\n
+	+ con la coda. Non avverte alcun\n
+	+ dolore se gliela mordono.
+    50	= Non è molto perspicace, ma sembra\n
+	+ aguzzare l'ingegno se lo SHELLDER\n
+	+ che ha sulla coda lo morde.
+    51	= Gli elementi laterali generano onde\n
+	+ magnetiche che lo mantengono in\n
+	+ sospeso. Si nutre d'elettricità.
+    52	= Pokémon formato da tre MAGNEMITE\n
+	+ uniti dalla forza magnetica. Più di\n
+	+ tre creano una tempesta magnetica.
+    53	= Non può vivere senza lo stelo che\n
+	+ tiene con un'ala. Lo difende dagli\n
+	+ attacchi a costo della vita.
+    54	= I suoi due cervelli si comunicano\n
+	+ le emozioni grazie ai poteri\n
+	+ telepatici.
+    55	= Quando DODUO si evolve in questo\n
+	+ strano essere, una delle due teste\n
+	+ si divide a metà. Corre a 60 km/h.
+    56	= Pokémon che vive sugli iceberg.\n
+	+ Nuota spaccando il ghiaccio\n
+	+ con la punta che ha sulla testa.
+    57	= Ha il corpo ricoperto da una\n
+	+ pelliccia bianca che, sulla neve,\n
+	+ lo rende meno visibile ai predatori.
+    58	= Nacque quando il fango di un fiume\n
+	+ sudicio fu esposto ai raggi X della\n
+	+ luna. Vive nella sporcizia.
+    59	= Dal suo corpo filtra un fluido tos-\n
+	+ sico che uccide all'istante piante e\n
+	+ alberi con cui viene a contatto.
+    5a	= Nuota all'indietro aprendo e\n
+	+ chiudendo le due valve. La lingua\n
+	+ è sempre fuori a penzoloni.
+    5b	= Quando lotta si protegge tenendo\n
+	+ la conchiglia chiusa e spara punte\n
+	+ per respingere i nemici.
+    5c	= Il corpo di questo Pokémon è costi-\n
+	+ tuito al 95% da gas che possono ve-\n
+	+ nir spazzati via da venti improvvisi.
+    5d	= Riesce a superare qualsiasi\n
+	+ ostacolo. Si nasconde nei muri\n
+	+ per osservare il nemico.
+    5e	= Si nasconde nell'ombra. Pare che\n
+	+ nei luoghi in cui GENGAR si cela,\n
+	+ la temperatura si abbassi di 5°C.
+    5f	= Si muove sottoterra provocando\n
+	+ scosse e boati. Può raggiungere\n
+	+ anche la velocità di 80 km/h.
+    60	= Riesce ad indovinare cosa sognano\n
+	+ le persone annusandole con il suo\n
+	+ grande naso. Ama i sogni divertenti.
+    61	= Con il suo pendolo fa addormentare\n
+	+ chiunque nel giro di tre secondi,\n
+	+ anche chi si è appena svegliato.
+    62	= Vive in buche scavate sulle spiagge\n
+	+ sabbiose. Le sue chele ricrescono\n
+	+ se si spezzano nella lotta.
+    63	= La chela più grande ha una potenza\n
+	+ di 10000 cavalli, ma è così pesante\n
+	+ che non permette di mirare bene.
+    64	= Sembra una Poké Ball. Toccandolo si\n
+	+ rischia di prendere la scossa e di\n
+	+ farlo esplodere.
+    65	= Quando ha accumulato elettricità\n
+	+ fino quasi a scoppiare, si fa\n
+	+ trasportare dal vento.
+    66	= Queste sei uova comunicano per\n
+	+ telepatia. Si riuniscono subito\n
+	+ anche se vengono divise.
+    67	= Noto come “Giungla in moto”. Se\n
+	+ una testa diventa troppo grande,\n
+	+ cade e si trasforma in EXEGGCUTE.
+    68	= Piange pensando alla madre defunta\n
+	+ e dal teschio che ha in testa pro-\n
+	+ viene un rumore sordo e continuo.
+    69	= Pokémon selvatico che tiene in\n
+	+ mano un osso sin dalla nascita.\n
+	+ Lo usa abilmente come arma.
+    6a	= I suoi arti inferiori si allungano del\n
+	+ doppio, il che sbalordisce i nemici\n
+	+ che lo vedono per la prima volta.
+    6b	= Sferra pugni così potenti da polve-\n
+	+ rizzare persino il cemento. Si ripo-\n
+	+ sa dopo tre minuti di lotta.
+    6c	= Al posto delle mani usa la sua lingua\n
+	+ appiccicosa, lunga il doppio di lui.\n
+	+ Con essa afferra qualsiasi cosa.
+    6d	= Fluttua a mezz'aria grazie ai gas\n
+	+ che ha in corpo. Questi sono male-\n
+	+ odoranti e altamente esplosivi.
+    6e	= Cresce nutrendosi dei gas emanati\n
+	+ dai rifiuti. Anche se rarissimi, ne\n
+	+ hanno trovati in gruppi di tre.
+    6f	= Ha una pelle molto spessa ed è in\n
+	+ grado di abbattere interi edifici.\n
+	+ Non è molto sagace.
+    70	= Si è alzato sulle zampe posteriori\n
+	+ e poi gli si è sviluppato il cervello.\n
+	+ Con il corno perfora la roccia.
+    71	= Si dice che porti felicità.\n
+	+ È molto altruista e condivide\n
+	+ le uova con chi è ferito.
+    72	= È ricoperto di liane blu. Nessuno\n
+	+ ha mai visto il suo volto, poiché è\n
+	+ celato dal groviglio di liane.
+    73	= Tiene il cucciolo nel marsupio che ha\n
+	+ sulla pancia e lo lascia uscire solo\n
+	+ quando non ci sono pericoli.
+    74	= Crea la sua tana all'ombra dei\n
+	+ coralli. Se avverte un pericolo,\n
+	+ spruzza inchiostro nero e fugge.
+    75	= Si difende con gli aculei. Pinne\n
+	+ e ossa sono comunemente usati\n
+	+ nella medicina tradizionale.
+    76	= Quando nuota, la pinna posteriore\n
+	+ sembra un elegante abito da sera.\n
+	+ Ha un aspetto regale.
+    77	= Con il suo corno, perfora le rocce\n
+	+ sul letto dei fiumi per farsi il nido.\n
+	+ Difende le uova a costo della vita.
+    78	= Se il corpo è lacerato, si rigenera\n
+	+ se il nucleo rosso è ancora intat-\n
+	+ to. Il nucleo brilla a mezzanotte.
+    79	= Al centro del corpo ha un nucleo\n
+	+ rosso che diffonde misteriosi\n
+	+ segnali radio nel cielo notturno.
+    7a	= È un esperto di mimica che, con\n
+	+ i gesti, riesce ad innalzare pareti\n
+	+ invisibili che sembrano reali.
+    7b	= È quasi impossibile parare gli\n
+	+ attacchi sferrati dalle sue falci.\n
+	+ Si muove come un ninja.
+    7c	= Le sue grida ricordano il linguaggio\n
+	+ umano, ma è impossibile capire\n
+	+ il significato delle sue parole.
+    7d	= Quando si avvicina alle centrali\n
+	+ per nutrirsi dell'elettricità,\n
+	+ provoca un black-out.
+    7e	= È nato dallo zampillo di un vulcano.\n
+	+ Ha il corpo ricoperto da fiamme\n
+	+ che brillano come i raggi solari.
+    7f	= Afferra la preda con le pinze e non\n
+	+ la molla finché non l'ha tranciata.\n
+	+ Se non ci riesce, la scaglia via.
+    80	= Dopo aver puntato il nemico, lo\n
+	+ carica a testa bassa.\n
+	+ È noto per la sua indole violenta.
+    81	= Si dice che sia il Pokémon più\n
+	+ debole del mondo. Nessuno sa\n
+	+ come abbia fatto a sopravvivere.
+    82	= La sua ira non si placa finché non\n
+	+ ha raso al suolo campi e monti\n
+	+ attorno a sé.
+    83	= Ama attraversare il mare con\n
+	+ persone e Pokémon sul suo dorso.\n
+	+ Capisce il linguaggio umano.
+    84	= Ha la capacità di modificare la sua\n
+	+ struttura cellulare per trasfor-\n
+	+ marsi in qualsiasi cosa veda.
+    85	= Un Pokémon raro che si adatta\n
+	+ agli ambienti più difficili assumendo\n
+	+ diverse forme nell'evoluzione.
+    86	= Si è evoluto per adattarsi alla vita\n
+	+ acquatica. Si può sciogliere\n
+	+ nell'acqua diventando invisibile.
+    87	= Scarica elettricità a 10000 volt e\n
+	+ rizza tutti i peli come se fossero\n
+	+ aghi pungenti.
+    88	= Nel corpo conserva una tasca\n
+	+ ardente. Prima di lottare, la sua\n
+	+ temperatura si innalza a 900°C.
+    89	= Il primo Pokémon al mondo creato\n
+	+ artificialmente. Riesce a muoversi\n
+	+ liberamente nel ciberspazio.
+    8a	= Pokémon rigenerato da un fossile\n
+	+ grazie alla scienza moderna.\n
+	+ Nuotava nei mari ancestrali.
+    8b	= Si pensa che questo Pokémon si\n
+	+ sia estinto perché la sua conchiglia\n
+	+ a spirale è cresciuta troppo.
+    8c	= Si ritiene che vivesse sulle spiagge\n
+	+ 300 milioni di anni fa. È protetto da\n
+	+ una conchiglia robusta.
+    8d	= Pokémon probabilmente giunto sulla\n
+	+ terraferma perché le sue prede si\n
+	+ erano adattate a vivere lì.
+    8e	= Un Pokémon che vagava nei cieli\n
+	+ nell'era dei dinosauri. Le sue zanne\n
+	+ sono affilate come lame.
+    8f	= Il suo stomaco riesce a digerire\n
+	+ qualsiasi tipo di cibo, anche se\n
+	+ marcio o ammuffito.
+    90	= Un Pokémon uccello leggendario.\n
+	+ Riesce a creare bufere di neve\n
+	+ congelando l'umidità dell'aria.
+    91	= Un Pokémon uccello leggendario.\n
+	+ Si dice che viva tra le nubi tempo-\n
+	+ ralesche. Controlla i fulmini.
+    92	= Un Pokémon uccello leggendario.\n
+	+ Si dice che la sua apparizione pre-\n
+	+ annunci l'arrivo della primavera.
+    93	= Detto “Pokémon miraggio” perché\n
+	+ è stato avvistato da pochi. È facile\n
+	+ trovare la sua pelle della muta.
+    94	= Se il suo corpo emana un'aura, il\n
+	+ tempo cambia all'istante. Si dice\n
+	+ che viva nei mari e nei laghi.
+    95	= Si dice che faccia la sua tana da\n
+	+ qualche parte nel mare. Porta a\n
+	+ riva le vittime di naufragi.
+    96	= Un Pokémon creato usando i geni\n
+	+ di MEW. Si dice che fra i Pokémon\n
+	+ sia quello con l'animo più crudele.
+    97	= Poiché sa usare qualsiasi mossa,\n
+	+ molti scienziati ritengono che MEW\n
+	+ sia l'antenato di tutti i Pokémon.
+    98	= Usa la foglia sulla sua testa\n
+	+ per misurare la temperatura e\n
+	+ l'umidità. Ama crogiolarsi al sole.
+    99	= Le foglie attorno al suo collo\n
+	+ emanano un aroma speziato\n
+	+ dall'effetto energizzante.
+    9a	= Il suo respiro ha lo straordinario\n
+	+ potere di far tornare rigogliosi\n
+	+ piante secche e fiori avvizziti.
+    9b	= È riservato per natura. Se viene\n
+	+ spaventato, le fiamme sul suo\n
+	+ dorso bruciano ardentemente.
+    9c	= Intimorisce i nemici con il calore\n
+	+ delle sue fiamme. Se è pronto a lot-\n
+	+ tare, le vampate sono più ardenti.
+    9d	= Attacca usando fiamme esplosive.\n
+	+ Si cela in una scintillante nube di\n
+	+ calore creata dalle fiamme roventi.
+    9e	= Ha l'abitudine di mordere ogni cosa\n
+	+ con le potenti mandibole. Neppure\n
+	+ il suo Allenatore è al sicuro!
+    9f	= Quando azzanna il nemico, non molla\n
+	+ la presa finché non gli cadono le\n
+	+ zanne, che però ricrescono subito.
+    a0	= Di solito si muove lentamente, ma\n
+	+ quando attacca e morde la preda si\n
+	+ muove ad una velocità incredibile.
+    a1	= Ha un'indole alquanto nervosa. Sta\n
+	+ ritto sulla punta della coda per\n
+	+ riuscire a sorvegliare ampie aree.
+    a2	= Si addormenta avvolto nell'esile\n
+	+ corpo della madre. Mette all'angolo\n
+	+ i nemici con movimenti rapidi.
+    a3	= Sta sempre ritto su un piede solo\n
+	+ e non mette giù l'altro neppure\n
+	+ quando viene attaccato.
+    a4	= Ha una vista acutissima, tanto da\n
+	+ riuscire a scorgere oggetti anche\n
+	+ con la luce più fioca.
+    a5	= È tanto timido da non muoversi se\n
+	+ non è in gruppo. Trasmette le sue\n
+	+ emozioni emanando una fragranza.
+    a6	= La luce delle stelle è la sua fonte\n
+	+ d'energia. Un cielo più stellato fa\n
+	+ ingrandire i disegni sul suo dorso.
+    a7	= Tesse una trappola con un filo di\n
+	+ seta, sottile ma robusto. Attende\n
+	+ la preda senza muoversi.
+    a8	= Aggancia la preda con un filo di se-\n
+	+ ta e la lascia andare. Poi segue il\n
+	+ filo e la trova quando è in gruppo.
+    a9	= Le sue quattro ali gli permettono\n
+	+ di volare più velocemente e più\n
+	+ silenziosamente. È attivo di notte.
+    aa	= Dalle antenne emette scariche\n
+	+ elettriche positive e negative con\n
+	+ le quali colpisce i nemici.
+    ab	= La sua luce è visibile anche quando\n
+	+ si trova in profondità. È sopranno-\n
+	+ minato “Stella degli abissi”.
+    ac	= Le sacche che ha sulle guance sono\n
+	+ ancora piccole e non riescono a\n
+	+ immagazzinare molta elettricità.
+    ad	= La sua sagoma ricorda quella di\n
+	+ una stella. Si ritiene che giunga\n
+	+ a cavallo di stelle cadenti.
+    ae	= Ha un corpo morbido ed elastico.\n
+	+ Quando comincia a saltellare è\n
+	+ praticamente impossibile fermarlo.
+    af	= Pare che il suo guscio immagazzini\n
+	+ felicità, che condivide poi con le\n
+	+ persone gentili.
+    b0	= Pare che appaia alle persone gentili\n
+	+ diffondendo un pulviscolo luminoso\n
+	+ detto “Polvere della gioia”.
+    b1	= Raccoglie cibo dai cactus, evitando\n
+	+ agilmente germogli e spine. Si muove\n
+	+ saltellando.
+    b2	= Pokémon enigmatico che vede il\n
+	+ passato e prevede il futuro osser-\n
+	+ vando il sole tutto il giorno.
+    b3	= Se il manto è carico d'elettricità,\n
+	+ le sue dimensioni raddoppiano e può\n
+	+ dare la scossa.
+    b4	= Se il suo manto è del tutto carico\n
+	+ d'elettricità, la coda s'illumina.\n
+	+ Lancia peli che danno la scossa.
+    b5	= La punta della sua coda brilla. In\n
+	+ passato, le persone si inviavano\n
+	+ segnali usando la luce della coda.
+    b6	= Quando finisce la stagione delle\n
+	+ piogge, lo si vede danzare sotto\n
+	+ i caldi raggi del sole.
+    b7	= Si tuffa in acqua e usa la coda come\n
+	+ galleggiante. Ama mangiare le piante\n
+	+ che crescono sul fondo dei fiumi.
+    b8	= Vive nei fiumi e nei laghi. Il suo\n
+	+ colore e i disegni confondono i\n
+	+ nemici in acqua.
+    b9	= Ha l'aspetto di un albero, ma il\n
+	+ suo corpo è più simile alla roccia.\n
+	+ È debole contro l'acqua.
+    ba	= Ama radunare gruppi e atteggiarsi\n
+	+ a capogruppo.\n
+	+ I suoi versi richiamano POLIWAG.
+    bb	= Giunge sospinto dai venti. Si dice\n
+	+ che quando HOPPIP appare su campi\n
+	+ e monti, la primavera sia in arrivo.
+    bc	= Il suo fiore sboccia appena l'aria\n
+	+ si riscalda. Fluttua nel cielo\n
+	+ per assorbire l'energia solare.
+    bd	= Sospinto dai venti stagionali, gira\n
+	+ intorno al globo sparpagliando i\n
+	+ suoi semi simili al cotone.
+    be	= Usa la coda per raccogliere i\n
+	+ frutti che sono fuori portata. La\n
+	+ sua coda è più agile delle mani.
+    bf	= Cade improvvisamente giù dal cielo\n
+	+ al mattino. Dopo un'estate fredda,\n
+	+ la popolazione di SUNKERN esplode.
+    c0	= Trae energia dalla luce del sole e\n
+	+ si muove di continuo per cercare\n
+	+ di assorbirne sempre di più.
+    c1	= Ha un campo visivo a 360° senza\n
+	+ muovere la testa. Riesce a vedere\n
+	+ persino le prede alle sue spalle.
+    c2	= Vive nell'acqua fredda e quando\n
+	+ vuole dormire si seppellisce a\n
+	+ metà nei fondali melmosi.
+    c3	= È pigro per natura. Sta sul fondo\n
+	+ dei fiumi con la bocca aperta in\n
+	+ attesa di afferrare la preda.
+    c4	= Il suo pelo è simile al velluto.\n
+	+ Quando usa i suoi poteri psichici,\n
+	+ la sfera che ha sulla fronte brilla.
+    c5	= La luce lunare ha mutato la\n
+	+ struttura genetica di EEVEE. Si\n
+	+ cela nel buio in attesa della preda.
+    c6	= Si dice che l'incontro notturno\n
+	+ con questo Pokémon sia un\n
+	+ presagio infausto.
+    c7	= Il morso di SHELLDER gli ha infuso\n
+	+ un'intelligenza pari a quella di\n
+	+ rinomati scienziati.
+    c8	= Ama avvicinarsi alle persone in\n
+	+ piena notte per terrorizzarle con\n
+	+ il suo urlo stridulo.
+    c9	= È a forma di lettera di un antico\n
+	+ alfabeto. È un mistero chi sia ap-\n
+	+ parso prima, l'alfabeto o UNOWN.
+    ca	= Cerca di tenere nascosta la sua\n
+	+ coda nera ad ogni costo. Pare\n
+	+ che essa celi un segreto.
+    cb	= Ha due cervelli, uno piccolo anche\n
+	+ sulla coda. Morde per respingere i\n
+	+ nemici che si avvicinano da dietro.
+    cc	= Ha l'aspetto di una pigna. Il suo\n
+	+ guscio lo protegge dai Pokémon\n
+	+ uccello che lo beccano per errore.
+    cd	= È incassato in una conchiglia d'ac-\n
+	+ ciaio. A parte gli occhi scrutatori,\n
+	+ nessuno sa cosa ci sia all'interno.
+    ce	= Scava nel terreno con la coda\n
+	+ creando una tana simile a un labi-\n
+	+ rinto. Sa spiccare brevissimi voli.
+    cf	= Si fa trasportare dai venti con le\n
+	+ ali spalancate e colpisce la preda\n
+	+ dall'alto mirando al volto.
+    d0	= Temprato dalla pressione e dal\n
+	+ calore sotterraneo, il suo corpo è\n
+	+ più duro di qualsiasi metallo.
+    d1	= I Pokémon più piccoli fuggono alla\n
+	+ vista della sua faccia terrificante.\n
+	+ Ma le donne lo trovano carino.
+    d2	= Malgrado il suo aspetto, è molto\n
+	+ timido. Se si arrabbia, tuttavia,\n
+	+ colpisce con le sue enormi zanne.
+    d3	= Spara i suoi aculei velenosi in\n
+	+ tutte le direzioni. Essendo un po'\n
+	+ tondetto, non è un gran nuotatore.
+    d4	= Ha un corpo duro come l'acciaio.\n
+	+ Spaventa i nemici con le chele, su\n
+	+ cui sono disegnati degli occhi.
+    d5	= Conserva nel guscio delle bacche\n
+	+ che, quando fermentano, si\n
+	+ trasformano in un succo delizioso.
+    d6	= Si aggira nelle foreste in cerca di\n
+	+ linfa, di cui è ghiotto. È tanto\n
+	+ forte da scagliare lontano i nemici.
+    d7	= Mangia uova rubate dai nidi.\n
+	+ Attacca i nemici nei punti deboli\n
+	+ con i suoi artigli uncinati.
+    d8	= Si impregna le zampe di miele per\n
+	+ poterle leccare in continuazione.\n
+	+ Ogni assaggio ha un sapore unico.
+    d9	= Nel suo territorio, lascia graffi\n
+	+ sugli alberi che hanno bacche\n
+	+ o frutti deliziosi.
+    da	= Nel suo corpo scorre magma. Se\n
+	+ non si muove continuamente, il suo\n
+	+ corpo si raffredda e s'indurisce.
+    db	= Ha una temperatura corporea di\n
+	+ circa 10000°C. Dai fori del guscio\n
+	+ fuoriescono intense fiammate.
+    dc	= Ama mangiare i funghi che crescono\n
+	+ sotto l'erba secca. Mentre cerca,\n
+	+ talvolta trova sorgenti termali.
+    dd	= Poiché il lungo pelo gli impedisce di\n
+	+ vedere, sonda il terreno circo-\n
+	+ stante con il sensibilissimo naso.
+    de	= Vivono numerosi nei limpidi mari del\n
+	+ sud. Pare che non riescano a\n
+	+ sopravvivere nelle acque inquinate.
+    df	= Emette potenti getti d'acqua con i\n
+	+ quali riesce ad abbattere persino\n
+	+ le prede in volo.
+    e0	= Vive nelle spaccature delle rocce\n
+	+ e del fondo marino. Con le sue ven-\n
+	+ tose afferra saldamente la preda.
+    e1	= Trascina il cibo avvolgendolo nella\n
+	+ coda e ha l'abitudine di condividerlo\n
+	+ con chi si perde fra le montagne.
+    e2	= Quando il mare è calmo, è possibile\n
+	+ vedere branchi di MANTINE nuotare\n
+	+ leggiadri come se volassero.
+    e3	= È interamente rivestito da\n
+	+ un'armatura dura come l'acciaio.\n
+	+ Vola alla velocità di 300 km/h.
+    e4	= Trasmette i suoi stati d'animo con\n
+	+ vari versi. Lavora in gruppo per\n
+	+ catturare le prede con l'astuzia.
+    e5	= Molto tempo fa, si riteneva che\n
+	+ le sue urla sinistre coincidessero\n
+	+ con la chiamata della morte.
+    e6	= Vive in caverne sui fondali marini\n
+	+ e crea vortici giganteschi ogni\n
+	+ volta che si muove.
+    e7	= Non è molto grande, ma è forte.\n
+	+ Può sollevare un adulto e traspor-\n
+	+ tarlo sul dorso senza fatica.
+    e8	= Si arrotola a palla e attacca il\n
+	+ nemico. Riesce ad abbattere\n
+	+ una casa con un solo colpo.
+    e9	= Gli è stato installato un programma\n
+	+ di sviluppo planetario che lo rende\n
+	+ capace di lavorare nello spazio.
+    ea	= Chi fissa le sue corna riceve una\n
+	+ strana sensazione, quasi come\n
+	+ se venisse risucchiato.
+    eb	= Delimita il suo territorio usando la\n
+	+ coda come se fosse un pennello. Ha\n
+	+ lasciato oltre 5000 segni diversi.
+    ec	= È famoso per la sua brama di lotta.\n
+	+ Subisce sempre ferite dai nemici\n
+	+ più forti di lui che sfida.
+    ed	= Combatte mentre gira come una\n
+	+ trottola. La forza centrifuga de-\n
+	+ cuplica il suo potere distruttivo.
+    ee	= Analizza tutto con le labbra e con\n
+	+ esse riesce a memorizzare ciò che\n
+	+ gli piace e ciò che non gli piace.
+    ef	= Genera elettricità roteando le\n
+	+ braccia. Tuttavia, non riesce ad\n
+	+ immagazzinare l'energia creata.
+    f0	= La sua temperatura corporea è di\n
+	+ circa 600°C. Se le fiamme che lancia\n
+	+ sono gialle significa che è in forma.
+    f1	= Si dice che se un bambino beve\n
+	+ il latte di MILTANK crescerà bene\n
+	+ e da adulto sarà sano e buono.
+    f2	= Questo Pokémon buono cura i\n
+	+ Pokémon malati e li fa guarire.\n
+	+ Percepisce la tristezza altrui.
+    f3	= Pare che sia caduto con un\n
+	+ fulmine. Può scagliare saette dalle\n
+	+ nuvole di pioggia che ha sul dorso.
+    f4	= Si dice che quando emette il suo\n
+	+ verso, da qualche parte nel mondo\n
+	+ un vulcano stia eruttando.
+    f5	= Corre per tutto il mondo per\n
+	+ purificare l'acqua contaminata.\n
+	+ Si allontana con i venti del nord.
+    f6	= Pokémon che mangia la terra. Dopo\n
+	+ aver mangiato un'intera montagna,\n
+	+ va a dormire per poter crescere.
+    f7	= Il suo corpo è duro come la roccia.\n
+	+ Riesce a muoversi come un razzo\n
+	+ espellendo gas con tutta forza.
+    f8	= Se s'infuria, abbatte le montagne e\n
+	+ seppellisce i fiumi. In seguito, le\n
+	+ mappe devono essere riscritte.
+    f9	= Dorme in una fossa negli abissi\n
+	+ marini. Con un battito d'ali provoca\n
+	+ una tempesta di 40 giorni.
+    fa	= Le sue piume sono di sette colori.\n
+	+ Si dice che chiunque lo veda\n
+	+ sarà per sempre felice.
+    fb	= Ha il potere di viaggiare attraverso\n
+	+ il tempo, ma si dice che appaia solo\n
+	+ in periodi di pace.
+    fc	= Le piante dei suoi piedi sono piene\n
+	+ di uncini che gli permettono di\n
+	+ camminare su muri e soffitti.
+    fd	= Vive in giungle fitte. Si avvicina\n
+	+ alle prede saltando di ramo in ramo.
+    fe	= Le foglie che crescono sulle sue\n
+	+ braccia tagliano anche grandi al-\n
+	+ beri. Nel suo habitat, è imbattibile.
+    ff	= Nel suo corpo brucia una fiamma e\n
+	+ abbracciandolo si avverte calore.\n
+	+ Lancia palle di fuoco a 1000°C.
+   100	= Possiede l'abilità di sferrare anche\n
+	+ 10 calci al secondo. Emette urla\n
+	+ strazianti per intimorire i nemici.
+   101	= Le fiamme che fuoriescono dai suoi\n
+	+ polsi gli avvolgono i pugni. Quando\n
+	+ colpisce il nemico, lo scotta.
+   102	= Con la pinna sulla testa percepi-\n
+	+ sce i movimenti dell'acqua e sta in\n
+	+ guardia. Riesce a sollevare rocce.
+   103	= Grazie alle zampe vigorose, si muove\n
+	+ con disinvoltura anche nel fango.\n
+	+ Dorme immerso nella melma.
+   104	= Nuotando riesce a trainare una\n
+	+ grande nave. Con le braccia vigoro-\n
+	+ se abbatte i nemici in un sol colpo.
+   105	= Pokémon di natura ostinata.\n
+	+ Insegue la preda prescelta\n
+	+ finché questa non è esausta.
+   106	= Caccia le prede in branco. Non\n
+	+ disobbedisce mai agli ordini di\n
+	+ un Allenatore abile.
+   107	= Avanza a zigzag. È bravo a trovare\n
+	+ strumenti nell'erba e sul terreno.
+   108	= Carica la preda ad una velocità di\n
+	+ 100 km/h. Ma dal momento che\n
+	+ va solo dritto, sbaglia spesso.
+   109	= Ama mangiare le foglie. Se STARLY lo\n
+	+ attacca, si difende con gli aculei\n
+	+ che ha sulla parte posteriore.
+   10a	= SILCOON si ancora ai rami con\n
+	+ fili di seta. In questa posizione\n
+	+ aspetta immobile l'evoluzione.
+   10b	= Ha un'indole aggressiva. Conficca\n
+	+ la sua bocca lunga e sottile nelle\n
+	+ prede e ne succhia i fluidi.
+   10c	= Dentro, il suo bozzolo è caldo. Ogni\n
+	+ cellula del suo corpo contribuisce\n
+	+ a creare energia per l'evoluzione.
+   10d	= Pokémon notturno. Attirato dalla\n
+	+ luce dei lampioni, divora le foglie\n
+	+ degli alberi lungo i viali.
+   10e	= Sembra una pianta acquatica e\n
+	+ viene usato come traghetto dai\n
+	+ Pokémon che non sanno nuotare.
+   10f	= È un po' dispettoso. Se vede un\n
+	+ pescatore, gli tira la lenza solo\n
+	+ per dargli fastidio.
+   110	= Se ascolta musica allegra, tutto\n
+	+ il suo corpo si rivitalizza e\n
+	+ non riesce ad evitare di ballare.
+   111	= Quando si attacca a un ramo,\n
+	+ sembra una vera ghianda. Si diverte\n
+	+ a spaventare gli altri Pokémon.
+   112	= Il fischio del suo flauto di foglia\n
+	+ mette a disagio chi lo sente.\n
+	+ Vive nelle foreste più fitte.
+   113	= Con le sue foglie provoca raffiche\n
+	+ di vento della velocità di 30 m/s\n
+	+ che spazzano via interi edifici.
+   114	= È molto coraggioso e affronta\n
+	+ spavaldo i nemici più forti.\n
+	+ Migra verso i paesi caldi.
+   115	= Vola in tondo alla ricerca di prede.\n
+	+ Quando ne avvista una, si lancia\n
+	+ in picchiata per catturarla.
+   116	= Nidifica su scogliere a picco sul\n
+	+ mare. Si fa trasportare ad alta\n
+	+ quota dalle correnti ascensionali.
+   117	= Immerge il suo enorme becco nel\n
+	+ mare, raccogliendo acqua e\n
+	+ numerose prede.
+   118	= Percepisce gli stati d'animo delle\n
+	+ persone con le corna che ha sul\n
+	+ capo. Si mostra alla gente allegra.
+   119	= Percepisce molto bene i sentimenti\n
+	+ del suo Allenatore. Danza quando si\n
+	+ sente felice.
+   11a	= Difende il suo fidato Allenatore\n
+	+ a costo della vita. Ha l'abilità di\n
+	+ predire il futuro.
+   11b	= Cammina a pelo d'acqua. Dall'aculeo\n
+	+ sulla testa emana un dolce aroma\n
+	+ con cui attira le prede.
+   11c	= Le sue antenne presentano un\n
+	+ motivo ad occhi. Con le quattro ali\n
+	+ riesce a volare in ogni direzione.
+   11d	= Sparge spore tossiche dalla sommità\n
+	+ del capo. Se inalate, queste spore\n
+	+ provocano dolore in tutto il corpo.
+   11e	= Tirando pugni, i suoi cortissimi arti\n
+	+ si allungano. Usa una tecnica simile\n
+	+ a quella dei pugili professionisti.
+   11f	= Passa quasi tutto il tempo\n
+	+ sdraiato. Soltanto a guardarlo\n
+	+ si prova sonnolenza.
+   120	= Il suo cuore batte 10 volte più\n
+	+ velocemente del normale. Non\n
+	+ sta fermo neanche un momento.
+   121	= Il Pokémon più pigro in assoluto.\n
+	+ Stando disteso, in realtà cerca di\n
+	+ risparmiare forze per attaccare.
+   122	= Cresce sottoterra e, poiché è\n
+	+ quasi cieco, usa le antenne per\n
+	+ sondare ciò che lo circonda.
+   123	= Si muove così in fretta da risultare\n
+	+ quasi invisibile. Lo si vede in gruppo\n
+	+ attorno agli alberi ricchi di linfa.
+   124	= È nato dal guscio vuoto di un inset-\n
+	+ to. Pare che chi spia nella fessura\n
+	+ sul suo dorso perda l'anima.
+   125	= Di solito ha una voce molto tenue,\n
+	+ ma se si spaventa, emette un suono\n
+	+ assordante quanto un jet.
+   126	= Le onde d'urto dei suoi versi\n
+	+ ribaltano anche i camion. Pesta i\n
+	+ piedi per accumulare energia.
+   127	= Le sue urla si sentono a 10 km di\n
+	+ distanza. Emette diversi suoni dalle\n
+	+ numerose aperture del suo corpo.
+   128	= Si rinforza sbattendo contro enormi\n
+	+ alberi. Vicino alla sua tana si\n
+	+ trovano parecchi alberi abbattuti.
+   129	= Ama confrontarsi con Pokémon gros-\n
+	+ si. Con uno dei suo schiaffi, può far\n
+	+ prendere il volo a un camion.
+   12a	= Pokémon che vive nell'acqua. Si\n
+	+ muove rapidamente sulla terraferma\n
+	+ saltellando sulla grossa coda.
+   12b	= Il suo naso è magnetico. Per questo\n
+	+ motivo lo tiene sempre puntato\n
+	+ verso nord.
+   12c	= Non riesce ad evitare di inseguire\n
+	+ tutto ciò che si muove e corre in\n
+	+ tondo a caccia della propria coda.
+   12d	= Ha successo fra gli Allenatori di\n
+	+ sesso femminile per la sua bellissima\n
+	+ pelliccia. Non ha una tana fissa.
+   12e	= Si cela nell'oscurità delle caverne.\n
+	+ Si nutre di gemme e per questo i\n
+	+ suoi occhi sono pietre preziose.
+   12f	= Le sue due enormi mandibole sono\n
+	+ corna trasformate. Con esse può\n
+	+ masticare persino travi di ferro.
+   130	= Vive generalmente sui monti ma,\n
+	+ spinto dalla fame, scende per\n
+	+ cibarsi di ferrovie e automobili.
+   131	= Scava per cercare ferro, di cui si\n
+	+ nutre. Si schianta contro gli altri\n
+	+ nella lotta per il territorio.
+   132	= Cerca ferro da mangiare scavando\n
+	+ tunnel nella roccia con le sue\n
+	+ corna d'acciaio.
+   133	= Mangia solo una bacca al giorno.\n
+	+ Resistendo alla fame, il suo spirito\n
+	+ viene temprato e rinvigorito.
+   134	= Con gli esercizi di yoga ha affinato\n
+	+ il sesto senso. I suoi movimenti\n
+	+ sono molto eleganti.
+   135	= L'elettricità immagazzinata nella\n
+	+ pelliccia gli stimola i muscoli e\n
+	+ aumenta la sua velocità di reazione.
+   136	= Scarica elettricità dalla criniera.\n
+	+ Crea nubi temporalesche in\n
+	+ cielo che fanno cadere saette.
+   137	= Incoraggia gli amici con un vivace\n
+	+ scoppiettio di scintille. Assorbe\n
+	+ elettricità dai pali telefonici.
+   138	= Incoraggia gli amici e, se questi\n
+	+ perdono, il suo corpo emette\n
+	+ una maggiore quantità di scintille.
+   139	= Di notte comunica con gli altri\n
+	+ illuminando la sua coda.\n
+	+ Ama il dolce aroma di ILLUMISE.
+   13a	= Con il suo dolce aroma dirige il volo\n
+	+ di VOLBEAT, che disegna figure\n
+	+ luminose nel cielo stellato.
+   13b	= ROSELIA, cresciuto bevendo acqua\n
+	+ pulita, è noto perché fa crescere\n
+	+ fiori dai vividi colori.
+   13c	= La maggior parte del suo corpo è\n
+	+ stomaco. I suoi succhi gastrici\n
+	+ dissolvono subito ciò che ingerisce.
+   13d	= Inghiotte intera qualsiasi cosa.\n
+	+ Dai pori traspira un liquido tossico\n
+	+ con cui bagna i nemici.
+   13e	= Attacca in branco chi invade il\n
+	+ suo territorio. Le zanne aguzze\n
+	+ lacerano anche gli scafi delle navi.
+   13f	= Con le sue zanne può spezzare\n
+	+ il ferro. Nuota a 120 km/h. È noto\n
+	+ come il “Tiranno del mare”.
+   140	= In giornate soleggiate, gioca\n
+	+ rimbalzando sulla spiaggia.\n
+	+ Spruzza acqua dalle narici.
+   141	= Il Pokémon più grande che esista.\n
+	+ Dopo aver inalato aria, si immerge a\n
+	+ una profondità di 3000 metri.
+   142	= Nella gobba accumula magma. Quando\n
+	+ piove, il magma si indurisce e\n
+	+ il Pokémon diventa più lento.
+   143	= Ha dei vulcani sul dorso. Se il\n
+	+ magma nel suo corpo aumenta,\n
+	+ trema e poi erutta violentemente.
+   144	= Genera energia bruciando carbone\n
+	+ all'interno della corazza. Se è in\n
+	+ pericolo, emette fuliggine scura.
+   145	= Rimbalza costantemente usando la\n
+	+ coda come una molla. Il movimento\n
+	+ sollecita il cuore e lo fa battere.
+   146	= Usa perle nere per amplificare i\n
+	+ suoi poteri psichici. Con una danza\n
+	+ acquisisce controllo sul nemico.
+   147	= Non ci sono due SPINDA con lo stes-\n
+	+ so motivo maculato. Il suo passo\n
+	+ barcollante confonde i nemici.
+   148	= Scava fosse coniche nella sabbia\n
+	+ del deserto e attende che le prede\n
+	+ cadano in trappola.
+   149	= Fa vibrare violentemente le ali\n
+	+ generando onde ultrasoniche che\n
+	+ provocano il mal di testa.
+   14a	= Genera tempeste di sabbia con il\n
+	+ battito delle ali. È detto anche\n
+	+ “Spirito primordiale del deserto”.
+   14b	= Immagazzina acqua nel corpo e\n
+	+ riesce a sopravvivere nel deserto\n
+	+ senz'acqua anche per 30 giorni.
+   14c	= Diventa attivo di notte, quando va\n
+	+ a caccia di prede stremate dalla\n
+	+ calura del deserto.
+   14d	= Le sue ali sono come batuffoli. Se si\n
+	+ appoggia sulla testa di qualcuno,\n
+	+ sembra un cappello di cotone.
+   14e	= Quando lotta, sembra una morbida\n
+	+ nuvola. Canticchia con la sua\n
+	+ voce da soprano.
+   14f	= Da generazioni, è acerrimo nemico\n
+	+ di SEVIPER. Gli artigli aguzzi sono\n
+	+ le sue armi più potenti.
+   150	= È acerrimo nemico di ZANGOOSE.\n
+	+ Prima della lotta, affila sulle rocce\n
+	+ la sua coda simile ad una spada.
+   151	= Diventa attivo nelle notti di luna\n
+	+ piena, pertanto si dice che abbia\n
+	+ qualche legame con le fasi lunari.
+   152	= Nuova specie di Pokémon che si\n
+	+ dice provenga dal sole. Emana luce\n
+	+ roteando vorticosamente.
+   153	= Il suo corpo è ricoperto da una\n
+	+ pellicola viscida, che gli permette\n
+	+ di sgusciare via, se afferrato.
+   154	= Ha un senso del territorio molto\n
+	+ sviluppato. Respinge i nemici scate-\n
+	+ nando terremoti del raggio di 5 km.
+   155	= La sua grande vitalità gli permette\n
+	+ di adattarsi ad ogni habitat. Le sue\n
+	+ chele non rilasciano mai la preda.
+   156	= Pokémon violento che afferra il\n
+	+ nemico con le chele e lo scaraventa\n
+	+ fuori dal suo stagno.
+   157	= Pokémon raro che si muove rotean-\n
+	+ do su se stesso. È stato scoperto\n
+	+ nei pressi di antiche rovine.
+   158	= Pokémon nato da un'antica\n
+	+ statuetta d'argilla portata in\n
+	+ vita da misteriose radiazioni.
+   159	= Viveva sul fondo marino 100 milioni\n
+	+ di anni fa ed è stato rigenerato\n
+	+ in laboratorio.
+   15a	= Vive in acque poco profonde nei\n
+	+ mari caldi. Con la bassa marea,\n
+	+ scava sulla riva in cerca di prede.
+   15b	= Un antico Pokémon rigenerato\n
+	+ da un fossile. Viveva nel mare e\n
+	+ catturava le prede con gli artigli.
+   15c	= Dopo essersi evoluto, è andato a\n
+	+ vivere a riva. Tutto il suo corpo è\n
+	+ rivestito da un'armatura robusta.
+   15d	= È noto per il suo aspetto disordi-\n
+	+ nato. È molto comune e tende a\n
+	+ raggrupparsi nei soliti posti.
+   15e	= Si dice che sorga dai fondali dei\n
+	+ laghi per placare gli animi furiosi\n
+	+ delle persone che litigano.
+   15f	= Il suo aspetto varia con il clima.\n
+	+ Recentemente si è scoperto che\n
+	+ le sue molecole sono di acqua.
+   160	= Può mutare il colore del corpo a\n
+	+ piacimento. Tuttavia, il motivo a\n
+	+ zigzag sul suo ventre non cambia.
+   161	= Si annida sotto le grondaie di case\n
+	+ dove vive gente che cova sentimenti\n
+	+ di vendetta, che lui adora.
+   162	= Un peluche divenuto Pokémon per la\n
+	+ rabbia di essere stato buttato via\n
+	+ da un bimbo, di cui è alla ricerca.
+   163	= Segue ostinatamente la preda\n
+	+ ovunque essa vada. Abbandona la\n
+	+ caccia solo all'alba.
+   164	= Il suo corpo è vuoto. Pare che\n
+	+ chiunque si avvicini per guardare\n
+	+ dentro venga risucchiato.
+   165	= Poiché mangiava sempre i suoi frutti\n
+	+ preferiti, questi hanno cominciato\n
+	+ a crescergli attorno al collo.
+   166	= Le sue urla sono così potenti da\n
+	+ far volar via i nemici. Comunica con\n
+	+ sette versi differenti.
+   167	= Percepisce l'arrivo di disastri na-\n
+	+ turali e appare alla gente solo per\n
+	+ avvisarla del pericolo imminente.
+   168	= Questi Pokémon si allenano in\n
+	+ gruppo caricandosi l'un l'altro per\n
+	+ rafforzarsi. Amano i frutti dolci.
+   169	= Secondo alcune leggende delle\n
+	+ regioni fredde, uno SNORUNT porta\n
+	+ prosperità alla casa in cui vive.
+   16a	= Per difendersi, riveste il suo corpo\n
+	+ con un'armatura di ghiaccio, fatta\n
+	+ congelando l'umidità dell'aria.
+   16b	= Poiché il suo corpo non è adatto al\n
+	+ nuoto, rotola su lastre di ghiaccio\n
+	+ per raggiungere la riva.
+   16c	= Fa roteare oggetti sul naso\n
+	+ per controllarne l'odore e la\n
+	+ consistenza.
+   16d	= Frantuma il ghiaccio con le zanne.\n
+	+ Lo spesso strato adiposo respinge\n
+	+ il freddo e gli attacchi nemici.
+   16e	= Crea una sola perla in tutta la\n
+	+ sua vita. Si dice che questa perla\n
+	+ amplifichi i poteri psichici.
+   16f	= Vive nei mari profondi. Con la coda\n
+	+ a forma di pesciolino attrae prede\n
+	+ ignare del pericolo.
+   170	= Vive sui fondali marini. In primavera\n
+	+ il suo corpo rosato diventa più\n
+	+ vivido per chissà quale motivo.
+   171	= Un Pokémon raro scoperto durante\n
+	+ un'esplorazione del mare profondo.\n
+	+ È immutato da 100 milioni di anni.
+   172	= Vive nei mari caldi. Si dice che le\n
+	+ coppie che trovano questo Pokémon\n
+	+ riceveranno in dono l'eterno amore.
+   173	= Sogna di poter volare un giorno e,\n
+	+ pertanto, si allena regolarmente\n
+	+ gettandosi da alture.
+   174	= Nella sua dura corazza le cellule\n
+	+ hanno cominciato a cambiare.\n
+	+ Quando si evolve, la corazza cade.
+   175	= Il suo forte desiderio di volare ha\n
+	+ provocato una mutazione cellulare\n
+	+ e gli sono spuntate le ali.
+   176	= Comunica con i suoi simili mediante\n
+	+ onde magnetiche. I gruppi di BELDUM\n
+	+ si muovono in perfetta sintonia.
+   177	= È sorto dalla fusione di due BELDUM.\n
+	+ Il suo corpo d'acciaio non viene\n
+	+ scalfito neanche se urta un jet.
+   178	= È formato dalla fusione di due\n
+	+ METANG. Ha quattro cervelli e\n
+	+ l'intelligenza di un supercomputer.
+   179	= È formato interamente da rocce.\n
+	+ Se si staccano nella lotta, ne cerca\n
+	+ altre per sostituirle.
+   17a	= Il suo corpo è costituito da ghiac-\n
+	+ cio dell'era glaciale. Mantiene\n
+	+ l'aria a una temperatura di -200°C.
+   17b	= La pressione subita sottoterra\n
+	+ per decine di migliaia di anni ha\n
+	+ reso il suo corpo resistentissimo.
+   17c	= Questo Pokémon ha il corpo\n
+	+ ricoperto di piume che riflettono la\n
+	+ luce e lo rendono invisibile.
+   17d	= Pokémon molto intelligente.\n
+	+ Ripiegando indietro le ali, riesce a\n
+	+ volare più veloce di un jet.
+   17e	= Si dice che abbia ampliato i mari\n
+	+ provocando piogge torrenziali. Si è\n
+	+ assopito in una fossa marina.
+   17f	= Dopo una lotta colossale contro\n
+	+ KYOGRE, si è addormentato sotto\n
+	+ terra in mezzo al magma.
+   180	= Vive nello strato di ozono oltre le\n
+	+ nuvole e non può essere avvistato\n
+	+ da terra.
+   181	= Ha l'abilità di realizzare ogni\n
+	+ desiderio, ma soltanto per\n
+	+ una settimana ogni 1000 anni.
+   182	= È il risultato della mutazione gene-\n
+	+ tica di un virus alieno, giunto sulla\n
+	+ terra con un meteorite.
+   183	= Il suo guscio, che è fatto di terra,\n
+	+ s'indurisce quando il Pokémon beve.\n
+	+ Vive sulle rive dei laghi.
+   184	= Vive nelle foreste vicino all'acqua,\n
+	+ ma esce di giorno per far pren-\n
+	+ dere sole alle piante sul guscio.
+   185	= Piccoli Pokémon si radunano\n
+	+ talvolta sul suo dorso immobile\n
+	+ per costruirvi la loro tana.
+   186	= Scala agilmente le rocce scoscese\n
+	+ e vive in cima ai monti. Prima\n
+	+ di dormire spegne le fiamme.
+   187	= Per intimorire i nemici che\n
+	+ attaccano, intensifica le fiamme\n
+	+ sulla coda per apparire più grande.
+   188	= Usa un tipo speciale di arte marzia-\n
+	+ le che coinvolge tutti gli arti. Le\n
+	+ sue fiamme non si estinguono mai.
+   189	= È molto orgoglioso e odia accettare\n
+	+ cibo dalla gente. Le fitte piume lo\n
+	+ proteggono dal freddo.
+   18a	= Vive da solo lontano dagli altri.\n
+	+ Apparentemente ogni esemplare\n
+	+ crede di essere il più importante.
+   18b	= I tre corni che si allungano dal suo\n
+	+ becco attestano la sua forza. Il\n
+	+ capogruppo ha i corni più grossi.
+   18c	= Si muove in grandi gruppi. Anche\n
+	+ se piccolo, batte le ali in maniera\n
+	+ molto energica.
+   18d	= Vola nelle foreste e nei campi\n
+	+ in cerca di Pokémon coleottero.\n
+	+ Si muove in grandi gruppi.
+   18e	= Ha un'indole selvaggia. Sfida\n
+	+ coraggiosamente i nemici più\n
+	+ grossi di lui.
+   18f	= Ha i nervi d'acciaio e niente può\n
+	+ turbarlo. È più agile e attivo di\n
+	+ quanto sembri.
+   190	= Sbarra il corso dei fiumi con cor-\n
+	+ teccia e fango per farsi la tana. È\n
+	+ noto come lavoratore instancabile.
+   191	= Muove la testa avanti e indietro\n
+	+ e le antenne, scontrandosi, produ-\n
+	+ cono un suono simile allo xilofono.
+   192	= Quando canta tiene le zampe\n
+	+ incrociate al petto.\n
+	+ Sa improvvisare melodie.
+   193	= In caso di pericolo, la sua pelliccia\n
+	+ si illumina. Il nemico rimane acceca-\n
+	+ to e lui ne approfitta per fuggire.
+   194	= Dagli artigli rilascia un'elettricità\n
+	+ talmente intensa da mandare KO il\n
+	+ nemico. Vive in piccoli gruppi.
+   195	= Vede attraverso qualsiasi cosa.\n
+	+ Individua e cattura le prede che\n
+	+ si nascondono dietro gli oggetti.
+   196	= D'inverno chiude la sua gemma e\n
+	+ resiste al freddo. In primavera la\n
+	+ gemma si riapre e rilascia polline.
+   197	= Attira la preda con un dolce aroma,\n
+	+ poi l'abbatte con le fruste spinose\n
+	+ celate fra i bouquet delle braccia.
+   198	= Viveva nella giungla circa 100\n
+	+ milioni di anni fa. Il suo cranio\n
+	+ è duro come il ferro.
+   199	= Tira testate talmente potenti da\n
+	+ frantumare anche oggetti durissimi.
+   19a	= Pokémon che viveva nella giungla\n
+	+ circa 100 milioni di anni fa. Il suo\n
+	+ muso è molto resistente.
+   19b	= Respinge qualsiasi attacco\n
+	+ frontale. È un Pokémon docile\n
+	+ che si nutre di erba e di bacche.
+   19c	= Per ripararsi dal freddo e dai venti\n
+	+ invernali si copre con un manto\n
+	+ fatto di rami e foglie.
+   19d	= Con l'evoluzione, il manto di BURMY\n
+	+ diventa parte del corpo di questo\n
+	+ Pokémon. Non se ne separa mai.
+   19e	= Ama il nettare dei fiori. Ruba e\n
+	+ mangia il nettare raccolto da \n
+	+ COMBEE.
+   19f	= Pokémon formato da altri tre.\n
+	+ È sempre impegnato a portare il\n
+	+ nettare dei fiori a VESPIQUEN.
+   1a0	= Il suo addome funge da rifugio per\n
+	+ le larve, che nutre con il nettare\n
+	+ raccolto da COMBEE.
+   1a1	= Forma delle palle di pelo cariche\n
+	+ elettrostaticamente e le conserva\n
+	+ negli alberi insieme alle bacche.
+   1a2	= Ha un collare che funge da galleg-\n
+	+ giante. Quando nuota, la sua testa\n
+	+ rimane sempre fuori dall'acqua.
+   1a3	= Nuota con il suo grosso galleg-\n
+	+ giante e aiuta a soccorrere\n
+	+ chi sta per annegare.
+   1a4	= La pallina contiene i nutrimenti\n
+	+ necessari per l'evoluzione. Dicono\n
+	+ che sia molto dolce e deliziosa.
+   1a5	= Sboccia quando fa caldo e cerca\n
+	+ di godersi fino all'ultimo ogni mo-\n
+	+ mento che può passare al sole.
+   1a6	= Forma e colori variano di regione\n
+	+ in regione. Pare che nella regione\n
+	+ di Sinnoh ne esistano due tipi.
+   1a7	= Ha un corpo flessibile e senza ossa.\n
+	+ Qualsiasi parte del corpo che gli\n
+	+ venga lacerata ricresce subito.
+   1a8	= Si nutre di nocciole che sbuccia con\n
+	+ le due code. Raramente usa le sue\n
+	+ vere braccia.
+   1a9	= Pokémon formato dalle anime di\n
+	+ persone e Pokémon. Ama le\n
+	+ stagioni umide.
+   1aa	= Di giorno fluttua con aria\n
+	+ sonnolenta, ma di notte vola via\n
+	+ in gruppo. Nessuno sa dove vada.
+   1ab	= Sbaraglia i nemici dispiegando con\n
+	+ forza le orecchie arrotolate. Fa\n
+	+ piangere di dolore anche gli adulti.
+   1ac	= Pokémon molto cauto. Se percepisce\n
+	+ un pericolo, si avvolge nelle sue\n
+	+ orecchie morbide e pelose.
+   1ad	= I suoi versi sembrano incantesimi.\n
+	+ Chi li sente è tormentato da\n
+	+ emicranie e allucinazioni.
+   1ae	= Diventa attivo di notte e lo si vede\n
+	+ spesso in compagnia di numerosi\n
+	+ MURKROW.
+   1af	= Se disturbato, tira fuori gli arti-\n
+	+ gli; se soddisfatto, fa le fusa. La\n
+	+ sua incostanza piace a molti.
+   1b0	= Si introduce sfacciatamente\n
+	+ nelle tane degli altri Pokémon\n
+	+ rivendicandole poi come proprie.
+   1b1	= Emette versi muovendo la sfera\n
+	+ che ha nella gola.\n
+	+ Si muove saltellando agilmente.
+   1b2	= Si protegge spruzzando un\n
+	+ fluido puzzolente dal posteriore.\n
+	+ Il tanfo permane per 24 ore.
+   1b3	= Attacca spruzzando un fluido\n
+	+ puzzolente dalla coda. Ha un\n
+	+ raggio d'azione di oltre 50 metri.
+   1b4	= Il suo aspetto ricorda alcuni\n
+	+ oggetti ritrovati in antiche tombe,\n
+	+ ma non si sa se ci sia una relazione.
+   1b5	= Il suo ritrovamento in un cantiere\n
+	+ dopo un sonno di 2000 anni fece a\n
+	+ suo tempo molto scalpore.
+   1b6	= Sembra che pianga tutto il tempo.\n
+	+ In realtà regola il livello dei fluidi\n
+	+ del corpo eliminando gli eccessi.
+   1b7	= Imita i movimenti dei nemici. Quando\n
+	+ un nemico viene imitato, non riesce\n
+	+ più a distogliere lo sguardo da lui.
+   1b8	= Ama gli oggetti bianchi e tondi.\n
+	+ Imita CHANSEY trasportando una\n
+	+ roccia a forma di uovo.
+   1b9	= Può imparare il linguaggio umano.\n
+	+ Se un gruppo si raduna, tutti\n
+	+ imparano le stesse parole.
+   1ba	= Pokémon formato da 108 spiriti. È\n
+	+ stato imprigionato nella fessura di\n
+	+ una Roccianima.
+   1bb	= Nidifica in piccole cavità orizzontali\n
+	+ nelle pareti delle grotte. Si avven-\n
+	+ ta sulle prede che si avvicinano.
+   1bc	= Molti credono che le medicine\n
+	+ fatte con le sue scaglie\n
+	+ curino anche i mali incurabili.
+   1bd	= Quando si piega e distende le ali,\n
+	+ sembra un jet. Vola a una velocità\n
+	+ supersonica.
+   1be	= Divora quotidianamente una quantità\n
+	+ di cibo pari al suo peso mandandolo\n
+	+ giù quasi senza masticare.
+   1bf	= L'aura che emana si intensifica\n
+	+ per comunicare agli altri se è\n
+	+ triste o spaventato.
+   1c0	= È in grado di avvertire l'aura di\n
+	+ tutte le cose.\n
+	+ Comprende il linguaggio umano.
+   1c1	= Vive in territori aridi. Invece del\n
+	+ sudore, espelle dal corpo sabbia\n
+	+ granulosa.
+   1c2	= Immagazzina sabbia all'interno del\n
+	+ corpo e l'espelle con violenza dai\n
+	+ pori, formando enormi vortici.
+   1c3	= Afferra le prede con gli artigli\n
+	+ della coda e non si allontana finché\n
+	+ il veleno che inietta non agisce.
+   1c4	= Con le zampe può accartocciare una\n
+	+ macchina. Le punte degli artigli\n
+	+ sono velenose.
+   1c5	= Le sacche delle guance contengono\n
+	+ veleno. Infilza i nemici con le sue\n
+	+ unghie avvelenate.
+   1c6	= I suoi artigli secernono una tossina\n
+	+ così velenosa che persino un\n
+	+ graffio può essere letale.
+   1c7	= Attira le prede con il dolce aroma\n
+	+ della saliva e poi le ingoia. Impiega\n
+	+ un giorno per mangiare una preda.
+   1c8	= Dopo una lunga esposizione al sole,\n
+	+ i motivi sulle sue pinne brillano\n
+	+ vividamente al calar dell'oscurità.
+   1c9	= Vive negli abissi marini.\n
+	+ Attira le prede illuminando i\n
+	+ motivi delle sue quattro pinne.
+   1ca	= Pokémon amichevole che con le\n
+	+ antenne è in grado di avvertire\n
+	+ anche minime correnti marine.
+   1cb	= Vive sui monti innevati. Ha avuto\n
+	+ pochi contatti con gli umani, quindi\n
+	+ è molto curioso nei loro confronti.
+   1cc	= Crea bufere di neve sui monti\n
+	+ ricoperti da nevi perenni.\n
+	+ È l'abominevole essere delle nevi.
+   1cd	= Questi Pokémon vivono in zone fred-\n
+	+ de in gruppi di quattro o cinque.\n
+	+ Insieme sono cacciatori abilissimi.
+   1ce	= Si è evoluto in seguito all'esposi-\n
+	+ zione a uno speciale campo magneti-\n
+	+ co. Tre unità generano magnetismo.
+   1cf	= Avvolge ogni cosa con la sua lingua\n
+	+ allungabile. Chi si avvicina troppo,\n
+	+ si ritroverà tutto bagnato di bava.
+   1d0	= Mette rocce nelle cavità dei suoi\n
+	+ palmi e le getta con tutta la sua\n
+	+ forza. Talvolta lancia GEODUDE.
+   1d1	= Intrappola le prede con gli arti,\n
+	+ che sono costituiti da liane. Se ne\n
+	+ perde uno, non si turba affatto.
+   1d2	= Tocca il nemico con le sue due\n
+	+ code e rilascia una scarica\n
+	+ elettrica di oltre 20000 volt.
+   1d3	= Spara palle di fuoco di oltre\n
+	+ 2000°C dagli arti superiori.\n
+	+ Vive nei crateri dei vulcani.
+   1d4	= Non si presenta mai dove c'è un\n
+	+ conflitto. Di recente le sue\n
+	+ apparizioni sono diventate rare.
+   1d5	= Agitando le ali crea onde d'urto\n
+	+ che infliggono gravi ferite agli\n
+	+ organi interni dei nemici.
+   1d6	= Usa la fotosintesi, proprio come\n
+	+ una pianta. Pertanto è sempre\n
+	+ circondato da aria pulita.
+   1d7	= Come tecnica di difesa, congela\n
+	+ completamente la sua pelliccia\n
+	+ per far rizzare i peli come aghi.
+   1d8	= Sta appeso ai rami con la testa in\n
+	+ giù. Alla prima occasione, si butta a\n
+	+ capofitto sulla preda.
+   1d9	= Ha enormi zanne di ghiaccio. La\n
+	+ popolazione di questo Pokémon è\n
+	+ diminuita alla fine dell'era glaciale.
+   1da	= È stato aggiunto un software per\n
+	+ migliorare le prestazioni di questo\n
+	+ Pokémon. Agisce in modo strano.
+   1db	= Pokémon elegante e ottimo\n
+	+ spadaccino, combatte allungando le\n
+	+ lame che ha sui gomiti.
+   1dc	= Emana un forte magnetismo da\n
+	+ tutto il corpo. Controlla tre\n
+	+ piccole unità, dette Mininasi.
+   1dd	= Capta con l'antenna onde che arri-\n
+	+ vano dal mondo degli spiriti, che gli\n
+	+ ordinano di portare lì le persone.
+   1de	= Congela i nemici con un alito\n
+	+ glaciale a -50°C. Il suo corpo\n
+	+ è vuoto.
+   1df	= Il suo corpo è composto di plasma.\n
+	+ È solito infiltrarsi negli strumenti\n
+	+ elettronici per provocare caos.
+   1e0	= Noto come “Essere della\n
+	+ conoscenza”. Pare che faccia per-\n
+	+ dere la memoria a chiunque lo fissi.
+   1e1	= Detto “Essere delle emozioni”.\n
+	+ Ha insegnato agli uomini la nobiltà\n
+	+ di tristezza, gioia e dolore.
+   1e2	= Detto “Essere della volontà”.\n
+	+ Dorme sul fondo di un lago per\n
+	+ mantenere il mondo in equilibrio.
+   1e3	= Ha il potere di controllare il tempo.\n
+	+ Descritto nei miti della regione di\n
+	+ Sinnoh come un'antica divinità.
+   1e4	= Ha l'abilità di distorcere lo spazio.\n
+	+ Nella mitologia della regione di\n
+	+ Sinnoh è una divinità.
+   1e5	= Vive nelle cavità dei vulcani. Scava\n
+	+ con i suoi piedi a croce per scalare\n
+	+ pareti e arrampicarsi sui soffitti.
+   1e6	= Una leggenda narra che questo\n
+	+ Pokémon abbia trainato i continenti\n
+	+ con delle funi.
+   1e7	= Pokémon che vive in un mondo sul\n
+	+ lato opposto al nostro. Appare in\n
+	+ cimiteri antichi.
+   1e8	= Volando rilascia un velo di \n
+	+ particelle brillanti. Si dice che\n
+	+ rappresenti la luna crescente.
+   1e9	= Vive nei mari caldi. Sulla testa ha\n
+	+ un galleggiante gonfiabile grazie al\n
+	+ quale nuota alla ricerca di cibo.
+   1ea	= Nato su freddi fondali marini, per-\n
+	+ corre a nuoto lunghe distanze per\n
+	+ tornare al suo luogo di nascita.
+   1eb	= Ha l'abilità di far addormentare la\n
+	+ gente e farla sognare. È attivo\n
+	+ nelle notti di luna nuova.
+   1ec	= Vive nei campi di fiori e cerca di\n
+	+ non farsi vedere arrotolandosi per\n
+	+ sembrare una pianta fiorita.
+   1ed	= Nella mitologia è descritto come il\n
+	+ Pokémon che ha dato forma all'uni-\n
+	+ verso con le sue 1000 braccia.
+
