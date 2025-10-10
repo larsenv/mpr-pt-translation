@@ -629,7 +629,7 @@
    14b	= ★
    14c	= ◆
    1ae	= Calendar: %ls %ls\n
-i Mii creati nel Canale Mii.	i Mii creati nel Canale Mii.+i Mii creati nel Canale Mii. i Mii creati nel Canale Mii.ii Mii creati nel Canale Mii. i Mii creati nel Canale Mii.Mi Mii creati nel Canale Mii.ii Mii creati nel Canale Mii.ii Mii creati nel Canale Mii. i Mii creati nel Canale Mii.ci Mii creati nel Canale Mii.ri Mii creati nel Canale Mii.ei Mii creati nel Canale Mii.ai Mii creati nel Canale Mii.ti Mii creati nel Canale Mii.ii Mii creati nel Canale Mii. i Mii creati nel Canale Mii.ni Mii creati nel Canale Mii.ei Mii creati nel Canale Mii.li Mii creati nel Canale Mii. i Mii creati nel Canale Mii.Ci Mii creati nel Canale Mii.ai Mii creati nel Canale Mii.ni Mii creati nel Canale Mii.ai Mii creati nel Canale Mii.li Mii creati nel Canale Mii.ei Mii creati nel Canale Mii. i Mii creati nel Canale Mii.Mi Mii creati nel Canale Mii.ii Mii creati nel Canale Mii.ii Mii creati nel Canale Mii..i Mii creati nel Canale Mii.
+	+ i Mii creati nel Canale Mii.
    1af	= Adjust your Wii console's\n
 	+ Canale Mii dal menu Wii.\n
 	+ Press \x{e042} to go to the\n
@@ -639,8 +639,8 @@ i Mii creati nel Canale Mii.	i Mii creati nel Canale Mii.+i Mii creati nel Canal
    1b1	= Please note: when the time is\n
 	+ Va bene?
 	+ game.
-impostato correttamente\n	impostato correttamente\n+impostato correttamente\n impostato correttamente\niimpostato correttamente\nmimpostato correttamente\npimpostato correttamente\noimpostato correttamente\nsimpostato correttamente\ntimpostato correttamente\naimpostato correttamente\ntimpostato correttamente\noimpostato correttamente\n impostato correttamente\ncimpostato correttamente\noimpostato correttamente\nrimpostato correttamente\nrimpostato correttamente\neimpostato correttamente\ntimpostato correttamente\ntimpostato correttamente\naimpostato correttamente\nmimpostato correttamente\neimpostato correttamente\nnimpostato correttamente\ntimpostato correttamente\neimpostato correttamente\n\impostato correttamente\nnimpostato correttamente\n
-nel menu Wii. Premi \x{e042}\n	nel menu Wii. Premi \x{e042}\n+nel menu Wii. Premi \x{e042}\n nel menu Wii. Premi \x{e042}\nnnel menu Wii. Premi \x{e042}\nenel menu Wii. Premi \x{e042}\nlnel menu Wii. Premi \x{e042}\n nel menu Wii. Premi \x{e042}\nmnel menu Wii. Premi \x{e042}\nenel menu Wii. Premi \x{e042}\nnnel menu Wii. Premi \x{e042}\nunel menu Wii. Premi \x{e042}\n nel menu Wii. Premi \x{e042}\nWnel menu Wii. Premi \x{e042}\ninel menu Wii. Premi \x{e042}\ninel menu Wii. Premi \x{e042}\n.nel menu Wii. Premi \x{e042}\n nel menu Wii. Premi \x{e042}\nPnel menu Wii. Premi \x{e042}\nrnel menu Wii. Premi \x{e042}\nenel menu Wii. Premi \x{e042}\nmnel menu Wii. Premi \x{e042}\ninel menu Wii. Premi \x{e042}\n nel menu Wii. Premi \x{e042}\n\nel menu Wii. Premi \x{e042}\nxnel menu Wii. Premi \x{e042}\n{nel menu Wii. Premi \x{e042}\nenel menu Wii. Premi \x{e042}\n0nel menu Wii. Premi \x{e042}\n4nel menu Wii. Premi \x{e042}\n2nel menu Wii. Premi \x{e042}\n}nel menu Wii. Premi \x{e042}\n\nel menu Wii. Premi \x{e042}\nnnel menu Wii. Premi \x{e042}\n
+	+ impostato correttamente\n
+	+ nel menu Wii. Premi \x{e042}\n
 	+ \x{e043} and \x{e041}↓ have been pushed.\n
 	+ Starting the game without\n
 	+ è stato riportato indietro.
@@ -657,7 +657,7 @@ nel menu Wii. Premi \x{e042}\n	nel menu Wii. Premi \x{e042}\n+nel menu Wii. Prem
    1bc	= Use the Wii Remote to move\n
 	+ the cursor.
    1bd	= Focus
-Vuoi tornare al menu Wii? Vuoi tornare al menu Wii? Vuoi tornare al menu Wii? Vuoi tornare al menu Wii?1Vuoi tornare al menu Wii?5Vuoi tornare al menu Wii?8Vuoi tornare al menu Wii?	Vuoi tornare al menu Wii?=Vuoi tornare al menu Wii? Vuoi tornare al menu Wii?VVuoi tornare al menu Wii?uVuoi tornare al menu Wii?oVuoi tornare al menu Wii?iVuoi tornare al menu Wii? Vuoi tornare al menu Wii?tVuoi tornare al menu Wii?oVuoi tornare al menu Wii?rVuoi tornare al menu Wii?nVuoi tornare al menu Wii?aVuoi tornare al menu Wii?rVuoi tornare al menu Wii?eVuoi tornare al menu Wii? Vuoi tornare al menu Wii?aVuoi tornare al menu Wii?lVuoi tornare al menu Wii? Vuoi tornare al menu Wii?mVuoi tornare al menu Wii?eVuoi tornare al menu Wii?nVuoi tornare al menu Wii?uVuoi tornare al menu Wii? Vuoi tornare al menu Wii?WVuoi tornare al menu Wii?iVuoi tornare al menu Wii?iVuoi tornare al menu Wii??Vuoi tornare al menu Wii?
+   158	= Vuoi tornare al menu Wii?
 	+ to look at and press \x{e042}.
    1bf	= Basic Operations (2)
    15b	= Se cancelli, perderai i Pokémon!
@@ -803,8 +803,8 @@ Vuoi tornare al menu Wii? Vuoi tornare al menu Wii? Vuoi tornare al menu Wii? Vu
 	+ those pictures to your Wii\n
    1a1	= 
    1a2	= 
-Album (2) Album (2) Album (2) Album (2)1Album (2)aAlbum (2)3Album (2)	Album (2)=Album (2) Album (2)AAlbum (2)lAlbum (2)bAlbum (2)uAlbum (2)mAlbum (2) Album (2)(Album (2)2Album (2))Album (2)
-Cancella Cancella Cancella Cancella1CancellaaCancella4Cancella	Cancella=Cancella CancellaCCancellaaCancellanCancellacCancellaeCancellalCancellalCancellaaCancella
+   1a3	= Album (2)
+   1a4	= Cancella
    1a5	= Puoi cancellare la foto che\n
 	+ stai guardando.
    211	= Album (4)
@@ -812,12 +812,12 @@ Cancella Cancella Cancella Cancella1CancellaaCancella4Cancella	Cancella=Cancella
    213	= You can save pictures to an\n
 	+ SD Card inserted into the\n
 	+ SD Card slot.
-Scegliendo questa opzione \n Scegliendo questa opzione \n Scegliendo questa opzione \n Scegliendo questa opzione \n1Scegliendo questa opzione \naScegliendo questa opzione \naScegliendo questa opzione \n	Scegliendo questa opzione \n=Scegliendo questa opzione \n Scegliendo questa opzione \nSScegliendo questa opzione \ncScegliendo questa opzione \neScegliendo questa opzione \ngScegliendo questa opzione \nlScegliendo questa opzione \niScegliendo questa opzione \neScegliendo questa opzione \nnScegliendo questa opzione \ndScegliendo questa opzione \noScegliendo questa opzione \n Scegliendo questa opzione \nqScegliendo questa opzione \nuScegliendo questa opzione \neScegliendo questa opzione \nsScegliendo questa opzione \ntScegliendo questa opzione \naScegliendo questa opzione \n Scegliendo questa opzione \noScegliendo questa opzione \npScegliendo questa opzione \nzScegliendo questa opzione \niScegliendo questa opzione \noScegliendo questa opzione \nnScegliendo questa opzione \neScegliendo questa opzione \n Scegliendo questa opzione \n\Scegliendo questa opzione \nnScegliendo questa opzione \n
+   1aa	= Scegliendo questa opzione \n
 	+ puoi inviare le foto alla\n
    215	= You can delete all of the My Pokémon\n
 	+ amici Wii e vederle nel\n
    216	= 
-Quando non c'è più spazio\n	Quando non c'è più spazio\n+Quando non c'è più spazio\n Quando non c'è più spazio\nQQuando non c'è più spazio\nuQuando non c'è più spazio\naQuando non c'è più spazio\nnQuando non c'è più spazio\ndQuando non c'è più spazio\noQuando non c'è più spazio\n Quando non c'è più spazio\nnQuando non c'è più spazio\noQuando non c'è più spazio\nnQuando non c'è più spazio\n Quando non c'è più spazio\ncQuando non c'è più spazio\n'Quando non c'è più spazio\nèQuando non c'è più spazio\n Quando non c'è più spazio\npQuando non c'è più spazio\niQuando non c'è più spazio\nùQuando non c'è più spazio\n Quando non c'è più spazio\nsQuando non c'è più spazio\npQuando non c'è più spazio\naQuando non c'è più spazio\nzQuando non c'è più spazio\niQuando non c'è più spazio\noQuando non c'è più spazio\n\Quando non c'è più spazio\nnQuando non c'è più spazio\n
+	+ Quando non c'è più spazio\n
    218	= Album (5)
    219	= Save to SD Card
    21a	= Save all pictures in the\n
@@ -980,12 +980,12 @@ Quando non c'è più spazio\n	Quando non c'è più spazio\n+Quando non c'è più
 	+ Wii Friends' Ranches?
    1ee	= 
    1ef	= 
-Porta Mii Porta Mii Porta Mii Porta Mii1Porta MiifPorta Mii0Porta Mii	Porta Mii=Porta Mii Porta MiiPPorta MiioPorta MiirPorta MiitPorta MiiaPorta Mii Porta MiiMPorta MiiiPorta MiiiPorta Mii
+   1f0	= Porta Mii
 	+ your Wii Friends when this setting\n
 	+ is on.
-un massimo di 5 Mii. Man mano che\n	un massimo di 5 Mii. Man mano che\n+un massimo di 5 Mii. Man mano che\n un massimo di 5 Mii. Man mano che\nuun massimo di 5 Mii. Man mano che\nnun massimo di 5 Mii. Man mano che\n un massimo di 5 Mii. Man mano che\nmun massimo di 5 Mii. Man mano che\naun massimo di 5 Mii. Man mano che\nsun massimo di 5 Mii. Man mano che\nsun massimo di 5 Mii. Man mano che\niun massimo di 5 Mii. Man mano che\nmun massimo di 5 Mii. Man mano che\noun massimo di 5 Mii. Man mano che\n un massimo di 5 Mii. Man mano che\ndun massimo di 5 Mii. Man mano che\niun massimo di 5 Mii. Man mano che\n un massimo di 5 Mii. Man mano che\n5un massimo di 5 Mii. Man mano che\n un massimo di 5 Mii. Man mano che\nMun massimo di 5 Mii. Man mano che\niun massimo di 5 Mii. Man mano che\niun massimo di 5 Mii. Man mano che\n.un massimo di 5 Mii. Man mano che\n un massimo di 5 Mii. Man mano che\nMun massimo di 5 Mii. Man mano che\naun massimo di 5 Mii. Man mano che\nnun massimo di 5 Mii. Man mano che\n un massimo di 5 Mii. Man mano che\nmun massimo di 5 Mii. Man mano che\naun massimo di 5 Mii. Man mano che\nnun massimo di 5 Mii. Man mano che\noun massimo di 5 Mii. Man mano che\n un massimo di 5 Mii. Man mano che\ncun massimo di 5 Mii. Man mano che\nhun massimo di 5 Mii. Man mano che\neun massimo di 5 Mii. Man mano che\n\un massimo di 5 Mii. Man mano che\nnun massimo di 5 Mii. Man mano che\n
-il Ranch si ingrandisce, il numero\n	il Ranch si ingrandisce, il numero\n+il Ranch si ingrandisce, il numero\n il Ranch si ingrandisce, il numero\niil Ranch si ingrandisce, il numero\nlil Ranch si ingrandisce, il numero\n il Ranch si ingrandisce, il numero\nRil Ranch si ingrandisce, il numero\nail Ranch si ingrandisce, il numero\nnil Ranch si ingrandisce, il numero\ncil Ranch si ingrandisce, il numero\nhil Ranch si ingrandisce, il numero\n il Ranch si ingrandisce, il numero\nsil Ranch si ingrandisce, il numero\niil Ranch si ingrandisce, il numero\n il Ranch si ingrandisce, il numero\niil Ranch si ingrandisce, il numero\nnil Ranch si ingrandisce, il numero\ngil Ranch si ingrandisce, il numero\nril Ranch si ingrandisce, il numero\nail Ranch si ingrandisce, il numero\nnil Ranch si ingrandisce, il numero\ndil Ranch si ingrandisce, il numero\niil Ranch si ingrandisce, il numero\nsil Ranch si ingrandisce, il numero\ncil Ranch si ingrandisce, il numero\neil Ranch si ingrandisce, il numero\n,il Ranch si ingrandisce, il numero\n il Ranch si ingrandisce, il numero\niil Ranch si ingrandisce, il numero\nlil Ranch si ingrandisce, il numero\n il Ranch si ingrandisce, il numero\nnil Ranch si ingrandisce, il numero\nuil Ranch si ingrandisce, il numero\nmil Ranch si ingrandisce, il numero\neil Ranch si ingrandisce, il numero\nril Ranch si ingrandisce, il numero\noil Ranch si ingrandisce, il numero\n\il Ranch si ingrandisce, il numero\nnil Ranch si ingrandisce, il numero\n
-aumenta.	aumenta.+aumenta. aumenta.aaumenta.uaumenta.maumenta.eaumenta.naumenta.taumenta.aaumenta..aumenta.
+	+ un massimo di 5 Mii. Man mano che\n
+	+ il Ranch si ingrandisce, il numero\n
+   + aumenta.
 	+ up at the Ranch? You never know!
    271	= Let's set this to ON!
    272	 The initial setting is OFF.\n

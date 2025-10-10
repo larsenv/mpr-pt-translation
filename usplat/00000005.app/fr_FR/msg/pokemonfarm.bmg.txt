@@ -642,7 +642,7 @@
 	+ sélectionnant la chaîne Mii\n
 	+ \x{e043} and \x{e041}↓ have been pushed.\n
 	+ Starting the game without\n
-Vérification du calendrier\n Vérification du calendrier\n Vérification du calendrier\n Vérification du calendrier\n1Vérification du calendrier\n4Vérification du calendrier\nfVérification du calendrier\n	Vérification du calendrier\n=Vérification du calendrier\n Vérification du calendrier\nVVérification du calendrier\néVérification du calendrier\nrVérification du calendrier\niVérification du calendrier\nfVérification du calendrier\niVérification du calendrier\ncVérification du calendrier\naVérification du calendrier\ntVérification du calendrier\niVérification du calendrier\noVérification du calendrier\nnVérification du calendrier\n Vérification du calendrier\ndVérification du calendrier\nuVérification du calendrier\n Vérification du calendrier\ncVérification du calendrier\naVérification du calendrier\nlVérification du calendrier\neVérification du calendrier\nnVérification du calendrier\ndVérification du calendrier\nrVérification du calendrier\niVérification du calendrier\neVérification du calendrier\nrVérification du calendrier\n\Vérification du calendrier\nnVérification du calendrier\n
+   14f	= Vérification du calendrier\n
 	+ de la console Wii.
    150	= Calendrier: %ls %ls\n
    1b5	= Press the \x{e042} button to\n
@@ -671,7 +671,7 @@ Vérification du calendrier\n Vérification du calendrier\n Vérification du cal
    1c6	= Game data will automatically\n
 	+ be saved.\n
 	+ \n
-Déplacer le curseur Déplacer le curseur Déplacer le curseur Déplacer le curseur1Déplacer le curseur5Déplacer le curseurdDéplacer le curseur	Déplacer le curseur=Déplacer le curseur Déplacer le curseurDDéplacer le curseuréDéplacer le curseurpDéplacer le curseurlDéplacer le curseuraDéplacer le curseurcDéplacer le curseureDéplacer le curseurrDéplacer le curseur Déplacer le curseurlDéplacer le curseureDéplacer le curseur Déplacer le curseurcDéplacer le curseuruDéplacer le curseurrDéplacer le curseursDéplacer le curseureDéplacer le curseuruDéplacer le curseurrDéplacer le curseur
+   15d	= Déplacer le curseur
 	+ press RESET when you see\n
 	+ de la télécommande Wii.
    15f	= Suivre
@@ -766,7 +766,7 @@ Déplacer le curseur Déplacer le curseur Déplacer le curseur Déplacer le curs
 	+ you can more freely view the\n
 	+ Ranch.
 	+ activer ou désactiver le\n
-verrouillage de la caméra.\n	verrouillage de la caméra.\n+verrouillage de la caméra.\n verrouillage de la caméra.\nvverrouillage de la caméra.\neverrouillage de la caméra.\nrverrouillage de la caméra.\nrverrouillage de la caméra.\noverrouillage de la caméra.\nuverrouillage de la caméra.\niverrouillage de la caméra.\nlverrouillage de la caméra.\nlverrouillage de la caméra.\naverrouillage de la caméra.\ngverrouillage de la caméra.\neverrouillage de la caméra.\n verrouillage de la caméra.\ndverrouillage de la caméra.\neverrouillage de la caméra.\n verrouillage de la caméra.\nlverrouillage de la caméra.\naverrouillage de la caméra.\n verrouillage de la caméra.\ncverrouillage de la caméra.\naverrouillage de la caméra.\nmverrouillage de la caméra.\néverrouillage de la caméra.\nrverrouillage de la caméra.\naverrouillage de la caméra.\n.verrouillage de la caméra.\n\verrouillage de la caméra.\nnverrouillage de la caméra.\n
+	+ verrouillage de la caméra.\n
 	+ \x{e04a} : Take Picture\n
 	+ \x{e04b} + \x{e049} : Smooth Zoom
 	+ elle suivra toujours le Mii ou\n
@@ -816,7 +816,7 @@ verrouillage de la caméra.\n	verrouillage de la caméra.\n+verrouillage de la c
    215	= You can delete all of the My Pokémon\n
    19f	= Album
    216	= 
-que vous avez prises.	que vous avez prises.+que vous avez prises. que vous avez prises.qque vous avez prises.uque vous avez prises.eque vous avez prises. que vous avez prises.vque vous avez prises.oque vous avez prises.uque vous avez prises.sque vous avez prises. que vous avez prises.aque vous avez prises.vque vous avez prises.eque vous avez prises.zque vous avez prises. que vous avez prises.pque vous avez prises.rque vous avez prises.ique vous avez prises.sque vous avez prises.eque vous avez prises.sque vous avez prises..que vous avez prises.
+	+ que vous avez prises.
    218	= Album (5)
    219	= Save to SD Card
    21a	= Save all pictures in the\n
@@ -839,14 +839,14 @@ que vous avez prises.	que vous avez prises.+que vous avez prises. que vous avez 
 	+ You cannot withdraw Pokémon when\n
 	+ sur la chaîne photos. Si la\n
 	+ mémoire du bureau Wii est\n
-pleine, les éléments les\n	pleine, les éléments les\n+pleine, les éléments les\n pleine, les éléments les\nppleine, les éléments les\nlpleine, les éléments les\nepleine, les éléments les\nipleine, les éléments les\nnpleine, les éléments les\nepleine, les éléments les\n,pleine, les éléments les\n pleine, les éléments les\nlpleine, les éléments les\nepleine, les éléments les\nspleine, les éléments les\n pleine, les éléments les\népleine, les éléments les\nlpleine, les éléments les\népleine, les éléments les\nmpleine, les éléments les\nepleine, les éléments les\nnpleine, les éléments les\ntpleine, les éléments les\nspleine, les éléments les\n pleine, les éléments les\nlpleine, les éléments les\nepleine, les éléments les\nspleine, les éléments les\n\pleine, les éléments les\nnpleine, les éléments les\n
-plus anciens sont effacés.	plus anciens sont effacés.+plus anciens sont effacés. plus anciens sont effacés.pplus anciens sont effacés.lplus anciens sont effacés.uplus anciens sont effacés.splus anciens sont effacés. plus anciens sont effacés.aplus anciens sont effacés.nplus anciens sont effacés.cplus anciens sont effacés.iplus anciens sont effacés.eplus anciens sont effacés.nplus anciens sont effacés.splus anciens sont effacés. plus anciens sont effacés.splus anciens sont effacés.oplus anciens sont effacés.nplus anciens sont effacés.tplus anciens sont effacés. plus anciens sont effacés.eplus anciens sont effacés.fplus anciens sont effacés.fplus anciens sont effacés.aplus anciens sont effacés.cplus anciens sont effacés.éplus anciens sont effacés.splus anciens sont effacés..plus anciens sont effacés.
+	+ pleine, les éléments les\n
+	+ plus anciens sont effacés.
    225	= Deposit Details (1)
    226	= Friends at the Ranch
    227	= You can check how many Pokémon\n
 	+ are deposited, and who stored them.\n
 	+ You can also sort the Pokémon\n
-Vous pouvez sauvegarder\n Vous pouvez sauvegarder\n Vous pouvez sauvegarder\n Vous pouvez sauvegarder\n1Vous pouvez sauvegarder\naVous pouvez sauvegarder\nfVous pouvez sauvegarder\n	Vous pouvez sauvegarder\n=Vous pouvez sauvegarder\n Vous pouvez sauvegarder\nVVous pouvez sauvegarder\noVous pouvez sauvegarder\nuVous pouvez sauvegarder\nsVous pouvez sauvegarder\n Vous pouvez sauvegarder\npVous pouvez sauvegarder\noVous pouvez sauvegarder\nuVous pouvez sauvegarder\nvVous pouvez sauvegarder\neVous pouvez sauvegarder\nzVous pouvez sauvegarder\n Vous pouvez sauvegarder\nsVous pouvez sauvegarder\naVous pouvez sauvegarder\nuVous pouvez sauvegarder\nvVous pouvez sauvegarder\neVous pouvez sauvegarder\ngVous pouvez sauvegarder\naVous pouvez sauvegarder\nrVous pouvez sauvegarder\ndVous pouvez sauvegarder\neVous pouvez sauvegarder\nrVous pouvez sauvegarder\n\Vous pouvez sauvegarder\nnVous pouvez sauvegarder\n
+   1af	= Vous pouvez sauvegarder\n
 	+ des photos sur une carte\n
 	+ \n
 	+ Also, you can change the Mii\n
@@ -1017,9 +1017,9 @@ Vous pouvez sauvegarder\n Vous pouvez sauvegarder\n Vous pouvez sauvegarder\n Vo
 	+ started a new game on the Nintendo\n
 	+ DS Pokémon game. Can I withdraw the\n
 	+ Pokémon to that Game Card?
-il disparaît également du Ranch!	il disparaît également du Ranch!+il disparaît également du Ranch! il disparaît également du Ranch!iil disparaît également du Ranch!lil disparaît également du Ranch! il disparaît également du Ranch!dil disparaît également du Ranch!iil disparaît également du Ranch!sil disparaît également du Ranch!pil disparaît également du Ranch!ail disparaît également du Ranch!ril disparaît également du Ranch!ail disparaît également du Ranch!îil disparaît également du Ranch!til disparaît également du Ranch! il disparaît également du Ranch!éil disparaît également du Ranch!gil disparaît également du Ranch!ail disparaît également du Ranch!lil disparaît également du Ranch!eil disparaît également du Ranch!mil disparaît également du Ranch!eil disparaît également du Ranch!nil disparaît également du Ranch!til disparaît également du Ranch! il disparaît également du Ranch!dil disparaît également du Ranch!uil disparaît également du Ranch! il disparaît également du Ranch!Ril disparaît également du Ranch!ail disparaît également du Ranch!nil disparaît également du Ranch!cil disparaît également du Ranch!hil disparaît également du Ranch!!il disparaît également du Ranch!
-Montrer mon Ranch Montrer mon Ranch Montrer mon Ranch Montrer mon Ranch1Montrer mon RanchfMontrer mon Ranch5Montrer mon Ranch	Montrer mon Ranch=Montrer mon Ranch Montrer mon RanchMMontrer mon RanchoMontrer mon RanchnMontrer mon RanchtMontrer mon RanchrMontrer mon RancheMontrer mon RanchrMontrer mon Ranch Montrer mon RanchmMontrer mon RanchoMontrer mon RanchnMontrer mon Ranch Montrer mon RanchRMontrer mon RanchaMontrer mon RanchnMontrer mon RanchcMontrer mon RanchhMontrer mon Ranch
-Si cette option est ACTIVEE... Si cette option est ACTIVEE... Si cette option est ACTIVEE... Si cette option est ACTIVEE...1Si cette option est ACTIVEE...fSi cette option est ACTIVEE...6Si cette option est ACTIVEE...	Si cette option est ACTIVEE...=Si cette option est ACTIVEE... Si cette option est ACTIVEE...SSi cette option est ACTIVEE...iSi cette option est ACTIVEE... Si cette option est ACTIVEE...cSi cette option est ACTIVEE...eSi cette option est ACTIVEE...tSi cette option est ACTIVEE...tSi cette option est ACTIVEE...eSi cette option est ACTIVEE... Si cette option est ACTIVEE...oSi cette option est ACTIVEE...pSi cette option est ACTIVEE...tSi cette option est ACTIVEE...iSi cette option est ACTIVEE...oSi cette option est ACTIVEE...nSi cette option est ACTIVEE... Si cette option est ACTIVEE...eSi cette option est ACTIVEE...sSi cette option est ACTIVEE...tSi cette option est ACTIVEE... Si cette option est ACTIVEE...ASi cette option est ACTIVEE...CSi cette option est ACTIVEE...TSi cette option est ACTIVEE...ISi cette option est ACTIVEE...VSi cette option est ACTIVEE...ESi cette option est ACTIVEE...ESi cette option est ACTIVEE....Si cette option est ACTIVEE....Si cette option est ACTIVEE....Si cette option est ACTIVEE...
+	+ il disparaît également du Ranch!
+   1f5	= Montrer mon Ranch
+   1f6	= Si cette option est ACTIVEE...
 	+ Pokémon game is erased, you cannot\n
 	+ withdraw the deposited Pokémon.
 	+ vos amis Wii peut même vous inviter à\n
