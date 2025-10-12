@@ -47,7 +47,7 @@
 #------------------------------------------------------------------------------
 
      0	= 
-     1	= Starte ein Pokémon Spiel auf dem\n
+     1	= Starte ein Pokémon-Spiel auf dem\n
 	+ DS-System und wähle im Startmenü\n
 	+ "Mit Wii verbinden".
      2	= Sollte diese Option nicht im\n
@@ -95,7 +95,7 @@
     1f	= %ls hat die\n
 	+ Ranch verlassen.
     20	= Nintendo DS-System wurde\n
-	+ nicht gefunden
+	+ nicht gefunden.
     21	= Verbindung mit Nintendo DS-\n
 	+ System fehlgeschlagen. Bitte\n
 	+ versuche es erneut.
@@ -164,7 +164,7 @@
     4d	= Foto schießen
     4e	= Hilfe
     4f	= Schwarzes Brett
-    50	= Achtung
+    50	= Achtung!
     51	= Optionen
     52	= Freier Modus
     53	= Auto-Modus
@@ -179,7 +179,7 @@
     5c	= Vorheriges Foto
     5d	= Löschen
     5e	= An Wii-Pinnwand heften
-    5f	= Auf %ls-Ranch
+    5f	= Auf der %ls-Ranch
     60	= %2d/%2d
     61	= Foto wird an die Wii-Pinnwand\n
 	+ geheftet. Einverstanden?
@@ -192,7 +192,7 @@
     66	= Dieses Foto auf der SD Card\n
 	+ speichern?
     67	= Foto wurde als\n
-	+ %2$4s%3$04d.JPG im\n
+	+ %2$.4s%3$04d.JPG im\n
 	+ Ordner \\DCIM\\%1$03dNIN01\n
 	+ auf der SD Card gespeichert.
     68	= Pokémon Ranch-News
@@ -209,7 +209,7 @@
 	+ werden überprüft...
     70	= Keine Fotos von "My Pokémon\n
 	+ Ranch" auf der SD Card\n
-	+ vorhanden
+	+ vorhanden.
     71	= Alle Fotos auf der SD Card\n
 	+ werden gelöscht...
     72	= Alle Fotos auf der SD Card\n
@@ -280,7 +280,7 @@
 	+ aufgetreten.
     8c	= Die SD Card konnte nicht\n
 	+ gelesen werden.
-    8d	= SD Card Speichervorgang...\n
+    8d	= SD Card-Speichervorgang...\n
 	+ Bitte SD Card nicht entfernen\n
 	+ und weder POWER-Schalter\n
 	+ noch RESET-Knopf betätigen.
@@ -295,7 +295,7 @@
 	+ Schalter noch den RESET-Knopf.
     91	= SD Card wurde formatiert.
     92	= SD Card konnte nicht formatiert\n
-	+ werden
+	+ werden.
     93	= Formatierung abgebrochen.\n
 	+ SD Card wurde entfernt.
     94	= Löschvorgang abgebrochen.\n
@@ -386,7 +386,7 @@
 	+ Max. Pokémon\n
 	+ Max. Miis\n
 	+ Pokémon aktuell\n
-	+ Nächster level
+	+ Nächster Level
     be	= %d\n
 	+ %ls\n
 	+ %d\n
@@ -463,7 +463,7 @@
     f7	= ♂
     f8	= ♀
     f9	= Freunde a. d. Ranch
-    fa	= Freunde auf der Ranch
+    fa	= Pokémon auf der Ranch
     fb	= Alle
     fc	= Favoriten
     fd	= Meine Pokémon
@@ -643,20 +643,20 @@
     1aa	= ◆
     1ab	= In "My Pokémon Ranch" treten\n
 	+ Miis auf, die im Mii-Kanal\n
-	+ erstellt wurden
+	+ erstellt wurden.
     1ac	= Erstelle auch du ein Mii. Den\n
-	+ Mii-kanal findest du im\n
+	+ Mii-Kanal findest du im\n
 	+ Wii-Menü. Drücke \x{e042}, um zum\n
 	+ Wii-Menü zurückzukehren.
-    1ad	= Synchronisierung mit internet\n
+    1ad	= Synchronisierung mit interner\n
 	+ Uhr der Wii-Konsole.
-    1ae	= Kalender. %ls,\n
+    1ae	= Kalender: %ls,\n
 	+ %ls Uhr. Ist das richtig?
     1af	= Stelle sicher, dass der Kalender\n
 	+ im Wii-Menü richtig eingestellt\n
 	+ ist. Drücke \x{e042}, um die\n
 	+ Wii-Optionen aufzurufen.
-    1b0	= Der kalender wurde\n
+    1b0	= Der Kalender wurde\n
 	+ zurückgestellt.
     1b1	= Hinweis: Wenn du die Uhr\n
 	+ zurückdrehst, kann das dazu\n
@@ -704,15 +704,15 @@
 	+ betätige bitte weder den\n
 	+ POWER-Schalter noch den\n
 	+ RESET-Knopf.
-    1c7	=
-    1c8	=
+    1c7	= 
+    1c8	= 
     1c9	= Wie höre ich auf?
     1ca	= Zurück zum Wii-Menü
     1cb	= Hier kannst du die Pokémon-Ranch\n
 	+ verlassen und ins Wii-Menü\n
 	+ zurückkehren.
-    1cc	=
-    1cd	=
+    1cc	= 
+    1cd	= 
     1ce	= Einführung
     1cf	= My Pokémon Ranch
     1d0	= Hier können Pokémon und Miis\n
@@ -723,17 +723,17 @@
 	+ bringst du auch die Pokémon aus\n
 	+ Pokémon Diamant- oder Perl-Edition\n
 	+ mit, um Leben auf die Ranch zu bringen.
-    1d1	=
-    1d2	=
-    1d3	= Platin Update Informationen (1)
-    1d4	= Platin Edition Funktionen
+    1d1	= 
+    1d2	= 
+    1d3	= Platin-Update-Informationen (1)
+    1d4	= Platin-Edition-Funktionen
     1d5	= ・My Pokémon Ranch kann nun mit\n
 	+ Pokémon Platin-Edition für den\n
 	+ Nintendo DS verbunden werden.
 	+ ・Während sich die Ranch vergrößert\n
 	+ kannst du nun bis zu 1.500 Pokémon\n
 	+ in ihr halten.
-    1d6	= Platin Update Informationen (2)
+    1d6	= Platin-Update-Informationen (2)
     1d7	= "Es gibt neue Dinge auszuprobieren!"
     1d8	= ・Mehr Optionen wurden dem Menü\n
 	+ hinzugefügt.\n
@@ -764,8 +764,8 @@
 	+ \n
 	+ ↑↓  Einzeln durchgehen\n
 	+ ←→  Seiten durchblättern
-    1e7	=
-    1e8	=
+    1e7	= 
+    1e8	= 
     1e9	= Ansicht zentrieren
     1ea	= Zentrieren
     1eb	= Drücke bei zentrierter\n
@@ -776,8 +776,8 @@
 	+ Die Kamera folgt dann dem\n
 	+ Pokémon oder Mii, das du\n
 	+ gewählt hast.
-    1ec	=
-    1ed	=
+    1ec	= 
+    1ed	= 
     1ee	= Modi
     1ef	= Freier Modus
     1f0	= In diesem Modus kannst du dich auf der\n
@@ -793,8 +793,8 @@
 	+ \x{e043} + \x{e058} : Bildschirm bewegen\n
 	+ \x{e045} : Vergrößern\n
 	+ \x{e046} : Verkleinern
-    1f6	=
-    1f7	=
+    1f6	= 
+    1f7	= 
     1f8	= Nunchuk
     1f9	= Im Freien Modus
     1fa	= Du kannst dich mit dem Nunchuk im\n
@@ -815,14 +815,14 @@
 	+ \n
 	+ Aktiviere den Schreibschutz bei Fotos,\n
 	+ die du im Album behalten willst.
-    200	=
-    201	=
+    200	= 
+    201	= 
     202	= Album (1)
     203	= Album
     204	= Hier kannst du alle von dir\n
 	+ geschossenen Fotos betrachten.
-    205	=
-    206	=
+    205	= 
+    206	= 
     207	= Album (2)
     208	= Löschen
     209	= Lösche das Foto, das du gerade\n
@@ -841,8 +841,8 @@
 	+ Beachte: Wenn der Speicher\n
 	+ voll ist, werden die ältesten\n
 	+ Fotos gelöscht!
-    20f	=
-    210	=
+    20f	= 
+    210	= 
     211	= Album (4)
     212	= Auf SD Card speichern
     213	= Mit dieser Option speicherst\n
@@ -852,8 +852,8 @@
 	+ löschen
     215	= Löscht alle Fotos von "My Pokémon\n
 	+ Ranch" auf der SD Card.
-    216	=
-    217	=
+    216	= 
+    217	= 
     218	= Album (5) 
     219	= Auf die SD Card speichern
     21a	= Speicher alle Fotos im\n
@@ -877,8 +877,8 @@
 	+ DS-Karte löschst und ein neues Spiel\n
 	+ beginnst, kannst du zuvor abgelegte\n
 	+ Pokémon nicht mehr mitnehmen.
-    223	=
-    224	=
+    223	= 
+    224	= 
     225	= Details (1)
     226	= Details
     227	= Hier kannst du nachsehen, wer welche\n
@@ -889,8 +889,8 @@
 	+ ändern, das die vom Nintendo DS-\n
 	+ System stammenden Pokémon\n
 	+ betreuen soll.
-    228	=
-    229	=
+    228	= 
+    229	= 
     22a	= Details (2)
     22b	= Pokémon auf der Ranch
     22c	= Du kannst nun die Pokémon\n
@@ -920,8 +920,8 @@
 	+ \n
 	+ Diese Funktion steht dir erst ab einem\n
 	+ bestimmten Ranch-Level zur Verfügung.
-    237	=
-    238	=
+    237	= 
+    238	= 
     239	= Favoriten (2)
     23a	= Zu Favoriten hinzufügen
     23b	= Zeige auf ein Pokémon und\n
@@ -942,10 +942,10 @@
 	+ Ranch informieren.
     241	= \n
 	+ Du kannst die "Heutige Musik" ändern.\n
-	+ Du kannst Pokéschau-Club Ranch, die\n
+	+ Du kannst eine Pokéschau-Club Ranch, die\n
 	+ du bereits besucht hast, wieder\n
 	+ besuchen.
-    242	=
+    242	= 
     243	= Gesuchte Pokémon (1)
     244	= Gesuchte Pokémon
     245= Eukalia gibt dir Tipps, wie du in\n
@@ -957,8 +957,8 @@
 	+ fangen und sie auf die Ranch\n
 	+ mitzunehmen. Vielleicht wirst du\n
 	+ belohnt, wenn du Erfolg hast!
-    246	=
-    247	=
+    246	= 
+    247	= 
     248	= Gesuchte Pokémon (2)
     249	= Fangtechniken überprüfen
     24a	= Drücke bei dem Gesuchten\n
@@ -974,8 +974,8 @@
     24e	= Ranch-Status
     24f	= Überprüfe den aktuellen Status\n
 	+ deiner Ranch.
-    250	=
-    251	=
+    250	= 
+    251	= 
     252	= Heutige Musik (1)
     253	= Heutige Musik
     254	= Du kannst die Titel\n
@@ -1002,8 +1002,8 @@
 	+ Ranch kommen sollen, und\n
 	+ passe die WiiConnect24-\n
 	+ Einstellungen an.
-    262	=
-    263	=
+    262	= 
+    263	= 
     264	= Nimm ein Mii mit
     265	= Anzahl der Miis
     266	= Zu Beginn kannst du nur fünf Miis dabei\n
@@ -1103,8 +1103,8 @@
 	+ \n
 	+ Wenn du fertig bist, zeige auf die Tür\n
 	+ oben links und drücke \x{e042}.
-    294	=
-    295	=
+    294	= 
+    295	= 
     296	= Miis auf der Ranch (2)
     297	= Miis jederzeit wählen
     298	= Du kannst deine Miis jederzeit im\n
