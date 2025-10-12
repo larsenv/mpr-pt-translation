@@ -46,110 +46,110 @@
 #
 #------------------------------------------------------------------------------
 
-    0	= $2$. $1$ 20$0$\n
-    + $4$\n
-    + Erhalten mit Lv. $3$.
-    1	= $2$. $1$ 20$0$\n
-    + $4$\n
-    + Offenbar erhalten mit\n
-    + Lv. $3$.
-    2	= $2$. $1$ 20$0$\n
-    + $4$\n
-    + Erhalten mit Lv. $3$.
-    3	= $7$. $6$ 20$5$\n
-    + Ei erhalten bei/von\n
-    + $8$.\n
-    + $2$. $1$ 20$0$\n
-    + Geschlüpft in/auf\n
-    + $4$.
-    4	= $7$. $6$ 20$5$\n
-    + Ei erhalten bei/von\n
-    + $8$.\n
-    + $2$. $1$ 20$0$\n
-    + Offenbar geschlüpft in/\n
-    + auf $4$.
-    5	= $7$. $6$ 20$5$\n
-    + Ei erhalten bei/von\n
-    + $8$.\n
-    + $2$. $1$ 20$0$\n
-    + Geschlüpft in/auf\n
-    + $4$.
-    6	= $7$. $6$ 20$5$\n
-    + Ei erhalten bei/von\n
-    + $8$.\n
-    + $2$. $1$ 20$0$\n
-    + Offenbar geschlüpft in/\n
-    + auf $4$.
-    7	= $2$. $1$ 20$0$\n
-    + $4$\n
-    + Schicksalhafte\n
-    + Begegnung mit Lv. $3$.
-    8	= $2$. $1$ 20$0$\n
-    + $4$\n
-    + Offenbar schicksalhafte\n
-    + Begegnung mit Lv. $3$.
-    9	= $7$. $6$ 20$5$\n
-    + Ei erhalten bei/von\n
-    + $8$.\n
-    + $2$. $1$ 20$0$\n
-    + Geschlüpft in/auf\n
-    + $4$.\n
-    + Schicksalhafte Begegn.
-    a	= $7$. $6$ 20$5$\n
-    + Ei erhalten bei/von\n
-    + $8$.\n
-    + $2$. $1$ 20$0$\n
-    + Offenbar geschlüpft in/\n
-    + auf $4$.\n
-    + Schicksalhafte Begegn.
-    b	= $7$. $6$ 20$5$\n
-    + $8$\n
-    + Ei ist angekommen.\n
-    + $2$. $1$ 20$0$\n
-    + Geschlüpft in/auf\n
-    + $4$.\n
-    + Schicksalhafte Begegn.
-    c	= $7$. $6$ 20$5$\n
-    + $8$\n
-    + Ei ist angekommen.\n
-    + $2$. $1$ 20$0$\n
-    + Offenbar geschlüpft in/\n
-    + auf $4$.\n
-    + Schicksalhafte Begegn.
-    d	= $7$. $6$ 20$5$\n
-    + Ei erhalten bei/von\n
-    + $8$.\n
-    + $2$. $1$ 20$0$\n
-    + Geschlüpft in/auf\n
-    + $4$.\n
-    + Schicksalhafte Begegn.
-    e	= $7$ $6$, 20$5$\n
-    + Ei erhalten bei/von\n
-    + $8$.\n
-    + $2$ $1$, 20$0$\n
-    + Offenbar geschlüpft in/\n
-    + auf $4$.\n
-    + Schicksalhafte Begegn.
-    f	= $1$ $2$, 20$0$\n
-    + $4$\n
-    + Angekommen mit Lv. $3$.
+     0	= $2$. $1$ 20$0$\n
+	+ $4$\n
+	+ Erhalten mit Lv. $3$.
+     1	= $2$. $1$ 20$0$\n
+	+ $4$\n
+	+ Offenbar erhalten mit\n
+	+ Lv. $3$.
+     2	= $2$. $1$ 20$0$\n
+	+ $4$\n
+	+ Erhalten mit Lv. $3$.
+     3	= $7$. $6$ 20$5$\n
+	+ Ei erhalten bei/von\n
+	+ $8$.\n
+	+ $2$. $1$ 20$0$\n
+	+ Geschlüpft in/auf\n
+	+ $4$.
+     4	= $7$. $6$ 20$5$\n
+	+ Ei erhalten bei/von\n
+	+ $8$.\n
+	+ $2$. $1$ 20$0$\n
+	+ Offenbar geschlüpft in/\n
+	+ auf $4$.
+     5	= $7$. $6$ 20$5$\n
+	+ Ei erhalten bei/von\n
+	+ $8$.\n
+	+ $2$. $1$ 20$0$\n
+	+ Geschlüpft in/auf\n
+	+ $4$.
+     6	= $7$. $6$ 20$5$\n
+	+ Ei erhalten bei/von\n
+	+ $8$.\n
+	+ $2$. $1$ 20$0$\n
+	+ Offenbar geschlüpft in/\n
+	+ auf $4$.
+     7	= $2$. $1$ 20$0$\n
+	+ $4$\n
+	+ Schicksalhafte\n
+	+ Begegnung mit Lv. $3$.
+     8	= $2$. $1$ 20$0$\n
+	+ $4$\n
+	+ Offenbar schicksalhafte\n
+	+ Begegnung mit Lv. $3$.
+     9	= $7$. $6$ 20$5$\n
+	+ Ei erhalten bei/von\n
+	+ $8$.\n
+	+ $2$. $1$ 20$0$\n
+	+ Geschlüpft in/auf\n
+	+ $4$.\n
+	+ Schicksalhafte Begegn.
+     a	= $7$. $6$ 20$5$\n
+	+ Ei erhalten bei/von\n
+	+ $8$.\n
+	+ $2$. $1$ 20$0$\n
+	+ Offenbar geschlüpft in/\n
+	+ auf $4$.\n
+	+ Schicksalhafte Begegn.
+     b	= $7$. $6$ 20$5$\n
+	+ $8$\n
+	+ Ei ist angekommen.\n
+	+ $2$. $1$ 20$0$\n
+	+ Geschlüpft in/auf\n
+	+ $4$.\n
+	+ Schicksalhafte Begegn.
+     c	= $7$. $6$ 20$5$\n
+	+ $8$\n
+	+ Ei ist angekommen.\n
+	+ $2$. $1$ 20$0$\n
+	+ Offenbar geschlüpft in/\n
+	+ auf $4$.\n
+	+ Schicksalhafte Begegn.
+     d	= $7$. $6$ 20$5$\n
+	+ Ei erhalten bei/von\n
+	+ $8$.\n
+	+ $2$. $1$ 20$0$\n
+	+ Geschlüpft in/auf\n
+	+ $4$.\n
+	+ Schicksalhafte Begegn.
+     e	= $7$. $6$ 20$5$\n
+	+ Ei erhalten bei/von\n
+	+ $8$.\n
+	+ $2$. $1$ 20$0$\n
+	+ Offenbar geschlüpft in/\n
+	+ auf $4$.\n
+	+ Schicksalhafte Begegn.
+     f	= $2$. $1$ 20$0$\n
+	+ $4$\n
+	+ Level $3$.
     10	= $7$. $6$ 20$5$\n
-    + Ein mysteriöses Pokémon-\n
-    + Ei. Erhalten bei/von\n
-    + $8$.
+	+ Ein mysteriöses Pokémon-\n
+	+ Ei. Erhalten bei/von\n
+	+ $8$.
     11	= $7$. $6$ 20$5$\n
-    + Ein mysteriöses Pokémon-\n
-    + Ei. Erhalten bei/von\n
-    + $8$.
+	+ Ein mysteriöses Pokémon-\n
+	+ Ei. Erhalten bei/von\n
+	+ $8$.
     12	= $7$. $6$ 20$5$\n
-    + Ein mysteriöses Pokémon-\n
-    + Ei. Erhalten bei\n
-    + $8$.
+	+ Ein mysteriöses Pokémon-\n
+	+ Ei. Erhalten bei\n
+	+ $8$.
     13	= $7$. $6$ 20$5$\n
-    + Ein sehr mysteriöses\n
-    + Pokémon-Ei aus\n
-    + $8$.
-    14	= Mysteriöser Ort
+	+ Ein sehr mysteriöses\n
+	+ Pokémon-Ei aus\n
+	+ $8$.
+    14	= Mysteriöse Zone
     15	= Zweiblattdorf
     16	= Sandgemme
     17	= Flori
@@ -364,6 +364,6 @@
     e8	= Reisender
     e9	= Urs
     ea	= Cynthia
-    eb	= Mysteriöser Ort
+    eb	= Mysteriöse Zone
 
 
