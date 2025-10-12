@@ -57,7 +57,7 @@
      5	= Du kannst es bei der Fangshow im\n
 	+ Park der Freunde fangen.
      6	= Entwickelt sich bei Levelanstieg von\n
-	+ NASGNET auf dem Kraterberg.
+	+ NASGNET im Kraterberg.
      7	= Entwickelt sich bei Levelanstieg von\n
 	+ SKORGLA, wenn es Scharfzahn hat.
      8	= Entwickelt sich bei Levelanstieg von\n
@@ -68,31 +68,35 @@
 	+ SNIEBEL, wenn es Scharfklaue hält.
      b	= Entwickelt sich bei Levelanstieg von\n
 	+ BARSCHWA.
-	+ in Mt. Coronet.
-     e	= Receive it in Veilstone City.
-     f	= Hatch the Egg Cynthia gave you in\n
-	+ Eterna City.
-    10	= Evolve NINCADA with room\n
-	+ in your party.
-    11	= Evolve by giving an item to\n
-     d	= Entwickelt sich bei Levelanstieg von\n
-    12	= Evolve when %ls%ls\n
-     e	= Entwickelt sich, wenn du\n
-    13	= Evolve %ls%ls by\n
-     f	= Entwickelt sich auf Level %3$d\n
-    14	= Evolve by trading\n
+     c    = Entwickelt sich bei Levelanstieg von\n
+     + EVOLI im Ewigwald.
+     d    = Entwickelt sich bei Levelanstieg von\n
+     + MAGNETON auf dem Kraterberg.
+     e	= Erhalte es in Schleiede.
+     f	= Brüte das Ei aus, das Cynthia\n
+     + dir in Ewigenau gegeben hat.
+    10	= Entwickle NINCADA mit Platz\n
+    + in deinem Team.
+    11	= Entwickelt sich, wenn du\n
+     + %ls%ls ein Item gibst.
+    12	= Entwickelt sich auf Level %3$d\n
+     + aus %1$ls%2$ls.
+    13	= Entwickelt sich, wenn dich\n
+     + %ls%ls genug mag.
+    14	= Entwickelt sich beim Tausch von\n
 	+ %ls%ls.
-    15	= Evolve during trade by making\n
-    11	= Entwickelt sich beim Tausch von\n
-    16	= Evolve by teaching a move and\n
-    12	= Hält %ls%ls beim\n
-    17	= Obtain an Egg at the Pokémon Day\n
-    13	= Entwickelt sich bei Levelanstieg und\n
-    18	= How to catch it is unknown.
-    19	= You can get it by trading\n
-	+ with other DS Pokémon games.
-    1a	= You can find it roaming\n 
-	+ around the Sinnoh region.
+    15	= Hält %ls%ls beim\n
+     + Tausch ein Item, entwickelt es sich.
+    16	= Entwickelt sich bei Levelanstieg und\n
+     + durch neue Attacke von %ls%ls.
+    17	= Finde ein Ei i. d. Pokémon-Pension\n
+     + von Trostu und lass es schlüpfen.
+    18	= Keine Tipps zum Fangen dieses\n
+     + Pokémon verfügbar.
+    19	= Tausche mit anderen DS Pokémon-\n
+     + Spielen um es zu erhalten.
+    1a	= Es wandert in der\n 
+	+ Sinnoh-Region.
     1b	= Route 201
     1c	= Route 202
     1d	= Route 203
@@ -130,44 +134,43 @@
     3d	= Route 228
     3e	= Route 229
     3f	= Route 230
-    40	= Honey Tree
-    41	= Ravaged Path
-    42	= Ruin Maniac Cave\n
-    3a	= Route 230
-    43	= Lake Acuity
-    44	= Sendoff Spring
-    45	= Celestic Town
-    46	= Snowpoint Temple
-    47	= Snowpoint Temple
-    48	= Snowpoint Temple
-    49	= Snowpoint Temple
-    4a	= Oreburgh Gate
-    4b	= Oreburgh Gate
-    4c	= Oreburgh Gate
-    4d	= Oreburgh Mine
+    40	= Honigbaum
+    41	= Verwüsteter Pfad
+    42	= Ruinenmaniac-Höhle
+    43	= See der Stärke
+    44	= Scheiedequelle
+    45	= Elyses
+    46	= Blizzach-Tempel
+    47	= Blizzach-Tempel
+    48	= Blizzach-Tempel
+    49	= Blizzach-Tempel
+    4a	= Erzelingen-Tor
+    4b	= Erzelingen-Tor
+    4c	= Erzelingen-Tor
+    4d	= Erzelingen-Mine
     4b	= Eiseninsel
-    4f	= Iron Island
-    50	= Iron Island
-    51	= Iron Island
-    52	= Iron Island
-    53	= Iron Island
-    54	= Trophy Garden
-    55	= Lake Verity
-    56	= Solaceon Ruins
+    4f	= Eiseninsel
+    50	= Eiseninsel
+    51	= Eiseninsel
+    52	= Eiseninsel
+    53	= Eiseninsel
+    54	= Trophäengarten
+    55	= See der Wahrheit
+    56	= Trostu-Ruinen
     54	= Weideburg Großmoor
     55	= Weideburg Großmoor
-    59	= Pastoria Great Marsh
-    5a	= Pastoria Great Marsh
-    5b	= Pastoria Great Marsh
-    5c	= Pastoria Great Marsh
-    5d	= Pastoria Great Marsh
-    5e	= Fuego Ironworks
-    5f	= Valley Windworks
-    60	= Victory Road
-    61	= Victory Road
-    62	= Victory Road
-    63	= Victory Road
-    64	= Victory Road
+    59	= Weideburg Großmoor
+    5a	= Weideburg Großmoor
+    5b	= Weideburg Großmoor
+    5c	= Weideburg Großmoor
+    5d	= Weideburg Großmoor
+    5e	= Feuriohütte
+    5f	= Windkraftwerk
+    60	= Siegesstraße
+    61	= Siegesstraße
+    62	= Siegesstraße
+    63	= Siegesstraße
+    64	= Siegesstraße
     62	= Kraterberg
     63	= Kraterberg
     64	= Kraterberg
@@ -176,364 +179,396 @@
     67	= Kraterberg
     68	= Kraterberg
     69	= Kraterberg
-    6d	= Mt. Coronet
-    6e	= Mt. Coronet
-    6f	= Mt. Coronet
-    70	= Mt. Coronet
-    71	= Mt. Coronet
-    72	= Sunyshore City
-    73	= Pastoria City
-    74	= Stark Mountain
-    75	= Stark Mountain
-    76	= Eterna City
-    77	= Eterna Forest
-    78	= Twinleaf Town
-    79	= Pokémon League
-    7a	= Wayward Cave
-    7b	= Wayward Cave
-    7c	= Wayward Cave
-    7d	= Canalave City
-    7e	= Turnback Cave
-    7f	= Old Chateau
-    80	= Resort Area
-    81	= Lake Valor
-    82	= Valor Lakefront
-    83	= Lost Tower
-    84	= Lost Tower
-    85	= Lost Tower
-    86	= Lost Tower
-    87	= Lost Tower
-    88	= Anytime
-    89	= Morning
-    8a	= Morning/Day
-    8b	= Night
-    8c	= Morning/Night
-    8d	= ・Lv. %d or higher
-    8e	= ・Honey Tree
-    8f	= ・When Defense > Attack
-    90	= ・Pastoria Great Marsh random daily
-    91	= ・HOUNDOUR Egg
-    92	= ・KOFFING Egg
-    93	= ・WHISMUR Egg
-    94	= ・SPINARAK Egg
-    95	= ・SHUPPET Egg
-    96	= ・POOCHYENA Egg
-    97	= ・LEDYBA Egg
-    98	= ・WYNAUT Egg
-    99	= ・TAILLOW Egg
-    9a	= ・SPHEAL Egg
-    9b	= ・SEEL Egg
-    9c	= ・ELEKID Egg
-    9d	= ・MAGBY Egg
-    9e	= ・Fishing: (Old Rod)
-    9f	= ・Fishing: (Good Rod)
-    a0	= ・Fishing: (Super Rod)
+    6d	= Kraterberg
+    6e	= Kraterberg
+    6f	= Kraterberg
+    70	= Kraterberg
+    71	= Kraterberg
+    72	= Sonnewik
+    73	= Weideburg
+    74	= Kahlberg
+    75	= Kahlberg
+    76	= Ewigenau
+    77	= Ewigwald
+    78	= Zweiblattdorf
+    79	= Pokémon Liga
+    7a	= Bizarre Höhle
+    7b	= Bizarre Höhle
+    7c	= Bizarre Höhle
+    7d	= Fleetburg
+    7e	= Höhle der Umkehr
+    7f	= Alte Villa
+    80	= Erholungsgebiet
+    81	= See der Kühnheit
+    82	= Kühnheitsufer
+    83	= Turm der Ruhenden
+    84	= Turm der Ruhenden
+    85	= Turm der Ruhenden
+    86	= Turm der Ruhenden
+    87	= Turm der Ruhenden
+    88	= Beliebig
+    89	= Morgens
+    8a	= Morgens/nachmittags
+    8b	= Nachts
+    8c	= Morgens/Nachts
+    8d	= ・Lv. %d oder höher
+    8e	= ・Honigbaum
+    8f	= ・Wenn Vert. > Angriff
+    90	= ・Zuf., tägl. Pokémon aus Großmoor.
+    91	= ・HUNDUSTER-Ei
+    92	= ・SMOGON-Ei
+    93	= ・FLURMEL-Ei
+    94	= ・WEBARAK-Ei
+    95	= ・SHUPPET-Ei
+    96	= ・FIFFYEN-Ei
+    97	= ・LEDYBA-Ei
+    98	= ・ISSO-Ei
+    99	= ・SCHWALBINI-Ei
+    9a	= ・SEEMOPS-Ei
+    9b	= ・JUROB-Ei
+    9c	= ・ELEKID-Ei
+    9d	= ・MAGBY-Ei
+    9e	= ・Mit Angel
+    9f	= ・Mit Profiangel
+    a0	= ・Mit Superangel
     a1	= ・Item: Up-Grade
-    a2	= ・Item: Dubious Disc
-    a3	= ・Item: Electirizer
-    a4	= ・Item: Shiny Stone
-    a5	= ・Item: Fire Stone
-    a6	= ・Item: Thunderstone
-    a7	= ・Item: DeepSeaTooth
-    a8	= ・Item: Magmarizer
-    a9	= ・Item: Metal Coat
-    aa	= ・Item: Dawn Stone
-    ab	= ・Item: Water Stone
-    ac	= ・Item: King's Rock
-    ad	= ・Item: Protector
-    ae	= ・Item: Reaper Cloth
-    af	= ・Item: Leaf Stone
-    b0	= ・Item: Dragon Scale
-    b1	= ・Item: Razor Fang
-    b2	= ・Item: Razor Claw
-    b3	= ・Item: Sun Stone
-    b4	= ・Item: Moon Stone
-    b5	= ・Item: DeepSeaScale
-    b6	= ・Item: Lax Incense
-    b7	= ・Item: Dusk Stone
-    b8	= ・Damp Rock
-    b9	= ・Icy Rock
-    ba	= ・Fossil: Helix Fossil
-    bb	= ・Fossil: Old Amber
-    bc	= ・Fossil: Dome Fossil
-    bd	= ・Fossil: Root Fossil
-    be	= ・Fossil: Armor Fossil
-    bf	= ・Fossil: Claw Fossil
-    c0	= ・Fossil: Skull Fossil
-    c1	= ・Dug up with an even Trainer ID number.
-    c2	= ・Dug up with an odd Trainer ID number.
-    c3	= ・When Attack = Defense
-    c4	= ・When Attack > Defense
-    c5	= ・On the water (Surf)
-    c6	= ・Diamond only
-    c7	= ・Pearl only
-    c8	= ・Pal Park
-    c9	= ・4 FL/Waterfall Area
-    ca	= ・About UNOWN
-    cb	= ・About FEEBAS
-    cc	= ・About DRIFLOON
-    cd	= ・About MIME JR.
-    ce	= ・About SPIRITOMB
-    cf	= ・About SHEDINJA
-    d0	= ・About BONSLY
-    d1	= ・Level up between 4 a.m. and 8 p.m.
-    d2	= ・Level up between 8 p.m. and 4 a.m.
-    d3	= ・Poké Radar required
-    d4	= ・Rare in Diamond
-    d5	= ・Rare in Pearl
-    d6	= ・Mass Outbreak
-    d7	= ・While having Double Hit learned
-    d8	= ・While having AncientPower learned
-    d9	= ・While having Rollout learned
-    da	= ・While having Mimic learned
-    db	= ・Dual Slot Emerald
-    dc	= ・Dual Slot FireRed
-    dd	= ・Dual Slot LeafGreen
-    de	= ・Dual Slot Ruby
-    df	= ・Dual Slot Sapphire
-    e0	= ・Dual Slot Any
-    e1	= ・After obtaining National Pokédex
-    e2	= ・Trophy Garden
-    e3	= ・WURMPLE Evolution
-    e4	= Get some Honey in Floaroma Meadow and\n
-    d2	= ・Nach Erhalt des Nat. Pokédex
-    d3	= ・Trophäengarten
-    d4	= Schmiere Honig, den du in den Auen von\n
-	+ Flori bekommst, auf einen Baum und warte\n
-    e5	= A new Pokémon is available daily in each\n
-	+ Welches das ist, hängt von der Art des\n
-	+ Baums ab.
-    d5	= Jeden Tag und in jedem Bereich des\n
-	+ Großmoors Weideburg kannst du neue\n
-    e6	= The Pokémon and location of the\n
-	+ ersten Ebene der Aussichtsplattform kannst\n
-	+ du schauen, welche heute unterwegs sind.
-    d6	= Ort und Typ der Pokémon-Erscheinungen\n
-	+ ändern sich täglich. Suche nach jemandem\n
-    e7	= Pokémon seen in the Trophy Garden change\n
-	+ Informationen darüber geben kann.
-    d7	= Hör dir die Geschichten von Herrn Reichedel\n
-    e8	= You can discover an Egg by leaving\n
-	+ im Trophäengarten fangen kannst. Jeden\n
-	+ HUNDEMON erscheint nur in Perl-Edition.
-    e9	= You can discover an Egg by leaving\n
-	+ bekommst du dieses Ei. Hinweis:\n
-	+ along with it at the Pokémon Day Care.
-    ea	= You can discover an Egg by leaving\n
-	+ SMOGMOG♀ und ein Pokémon, das es mag,\n
-	+ in die Pokémon-Pension schickst.
-    da	= Schick ein KRAKEELO♀ oder KRAWUMMS♀\n
-    eb	= You can discover an Egg by leaving\n
-	+ Pokémon-Pension, um dieses Ei zu erhalten.
-	+ along with it at the Pokémon Day Care.
-    ec	= You can discover an Egg by leaving\n
-	+ MAGNAYEN erscheint nur in Diamant-\n
-	+ Edition.
-    ed	= You can discover an Egg by leaving\n
-	+ ARIADOS♀ und ein Pokémon, das es mag,\n
-	+ along with it at the Pokémon Day Care.
-    ee	= You can discover an Egg by leaving\n
-	+ BANETTE♀ und ein Pokémon, das es mag,\n
-	+ along with it at the Pokémon Day Care.
-    ef	= You can discover an Egg by leaving\n
-	+ das es mag, in die Pokémon-Pension,\n
-	+ Tag hat er eine Geschichte auf Lager.
-    df	= Schick ein WOINGENAU♀ und ein Pokémon,\n
-	+ das es mag, in die Pokémon-Pension, um\n
-    f0	= You can discover an Egg by leaving\n
-	+ aber, dass eines von beiden Laxrauch\n
-	+ along with it at the Pokémon Day Care.
-    f1	= You can discover an Egg by leaving\n
-	+ SEALEO♀ and a Pokémon that gets\n
-	+ along with it at the Pokémon Day Care.
-    f2	= You can discover an Egg by leaving\n
-	+ DEWGONG♀ and a Pokémon that gets\n
-	+ along with it at the Pokémon Day Care.
-    f3	= You can discover an Egg by leaving\n
-	+ ELECTABUZZ♀ and a Pokémon that gets\n
-	+ along with it at the Pokémon Day Care.
-    f4	= You can discover an Egg by leaving\n
-	+ MAGMAR♀ and a Pokémon that gets\n
-	+ along with it at the Pokémon Day Care.
-    f5	= You can get an Up-Grade in Eterna City.
-    f6	= You can get a Dubious Disc on Route 225.
-    f7	= You can get a Dubious Disc in Team Galactic HQ.
-    f8	= Electirizer is an item that wild ELEKID\n
-	+ erhalten.
-    e1	= Du bekommst ein Up-Grade in Ewigenau.
-    e2	= Du bekommst eine Dubiosdisc auf\n
-    f9	= Electirizer is an item that wild ELECTABUZZ\n
-	+ sometimes have. You can catch\n
-	+ ELECTABUZZ at Route 222.
-    fa	= You can get a Shiny Stone on Iron Island\n
-    e3	= Du wirst feststellen, dass ein wildes ELEKID\n
-    fb	= You can get a Fire Stone in Fuego Ironworks.\n
-	+ Ein ELEKID findest du am Windkraftwerk.\n
-	+ Dual-Modus: Feuerrot.
-    fc	= You can get a Thunderstone in Sunyshore\n
-	+ der Eiseninsel oder auf Route 228.
-	+ Underground.
-    fd	= DeepSeaTooth is an item that wild\n
-	+ auch im Untergrund ausgraben.
-    fe	= Magmarizer is an item that wild MAGBY\n
-	+ sometimes have. You can catch\n
-	+ Untergrund ausgraben.
-    e7	= Ein Abysszahn wird manchmal von einem\n
-    ff	= Magmarizer is an item that wild MAGMAR\n
-	+ sometimes have. You can catch\n
-	+ MAGMAR at Fuego Ironworks.
-   100	= Metal Coat is an item that wild BRONZOR\n
-    e8	= MAGBY hält manchmal einen Magmaisierer\n
-   101	= You can get a Dawn Stone at Mt. Coronet\n
-	+ Route 227.\n
-   102	= You can get a Water Stone on Route 213.\n
-	+ You can also get it by digging in the\n
-	+ Underground.
-   103	= King's Rock is an item that Pokémon with\n
-	+ dem Kraterberg oder auf Route 225.
-   104	= You can get a Protector on Route 228.
-   105	= You can get a Reaper Cloth on Route 229.
-   106	= You can get a Leaf Stone in Floaroma\n
-    ec	= Ein King-Stein kann manchmal von einem\n
-	+ Pokémon mit der Fähigkeit Mitnahme\n
-   107	= Dragon Scale is an item that wild HORSEA\n
-    ed	= Einen Schützer findest du auf Route 228.
-   108	= You can get a Sun Stone by digging\n
-	+ auf Route 229.
-    ef	= Du findest einen Blattstein in den\n
-   109	= You can get a Moon Stone by digging\n
-	+ in the Underground. Also, wild\n
-    f0	= Manchmal findest du eine Drachenhaut im\n
-   10a	= DeepSeaScale is an item that wild\n
-    f1	= Du findest manchmal einen Sonnenstein,\n
-   10b	= You can get a Dusk Stone in the Galactic\n
-	+ Manchmal hält ihn auch ein SONNFEL.
-   10c	= Dig for Fossils in the Underground using\n
-	+ ausgegraben werden. Sie werden manchmal\n
-	+ aber auch von LUNASTEIN gehalten.
-   10d	= Pal Park is available on Route 221\n
-	+ RELICANTH, das eine Abyssplatte hält.
-    f4	= Gelegentlich findet man einen Finsterstein\n
-	+ im Galaktik-Gebäude oder auf der\n
-	+ Siegesstraße.
-   10e	= Once you catch 26 kinds of UNOWN,\n
-	+ Wenn du dich unter der Erde befindest,\n
-	+ grabe nach Fossilen. Sobald du den\n
-	+ Nationalen Pokédex erhalten hast, findest\n
-   10f	= If its Attack is higher than its Defense, it\n
-    f6	= Route 221 zum Park der Freunde wird fertig\n
-	+ gestellt, wenn du den Nationalen Pokédex\n
-	+ erhältst. Dort kannst du Pokémon aus\n
-	+ GBA-Spielen mitbringen und bei der\n
-   110	= Fish by using Surf. FEEBAS only appear\n
-    f7	= Wenn du alle Arten von ICOGNITO fängst,\n
-	+ öffnet sich Route 214 zum Maniac-Tunnel.\n
-	+ Dort erreichst du einen Raum, in dem du\n
-   111	= It appears in front of Valley Windworks\n
-    f8	= Wenn Angriff höher als Verteidigung ist,\n
-   112	= Once you obtain the National Pokédex\n
-	+ NOCKCHAN. Wenn sich diese Werte\n
-	+ gleichen, erhältst du ein KAPOERA.
-   113	= 1. Put the Odd Keystone in the Broken\n
-	+ an vier Orten zu finden. Dort hast du eine\n
-	+ 50 %-Chance, dass sie anbeißen. Sie\n
-	+ erscheinen aber jeden Tag an einem anderen\n
-	+ Ort.
-   114	= You can get SHEDINJA if you have room\n
-	+ vor dem Windkraftwerk.
-    fb	= Sobald du den Nationalen Pokédex in Perl-\n
-   115	= Once you obtain the National Pokédex\n
-	+ Trophäengarten, nachdem du dir Herrn\n
-	+ after you have a little chat with Backlot.
-   116	= An EEVEE with high Friendship evolves to\n
-	+ Steinturms.\n
-	+ 2. Geh m. d. Forschersack zum Untergrund.\n
-   117	= Once you obtain the National Pokédex\n
-	+ 4. KRYPPUK erscheint am Geweihten Turm.
-   118	= You get the Poké Radar once you obtain\n
-	+ du eine Pokéball-Box frei hast, entwickelt es\n
-	+ sich zu NINJASK. Außerdem erhältst du ein\n
-	+ NINJATOM in deiner leeren Pokéball-Box!
-   119	= AIPOM learns Double Hit at Lv. 32.
-   11a	= TANGELA learns AncientPower at Lv. 33.
-   11b	= YANMA learns AncientPower at Lv. 33.
-   11c	= You can teach it AncientPower by\n
-    ff	= Wenn dich EVOLI ausreichend mag und sein\n
-	+ Level steigt, entwickelt es sich abhängig von\n
-	+ in the Underground.
-   11d	= LICKITUNG learns Rollout at Lv. 33.
-   11e	= BONSLY learns Mimic at Lv. 17.
-   11f	= MIME JR. learns Mimic at Lv. 18.
-   120	= It appears once you insert a GBA-series\n
-	+ in Pokémon Perl-Edition erhalten hast,\n
-	+ kannst du es auf Route 224 fangen.
-   121	= You can get a Razor Claw on either\n
-	+ Nationalen Pokédex hast. Wenn du es\n
-   122	= You can get a Razor Fang in the Battle Park.
-   123	= You can get a Razor Fang on Route 225.
-   124	= When WURMPLE reaches level 7,\n 
-	+ it evolves into SILCOON or CASCOON.
-   125	= Choose from the briefcase that\n
-   102	= GRIFFEL lernt Doppelschlag mit Level 32.
-   126	= Receive it from Prof. Rowan.
-   127	= Hatch the Egg Riley gave you on\n
-   104	= Yanma lernt Antik-Kraft mit Level 33.
-   128	= Investigate the TV in the\n
-	+ du dem Attacken-Helfer eine\n
-   129	= You can meet it at Lake Acuity.
-   12a	= After you meet it at Lake Verity, it\n
-   106	= Wenn SCHLURP Level 32 erreicht,\n
-   12b	= You can meet it at Lake Valor.
-   12c	= You can find it at the Spear Pillar\n
-	+ Pokémon-Spiel in den GBA-Modulschacht\n
-   12d	= You can meet it in Stark Mountain.
-   12e	= You can meet it in\n
-	+ Siegesstraße oder auf Route 224.
-   12f	= You can meet it in the\n
-   10a	= Nimm Prof. Eibes Aktentasche am\n
-   130	= You can meet it in the\n
-	+ Distortion World.
-   131	= After you find it at Fullmoon Island,\n
-   10b	= Bringe das Ei zum Schlüpfen, das\n
-   132	= You can choose either TURTWIG, PIPLUP,\n
-   10c	= Überprüfe nachts den Fernseher\n
-	+ in der Alten Villa.
-	+ friend trade with you.
-   133	= Adding REGIROCK, REGICE, and REGISTEEL\n
-	+ to your party enables you to find it.
-   134	= Morning/Night
-   135	= Have a high Beauty condition when\n
-	+ FEEBAS levels up.
-   136	= Have REMORAID in your party when\n
-	+ MANTYKE levels up.
-   137	= ・About MANTINE
-   138	= ・About MILOTIC
-   139	= ・About TURTWIG
-   13a	= ・About CHIMCHAR
-   13b	= ・About PIPLUP
-   13c	= ・About REGIGIGAS
-   13d	= ・About DIALGA
-   13e	= ・About PALKIA
-   13f	= ・About GIRATINA
-   140	= ・About ARTICUNO
-   141	= ・About ZAPDOS
-   142	= ・About MOLTRES
-   143	= Discover it at the Pokémon Day\n
-	+ Care in Solaceon Town.
-   144	= ・About Eggs
-   145	= You can discover an Egg by leaving a\n
-	+ Pokémon and a Pokémon that gets\n
-	+ along with it at the Pokémon Day Care.
-   146	= After entering the Hall of Fame,\n
-	+ talk to the elder of Celestic Town.\n
-	+ Requires an Adamant Orb.
-   147	= After entering the Hall of Fame,\n
-	+ talk to the elder of Celestic Town.\n
-	+ Requires a Lustrous Orb.
-   148	= After obtaining the National Dex,
-	+  go to Eterna City and\n
-	+ see Prof. Oak.
+    a2	= ・Item: Dubiosdisc
+    a3	= ・Item: Stromisierer
+    a4	= ・Item: Leuchtstein
+    a5	= ・Item: Feuerstein
+    a6	= ・Item: Donnerstein
+    a7	= ・Item: Abysszahn
+    a8	= ・Item: Magmaisierer 
+    a9	= ・Item: Metallmantel
+    aa	= ・Item: Funkelstein
+    ab	= ・Item: Wasserstein
+    ac	= ・Item: King-Stein
+    ad	= ・Item: Schützer
+    ae	= ・Item: Düsterumhang
+    af	= ・Item: Blattstein
+    b0	= ・Item: Drachenhaut
+    b1	= ・Item: Scharfzahn
+    b2	= ・Item: Scharfklaue
+    b3	= ・Item: Sonnenstein
+    b4	= ・Item: Mondstein
+    b5	= ・Item: Abyssplatte
+    b6	= ・Item: Laxrauch
+    b7	= ・Item: Finsterstein
+    b8	= ・Nassbrocken
+    b9	= ・Eisbrocken
+    ba	= ・Fossil: Helixfossil
+    bb	= ・Fossil: Altbernstein
+    bc	= ・Fossil: Domfossil
+    bd	= ・Fossil: Wurzelfossil
+    be	= ・Fossil: Panzerfossil
+    bf	= ・Fossil: Klauenfossil
+    c0	= ・Fossil: Kopffossil
+    c1	= ・Mit einer geraden Trainer ID ausgegraben.
+    c2	= ・Mit einer ungeraden Trainer ID ausgegraben.
+    c3	= ・Wenn Angriff = Vert.
+    c4	= ・Wenn Angriff > Vert.
+    c5	= ・Auf Wasser (mit Surfer)
+    c6	= ・Nur in Pokémon Diamant-Edition
+    c7	= ・Nur in Pokémon Perl-Edition
+    c8	= ・Park der Freunde
+    c9	= ・Vierstufiger Wasserfall
+    ca	= ・Infos über ICOGNITO
+    cb	= ・Infos über BARSCHWA
+    cc	= ・Infos über DRIFTLON
+    cd	= ・Infos über PANTIMIMI
+    ce	= ・Infos über SKRYPPUK
+    cf	= ・Infos über NINJASK
+    d0	= ・Infos über MOBAI
+    d1	= ・Levelanstieg zw. 4 und 20 Uhr
+    d2	= ・Levelanstieg zw. 20 und 4 Uhr
+    d3	= ・Pokéradar erforderlich
+    d4	= ・Pokémon Diamant-Edition - selten
+    d5	= ・Pokémon Perl-Edition - selten
+    d6	= ・Massenh. Erscheinen von Pokémon
+    d7	= ・Nach Erlernen von Doppelschlag
+    d8	= ・Nach Erlernen von Antik-Kraft
+    d9	= ・Nach Erlernen von Walzer
+    da	= ・Nach Erlernen von Mimikry
+    db	= ・Dual-Modus: Smaragd
+    dc	= ・Dual-Modus: Feuerrot
+    dd	= ・Dual-Modus: Blattgrün
+    de	= ・Dual-Modus: Rubin
+    df	= ・Dual-Modus: Saphir
+    e0	= ・Dual-Modus: beliebig
+    e1	= ・Nach Erhalt des Nat. Pokédex
+    e2	= ・Trophäengarten
+    e3	= ・Waumpel-Entwicklung
+    e4	= Schmiere Honig, den du in den Auen von\n
+     + Flori bekommst, auf einen Baum und warte\n
+     + einen halben Tag, bis ein Pokémon erscheint!\n
+     + Welches das ist, hängt von der Art des\n
+     + Baums ab.
+    e5	= Jeden Tag und in jedem Bereich des\n
+     + Großmoors Weideburg kannst du neue\n
+     + Pokémon fangen. Mit dem Teleskop auf der\n
+     + ersten Ebene der Aussichtsplattform kannst\n
+     + du schauen, welche heute unterwegs sind.
+    e6	= Ort und Typ der Pokémon-Erscheinungen\n
+     + ändern sich täglich. Suche nach jemandem\n
+     + in Sandgemme, der dir vielleicht nützliche\n
+     + Informationen darüber geben kann.
+    e7	= Hör dir die Geschichten von Herrn Reichedel\n
+     + gut an. Sie verraten dir, welche Pokémon du\n
+     + im Trophäengarten fangen kannst. Jeden\n
+     + Tag hat er eine Geschichte auf Lager.
+    e8	= Schick ein HUNDEMON♀ und ein Pokémon,\n
+     + das es mag, in die Pokémon-Pension, dann\n
+     + bekommst du dieses Ei. Hinweis:\n
+     + HUNDEMON erscheint nur in Perl-Edition.
+    e9	= Dieses Ei bekommst du, wenn du\n
+     + SMOGMOG♀ und ein Pokémon, das es mag,\n
+     + in die Pokémon-Pension schickst.
+    ea	= Schick ein KRAKEELO♀ oder KRAWUMMS♀\n
+     + und ein Pokémon, das es mag, in die\n
+     + Pokémon-Pension, um dieses Ei zu erhalten.
+    eb	= Wenn du ein MAGNAYEN♀ und ein\n
+     + Pokémon, das es mag, in die Pokémon-\n
+     + Pension schickst, bekommst du dieses Ei.\n
+     + MAGNAYEN erscheint nur in Diamant-\n
+     + Edition.
+    ec	= Dieses Ei kannst du bekommen, wenn du ein\n
+     + ARIADOS♀ und ein Pokémon, das es mag,\n
+     + in die Pokémon-Pension schickst.
+    ed	= Dieses Ei erhältst du, wenn du ein\n
+     + BANETTE♀ und ein Pokémon, das es mag,\n
+     + in die Pokémon-Pension schickst.
+    ee	= Schick ein LEDIAN♀ und ein Pokémon,\n
+     + das es mag, in die Pokémon-Pension,\n
+     + um dieses Ei zu erhalten.
+    ef	= Schick ein WOINGENAU♀ und ein Pokémon,\n
+     + das es mag, in die Pokémon-Pension, um\n
+     + dieses Ei zu erhalten. Vergewissere dich\n
+     + aber, dass eines von beiden Laxrauch\n
+     + bei sich trägt!
+    f0	= Wenn du ein SCHWALBOSS♀ und ein\n
+     + Pokémon, das es mag, in die Pokémon-\n
+     + Pension schickst, kannst du dieses Ei\n
+     + erhalten.
+    f1	= Wenn du ein SEEJONG♀ und ein\n
+     + Pokémon, das es mag, in die Pokémon-\n
+     + Pension schickst, kannst du dieses Ei\n
+     + erhalten.
+    f2	= Wenn du ein JUGONG♀ und ein\n
+     + Pokémon, das es mag, in die Pokémon-\n
+     + Pension schickst, kannst du dieses Ei\n
+     + erhalten.
+    f3	= Wenn du ein ELEKTEK♀ und ein\n
+     + Pokémon, das es mag, in die Pokémon-\n
+     + Pension schickst, kannst du dieses Ei\n
+     + erhalten.
+    f4	= Wenn du ein MAGMAR♀ und ein\n
+     + Pokémon, das es mag, in die Pokémon-\n
+     + Pension schickst, kannst du dieses Ei\n
+     + erhalten.
+    f5	= Du bekommst ein Up-Grade in Ewigenau.
+    f6	= Du bekommst eine Dubiosdisc auf\n
+     + Route 225.
+    f7	= Du bekommst eine Dubiosdisc im\n
+     + Galaktik-Gebäude von Schleiede.
+    f8	= Du wirst feststellen, dass ein wildes ELEKID\n
+     + manchmal einen Stromisierer bei sich hat.\n
+     + Ein ELEKID findest du am Windkraftwerk.\n
+     + Dual-Modus: Feuerrot.
+    f9	= Du wirst feststellen, dass ein wildes ELEKTEK\n
+     + manchmal einen Stromisierer bei sich hat.\n
+     + Ein ELEKTEK findest du auf Route 222.
+    fa	= Du findest einen Leuchtstein entweder auf\n
+     + der Eiseninsel oder auf Route 228.
+    fb	= Einen Feuerstein findest du in der\n
+     + Feuriohütte. Manchmal kann man sie\n
+     + auch im Untergrund ausgraben.
+    fc	= Du findest einen Donnerstein in Sonnewik.\n
+     + Manchmal kannst du einen auch im\n
+     + Untergrund ausgraben.
+    fd	= Ein Abysszahn wird manchmal von einem\n
+     + KANIVANHA oder einem TOHAIDO gehalten.
+    fe	= MAGBY hält manchmal einen Magmaisierer\n
+     + bei sich. Einem MAGBY begegnest du auf\n
+     + Route 227.\n
+     + Dual-Modus: Blattgrün
+    ff	= MAGMAR hält manchmal einen Magmaisierer\n
+     + bei sich. Einem MAGMAR begegnest du bei\n
+     + der Feuriohütte.
+   100	= Metallmäntel werden manchmal von\n
+     + BRONZEL oder STAHLOS getragen.
+   101	= Einen Funkelstein findest du entweder auf\n
+     + dem Kraterberg oder auf Route 227.
+   102	= Du findest einen Wasserstein auf Route 213.\n
+     + Manchmal kannst du auch einen im\n
+     + Untergrund ausgraben.
+   103	= Ein King-Stein kann manchmal von einem\n
+     + Pokémon mit der Fähigkeit Mitnahme\n
+     + ergattert werden.
+   104	= Einen Schützer findest du auf Route 228.
+   105	= Du findest einen Düsterumhang\n
+     + auf Route 229.
+   106	= Du findest einen Blattstein in den\n
+     + Auen von Flori oder manchmal auch,\n
+     + wenn du im Untergrund danach gräbst.
+   107	= Manchmal findest du eine Drachenhaut im\n
+     + Besitz von SEEPER oder SEEMON.
+   108	= Du findest manchmal einen Sonnenstein,\n
+     + wenn du im Untergrund danach gräbst.\n
+     + Manchmal hält ihn auch ein SONNFEL.
+   109	= Mondsteine können zuweilen im Untergrund\n
+     + ausgegraben werden. Sie werden manchmal\n
+     + aber auch von LUNASTEIN gehalten.
+   10a	= Manchmal begegnet man einem wilden\n
+     + RELICANTH, das eine Abyssplatte hält.
+   10b	= Gelegentlich findet man einen Finsterstein\n
+     + im Galaktik-Gebäude oder auf der\n
+     + Siegesstraße.
+   10c	= Nur mit dem Forschersack kommst du dahin.\n
+     + Wenn du dich unter der Erde befindest,\n
+     + grabe nach Fossilen. Sobald du den\n
+     + Nationalen Pokédex erhalten hast, findest\n
+     + du mehrere Fossilarten.
+   10d	= Route 221 zum Park der Freunde wird fertig\n
+     + gestellt, wenn du den Nationalen Pokédex\n
+     + erhältst. Dort kannst du Pokémon aus\n
+     + GBA-Spielen mitbringen und bei der\n
+     + Fangshow einfangen.
+   10e	= Wenn du alle Arten von ICOGNITO fängst,\n
+     + öffnet sich Route 214 zum Maniac-Tunnel.\n
+     + Dort erreichst du einen Raum, in dem du\n
+     + "!"- und "?"-ICOGNITO begegnest.
+   10f	= Wenn Angriff höher als Verteidigung ist,\n
+     + erhältst du ein KICKLEE, andersrum ein\n
+     + NOCKCHAN. Wenn sich diese Werte\n
+     + gleichen, erhältst du ein KAPOERA.
+   110	= Angle, während du surfst. BARSCHWA sind\n
+     + an vier Orten zu finden. Dort hast du eine\n
+     + 50 %-Chance, dass sie anbeißen. Sie\n
+     + erscheinen aber jeden Tag an einem anderen\n
+     + Ort.
+   111	= Es erscheint jede Woche am Freitag\n
+     + vor dem Windkraftwerk.
+   112	= Sobald du den Nationalen Pokédex in Perl-\n
+     + Edition bekommen hast, erscheint es im\n
+     + Trophäengarten, nachdem du dir Herrn\n
+     + Reichedels Geschichten angehört hast.
+   113	= 1. Lege den Spiritkern in die Ruine des\n
+     + Steinturms.\n
+     + 2. Geh m. d. Forschersack zum Untergrund.\n
+     + 3. Sprich mit 32 Personen.\n
+     + 4. KRYPPUK erscheint am Geweihten Turm.
+   114	= Wenn dein NINCADA Level 20 erreicht und\n
+     + du eine Pokéball-Box frei hast, entwickelt es\n
+     + sich zu NINJASK. Außerdem erhältst du ein\n
+     + NINJATOM in deiner leeren Pokéball-Box!
+   115	= Sobald du den Nationalen Pokédex auch in\n
+     + Diamant-Edition erhalten hast, erscheint es\n
+     + im Trophäengarten, nachdem du dir Herrn\n
+     + Reichedels Geschichten angehört hast.
+   116	= Wenn dich EVOLI ausreichend mag und sein\n
+     + Level steigt, entwickelt es sich abhängig von\n
+     + der Uhrzeit zu einem PSIANA oder einem\n
+     + NACHTARA.
+   117	= Nachdem du den Nationalen Pokédex auch\n
+     + in Pokémon Perl-Edition erhalten hast,\n
+     + kannst du es auf Route 224 fangen.
+   118	= Du bekommst das Pokéradar, wenn du den\n
+     + Nationalen Pokédex hast. Wenn du es\n
+     + einsetzt, erkennst du zitternde Grasflächen.\n
+     + Die solltest du genauer untersuchen!
+   119	= GRIFFEL lernt Doppelschlag mit Level 32.
+   11a	= TANGELA lernt Antik-Kraft mit Level 33.
+   11b	= Yanma lernt Antik-Kraft mit Level 33.
+   11c	= Es kann Antik-Kraft erlernen, wenn\n
+     + du dem Attacken-Helfer eine\n
+     + Herzschuppe gibst. Diese findest\n
+     + du durch Graben im Untergrund.
+   11d	= Wenn SCHLURP Level 32 erreicht,\n
+     + lernt es Walzer.
+   11e	= Wenn MOBAI Level 17 erreicht,\n
+     + lernt es Mimikry.
+   11f	= Wenn PANTIMIMI Level 18 erreicht,\n
+     + lernt es Mimikry.
+   120	= Erscheint, wenn du ein Game Boy Advance-\n
+     + Pokémon-Spiel in den GBA-Modulschacht\n
+     + des Nintendo DS steckst.
+   121	= Eine Scharfklaue findest du entweder auf der\n
+     + Siegesstraße oder auf Route 224.
+   122	= Du findest einen Scharfzahn im Duellpark.
+   123	= Du findest einen Scharfzahn auf Route 224.
+   124	= Wenn WAUMPEL Lebel 7 erreicht,\n
+     + entwickielt es sich in SCHALOKO oder PANEKON.
+   125	= Nimm Prof. Eibes Aktentasche am\n
+     + See der Wahrheit an dich.
+   126	= Erhalte es von Prof. Eich.
+   127	= Bringe das Ei zum Schlüpfen, das\n
+     + dir Hordeo auf der Eiseninsel gab.
+   128	= Überprüfe nachts den Fernseher\n
+     + in der Alten Villa.
+   129	= Du begegnest diesem Pokémon\n
+     + am See der Stärke.
+   12a	= Nach eurer Begegnung am See der\n
+     + Wahrheit fliegt es in Sinnoh umher.
+   12b	= Du begegnest diesem Pokémon\n
+     + am See der Kühnheit.
+   12c	= Du begegnest diesem Pokémon an\n
+     + der Speersäule des Kraterbergs.
+   12d	= Dieses Pokémon findest du am\n
+     + Kahlberg.
+   12e	= Du begegnest diesem Pokémon\n
+     + im Blizzach-Tempel.
+   12f	= Dieses Pokémon sollte unweit der\n
+     + Höhle der Umkehr zu finden sein.
+   130	= Du begegnest diesem Pokémon in\n
+     + der Zerrwelt.
+   131	= Es fliegt nach eurer Begegnung auf\n
+     + der Vollmond-Insel in Sinnoh\n
+     + herum.
+   132	= Du kannst dann zwischen CHELAST,\n
+     + PANFLAM oder PLINFA wählen. Wenn sich\n
+     + dein Freund für ein unterschiedliches\n
+     + Pokémon entschieden hat, kannst du die\n
+     + Pokémon mit ihm tauschen.
+   133	= Du kannst dieses Pokémon fangen, wenn\n
+     + sich REGIROCK, REGICE und REGISTEEL in\n
+     + deiner Gruppe befinden.
+   134	= Morgens/abends
+   135	= Sorge dafür, dass die Schönheit eines\n
+     + BARSCHWA ausreichend hoch ist, wenn\n
+     + der Level dieses Pokémon steigt.
+   136	= Sorge dafür, dass der Level von MANTIRPS\n
+     + steigt, während sich REMORAID in deiner\n
+     + Gruppe befindet.
+   137	= ・Infos über MANTAX
+   138	= ・Infos über MILOTIC
+   139	= ・Infos über CHELAST
+   13a	= ・Infos über PANFLAM
+   13b	= ・Infos über PLINFA
+   13c	= ・Infos über REGIGIGAS
+   13d	= ・Infos über DIALGA
+   13e	= ・Infos über PALKIA
+   13f	= ・Infos über GIRATINA
+   140	= ・Infos über ARKTOS
+   141	= ・Infos über ZAPDOS
+   142	= ・Infos über LAVADOS
+   143	= Dieses Ei findest du in der\n
+     + Pokémon-Pension von Trostu.
+   144	= ・Info über Eier
+   145	= Schick ♂ und ♀ Pokémon, die sich mögen,\n
+     + in die Pokémon-Pension, um ein Ei zu\n
+     + erhalten.
+   146	= Sprich mit der Ältesten in\n
+     + Elyses, nachdem du die Ruhmeshalle\n
+     + betreten hast.\n
+     + Benötigt den Adamant-Orb.
+   147	= Sprich mit der Ältesten in\n
+     + Elyses, nachdem du die Ruhmeshalle\n
+     + betreten hast.\n
+     + Benötigt den Weiß-Orb.
+   148	= Gehe nach Ewigenau, nachdem,\n
+     + du den Nat. Pokédex erhalten hast\n
+     + und sprich mit Prof. Eich.
    149	= 
-   14a	= New!
+   14a	= NEU!
 
 

@@ -66,149 +66,167 @@
     11	/
     12	/
     13	/
-    14	= The Wii Remote battery power\n
-	+ is running low.
+	14	= Die Batterieleistung der\n
+	+ Wii-Fernbedienung lässt nach.
     15	/
     16	/
     17	/
-    18	= There is not enough available\n
-	+ space in Wii system memory.\n
-	+ Create %d blocks\n
-	+ of free space either by moving data to\n
-	+ an SD Card or by deleting data in\n
-	+ the Save Data screen.
-    19	= There is not enough available\n
-	+ space in Wii system memory for\n
-	+ My Pokémon Ranch Platinum Version.\n
-	+ Create %d blocks\n
-	+ of free space either by moving data to\n
-	+ an SD Card or by deleting data in\n
-	+ the Save Data screen.
-    1a	= There is not enough available\n
-	+ space in Wii system memory.\n
-	+ Create 1 block\n
-	+ of free space either by moving data to\n
-	+ an SD Card or by deleting data in\n
-	+ the Save Data screen.
-    1b	= There is not enough available\n
-	+ space in Wii system memory for\n
-	+ My Pokémon Ranch Platinum Version.\n
-	+ Create 1 block\n
-	+ of free space either by moving data to\n
-	+ an SD Card or by deleting data in\n
-	+ the Save Data screen.
-    1c	= There is not enough available\n
-	+ space in Wii system memory.\n
-	+ Either move data to an\n
-	+ SD Card or delete data in the\n
-	+ Save Data screen.
-    1d	= There is not enough available\n
-	+ space in Wii system memory for\n
-	+ My Pokémon Ranch Platinum Version.\n
-	+ \fEither move data to an\n
-	+ SD Card or delete data in\n
-	+ My Pokémon Ranch.
-    1e	= There is an abnormal amount\n
-	+ of free space in Wii system memory.\n
+    18	= Es steht genug Speicherplatz\n
+	+ im Speicher der Wii zur verfügung.\n
+	+ Bitte schaffe %d Blöcke an freiem\n
+	+ Speicherplatz, indem du in den\n
+	+ Speicherdateneinstellungen Daten\n
+	+ auf die SD Card verschiebst oder löschst.
+    19	= Es steht nicht genug Speicherplatz\n
+	+ für My Pokémon Ranch Platin im Speicher\n
+	+ der Wii zur verfügung.\n
+	+ Bitte schaffe %d Blöcke an freiem\n
+	+ Speicherplatz, indem du in den\n
+	+ Speicherdateneinstellungen Daten\n
+	+ auf die SD Card verschiebst oder löschst.
+    1a	= Es steht genug Speicherplatz\n
+	+ im Speicher der Wii zur verfügung.\n
+	+ Bitte schaffe 1 Block an freiem\n
+	+ Speicherplatz, indem du in den\n
+	+ Speicherdateneinstellungen Daten\n
+	+ auf die SD Card verschiebst oder löschst.
+    1b	= Es steht nicht genug Speicherplatz\n
+	+ für My Pokémon Ranch Platin im Speicher\n
+	+ der Wii zur verfügung.\n
+	+ Bitte schaffe 1 Block an freiem\n
+	+ Speicherplatz, indem du in den\n
+	+ Speicherdateneinstellungen Daten\n
+	+ auf die SD Card verschiebst oder löschst.
+    1c	= Es steht genug Speicherplatz\n
+	+ im Speicher der Wii zur verfügung.\n
+	+ Bitte schaffe Speicherplatz, indem\n
+	+ du in den Speicherdateneinstellungen\n
+	+ Daten auf die SD Card\n
+	+ verschiebst oder löschst.
+    1d	= Es steht nicht genug Speicherplatz\n
+	+ für My Pokémon Ranch Platin im Speicher\n
+	+ der Wii zur verfügung.\n
+	+ Bitte schaffe Speicherplatz, indem\n
+	+ du in den Speicherdateneinstellungen\n
+	+ Daten auf die SD card\n
+	+ verschiebst oder löschst.
+    1e	= Es steht eine abnormale Menge\n
+	+ freier Speicherplatz im Speicher\n
+	+ der Wii zur Verfügung.\n
 	+ \n
-	+ Refer to the Wii Operations\n
-	+ Manual for details.
-    1f	= There is an abnormal number\n
-	+ of files in Wii system memory.\n
+	+ Bitte lies die\n
+	+ Wii-Bedienungsanleitung, um\n
+	+ weitere Informationen zu erhalten.
+    1f	= Es besteht eine abnormale Menge\n
+	+ an Dateien im Speicher\n
+	+ der Wii zur Verfügung.\n
 	+ \n
-	+ Refer to the Wii Operations\n
-	+ Manual for details.
+	+ Bitte lies die\n
+	+ Wii-Bedienungsanleitung, um\n
+	+ weitere Informationen zu erhalten.
     20	/
-    21	= The Wii system memory\n
-	+ has been damaged.\n
+    21	= Der Speicher der Wii\n
+	+ wurde beschädigt.\n
 	+ \n
-	+ Refer to the Wii Operations\n
-	+ Manual for details.
-    22	= Saving...\n
-	+ Don't turn off the power or\n
-	+ press RESET.
+	+ Bitte lies die\n
+	+ Wii-Bedienungsanleitung, um\n
+	+ weitere Informationen zu erhalten.
+    22	= Speichervorgang...\n
+	+ Bitte betätige weder den POWER-\n
+	+ Schalter noch den RESET-Knopf.\n
     23	/
-    24	= Could not access Wii system\n
-	+ memory.\n
-	+ \fRefer to the Wii Operations\n
-	+ Manual for details.
-    25	= An error occurred while\n
-	+ accessing Wii system memory.\n
-	+ \fRefer to the Wii Operations\n
-	+ Manual for details.
-    26	= The save data cannot be read.\n
-	+ You cannot start the game.\n
-	+ Please contact a Nintendo Service\n
-	+ Center. For more information,\n
-	+ see the Wii Operations Manual.\n
-	+ The error code is %03d%03d.\n
+    24	= Es konnte nicht auf den\n
+	+ Speicher der Wii zugegriffen\n
+	+ werden.\n
+	+ Bitte lies die\n
+	+ Wii-Bedienungsanleitung, um\n
+	+ weitere Informationen zu erhalten.
+    25	= Beim Zugriff auf den Speicher\n
+	+ der Wii ist ein Fehler aufgetreten.\n
+	+ \fBitte lies die\n
+	+ Wii-Bedienungsanleitung, um\n
+	+ weitere Informationen zu erhalten.
+    26	= Die Speicherdaten konnten\n
+	+ nicht gelesen werden.\n
+	+ Das Spiel kann nicht gestartet\n
+	+ werden. Bitte kontaktiere den\n
+	+ Nintendo-Kundenservice.\n
+	+ Bitte lies die\n
+	+ Wii-Bedienungsanleitung, um\n
+	+ weitere Informationen zu erhalten.\n
+	+ Fehlercode: %03d%03d.\n
 	+ \n
-	+ Please press and hold the\n
-	+ POWER Button for at least\n
-	+ four seconds to turn the\n
-	+ console off.	
-    27	= There is a problem with the\n
-	+ Wii system memory, so\n
-	+ WiiConnect24 cannot be\n
-	+ used.
-    28	= To use WiiConnect24, a\n
-	+ system update is required.\n
-	+ Refer to the Wii Operations\n
-	+ Manual for details.
-    29	= WiiConnect24 cannot be\n
-	+ used because an error has\n
-	+ occurred. Reset and try\n
-	+ again.
-    2a	= WiiConnect24 is\n
-	+ temporarily unavailable.\n
-	+ Please try again later.
-    2b	= The WiiConnect24 setting\n
-	+ is not turned on. Please\n
-	+ check the settings under\n
-	+ Wii Options. Refer to the\n
-	+ Wii Operations Manual for\n
-	+ details.
-    2c	= An Internet connection\n
-	+ cannot be established, so\n
-	+ WiiConnect24 cannot be\n
-	+ used. Check the Internet\n
-	+ settings and connection.\n
-	+ Refer to the Wii Operations\n
-	+ Manual for details.
-    2d	= WiiConnect24 is\n
-	+ temporarily unavailable.\n
-	+ Please try again later.
-    2e	== WiiConnect24 is\n
-	+ temporarily unavailable.\n
-	+ Please try again later.
-    2f	= There is a problem with the\n
-	+ Wii system memory, so\n
-	+ WiiConnect24 cannot be\n
-	+ used.
-    30	= WiiConnect24 cannot be\n
-	+ used because an error has\n
-	+ occurred. Reset and try\n
-	+ again.\n
+	+ Bitte betätige den POWER-Schalter\n
+	+ der Wii für 4 Sekunden um sie\n
+	+ auszuschalten.
+    27	= Es gibt ein Problem mit\n
+	+ dem Speicher der Wii.\n
+	+ WiiConnect24 kann nicht\n
+	+ benutzt werden.
+    28	= Ein Update wird benötigt\n
+	+ um WiiConnect24 zu nutzen.\n
+	+ Bitte lies die\n
+	+ Wii-Bedienungsanleitung, um\n
+	+ weitere Informationen zu erhalten.\n
+    29	= Aufgrund eines Fehlers\n
+	+ kann WiiConnect24 nicht benutzt\n
+	+ werden. Drücke die RESET-Taste\n
+	+ und versuche es erneut.
+    2a	= WiiConnect24 ist aktuell\n
+	+ nicht erreichbar.\n
+	+ Bitte versuche es später erneut\n
+    2b	= WiiConnect24 ist in den\n
+	+ Einstellungen deaktiviert.\n
+	+ Bitte kontrolliere die\n
+	+ Einstellungen der Wii\n
+	+ Bitte lies die\n
+	+ Wii-Bedienungsanleitung, um\n
+	+ weitere Informationen zu erhalten.\n
+    2c	= Es konnte keine\n
+	+ Netzwerkverbindung hergestellt\n
+	+ werden. WiiConnect24 kann nicht\n
+	+ benutzt werden. Überprüfe die\n
+	+ Interneteinstellungen und\n
+	+ deine Internetverbindung.\n
+	+ Bitte lies die\n
+	+ Wii-Bedienungsanleitung, um\n
+	+ weitere Informationen zu erhalten.\n
+    2d	= WiiConnect24 ist aktuell\n
+	+ nicht erreichbar.\n
+	+ Bitte versuche es später erneut\n
+    2e	= WiiConnect24 ist aktuell\n
+	+ nicht erreichbar.\n
+	+ Bitte versuche es später erneut\n
+    2f	= Es gibt ein Problem mit\n
+	+ dem Speicher der Wii.\n
+	+ WiiConnect24 kann nicht\n
+	+ benutzt werden.
+    30	= Aufgrund eines Fehlers\n
+	+ kann WiiConnect24 nicht benutzt\n
+	+ werden. Drücke die RESET-Taste\n
+	+ und versuche es erneut.
     31	/
-    32	= Use of network features has\n
-	+ been restricted.\n
+    32	= Die Verwendung von\n
+	+ Netzwerkfunktionen ist\n
+	+ eingeschränkt.\n
 	+ \n
 	+ \n
-	+ Please check the settings\n
-	+ for Parental Controls under\n
-	+ Wii Options.
+	+ Bitte kontrolliere die\n
+	+ Einstellungen der\n
+	+ Altersbeschränkungen in den\n
+	+ Einstellungen der Wii.
     33	/
     34	/
     35	/
     36	/
-    37	= Yes
-    38	= No
+    37	= Ja
+    38	= Nein
     39	/
-    3a	= Return
+    3a	= Zurück
     3b	/
     3c	/
     3d	/
-    3e	= Return to the Wii Menu.
+    3e	= Zurück zum Wii-Menü.
     3f	/
     40	/
     41	/
@@ -220,9 +238,10 @@
     47	/
     48	/
     49	/
-    4a	= Unable to load Mii Channel data.
-	+ Please access the Mii Channel
-	+ and check Mii Channel data.
+    4a	= Mii-Kanal-Daten konnten nicht\n
+	+ geladen werden. Bitte starte den\n
+	+ Mii-Kanal und überprüfe die\n
+	+ Mii-Kanal-Daten.
     4b	= My Pokémon Ranch
     4c	/
     4d	/
