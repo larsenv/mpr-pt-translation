@@ -254,7 +254,7 @@
         + datos del Canal Mii.\n
         + Ve al Canal Mii y comprueba\n
         + los datos.
-    4b	= My Pokémon Ranch: Edición Platino
+    4b	= My Pokémon Ranch
     4c	/
     4d	/
     4e	/
