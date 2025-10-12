@@ -46,110 +46,110 @@
 #
 #------------------------------------------------------------------------------
 
-     0	= $2$. $1$ 20$0$\n
-	+ $4$\n
-	+ Erhalten mit Lv. $3$.
-     1	= $2$. $1$ 20$0$\n
-	+ $4$\n
-	+ Offenbar erhalten mit\n
-	+ Lv. $3$.
-     2	= $2$. $1$ 20$0$\n
-	+ $4$\n
-	+ Erhalten mit Lv. $3$.
-     3	= $7$. $6$ 20$5$\n
-	+ Ei erhalten bei/von\n
-	+ $8$.\n
-	+ $2$. $1$ 20$0$\n
-	+ $4$\n
-	+ $4$.
-     4	= $7$. $6$ 20$5$\n
-	+ $8$\n
-	+ Egg obtained.\n
-	+ $1$ $2$, 20$0$\n
-	+ $4$\n
-	+ auf $4$.
-     5	= $7$. $6$ 20$5$\n
-	+ $8$\n
-	+ $8$.\n
-	+ $1$ $2$, 20$0$\n
-	+ $4$\n
-	+ Egg hatched.
-     6	= $7$. $6$ 20$5$\n
-	+ $8$\n
-	+ Egg received.\n
-	+ $1$ $2$, 20$0$\n
-	+ $4$\n
-	+ Egg apparently hatched.
-     7	= $2$. $1$ 20$0$\n
-	+ $4$\n
-	+ Schicksalhafte\n
-	+ Begegnung mit Lv. $3$.
-     8	= $2$. $1$ 20$0$\n
-	+ $4$\n
-	+ Offenbar schicksalhafte\n
-	+ Begegnung mit Lv. $3$.
-	+ Lv. $3$.
-	+ Ei erhalten bei/von\n
-	+ $8$\n
-	+ Egg obtained.\n
-	+ $1$ $2$, 20$0$\n
-	+ $4$\n
-	+ Schicksalhafte Begegn.
-     a	= $7$. $6$ 20$5$\n
-	+ Ei erhalten bei/von\n
-	+ $8$\n
-	+ Egg obtained.\n
-	+ $1$ $2$, 20$0$\n
-	+ $4$\n
-	+ Schicksalhafte Begegn.
-	+ Fateful encounter.
-	+ $8$\n
-	+ $8$\n
-	+ $2$. $1$ 20$0$\n
-	+ $1$ $2$, 20$0$\n
-	+ $4$\n
-	+ Egg hatched.\n
-	+ Fateful encounter.
-	+ $8$\n
-	+ $8$\n
-	+ Egg arrived.\n
-	+ $1$ $2$, 20$0$\n
-	+ $4$\n
-	+ Egg apparently hatched.\n
-	+ Fateful encounter.
-	+ Ei erhalten bei/von\n
-	+ $8$\n
-	+ Egg obtained.\n
-	+ $1$ $2$, 20$0$\n
-	+ $4$\n
-	+ Egg hatched.\n
-	+ Fateful encounter.
-	+ Ei erhalten bei/von\n
-	+ $8$\n
-	+ Egg obtained.\n
-	+ $1$ $2$, 20$0$\n
-	+ $4$\n
-	+ Egg apparently hatched.\n
-	+ Fateful encounter.
-	+ $4$\n
-	+ $4$\n
-	+ Arrived at Lv. $3$.
-	+ Ein mysteriöses Pokémon-\n
-	+ Ei. Erhalten bei/von\n
-	+ $8$.
+    0	= $2$. $1$ 20$0$\n
+    + $4$\n
+    + Erhalten mit Lv. $3$.
+    1	= $2$. $1$ 20$0$\n
+    + $4$\n
+    + Offenbar erhalten mit\n
+    + Lv. $3$.
+    2	= $2$. $1$ 20$0$\n
+    + $4$\n
+    + Erhalten mit Lv. $3$.
+    3	= $7$. $6$ 20$5$\n
+    + Ei erhalten bei/von\n
+    + $8$.\n
+    + $2$. $1$ 20$0$\n
+    + Geschlüpft in/auf\n
+    + $4$.
+    4	= $7$. $6$ 20$5$\n
+    + Ei erhalten bei/von\n
+    + $8$.\n
+    + $2$. $1$ 20$0$\n
+    + Offenbar geschlüpft in/\n
+    + auf $4$.
+    5	= $7$. $6$ 20$5$\n
+    + Ei erhalten bei/von\n
+    + $8$.\n
+    + $2$. $1$ 20$0$\n
+    + Geschlüpft in/auf\n
+    + $4$.
+    6	= $7$. $6$ 20$5$\n
+    + Ei erhalten bei/von\n
+    + $8$.\n
+    + $2$. $1$ 20$0$\n
+    + Offenbar geschlüpft in/\n
+    + auf $4$.
+    7	= $2$. $1$ 20$0$\n
+    + $4$\n
+    + Schicksalhafte\n
+    + Begegnung mit Lv. $3$.
+    8	= $2$. $1$ 20$0$\n
+    + $4$\n
+    + Offenbar schicksalhafte\n
+    + Begegnung mit Lv. $3$.
+    9	= $7$. $6$ 20$5$\n
+    + Ei erhalten bei/von\n
+    + $8$.\n
+    + $2$. $1$ 20$0$\n
+    + Geschlüpft in/auf\n
+    + $4$.\n
+    + Schicksalhafte Begegn.
+    a	= $7$. $6$ 20$5$\n
+    + Ei erhalten bei/von\n
+    + $8$.\n
+    + $2$. $1$ 20$0$\n
+    + Offenbar geschlüpft in/\n
+    + auf $4$.\n
+    + Schicksalhafte Begegn.
+    b	= $7$. $6$ 20$5$\n
+    + $8$\n
+    + Ei ist angekommen.\n
+    + $2$. $1$ 20$0$\n
+    + Geschlüpft in/auf\n
+    + $4$.\n
+    + Schicksalhafte Begegn.
+    c	= $7$. $6$ 20$5$\n
+    + $8$\n
+    + Ei ist angekommen.\n
+    + $2$. $1$ 20$0$\n
+    + Offenbar geschlüpft in/\n
+    + auf $4$.\n
+    + Schicksalhafte Begegn.
+    d	= $7$. $6$ 20$5$\n
+    + Ei erhalten bei/von\n
+    + $8$.\n
+    + $2$. $1$ 20$0$\n
+    + Geschlüpft in/auf\n
+    + $4$.\n
+    + Schicksalhafte Begegn.
+    e	= $7$ $6$, 20$5$\n
+    + Ei erhalten bei/von\n
+    + $8$.\n
+    + $2$ $1$, 20$0$\n
+    + Offenbar geschlüpft in/\n
+    + auf $4$.\n
+    + Schicksalhafte Begegn.
+    f	= $1$ $2$, 20$0$\n
+    + $4$\n
+    + Angekommen mit Lv. $3$.
+    10	= $7$. $6$ 20$5$\n
+    + Ein mysteriöses Pokémon-\n
+    + Ei. Erhalten bei/von\n
+    + $8$.
     11	= $7$. $6$ 20$5$\n
-	+ Ein mysteriöses Pokémon-\n
-	+ A mysterious Pokémon\n
-	+ $8$.
-	+ $8$.\n
-	+ Ein mysteriöses Pokémon-\n
-	+ Ei. Erhalten bei\n
-	+ $8$.
+    + Ein mysteriöses Pokémon-\n
+    + Ei. Erhalten bei/von\n
+    + $8$.
+    12	= $7$. $6$ 20$5$\n
+    + Ein mysteriöses Pokémon-\n
+    + Ei. Erhalten bei\n
+    + $8$.
     13	= $7$. $6$ 20$5$\n
-	+ Ein sehr mysteriöses\n
-	+ Pokémon-Ei aus\n
-	+ $8$.
-	+ $8$.\n
+    + Ein sehr mysteriöses\n
+    + Pokémon-Ei aus\n
+    + $8$.
+    14	= Mysteriöser Ort
     15	= Zweiblattdorf
     16	= Sandgemme
     17	= Flori
@@ -261,36 +261,35 @@
     81	= Prachtsee
     82	= Restaurant
     83	= Duellpark
-    84	= Idyll
-    84	= Battle Frontier
-    85	= Battle Factory
-    86	= Battle Castle
-    87	= Battle Arcade
-    88	= Battle Hall
-    89	= Distortion World
-    8a	= Global Terminal
+    84	= Kampfzone
+    85	= Kampffabrik
+    86	= Kampfpalais
+    87	= Kampfarkaden
+    88	= Kampfsaal
+    89	= Zerrwelt
+    8a	= Global. Terminal
     8b	= Villa
-    8c	= Battleground
-    8d	= Rotom's Room
-    8e	= T.G. Eterna Bldg
-    8f	= Iron Ruins
-    90	= Iceberg Ruins
-    91	= Rock Peak Ruins
-    92	= Lovely place
+    8c	= Duellareal
+    8d	= Raum von ROTOM
+    8e	= Galaktik-Gebäude
+    8f	= Eisen-Ruinen
+    90	= Eisberg-Ruinen
+    91	= Gipfelruinen
+    92	= Idyll
     93	= Pokémon Ranger
-    94	= Faraway place
-    95	= Pokémon Movie
-    96	= Pokémon Movie 06
-    97	= Pokémon Movie 07
-    98	= Pokémon Movie 08
-    99	= Pokémon Movie 09
-    9a	= Pokémon Movie 10
-    9b	= Pokémon Movie 11
-    9c	= Pokémon Movie 12
-    9d	= Pokémon Movie 13
-    9e	= Pokémon Movie 14
-    9f	= Pokémon Movie 15
-    a0	= Pokémon Movie 16
+    94	= Entfernter Ort
+    94	= Pokémon Movie
+    95	= Pokémon Film 06
+    96	= Pokémon Film 07
+    97	= Pokémon Film 08
+    98	= Pokémon Film 09
+    99	= Pokémon Film 10
+    9a	= Pokémon Film 11
+    9b	= Pokémon Film 12
+    9c	= Pokémon Film 13
+    9d	= Pokémon Film 14
+    9e	= Pokémon Film 15
+    9f	= Pokémon Film 16
     a1	= Pokémon Cartoon
     a2	= Space World
     a3	= Space World 06
@@ -349,22 +348,22 @@
     d8	= Pokémon Event 15
     d9	= Pokémon Event 16
     da	= Wi-Fi Event
-    db	= Wi-Fi Gift
+    db	= Wi-Fi-Geschenk
     dc	= Pokémon Fan Club
-    dd	= Event Site
-    de	= Concert Event
-    df	= Day-Care Couple
-    e0	= Link trade
-    e1	= Link trade
+    dd	= Event
+    de	= Konzert
+    df	= Betreuerpärchen
+    e0	= Linktausch
+    e1	= Linktausch
     e2	= Kanto
     e3	= Johto
     e4	= Hoenn
     e5	= Sinnoh
-    e6	= ----
-    e7	= Distant land
-    e8	= Traveling Man
-    e9	= Riley
+    e6	= ----------
+    e7	= Entferntes Land
+    e8	= Reisender
+    e9	= Urs
     ea	= Cynthia
-    eb	= Mystery Zone
+    eb	= Mysteriöser Ort
 
 

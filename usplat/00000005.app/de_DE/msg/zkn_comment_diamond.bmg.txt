@@ -1522,4 +1522,3 @@
    1ed	= Die Mythologie nennt dieses PKMN\n
 	+ als Former des Universums, wobei es\n
 	+ seine tausend Arme eingesetzt hat.
-

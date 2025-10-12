@@ -1522,9 +1522,4 @@
    1ed	= Die Mythologie erzählt, dass dieses\n
 	+ PKMN geboren wurde, bevor das\n
 	+ Universum überhaupt existierte.
-	+ into a lush field of flowers.
-   1ed	= It is told in mythology that this\n
-	+ Pokémon was born before the\n
-	+ universe even existed.
-
 
