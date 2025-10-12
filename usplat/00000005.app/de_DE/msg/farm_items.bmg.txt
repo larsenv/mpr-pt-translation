@@ -76,8 +76,8 @@
     1b	= Staffelei
     1c	= Poképendel
     1d	= Poképendel
-    1e	= Fall
-    1f	= Fall
+    1e	= Falle
+    1f	= Falle
     20	= Sandsack
     21	= Sandsack
     22	= Stinkball
