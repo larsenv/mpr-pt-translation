@@ -57,7 +57,7 @@
      5	= Du kannst es bei der Fangshow im\n
 	+ Park der Freunde fangen.
      6	= Entwickelt sich bei Levelanstieg von\n
-	+ NASGNET im Kraterberg.
+	+ NASGNET auf dem Kraterberg.
      7	= Entwickelt sich bei Levelanstieg von\n
 	+ SKORGLA, wenn es Scharfzahn hat.
      8	= Entwickelt sich bei Levelanstieg von\n
@@ -68,10 +68,10 @@
 	+ SNIEBEL, wenn es Scharfklaue hält.
      b	= Entwickelt sich bei Levelanstieg von\n
 	+ BARSCHWA.
-     c    = Entwickelt sich bei Levelanstieg von\n
-     + EVOLI im Ewigwald.
-     d    = Entwickelt sich bei Levelanstieg von\n
-     + MAGNETON auf dem Kraterberg.
+     c	= Entwickelt sich bei Levelanstieg von\n
+	+ EVOLI im Ewigwald.
+     d	= Entwickelt sich bei Levelanstieg von\n
+	+ MAGNETON auf dem Kraterberg.
      e	= Erhalte es in Schleiede.
      f	= Brüte das Ei aus, das Cynthia\n
      + dir in Ewigenau gegeben hat.
