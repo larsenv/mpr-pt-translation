@@ -87,6 +87,7 @@
     11	= So lange ich zurückdenken\n
 	+ kann, hatte ich schon immer\n
 	+ den Traum, von ihnen umgeben\n
+	+ zu sein...
     12	= Ach... Eine Ranch voller\n
 	+ Pokémon... Herz, was\n
 	+ willst du mehr?
@@ -136,7 +137,7 @@
 	+ Population der Pokémon, die\n
 	+ wir hier halten, nach oben\n
 	+ schrauben.
-    23	= Wenn du Pokémon in Pokémon\n
+    23	= Wenn du Pokémon in Pokémon-\n
 	+ Spielen für den Nintendo DS\n
 	+ gefangen hast, kannst du sie\n
 	+ auch hierher bringen.
@@ -163,7 +164,7 @@
     2b	= Es ist aber auch nicht so\n
 	+ schlimm. Dann bringe ich\n
 	+ einfach jeden Tag ein neues\n
-	+ Ranch!
+	+ Pokémon mit!
     2c	= Also, weißt du jetzt, wie wir die\n
 	+ Zahl der Pokémon erhöhen?
     2d	= Heute ist ein besonderer Tag,\n
@@ -203,7 +204,7 @@
     39	= Wie wäre es morgen mit einem\n
 	+ blauen Pokémon?
     3a	= Wie wäre es morgen mit einem\n
-	+ gelben Pokémon?	
+	+ gelben Pokémon?
     3b	= Wie wäre es morgen mit einem\n
 	+ grünen Pokémon?
     3c	= Wie wäre es morgen mit einem\n
@@ -495,6 +496,10 @@
 	+ Sie werden irgendwo auf der\n
 	+ Ranch abgestellt. Im Freien\n
 	+ Modus findest du sie leicht.
+    b0	= Was? Du kannst sie nicht\n
+	+ öffnen? Hm... Leider weiß ich\n
+	+ auch nicht, wie man sie\n
+	+ aufbekommt...
     b1	= Warum experimentierst du nicht\n
 	+ ein wenig herum, während du\n
 	+ dich im Freien Modus\n
@@ -1020,8 +1025,7 @@
    191	= Wenn du wieder nach Hause\n
 	+ willst, zeige einfach auf die Tür\n
 	+ oben links und drücke \x{e042}.
-   192	= Also, am besten lasse ich dich\n
-	+ jetzt in Ruhe!
+   192	= Dann noch viel Spaß!
    193	= Das hier ist meine Ranch. Ich\n
 	+ bin sehr stolz auf meine Arbeit!\n
 	+ Nimm dir Zeit, dich umzusehen.\n
@@ -1067,7 +1071,7 @@
    1a0	= Alles klar, dann lass uns zur\n
 	+ %ls-Ranch\n
 	+ gehen!
-   1a1	= OOh, na gut. Wenn du das\n
+   1a1	= Oh, na gut. Wenn du das\n
 	+ nächste Mal die Möglichkeit\n
 	+ hast, komm einfach vorbei, ja?
    1a2	= Das sollten wir beizeiten mal\n
@@ -1376,13 +1380,13 @@
 	+ sollten es am besten die sein,\n
 	+ die du noch nicht in deinem\n
 	+ Pokédex aufgezeichnet hast.
-   206	= Also, ein Blick auf deinen\n
-	+ Pokédex verrät Folgendes...\n
-	+ Gefunden: %d\n
+   206	= Sehen wir uns mal deinen\n
+	+ Pokédex an...\n
+	+ Gesehen: %d\n
 	+ Gefangen: %d
-   207	= Also, ein Blick auf deinen\n
-	+ Pokédex verrät Folgendes...\n
-	+ Gefunden: %d\n
+   207	= Sehen wir uns mal deinen\n
+	+ Pokédex an...\n
+	+ Gesehen: %d\n
 	+ Gefangen: %d
    208	= Unglaublich! Du hast jedes\n
 	+ einzelne Pokémon aus dem\n
