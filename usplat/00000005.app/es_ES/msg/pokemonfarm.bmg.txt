@@ -582,9 +582,9 @@
    173	= Anita
    174	= Pedro
    175	= Lucas
-   176	= Munchi
-   177	= Coni
-   178	= Kaida
+   176	= Amapola
+   177	= Munchi
+   178	= Coni
    179	= Florinda
    17a	= Agua
    17b	= Fuego
@@ -622,9 +622,9 @@
    19b  = Dragón
    19c  = Tierra
    19d  = Gran Cielo
-   19e  = Rojo
-   19f	= Hambriento
-   1a0	= Saltarín
+   19e  = Rojizo
+   19f	= Glotón
+   1a0	= Retozón
    1a1	= © Pokémon/Nintendo.
    1a2	= Rancho %ls.
    1a3	= Rancho\n
@@ -1062,8 +1062,8 @@
    28e	= ¿Cómo se desactiva la música?
    28f	= Respuesta
    290	= Selecciona "(Silenciar)" en "Música" o\n
-	+ al empezar el juego, mantén pulsados\n
-	+ \x{e043} y \x{e041}↓. De este modo, podrás jugar\n
+	+ mantén pulsados \x{e043} y \x{e041}↓ al empezar\n
+	+ el juego. De este modo, podrás jugar\n
 	+ sin música.
    291	= Miis en el rancho (1)
    292	= Escoger Miis
@@ -1127,7 +1127,7 @@
    2ab	= No hay Pokédex.
    2ac	= Necesitas una Pokédex para poder\n
 	+ depositar Pokémon en el rancho.
-   2ad	= Mantén oprimido el botón\n
+   2ad	= Mantén pulsado el botón\n
 	+ POWER hasta que se\n
 	+ apague la consola Wii\n	
 	+ \n
