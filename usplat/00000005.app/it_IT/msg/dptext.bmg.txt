@@ -278,7 +278,6 @@
     91	= Rovine Picco
     92	= Luogo Grazioso
     93	= Pokémon Ranger
-    94	= Luogo Remoto
     94	= Film Pokémon
     95	= Film Pokémon 06
     96	= Film Pokémon 07

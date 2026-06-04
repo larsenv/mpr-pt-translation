@@ -529,81 +529,24 @@
    1d3	= Add (DP Bad Egg)
    1d4	= Add (Hayley's Bad Egg)
    1d5	= # of CPii
-   1d6	= Delete (DP Bad Egg)
-   1d7	= Do-nothing mode
-   1d8	= Yukari's 998 Pokémon (Data only)
-   1d9	= Form flock
-   1da	= # of Pokémon
-   1db	= Rebuild flock
-   1dc	= Remove
-   1dd	= Reduce to 100?
-   1de	= Remove all
-   1df	= Add
-   1e0	= Add rare
-   1e1	=  Fly
-   1e2	=  Band
-   1e3	= Add Pokémon to trade
-   1e4	= Celebrity's Pokémon
-   1e5	= Motions
-   1e6	= Select
-   1e7	= Stage
-   1e8	= Change Level
-   1e9	= Time
-   1ea	= Rainbow
-   1eb	= Show path
-   1ec	= No change to the Time
-   1ed	= Approve
-   1ee	= Add by set
-   1ef	= Eyes
-   1f0	= Angry
-   1f1	= Close
-   1f2	= Glad
-   1f3	= Normal
-   1f4	= Motions
-   1f5	= (Stop)
-   1f6	= Look this way
-   1f7	= Face this way
-   1f8	= Activity
-   1f9	= Activity type
-   1fa	= DEBUG:\n
    1d6	= Activity type
    1d7	= DEBUG:\n
 	+ Ignoring the Mii Celebrity data\n
-   1fb	= DEBUG:\n
-	+ Ignoring the Mii Celebrity data\n
    1d8	= DEBUG:\n
 	+ Ignoring the Mii Celebrity data\n
-   1fc	= DEBUG:\n
-	+ period yet.
    1d9	= DEBUG:\n
-	+ Ignoring the Celebrity Mii data\n
-   1fd	= DEBUG:\n
 	+ Ignoring the Celebrity Mii data\n
    1da	= DEBUG:\n
 	+ Ignoring the Celebrity Mii data\n
-   1fe	= DEBUG:\n
-	+ Ignoring the Celebrity Mii data\n
    1db	= DEBUG:\n
 	+ Ignoring the Celebrity Mii data\n
-   1ff	= DEBUG:\n
-	+ Ignoring the Celebrity Mii data\n
    1dc	= DEBUG:\n
-   200	= DEBUG:\n
-	+ Ignoring the Celebrity Mii data\n
    1dd	= DEBUG:\n
-	+ Ignoring the Celebrity Mii data\n
-   201	= DEBUG:\n
 	+ Ignoring the Celebrity Mii data\n
    1de	= DEBUG:\n
 	+ Ignoring the Celebrity Mii data\n
-   202	= DEBUG:\n
-	+ is identical.
    1df	= DEBUG:\n
-   203	= DEBUG:\n
-	+ invitations today.
    1e0	= DEBUG:\n
-	+ Not sending any data\n
-   204	= DEBUG:\n
 	+ Not sending any data\n
    1e1	= DEBUG:\n
 	+ Not sending any data\n

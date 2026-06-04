@@ -87,10 +87,6 @@
     11	= Je rêve depuis longtemps\n
 	+ de vivre entourée de plein\n
 	+ de Pokémon...
-    13	= !
-	+ Un Ranch rempli de Pokémon...\n
-	+ Ce serait... fantastique...\n
-	+ fabuleux... fantabuleux...
     13	= Oh!
     14	= Oh là là! Désolée...\n
 	+ Je crois que je me suis\n
@@ -390,17 +386,10 @@
 	+ Pokémon chantant!
     8d	= Dans ce cas, c'est moi qui vais\n
 	+ Ranch has become %ls!
-    93	= 
-    94	= Okay. Let's expand the Ranch!\n
     8e	= Dans ce cas, c'est moi qui vais\n
 	+ choisir! Demain, j'amènerai\n
 	+ un Pokémon qui me plaît!
     8f	= Bien! Je crois savoir quel\n
-    96	= 
-    97	= Okay.\n
-	+ Let's expand the Ranch again!
-	+ de voir le Pokémon que\n
-	+ j'amènerai ici demain!
     91	= A bientôt!
 	+ the size of the Ranch... It will\n
 dans le Ranch est désormais\n	dans le Ranch est désormais\n+dans le Ranch est désormais\n dans le Ranch est désormais\nddans le Ranch est désormais\nadans le Ranch est désormais\nndans le Ranch est désormais\nsdans le Ranch est désormais\n dans le Ranch est désormais\nldans le Ranch est désormais\nedans le Ranch est désormais\n dans le Ranch est désormais\nRdans le Ranch est désormais\nadans le Ranch est désormais\nndans le Ranch est désormais\ncdans le Ranch est désormais\nhdans le Ranch est désormais\n dans le Ranch est désormais\nedans le Ranch est désormais\nsdans le Ranch est désormais\ntdans le Ranch est désormais\n dans le Ranch est désormais\nddans le Ranch est désormais\nédans le Ranch est désormais\nsdans le Ranch est désormais\nodans le Ranch est désormais\nrdans le Ranch est désormais\nmdans le Ranch est désormais\nadans le Ranch est désormais\nidans le Ranch est désormais\nsdans le Ranch est désormais\n\dans le Ranch est désormais\nndans le Ranch est désormais\n
@@ -413,10 +402,6 @@ Oh! Il y a déjà\n Oh! Il y a déjà\n Oh! Il y a déjà\n Oh! Il y a déjà\n 
 	+ %ls Pokémon dans le Ranch!
     96	= 
     97	= Eh bien, agrandissons\n
-    9f	= Here are my precious Pokémon.\n
-	+ Please take good care of them!
-    a0	= It's my precious Pokémon.\n
-	+ terminés le %ls!
     99	= Pour le moment, il faut\n
 	+ se contenter de la place que\n
 	+ nous avons au Ranch... Il sera\n
@@ -425,23 +410,9 @@ Oh! Il y a déjà\n Oh! Il y a déjà\n Oh! Il y a déjà\n Oh! Il y a déjà\n 
 	+ un nouveau Pokémon!
     9b	= J'ai amené plus de Pokémon\n
 	+ que d'habitude pour fêter la fin\n
-    a5	= Let's keep adding Pokémon to\n
-	+ de notre Ranch!
-    a6	= Let's expand the Ranch by\n
-	+ adding more Pokémon!
-    a7	= Once the number of Pokémon\n
-	+ aucun Pokémon au Ranch.
-	+ the Ranch!
-	+ %ls Pokémon.
     9e	= 
     9f	= Voici mes Pokémon adorés.\n
 	+ Pokémon Ranch, aren't you?
-    ab	= From now on, you should use\n
-	+ Free Mode to watch the Ranch.\n
-	+ It's so handy!
-    ac	= Free Mode is added to\n
-Nous ne pouvons plus\n Nous ne pouvons plus\n Nous ne pouvons plus\n Nous ne pouvons plus\n Nous ne pouvons plus\naNous ne pouvons plus\n1Nous ne pouvons plus\n	Nous ne pouvons plus\n=Nous ne pouvons plus\n Nous ne pouvons plus\nNNous ne pouvons plus\noNous ne pouvons plus\nuNous ne pouvons plus\nsNous ne pouvons plus\n Nous ne pouvons plus\nnNous ne pouvons plus\neNous ne pouvons plus\n Nous ne pouvons plus\npNous ne pouvons plus\noNous ne pouvons plus\nuNous ne pouvons plus\nvNous ne pouvons plus\noNous ne pouvons plus\nnNous ne pouvons plus\nsNous ne pouvons plus\n Nous ne pouvons plus\npNous ne pouvons plus\nlNous ne pouvons plus\nuNous ne pouvons plus\nsNous ne pouvons plus\n\Nous ne pouvons plus\nnNous ne pouvons plus\n
-	+ agrandir le Ranch...
     a2	= ... mais prends bien soin\n
 	+ des Pokémon et du Ranch!
     a3	= Quand nous aurons\n
@@ -474,9 +445,6 @@ nouveaux Pokémon au Ranch!	nouveaux Pokémon au Ranch!+nouveaux Pokémon au Ran
 	+ un jouet avec lequel les\n
 	+ Pokémon peuvent s'amuser.
     af	= Comme un coffre au trésor, il\n
-    ba	= Bring more Miis to the Ranch,\n
-	+ Ranch! Pour le trouver, utilise\n
-	+ le mode déplacement libre.
     b0	= Comment ouvrir le\n
 	+ Coffre à Jouets?\n
 	+ Ça, je n'en sais rien.
@@ -495,14 +463,11 @@ nouveaux Pokémon au Ranch!	nouveaux Pokémon au Ranch!+nouveaux Pokémon au Ran
 	+ Mes favoris pour organiser\n
 	+ les Pokémon.
     b5	= La fonction Mes favoris\n
-    c3	= Mmm-hmm... So exciting!
     b6	= Et encore une bonne nouvelle!\n
 	+ can keep is now 1,000!
 	+ le Ranch recevra chaque jour\n
 	+ deux Coffres à Jouets!
 	+ expand by leveling up...
-    c7	= Let's try to get 1,000 Pokémon\n
-jusqu'à 20 Mii au Ranch!	jusqu'à 20 Mii au Ranch!+jusqu'à 20 Mii au Ranch! jusqu'à 20 Mii au Ranch!jjusqu'à 20 Mii au Ranch!ujusqu'à 20 Mii au Ranch!sjusqu'à 20 Mii au Ranch!qjusqu'à 20 Mii au Ranch!ujusqu'à 20 Mii au Ranch!'jusqu'à 20 Mii au Ranch!àjusqu'à 20 Mii au Ranch! jusqu'à 20 Mii au Ranch!2jusqu'à 20 Mii au Ranch!0jusqu'à 20 Mii au Ranch! jusqu'à 20 Mii au Ranch!Mjusqu'à 20 Mii au Ranch!ijusqu'à 20 Mii au Ranch!ijusqu'à 20 Mii au Ranch! jusqu'à 20 Mii au Ranch!ajusqu'à 20 Mii au Ranch!ujusqu'à 20 Mii au Ranch! jusqu'à 20 Mii au Ranch!Rjusqu'à 20 Mii au Ranch!ajusqu'à 20 Mii au Ranch!njusqu'à 20 Mii au Ranch!cjusqu'à 20 Mii au Ranch!hjusqu'à 20 Mii au Ranch!!jusqu'à 20 Mii au Ranch!
     b9	= C'est le nombre maximum de\n
 	+ Mii que tu peux faire venir\n
 	+ au Ranch. Mais 20 Mii\n
@@ -513,8 +478,6 @@ jusqu'à 20 Mii au Ranch!	jusqu'à 20 Mii au Ranch!+jusqu'à 20 Mii au Ranch! ju
     bc	= Et encore une bonne nouvelle!\n
 	+ toy that Pokémon can draw\n
 	+ pictures with!
-    cb	= It's really exciting!
-Eh, eh! C'est super, non?! Eh, eh! C'est super, non?! Eh, eh! C'est super, non?! Eh, eh! C'est super, non?! Eh, eh! C'est super, non?!bEh, eh! C'est super, non?!dEh, eh! C'est super, non?!	Eh, eh! C'est super, non?!=Eh, eh! C'est super, non?! Eh, eh! C'est super, non?!EEh, eh! C'est super, non?!hEh, eh! C'est super, non?!,Eh, eh! C'est super, non?! Eh, eh! C'est super, non?!eEh, eh! C'est super, non?!hEh, eh! C'est super, non?!!Eh, eh! C'est super, non?! Eh, eh! C'est super, non?!CEh, eh! C'est super, non?!'Eh, eh! C'est super, non?!eEh, eh! C'est super, non?!sEh, eh! C'est super, non?!tEh, eh! C'est super, non?! Eh, eh! C'est super, non?!sEh, eh! C'est super, non?!uEh, eh! C'est super, non?!pEh, eh! C'est super, non?!eEh, eh! C'est super, non?!rEh, eh! C'est super, non?!,Eh, eh! C'est super, non?! Eh, eh! C'est super, non?!nEh, eh! C'est super, non?!oEh, eh! C'est super, non?!nEh, eh! C'est super, non?!?Eh, eh! C'est super, non?!!Eh, eh! C'est super, non?!
     be	= J'ai une merveilleuse nouvelle!\n
 	+ J'ai apporté un Pokémon rare!
     bf	= PHIONE est un Pokémon rare,\n
@@ -555,11 +518,6 @@ Eh, eh! C'est super, non?! Eh, eh! C'est super, non?! Eh, eh! C'est super, non?!
     ce	= Ça veut dire que tu peux\n
 	+ to the Ranch every day starting\n
 	+ au Ranch!
-    dc	= So exciting!
-	+ mes Pokémon. Apportes-en\n
-	+ autant que tu veux!
-	+ now!
-    de	= That's more space for\n
     d1	= Voilà le Ranch dont j'ai toujours\n
 	+ rêvé... Un Ranch immense...\n
 	+ Et plein de Pokémon...
@@ -574,16 +532,6 @@ Eh, eh! C'est super, non?! Eh, eh! C'est super, non?! Eh, eh! C'est super, non?!
     d5	= Au milieu de tout ce monde...\n
 	+ Pour toujours...
     d6	= ... Pourquoi pas!\n
-    e5	= Wow!\n
-	+ That's the Wanted Pokémon!\n
-	+ Good job!
-    e6	= This will make the Ranch a\n
-	+ J'ai amené avec moi un\n
-	+ Pokémon particulièrement rare!
-	+ Hi hi!
-	+ légendaire dont on dit que le\n
-	+ code génétique comprend celui\n
-	+ de tous les autres Pokémon.
     d9	= 
     da	= Je vais lui aussi le laisser au\n
 	+ Ranch. Prends bien soin de lui!
@@ -595,8 +543,6 @@ Eh, eh! C'est super, non?! Eh, eh! C'est super, non?! Eh, eh! C'est super, non?!
     dd	= Les travaux sont terminés\n
 	+ Pokémon is posted on the BBS.\n
 	+ You should check it out!
-    ec	= Bring the Wanted Pokémon\n
-	+ pour les Pokémon!
     df	= Le Ranch a désormais atteint\n
 	+ le niveau %d!
     e0	= Grâce au grand nombre de\n
@@ -624,8 +570,6 @@ Pokémon qui nous ont rejoints,\n	Pokémon qui nous ont rejoints,\n+Pokémon qui
 	+ %ls
     e9	= Nouveaux Pokémon recherchés:\n
 	+ %ls\n
-    f9	= Have a good time!\n
-	+ See ya!
     ea	= Désormais, à chaque fois que\n
 	+ tu amèneras un Pokémon au\n
 	+ Ranch, je vérifierai si c'est\n
@@ -634,37 +578,12 @@ Pokémon qui nous ont rejoints,\n	Pokémon qui nous ont rejoints,\n+Pokémon qui
 	+ propose des conseils sur la\n
 	+ façon de capturer les Pokémon\n
 	+ recherchés. Jettes-y un œil!
-    fd	= The Pokémon missed you \n
-	+ recherché, amène-le au Ranch.
     ed	= Si tu as un Pokémon recherché,\n
 	+ I haven't seen you for\n
 	+ %d months!
-    ff	= Long time no see!\n
-	+ I haven't seen you for\n
-	+ 1 month!
     ee	= Quand tu attrapes un Pokémon\n
 	+ so much!
-   101	= Well, hello there!\n
-	+ I haven't seen you for\n
-	+ %d weeks!
-   102	= Well, hello there!\n
-	+ I haven't seen you for\n
-	+ 1 week!
-   103	= The Pokémon look very happy\n
-	+ to see you!
-   104	= Hello!\n
-	+ Thanks for coming back to the\n
-	+ Ranch today!
-   105	= Hello!\n
-	+ I am so glad to see you again!
-   106	= Hello!\n
-	+ d'échanger des indices et\n
-   107	= You have arrived at\n
-	+ façon d'en attraper un.
     f3	= Ça pourrait lui faire plaisir\n
-   108	= Please enjoy\n
-	+ des conseils sur la meilleure\n
-   109	= To leave this Ranch, move the\n
     f4	= Une autre solution pour obtenir\n
 	+ the top left of the screen and\n
 	+ attraper est de faire des\n
@@ -718,324 +637,22 @@ Pokémon qui nous ont rejoints,\n	Pokémon qui nous ont rejoints,\n+Pokémon qui
 	+ is today's ranch theme.
    122	"Steel"\n
 	+ is today's ranch theme.
-   123	= ?
-   124	"Fire"\n
-	+ is today's ranch theme.
-   125	"Water"\n
-	+ is today's ranch theme.
-   126	"Grass"\n
-	+ is today's ranch theme.
-   127	"Electric"\n
-	+ is today's ranch theme.
-   128	"Psychic"\n
-	+ is today's ranch theme.
-   129	"Ice"\n
-	+ is today's ranch theme.
-   12a	"Dragon"\n
-	+ is today's ranch theme.
-   12b	"Dark"\n
-	+ is today's ranch theme.
-   12c	"●"\n
-	+ is today's ranch theme.
-   12d	"▲"\n
-	+ is today's ranch theme.
-   12e	"■"\n
-	+ is today's ranch theme.
-   12f	"♥"\n
-	+ is today's ranch theme.
-   130	"★"\n
-	+ is today's ranch theme.
-   131	"◆"\n
-	+ is today's ranch theme.
-   132	"Red"\n
-	+ is today's ranch theme.
-   133	"Blue"\n
-	+ is today's ranch theme.
-   134	"Yellow"\n
-	+ is today's ranch theme.
-   135	"Green"\n
-	+ is today's ranch theme.
-   136	"Black"\n
-	+ is today's ranch theme.
-   137	"Brown"\n
-	+ is today's ranch theme.
-   138	"Purple"\n
-	+ is today's ranch theme.
-   139	"Gray"\n
-	+ is today's ranch theme.
-   13a	"White"\n
-	+ is today's ranch theme.
-   13b	"Pink"\n
-	+ is today's ranch theme.
-   13c	"Short"\n
-	+ is today's ranch theme.
-   13d	"Tall"\n
-	+ is today's ranch theme.
-   13e	"Light"\n
-	+ is today's ranch theme.
-   13f	"Heavy"\n
-	+ is today's ranch theme.
-   140	"Fiery"\n
-	+ is today's ranch theme.
-   141	"Cold"\n
-	+ is today's ranch theme.
-   142	"Scary"\n
-	+ is today's ranch theme.
-   143	"Fast"\n
-	+ is today's ranch theme.
-   144	"Round"\n
-	+ is today's ranch theme.
-   145	"Flying"\n
-	+ is today's ranch theme.
-   146	"Sturdy"\n
-	+ is today's ranch theme.
-   147	"Focused"\n
-	+ is today's ranch theme.
-   148	"Paralyzing"\n
-	+ is today's ranch theme.
-   149	"Easygoing"\n
-	+ is today's ranch theme.
-   14a	"Oblivious"\n
-	+ is today's ranch theme.
-   14b	"Stinky"\n
-	+ is today's ranch theme.
-   14c	"Singing"\n
-	+ is today's ranch theme.
-   14d	"Sweet-Smelling"\n
-	+ is today's ranch theme.
-   14e	"Rare"\n
-	+ is today's ranch theme.
-   14f	"Favorite"\n
-	+ is today's ranch theme.
-   150	"Owner"\n
-	+ is today's ranch theme.
-   151	"Stored Pokémon"\n
-	+ is today's ranch theme.
-   152	"%ls"\n
-	+ is today's ranch theme.
-   153	"6 Pokémon"\n
-	+ is today's ranch theme.
-   154	"20 Pokémon"\n
-	+ is today's ranch theme.
-   155	"50 Pokémon"\n
-	+ is today's ranch theme.
-   156	"100 Pokémon"\n
-	+ is today's ranch theme.
-   157	"200 Pokémon"\n
-	+ is today's ranch theme.
-   158	"500 Pokémon"\n
-	+ is today's ranch theme.
-   159	"800 Pokémon"\n
-	+ is today's ranch theme.
-   15a	"1000 Pokémon"\n
-	+ is today's ranch theme.
-   11a	"Normal"\n
-	+ is today's ranch theme.
-   11b	"Fighting"\n
-	+ is today's ranch theme.
-   11c	"Flying"\n
-	+ is today's ranch theme.
-   11d	"Poison"\n
-	+ is today's ranch theme.
-   11e	"Ground"\n
-	+ is today's ranch theme.
-   11f	"Rock"\n
-	+ is today's ranch theme.
-   120	"Bug"\n
-	+ is today's ranch theme.
-   121	"Ghost"\n
-	+ is today's ranch theme.
-   122	"Steel"\n
-	+ is today's ranch theme.
-   123	= ?
-   124	"Fire"\n
-	+ is today's ranch theme.
-   125	"Water"\n
-	+ is today's ranch theme.
-   126	"Grass"\n
-	+ is today's ranch theme.
-   127	"Electric"\n
-	+ is today's ranch theme.
-   128	"Psychic"\n
-	+ is today's ranch theme.
-   129	"Ice"\n
-	+ is today's ranch theme.
-   12a	"Dragon"\n
-	+ is today's ranch theme.
-   12b	"Dark"\n
-	+ is today's ranch theme.
-   12c	"●"\n
-	+ is today's ranch theme.
-   12d	"▲"\n
-	+ is today's ranch theme.
-   12e	"■"\n
-	+ is today's ranch theme.
-   12f	"♥"\n
-	+ is today's ranch theme.
-   130	"★"\n
-	+ is today's ranch theme.
-   131	"◆"\n
-	+ is today's ranch theme.
-   132	"Red"\n
-	+ is today's ranch theme.
-   133	"Blue"\n
-	+ is today's ranch theme.
-   134	"Yellow"\n
-	+ is today's ranch theme.
-   135	"Green"\n
-	+ is today's ranch theme.
-   136	"Black"\n
-	+ is today's ranch theme.
-   137	"Brown"\n
-	+ is today's ranch theme.
-   138	"Purple"\n
-	+ is today's ranch theme.
-   139	"Gray"\n
-	+ is today's ranch theme.
-   13a	"White"\n
-	+ is today's ranch theme.
-   17c	"Pink"\n
-	+ is today's ranch theme.
-   17d	"Short"\n
-	+ is today's ranch theme.
-   17e	"Tall"\n
-	+ is today's ranch theme.
-   17f	"Light"\n
-	+ is today's ranch theme.
-   180	"Heavy"\n
-	+ is today's ranch theme.
-   181	"Fiery"\n
-	+ is today's ranch theme.
-   182	"Cold"\n
-	+ is today's ranch theme.
-   183	"Scary"\n
-	+ is today's ranch theme.
-   184	"Fast"\n
-	+ is today's ranch theme.
-   185	"Round"\n
-	+ is today's ranch theme.
-   186	"Flying"\n
-	+ is today's ranch theme.
-   187	"Sturdy"\n
-	+ is today's ranch theme.
-   188	"Focused"\n
-	+ is today's ranch theme.
-   189	"Paralyzing"\n
-	+ is today's ranch theme.
-   18a	"Easygoing"\n
-	+ is today's ranch theme.
-   18b	"Oblivious"\n
-	+ is today's ranch theme.
-   18c	"Stinky"\n
-	+ is today's ranch theme.
-   18d	"Singing"\n
-	+ is today's ranch theme.
-   18e	"Sweet-Smelling"\n
-	+ is today's ranch theme.
-   18f	"Rare"\n
-	+ is today's ranch theme.
-   190	= I'm very proud of this Ranch!\n
-	+ Check out every corner of it!
-   191	= To leave this Ranch, move the\n
-	+ cursor onto the door located at\n
-	+ the top left of the screen and\n
-	+ press \x{e042}.
-   192	= Enjoy!
-   193	= I'm very proud of this Ranch!\n
-	+ Ça fait déjà %d ans!
-   194	= To leave this Ranch, move the\n
-	+ cursor onto the door located at\n
-	+ the top left of the screen and\n
-	+ press \x{e042}.
-   195	= Enjoy!
-   196	= %2$ls has arrived\n
-	+ from %1$ls\n
-	+ Ranch.
-   197	= Hello!\n
-	+ I brought a picture of\n
-	+ %ls Ranch.
-   198	= Hello!\n
-	+ I'm %2$ls\n
-	+ from %1$ls Ranch!
-	+ depuis un moment!\n
-	+ I brought a picture of\n
    102	= On ne t'avait pas vu\n
 	+ depuis un moment!\n
 	+ I'm %2$ls\n
 	+ from %1$ls Ranch.
-   19b	= Why don't you come to\n
-	+ %ls Ranch?
-   19c	= Okay!\n
-	+ Let's go to\n
-	+ %ls Ranch!
-   19d	= Okay. Maybe next time.
-   19e	= Hope to see you again!\n
-	+ Good-bye!
-	+ Amuse-toi bien au Ranch!
-	+ %ls Ranch?
-	+ chez %ls,\n
-	+ Let's go to\n
-	+ %ls Ranch!
-   1a1	= Okay. Maybe next time.
    109	= Pour quitter ce Ranch,\n
 	+ Good-bye!
-   1a3	= Do you want to go?
-   1a4	= Thanks for visiting\n
-	+ %ls Ranch!
-   1a5	= I will visit again and invite you\n
-	+ to my Ranch. See you then!
-   1a6	= Thanks again, and take care!
-   1a7	= Thanks for visiting\n
-	+ %ls Ranch!
-   1a8	= I will visit again and invite you\n
-	+ to my Ranch. See you then!
-   1a9	= Thanks again, and take care!
-	+ ma fierté. N'hésite pas à\n
-   1ab	= So... This is your and Hayley's\n
-	+ Ranch? Looks nice!
-   1ac	= My name is %2$ls, \n
-	+ a member of Club Look-See.\n
-	+ My Member No. is %1$d!
-   1ad	= The mottos of Club Look-See\n
-	+ are...
-   1ae	= Ranch!\n
-	+ l'observer à ta guise!
-	+ picky about!
-	+ pointe la porte dans l'angle\n
-	+ supérieur gauche de l'écran\n
-	+ show off to as many people as\n
    113	= Amuse-toi bien!
-   1b0	= These are mottos of the Club!
-	+ nous rendre visite depuis\n
-	+ le Ranch %1$ls.
-	+ about.
-	+ une photo du Ranch\n
-	+ %ls!
    116	= Salut! Je suis\n
 	+ Club Look-See can be!
-   1b5	= All right! That's the way!\n
    117	= Bonjour! Je t'ai apporté\n
 	+ une photo du Ranch\n
 	+ Ranch? I heard a great deal\n
 	+ about it!
-   1b7	= My name is %2$ls,\n
-	+ du Ranch %1$ls!
-	+ My Member No. is %1$d!
-	+ pas faire un tour au Ranch\n
-	+ Do you know what my favorite\n
-Eh bien dans ce cas,\n Eh bien dans ce cas,\n Eh bien dans ce cas,\n Eh bien dans ce cas,\n1Eh bien dans ce cas,\n1Eh bien dans ce cas,\naEh bien dans ce cas,\n	Eh bien dans ce cas,\n=Eh bien dans ce cas,\n Eh bien dans ce cas,\nEEh bien dans ce cas,\nhEh bien dans ce cas,\n Eh bien dans ce cas,\nbEh bien dans ce cas,\niEh bien dans ce cas,\neEh bien dans ce cas,\nnEh bien dans ce cas,\n Eh bien dans ce cas,\ndEh bien dans ce cas,\naEh bien dans ce cas,\nnEh bien dans ce cas,\nsEh bien dans ce cas,\n Eh bien dans ce cas,\ncEh bien dans ce cas,\neEh bien dans ce cas,\n Eh bien dans ce cas,\ncEh bien dans ce cas,\naEh bien dans ce cas,\nsEh bien dans ce cas,\n,Eh bien dans ce cas,\n\Eh bien dans ce cas,\nnEh bien dans ce cas,\n
-	+ en route pour le Ranch\n
-   1ba	= All right! That's the way!\n
-	+ Okay, let's go to my Ranch!
-   1bb	= I see...\n
-	+ That's too bad. I really wanted\n
-	+ Au revoir!
    11d	= Ça te dirait de venir faire\n
 	+ to my Ranch again, so until\n
 	+ next time!
-   1bd	= So long!\n
-	+ \n
-	+ %ls!
    11f	= D'accord. La prochaine fois,\n
 	+ Ranch? I heard so much\n
    120	= J'espère que tu reviendras!\n
@@ -1045,132 +662,25 @@ Eh bien dans ce cas,\n Eh bien dans ce cas,\n Eh bien dans ce cas,\n Eh bien dan
 	+ ta visite au Ranch\n
 	+ Do you want to take a guess\n
    123	= Je reviendrai certainement te\n
-   1c1	= Would you like to come to my\n
-	+ Ranch to find out?
-   1c2	= Yes? Cool!\n
-	+ Okay, let's go to my Ranch!
-   1c3	= I see...\n
-	+ ta visite au Ranch\n
-%ls!	%ls!+%ls! %ls!%%ls!l%ls!s%ls!!%ls!
-   1c4	= I will come back and invite you\n
-	+ rendre visite, et je t'inviterai\n
-	+ next time!
-   1c5	= So long!\n
-	+ \n
-	+ Look-See ya!
-   1c6	= My name is %2$ls, \n
-	+ a member of Club Look-See.\n
-	+ My Member No. is %1$d!
-   1c7	= So…\n
-	+ I'd heard you're coming to
-	+ visit my Ranch, right?	
-   1c8	= My name is %2$ls, \n
-	+ a member of Club Look-See.\n
-	+ My Member No. is %1$d!
-   1c9	= So…\n
-	+ I hear you'd like to see my
-	+ Ranch, huh?
-   1ca	= Won't you come and visit\n
-	+ my Ranch again sometime?
-   1cb	= Come and visit my Ranch\n
-	+ again sometime, will ya?
-   1cc	= Thanks for coming and\n
-	+ checking out my Ranch!
-   1cd	= You know?\n
-	+ Having people like you at\n
-	+ my Ranch is really encouraging!
-   1ce	= Hope you don't mind me telling\n
-	+ à propos du Club des\n
-   1cf	= When you meet other members\n
    12c	= Règle numéro un!\n
 	+ Tu dois rechercher la perfection\n
-   1d0	= Oh, one more thing!\n
    12d	= Règle numéro deux!\n
 	+ I will come and pick you up.\n
 	+ ton Ranch à tout le monde!
    12e	= Ce sont les deux principes\n
-   1d1	= All right, please take care!
-   1d2	= So...how did you like it?\n
-	+ Are you impressed?
-   1d3	= Didn't my Ranch serve as a\n
-	+ good inspiration for your\n
-	+ Ranch?
-   1d4	= When you meet other members\n
-	+ je veux dire, tu devrais venir\n
-	+ some time to visit their\n
    130	= Veux-tu venir me rendre visite?
    131	= Oh, ne sois pas timide!
 	+ I will come and pick you up.\n
 	+ Come and visit again at any time,\n
 	+ Club des Regardez-moi!
    133	= Excellent! Je savais que tu\n
-   1d7	= Thanks for visiting my Ranch!\n
-	+ How was it? Did you like it?
-   1d8	= I hope my Ranch served as a\n
-	+ good inspiration for your\n
-	+ Ranch!
-   1d9	= When you meet other members\n
    134	= Voici donc le Ranch dont\n
 	+ time to visit their Ranches,\n
 	+ will ya?
-   1da	= If you call me from the BBS,\n
-	+ I will come and pick you up.\n
-	+ %2$ls et je suis\n
-	+ le membre numéro %1$d\n
-	+ du Club des Regardez-moi.
-   1dc	= Look-See ya!
-   1dd	= %ls is staying\n
-	+ at this Ranch until\n
-	+ %ls.。
-   1de	= %ls is staying\n
-	+ at this Ranch until\n
-	+ %ls.
    137	= Pour le savoir, il ne te reste\n
 	+ plus qu'à venir voir mon Ranch!
-   1e0	= You have a guest visiting the \n
-	+ Ranch!
-   1e1	= If you bring %ls,\n
-	+ you can trade it for\n
-	+ %ls.
-   1e2	= Sending %ls\n
-	+ to %ls!
-   1e3	= Bye-bye, %ls!
-	+ En route pour mon Ranch!
-	+ %{}!
-   1e5	= Oh? It's %{}.\n
-	+ tu viendrais voir mon Ranch.\n
-	+ %{} was\n
-	+ looking for?
-   1e6	= Trade %{}\n
-	+ for %{}'s\n
    13b	= Attention!\n
-   1e7	= %{}'s\n
-	+ Regardez...-MOI!
-	+ like this.
-   1e8	= I see. That's okay.\n
-	+ %{}'s\n
-	+ %{} looks pretty\n
-	+ nice, you know?
-	+ le membre numéro %1$d\n
-	+ very happy! Thanks for trading!
-   1ea	= Ah...the %ls you\n
-	+ just brought to the Ranch...\n
-	+ Pokémon je me passionne?
-   1eb	= Will you trade it in return for\n
-	+ c'est de venir voir mon Ranch!
-   1ec	= Oh! %ls!\n
-	+ En route pour mon Ranch,\n
-	+ C'EST PARTI!
-	+ %ls for\n
-	+ J'avais vraiment envie que\n
-   1ee	= My %ls\n
    142	= Je reviendrai t'inviter un autre\n
-   1ef	= I see. That's okay.\n
-	+ venir cette fois-là!
-	+ %ls here then!
-   1f0	= By the way, I am trying so hard\n
-	+ Regardez...-MOI!
-	+ but with no luck...
    145	= Franchement, ça me fait très\n
 	+ plaisir que tu aies pris la peine\n
 	+ trade it in return for\n
@@ -1195,22 +705,8 @@ Eh bien dans ce cas,\n Eh bien dans ce cas,\n Eh bien dans ce cas,\n Eh bien dan
 	+ Please bring an Egg to the\n
 	+ Ranch when you find one!
 	+ Alors, comment l'as-tu trouvé?\n
-   1fa	= Trade this %{}?
-   1fb	= Okay...\n
-	+ à demander des conseils\n
-	+ pour développer ton Ranch.
-	+ this %{}?
-   1fd	= It's holding an item. Do you still\n
-	+ want to trade this Pokémon?
-   1fe	= Oh?\n
-	+ You want to cancel trading?
-   1ff	= %ls  %ls  Lv. %d\n
-	+ Name: %ls\n
    152	= %ls va rester\n
 	+ Trainer: %ls\n
-	+ %ls.
-   200	= %ls  %ls  Lv. %d\n
-	+ dans ce Ranch jusqu'au\n
 	+ %ls.
    154	= Nous avons de la visite\n
 	+ au Ranch!
@@ -1220,10 +716,6 @@ Eh bien dans ce cas,\n Eh bien dans ce cas,\n Eh bien dans ce cas,\n Eh bien dan
 	+ Pokémon to the Ranch!
 	+ pourras l'échanger contre\n
 	+ fun and lively!
-   204	= I'd like for you to keep bringing\n
-	+ Pokémon to the Ranch, but...
-   205	= If you're going to catch\n
-	+ Pokémon anyway, why don't\n
    159	= Prends bien soin\n
 	+ found in your Pokédex?
    15a	= Oh? C'est un %{}!\n
@@ -1236,20 +728,10 @@ Eh bien dans ce cas,\n Eh bien dans ce cas,\n Eh bien dans ce cas,\n Eh bien dan
 	+ %(02)%2${}?
    15c	= %(11)%2${}\n
 	+ all the Pokémon in the Pokédex!
-   209	= I thought I could help you to\n
-	+ complete your Pokédex, but\n
-	+ I guess there is no need for it.
-   20a	= You've got skills!\n
    15d	= Je vois... Ce n'est pas grave.\n
 	+ Pokémon I am interested in?
 	+ %(02)%1${}\n
 	+ est pourtant plutôt joli, non?
-   20c	= Ah!\n
-	+ à %ls!\n
-	+ Tu as fait là un bon échange!
-	+ I've been thinking about asking\n
-	+ un %ls comme\n
-	+ Pokémon to the Ranch.
    160	= Tu me l'échangerais contre\n
 	+ to complete your Pokédex,\n
    161	= Oh! C'est justement\n

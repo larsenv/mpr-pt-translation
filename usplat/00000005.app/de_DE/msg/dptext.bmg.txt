@@ -277,7 +277,6 @@
     91	= Gipfelruinen
     92	= Idyll
     93	= Pokémon Ranger
-    94	= Entfernter Ort
     94	= Pokémon Movie
     95	= Pokémon Film 06
     96	= Pokémon Film 07
