@@ -555,11 +555,11 @@
 	+ portare al Ranch è salito\n
 	+ da %d a %d!
     e5	= Wow! Grande! Continua così!
-	+ if the Pokémon you bring to the\n
-	+ Ranch is a Wanted Pokémon!
+	+ se il Pokémon che porti al\n
+	+ Ranch è un Pokémon desiderato!
     e7	= Aggiunto ai Pokémon desiderati\n
-	+ Pokémon is posted on the BBS.\n
-	+ You should check it out!
+	+ I Pokémon sono caricati sul BBS.\n
+	+ Dovresti provarlo!
     e9	= Aggiunti ai Pokémon desiderati\n
 	+ %ls\n
 	+ %ls\n
@@ -572,16 +572,16 @@
 	+ spiegato come catturare\n
 	+ un Pokémon desiderato.\n
 	+ Vai a dare un'occhiata!
-	+ catch or trade the Pokémon?
+	+ cattura o scambia il Pokémon?
 	+ desiderato, portalo qui.
     ed	= Sono sicura che porterai i\n
 	+ Pokémon desiderati al Ranch!
     ee	= Una volta catturato un\n
-	+ hard to catch the Pokémon!
+	+ Pokémon difficile da catturare!
 	+ portalo al Ranch, ok?
     ef	= Ah, lo sapevi? L'esemplare\n
 	+ di %{} che hai \n
-	+ You should check it out!
+	+ Dovresti provarlo!
     f0	= %ls lo stava\n
 	+ cercando.
     f1	= %ls lo stava\n
@@ -605,62 +605,62 @@
 	+ vedo da una settimana!
    106	= Ma ciao! Divertiti oggi al\n
    10e	"Favorite"\n
-	+ is today's ranch theme.
+	+ è il tema del ranch oggi.
 	+ al Ranch %2$ls!
-	+ is today's ranch theme.
+	+ è il tema del ranch oggi.
    110	"Stored Pokémon"\n
 	+ is today's ranch theme.
 	+ punta il telecomando Wii verso\n
-	+ is today's ranch theme.
+	+ è il tema del ranch oggi.
    112	"6 Pokémon"\n
-	+ is today's ranch theme.
+	+ è il tema del ranch oggi.
    113	"20 Pokémon"\n
-	+ is today's ranch theme.
+	+ è il tema del ranch oggi.
    114	"50 Pokémon"\n
-	+ is today's ranch theme.
+	+ è il tema del ranch oggi.
    115	"100 Pokémon"\n
-	+ is today's ranch theme.
+	+ è il tema del ranch oggi.
    116	"200 Pokémon"\n
-	+ is today's ranch theme.
+	+ è il tema del ranch oggi.
    117	"500 Pokémon"\n
-	+ is today's ranch theme.
+	+ è il tema del ranch oggi.
    118	"800 Pokémon"\n
-	+ is today's ranch theme.
+	+ è il tema del ranch oggi
    119	"1000 Pokémon"\n
-	+ is today's ranch theme.
-   11a	"Normal"\n
-	+ is today's ranch theme.
-   11b	"Fighting"\n
-	+ is today's ranch theme.
-   11c	"Flying"\n
-	+ is today's ranch theme.
-   11d	"Poison"\n
-	+ is today's ranch theme.
-   11e	"Ground"\n
-	+ is today's ranch theme.
-   11f	"Rock"\n
-	+ is today's ranch theme.
-   120	"Bug"\n
-	+ is today's ranch theme.
-   121	"Ghost"\n
-	+ is today's ranch theme.
-   122	"Steel"\n
-	+ is today's ranch theme.
+	+ è il tema del ranch oggi.
+   11a	"Normale"\n
+	+ è il tema del ranch oggi.
+   11b	"Lotta"\n
+	+ è il tema del ranch oggi.
+   11c	"Volo"\n
+	+ è il tema del ranch oggi.
+   11d	"Veleno"\n
+	+ è il tema del ranch oggi.
+   11e	"Terra"\n
+	+ è il tema del ranch oggi.
+   11f	"Roccia"\n
+	+ è il tema del ranch oggi.
+   120	"Erba"\n
+	+ è il tema del ranch oggi.
+   121	"Spettro"\n
+	+ è il tema del ranch oggi.
+   122	"Acciaio"\n
+	+ è il tema del ranch oggi.
    107	= Sei da %1$ls,\n
    10d	= Allora, buon divertimento!
-	+ I brought a picture of\n
+	+ Ho portato una foto di\n
 	+ mio orgoglio. Esploralo pure\n
 	+ in lungo e in largo!
 	+ I'm %2$ls\n
 	+ from %1$ls Ranch.
    113	= Va bene, buon divertimento!
-	+ Let's go to\n
+	+ Andiamo al\n
 	+ %ls Ranch!
    115	= Ciao! Ho portato delle\n
-	+ Good-bye!
+	+ Ciao-Ciao!
    11e	= Bene, andiamo al\n
 	+ Ranch %ls!
-	+ show off to as many people as\n
+	+ farlo vedere a più persone possibili\n
 	+ trovarmi quando avrai più\n
    120	= Dovremmo proprio rivederci!\n
 	+ Ciao ciao!
@@ -668,11 +668,11 @@
    122	= Grazie per aver visitato il\n
 Ranch %ls!	Ranch %ls!+Ranch %ls! Ranch %ls!RRanch %ls!aRanch %ls!nRanch %ls!cRanch %ls!hRanch %ls! Ranch %ls!%Ranch %ls!lRanch %ls!sRanch %ls!!Ranch %ls!
    123	= Tornerò a trovarti e ti inviterò\n
-	+ Club Look-See can be!
+	+ Il club Look-See puo essere!
    125	= Ti ringrazio della visita al\n
 	+ Ranch %ls!
-	+ Ranch? I heard a great deal\n
-	+ about it!
+	+ Ranch? Ho sentito che c'è un\n
+	+ buon affare!
    128	= Come stai?
 	+ Il mio membro N° è %1$d!
 	+ appartiene a te e a\n
@@ -681,16 +681,16 @@ Ranch %ls!	Ranch %ls!+Ranch %ls! Ranch %ls!RRanch %ls!aRanch %ls!nRanch %ls!cRan
    12a	= Io sono il membro N° %1$d\n
    12c	= Motto numero uno!\n
 	+ Devi essere esigente e \n
-	+ to my Ranch again, so until\n
-	+ next time!
+	+ al mio Ranch, alla prossima\n
+	+ volta!
    12e	= Questi sono i motti del Club.
-	+ Ranch? I heard so much\n
+	+ Ranch? Ho sentito molto\n
 	+ Ranch di cui mi occupo!\040
    130	= Vuoi venire a visitarlo?
-	+ a member of Club Look-See.\n
-	+ My Member No. is %1$d!
+	+ un membro del Club Look-See.\n
+	+ Il mio Membro N° is %1$d!
    132	= Vorrei che anche tu scoprissi\n
-	+ Do you want to take a guess\n
+	+ Vuoi indovinare\n
 	+ Guarda-Guarda!
    135	= Io sono il membro numero %1$d\n
    13c	= Quindi questo Ranch \n
@@ -698,12 +698,12 @@ Ranch %ls!	Ranch %ls!+Ranch %ls! Ranch %ls!RRanch %ls!aRanch %ls!nRanch %ls!cRan
 	+ some time to visit their\n
    140	= Davvero? Fantastico!\n
 	+ Forza, andiamo al mio\n
-	+ I will come and pick you up.\n
+	+ Verrò a prenderti.\n
 	+ Come and visit again at any time,\n
 	+ che lo vedessi. Che peccato!
    142	= Prima o poi tornerò per\n
    143	= Alla prossima!\n
-	+ time to visit their Ranches,\n
+	+ ora di visitare i loro Ranch,\n
 	+ will ya?
    147	= Se altri membri del Club\n
 	+ Guarda-Guarda vengono a\n
@@ -714,59 +714,59 @@ Ranch %ls!	Ranch %ls!+Ranch %ls! Ranch %ls!RRanch %ls!aRanch %ls!nRanch %ls!cRan
    155	= Hai ospiti al Ranch!
    159	= Prenditi cura di questo\n
 	+ %{}, va bene?
-	+ trade it in return for\n
+	+ scambierai per un\n
 	+ %{}! È proprio\n
 	+ quello che stava cercando\n
-	+ Please bring %ls\n
+	+ Per favore, porta %ls\n
    15b	= Vuoi scambiare il tuo\n
 	+ %1${} con l'esem-\n
-	+ Please take good care of\n
+	+ Abbi cura di\n
 	+ %{}!
    15c	= L'esemplare di\n
 	+ %2${} di\n
-	+ started taking care of Pokémon.
+	+ ha iniziato a prendersi cura dei Pokémon.
    15d	= Capisco. Non fa niente. Però\n
-	+ knowing what Pokémon\n
-	+ hatches from it!
+	+ per sapere quale Pokémon\n
+	+ si schiuderà!
    1f6	= 
-   1f7	= If you find an Egg,\n
-	+ will you trade it in return for\n
-	+ my %ls?
-   1f8	= See? Not a bad deal, is it?\n
-	+ Please bring an Egg to the\n
-	+ Ranch when you find one!
-   1f9	= Trade Pokémon?
-   1fa	= Trade this %{}?
+   1f7	= Se trovi un uovo,\n
+	+ lo scambierai per il\n
+	+ mio %ls?
+   1f8	= Visto? Non è un cattivo affare, giusto?\n
+	+ Per favore, porta un uovo al\n
+	+ Ranch quando ne trovi uno!
+   1f9	= Scambia i Pokémon?
+   1fa	= Scambia questo %{}?
    1fb	= Okay...\n
-	+ Trade this %{}?
-   1fc	= Are you sure you want to trade\n
-	+ this %{}?
-   1fd	= It's holding an item. Do you still\n
-	+ want to trade this Pokémon?
+	+ Scambia questo %{}?
+   1fc	= Sei sicuro di voler scambiare\n
+	+ questo %{}?
+   1fd	= Ha un oggetto. Sei sicuro di\n
+	+ voler scambiare questo Pokémon?
    1fe	= Oh?\n
-	+ You want to cancel trading?
+	+ Vuoi annullare lo scambio?
    1ff	= %ls  %ls  Lv. %d\n
-	+ Name: %ls\n
+	+ Nome: %ls\n
 	+ OT: %ls\n
-	+ Trainer: %ls\n
-	+ Mark: %ls
+	+ Allenatore: %ls\n
+	+ Rango: %ls
    200	= %ls  %ls  Lv. %d\n
-	+ Name: %ls\n
+	+ Nome: %ls\n
 	+ OT: %ls
-   201	= Egg\n
-	+ Obtained: %ls\n
-	+ Trainer: %ls\n
-	+ Mark: %ls
-   202	= Thank you for bringing your\n
-	+ Pokémon to the Ranch!
-   203	= This will make the Ranch more\n
-	+ fun and lively!
-   204	= I'd like for you to keep bringing\n
-	+ Pokémon to the Ranch, but...
-   205	= If you're going to catch\n
-	+ Pokémon anyway, why don't\n
-	+ you try to catch Pokémon not\n
-	+ found in your Pokédex?
+   201	= Uovo\n
+	+ Ottenuto: %ls\n
+	+ Allenatore: %ls\n
+	+ Rango: %ls
+   202	= Grazie per aver portato il tuo\n
+	+ Pokémon al Ranch!
+   203	= Questo renderà il Ranch più\n
+	+ divertente e vivace!
+   204	= Mi piacerebbe che tu continuassi a portare\n
+	+ Pokémon al Ranch, ma...
+   205	= Se continui a catturare\n
+	+ Pokémon, perchè non\n
+	+ provi a catturare Pokémon che non\n
+	+ sono nel tuo Pokédex?
    206	= According to your Pokédex,\n
 	+ you have...\n
 	+ Seen: %d\n
@@ -987,5 +987,3 @@ Ranch %ls!	Ranch %ls!+Ranch %ls! Ranch %ls!RRanch %ls!aRanch %ls!nRanch %ls!cRan
 	+ to find!
    23d	= Well then, let's continue\n
 	+ to work together!
-
-
