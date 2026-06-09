@@ -476,11 +476,11 @@
    109	= Desfile
    10a	= 
    10b	= Filtrar Pokémon
-   10c	= Por defecto
-   10d	= Por cantidad
-   10e	= Por tipo
-   10f	= Por marca
-   110	= Por especie
+   10c	= Opciones:
+   10d	= Cantidad
+   10e	= Tipo
+   10f	= Marcas
+   110	= Especie
    111	= %d/%d
    112	= Rojo
    113	= Azul

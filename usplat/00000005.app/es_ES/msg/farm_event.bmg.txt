@@ -1128,7 +1128,7 @@
 	+ también vayas a visitar sus\n
 	+ ranchos! ¡No te cortes!
    1d0  = ¡Ah! Por cierto,\n
-        + Si me llamas desde el\n
+        + si me llamas desde el\n
         + tablón de anuncios,\n
         + vendré a recogerte.\n
         + ¡Ven cuando quieras! ¿Vale?
@@ -1486,28 +1486,29 @@
    233  = ¡Hola! Soy yo, Eulalia.
    234  = ¡Hola! Soy yo, Eulalia.\n
         + ¡Cuánto tiempo sin verte!
-   235  = Antes de regresar al Rancho,\n
+   235  = Antes de regresar al rancho,\n
         + ¿tienes un momento?\n
-        + ¡Tengo algo que decirte!
-   236  = ¡El Rancho se ha conectado\n
+        + ¡Tengo algo para contarte!
+   236  = ¡El rancho se ha conectado\n
         + a Pokémon Edición Platino!\n
         + ¡Increíble!
    237  = Y además,\n
-        + ¡he mejorado el Rancho con\n
+        + ¡he mejorado el rancho con\n
         + nuevas funciones!
    238  = Aquí tienes los detalles.
    239  = ¡Venga!\n
         + ¡Veamos todas las novedades\n
-        + que esperan en el Rancho!\n
+        + que nos esperan en el rancho!\n
         + ¡Allá vamos!
-   23a  = ¡Este es nuestro nuevo Rancho!
-   23b  = ¡El Rancho ha crecido gracias\n
+   23a  = ¡Este es nuestro nuevo rancho!
+   23b  = ¡El rancho ha crecido gracias\n
         + a la conexión con Pokémon\n
         + Edición Platino!
-   23c  = Aún más cosas han cambiado\n
-        + pero no te las voy a contar.\n
+   23c  = Aún más cosas han cambiado,\n
+        + pero no te las voy a decir.\n
         + ¡Deberás descubrirlas por\n
-        + tu cuenta!
-   23d  = ¡Gracias por toda tu ayuda!\n
+        + tu propia cuenta!
+   23d  = En fin,\n
+        + ¡gracias por toda tu ayuda!
         + ¡Sigamos trabajando\n
         + codo a codo!
