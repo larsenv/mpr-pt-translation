@@ -424,7 +424,7 @@
     db	= Página anterior
     dc	= Página siguiente
     dd	= Atrás
-    de	= ¿Te apetece ir al Rancho %ls?
+    de	= ¿Quieres ir al rancho %ls?
     df	= (???)
     e0	= Mañana...
     e1	= ¡El rancho se amplía!
@@ -712,24 +712,27 @@
    1d1	= 
    1d2	= 
    1d3	= Sobre la actualización (1)
-   1d4	= Novedades
+   1d4	= Características
    1d5	= ・My Pokémon Ranch ya puede\n
-	+ 　conectarse a Pokémon Platino\n
-	+ 　de la consola Nintendo DS.\n
+	+ 　conectarse a Pokémon Edición\n
+        + 　Platino de la consola\n
+	+ 　Nintendo DS.\n
 	+ \n
 	+ ・Cuando el rancho se amplíe,\n
-	+  podrás guardar hasta 1,500 Pokémon.
+	+ 　podrás depositar hasta\n
+        + 　1,500 Pokémon.
    1d6	= Sobre la actualización (2)
-   1d7	= ¿Ahora que puedo hacer?
-   1d8	= ・Hay nuevas opciones en el menú.\n
+   1d7	= Nuevas funciones
+   1d8	= ・Se añadieron nuevas\n
+        + 　opciones en el menú.
 	+ \n
-	+ ・Se puede almacenar hasta\n
-	+  30 fotos.\n
+	+ ・Ahora se pueden almacenar\n
+	+ 　hasta 30 fotos.\n
 	+ \n
-	+ ・Se puede cambiar la música.\n
+	+ ・También puedes elegir la música.\n
 	+ \n
-	+ ・Se puede volver a ver los Ranchos\n
-        +  del Club Mírame ya visitados.
+	+ ・Además puedes visitar los ranchos\n
+        + 　ya vistos del Club Mírame.
    1d9	= Controles
    1da	= Enfoque
    1db	= Buscar
