@@ -46,1479 +46,497 @@
 #
 #------------------------------------------------------------------------------
 
-     0	= 
-     1	= Nach der Geburt nimmt es für eine\n
-	+ Weile Nährstoffe über den Samen\n
-	+ auf seinem Rücken auf.
-     2	= Sobald die Knospe auf seinem Rücken\n
-	+ ein süßes Aroma abgibt, steht die\n
-	+ Blüte kurz bevor.
-     3	= Nach einem Regentag riecht die\n
-	+ Blume auf seinem Rücken intensiver.\n
-	+ Das Aroma zieht andere Pokémon an.
-     4	= Lodert die Flamme auf seiner\n
-	+ Schweifspitze hell, ist GLUMANDA\n
-	+ gesund.
-     5	= GLUTEXO leben in den Bergen. Die\n
-	+ Flammen auf ihren Schweifspitzen\n
-	+ leuchten in der Nacht wie Sterne.
-     6	= Man sagt, GLURAKs Feuer lodert\n
-	+ stärker, wenn es harte Kämpfe\n
-	+ überstanden hat.
-     7	= Es zieht sich in seinen Panzer\n
-	+ zurück und greift dann mit\n
-	+ Wasserstrahlen seine Gegner an.
-     8	= Man sagt, es werde 10 000 Jahre\n
-	+ alt. Sein buschiger Schweif ist ein\n
-	+ Symbol für langes Leben.
-     9	= Der Wasserstrahl, der aus den\n
-	+ Wasserdüsen schießt, kann\n
-	+ sogar Stahlwände durchdringen.
-     a	= Seine roten Antennen sondern einen\n
-	+ Gestank ab, der Feinde verjagt. Es\n
-	+ wächst, indem es sich häutet.
-     b	= Der stahlharte Panzer schützt\n
-	+ seinen zarten Körper. Es wartet\n
-	+ geduldig auf seine Entwicklung.
-     c	= Es liebt Blütenhonig. Es findet\n
-	+ selbst Blumen, die sehr wenig\n
-	+ Pollen haben.
-     d	= Es frisst täglich sein Gewicht in\n
-	+ Blättern. Die Nadel auf seinem Kopf\n
-	+ dient der Verteidigung.
-     e	= Während es auf seine Entwicklung\n
-	+ wartet, versteckt es sich unter\n
-	+ Blättern und zwischen Ästen.
-     f	= Sein bester Angriff: Schnell auf den\n
-	+ Gegner zufliegen, mit Giftstacheln\n
-	+ zustechen und davonfliegen.
-    10	= Reizt man dieses an sich gutmütige\n
-	+ Pokémon, wehrt es sich wütend.
-    11	= Auf der Suche nach Nahrung, die es\n
-	+ mit scharfen Krallen schlägt, fliegt\n
-	+ es durch riesiges Territorium.
-    12	= Schlägt TAUBOSS mit ganzer Kraft\n
-	+ seine Flügel, beugen sich selbst\n
-	+ große Bäume durch den Windstoß.
-    13	= Es strotzt vor Lebenskraft und\n
-	+ kann in jeder Umgebung leben. Es\n
-	+ ist extrem vorsichtig.
-    14	= Es wetzt seine ständig wachsenden\n
-	+ Zähne an harten Dingen. Es kann\n
-	+ Wände aus Beton zernagen.
-    15	= Im Flug schlägt es eifrig mit den\n
-	+ Flügeln. Mit seinem Schnabel sucht\n
-	+ es im Gras nach Beute.
-    16	= Es hat genügend Ausdauer, den\n
-	+ ganzen Tag zu fliegen. Sein\n
-	+ scharfer Schnabel dient als Waffe.
-    17	= Es bewegt sich ohne einen Laut\n
-	+ durch das Gras und greift seine\n
-	+ ahnungslose Beute von hinten an.
-    18	= Das Muster auf seinem Bauch\n
-	+ schüchtert Gegner ein. Sind sie vor\n
-	+ Angst erstarrt, umklammert es sie.
-    19	= Es lebt zusammen mit anderen\n
-	+ in Wäldern. In seinen Backen-\n
-	+ taschen speichert es Elektrizität.
-    1a	= Bei zu viel Elektrizität im Körper\n
-	+ wird es aggressiv. Es entlädt sich\n
-	+ über seinen Schweif.
-    1b	= Es lebt in trockenen Regionen mit\n
-	+ wenig Regen. Es rollt sich ein, um\n
-	+ sich vor Gegnern zu schützen.
-    1c	= Es rollt sich zusammen und rollt\n
-	+ dann auf Gegner zu, die durch\n
-	+ seine Stacheln Schaden nehmen.
-    1d	= Es mag keine Kämpfe. Ein einziger\n
-	+ Tropfen des Gifts aus seinen\n
-	+ Widerhaken hat eine fatale Wirkung.
-    1e	= Bei Gefahr fährt es die Wider-\n
-	+ haken am Körper aus. Diese wachsen\n
-	+ langsamer als die von NIDORINO.
-    1f	= Sein ganzer Körper ist mit harten\n
-	+ Schuppen bedeckt. Es beschützt\n
-	+ sein Junges mit seinem Leben.
-    20	= Es untersucht die Umgebung, indem\n
-	+ es die Ohren spitzt und lauscht.\n
-	+ Sein giftiges Horn schützt es.
-    21	= Es ist aggressiv und greift seine\n
-	+ Gegner mit dem Horn an, welches\n
-	+ bei Berührung Gift absondert.
-    22	= Ein Schlag mit seinem gewaltigen\n
-	+ Schweif kann einen Telegrafen-\n
-	+ masten knicken wie ein Streichholz.
-    23	= Es ist bekannt für sein liebens-\n
-	+ wertes Wesen. Man sagt, es lebt\n
-	+ in der Stille der Berge.
-    24	= Man bekommt es selten zu sehen.\n
-	+ Bei Vollmond soll es an den Ufern\n
-	+ einsam gelegener Seen spielen.
-    25	= Es beherrscht Feuerbälle. Während\n
-	+ es wächst, teilen sich seine sechs\n
-	+ Schweife, um weitere zu bilden.
-    26	= Seine neun Schweife sollen\n
-	+ mystische Kräfte besitzen. Es kann\n
-	+ tausend Jahre leben.
-    27	= Sobald es mit seinen großen, runden\n
-	+ Augen rollt, fängt es an, ein Lied\n
-	+ zu singen und jeder schläft ein.
-    28	= Sein feines Fell fühlt sich herrlich\n
-	+ an. Es kann sich größer machen,\n
-	+ indem es Luft einatmet.
-    29	= Obwohl es keine Augen hat, kann es\n
-	+ Hindernisse mithilfe von\n
-	+ Ultraschallwellen wahrnehmen.
-    2a	= Es liebt das Blut von Menschen und\n
-	+ Pokémon. Nachts fliegt es umher auf\n
-	+ der Suche nach Halsvenen.
-    2b	= Tagsüber verankert es sich mit\n
-	+ seinen Wurzelfüßen im Boden. Nachts\n
-	+ wandert es und verteilt Samen.
-    2c	= Der Honig, den es abgibt, riecht so\n
-	+ entsetzlich, dass sich sogar Nasen\n
-	+ in 2 km Entfernung rümpfen.
-    2d	= Es besitzt die größten Blätter der\n
-	+ Welt. Es verteilt beim Gehen Pollen,\n
-	+ die schreckliche Allergien auslösen.
-    2e	= Auf seinem Rücken wachsen Pilze,\n
-	+ die Tochukaso. Sie nehmen an Größe\n
-	+ zu, wenn PARAS wächst.
-    2f	= PARASEK wird von einem Pilz, der\n
-	+ größer als das Pokémon ist,\n
-	+ kontrolliert. Er gibt Giftsporen ab.
-    30	= Seine großen Augen bestehen aus\n
-	+ vielen kleinen Augen. Nachts wird\n
-	+ es von Licht angezogen.
-    31	= Es schlägt mit den Flügeln, um\n
-	+ staubartige Schuppen abzusondern.\n
-	+ Diese geben bei Kontakt Gift ab.
-    32	= Dieses Pokémon lebt unterirdisch.\n
-	+ Da es an Dunkelheit gewöhnt ist,\n
-	+ schreckt helles Licht es ab.
-    33	= Die drei Köpfe bewegen sich abwech-\n
-	+ selnd, um sich durch harte Erde in\n
-	+ Tiefen von bis zu 100 km zu graben.
-    34	= Ein nachtaktives Pokémon. Sieht es\n
-	+ etwas Schimmerndes, fangen\n
-	+ seine Augen an zu glänzen.
-    35	= Ein sehr stolzes Pokémon. Für Fans\n
-	+ ist die Größe des Juwels auf seiner\n
-	+ Stirn Anlass für Diskussionen.
-    36	= Werden seine konstant vorhandenen\n
-	+ Kopfschmerzen stärker, entwickelt\n
-	+ es seltsame Kräfte.
-    37	= Dieses Pokémon lebt in Seen. Es\n
-	+ schwimmt schneller als der\n
-	+ schnellste menschliche Schwimmer.
-    38	= Es lebt mit anderen in Baumkronen.\n
-	+ Wird eines von ihnen wütend, werden\n
-	+ alle anderen auch wütend.
-    39	= Siehst du ihm in die Augen, wird es\n
-	+ wütend. Rennst du weg, wird es\n
-	+ noch wütender. Ärgerst du es...
-    3a	= Ein loyales Pokémon. Es wird erst\n
-	+ dann aktiv, wenn sein Trainer ihm\n
-	+ Anweisungen gegeben hat.
-    3b	= Mit seiner stolzen und königlichen\n
-	+ Erscheinung gewinnt es die\n
-	+ Herzen der Menschen.
-    3c	= Seine Haut ist so dünn, dass man die\n
-	+ inneren Organe sehen kann. Es hat\n
-	+ Schwierigkeiten beim Laufen.
-    3d	= Das Spiralmuster auf seinem Bauch\n
-	+ dreht sich langsam. Starrt man\n
-	+ darauf, wird einem schwindelig.
-    3e	= Es hat extrem starke Muskeln und\n
-	+ kann durch den Ozean schwimmen,\n
-	+ ohne sich ausruhen zu müssen.
-    3f	= 18 Stunden am Tag schläft es. Und\n
-	+ wenn es wach ist, teleportiert es\n
-	+ sich, während es sitzen bleibt.
-    40	= Wenn sich auf deinem Fernsehbild-\n
-	+ schirm ein Schatten zeigt, ist es in\n
-	+ der Nähe. Und das bringt Unglück.
-    41	= Es besitzt ein fantastisches Ge-\n
-	+ dächtnis und erinnert sich an alles\n
-	+ seit seiner Geburt. IQ: Über 5 000.
-    42	= Es hebt GEOROK hoch, um seinen\n
-	+ Körper zu trainieren. Außerdem übt\n
-	+ es sich in jeder Art v. Kampfsport.
-    43	= MASCHOCKs unbegrenzte Kraft ist\n
-	+ gefährlich, daher trägt es einen\n
-	+ Gürtel, der die Kraft unterdrückt.
-    44	= Mit seinen vier Armen schlägt es\n
-	+ blitzschnell zu. Es kann in zwei\n
-	+ Sekunden 1 000-mal zuschlagen.
-    45	= Es bevorzugt heiße und feuchte\n
-	+ Umgebungen. Seine Beute fängt es\n
-	+ blitzschnell mit seinen Ranken.
-    46	= Ein Pokémon, das wie eine Pflanze\n
-	+ aussieht. Es fängt Beute, indem es\n
-	+ giftigen Puder darüber verteilt.
-    47	= In seinem Maul sammelt sich eine\n
-	+ Flüssigkeit, die nach Honig riecht,\n
-	+ in Wahrheit aber ätzend ist.
-    48	= Sein Körper besteht aus Wasser.\n
-	+ Aus seinen kristallartigen Augen\n
-	+ verschießt es eigenartige Strahlen.
-    49	= Es besitzt 80 Tentakel, um Beute zu\n
-	+ fangen und festzuhalten. Diese\n
-	+ wird durch Gift geschwächt.
-    4a	= Viele von ihnen leben auf\n
-	+ Bergpfaden, halb vergraben\n
-	+ und Bergsteiger beobachtend.
-    4b	= GEOROK leben an steilen\n
-	+ Felsvorsprüngen. Sie graben\n
-	+ dazu viele Löcher aus.
-    4c	= Einmal im Jahr wechselt es seine\n
-	+ Haut. Seinem Körper kann\n
-	+ selbst Dynamit nichts anhaben.
-    4d	= Bereits eine Stunde nach seiner\n
-	+ Geburt wachsen seine feurige\n
-	+ Mähne und sein feuriger Schweif.
-    4e	= Seine Mähne lodert auf, wenn es\n
-	+ mit 240 km/h pfeilschnell\n
-	+ galoppiert.
-    4f	= Es ist langsam, hat aber ein Talent,\n
-	+ mit seinem Schweif zu fischen. Beißt\n
-	+ etwas an, tut es ihm nicht weh.
-    50	= Ein begriffsstutziges Pokémon.\n
-	+ Beißt das MUSCHAS am Schweif zu,\n
-	+ scheint es Intelligenz zu gewinnen.
-    51	= Die Vorrichtungen an seinem Körper\n
-	+ generieren elektromagnetische\n
-	+ Wellen, die es schweben lassen.
-    52	= Eigentlich sind es drei MAGNETILO,\n
-	+ die durch Magnetismus verbunden\n
-	+ sind.
-    53	= Ohne seinen Stock kann es nicht\n
-	+ leben. Daher beschützt es den\n
-	+ Stock mit seinem Leben.
-    54	= Die Gehirne der beiden Köpfe\n
-	+ kommunizieren ihre Gefühle\n
-	+ über Telepathie.
-    55	= Entwickelt sich DODU, teilt sich\n
-	+ einer der Köpfe in zwei. Es kann\n
-	+ sich mit 60 km/h fortbewegen.
-    56	= Dieses Pokémon lebt auf Eisbergen.\n
-	+ Es schwimmt im Eiswasser und bricht\n
-	+ das Eis mithilfe seines Horns.
-    57	= Sein Körper ist mit einem weißen Fell\n
-	+ bedeckt, das es im Schnee fast\n
-	+ unsichtbar für Gegner macht.
-    58	= Es wurde geboren, als Schlamm von\n
-	+ den Strahlen des Mondes getroffen\n
-	+ wurde. Es erscheint, wo Unrat ist.
-    59	= Sein Körper sondert eine giftige\n
-	+ Substanz ab, die bei Kontakt\n
-	+ Pflanzen und Bäume vernichtet.
-    5a	= Es schwimmt rückwärts, indem es\n
-	+ seine Schale öffnet und schließt.\n
-	+ Es zeigt immer seine breite Zunge.
-    5b	= Im Kampf schließt es seine Schale,\n
-	+ um sich zu schützen. Es schießt mit\n
-	+ Stacheln auf seine Gegner.
-    5c	= Der Körper des Pokémon besteht zu\n
-	+ 95 % aus Gasen, die fortgeweht\n
-	+ werden, wenn starker Wind geht.
-    5d	= Es kann sich durch jedes Hindernis\n
-	+ bewegen. Es versteckt sich in\n
-	+ Wänden, um Gegner zu beobachten.
-    5e	= Es versteckt sich im Schatten. Man\n
-	+ sagt, wenn sich ein GENGAR ver-\n
-	+ steckt, kühlt es sich um 5 Grad ab.
-    5f	= Wenn es sich unter dem Boden mit\n
-	+ bis zu 80 km/h bewegt, verursacht\n
-	+ es Erschütterungen.
-    60	= Mit seiner großen Nase kann es die\n
-	+ Träume anderer erkennen.\n
-	+ Es liebt lustige Träume.
-    61	= Ein Blick auf das Pendel versetzt\n
-	+ einen in 3 Sekunden in Schlaf,\n
-	+ selbst wenn man gar nicht müde ist.
-    62	= Es lebt in Höhlen am Strand. Seine\n
-	+ Scheren wachsen nach, wenn es sie\n
-	+ im Kampf verliert.
-    63	= Die großen Scheren haben eine\n
-	+ Stärke von 10 000 PS. Aber sie sind\n
-	+ schwer und kaum zu handhaben.
-    64	= Sieht aus wie ein Pokéball. Es ist\n
-	+ gefährlich, da es bei Berührung\n
-	+ explodieren kann.
-    65	= Es lässt sich vom Wind treiben,\n
-	+ wenn es so voller Elektrizität ist,\n
-	+ dass es fast explodiert.
-    66	= Die sechs Eier kommunizieren\n
-	+ telepathisch. Werden sie getrennt,\n
-	+ finden sie sich schnell wieder.
-    67	= Man nennt es den “Laufenden\n
-	+ Dschungel”. Wird ein Kopf zu groß,\n
-	+ fällt er ab und wird zu einem OWEI.
-    68	= Denkt es an seine verstorbene\n
-	+ Mutter, weint es, wobei der Schädel\n
-	+ auf seinem Kopf hohl klingt.
-    69	= Von Geburt an trägt dieses wilde\n
-	+ Pokémon Knochen. Es setzt sie\n
-	+ talentiert als Waffen ein.
-    6a	= Seine Beine können die doppelte\n
-	+ Länge annehmen. Gegner, die das\n
-	+ nicht wissen, erschrecken.
-    6b	= Die Schläge, die es austeilt, können\n
-	+ Beton pulverisieren. Es muss sich\n
-	+ im Kampf alle 3 Minuten ausruhen.
-    6c	= Statt Händen verwendet es seine\n
-	+ Zunge, die zweimal so groß wie\n
-	+ sein Körper und klebrig ist.
-    6d	= Gase, die leichter als Luft sind,\n
-	+ lassen es schweben. Diese Gase\n
-	+ stinken und sind explosiv.
-    6e	= Es wächst, indem es Gase aufnimmt,\n
-	+ die aus dem Müll aufsteigen. Selten\n
-	+ kann man Drillinge von ihnen finden.
-    6f	= Sein Körper ist von einer dicken\n
-	+ Haut umgeben und es kann wackelige\n
-	+ Gebäude zum Einsturz bringen.
-    70	= Sein Gehirn entwickelt sich, wenn es\n
-	+ sich auf die Hinterbeine stellt. Mit\n
-	+ dem Horn bohrt es durch Gestein.
-    71	= Man sagt, es bringe Glück. Es ist\n
-	+ sehr mitfühlend und teilt seine Eier\n
-	+ mit Verletzten.
-    72	= Es ist von blauen Ranken umgeben.\n
-	+ Niemand hat jemals das Gesicht\n
-	+ dieses Pokémon gesehen.
-    73	= Sein Nachwuchs wächst in seinem\n
-	+ Beutel heran. Nur wenn es sicher\n
-	+ ist, darf das Junge aus dem Beutel.
-    74	= Im Schatten von Korallen legt es\n
-	+ sein Nest an. Bei Gefahr versprüht\n
-	+ es Tinte und flieht.
-    75	= Seine Stacheln schützen es. Seine\n
-	+ Flossen und Knochen werden bei der\n
-	+ Herstellung von Medizin verwendet.
-    76	= Es schwimmt elegant und bewegt\n
-	+ seine Hinterflosse wie ein Kleid.\n
-	+ Es sieht aus wie eine Königin.
-    77	= Es baut Nester, indem es Steine im\n
-	+ Fluss mit seinem Horn aushöhlt. Es\n
-	+ verteidigt seine Eier mit dem Leben.
-    78	= Wird sein Körper verletzt, kann\n
-	+ es sich regenerieren, sofern\n
-	+ der rote Kern intakt ist.
-    79	= In der Körpermitte befindet sich\n
-	+ ein roter Kern, der mysteriöse\n
-	+ Radiowellen in die Nacht sendet.
-    7a	= Ein Experte der Pantomime. Es kann\n
-	+ unsichtbare, aber solide Wände\n
-	+ allein durch Gesten erzeugen.
-    7b	= Es ist fast unmöglich, seinen\n
-	+ Sensen auszuweichen, da es mit der\n
-	+ Schnelligkeit eines Ninja zuschlägt.
-    7c	= Sein Ruf klingt wie menschliche\n
-	+ Sprache. Trotzdem ist nicht zu\n
-	+ verstehen, was es sagt.
-    7d	= Die Hälfte aller Stromausfälle wird\n
-	+ durch dieses PKMN ausgelöst, das\n
-	+ in E-Werken Elektrizität frisst.
-    7e	= Es wurde bei einem Vulkanausbruch\n
-	+ geboren. Sein Körper ist von\n
-	+ hellen Flammen umgeben.
-    7f	= Es hält seine Beute mit seiner\n
-	+ Zange fest und teilt sie dann. Was\n
-	+ es nicht teilen kann, wirft es fort.
-    80	= Sobald es einen Gegner ins Visier\n
-	+ genommen hat, rennt es mit dem\n
-	+ Kopf voran auf ihn zu.
-    81	= Man sagt, es sei das schwächste\n
-	+ PKMN der Welt. Niemand weiß, wie\n
-	+ es bisher überleben konnte.
-    82	= Sobald es erscheint, nimmt seine\n
-	+ Wut nicht eher ab, bis es die Felder\n
-	+ und Berge ringsum zerstört hat.
-    83	= Es liebt es, das Meer mit PKMN und\n
-	+ Menschen auf dem Rücken zu über-\n
-	+ queren. Es versteht die Menschen.
-    84	= Es kann seine Zellstruktur so\n
-	+ verändern, dass es sich in alles\n
-	+ verwandeln kann, was es sieht.
-    85	= Ein seltenes PKMN, das sich seiner\n
-	+ Umgebung anpasst, indem es sich in\n
-	+ unterschiedlicher Form entwickelt.
-    86	= Es hat sich so entwickelt, dass es\n
-	+ im Wasser leben kann. Im Wasser\n
-	+ selbst wird es unsichtbar.
-    87	= Es kontrolliert 10 000 Volt. Es\n
-	+ kann sein Fell so aufstellen, dass\n
-	+ es wie scharfe Nadeln wirkt.
-    88	= In seinem Körper befindet sich eine\n
-	+ Flamme. Seine Körpertemperatur\n
-	+ liegt vor dem Kampf bei 900 Grad.
-    89	= Das erste künstlich erzeugte PKMN\n
-	+ der Welt. Es kann durch\n
-	+ elektronischen Raum reisen.
-    8a	= Dieses PKMN wurde von der modernen\n
-	+ Wissenschaft aus einem Fossil ge-\n
-	+ schaffen. Es lebte im urzeitl. Meer.
-    8b	= Man geht davon aus, dass das PKMN\n
-	+ ausgestorben ist, weil seine spiral-\n
-	+ förmige Schale zu groß wurde.
-    8c	= Man geht davon aus, dass dieses\n
-	+ PKMN vor 300 Millionen Jahren die\n
-	+ Strände bevölkerte.
-    8d	= Man geht davon aus, dass dieses\n
-	+ PKMN an Land kam, weil seine Beute\n
-	+ ebenfalls irgendwann an Land lebte.
-    8e	= Dieses PKMN flog zu Zeiten der\n
-	+ Dinosaurier am Himmel. Seine\n
-	+ Zähne sind wie Sägeblätter.
-    8f	= Sein Magen kann jede Art von\n
-	+ Nahrung verdauen, selbst wenn sie\n
-	+ verschimmelt und verdorben ist.
-    90	= Ein Legendäres Vogel-Pokémon.\n
-	+ Es kann Blizzards verursachen,\n
-	+ indem es Feuchtigkeit gefriert.
-    91	= Ein Legendäres Vogel-Pokémon,\n
-	+ das in Gewitterwolken leben soll.\n
-	+ Es kontrolliert Blitze.
-    92	= Eines der Legendären Vogel-\n
-	+ Pokémon. Es wird als Bote des\n
-	+ Frühlings angesehen.
-    93	= Man nennt es “Illusion-Pokémon”,\n
-	+ denn nur wenige haben es gesehen.\n
-	+ Nur seine Haut wurde oft gefunden.
-    94	= Erscheint um seinen Körper eine\n
-	+ Aura, gibt es einen Wetterwechsel.\n
-	+ Es soll in Seen und Meeren leben.
-    95	= Man sagt, es lebe in den Meeren.\n
-	+ Es bringt Schiffbrüchige sicher\n
-	+ an Land.
-    96	= Die Gene von MEW wurden neu\n
-	+ angeordnet, wodurch dieses PKMN\n
-	+ entstand. Es hat ein wildes Herz.
-    97	= Es beherrscht alle möglichen\n
-	+ Attacken, daher sieht man in ihm\n
-	+ den Vorfahren aller Pokémon.
-    98	= Mit dem Blatt auf seinem Kopf\n
-	+ bestimmt es die Temperatur und\n
-	+ Feuchtigkeit. Es liebt Sonnenbäder.
-    99	= Die Knospen an seinem Hals\n
-	+ geben ein würziges Aroma ab,\n
-	+ das andere aufheitert.
-    9a	= Mit seinem Atem kann es tote\n
-	+ Pflanzen und Blumen zu neuem\n
-	+ Leben erwecken.
-    9b	= Erschrickt sich dieses scheue PKMN,\n
-	+ lodern die Flammen auf seinem\n
-	+ Rücken kräftiger.
-    9c	= Es bedroht seine Gegner mit der\n
-	+ Hitze seiner Flammen. Ist es\n
-	+ kampfbereit, lodern sie stärker.
-    9d	= Es greift seine Gegner mit Feuer\n
-	+ an. Dabei entsteht ein Hitze-\n
-	+ flimmern, in dem es sich versteckt.
-    9e	= Es hat die Angewohnheit, nach allem\n
-	+ zu schnappen, was es sieht. Selbst\n
-	+ seine Trainer müssen aufpassen.
-    9f	= Hat es einmal zugebissen, lässt es\n
-	+ erst los, wenn es seine Zähne\n
-	+ verliert, die schnell nachwachsen.
-    a0	= Eigentlich bewegt es sich langsam,\n
-	+ doch seine Beute greift es\n
-	+ blitzschnell an.
-    a1	= Ein sehr nervöses PKMN. Es steht\n
-	+ auf seinem Schweif und betrachtet\n
-	+ seine Umgebung ganz genau.
-    a2	= Es rollt sich um seine Jungen, wenn\n
-	+ diese schlafen sollen. Gegnern\n
-	+ begegnet es mit Schnelligkeit.
-    a3	= Es steht ständig auf einem Fuß.\n
-	+ Selbst wenn es angreift, stellt es\n
-	+ sich nicht auf beide Beine.
-    a4	= Seine Augen sind etwas Besonderes.\n
-	+ Sie können selbst bei schwächstem\n
-	+ Licht alles erkennen.
-    a5	= Es ist so scheu, dass es sich\n
-	+ nur dann bewegt, wenn es sich\n
-	+ in einem Schwarm befindet.
-    a6	= Es zieht Energie aus dem Licht der\n
-	+ Sterne. Je mehr Sterne zu sehen\n
-	+ sind, desto größer ist sein Muster.
-    a7	= Es baut eine Falle, indem es ein\n
-	+ Netz mit dünner, starker Seide\n
-	+ spinnt. Es wartet still auf Beute.
-    a8	= Es befestigt Seide an der Beute und\n
-	+ lässt sie frei. Es folgt dem Seiden-\n
-	+ faden zur Beute u. ihren Freunden.
-    a9	= Seine vier Flügel erlauben es dem\n
-	+ PKMN, schneller und leiser zu\n
-	+ fliegen. Es ist nachtaktiv.
-    aa	= Über seine Antennen entlädt es\n
-	+ Elektrizität, mit der es seinen\n
-	+ Gegnern einen Schlag versetzt.
-    ab	= LANTURNs Licht kann aus großen\n
-	+ Tiefen heraufscheinen. Man nennt\n
-	+ es auch “Tiefseestern”.
-    ac	= Seine Backentaschen sind noch\n
-	+ recht klein. Daher kann es nicht\n
-	+ allzu viel Elektrizität speichern.
-    ad	= Seine Silhouette sieht aus wie ein\n
-	+ Stern. Man sagt, es würde auf\n
-	+ Sternschnuppen reisen.
-    ae	= Es hat einen weichen, elastischen\n
-	+ Körper. Hat es einmal angefangen\n
-	+ zu hüpfen, ist es nicht zu stoppen.
-    af	= Seine Schale ist mit Glücksgefühlen\n
-	+ gefüllt, die es mit gutherzigen\n
-	+ Lebewesen teilt.
-    b0	= Man sagt, es erscheint vor denen,\n
-	+ die gutherzig sind, und verteilt\n
-	+ glänzenden “Glücksstaub”.
-    b1	= Es pickt seine Nahrung aus\n
-	+ Kakteen, wobei es Knospen und\n
-	+ Dornen verschont.
-    b2	= Dieses PKMN kann die Vergangenheit\n
-	+ und die Zukunft sehen. Es\n
-	+ beobachtet ständig die Sonne.
-    b3	= Sein weiches Fell wird doppelt so\n
-	+ dick, wenn sich Elektrizität\n
-	+ aufbaut.
-    b4	= Hat es sich mit Elektrizität aufge-\n
-	+ laden, leuchtet sein Schweif und es\n
-	+ feuert Haare ab, die sich entladen.
-    b5	= Seine Schweifspitze leuchtet hell.\n
-	+ In alten Zeiten hat man mit seiner\n
-	+ Hilfe Lichtsignale gegeben.
-    b6	= Sobald die Regenzeit vorbei ist,\n
-	+ wird es von der warmen Sonne nach\n
-	+ draußen gezogen, wo es tanzt.
-    b7	= Seinen Schweif verwendet es als\n
-	+ eine Art Rettungsring, wenn es\n
-	+ taucht. Es liebt Wasserpflanzen.
-    b8	= Es lebt in Flüssen und Seen. Im\n
-	+ Wasser verwirrt es seine Gegner\n
-	+ durch seine Farbe und Muster.
-    b9	= Auch wenn es wie ein Baum aussieht,\n
-	+ ist es eher wie ein Stein o. Fels.\n
-	+ Es ist schwach gegenüber Wasser.
-    ba	= Es versammelt andere PKMN um sich\n
-	+ herum und führt sie an.\n
-	+ POLIWAG gehorchen seinem Ruf.
-    bb	= Es reitet auf dem Wind. Man sagt,\n
-	+ wenn sich HOPPSPROSS ver-\n
-	+ sammeln, kommt der Frühling bald.
-    bc	= Sobald es wärmer wird, blüht es\n
-	+ auf. Es schwebt am Himmel und nimmt\n
-	+ so viel Sonnenlicht auf wie möglich.
-    bd	= Es lässt sich von den Winden um den\n
-	+ Globus tragen und verteilt auf\n
-	+ seinem Flug Baumwollsamen.
-    be	= Mit dem Schweif pflückt es hochhän-\n
-	+ gende Früchte. Mit ihm ist es\n
-	+ geschickter als mit den Händen.
-    bf	= Morgens fällt es plötzlich aus dem\n
-	+ Himmel. War der Sommer kalt,\n
-	+ explodiert seine Population.
-    c0	= Warmes Sonnenlicht gibt ihm\n
-	+ Energie. Daher wandert es stets\n
-	+ dem Sonnenlicht hinterher.
-    c1	= Mit seinen Augen hat es einen Blick-\n
-	+ winkel von 360 Grad. Es sieht sogar\n
-	+ Beute, die sich hinter ihm befindet.
-    c2	= Es lebt im kalten Wasser. Es\n
-	+ vergräbt sich halb im schlammigen\n
-	+ Boden, wenn es schlafen will.
-    c3	= Ein träges PKMN, das auf dem Grund\n
-	+ des Flusses liegt und wartet, dass\n
-	+ ihm Beute ins Maul schwimmt.
-    c4	= Sein Fell ist wie Samt. Setzt es\n
-	+ Psycho-Kräfte ein, leuchtet die\n
-	+ Kugel in seiner Stirn.
-    c5	= Mondlicht hat die genetische\n
-	+ Struktur von EVOLI verändert.\n
-	+ Im Dunkeln wartet es auf Beute.
-    c6	= Sieht man dieses PKMN bei Nacht,\n
-	+ sollen merkwürdige Dinge passieren.
-    c7	= Wird es von MUSCHAS gebissen, wird\n
-	+ es so intelligent, dass es sich mit\n
-	+ Nobelpreisträgern messen kann.
-    c8	= Es liebt es, sich nachts an andere\n
-	+ heranzuschleichen und sie mit einem\n
-	+ schrillen Schrei zu erschrecken.
-    c9	= Seine Form sieht aus wie antike\n
-	+ Schrift. Was war zuerst da? Die\n
-	+ Sprache oder ICOGNITO?
-    ca	= Verzweifelt versucht es, seinen\n
-	+ schwarzen Schweif zu verstecken.\n
-	+ Er soll ein Geheimnis enthalten.
-    cb	= Sein Schweif besitzt ebenfalls ein\n
-	+ Gehirn. Er beißt jeden Gegner, der\n
-	+ sich von hinten heranschleicht.
-    cc	= Es sieht aus wie ein Tannenzapfen.\n
-	+ Seine Schale schützt es vor Vogel-\n
-	+ Pokémon, die an ihm picken wollen.
-    cd	= Dieses PKMN ist von einer Stahlhülle\n
-	+ umgeben. Seine stechenden Augen\n
-	+ sind alles, was man von ihm sieht.
-    ce	= Es gräbt sich mit seinem Schweif in\n
-	+ die Erde und baut ein labyrinth-\n
-	+ artiges Nest. Es kann kaum fliegen.
-    cf	= Es segelt durch die Lüfte und\n
-	+ breitet seine Gliedmaßen aus, um\n
-	+ aus der Luft anzugreifen.
-    d0	= Hoher Druck und hohe Temperaturen\n
-	+ haben seinen Körper härter als\n
-	+ Stahl werden lassen.
-    d1	= Kleine PKMN fliehen beim Anblick\n
-	+ seines Gesichts. Frauen aber finden\n
-	+ es niedlich.
-    d2	= Es ist trotz seines Äußeren\n
-	+ schüchtern. Wird es wütend,\n
-	+ schnappt es mit seinen Fängen zu.
-    d3	= Es verschießt die giftigen Stacheln\n
-	+ seines Körpers in alle Richtungen.\n
-	+ Es ist kein guter Schwimmer.
-    d4	= Sein Körper ist stahlhart. Es\n
-	+ bedroht seine Gegner, indem es die\n
-	+ Augen auf seinen Scheren zeigt.
-    d5	= In seiner Schale bewahrt es Beeren\n
-	+ auf. Diese fermentieren zu einem\n
-	+ leckeren Saft.
-    d6	= Auf der Suche nach Baumsaft durch-\n
-	+ streift es die Wälder. Es ist stark\n
-	+ genug, um Gegner wegzuschleudern.
-    d7	= Es ernährt sich von Eiern, die es\n
-	+ aus Nestern stiehlt. Beute greift\n
-	+ es mit seinen scharfen Krallen an.
-    d8	= Es lässt Honig in seine Pranken\n
-	+ eindringen, so dass es immer\n
-	+ welchen dabeihat.
-    d9	= Es durchstreift sein Revier und\n
-	+ markiert Bäume, die Früchte\n
-	+ oder Beeren tragen, mit Kratzern.
-    da	= Sein Körper besteht aus Magma.\n
-	+ Bleibt es nicht ständig in Bewegung,\n
-	+ kühlt es aus und verhärtet sich.
-    db	= Seine Körpertemperatur beträgt\n
-	+ etwa 10 000 Grad. Aus seiner Schale\n
-	+ treten immer wieder Flammen aus.
-    dc	= Es liebt Pilze, die unter totem Gras\n
-	+ wachsen. Auf der Suche nach\n
-	+ Nahrung findet es heiße Quellen.
-    dd	= Sein dichtes Fell verdeckt seine\n
-	+ Augen. Es untersucht seine\n
-	+ Umgebung mit seiner Nase.
-    de	= Viele von ihnen leben in den\n
-	+ sauberen Seen im Süden. In ver-\n
-	+ schmutzten können sie nicht leben.
-    df	= Es spritzt Wasser mit Hochdruck\n
-	+ aus seinem Maul und schießt damit\n
-	+ auf fliegende Beute.
-    e0	= Es lebt in Gesteinsritzen und\n
-	+ Löchern auf dem Meeresboden. Mit\n
-	+ Saugnäpfen hält es Beute fest.
-    e1	= Im eingerollten Schweif transpor-\n
-	+ tiert es Futter, das es mit denen\n
-	+ teilt, die sich verlaufen haben.
-    e2	= Wenn das Meer ruhig ist, kann man\n
-	+ vielleicht einen Schwarm MANTAX\n
-	+ sehen, die schnell vorbeischwimmen.
-    e3	= Es wird komplett von einer eisen-\n
-	+ harten Rüstung geschützt. Wenn es\n
-	+ fliegt, erreicht es bis zu 300 km/h.
-    e4	= Durch unterschiedliche Schreie\n
-	+ drückt es seine Gefühle aus. Diese\n
-	+ PKMN jagen im Verbund nach Beute.
-    e5	= In alten Zeiten glaubte man, das\n
-	+ Heulen dieses PKMN sei der Ruf\n
-	+ des Todes.
-    e6	= Es lebt in Höhlen auf dem Meeres-\n
-	+ grund. Jedes Mal, wenn es sich\n
-	+ bewegt, entsteht ein Strudel.
-    e7	= Trotz seiner geringen Größe ist es\n
-	+ stark. Es kann einen Erwachsenen\n
-	+ mühelos auf dem Rücken tragen.
-    e8	= Wenn es angreift, rollt es sich\n
-	+ zusammen und auf den Gegner zu. Es\n
-	+ kann Häuser zum Einsturz bringen.
-    e9	= Interstellare Software wurde\n
-	+ installiert, so dass dieses PKMN\n
-	+ sich auch im All bewegen kann.
-    ea	= Starrt man auf sein Geweih, bekommt\n
-	+ man das seltsame Gefühl, in dessen\n
-	+ Mitte gezogen zu werden.
-    eb	= Sein Revier markiert es mit seinem\n
-	+ pinselartigen Schweif. Es kennt\n
-	+ mehr als 5 000 Markierungen.
-    ec	= Es ist bekannt für seine Kampfbe-\n
-	+ gierde. Es erholt sich ständig von\n
-	+ Verletzungen.
-    ed	= Es kämpft, während es sich wie ein\n
-	+ Kreisel dreht. Die Zentrifugalkraft\n
-	+ erhöht die Kampfkraft um 10.
-    ee	= Dieses PKMN berührt alles mit den\n
-	+ Lippen. Diese merken sich, was es\n
-	+ mag und nicht mag.
-    ef	= Es bewegt seine Arme und generiert\n
-	+ damit Elektrizität. Diese kann es\n
-	+ aber nicht speichern.
-    f0	= Seine Körpertemperatur liegt bei\n
-	+ etwa 600 Grad. Ist es gesund,\n
-	+ atmet es gelbe Flammen aus.
-    f1	= Man sagt, dass Kinder, die MILTANKs\n
-	+ Milch trinken, zu gesunden\n
-	+ Erwachsenen heranwachsen.
-    f2	= Dieses gutherzige PKMN pflegt\n
-	+ kranke PKMN gesund. Es spürt die\n
-	+ Traurigkeit anderer Lebewesen.
-    f3	= Dieses PKMN ist der personifizierte\n
-	+ Blitz. Es kann aus den Wolken über\n
-	+ seinem Rücken Blitze schleudern.
-    f4	= Man sagt, wenn es brüllt, bricht\n
-	+ irgendwo in der Welt ein Vulkan aus.
-    f5	= Es wandert beständig in der Welt\n
-	+ herum, um verunreinigtes Wasser zu\n
-	+ reinigen. Es zieht mit dem Nordwind.
-    f6	= Dieses PKMN frisst das Erdreich.\n
-	+ Hat es einen Berg verspeist,\n
-	+ schläft es ein, um zu wachsen.
-    f7	= Sein Körper ist hart wie Fels. Es\n
-	+ lässt mit Hochdruck Gas ab, um wie\n
-	+ eine Rakete nach oben zu schießen.
-    f8	= Bei einem Tobsuchtsanfall zerstört\n
-	+ es ganze Gebirge und legt Flüsse\n
-	+ trocken.
-    f9	= Es schläft in einem Tiefseegraben.\n
-	+ Schwingt es seine Flügel, entsteht\n
-	+ ein Sturm, der 40 Tage dauert.
-    fa	= Seine Federn besitzen 7 Farben.\n
-	+ Man sagt, dass demjenigen, der es\n
-	+ sieht, ewiges Glück beschieden ist.
-    fb	= Es kann durch die Zeit reisen,\n
-	+ aber es erscheint nur zu\n
-	+ friedlichen Zeiten.
-    fc	= Seine Fußsohlen sind mit kleinen\n
-	+ Stacheln bedeckt, so dass es an\n
-	+ Wänden und Decken Halt findet.
-    fd	= Es lebt im dichten Dschungel.\n
-	+ Es springt von Ast zu Ast, wenn es\n
-	+ sich einer Beute nähert.
-    fe	= Die Blätter an seinen Armen können\n
-	+ dicke Bäume fällen. Im Dschungel-\n
-	+ kampf gibt es kein stärkeres PKMN.
-    ff	= In seinem Inneren lodert ein Feuer.\n
-	+ Es schleudert 1 000 Grad heiße\n
-	+ Feuerbälle.
-   100	= Es kann 10 Tritte pro Sekunde aus-\n
-	+ teilen. Es gibt schrille Schreie von\n
-	+ sich, um Gegner einzuschüchtern.
-   101	= Aus seinen Handgelenken kommt\n
-	+ Feuer, das seine Knöchel umhüllt.\n
-	+ Schläge verbrennen den Gegner.
-   102	= Die Flosse auf seinem Kopf prüft\n
-	+ die Strömung des Wassers. Dieses\n
-	+ PKMN kann Felsen heben.
-   103	= Seine kräftigen Beine geben ihm\n
-	+ sicheren Halt. Es gräbt sich in\n
-	+ Dreck ein, wenn es schlafen will.
-   104	= Es kann im Schwimmen ein großes\n
-	+ Schiff ziehen. Seine Gegner schlägt\n
-	+ es mit Schlägen seiner Arme zurück.
-   105	= Ein beharrliches PKMN, das seine\n
-	+ Beute jagt, bis diese erschöpft\n
-	+ ist.
-   106	= Es jagt seine Beute im Rudel. Den\n
-	+ Befehlen eines erfahrenen Trainers\n
-	+ wird es stets folgen.
-   107	= Es läuft im Zickzack. Es hat das\n
-	+ Talent, Items im Gras, aber auch im\n
-	+ Boden, zu finden.
-   108	= Es stürzt sich mit 100 km/h auf\n
-	+ Beute. Aber es kann nur geradeaus\n
-	+ laufen und die Jagd misslingt oft.
-   109	= Es isst am liebsten Blätter. Wird es\n
-	+ von einem STARALILI angegriffen,\n
-	+ verteidigt es sich mit Stacheln.
-   10a	= Es bindet sich mit Seidenfäden an\n
-	+ Ästen fest und wartet so starr auf\n
-	+ seine Entwicklung.
-   10b	= Es besitzt ein aggressives Wesen.\n
-	+ Es sticht seinen Rüssel in seine\n
-	+ Beute und saugt sie aus.
-   10c	= In seinem Kokon ist es heiß. Seine\n
-	+ Körperzellen produzieren die Hitze,\n
-	+ damit es sich entwickeln kann.
-   10d	= Nachtaktives PKMN, das vom Licht\n
-	+ der Stadt angezogen wird und dort\n
-	+ die Blätter der Bäume frisst.
-   10e	= Es sieht aus wie eine Wasser-\n
-	+ pflanze. Es dient den PKMN, die\n
-	+ nicht schwimmen können, als Fähre.
-   10f	= Es hat ein spitzbübisches Wesen.\n
-	+ Sieht es einen Angler, zieht es an\n
-	+ der Angelschnur, um ihn zu ärgern.
-   110	= Hört es fröhliche Musik, füllen sich\n
-	+ seine Muskeln mit Energie. Es muss\n
-	+ dann einfach tanzen.
-   111	= Es sieht aus wie eine Eichel, die am\n
-	+ Baum hängt. Es liebt es, andere\n
-	+ PKMN zu erschrecken.
-   112	= Der Ton seiner Grasflöte\n
-	+ beunruhigt die, die ihn hören.\n
-	+ Es lebt tief in den Wäldern.
-   113	= Seine großen Fächer erzeugen Böen,\n
-	+ die eine Geschwindigkeit von\n
-	+ 30 m/sek erreichen können.
-   114	= Es ist sehr mutig und stellt sich\n
-	+ auch starken Gegnern. Es sucht\n
-	+ ständig nach warmen Regionen.
-   115	= Es fliegt auf der Suche nach Beute\n
-	+ ständig umher. Findet es Beute,\n
-	+ stürzt es sich im Sturzflug auf sie.
-   116	= Es baut sein Nest auf steilen\n
-	+ Klippen. Es nutzt die Aufwinde, um\n
-	+ in größerer Höhe fliegen zu können.
-   117	= Es taucht seinen großen Schnabel\n
-	+ ins Wasser und fängt so eine Menge\n
-	+ Beute.
-   118	= Mit dem Horn kann es menschliche\n
-	+ Gefühle wahrnehmen. Es erscheint\n
-	+ fröhlichen Menschen.
-   119	= Es nimmt die Gefühle seines Trainers\n
-	+ deutlich wahr. Wenn es glücklich\n
-	+ ist, tanzt es.
-   11a	= Es wird seinen Trainer mit dem Leben\n
-	+ beschützen, wenn es ihm vertraut.\n
-	+ Es kann in die Zukunft blicken.
-   11b	= Scheinbar reitet es auf dem Wasser.\n
-	+ Es lockt seine Beute mit einem\n
-	+ süßen Duft an.
-   11c	= Seine Antenne besitzt ein Augen-\n
-	+ muster. Seine vier Flügel erlauben\n
-	+ es, in alle Richtungen zu fliegen.
-   11d	= Es setzt an seinem Kopf Giftsporen\n
-	+ frei. Werden diese eingeatmet,\n
-	+ verursachen sie Schmerzen.
-   11e	= Seine kurzen Arme dehnen sich aus,\n
-	+ wenn es zuschlägt. Seine Technik\n
-	+ ähnelt der von Profi-Boxern.
-   11f	= Es verbringt fast den ganzen Tag\n
-	+ mit Faulenzen und Schlafen. Selbst\n
-	+ sein Anblick macht bereits müde.
-   120	= Sein Herz schlägt schneller als das\n
-	+ anderer Lebewesen. Daher kann es\n
-	+ nicht für einen Moment still sitzen.
-   121	= Das faulste PKMN der Welt. Wenn es\n
-	+ faulenzt, sammelt es in Wahrheit\n
-	+ Energie, um zuzuschlagen.
-   122	= Es wächst unterirdisch heran und\n
-	+ nimmt seine Umgebung mit Antennen\n
-	+ wahr, da es nahezu blind ist.
-   123	= Es bewegt sich so schnell, dass es\n
-	+ manchmal unsichtbar zu sein\n
-	+ scheint. Es liebt Baumsaft.
-   124	= Ein weggeworfener Käferpanzer, der\n
-	+ zum Leben erwachte. Schaut man\n
-	+ hinein, stiehlt es einem die Seele.
-   125	= Normalerweise klingen seine Rufe\n
-	+ wie Gemurmel. Hat es aber Angst,\n
-	+ ist es so laut wie ein Flugzeug.
-   126	= Die Schockwellen, die durch sein\n
-	+ Rufen entstehen, können einen\n
-	+ LKW umkippen.
-   127	= Sein Heulen hört man in 10 km\n
-	+ Entfernung. Es gibt alle Arten von\n
-	+ Geräuschen von sich.
-   128	= Es stärkt seinen Körper, indem es\n
-	+ gegen Bäume rennt. In seiner Nähe\n
-	+ finden sich viele umgekippte Bäume.
-   129	= Es liebt das Kräftemessen mit\n
-	+ großen PKMN. Mit seinem Armwurf\n
-	+ kann es LKW durch die Luft werfen.
-   12a	= Dieses PKMN lebt am Wasser. An\n
-	+ Land bewegt es sich schnell, indem\n
-	+ es auf seinem großen Schweif hüpft.
-   12b	= Seine Nase ist ein Magnet. Daher\n
-	+ sieht das PKMN immer nach Norden.
-   12c	= Es muss Dinge, die sich bewegen,\n
-	+ einfach jagen. Es rennt oft im Kreis\n
-	+ und jagt seinen eigenen Schweif.
-   12d	= Dieses PKMN ist bei weiblichen\n
-	+ Trainern aufgrund seines Fells\n
-	+ beliebt.
-   12e	= Es versteckt sich im Dunkeln von\n
-	+ Höhlen. Seine Augen sind\n
-	+ Edelsteine.
-   12f	= Auf seinem Kopf befindet sich ein\n
-	+ riesiger Kiefer, der aus Hörnern\n
-	+ besteht. Er kann Eisen zermalmen.
-   130	= Normalerweise lebt es in dunklen\n
-	+ Bergen. Ist es hungrig, frisst es\n
-	+ auch Eisenbahnschienen und Autos.
-   131	= Es ernährt sich von Eisenerz. Um\n
-	+ sein Revier zu sichern, setzt es\n
-	+ seinen harten Körper ein.
-   132	= Auf der Suche nach Eisen, seiner\n
-	+ Nahrung, gräbt es mit seinen Stahl-\n
-	+ hörnern sogar Tunnel durch Felsen.
-   133	= Es isst gerade mal eine Beere am\n
-	+ Tag. Durch Hunger wird sein Geist\n
-	+ ruhiger und schärfer.
-   134	= Mit Yoga-Training hat es seinen\n
-	+ 6. Sinn geschärft. Seine\n
-	+ Bewegungen sind sehr elegant.
-   135	= Die Elektrizität, die es im Fell\n
-	+ speichert, nutzt es, um seine\n
-	+ Muskeln zu stimulieren.
-   136	= Aus seiner Mähne entlädt es Elekt-\n
-	+ rizität. Es generiert eine Gewitter-\n
-	+ wolke, aus der es Blitze entlädt.
-   137	= Es feuert Freunde mit Pompons an,\n
-	+ die aus Funken bestehen. Es holt\n
-	+ sich Energie aus Telegrafenmasten.
-   138	= Es feuert Freunde an. Sind diese im\n
-	+ Begriff zu verlieren, gibt sein\n
-	+ Körper immer mehr Funken ab.
-   139	= Es kommuniziert mit anderen, indem\n
-	+ es sein Hinterteil zum Leuchten\n
-	+ bringt. Es liebt ILLUMISEs Duft.
-   13a	= Sein süßer Duft leitet VOLBEAT an,\n
-	+ Zeichen aus Licht an den\n
-	+ Nachthimmel zu malen.
-   13b	= ROSELIA, die mit klarem Wasser\n
-	+ aufgezogen wurden, bekommen\n
-	+ Blüten in leuchtenden Farben.
-   13c	= Sein Körper besteht fast nur aus\n
-	+ Magen. Seine starken Verdauungs-\n
-	+ säfte zersetzen alles sehr schnell.
-   13d	= Es verschluckt alles in einem\n
-	+ Stück und sondert giftige Stoffe\n
-	+ ab, mit denen es Gegner besprüht.
-   13e	= Sie begegnen jedem Gegner, der in\n
-	+ ihr Revier eindringt, im Schwarm.\n
-	+ Ihre Zähne durchdringen alles.
-   13f	= Seine Zähne durchdringen sogar\n
-	+ Eisen. Es schwimmt mit 120 km/h und\n
-	+ wird “Tyrann des Meeres” genannt.
-   140	= An sonnigen Tagen trifft man diese\n
-	+ Pokémon an Stränden, wo sie wie\n
-	+ Bälle herumhüpfen.
-   141	= Das größte PKMN. Es kann mit nur\n
-	+ einem Atemzug in Tiefen bis\n
-	+ 3 000 Meter tauchen.
-   142	= In seinem Rücken speichert es sehr\n
-	+ heißes Magma. Regnet es, kühlt das\n
-	+ Magma ab und es wird langsamer.
-   143	= Auf seinem Rücken befinden sich\n
-	+ Vulkane. Magma bildet sich in seinem\n
-	+ Körper, die irgendwann ausbricht.
-   144	= In seinem Panzer verbrennt es\n
-	+ Kohle und gewinnt daraus Energie.\n
-	+ Bei Gefahr sondert es Ruß ab.
-   145	= Es hüpft beständig umher, wobei es\n
-	+ seinen Schweif als Feder verwendet.\n
-	+ Nur so bleibt sein Herz aktiv.
-   146	= Mit schwarzen Perlen verstärkt es\n
-	+ seine Psycho-Kräfte. Mit einem\n
-	+ Tanz kontrolliert es seine Gegner.
-   147	= Das Muster eines PANDIR ist wie\n
-	+ ein Fingerabdruck. Sein Taumeln\n
-	+ senkt die gegn. Zielsicherheit.
-   148	= Es baut im Wüstensand eine\n
-	+ Fallgrube, setzt sich in ihr auf den\n
-	+ Boden und wartet auf Beute.
-   149	= Es schlägt wild mit den Flügeln.\n
-	+ So entstehen Ultraschallwellen,\n
-	+ die Kopfschmerzen verursachen.
-   14a	= Mit mächtigem Flügelschlag verur-\n
-	+ sacht es einen Sandsturm. Es wird\n
-	+ “Geist der Wüste” genannt.
-   14b	= Dieser Wüstenbewohner speichert\n
-	+ Wasser in seinem Körper. So kann er\n
-	+ 30 Tage ohne Wasser überleben.
-   14c	= Ein nachtaktives PKMN, das Beute\n
-	+ sucht, die durch die Tageshitze der\n
-	+ Wüste bereits erschöpft ist.
-   14d	= Seine Flügel sehen aus wie Baum-\n
-	+ wolle. Legt es sie jemandem auf den\n
-	+ Kopf, sehen sie wie ein Wollhut aus.
-   14e	= Im Flug sieht es aus wie eine\n
-	+ watteweiche Wolke. Es singt mit\n
-	+ einer Sopranstimme.
-   14f	= Seit Generationen ist es mit\n
-	+ VIPITIS verfeindet. Seine scharfen\n
-	+ Klauen sind seine stärksten Waffen.
-   150	= Seit Generationen ist es mit SENGO\n
-	+ verfeindet. Es wetzt seinen\n
-	+ scharfen Schweif an Felsen.
-   151	= Da es in Vollmondnächten aktiv wird,\n
-	+ sagt man ihm nach, mit den Mond-\n
-	+ phasen in Verbindung zu stehen.
-   152	= Eine neue PKMN-Spezies, von der\n
-	+ man annimmt, sie käme von der\n
-	+ Sonne. Sie strahlt Licht ab.
-   153	= Es bedeckt seinen Körper mit einer\n
-	+ schleimigen Substanz und kann\n
-	+ sich so aus Umklammerungen winden.
-   154	= Es verteidigt sein Revier, indem es\n
-	+ Erschütterungen auslöst, die noch\n
-	+ in 5 km Entfernung zu spüren sind.
-   155	= Ein robustes PKMN, das sich jeder\n
-	+ Umgebung anpassen kann. Seine\n
-	+ Zangen geben keine Beute frei.
-   156	= Dieser Grobian ergreift andere PKMN\n
-	+ mit seinen Scheren und wirft sie\n
-	+ aus seinem Teich.
-   157	= Es bewegt sich, indem es sich auf\n
-	+ seinem Fuß dreht. Ein seltenes\n
-	+ PKMN, das in alten Ruinen lebte.
-   158	= Eine antike Lehmstatue, die durch\n
-	+ ein mysteriöses Licht zum Leben\n
-	+ erwacht ist.
-   159	= Vor 100 Millionen Jahren lebte\n
-	+ dieses PKMN auf dem Meeresgrund.\n
-	+ Die Wissenschaft belebte es neu.
-   15a	= Es lebt in seichten Stellen warmer\n
-	+ Meere. Bei Ebbe sucht es im Sand\n
-	+ nach Beute.
-   15b	= Ein Vorfahre der PKMN, der aus\n
-	+ einem Fossil neu belebt wurde. Es\n
-	+ lebte im Meer und jagte mit Klauen.
-   15c	= Nach seiner Entwicklung ging es an\n
-	+ Land. Sein Körper ist von einer\n
-	+ robusten Rüstung umgeben.
-   15d	= Seine lumpige Gestalt ist berühmt.\n
-	+ Es lebt mit anderen in Gruppen an\n
-	+ bestimmten Orten.
-   15e	= Wenn sich jemand streitet, steigt\n
-	+ es aus den Tiefen des Sees empor,\n
-	+ um die Streitenden zu beruhigen.
-   15f	= Seine Gestalt ändert sich mit dem\n
-	+ Wetter. Vor kurzem entdeckte man,\n
-	+ dass seine Moleküle wie Wasser sind.
-   160	= Es kann nach Belieben seine Farbe\n
-	+ ändern. Nur das gezackte Muster\n
-	+ auf seinem Bauch bleibt gleich.
-   161	= Es liebt Rachegefühle. Diese PKMN\n
-	+ hängen sich an Dachrinnen von Häu-\n
-	+ sern, in denen Rachsüchtige leben.
-   162	= Dieses PKMN war eine Puppe, die\n
-	+ weggeworfen wurde. Es sucht nun\n
-	+ das Kind, das dies getan hat.
-   163	= Verbissen verfolgt es seine Beute\n
-	+ überallhin. Doch sobald die Sonne\n
-	+ aufgeht, ist die Jagd vorbei.
-   164	= Sein Körper ist hohl. Man sagt,\n
-	+ dass diejenigen, die in den Körper\n
-	+ blicken, hineingezogen werden.
-   165	= Da es ausschließlich seine Lieb-\n
-	+ lingsfrucht frisst, begann diese,\n
-	+ um seinen Hals herumzuwachsen.
-   166	= Um die Gegner fortzuwehen, setzt\n
-	+ es die Luft mit Schreien in\n
-	+ Bewegung.
-   167	= Es spürt drohende Katastrophen\n
-	+ und erscheint nur dann, wenn es\n
-	+ andere vor der Gefahr warnen will.
-   168	= Es wird stärker, indem es andere\n
-	+ ständig anrempelt. Es liebt\n
-	+ Süßigkeiten.
-   169	= Im Land des Schnees sagt eine\n
-	+ Legende, dass in ein Haus Wohl-\n
-	+ stand einzieht, wenn es darin lebt.
-   16a	= Um sich zu schützen, umgibt es\n
-	+ seinen Körper mit einer Rüstung\n
-	+ aus Eis.
-   16b	= Es rollt über Eisschollen, um Land\n
-	+ zu erreichen, da sein Körper zum\n
-	+ Schwimmen nicht geeignet ist.
-   16c	= Es balanciert Dinge auf seiner\n
-	+ Nase. Dabei lernt es etwas über die\n
-	+ Beschaffenheit und den Geruch.
-   16d	= Mit seinen Stoßzähnen bricht es\n
-	+ durch Eis. Eine Speckschicht\n
-	+ schützt es vor Kälte und Angriffen.
-   16e	= In seinem Leben erschafft es eine\n
-	+ einzige Perle. Diese soll Psycho-\n
-	+ Kräfte verstärken.
-   16f	= Es lebt tief im Meer. Sein Schweif\n
-	+ ist wie ein kleiner Fisch geformt.\n
-	+ Mit ihm lockt es Beute an.
-   170	= Es lebt auf dem Grund des Meeres.\n
-	+ Im Frühling wirkt die Farbe seines\n
-	+ Körpers viel kräftiger.
-   171	= Tiefseeforscher fanden dieses\n
-	+ seltene PKMN, das sich in 100 Mio.\n
-	+ Jahren nicht verändert hat.
-   172	= Es lebt in warmen Meeren. Man sagt,\n
-	+ dass Verliebte, die es sehen, mit\n
-	+ ewiger Liebe gesegnet sind.
-   173	= Es träumt davon, eines Tages\n
-	+ fliegen zu können und springt daher\n
-	+ jeden Tag von hohen Klippen.
-   174	= Die Zellen seines Panzers fingen an,\n
-	+ sich zu verändern. Er fällt ab,\n
-	+ sobald sich das PKMN entwickelt.
-   175	= Seine Zellstruktur änderte sich, es\n
-	+ wuchsen ihm Flügel, da es immer\n
-	+ davon träumte, fliegen zu können.
-   176	= Es kommuniziert mit anderen durch\n
-	+ magnetische Impulse. Im Schwarm\n
-	+ bilden sie eine perfekte Einheit.
-   177	= Das PKMN besteht aus zwei TANHEL.\n
-	+ Es bekommt selbst dann keinen\n
-	+ Kratzer, wenn ein Jet es streift.
-   178	= Mehrere METANG bilden dieses PKMN.\n
-	+ Mit seinen 4 Gehirnen besitzt es die\n
-	+ Intelligenz eines Supercomputers.
-   179	= Sein Körper besteht aus Stein.\n
-	+ Bricht im Kampf etwas heraus, wird\n
-	+ es durch Stein wieder ersetzt.
-   17a	= Sein Körper besteht aus Eis aus der\n
-	+ Eiszeit. Es kontrolliert gefrorene\n
-	+ Luft, die minus 200 Grad kalt ist.
-   17b	= Im Laufe der Jahrtausende, die es\n
-	+ unterirdisch lebte, wurde sein\n
-	+ Körper durch Druck u. Wärme hart.
-   17c	= Sein Körper ist mit Daunen bedeckt,\n
-	+ die das Licht so brechen, dass das\n
-	+ PKMN unsichtbar wird.
-   17d	= Ein hochintelligentes PKMN. Wenn es\n
-	+ im Flug seine Flügel nach hinten\n
-	+ legt, ist es schneller als ein Jet.
-   17e	= Man sagt, es habe die Meere ver-\n
-	+ größert, indem es es regnen ließ.\n
-	+ Es schlief in einem Meeresgraben.
-   17f	= Es hat seit dem Kampf gegen\n
-	+ KYOGRE in Magma unter dem\n
-	+ Erdboden geschlafen.
-   180	= Es lebt in der Ozonschicht hoch\n
-	+ über den Wolken und kann vom\n
-	+ Boden aus nicht gesehen werden.
-   181	= Man sagt, es kann alle tausend\n
-	+ Jahre für eine Woche jeden Wunsch\n
-	+ erfüllen.
-   182	= Ein außerirdischer Virus kam mit\n
-	+ einem Meteor auf die Erde. Seine\n
-	+ DNA mutierte. So entstand DEOXYS.
-   183	= Es besteht aus Erdreich. Trinkt es\n
-	+ Wasser, verhärtet sich der Panzer\n
-	+ auf seinem Rücken. Es lebt an Seen.
-   184	= Es lebt in der Nähe von Wasser in\n
-	+ Wäldern. Tagsüber verlässt es\n
-	+ diese, um ein Sonnenbad zu nehmen.
-   185	= Kleine PKMN fangen manchmal an,\n
-	+ auf dem bewegungslosen Rücken\n
-	+ Nester zu bauen.
-   186	= Es klettert behände steile Felsen\n
-	+ hinauf, um auf Bergen zu leben. Sein\n
-	+ Feuer ist aus, wenn es schläft.
-   187	= Um Angreifer abzuschrecken,\n
-	+ verstärkt es das Feuer auf seinem\n
-	+ Schweif, wodurch es größer wirkt.
-   188	= Es kämpft auf besondere Art, indem\n
-	+ es alle Gliedmaßen einsetzt. Sein\n
-	+ Feuer erlischt nie.
-   189	= Es ist sehr stolz und nimmt daher\n
-	+ kein Futter von anderen an. Seine\n
-	+ dicken Daunen schützen vor Kälte.
-   18a	= Es lebt allein, entfernt von\n
-	+ anderen. Jedes von ihnen denkt, es\n
-	+ sei das bedeutendste unter ihnen.
-   18b	= Die 3 Hörner, die aus dem Schnabel\n
-	+ wachsen, stehen für Kraft. Ein\n
-	+ Anführer hat die größten Hörner.
-   18c	= Ihr Schwarm ist stets groß. Obwohl\n
-	+ es kleine PKMN sind, schwingen sie\n
-	+ ihre Flügel mit enormer Kraft.
-   18d	= Auf der Suche nach Käfer-PKMN\n
-	+ fliegt es über Wiesen und Wälder. Es\n
-	+ bleibt in einem großen Schwarm.
-   18e	= Es hat ein wildes Wesen. Mutig\n
-	+ fordert es immer wieder Gegner\n
-	+ heraus, die viel größer sind.
-   18f	= Es hat Nerven wie Drahtseile,\n
-	+ nichts kann es erschüttern. Es ist\n
-	+ agiler und aktiver, als es scheint.
-   190	= Es baut sein Nest, indem es in\n
-	+ Flüssen Dämme aus Schlamm und\n
-	+ Ästen baut. Ein fleißiger Arbeiter.
-   191	= Es schüttelt seinen Kopf, so dass\n
-	+ die beiden Antennen sich berühren\n
-	+ und wie ein Xylophon klingen.
-   192	= Wenn es ruft, verschränkt es seine\n
-	+ messerartigen Arme vor der Brust.\n
-	+ Es komponiert aus dem Stegreif.
-   193	= In Gefahr blendet es seinen Gegner\n
-	+ mit seinem Fell und flieht, während\n
-	+ der Gegner einen Moment blind ist.
-   194	= Seine Krallen geben Elektrizität ab,\n
-	+ die stark genug ist, jemanden\n
-	+ bewusstlos zu machen.
-   195	= Mit seinen Augen kann es durch\n
-	+ alles hindurch sehen. So findet es\n
-	+ auch Beute, die sich versteckt hat.
-   196	= Im Winter schließt es die Knospe.\n
-	+ Im Frühjahr öffnet es die Knospe\n
-	+ und gibt Pollen ab.
-   197	= Mit einem süßen Duft lockt es Beute\n
-	+ an, die es dann mit den dornigen\n
-	+ Ranken in seinen Armen schlägt.
-   198	= Vor über 100 Millionen Jahren lebte\n
-	+ es in den Dschungeln. Sein Schädel\n
-	+ ist hart wie Eisen.
-   199	= Sein kräftiger Kopfstoß hat genug\n
-	+ Kraft, um selbst die stabilsten\n
-	+ Dinge zu zerschmettern.
-   19a	= Vor über 100 Millionen Jahren lebte\n
-	+ es in den Dschungeln. Seine\n
-	+ Gesichtshaut ist extrem hart.
-   19b	= Jeder Frontalangriff wird abge-\n
-	+ schmettert. Dieses friedliche PKMN\n
-	+ ernährt sich von Gras und Beeren.
-   19c	= Um sich vor dem eisigen Winterwind\n
-	+ zu schützen, legt es sich unter\n
-	+ einen Umhang aus Ästen und Laub.
-   19d	= Als sich BURMY entwickelte,\n
-	+ wurde sein Umhang Teil des Körpers.\n
-	+ Es legt den Umhang niemals ab.
-   19e	= Es liebt Honig und stiehlt den\n
-	+ Honig, der von WADRIBIE\n
-	+ gesammelt wurde.
-   19f	= Ein PKMN, geformt aus 3 einzelnen\n
-	+ PKMN. Fleißig bringt es Blütenhonig\n
-	+ zu HONWEISEL.
-   1a0	= Ihr Bauch ist die Wabe für die\n
-	+ Larven. Sie füttert ihre Larven mit\n
-	+ dem Honig, den WADRIBIE sammelt.
-   1a1	= Es bildet ein Fellknäuel, der vor\n
-	+ statischer Energie knistert. Es\n
-	+ speichert die Energie in Bäumen.
-   1a2	= Es hat eine Art Rettungsring um\n
-	+ den Hals. Wenn es schwimmt, gerät\n
-	+ sein Kopf niemals unter Wasser.
-   1a3	= Es treibt mithilfe einer Art\n
-	+ Rettungsring auf dem Wasser und\n
-	+ hilft dem, der zu ertrinken droht.
-   1a4	= Das kleine Bällchen enthält alles,\n
-	+ was es für die Entwicklung\n
-	+ braucht. Es ist süß und lecker.
-   1a5	= In Zeiten mit viel Sonnenschein\n
-	+ blüht es auf. Es holt nach, was ihm\n
-	+ als Knospe verwehrt blieb.
-   1a6	= Sein Aussehen ist von Region zu\n
-	+ Region unterschiedlich. In Sinnoh\n
-	+ finden sich zwei Arten.
-   1a7	= Es hat einen biegsamen Körper ohne\n
-	+ einen Knochen. Wird ein Körperteil\n
-	+ abgetrennt, wächst er nach.
-   1a8	= Wenn es hungrig ist, knackt es\n
-	+ Nüsse mit seinen beiden Schweifen.\n
-	+ Nur selten verwendet es die Arme.
-   1a9	= Ein PKMN, entstanden aus den\n
-	+ Gefühlen von Menschen und PKMN.\n
-	+ Es mag feuchte Jahreszeiten.
-   1aa	= Tagsüber treibt es faul vor sich\n
-	+ hin, nachts fliegt es mit anderen\n
-	+ umher. Niemand weiß wohin.
-   1ab	= Es entrollt seine Ohren sehr\n
-	+ schnell, um seine Gegner\n
-	+ schmerzhaft zu schlagen.
-   1ac	= Ein sehr vorsichtiges PKMN. Nimmt\n
-	+ es Gefahr wahr, schützt es seinen\n
-	+ Körper mit seinen weichen Ohren.
-   1ad	= Seine Rufe klingen wie Beschwö-\n
-	+ rungen. Die, die sie hören, kriegen\n
-	+ Kopfschmerzen und Halluzinationen.
-   1ae	= Ein nachtaktives PKMN, das sich in\n
-	+ Schwärmen mit KRAMURX durch die\n
-	+ Nacht bewegt.
-   1af	= Es schlägt mit Krallen zu oder\n
-	+ schnurrt, je nachdem, ob es gerade\n
-	+ wütend oder zutraulich ist.
-   1b0	= Dieses PKMN ist ein Grobian, der\n
-	+ sich in die Nester anderer PKMN ein-\n
-	+ nistet und sie sich damit aneignet.
-   1b1	= Es ruft, indem es eine Kugel in\n
-	+ seiner Kehle bewegt. Es bewegt sich\n
-	+ mit eiligen Hopsern fort.
-   1b2	= Um sich zu schützen, versprüht es\n
-	+ eine Substanz aus seinem\n
-	+ Hinterleib, die 24 Stunden stinkt.
-   1b3	= Über seine Schweifspitze versprüht\n
-	+ es eine übelriechende Substanz. Die\n
-	+ Reichweite liegt bei über 50 Metern.
-   1b4	= Sein Körper sieht aus, als seien\n
-	+ Teile davon in alten Gräbern\n
-	+ gefunden worden.
-   1b5	= Dieses PKMN fand man bei Grabungen\n
-	+ auf einer Baustelle, an deren Ort\n
-	+ es 2 000 Jahre geschlafen hatte.
-   1b6	= Es sieht aus, als würde es immer\n
-	+ weinen. Dabei reguliert es nur\n
-	+ seinen Wasserhaushalt.
-   1b7	= Es ahmt seinen Gegner nach. Der\n
-	+ kann den Blick danach nicht von\n
-	+ ihm abwenden.
-   1b8	= Es liebt runde, weiße Dinge. Es\n
-	+ trägt einen eiförmigen Stein bei\n
-	+ sich, und imitiert damit CHANEIRA.
-   1b9	= Es kann die menschliche Sprache\n
-	+ lernen. Versammeln sie sich,\n
-	+ bringen sie sich alle dasselbe bei.
-   1ba	= Ein PKMN, das aus 108 Geistern\n
-	+ besteht. Es ist an einen Spalt in\n
-	+ einem mysteriösen Stein gebunden.
-   1bb	= Es nistet in kleinen Löchern in\n
-	+ Höhlenwänden. Es springt Beute, die\n
-	+ sich zu nah heranwagt, an.
-   1bc	= Es gibt einen uralten Glauben, dass\n
-	+ Medizin, die aus seinen Schuppen\n
-	+ gewonnen wird, alles heilen kann.
-   1bd	= Spannt es seinen Körper und seine\n
-	+ Flügel, sieht es aus wie ein Jet.\n
-	+ Es fliegt mit Schallgeschwindigkeit.
-   1be	= Einmal am Tag verschlingt es eine\n
-	+ Nahrungsmenge, die seinem Gewicht\n
-	+ entspricht. Und das ohne zu kauen.
-   1bf	= Die Aura, die dieses PKMN umgibt,\n
-	+ verstärkt sich, wenn es zeigen will,\n
-	+ dass es ängstlich oder traurig ist.
-   1c0	= Es besitzt die Fähigkeit, die Aura\n
-	+ aller Dinge zu spüren. Es versteht\n
-	+ die menschliche Sprache.
-   1c1	= Es lebt in ausgetrockneten\n
-	+ Gebieten. Statt zu schwitzen,\n
-	+ sondert sein Körper Sand ab.
-   1c2	= Es wirbelt im Körper gespeicherten\n
-	+ Sand durch Öffnungen und generiert\n
-	+ so einen Sandwirbelsturm.
-   1c3	= Es greift seine Beute mit den\n
-	+ Krallen an seinem Schweif und ver-\n
-	+ giftet sie. Dann wartet es ab...
-   1c4	= In seinen Armen steckt so viel\n
-	+ Kraft, dass es mit seinen giftigen\n
-	+ Krallen Autos zerquetschen kann.
-   1c5	= In seinen Backen sammelt sich Gift.\n
-	+ Es versucht, Beute zu überraschen\n
-	+ und mit Giftfingern zu schnappen.
-   1c6	= Die Gelenke an seinen Klauen geben\n
-	+ ein so starkes Gift ab, dass selbst\n
-	+ ein kleiner Kratzer fatal ist.
-   1c7	= Sein süßlich riechender Speichel\n
-	+ zieht Beute an, die es frisst. Es\n
-	+ braucht einen Tag, sie zu fressen.
-   1c8	= Wurden die Flossen lange dem\n
-	+ Sonnenlicht ausgesetzt, leuchten\n
-	+ sie in der Dunkelheit.
-   1c9	= Es lebt tief auf dem Meeresboden.\n
-	+ Das blinkende Muster auf seinen\n
-	+ vier Rückenflossen zieht Beute an.
-   1ca	= Ein freundliches PKMN, das mit\n
-	+ seinen zwei Antennen die\n
-	+ Strömungen des Meeres erkennt.
-   1cb	= Es lebt im Schnee der Berge. Es\n
-	+ hatte bisher kaum Kontakt zu Men-\n
-	+ schen und ist daher sehr neugierig.
-   1cc	= Es löst in den Bergen, wo ewiger\n
-	+ Schnee liegt, Blizzards aus. Es ist\n
-	+ ein scheußlicher Schneemann.
-   1cd	= Es lebt in kalten Gebieten in\n
-	+ Gruppen von 4 oder 5 PKMN, die bei\n
-	+ der Jagd großes Geschick zeigen.
-   1ce	= Es entwickelte sich, als es einem\n
-	+ besonderen Magnetfeld ausgesetzt\n
-	+ wurde.
-   1cf	= Es umklammert Dinge mit seiner\n
-	+ dehnbaren Zunge. Kommt man ihm zu\n
-	+ nahe, wird man eingespeichelt.
-   1d0	= Es legt Steine in die Löcher seiner\n
-	+ Hände und wirft sie mit Muskelkraft.\n
-	+ Sogar GEOROK werden verwendet.
-   1d1	= Es umwickelt Beute, indem es seine\n
-	+ Arme, die aus Ranken bestehen,\n
-	+ verlängert.
-   1d2	= Es berührt den Gegner mit seinen\n
-	+ beiden Schweifspitzen und entlädt\n
-	+ dann über 20 000 Volt.
-   1d3	= Aus den Enden seiner Arme schießen\n
-	+ Feuerbälle mit 2 000 Grad.\n
-	+ Es lebt in Vulkankratern.
-   1d4	= Es zeigt sich niemals dort, wo\n
-	+ es Streitigkeiten gibt. In letzter\n
-	+ Zeit wurde es nur selten gesehen.
-   1d5	= Durch die Bewegung seiner Flügel\n
-	+ entstehen Schockwellen, die dem\n
-	+ Gegn. innere Verletzungen zufügen.
-   1d6	= Genau wie ein Pflanze führt es die\n
-	+ Photosynthese aus. Deshalb ist es\n
-	+ ständig von reiner Luft umgeben.
-   1d7	= Will es sich schützen, kann es sein\n
-	+ Fell gefrieren, so dass jedes Haar\n
-	+ wie eine Nadel absteht.
-   1d8	= Es hängt kopfüber von einem Ast\n
-	+ und beobachtet seine Beute. Bei\n
-	+ Gelegenheit stürzt es sich auf sie.
-   1d9	= Die beeindruckenden Stoßzähne\n
-	+ dieser PKMN sind aus Eis. Nach der\n
-	+ Eiszeit nahm ihre Population ab.
-   1da	= Zusätzliche Software wurde instal-\n
-	+ liert, um das PKMN zu verbessern.\n
-	+ Seitdem benimmt es sich seltsam.
-   1db	= Es kämpft, indem es die Schwerter\n
-	+ an seinen Ellbogen verlängert. Es\n
-	+ ist ein Meister des Kampfes.
-   1dc	= Es gibt starken Magnetismus ab. Es\n
-	+ steuert drei kleine Einheiten, die\n
-	+ sich Mininasen nennen.
-   1dd	= Die Antenne auf seinem Kopf\n
-	+ empfängt Radiowellen aus einer\n
-	+ anderen Dimension.
-   1de	= Sein eisiger Atem mit minus 50 Grad\n
-	+ friert Gegner ein. Was aussieht wie\n
-	+ sein Körper, ist tatsächlich hohl.
-   1df	= Sein Körper besteht aus Plasma. Mit\n
-	+ ihm kann es in elektrische Geräte\n
-	+ eindringen und für Chaos sorgen.
-   1e0	= “Das wissende Wesen”.\n
-	+ Es soll die Erinnerungen derer\n
-	+ löschen, die ihm in die Augen sehen.
-   1e1	= “Das fühlende Wesen”.\n
-	+ Es lehrt die Menschen die Ideale\n
-	+ von Trauer, Schmerz und Freude.
-   1e2	= “Das starke Wesen”.\n
-	+ Es schläft auf dem Grund eines Sees\n
-	+ und hält so die Welt in Balance.
-   1e3	= Es besitzt die Macht, die Zeit zu\n
-	+ kontrollieren. In den Mythen von\n
-	+ Sinnoh erscheint es als Gottheit.
-   1e4	= Es hat die Macht, den Raum zu\n
-	+ krümmen. In den Mythen von\n
-	+ Sinnoh erscheint es als Gottheit.
-   1e5	= Es lebt in vulkanischen Höhlen.\n
-	+ Mit seinen kreuzförmigen Klauen\n
-	+ kann es sogar an der Decke laufen.
-   1e6	= Es gibt eine Legende, wonach\n
-	+ dieses PKMN die Kontinente mit\n
-	+ einem Seil gezogen hat.
-   1e7	= Ein PKMN, von dem man sagt, es lebt\n
-	+ in der Spiegelwelt unserer Welt.\n
-	+ Es erscheint auf alten Friedhöfen.
-   1e8	= Seine Flügel geben schimmernde\n
-	+ Partikel ab, wie einen Schleier. Man\n
-	+ sagt, es steht für die Mondsichel.
-   1e9	= Es lebt in warmen Meeren. Geht\n
-	+ es auf Nahrungssuche, füllt es den\n
-	+ Beutel auf seinem Kopf mit Luft.
-   1ea	= Geboren auf dem Meeresboden,\n
-	+ legt es große Entfernungen zurück,\n
-	+ um dorthin zurückzukehren.
-   1eb	= Es kann andere in Schlaf ver-\n
-	+ setzen und ihnen Träume geben.\n
-	+ Es ist nur bei Neumond aktiv.
-   1ec	= Es lebt auf Blumenwiesen und rollt\n
-	+ sich ein, um wie eine Blume auszu-\n
-	+ sehen u. nicht entdeckt zu werden.
-   1ed	= Die Mythologie nennt dieses PKMN\n
-	+ als Former des Universums, wobei es\n
-	+ seine tausend Arme eingesetzt hat.
+     0	 = TRANSLATION NEEDED
+     1	 = TRANSLATION NEEDED
+     2	 = TRANSLATION NEEDED
+     3	 = TRANSLATION NEEDED
+     4	 = TRANSLATION NEEDED
+     5	 = TRANSLATION NEEDED
+     6	 = TRANSLATION NEEDED
+     7	 = TRANSLATION NEEDED
+     8	 = TRANSLATION NEEDED
+     9	 = TRANSLATION NEEDED
+     a	 = TRANSLATION NEEDED
+     b	 = TRANSLATION NEEDED
+     c	 = TRANSLATION NEEDED
+     d	 = TRANSLATION NEEDED
+     e	 = TRANSLATION NEEDED
+     f	 = TRANSLATION NEEDED
+    10	 = TRANSLATION NEEDED
+    11	 = TRANSLATION NEEDED
+    12	 = TRANSLATION NEEDED
+    13	 = TRANSLATION NEEDED
+    14	 = TRANSLATION NEEDED
+    15	 = TRANSLATION NEEDED
+    16	 = TRANSLATION NEEDED
+    17	 = TRANSLATION NEEDED
+    18	 = TRANSLATION NEEDED
+    19	 = TRANSLATION NEEDED
+    1a	 = TRANSLATION NEEDED
+    1b	 = TRANSLATION NEEDED
+    1c	 = TRANSLATION NEEDED
+    1d	 = TRANSLATION NEEDED
+    1e	 = TRANSLATION NEEDED
+    1f	 = TRANSLATION NEEDED
+    20	 = TRANSLATION NEEDED
+    21	 = TRANSLATION NEEDED
+    22	 = TRANSLATION NEEDED
+    23	 = TRANSLATION NEEDED
+    24	 = TRANSLATION NEEDED
+    25	 = TRANSLATION NEEDED
+    26	 = TRANSLATION NEEDED
+    27	 = TRANSLATION NEEDED
+    28	 = TRANSLATION NEEDED
+    29	 = TRANSLATION NEEDED
+    2a	 = TRANSLATION NEEDED
+    2b	 = TRANSLATION NEEDED
+    2c	 = TRANSLATION NEEDED
+    2d	 = TRANSLATION NEEDED
+    2e	 = TRANSLATION NEEDED
+    2f	 = TRANSLATION NEEDED
+    30	 = TRANSLATION NEEDED
+    31	 = TRANSLATION NEEDED
+    32	 = TRANSLATION NEEDED
+    33	 = TRANSLATION NEEDED
+    34	 = TRANSLATION NEEDED
+    35	 = TRANSLATION NEEDED
+    36	 = TRANSLATION NEEDED
+    37	 = TRANSLATION NEEDED
+    38	 = TRANSLATION NEEDED
+    39	 = TRANSLATION NEEDED
+    3a	 = TRANSLATION NEEDED
+    3b	 = TRANSLATION NEEDED
+    3c	 = TRANSLATION NEEDED
+    3d	 = TRANSLATION NEEDED
+    3e	 = TRANSLATION NEEDED
+    3f	 = TRANSLATION NEEDED
+    40	 = TRANSLATION NEEDED
+    41	 = TRANSLATION NEEDED
+    42	 = TRANSLATION NEEDED
+    43	 = TRANSLATION NEEDED
+    44	 = TRANSLATION NEEDED
+    45	 = TRANSLATION NEEDED
+    46	 = TRANSLATION NEEDED
+    47	 = TRANSLATION NEEDED
+    48	 = TRANSLATION NEEDED
+    49	 = TRANSLATION NEEDED
+    4a	 = TRANSLATION NEEDED
+    4b	 = TRANSLATION NEEDED
+    4c	 = TRANSLATION NEEDED
+    4d	 = TRANSLATION NEEDED
+    4e	 = TRANSLATION NEEDED
+    4f	 = TRANSLATION NEEDED
+    50	 = TRANSLATION NEEDED
+    51	 = TRANSLATION NEEDED
+    52	 = TRANSLATION NEEDED
+    53	 = TRANSLATION NEEDED
+    54	 = TRANSLATION NEEDED
+    55	 = TRANSLATION NEEDED
+    56	 = TRANSLATION NEEDED
+    57	 = TRANSLATION NEEDED
+    58	 = TRANSLATION NEEDED
+    59	 = TRANSLATION NEEDED
+    5a	 = TRANSLATION NEEDED
+    5b	 = TRANSLATION NEEDED
+    5c	 = TRANSLATION NEEDED
+    5d	 = TRANSLATION NEEDED
+    5e	 = TRANSLATION NEEDED
+    5f	 = TRANSLATION NEEDED
+    60	 = TRANSLATION NEEDED
+    61	 = TRANSLATION NEEDED
+    62	 = TRANSLATION NEEDED
+    63	 = TRANSLATION NEEDED
+    64	 = TRANSLATION NEEDED
+    65	 = TRANSLATION NEEDED
+    66	 = TRANSLATION NEEDED
+    67	 = TRANSLATION NEEDED
+    68	 = TRANSLATION NEEDED
+    69	 = TRANSLATION NEEDED
+    6a	 = TRANSLATION NEEDED
+    6b	 = TRANSLATION NEEDED
+    6c	 = TRANSLATION NEEDED
+    6d	 = TRANSLATION NEEDED
+    6e	 = TRANSLATION NEEDED
+    6f	 = TRANSLATION NEEDED
+    70	 = TRANSLATION NEEDED
+    71	 = TRANSLATION NEEDED
+    72	 = TRANSLATION NEEDED
+    73	 = TRANSLATION NEEDED
+    74	 = TRANSLATION NEEDED
+    75	 = TRANSLATION NEEDED
+    76	 = TRANSLATION NEEDED
+    77	 = TRANSLATION NEEDED
+    78	 = TRANSLATION NEEDED
+    79	 = TRANSLATION NEEDED
+    7a	 = TRANSLATION NEEDED
+    7b	 = TRANSLATION NEEDED
+    7c	 = TRANSLATION NEEDED
+    7d	 = TRANSLATION NEEDED
+    7e	 = TRANSLATION NEEDED
+    7f	 = TRANSLATION NEEDED
+    80	 = TRANSLATION NEEDED
+    81	 = TRANSLATION NEEDED
+    82	 = TRANSLATION NEEDED
+    83	 = TRANSLATION NEEDED
+    84	 = TRANSLATION NEEDED
+    85	 = TRANSLATION NEEDED
+    86	 = TRANSLATION NEEDED
+    87	 = TRANSLATION NEEDED
+    88	 = TRANSLATION NEEDED
+    89	 = TRANSLATION NEEDED
+    8a	 = TRANSLATION NEEDED
+    8b	 = TRANSLATION NEEDED
+    8c	 = TRANSLATION NEEDED
+    8d	 = TRANSLATION NEEDED
+    8e	 = TRANSLATION NEEDED
+    8f	 = TRANSLATION NEEDED
+    90	 = TRANSLATION NEEDED
+    91	 = TRANSLATION NEEDED
+    92	 = TRANSLATION NEEDED
+    93	 = TRANSLATION NEEDED
+    94	 = TRANSLATION NEEDED
+    95	 = TRANSLATION NEEDED
+    96	 = TRANSLATION NEEDED
+    97	 = TRANSLATION NEEDED
+    98	 = TRANSLATION NEEDED
+    99	 = TRANSLATION NEEDED
+    9a	 = TRANSLATION NEEDED
+    9b	 = TRANSLATION NEEDED
+    9c	 = TRANSLATION NEEDED
+    9d	 = TRANSLATION NEEDED
+    9e	 = TRANSLATION NEEDED
+    9f	 = TRANSLATION NEEDED
+    a0	 = TRANSLATION NEEDED
+    a1	 = TRANSLATION NEEDED
+    a2	 = TRANSLATION NEEDED
+    a3	 = TRANSLATION NEEDED
+    a4	 = TRANSLATION NEEDED
+    a5	 = TRANSLATION NEEDED
+    a6	 = TRANSLATION NEEDED
+    a7	 = TRANSLATION NEEDED
+    a8	 = TRANSLATION NEEDED
+    a9	 = TRANSLATION NEEDED
+    aa	 = TRANSLATION NEEDED
+    ab	 = TRANSLATION NEEDED
+    ac	 = TRANSLATION NEEDED
+    ad	 = TRANSLATION NEEDED
+    ae	 = TRANSLATION NEEDED
+    af	 = TRANSLATION NEEDED
+    b0	 = TRANSLATION NEEDED
+    b1	 = TRANSLATION NEEDED
+    b2	 = TRANSLATION NEEDED
+    b3	 = TRANSLATION NEEDED
+    b4	 = TRANSLATION NEEDED
+    b5	 = TRANSLATION NEEDED
+    b6	 = TRANSLATION NEEDED
+    b7	 = TRANSLATION NEEDED
+    b8	 = TRANSLATION NEEDED
+    b9	 = TRANSLATION NEEDED
+    ba	 = TRANSLATION NEEDED
+    bb	 = TRANSLATION NEEDED
+    bc	 = TRANSLATION NEEDED
+    bd	 = TRANSLATION NEEDED
+    be	 = TRANSLATION NEEDED
+    bf	 = TRANSLATION NEEDED
+    c0	 = TRANSLATION NEEDED
+    c1	 = TRANSLATION NEEDED
+    c2	 = TRANSLATION NEEDED
+    c3	 = TRANSLATION NEEDED
+    c4	 = TRANSLATION NEEDED
+    c5	 = TRANSLATION NEEDED
+    c6	 = TRANSLATION NEEDED
+    c7	 = TRANSLATION NEEDED
+    c8	 = TRANSLATION NEEDED
+    c9	 = TRANSLATION NEEDED
+    ca	 = TRANSLATION NEEDED
+    cb	 = TRANSLATION NEEDED
+    cc	 = TRANSLATION NEEDED
+    cd	 = TRANSLATION NEEDED
+    ce	 = TRANSLATION NEEDED
+    cf	 = TRANSLATION NEEDED
+    d0	 = TRANSLATION NEEDED
+    d1	 = TRANSLATION NEEDED
+    d2	 = TRANSLATION NEEDED
+    d3	 = TRANSLATION NEEDED
+    d4	 = TRANSLATION NEEDED
+    d5	 = TRANSLATION NEEDED
+    d6	 = TRANSLATION NEEDED
+    d7	 = TRANSLATION NEEDED
+    d8	 = TRANSLATION NEEDED
+    d9	 = TRANSLATION NEEDED
+    da	 = TRANSLATION NEEDED
+    db	 = TRANSLATION NEEDED
+    dc	 = TRANSLATION NEEDED
+    dd	 = TRANSLATION NEEDED
+    de	 = TRANSLATION NEEDED
+    df	 = TRANSLATION NEEDED
+    e0	 = TRANSLATION NEEDED
+    e1	 = TRANSLATION NEEDED
+    e2	 = TRANSLATION NEEDED
+    e3	 = TRANSLATION NEEDED
+    e4	 = TRANSLATION NEEDED
+    e5	 = TRANSLATION NEEDED
+    e6	 = TRANSLATION NEEDED
+    e7	 = TRANSLATION NEEDED
+    e8	 = TRANSLATION NEEDED
+    e9	 = TRANSLATION NEEDED
+    ea	 = TRANSLATION NEEDED
+    eb	 = TRANSLATION NEEDED
+    ec	 = TRANSLATION NEEDED
+    ed	 = TRANSLATION NEEDED
+    ee	 = TRANSLATION NEEDED
+    ef	 = TRANSLATION NEEDED
+    f0	 = TRANSLATION NEEDED
+    f1	 = TRANSLATION NEEDED
+    f2	 = TRANSLATION NEEDED
+    f3	 = TRANSLATION NEEDED
+    f4	 = TRANSLATION NEEDED
+    f5	 = TRANSLATION NEEDED
+    f6	 = TRANSLATION NEEDED
+    f7	 = TRANSLATION NEEDED
+    f8	 = TRANSLATION NEEDED
+    f9	 = TRANSLATION NEEDED
+    fa	 = TRANSLATION NEEDED
+    fb	 = TRANSLATION NEEDED
+    fc	 = TRANSLATION NEEDED
+    fd	 = TRANSLATION NEEDED
+    fe	 = TRANSLATION NEEDED
+    ff	 = TRANSLATION NEEDED
+   100	 = TRANSLATION NEEDED
+   101	 = TRANSLATION NEEDED
+   102	 = TRANSLATION NEEDED
+   103	 = TRANSLATION NEEDED
+   104	 = TRANSLATION NEEDED
+   105	 = TRANSLATION NEEDED
+   106	 = TRANSLATION NEEDED
+   107	 = TRANSLATION NEEDED
+   108	 = TRANSLATION NEEDED
+   109	 = TRANSLATION NEEDED
+   10a	 = TRANSLATION NEEDED
+   10b	 = TRANSLATION NEEDED
+   10c	 = TRANSLATION NEEDED
+   10d	 = TRANSLATION NEEDED
+   10e	 = TRANSLATION NEEDED
+   10f	 = TRANSLATION NEEDED
+   110	 = TRANSLATION NEEDED
+   111	 = TRANSLATION NEEDED
+   112	 = TRANSLATION NEEDED
+   113	 = TRANSLATION NEEDED
+   114	 = TRANSLATION NEEDED
+   115	 = TRANSLATION NEEDED
+   116	 = TRANSLATION NEEDED
+   117	 = TRANSLATION NEEDED
+   118	 = TRANSLATION NEEDED
+   119	 = TRANSLATION NEEDED
+   11a	 = TRANSLATION NEEDED
+   11b	 = TRANSLATION NEEDED
+   11c	 = TRANSLATION NEEDED
+   11d	 = TRANSLATION NEEDED
+   11e	 = TRANSLATION NEEDED
+   11f	 = TRANSLATION NEEDED
+   120	 = TRANSLATION NEEDED
+   121	 = TRANSLATION NEEDED
+   122	 = TRANSLATION NEEDED
+   123	 = TRANSLATION NEEDED
+   124	 = TRANSLATION NEEDED
+   125	 = TRANSLATION NEEDED
+   126	 = TRANSLATION NEEDED
+   127	 = TRANSLATION NEEDED
+   128	 = TRANSLATION NEEDED
+   129	 = TRANSLATION NEEDED
+   12a	 = TRANSLATION NEEDED
+   12b	 = TRANSLATION NEEDED
+   12c	 = TRANSLATION NEEDED
+   12d	 = TRANSLATION NEEDED
+   12e	 = TRANSLATION NEEDED
+   12f	 = TRANSLATION NEEDED
+   130	 = TRANSLATION NEEDED
+   131	 = TRANSLATION NEEDED
+   132	 = TRANSLATION NEEDED
+   133	 = TRANSLATION NEEDED
+   134	 = TRANSLATION NEEDED
+   135	 = TRANSLATION NEEDED
+   136	 = TRANSLATION NEEDED
+   137	 = TRANSLATION NEEDED
+   138	 = TRANSLATION NEEDED
+   139	 = TRANSLATION NEEDED
+   13a	 = TRANSLATION NEEDED
+   13b	 = TRANSLATION NEEDED
+   13c	 = TRANSLATION NEEDED
+   13d	 = TRANSLATION NEEDED
+   13e	 = TRANSLATION NEEDED
+   13f	 = TRANSLATION NEEDED
+   140	 = TRANSLATION NEEDED
+   141	 = TRANSLATION NEEDED
+   142	 = TRANSLATION NEEDED
+   143	 = TRANSLATION NEEDED
+   144	 = TRANSLATION NEEDED
+   145	 = TRANSLATION NEEDED
+   146	 = TRANSLATION NEEDED
+   147	 = TRANSLATION NEEDED
+   148	 = TRANSLATION NEEDED
+   149	 = TRANSLATION NEEDED
+   14a	 = TRANSLATION NEEDED
+   14b	 = TRANSLATION NEEDED
+   14c	 = TRANSLATION NEEDED
+   14d	 = TRANSLATION NEEDED
+   14e	 = TRANSLATION NEEDED
+   14f	 = TRANSLATION NEEDED
+   150	 = TRANSLATION NEEDED
+   151	 = TRANSLATION NEEDED
+   152	 = TRANSLATION NEEDED
+   153	 = TRANSLATION NEEDED
+   154	 = TRANSLATION NEEDED
+   155	 = TRANSLATION NEEDED
+   156	 = TRANSLATION NEEDED
+   157	 = TRANSLATION NEEDED
+   158	 = TRANSLATION NEEDED
+   159	 = TRANSLATION NEEDED
+   15a	 = TRANSLATION NEEDED
+   15b	 = TRANSLATION NEEDED
+   15c	 = TRANSLATION NEEDED
+   15d	 = TRANSLATION NEEDED
+   15e	 = TRANSLATION NEEDED
+   15f	 = TRANSLATION NEEDED
+   160	 = TRANSLATION NEEDED
+   161	 = TRANSLATION NEEDED
+   162	 = TRANSLATION NEEDED
+   163	 = TRANSLATION NEEDED
+   164	 = TRANSLATION NEEDED
+   165	 = TRANSLATION NEEDED
+   166	 = TRANSLATION NEEDED
+   167	 = TRANSLATION NEEDED
+   168	 = TRANSLATION NEEDED
+   169	 = TRANSLATION NEEDED
+   16a	 = TRANSLATION NEEDED
+   16b	 = TRANSLATION NEEDED
+   16c	 = TRANSLATION NEEDED
+   16d	 = TRANSLATION NEEDED
+   16e	 = TRANSLATION NEEDED
+   16f	 = TRANSLATION NEEDED
+   170	 = TRANSLATION NEEDED
+   171	 = TRANSLATION NEEDED
+   172	 = TRANSLATION NEEDED
+   173	 = TRANSLATION NEEDED
+   174	 = TRANSLATION NEEDED
+   175	 = TRANSLATION NEEDED
+   176	 = TRANSLATION NEEDED
+   177	 = TRANSLATION NEEDED
+   178	 = TRANSLATION NEEDED
+   179	 = TRANSLATION NEEDED
+   17a	 = TRANSLATION NEEDED
+   17b	 = TRANSLATION NEEDED
+   17c	 = TRANSLATION NEEDED
+   17d	 = TRANSLATION NEEDED
+   17e	 = TRANSLATION NEEDED
+   17f	 = TRANSLATION NEEDED
+   180	 = TRANSLATION NEEDED
+   181	 = TRANSLATION NEEDED
+   182	 = TRANSLATION NEEDED
+   183	 = TRANSLATION NEEDED
+   184	 = TRANSLATION NEEDED
+   185	 = TRANSLATION NEEDED
+   186	 = TRANSLATION NEEDED
+   187	 = TRANSLATION NEEDED
+   188	 = TRANSLATION NEEDED
+   189	 = TRANSLATION NEEDED
+   18a	 = TRANSLATION NEEDED
+   18b	 = TRANSLATION NEEDED
+   18c	 = TRANSLATION NEEDED
+   18d	 = TRANSLATION NEEDED
+   18e	 = TRANSLATION NEEDED
+   18f	 = TRANSLATION NEEDED
+   190	 = TRANSLATION NEEDED
+   191	 = TRANSLATION NEEDED
+   192	 = TRANSLATION NEEDED
+   193	 = TRANSLATION NEEDED
+   194	 = TRANSLATION NEEDED
+   195	 = TRANSLATION NEEDED
+   196	 = TRANSLATION NEEDED
+   197	 = TRANSLATION NEEDED
+   198	 = TRANSLATION NEEDED
+   199	 = TRANSLATION NEEDED
+   19a	 = TRANSLATION NEEDED
+   19b	 = TRANSLATION NEEDED
+   19c	 = TRANSLATION NEEDED
+   19d	 = TRANSLATION NEEDED
+   19e	 = TRANSLATION NEEDED
+   19f	 = TRANSLATION NEEDED
+   1a0	 = TRANSLATION NEEDED
+   1a1	 = TRANSLATION NEEDED
+   1a2	 = TRANSLATION NEEDED
+   1a3	 = TRANSLATION NEEDED
+   1a4	 = TRANSLATION NEEDED
+   1a5	 = TRANSLATION NEEDED
+   1a6	 = TRANSLATION NEEDED
+   1a7	 = TRANSLATION NEEDED
+   1a8	 = TRANSLATION NEEDED
+   1a9	 = TRANSLATION NEEDED
+   1aa	 = TRANSLATION NEEDED
+   1ab	 = TRANSLATION NEEDED
+   1ac	 = TRANSLATION NEEDED
+   1ad	 = TRANSLATION NEEDED
+   1ae	 = TRANSLATION NEEDED
+   1af	 = TRANSLATION NEEDED
+   1b0	 = TRANSLATION NEEDED
+   1b1	 = TRANSLATION NEEDED
+   1b2	 = TRANSLATION NEEDED
+   1b3	 = TRANSLATION NEEDED
+   1b4	 = TRANSLATION NEEDED
+   1b5	 = TRANSLATION NEEDED
+   1b6	 = TRANSLATION NEEDED
+   1b7	 = TRANSLATION NEEDED
+   1b8	 = TRANSLATION NEEDED
+   1b9	 = TRANSLATION NEEDED
+   1ba	 = TRANSLATION NEEDED
+   1bb	 = TRANSLATION NEEDED
+   1bc	 = TRANSLATION NEEDED
+   1bd	 = TRANSLATION NEEDED
+   1be	 = TRANSLATION NEEDED
+   1bf	 = TRANSLATION NEEDED
+   1c0	 = TRANSLATION NEEDED
+   1c1	 = TRANSLATION NEEDED
+   1c2	 = TRANSLATION NEEDED
+   1c3	 = TRANSLATION NEEDED
+   1c4	 = TRANSLATION NEEDED
+   1c5	 = TRANSLATION NEEDED
+   1c6	 = TRANSLATION NEEDED
+   1c7	 = TRANSLATION NEEDED
+   1c8	 = TRANSLATION NEEDED
+   1c9	 = TRANSLATION NEEDED
+   1ca	 = TRANSLATION NEEDED
+   1cb	 = TRANSLATION NEEDED
+   1cc	 = TRANSLATION NEEDED
+   1cd	 = TRANSLATION NEEDED
+   1ce	 = TRANSLATION NEEDED
+   1cf	 = TRANSLATION NEEDED
+   1d0	 = TRANSLATION NEEDED
+   1d1	 = TRANSLATION NEEDED
+   1d2	 = TRANSLATION NEEDED
+   1d3	 = TRANSLATION NEEDED
+   1d4	 = TRANSLATION NEEDED
+   1d5	 = TRANSLATION NEEDED
+   1d6	 = TRANSLATION NEEDED
+   1d7	 = TRANSLATION NEEDED
+   1d8	 = TRANSLATION NEEDED
+   1d9	 = TRANSLATION NEEDED
+   1da	 = TRANSLATION NEEDED
+   1db	 = TRANSLATION NEEDED
+   1dc	 = TRANSLATION NEEDED
+   1dd	 = TRANSLATION NEEDED
+   1de	 = TRANSLATION NEEDED
+   1df	 = TRANSLATION NEEDED
+   1e0	 = TRANSLATION NEEDED
+   1e1	 = TRANSLATION NEEDED
+   1e2	 = TRANSLATION NEEDED
+   1e3	 = TRANSLATION NEEDED
+   1e4	 = TRANSLATION NEEDED
+   1e5	 = TRANSLATION NEEDED
+   1e6	 = TRANSLATION NEEDED
+   1e7	 = TRANSLATION NEEDED
+   1e8	 = TRANSLATION NEEDED
+   1e9	 = TRANSLATION NEEDED
+   1ea	 = TRANSLATION NEEDED
+   1eb	 = TRANSLATION NEEDED
+   1ec	 = TRANSLATION NEEDED
+   1ed	 = TRANSLATION NEEDED

@@ -46,264 +46,513 @@
 #
 #------------------------------------------------------------------------------
 
-     0	= Infos sur:\n
+     0	 = Infos sur:\n
 	+ %ls
-     1	= Lieu:
-     2	= Heure:
-     3	= Etale du Miel sur un arbre\n
+     1	 = Lieu:
+     2	 = Heure:
+     3	 = Etale du Miel sur un arbre\n
 	+ pour l'attirer.
-     4	= Ressuscite un fossile au\n
+     4	 = Ressuscite un fossile au\n
 	+ Musée Minier de Charbourg.
-     5	= Capture-le au Parc des Amis\n
+     5	 = Capture-le au Parc des Amis\n
 	+ pendant un Show Capture.
-     6	= Un TARINOR évolue s'il change\n
+     6	 = Un TARINOR évolue s'il change\n
 	+ de niveau au Mont Couronné.
-     7	= Un SCORPLANE évolue s'il change\n
+     7	 = Un SCORPLANE évolue s'il change\n
 	+ de niveau en tenant un Croc Rasoir.
-     8	= Un EVOLI évolue s'il change\n
+     8	 = Un EVOLI évolue s'il change\n
 	+ de niveau sur la Route 217.
-     9	= Un BABIMANTA évolue quand\n
+     9	 = Un BABIMANTA évolue quand\n
 	+ il passe au niveau supérieur.
-     a	= Un FARFURET évolue s'il change de\n
+     a	 = Un FARFURET évolue s'il change de\n
 	+ niveau en tenant une Grif. Rasoir.
-     b	= Un BARPAU évolue quand\n
+     b	 = Un BARPAU évolue quand\n
 	+ il passe au niveau supérieur.
-	+ in Mt. Coronet.
-     d	= Un MAGNETON évolue s'il change\n
-     e	= Un %ls %ls évolue\n
-     f	= Un %ls %ls évolue\n
-    11	= Echange un %ls %ls\n
-    12	= Echange un %ls %ls\n
-    13	= Un %ls%ls évolue\n
-    18	= How to catch it is unknown.
-    19	= You can get it by trading\n
-	+ with other DS Pokémon games.
-    1a	= You can find it roaming\n 
-	+ around the Sinnoh region.
-    1b	= Route 201
-    1c	= Route 202
-    1d	= Route 203
-    1e	= Route 204
-    1f	= Route 205
-    20	= Route 205
-    21	= Route 205
-    22	= Route 206
-    23	= Route 207
-    24	= Route 208
-    25	= Route 209
-    26	= Route 210
-    27	= Route 210
-    28	= Route 211
-    29	= Route 211
-    2a	= Route 211
-    2b	= Route 212
-    2c	= Route 212
-    2d	= Route 212
-    2e	= Route 213
-    2f	= Route 214
-    30	= Route 215
-    31	= Route 216
-    32	= Route 217
-    33	= Route 218
-    34	= Route 219
-    35	= Route 220
-    36	= Route 221
-    37	= Route 222
-    38	= Route 223
-    39	= Route 229
-    43	= Lake Acuity
-    44	= Sendoff Spring
-    45	= Celestic Town
-    46	= Snowpoint Temple
-    47	= Snowpoint Temple
-    48	= Snowpoint Temple
-    49	= Ile de Fer
-    4f	= Iron Island
-    50	= Iron Island
-    51	= Iron Island
-    52	= Grand Marais\n
+     c   = Un EVOLI évolue s'il change de\n
+	+ niveau dans la Forêt Vestigion.
+     d	 = Un MAGNETON évolue s'il change\n
+	+ de niveau au Mont Couronné.
+     e	 = TRANSLATION NEEDED
+     f	 = TRANSLATION NEEDED
+    10	 = TRANSLATION NEEDED
+    11	 = Un %ls %ls évolue\n
+	+ si tu lui donnes un objet.
+    12	 = Un %ls %ls évolue\n
+	+ quand il passe au niveau %d.
+    13	 = Un %ls %ls évolue\n
+	+ s'il t'apprécie suffisamment.
+    14	 = Echange un %ls %ls\n
+	+ pour qu'il évolue.
+    15	 = Echange un %ls %ls\n
+	+ qui tient un objet pour qu'il évolue.
+    16	 = Un %ls%ls évolue\n
+	+ s'il apprend une capacité et\n
+	+ change de niveau.
+    17	 = Trouve un Œuf et fais-le éclore à\n
+	+ la Pension Pokémon de Bonville.
+    18	 = Aucun conseil n'est disponible\n
+	+ sur la façon d'attraper ce Pokémon.
+    19	 = TRANSLATION NEEDED
+    1a	 = TRANSLATION NEEDED
+    1b	 = Route 201
+    1c	 = Route 202
+    1d	 = Route 203
+    1e	 = Route 204
+    1f	 = Route 205
+    20	 = Route 205
+    21	 = Route 205
+    22	 = Route 206
+    23	 = Route 207
+    24	 = Route 208
+    25	 = Route 209
+    26	 = Route 210
+    27	 = Route 210
+    28	 = Route 211
+    29	 = Route 211
+    2a	 = Route 211
+    2b	 = Route 212
+    2c	 = Route 212
+    2d	 = Route 212
+    2e	 = Route 213
+    2f	 = Route 214
+    30	 = Route 215
+    31	 = Route 216
+    32	 = Route 217
+    33	 = Route 218
+    34	 = Route 219
+    35	 = Chenal 220
+    36	 = Route 221
+    37	 = Route 222
+    38	 = Chenal 223
+    39	 = Route 224
+    3a	 = Route 225
+    3b	 = Chenal 226
+    3c	 = Route 227
+    3d	 = Route 228
+    3e	 = Route 229
+    3f	 = Chenal 230
+    40	 = Arbre à Miel
+    41	 = Chemin Rocheux
+    42	 = Grotte Ruineman.\n
+	+ (Tunnel Ruineman.)
+    43	 = Lac Savoir
+    44	 = Source Adieu
+    45	 = Célestia
+    46	 = Temple Frimapic
+    47	 = Temple Frimapic
+    48	 = Temple Frimapic
+    49	 = Temple Frimapic
+    4a	 = Entrée Charbourg
+    4b	 = Entrée Charbourg
+    4c	 = Entrée Charbourg
+    4d	 = Mine Charbourg
+    4e	 = Ile de Fer
+    4f	 = Ile de Fer
+    50	 = Ile de Fer
+    51	 = Ile de Fer
+    52	 = Ile de Fer
+    53	 = Ile de Fer
+    54	 = Jardin Trophée
+    55	 = Lac Vérité
+    56	 = Ruines Bonville
+    57   = Grand Marais\n
 	+ de Verchamps
-    59	= Forge Fuego
-    5a	= Les Eoliennes
-    5b	= Route Victoire
-    5c	= Route Victoire
-    5d	= Route Victoire
-    5e	= Route Victoire
-    5f	= Route Victoire
-    60	= Mont Couronné
-    6d	= Mt. Coronet
-    6e	= Mt. Coronet
-    6f	= Mt. Coronet
-    70	= Mt. Coronet
-    71	= Mt. Coronet
-    72	= Sunyshore City
-    73	= Pastoria City
-    74	= Stark Mountain
-    75	= Stark Mountain
-    76	= Eterna City
-    77	= Eterna Forest
-    78	= Twinleaf Town
-    79	= Pokémon League
-    7a	= Wayward Cave
-    7b	= Wayward Cave
-    7c	= Wayward Cave
-    7d	= Canalave City
-    7e	= Turnback Cave
-    7f	= Old Chateau
-    80	= Resort Area
-    81	= Lake Valor
-    82	= Valor Lakefront
-    83	= Lost Tower
-    84	= Lost Tower
-    85	= Lost Tower
-    86	= Lost Tower
-    87	= Lost Tower
-    88	= Anytime
-    89	= Morning
-    8a	= Morning/Day
-    8b	= Night
-    8c	= Morning/Night
-    8d	= ・Lv. %d or higher
-    8e	= ・Honey Tree
-    8f	= ・When Defense > Attack
-    90	= ・Pastoria Great Marsh random daily
-    91	= ・HOUNDOUR Egg
-    92	= ・KOFFING Egg
-    93	= ・WHISMUR Egg
-    94	= ・SPINARAK Egg
-    95	= ・SHUPPET Egg
-    96	= ・POOCHYENA Egg
-    97	= ・LEDYBA Egg
-    98	= ・WYNAUT Egg
-    99	= ・TAILLOW Egg
-    9a	= ・SPHEAL Egg
-    9b	= ・SEEL Egg
-    9c	= ・ELEKID Egg
-    9d	= ・MAGBY Egg
-    9e	= ・Fishing: (Old Rod)
-    9f	= ・Fishing: (Good Rod)
-    a0	= ・Fishing: (Super Rod)
-    a1	= ・Item: Up-Grade
-    a2	= ・Item: Dubious Disc
-    a3	= ・Item: Electirizer
-    a4	= ・Item: Shiny Stone
-    a5	= ・Item: Fire Stone
-    a6	= ・Item: Thunderstone
-    a7	= ・Item: DeepSeaTooth
-    a8	= ・Item: Magmarizer
-    a9	= ・Item: Metal Coat
-    aa	= ・Item: Dawn Stone
-    ab	= ・Item: Water Stone
-    ac	= ・Item: King's Rock
-    ad	= ・Item: Protector
-    ae	= ・Item: Reaper Cloth
-    af	= ・Item: Leaf Stone
-    b0	= ・Item: Dragon Scale
-    b1	= ・Item: Razor Fang
-    b2	= ・Item: Razor Claw
-    b3	= ・Item: Sun Stone
-    b4	= ・Item: Moon Stone
-    b5	= ・Item: DeepSeaScale
-    b6	= ・Item: Lax Incense
-    b7	= ・Item: Dusk Stone
-    b8	= ・Damp Rock
-    b9	= ・Icy Rock
-    ba	= ・Fossil: Helix Fossil
-    bb	= ・Fossil: Old Amber
-    bc	= ・Fossil: Dome Fossil
-    bd	= ・Fossil: Root Fossil
-    be	= ・Fossil: Armor Fossil
-    bf	= ・Fossil: Claw Fossil
-    c0	= ・Fossil: Skull Fossil
-    c1	= ・Dug up with an even Trainer ID number.
-    c2	= ・Dug up with an odd Trainer ID number.
-    c3	= ・When Attack = Defense
-    c4	= ・When Attack > Defense
-    c5	= ・On the water (Surf)
-    c6	= ・Diamond only
-    c7	= ・Pearl only
-    c8	= ・Pal Park
-    c9	= ・Nuée de Pokémon
-    ca	= ・Après avoir appris Coup Double
-    cb	= ・Après avoir appris Pouv.Antique
-    cc	= ・Après avoir appris Roulade
-    ce	= ・Double port: Pokémon Rouge Feu
-    cf	= ・Double port: Pokémon Vert Feuille
-    d0	= ・Double port: Pokémon Rubis
-    d1	= ・Double port: Pokémon Saphir
-    d3	= ・Jardin Trophée
-    d4	= Etale sur un arbre le Miel que tu peux\n
+    58   = Grand Marais\n
+	+ de Verchamps
+    59	 = Grand Marais\n
+	+ de Verchamps
+    5a	 = Grand Marais\n
+	+ de Verchamps
+    5b	 = Grand Marais\n
+	+ de Verchamps
+    5c	 = Grand Marais\n
+	+ de Verchamps
+    5d	 = Grand Marais\n
+	+ de Verchamps
+    5e	 = Forge Fuego
+    5f	 = Les Eoliennes
+    60	 = Route Victoire
+    61	 = Route Victoire
+    62	 = Route Victoire
+    63	 = Route Victoire
+    64	 = Route Victoire
+    65   = Mont Couronné
+    66   = Mont Couronné
+    67   = Mont Couronné
+    68   = Mont Couronné
+    69   = Mont Couronné
+    6a   = Mont Couronné
+    6b   = Mont Couronné
+    6c   = Mont Couronné
+    6d	 = Mont Couronné
+    6e	 = Mont Couronné
+    6f	 = Mont Couronné
+    70	 = Mont Couronné
+    71	 = Mont Couronné
+    72	 = Rivamar
+    73	 = Verchamps
+    74	 = Mont Abrupt
+    75	 = Mont Abrupt
+    76	 = Vestigion
+    77	 = Forêt Vestigion
+    78	 = Bonaugure
+    79	 = Ligue Pokémon
+    7a	 = Grotte Revêche
+    7b	 = Grotte Revêche
+    7c	 = Grotte Revêche
+    7d	 = Joliberges
+    7e	 = Grotte Retour
+    7f	 = Vieux Château
+    80	 = Aire de Détente
+    81	 = Lac Courage
+    82	 = Rive Lac Courage
+    83	 = Tour Perdue
+    84	 = Tour Perdue
+    85	 = Tour Perdue
+    86	 = Tour Perdue
+    87	 = Tour Perdue
+    88	 = N'importe quand
+    89	 = Le matin
+    8a	 = Le matin/L'après-midi
+    8b	 = La nuit
+    8c	 = TRANSLATION NEEDED
+    8d	 = ・Niveau %d ou supérieur
+    8e	 = ・Arbre à Miel
+    8f	 = ・Si Défense > Attaque
+    90	 = ・Pokémon diurne du Grand Marais
+    91	 = ・Œuf de MALOSSE
+    92	 = ・Œuf de SMOGO
+    93	 = ・Œuf de CHUCHMUR
+    94	 = ・Œuf de MIMIGAL
+    95	 = ・Œuf de POLICHOMBR
+    96	 = ・Œuf de MEDHYENA
+    97	 = ・Œuf de COXY
+    98	 = ・Œuf de OKEOKE
+    99	 = ・Œuf de NIRONDELLE
+    9a	 = TRANSLATION NEEDED
+    9b	 = TRANSLATION NEEDED
+    9c	 = TRANSLATION NEEDED
+    9d	 = TRANSLATION NEEDED
+    9e	 = ・Pêcher avec la Canne
+    9f	 = ・Pêcher avec la Super Canne
+    a0	 = ・Pêcher avec la Méga Canne
+    a1	 = ・Objet: Améliorator
+    a2	 = ・Objet: CD Douteux
+    a3	 = ・Objet: Electiriseur
+    a4	 = ・Objet: Pierre Eclat
+    a5	 = ・Objet: Pierre Feu
+    a6	 = ・Objet: Pierrefoudre
+    a7	 = ・Objet: Dent Océan
+    a8	 = ・Objet: Magmariseur
+    a9	 = ・Objet: Peau Métal
+    aa	 = ・Objet: Pierre Aube
+    ab	 = ・Objet: Pierre Eau
+    ac	 = ・Objet: Roche Royale
+    ad	 = ・Objet: Protecteur
+    ae	 = ・Objet: Tissu Fauche
+    af	 = ・Objet: Pierreplante
+    b0	 = ・Objet: Ecailledraco
+    b1	 = ・Objet: Croc Rasoir
+    b2	 = ・Objet: Grif. Rasoir
+    b3	 = ・Objet: Pierresoleil
+    b4	 = ・Objet: Pierre Lune
+    b5	 = ・Objet: Ecailleocéan
+    b6	 = TRANSLATION NEEDED
+    b7	 = ・Objet: Pierre Nuit
+    b8	 = ・Roche Moussue
+    b9	 = ・Roche de Glace
+    ba	 = ・Fossile: Nautile
+    bb	 = ・Fossile: Vieil Ambre
+    bc	 = ・Fossile: Fossile Dôme
+    bd	 = ・Fossile: Foss. Racine
+    be	 = ・Fossile: Foss. Armure
+    bf	 = ・Fossile: Foss. Griffe
+    c0	 = ・Fossile: Foss. Crâne
+    c1	 = TRANSLATION NEEDED
+    c2	 = TRANSLATION NEEDED
+    c3	 = ・Si Attaque = Défense\040
+    c4	 = ・Si Attaque > Défense\040
+    c5	 = ・Sur l'eau (en utilisant Surf)
+    c6	 = ・Seulement dans Pokémon Diamant
+    c7	 = ・Seulement dans Pokémon Perle
+    c8	 = ・Parc des Amis
+    c9	 = ・Un lieu avec une quadruple cascade
+    ca	 = ・Informations sur Zarbi
+    cb	 = ・Informations sur Barpau
+    cc	 = ・Informations sur Baudrive
+    cd	 = ・Informations sur Mime Jr.
+    ce	 = ・Informations sur Spiritomb
+    cf	 = ・Informations sur Munja
+    d0	 = ・Informations sur Manzaï
+    d1	 = TRANSLATION NEEDED
+    d2	 = TRANSLATION NEEDED
+    d3	 = ・Nécessite le Poké Radar
+    d4	 = ・Pokémon rare de Pokémon Diamant
+    d5	 = ・Pokémon rare de Pokémon Perle
+    d6	 = ・Nuée de Pokémon
+    d7	 = ・Après avoir appris Coup Double
+    d8	 = ・Après avoir appris Pouv.Antique
+    d9	 = ・Après avoir appris Roulade
+    da	 = ・Après avoir appris Roulade
+    db	 = ・Double port: Pokémon Emeraude
+    dc	 = ・Double port: Pokémon Rouge Feu
+    dd	 = ・Double port: Pokémon Vert Feuille
+    de	 = ・Double port: Pokémon Rubis
+    df	 = TRANSLATION NEEDED
+    e0	 = TRANSLATION NEEDED
+    e1	 = ・Après avoir obtenu le Pokédex Nat.
+    e2	 = ・Jardin Trophée
+    e3	 = TRANSLATION NEEDED
+    e4	 = Etale sur un arbre le Miel que tu peux\n
 	+ obtenir au Pré Floraville, puis attends\n
 	+ une demi-journée qu'un Pokémon arrive.\n
-    d5	= Dans chacune des zones du Grand Marais de\n
-    d7	= Si tu écoutes M. Décorum, il te dira\n
+	+ Le type de Pokémon que tu trouves\n
+	+ dépend de l'arbre utilisé.
+    e5	 = Dans chacune des zones du Grand Marais de\n
+	+ Verchamps, il y a chaque jour un nouveau\n
+	+ Pokémon à attraper. Pour voir lequel tu peux\n
+	+ trouver aujourd'hui, utilise le téléscope de la\n
+	+ plateforme d'observation au premier étage.
+    e6	 = Le lieu des nuées de Pokémon et le type de\n
+	+ Pokémon qu'on y trouve changent chaque\n
+	+ jour. Cherche quelqu'un à Littorella qui\n
+	+ pourra te donner des renseignements utiles\n
+	+ sur les nuées de Pokémon.
+    e7	 = Si tu écoutes M. Décorum, il te dira\n
 	+ quels Pokémon tu peux attraper dans\n
-    de	= Pour obtenir cet Œuf, laisse à\n
+	+ le Jardin Trophée. Tu ne peux écouter\n
+	+ ses histoires qu'une fois par jour.
+    e8	 = Pour obtenir cet Œuf, laisse à\n
+	+ la Pension Pokémon un Pokémon mâle\n
+	+ compatible avec un DEMOLOSSE♀.\n
+	+ Attention, DEMOLOSSE n'apparaît\n
+	+ que dans Pokémon Perle.
+    e9	 = Pour obtenir cet Œuf, laisse à\n
+	+ la Pension Pokémon un Pokémon mâle\n
+	+ compatible avec un SMOGOGO♀.
+    ea	 = Pour obtenir cet Œuf, laisse à la Pension\n
+	+ Pokémon un Pokémon mâle compatible\n
+	+ avec un RAMBOUM♀ ou un BROUHABAM♀.
+    eb	 = Pour obtenir cet Œuf, laisse à\n
+	+ la Pension Pokémon un Pokémon mâle\n
+	+ compatible avec un GRAHYENA♀.\n
+	+ Attention, GRAHYENA n'apparaît\n
+	+ que dans Pokémon Diamant.
+    ec	 = Pour obtenir cet Œuf, laisse à\n
+	+ la Pension Pokémon un Pokémon mâle\n
+	+ compatible avec un MIGALOS♀.
+    ed	 = Pour obtenir cet Œuf, laisse à\n
+	+ la Pension Pokémon un Pokémon mâle\n
+	+ compatible avec un BRANETTE♀.
+    ee	 = Pour obtenir cet Œuf, laisse à\n
 	+ la Pension Pokémon un Pokémon mâle\n
 	+ compatible avec un COXYCLAQUE♀.
-    e3	= Il peut t'arriver de rencontrer un ELEKID\n
+    ef	 = Pour obtenir cet Œuf, laisse à\n
+	+ la Pension Pokémon un Pokémon mâle\n
+	+ compatible avec un QULBUTOKE♀.\n
+	+ N'oublie pas que l'un d'entre eux\n
+	+ doit aussi tenir de l'Encens Doux!
+    f0	 = Pour obtenir cet Œuf, laisse à\n
+	+ la Pension Pokémon un Pokémon mâle\n
+	+ compatible avec un HELEDELLE♀.
+    f1	 = TRANSLATION NEEDED
+    f2	 = TRANSLATION NEEDED
+    f3	 = TRANSLATION NEEDED
+    f4	 = TRANSLATION NEEDED
+    f5	 = Tu peux obtenir un Améliorator\n
+	+ à Vestigion.
+    f6	 = Tu peux obtenir un CD Douteux\n
+	+ sur la Route 225.
+    f7	 = TRANSLATION NEEDED
+    f8	 = Il peut t'arriver de rencontrer un ELEKID\n
 	+ sauvage qui tient un Electiriseur. Tu peux\n
-    e4	= Tu peux trouver une Pierre Eclat\n
-    e6	= Tu peux trouver une Pierrefoudre\n
-    e8	= Un MAGBY sauvage tient parfois un\n
-    e9	= Il arrive qu'un ARCHEOMIRE sauvage ou\n
-    ec	= La Roche Royale peut de temps en temps\n
-    ed	= Tu peux trouver un Protecteur\n
-    ee	= Tu peux trouver un Tissu Fauche\n
+	+ attraper des ELEKID aux Eoliennes.\n
+	+ \n
+	+ Double port: Pokémon Rouge Feu.
+    f9	 = TRANSLATION NEEDED
+    fa	 = Tu peux trouver une Pierre Eclat\n
+	+ sur l'Ile de Fer ou sur la Route 228.
+    fb	 = Tu peux trouver une Pierre Feu\n
+	+ à la Forge Fuego. Parfois, tu peux aussi en\n
+	+ trouver une en creusant dans le Souterrain.
+    fc	 = Tu peux trouver une Pierrefoudre\n
+	+ à Rivamar, ou bien tu peux parfois en\n
+	+ trouver une en creusant dans le Souterrain.
+    fd	 = La Dent Océan peut parfois être tenue\n
+	+ par un CARVANHA ou un SHARPEDO.
+    fe	 = Un MAGBY sauvage tient parfois un\n
+	+ Magmariseur. Tu peux attraper un MAGBY\n
+	+ sur la Route 227.\n
+	+ \n
+	+ Double port: Pokémon Vert Feuille.
+    ff	 = TRANSLATION NEEDED
+   100	 = Il arrive qu'un ARCHEOMIRE sauvage ou\n
+	+ un STEELIX sauvage tienne une Peau Métal.
+   101	 = Tu peux obtenir une Pierre Aube au\n
+	+ Mont Couronné ou sur la Route 225.
+   102	 = Tu peux trouver une Pierre Eau sur\n
+	+ la Route 213, ou bien tu peux parfois en\n
+	+ trouver une en creusant dans le Souterrain.
+   103	 = La Roche Royale peut de temps en temps\n
+	+ être obtenue par un Pokémon possédant\n
+	+ la capacité Ramassage.
+   104	 = Tu peux trouver un Protecteur\n
+	+ sur la Route 228.
+   105	 = Tu peux trouver un Tissu Fauche\n
 	+ sur la Route 229.
-    ef	= Tu peux trouver une Pierreplante dans\n
+   106	 = Tu peux trouver une Pierreplante dans\n
 	+ le Pré Floraville, ou bien parfois en\n
-    f0	= Il peut t'arriver de trouver un HYPOTREMPE\n
+	+ trouver une en creusant dans le Souterrain.
+   107	 = Il peut t'arriver de trouver un HYPOTREMPE\n
 	+ ou un HYPOCEAN tenant une Ecailledraco.
-    f1	= Tu peux parfois trouver une Pierresoleil \n
-    f2	= Tu peux parfois trouver une Pierre Lune\n
+   108	 = Tu peux parfois trouver une Pierresoleil \n
 	+ en creusant dans le Souterrain.\n
-    f3	= Tu peux parfois trouver un RELICANTH\n
+	+ Il peut aussi t'arriver de rencontrer\n
+	+ un SOLAROC sauvage qui en tient une.
+   109	 = Tu peux parfois trouver une Pierre Lune\n
+	+ en creusant dans le Souterrain.\n
+	+ Il peut aussi t'arriver de rencontrer\n
+	+ un SELEROC sauvage qui en tient une.
+   10a	 = Tu peux parfois trouver un RELICANTH\n
 	+ sauvage qui tient une Ecailleocéan.
-    f6	= Le Parc des Amis est accessible sur\n
+   10b	 = Tu peux trouver une Pierre Nuit dans\n
+	+ le Hangar Galaxie ou sur la Route Victoire.
+   10c	 = Utilise l'Explorakit pour accéder au\n
+	+ Souterrain, où tu devras creuser pour\n
+	+ trouver des fossiles. Tu peux trouver\n
+	+ plus de types de fossiles une fois que\n
+	+ tu as le Pokédex National.
+   10d	 = Le Parc des Amis est accessible sur\n
 	+ la Route 221 une fois que tu as obtenu\n
 	+ le Pokédex National. Tu peux y amener des\n
-    f7	= Si tu réussis à attraper les 26 types\n
-    f8	= Si son Attaque est plus forte que sa\n
+	+ Pokémon importés de jeux Pokémon GBA\n
+	+ et les capturer pendant un Show Capture.
+   10e	 = Si tu réussis à attraper les 26 types\n
+	+ de ZARBI, la Route 214 vers le Tunnel\n
+	+ Ruineman. s'ouvrira. A partir de là, tu peux\n
+	+ aller dans une salle où il est possible\n
+	+ de trouver des ZARBI "!" et "?".
+   10f	 = Si son Attaque est plus forte que sa\n
 	+ Défense, il évolue en KICKLEE. Mais si\n
-    f9	= Pêche pendant que tu te déplaces avec Surf.\n
+	+ c'est sa Défense qui est supérieure à son\n
+	+ Attaque, il évolue en TYGNON. Et si les\n
+	+ deux sont égales, il évolue en KAPOERA.
+   110	 = Pêche pendant que tu te déplaces avec Surf.\n
 	+ BARPAU n'apparaît qu'à 4 endroits. Une fois\n
 	+ que tu en as trouvé un, tu as 50% de chance\n
-    fb	= Une fois que tu as obtenu le Pokédex\n
+	+ qu'un Pokémon morde à l'hameçon. Les bons\n
+	+ endroits changent chaque jour.
+   111	 = Ce Pokémon apparaît chaque semaine\n
+	+ le vendredi, en face des Eoliennes.
+   112	 = Une fois que tu as obtenu le Pokédex\n
 	+ National dans Pokémon Perle, il apparaît\n
-	+ in the Underground.
-    ff	= Une fois qu'EVOLI t'apprécie suffisamment,\n
-   103	= SAQUEDENEU apprend Pouv.Antique\n
+	+ dans le Jardin Trophée quand tu as écouté\n
+	+ les histoires de M. Décorum.
+   113	 = 1. Place la Clé de Voûte dans la tour de\n
+	+    pierre brisée.\n
+	+ 2. Accède au Souterrain avec l'Explorakit.\n
+	+ 3. Parle à 32 personnes.\n
+	+ 4. SPIRITOMB apparaîtra à la Tour Sacrée.
+   114	 = Si tu fais passer NINGALE au niveau 20\n
+	+ en ayant un emplacement libre dans une\n
+	+ Poké Ball, il évolue en NINJASK et tu\n
+	+ verras aussi bientôt apparaître MUNJA\n
+	+ à l'emplacement libre!
+   115	 = Une fois que tu as obtenu le Pokédex\n
+	+ National dans Pokémon Diamant, il apparaît\n
+	+ dans le Jardin Trophée quand tu as écouté\n
+	+ les histoires de M. Décorum.
+   116	 = Une fois qu'EVOLI t'apprécie suffisamment,\n
+	+ il évolue lorsqu'il augmente de niveau pour\n
+	+ donner un MENTALI ou un NOCTALI,\n
+	+ en fonction du moment de la journée.
+   117	 = Une fois que tu as obtenu le Pokédex\n
+	+ National dans Pokémon Perle, tu peux\n
+	+ attraper ce Pokémon sur la Route 224.
+   118	 = Tu obtiens le Poké Radar une fois que tu as\n
+	+ le Pokédex National. Quand tu l'utilises,\n
+	+ tu verras des touffes d'herbe bouger,\n
+	+ alors n'oublie pas d'aller y jeter un œil!
+   119	 = CAPUMAIN apprend Coup Double\n
+	+ au niveau 32.
+   11a	 = SAQUEDENEU apprend Pouv.Antique\n
 	+ au niveau 33.
-   106	= Quand EXCELANGUE atteint le niveau 33,\n
-   137	= ・About MANTINE
-   138	= ・About MILOTIC
-   139	= ・About TURTWIG
-   13a	= ・About CHIMCHAR
-   13b	= ・About PIPLUP
-   13c	= ・About REGIGIGAS
-   13d	= ・About DIALGA
-   13e	= ・About PALKIA
-   13f	= ・About GIRATINA
-   140	= ・About ARTICUNO
-   141	= ・About ZAPDOS
-   142	= ・About MOLTRES
-   143	= Discover it at the Pokémon Day\n
-	+ Care in Solaceon Town.
-   144	= ・About Eggs
-   145	= You can discover an Egg by leaving a\n
-	+ Pokémon and a Pokémon that gets\n
-	+ along with it at the Pokémon Day Care.
-   146	= After entering the Hall of Fame,\n
-	+ talk to the elder of Celestic Town.\n
-	+ Requires an Adamant Orb.
-   147	= After entering the Hall of Fame,\n
-	+ talk to the elder of Celestic Town.\n
-	+ Requires a Lustrous Orb.
-   148	= After obtaining the National Dex,
-	+  go to Eterna City and\n
-	+ see Prof. Oak.
-   149	= 
-   14a	= New!
-
+   11b	 = TRANSLATION NEEDED
+   11c	 = Ton Pokémon apprendra cette capacité si\n
+	+ tu offres une Ecaillecoeur au Maître des\n
+	+ Capacités à Verchamps. Tu peux obtenir une\n
+	+ Ecaillecoeur en creusant dans le Souterrain.
+   11d	 = Quand EXCELANGUE atteint le niveau 33,\n
+	+ il apprend Roulade.
+   11e	 = TRANSLATION NEEDED
+   11f	 = TRANSLATION NEEDED
+   120	 = Ce Pokémon apparaît si tu insères\n
+	+ une cartouche de jeu Game Boy Advance\n
+	+ Pokémon dans le port cartouche\n
+	+ de la Nintendo DS.
+   121	 = Tu peux obtenir une Grif. Rasoir\n
+	+ sur la Route Victoire ou sur la Route 224.
+   122	 = Tu peux obtenir un Croc Rasoir\n
+	+ au Parc des Combats.
+   123	 = TRANSLATION NEEDED
+   124	 = TRANSLATION NEEDED
+   125	 = Tu le trouves dans le sac oublié par\n
+	+ le Professeur Sorbier au Lac Vérité.
+   126	 = TRANSLATION NEEDED
+   127	 = Fais éclore l'Œuf qu'Armand\n
+	+ te donne à l'Ile de Fer.
+   128	 = Examine la TV du Vieux Château,\n
+	+ la nuit.
+   129	 = Tu peux rencontrer ce Pokémon\n
+	+ au Lac Savoir.
+   12a	 = Une fois aperçu au Lac Vérité,\n
+	+ il se met à voler autour de Sinnoh.
+   12b	 = Tu peux trouver ce Pokémon\n
+	+ au Lac Courage.
+   12c	 = Tu peux le trouver aux Colonnes\n
+	+ Lances, sur le Mont Couronné.
+   12d	 = Tu peux trouver ce Pokémon\n
+	+ au Mont Abrupt.
+   12e	 = Tu peux trouver ce Pokémon\n
+	+ au Temple Frimapic.
+   12f	 = Tu peux trouver ce Pokémon\n
+	+ dans la Grotte Retour.
+   130	 = TRANSLATION NEEDED
+   131	 = Une fois aperçu à l'Ile Pleine Lune,\n
+	+ il se met à voler autour de Sinnoh.
+   132	 = Tu peux choisir parmi TORTIPOUSS,\n
+	+ OUISTICRAM et TIPLOUF. Si toi et tes amis\n
+	+ ne prenez pas le même Pokémon, vous\n
+	+ pourrez faire des échanges entre vous!
+   133	 = Tu pourras attraper ce Pokémon\n
+	+ si tu as REGIROCK, REGICE et\n
+	+ REGISTEEL dans ton équipe.
+   134	 = TRANSLATION NEEDED
+   135	 = Fais changer de niveau à un BARPAU\n
+	+ lorsqu'il est suffisamment beau.
+   136	 = Fais passer BABIMANTA au niveau supérieur\n
+	+ en ayant REMORAID dans ton équipe.
+   137	 = ・Informations sur BABIMANTA
+   138	 = ・Informations sur MILOBELLUS
+   139	 = ・Informations sur TORTIPOUSS
+   13a	 = ・Informations sur OUISTICRAM
+   13b	 = ・Informations sur TIPLOUF
+   13c	 = ・Informations sur REGIGIGAS
+   13d	 = TRANSLATION NEEDED
+   13e	 = TRANSLATION NEEDED
+   13f	 = TRANSLATION NEEDED
+   140	 = TRANSLATION NEEDED
+   141	 = TRANSLATION NEEDED
+   142	 = TRANSLATION NEEDED
+   143	 = Tu peux trouver cet Œuf à la\n
+	+ Pension Pokémon de Bonville.
+   144	 = ・Informations sur les Œufs
+   145	 = Tu peux obtenir un Œuf si tu laisses\n
+	+ des Pokémon ♂ et ♀ compatibles\n
+	+ à la Pension Pokémon.
+   146	 = TRANSLATION NEEDED
+   147	 = TRANSLATION NEEDED
+   148	 = TRANSLATION NEEDED
+   149	 = TRANSLATION NEEDED
+   14a	 = NOUVEAU!
 

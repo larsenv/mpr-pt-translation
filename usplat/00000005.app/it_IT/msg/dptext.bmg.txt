@@ -46,324 +46,320 @@
 #
 #------------------------------------------------------------------------------
 
-     0	= $2$ $1$ 20$0$\n
+     0	 = $2$ $1$ 20$0$\n
 	+ $4$\n
 	+ Ottenuto al L. $3$.
-     1	= $2$ $1$ 20$0$\n
+     1	 = $2$ $1$ 20$0$\n
 	+ $4$\n
 	+ Probabilmente ottenuto\n
 	+ al L. $3$.
-     2	= $2$ $1$ 20$0$\n
+     2	 = $2$ $1$ 20$0$\n
 	+ $4$\n
 	+ Arrivato al L. $3$.
-     3	= $7$ $6$ 20$5$\n
+     3	 = $7$ $6$ 20$5$\n
 	+ $8$\n
 	+ Uovo ottenuto.\n
 	+ $2$ $1$ 20$0$\n
 	+ $4$\n
 	+ Uovo schiuso.
-     4	= $7$ $6$ 20$5$\n
+     4	 = $7$ $6$ 20$5$\n
 	+ $8$\n
 	+ Uovo ottenuto.\n
 	+ $2$ $1$ 20$0$\n
 	+ $4$\n
 	+ Uovo forse schiuso lì.
-     5	= $7$ $6$ 20$5$\n
+     5	 = $7$ $6$ 20$5$\n
 	+ $8$\n
 	+ Uovo ricevuto.\n
 	+ $2$ $1$ 20$0$\n
 	+ $4$\n
 	+ Uovo schiuso.
-     6	= $7$ $6$ 20$5$\n
+     6	 = $7$ $6$ 20$5$\n
 	+ $8$\n
 	+ Uovo ricevuto.\n
 	+ $2$ $1$ 20$0$\n
 	+ $4$\n
 	+ Uovo forse schiuso lì.
-     7	= $2$ $1$ 20$0$\n
+     7	 = $2$ $1$ 20$0$\n
 	+ $4$\n
 	+ Ottenuto in un'occasione\n
 	+ speciale al L. $3$.
-     8	= $2$ $1$ 20$0$\n
-	+ $4$\n
-	+ Probabilmente ottenuto\n
-	+ in un'occasione\n
-	+ speciale al L. $3$.
-     9	= $7$ $6$ 20$5$\n
+     8	 = TRANSLATION NEEDED
+     9	 = $7$ $6$ 20$5$\n
 	+ $8$\n
 	+ Uovo ottenuto.\n
 	+ $2$ $1$ 20$0$\n
 	+ $4$\n
 	+ Uovo schiuso.\n
 	+ Occasione speciale.
-     a	= $7$ $6$ 20$5$\n
+     a	 = $7$ $6$ 20$5$\n
 	+ $8$\n
 	+ Uovo ottenuto.\n
 	+ $2$ $1$ 20$0$\n
 	+ $4$\n
 	+ Uovo forse schiuso lì.\n
 	+ Occasione speciale.
-     b	= $7$ $6$ 20$5$\n
+     b	 = $7$ $6$ 20$5$\n
 	+ $8$\n
 	+ Uovo arrivato.\n
 	+ $2$ $1$ 20$0$\n
 	+ $4$\n
 	+ Uovo schiuso.\n
 	+ Occasione speciale.
-     c	= $7$ $6$ 20$5$\n
+     c	 = $7$ $6$ 20$5$\n
 	+ $8$\n
 	+ Uovo arrivato.\n
 	+ $2$ $1$ 20$0$\n
 	+ $4$\n
 	+ Uovo forse schiuso lì.\n
 	+ Occasione speciale.
-     d	= $7$ $6$ 20$5$\n
+     d	 = $7$ $6$ 20$5$\n
 	+ $8$\n
 	+ Uovo ottenuto.\n
 	+ $2$ $1$ 20$0$\n
 	+ $4$\n
 	+ Uovo schiuso.\n
 	+ Occasione speciale.
-     e	= $7$ $6$ 20$5$\n
+     e	 = $7$ $6$ 20$5$\n
 	+ $8$\n
 	+ Uovo ottenuto.\n
 	+ $2$ $1$ 20$0$\n
 	+ $4$\n
 	+ Uovo forse schiuso lì.\n
 	+ Occasione speciale.
-     f	= $2$ $1$ 20$0$\n
+     f	 = $2$ $1$ 20$0$\n
 	+ $4$\n
 	+ Arrivato al L. $3$.
-    10	= $7$ $6$ 20$5$\n
+    10	 = $7$ $6$ 20$5$\n
 	+ Uovo di Pokémon\n
 	+ misterioso ricevuto da:\n
 	+ $8$.
-    11	= $7$ $6$ 20$5$\n
+    11	 = $7$ $6$ 20$5$\n
 	+ Uovo di Pokémon\n
 	+ misterioso ottenuto a:\n
 	+ $8$.
-    12	= $7$ $6$ 20$5$\n
+    12	 = $7$ $6$ 20$5$\n
 	+ Uovo di Pokémon molto\n
 	+ misterioso ottenuto a:\n
 	+ $8$.
-    13	= $7$ $6$ 20$5$\n
+    13	 = $7$ $6$ 20$5$\n
 	+ Uovo di Pokémon molto\n
 	+ misterioso arrivato da:\n
-	+ $8$.\n
-    14	= Zona Misteriosa
-    15	= Duefoglie
-    16	= Sabbiafine
-    17	= Giardinfiorito
-    18	= Flemminia
-    19	= Memoride
-    1a	= Giubilopoli
-    1b	= Canalipoli
-    1c	= Mineropoli
-    1d	= Evopoli
-    1e	= Cuoripoli
-    1f	= Pratopoli
-    20	= Rupepoli
-    21	= Arenipoli
-    22	= Nevepoli
-    23	= Lega Pokémon
-    24	= Percorso 201
-    25	= Percorso 202
-    26	= Percorso 203
-    27	= Percorso 204
-    28	= Percorso 205
-    29	= Percorso 206
-    2a	= Percorso 207
-    2b	= Percorso 208
-    2c	= Percorso 209
-    2d	= Percorso 210
-    2e	= Percorso 211
-    2f	= Percorso 212
-    30	= Percorso 213
-    31	= Percorso 214
-    32	= Percorso 215
-    33	= Percorso 216
-    34	= Percorso 217
-    35	= Percorso 218
-    36	= Percorso 219
-    37	= Percorso 220
-    38	= Percorso 221
-    39	= Percorso 222
-    3a	= Percorso 223
-    3b	= Percorso 224
-    3c	= Percorso 225
-    3d	= Percorso 226
-    3e	= Percorso 227
-    3f	= Percorso 228
-    40	= Percorso 229
-    41	= Percorso 230
-    42	= Cava Mineropoli
-    43	= Impianto Turbine
-    44	= Bosco Evopoli
-    45	= Fonderie Fuego
-    46	= Monte Corona
-    47	= Vetta Lancia
-    48	= Gran Palude
-    49	= Rovine Flemminia
-    4a	= Via Vittoria
-    4b	= Parco Amici
-    4c	= Parco Concordia
-    4d	= Cammino Roccioso
-    4e	= Prato Fiorito
-    4f	= Varco Mineropoli
-    50	= Isola Lunapiena
-    51	= Fonte Saluto
-    52	= Grotta Ritorno
-    53	= Paradiso Fiore
-    54	= Tempio Nevepoli
-    55	= Grotta Labirinto
-    56	= Grotta Rovine
-    57	= Tunnel Rovine
-    58	= Giardino Trofeo
-    59	= Isola Ferrosa
-    5a	= Antico Château
-    5b	= Sede Galassia
-    5c	= Riva Verità
-    5d	= Riva Valore
-    5e	= Riva Arguzia
-    5f	= Sentiero Fonte
-    60	= Lago Verità
-    61	= Lago Valore
-    62	= Lago Arguzia
-    63	= Isola Lunanuova
-    64	= Torre Lotta
-    65	= Area Sfida
-    66	= Area Provviste
-    67	= Area Svago
-    68	= Monte Ostile
-    69	= Via Frangimare
-    6a	= Spazio Origine
-    6b	= Grotta Verità
-    6c	= Grotta Valore
-    6d	= Grotta Arguzia
-    6e	= Giubilo TV
-    6f	= PokéKron SpA
-    70	= GTS
-    71	= Sc. Allenatori
-    72	= Museo Minerario
-    73	= Fiorista
-    74	= Negozio Bici
-    75	= Arena Virtù
-    76	= Casa Poffin
-    77	= Edificio Culture
-    78	= Pensione Pokémon
-    79	= C. C. Rupepoli
-    7a	= Casinò
-    7b	= Bibl. Canalipoli
-    7c	= Faro Panorama
-    7d	= Merc. Arenipoli
-    7e	= Villa Pokémon
-    7f	= Casa Impronta
-    80	= Caffè
-    81	= Grande Lago
-    82	= Ristorante
-    83	= Giardino Lotta
-    84	= Parco Lotta
-    85	= Azienda Lotta
-    86	= Maniero Lotta
-    87	= Arena Lotta
-    88	= Palco Lotta
-    89	= Mondo Distorto
-    8a	= Centro Globale
-    8b	= Villa
-    8c	= Casa Lotta
-    8d	= Stanza di Rotom
-    8e	= T.G. Eterna Bldg
-    8f	= Rovine Ferro
-    90	= Rovine Iceberg
-    91	= Rovine Picco
-    92	= Luogo Grazioso
-    93	= Pokémon Ranger
-    94	= Film Pokémon
-    95	= Film Pokémon 06
-    96	= Film Pokémon 07
-    97	= Film Pokémon 08
-    98	= Film Pokémon 09
-    99	= Film Pokémon 10
-    9a	= Film Pokémon 11
-    9b	= Film Pokémon 12
-    9c	= Film Pokémon 13
-    9d	= Film Pokémon 14
-    9e	= Film Pokémon 15
-    9f	= Film Pokémon 16
-    a1	= Cartone Pokémon
-    a2	= Space World
-    a3	= Space World 06
-    a4	= Space World 07
-    a5	= Space World 08
-    a6	= Space World 09
-    a7	= Space World 10
-    a8	= Space World 11
-    a9	= Space World 12
-    aa	= Space World 13
-    ab	= Space World 14
-    ac	= Space World 15
-    ad	= Space World 16
-    ae	= Pokémon Festa
-    af	= Pokémon Festa 06
-    b0	= Pokémon Festa 07
-    b1	= Pokémon Festa 08
-    b2	= Pokémon Festa 09
-    b3	= Pokémon Festa 10
-    b4	= Pokémon Festa 11
-    b5	= Pokémon Festa 12
-    b6	= Pokémon Festa 13
-    b7	= Pokémon Festa 14
-    b8	= Pokémon Festa 15
-    b9	= Pokémon Festa 16
-    ba	= POKéPARK
-    bb	= POKéPARK 06
-    bc	= POKéPARK 07
-    bd	= POKéPARK 08
-    be	= POKéPARK 09
-    bf	= POKéPARK 10
-    c0	= POKéPARK 11
-    c1	= POKéPARK 12
-    c2	= POKéPARK 13
-    c3	= POKéPARK 14
-    c4	= POKéPARK 15
-    c5	= POKéPARK 16
-    c6	= Centro Pokémon
-    c7	= CP Tokyo
-    c8	= CP Osaka
-    c9	= CP Fukuoka
-    ca	= CP Nagoya
-    cb	= CP Sapporo
-    cc	= CP Yokohama
-    cd	= Nintendo World
-    ce	= Evento Pokémon
-    cf	= Even. Pokémon 06
-    d0	= Even. Pokémon 07
-    d1	= Even. Pokémon 08
-    d2	= Even. Pokémon 09
-    d3	= Even. Pokémon 10
-    d4	= Even. Pokémon 11
-    d5	= Even. Pokémon 12
-    d6	= Even. Pokémon 13
-    d7	= Even. Pokémon 14
-    d8	= Even. Pokémon 15
-    d9	= Even. Pokémon 16
-    da	= Evento Wi-Fi
-    db	= Dono Wi-Fi
-    dc	= Pokémon Fan Club
-    dd	= Luogo Evento
-    de	= Concerto
-    df	= Coppia Pensione
-    e0	= Scambio in link
-    e1	= Scambio in link
-    e2	= Kanto
-    e3	= Johto
-    e4	= Hoenn
-    e5	= Sinnoh
-    e6	= ----------
-    e7	= Terra Lontana
-    e8	= Viaggiatore
-    e9	= Marisio
-    ea	= Camilla
-    eb	= Zona Misteriosa
+	+ $8$.
+    14	 = Zona Misteriosa
+    15	 = Duefoglie
+    16	 = Sabbiafine
+    17	 = Giardinfiorito
+    18	 = Flemminia
+    19	 = Memoride
+    1a	 = Giubilopoli
+    1b	 = Canalipoli
+    1c	 = Mineropoli
+    1d	 = Evopoli
+    1e	 = Cuoripoli
+    1f	 = Pratopoli
+    20	 = Rupepoli
+    21	 = Arenipoli
+    22	 = Nevepoli
+    23	 = Lega Pokémon
+    24	 = Percorso 201
+    25	 = Percorso 202
+    26	 = Percorso 203
+    27	 = Percorso 204
+    28	 = Percorso 205
+    29	 = Percorso 206
+    2a	 = Percorso 207
+    2b	 = Percorso 208
+    2c	 = Percorso 209
+    2d	 = Percorso 210
+    2e	 = Percorso 211
+    2f	 = Percorso 212
+    30	 = Percorso 213
+    31	 = Percorso 214
+    32	 = Percorso 215
+    33	 = Percorso 216
+    34	 = Percorso 217
+    35	 = Percorso 218
+    36	 = Percorso 219
+    37	 = Percorso 220
+    38	 = Percorso 221
+    39	 = Percorso 222
+    3a	 = Percorso 223
+    3b	 = Percorso 224
+    3c	 = Percorso 225
+    3d	 = Percorso 226
+    3e	 = Percorso 227
+    3f	 = Percorso 228
+    40	 = Percorso 229
+    41	 = Percorso 230
+    42	 = Cava Mineropoli
+    43	 = Impianto Turbine
+    44	 = Bosco Evopoli
+    45	 = Fonderie Fuego
+    46	 = Monte Corona
+    47	 = Vetta Lancia
+    48	 = Gran Palude
+    49	 = Rovine Flemminia
+    4a	 = Via Vittoria
+    4b	 = Parco Amici
+    4c	 = Parco Concordia
+    4d	 = Cammino Roccioso
+    4e	 = Prato Fiorito
+    4f	 = Varco Mineropoli
+    50	 = Isola Lunapiena
+    51	 = Fonte Saluto
+    52	 = Grotta Ritorno
+    53	 = Paradiso Fiore
+    54	 = Tempio Nevepoli
+    55	 = Grotta Labirinto
+    56	 = Grotta Rovine
+    57	 = Tunnel Rovine
+    58	 = Giardino Trofeo
+    59	 = Isola Ferrosa
+    5a	 = Antico Château
+    5b	 = Sede Galassia
+    5c	 = Riva Verità
+    5d	 = Riva Valore
+    5e	 = Riva Arguzia
+    5f	 = Sentiero Fonte
+    60	 = Lago Verità
+    61	 = Lago Valore
+    62	 = Lago Arguzia
+    63	 = Isola Lunanuova
+    64	 = Torre Lotta
+    65	 = Area Sfida
+    66	 = Area Provviste
+    67	 = Area Svago
+    68	 = Monte Ostile
+    69	 = Via Frangimare
+    6a	 = Spazio Origine
+    6b	 = Grotta Verità
+    6c	 = Grotta Valore
+    6d	 = Grotta Arguzia
+    6e	 = Giubilo TV
+    6f	 = PokéKron SpA
+    70	 = GTS
+    71	 = Sc. Allenatori
+    72	 = Museo Minerario
+    73	 = Fiorista
+    74	 = Negozio Bici
+    75	 = Arena Virtù
+    76	 = Casa Poffin
+    77	 = Edificio Culture
+    78	 = Pensione Pokémon
+    79	 = C. C. Rupepoli
+    7a	 = Casinò
+    7b	 = Bibl. Canalipoli
+    7c	 = Faro Panorama
+    7d	 = Merc. Arenipoli
+    7e	 = Villa Pokémon
+    7f	 = Casa Impronta
+    80	 = Caffè
+    81	 = Grande Lago
+    82	 = Ristorante
+    83	 = Giardino Lotta
+    84	 = TRANSLATION NEEDED
+    85	 = TRANSLATION NEEDED
+    86	 = TRANSLATION NEEDED
+    87	 = TRANSLATION NEEDED
+    88	 = TRANSLATION NEEDED
+    89	 = TRANSLATION NEEDED
+    8a	 = TRANSLATION NEEDED
+    8b	 = TRANSLATION NEEDED
+    8c	 = TRANSLATION NEEDED
+    8d	 = TRANSLATION NEEDED
+    8e	 = TRANSLATION NEEDED
+    8f	 = TRANSLATION NEEDED
+    90	 = TRANSLATION NEEDED
+    91	 = TRANSLATION NEEDED
+    92	 = Luogo grazioso
+    93	 = Pokémon Ranger
+    94	 = Luogo Remoto
+    95	 = Film Pokémon
+    96	 = Film Pokémon 06
+    97	 = Film Pokémon 07
+    98	 = Film Pokémon 08
+    99	 = Film Pokémon 09
+    9a	 = Film Pokémon 10
+    9b	 = Film Pokémon 11
+    9c	 = Film Pokémon 12
+    9d	 = Film Pokémon 13
+    9e	 = Film Pokémon 14
+    9f	 = Film Pokémon 15
+    a0	 = Film Pokémon 16
+    a1	 = Cartone Pokémon
+    a2	 = Space World
+    a3	 = Space World 06
+    a4	 = Space World 07
+    a5	 = Space World 08
+    a6	 = Space World 09
+    a7	 = Space World 10
+    a8	 = Space World 11
+    a9	 = Space World 12
+    aa	 = Space World 13
+    ab	 = Space World 14
+    ac	 = Space World 15
+    ad	 = Space World 16
+    ae	 = Pokémon Festa
+    af	 = Pokémon Festa 06
+    b0	 = Pokémon Festa 07
+    b1	 = Pokémon Festa 08
+    b2	 = Pokémon Festa 09
+    b3	 = Pokémon Festa 10
+    b4	 = Pokémon Festa 11
+    b5	 = Pokémon Festa 12
+    b6	 = Pokémon Festa 13
+    b7	 = Pokémon Festa 14
+    b8	 = Pokémon Festa 15
+    b9	 = Pokémon Festa 16
+    ba	 = POKéPARK
+    bb	 = POKéPARK 06
+    bc	 = POKéPARK 07
+    bd	 = POKéPARK 08
+    be	 = POKéPARK 09
+    bf	 = POKéPARK 10
+    c0	 = POKéPARK 11
+    c1	 = POKéPARK 12
+    c2	 = POKéPARK 13
+    c3	 = POKéPARK 14
+    c4	 = POKéPARK 15
+    c5	 = POKéPARK 16
+    c6	 = Centro Pokémon
+    c7	 = TRANSLATION NEEDED
+    c8	 = CP Osaka
+    c9	 = CP Fukuoka
+    ca	 = CP Nagoya
+    cb	 = CP Sapporo
+    cc	 = CP Yokohama
+    cd	 = Nintendo World
+    ce	 = Evento Pokémon
+    cf	 = Even. Pokémon 06
+    d0	 = Even. Pokémon 07
+    d1	 = Even. Pokémon 08
+    d2	 = Even. Pokémon 09
+    d3	 = Even. Pokémon 10
+    d4	 = Even. Pokémon 11
+    d5	 = Even. Pokémon 12
+    d6	 = Even. Pokémon 13
+    d7	 = Even. Pokémon 14
+    d8	 = Even. Pokémon 15
+    d9	 = Even. Pokémon 16
+    da	 = Evento Wi-Fi
+    db	 = Dono Wi-Fi
+    dc	 = Pokémon Fan Club
+    dd	 = Luogo Evento
+    de	 = Concerto
+    df	 = Coppia Pensione
+    e0	 = Scambio in link
+    e1	 = Scambio in link
+    e2	 = Kanto
+    e3	 = Johto
+    e4	 = Hoenn
+    e5	 = Sinnoh
+    e6	 = TRANSLATION NEEDED
+    e7	 = TRANSLATION NEEDED
+    e8	 = Viaggiatore
+    e9	 = Marisio
 
-
+    ea	 = TRANSLATION NEEDED
+    eb	 = Zona Misteriosa

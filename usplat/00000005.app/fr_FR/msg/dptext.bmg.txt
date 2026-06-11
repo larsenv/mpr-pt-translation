@@ -46,325 +46,320 @@
 #
 #------------------------------------------------------------------------------
 
-     0	= $2$ $1$ 20$0$\n
+     0	 = $2$ $1$ 20$0$\n
 	+ $4$\n
 	+ Rencontré au N. $3$.
-     1	= $2$ $1$ 20$0$\n
+     1	 = $2$ $1$ 20$0$\n
 	+ $4$\n
 	+ Apparemment rencontré\n
 	+ au N. $3$.
-     2	= $2$ $1$ 20$0$\n
+     2	 = $2$ $1$ 20$0$\n
 	+ $4$\n
 	+ Arrivé au N. $3$.
-     3	= $7$ $6$ 20$5$\n
+     3	 = $7$ $6$ 20$5$\n
 	+ $8$\n
 	+ Oeuf obtenu.\n
 	+ $2$ $1$ 20$0$\n
 	+ $4$\n
 	+ Oeuf éclos.
-     4	= $7$ $6$ 20$5$\n
-	+ $8$\n
-	+ Egg obtained.\n
-	+ $1$ $2$, 20$0$\n
-	+ $4$\n
-	+ Oeuf apparemment éclos.
-     5	= $7$ $6$ 20$5$\n
+     4	 = $7$ $6$ 20$5$\n
 	+ $8$\n
 	+ Oeuf obtenu.\n
-	+ $1$ $2$, 20$0$\n
+	+ $2$ $1$ 20$0$\n
 	+ $4$\n
-	+ Egg hatched.
-     6	= $7$ $6$ 20$5$\n
+	+ Oeuf apparemment éclos.
+     5	 = $7$ $6$ 20$5$\n
 	+ $8$\n
-	+ Egg received.\n
-	+ $1$ $2$, 20$0$\n
+	+ Oeuf obtenu.\n
+	+ $2$ $1$ 20$0$\n
 	+ $4$\n
-	+ Egg apparently hatched.
-     7	= $2$ $1$ 20$0$\n
+	+ Oeuf éclos.
+     6	 = $7$ $6$ 20$5$\n
+	+ $8$\n
+	+ Oeuf obtenu.\n
+	+ $2$ $1$ 20$0$\n
+	+ $4$\n
+	+ Oeuf apparemment éclos.
+     7	 = $2$ $1$ 20$0$\n
 	+ $4$\n
 	+ Rencontré par hasard au\n
 	+ N. $3$.
-     8	= $2$ $1$ 20$0$\n
-	+ $4$\n
-	+ Apparemment rencontré\n
-	+ par hasard au\n
-	+ Lv. $3$.
-     9	= $7$ $6$ 20$5$\n
+     8	 = TRANSLATION NEEDED
+     9	 = $7$ $6$ 20$5$\n
 	+ $8$\n
-	+ Egg obtained.\n
-	+ $1$ $2$, 20$0$\n
+	+ Oeuf obtenu.\n
+	+ $2$ $1$ 20$0$\n
 	+ $4$\n
 	+ Oeuf éclos.\n
 	+ Rencontré par hasard.
-     a	= $7$ $6$ 20$5$\n
+     a	 = $7$ $6$ 20$5$\n
 	+ $8$\n
-	+ Egg obtained.\n
-	+ $1$ $2$, 20$0$\n
+	+ Oeuf obtenu.\n
+	+ $2$ $1$ 20$0$\n
 	+ $4$\n
 	+ Oeuf apparemment éclos.\n
-	+ Fateful encounter.
-     b	= $7$ $6$ 20$5$\n
+	+ Rencontré par hasard.
+     b	 = $7$ $6$ 20$5$\n
 	+ $8$\n
 	+ Oeuf arrivé.\n
-	+ $1$ $2$, 20$0$\n
+	+ $2$ $1$ 20$0$\n
 	+ $4$\n
-	+ Egg hatched.\n
-	+ Fateful encounter.
-     c	= $7$ $6$ 20$5$\n
+	+ Oeuf éclos.\n
+	+ Rencontré par hasard.
+     c	 = $7$ $6$ 20$5$\n
 	+ $8$\n
-	+ Egg arrived.\n
-	+ $1$ $2$, 20$0$\n
+	+ Oeuf arrivé.\n
+	+ $2$ $1$ 20$0$\n
 	+ $4$\n
-	+ Egg apparently hatched.\n
-	+ Fateful encounter.
-     d	= $7$ $6$ 20$5$\n
+	+ Oeuf apparemment éclos.\n
+	+ Rencontré par hasard.
+     d	 = $7$ $6$ 20$5$\n
 	+ $8$\n
-	+ Egg obtained.\n
-	+ $1$ $2$, 20$0$\n
+	+ Oeuf obtenu.\n
+	+ $2$ $1$ 20$0$\n
 	+ $4$\n
-	+ Egg hatched.\n
-	+ Fateful encounter.
-     e	= $7$ $6$ 20$5$\n
+	+ Oeuf éclos.\n
+	+ Rencontré par hasard.
+     e	 = $7$ $6$ 20$5$\n
 	+ $8$\n
-	+ Egg obtained.\n
-	+ $1$ $2$, 20$0$\n
+	+ Oeuf obtenu.\n
+	+ $2$ $1$ 20$0$\n
 	+ $4$\n
-	+ Egg apparently hatched.\n
-	+ Fateful encounter.
-     f	= $2$ $1$ 20$0$\n
+	+ Oeuf apparemment éclos.\n
+	+ Rencontré par hasard.
+     f	 = $2$ $1$ 20$0$\n
 	+ $4$\n
-	+ Arrived at Lv. $3$.
-    10	= $7$ $6$ 20$5$\n
+	+ Arrivé au N. $3$.
+    10	 = $7$ $6$ 20$5$\n
 	+ Un mystérieux Oeuf de\n
 	+ Pokémon offert par\n
 	+ $8$.
-    11	= $7$ $6$ 20$5$\n
-	+ A mysterious Pokémon\n
-	+ Pokémon obtenu à\n
-	+ $8$.\n
-    12	= $7$ $6$ 20$5$\n
+    11	 = $7$ $6$ 20$5$\n
 	+ Un mystérieux Oeuf de\n
 	+ Pokémon obtenu à\n
 	+ $8$.
-    13	= $7$ $6$ 20$5$\n
+    12	 = $7$ $6$ 20$5$\n
+	+ Un mystérieux Oeuf de\n
+	+ Pokémon obtenu à\n
+	+ $8$.
+    13	 = $7$ $6$ 20$5$\n
 	+ Un Oeuf de Pokémon très\n
 	+ mystérieux provenant de\n
-	+ $8$.\n
-    14	= Zone Mystère
-    15	= Bonaugure
-    16	= Littorella
-    17	= Floraville
-    18	= Bonville
-    19	= Célestia
-    1a	= Féli-Cité
-    1b	= Joliberges
-    1c	= Charbourg
-    1d	= Vestigion
-    1e	= Unionpolis
-    1f	= Verchamps
-    20	= Voilaroc
-    21	= Rivamar
-    22	= Frimapic
-    23	= Ligue Pokémon
-    24	= Route 201
-    25	= Route 202
-    26	= Route 203
-    27	= Route 204
-    28	= Route 205
-    29	= Route 206
-    2a	= Route 207
-    2b	= Route 208
-    2c	= Route 209
-    2d	= Route 210
-    2e	= Route 211
-    2f	= Route 212
-    30	= Route 213
-    31	= Route 214
-    32	= Route 215
-    33	= Route 216
-    34	= Route 217
-    35	= Route 218
-    36	= Route 219
-    37	= Chenal 220
-    38	= Route 221
-    39	= Route 222
-    3a	= Chenal 223
-    3b	= Route 224
-    3c	= Route 225
-    3d	= Chenal 226
-    3e	= Route 227
-    3f	= Route 228
-    40	= Route 229
-    41	= Chenal 230
-    42	= Mine Charbourg
-    43	= Les Eoliennes
-    44	= Forêt Vestigion
-    45	= Forge Fuego
-    46	= Mont Couronné
-    47	= Colonnes Lances
-    48	= Grand Marais
-    49	= Ruines Bonville
-    4a	= Route Victoire
-    4b	= Parc des Amis
-    4c	= Square Paisible
-    4d	= Chemin Rocheux
-    4e	= Pré Floraville
-    4f	= Entrée Charbourg
-    50	= Ile Pleine Lune
-    51	= Source Adieu
-    52	= Grotte Retour
-    53	= Paradis Fleuri
-    54	= Temple Frimapic
-    55	= Grotte Revêche
-    56	= Grotte Ruineman.
-    57	= Tunnel Ruineman.
-    58	= Jardin Trophée
-    59	= Ile de Fer
-    5a	= Vieux Château
-    5b	= QG Galaxie
-    5c	= Rive Lac Vérité
-    5d	= Rive Lac Courage
-    5e	= Rive Lac Savoir
-    5f	= Chemin Source
-    60	= Lac Vérité
-    61	= Lac Courage
-    62	= Lac Savoir
-    63	= Ile Nouvellune
-    64	= Tour de Combat
-    65	= Aire de Combat
-    66	= Aire de Survie
-    67	= Aire de Détente
-    68	= Mont Abrupt
-    69	= Passage Marin
-    6a	= Salle Originelle
-    6b	= Caverne Vérité
-    6c	= Caverne Courage
-    6d	= Caverne Savoir
-    6e	= Féli-Télé
-    6f	= Pokémontre S.A.
-    70	= GTS
-    71	= Ecole Dresseurs
-    72	= Musée Minier
-    73	= Fleuriste
-    74	= Boutique de Vélo
-    75	= Salle Concours
-    76	= Poffinerie
-    77	= Bâtiment Etrange
-    78	= Pension Pokémon
-    79	= C. Com. Voilaroc
-    7a	= Casino
-    7b	= Bibl. Joliberges
-    7c	= Phare Panorama
-    7d	= Marché Rivamar
-    7e	= Manoir Pokémon
-    7f	= Abri Petitpas
-    80	= Café
-    81	= Grand Lac
-    82	= Restaurant
-    83	= Parc des Combats
-    84	= Battle Frontier
-    85	= Battle Factory
-    86	= Battle Castle
-    87	= Battle Arcade
-    88	= Battle Hall
-    89	= Distortion World
-    8a	= Global Terminal
-    8b	= Villa
-    8c	= Battleground
-    8d	= Rotom's Room
-    8e	= T.G. Eterna Bldg
-    8f	= Iron Ruins
-    90	= Iceberg Ruins
-    91	= Rock Peak Ruins
-    92	= Lovely place
-    93	= Pokémon Ranger
-    94	= Faraway place
-    95	= Pokémon Movie
-    96	= Pokémon Movie 06
-    97	= Pokémon Movie 07
-    98	= Pokémon Movie 08
-    99	= Pokémon Movie 09
-    9a	= Pokémon Movie 10
-    9b	= Pokémon Movie 11
-    9c	= Pokémon Movie 12
-    9d	= Pokémon Movie 13
-    9e	= Pokémon Movie 14
-    9f	= Pokémon Movie 15
-    a0	= Pokémon Movie 16
-    a1	= Pokémon Cartoon
-    a2	= Space World
-    a3	= Space World 06
-    a4	= Space World 07
-    a5	= Space World 08
-    a6	= Space World 09
-    a7	= Space World 10
-    a8	= Space World 11
-    a9	= Space World 12
-    aa	= Space World 13
-    ab	= Space World 14
-    ac	= Space World 15
-    ad	= Space World 16
-    ae	= Pokémon Festa
-    af	= Pokémon Festa 06
-    b0	= Pokémon Festa 07
-    b1	= Pokémon Festa 08
-    b2	= Pokémon Festa 09
-    b3	= Pokémon Festa 10
-    b4	= Pokémon Festa 11
-    b5	= Pokémon Festa 12
-    b6	= Pokémon Festa 13
-    b7	= Pokémon Festa 14
-    b8	= Pokémon Festa 15
-    b9	= Pokémon Festa 16
-    ba	= POKéPARK
-    bb	= POKéPARK 06
-    bc	= POKéPARK 07
-    bd	= POKéPARK 08
-    be	= POKéPARK 09
-    bf	= POKéPARK 10
-    c0	= POKéPARK 11
-    c1	= POKéPARK 12
-    c2	= POKéPARK 13
-    c3	= POKéPARK 14
-    c4	= POKéPARK 15
-    c5	= POKéPARK 16
-    c6	= Pokémon Center
-    c7	= PC Tokyo
-    c8	= PC Osaka
-    c9	= PC Fukuoka
-    ca	= PC Nagoya
-    cb	= PC Sapporo
-    cc	= PC Yokohama
-    cd	= Nintendo World
-    ce	= Pokémon Event
-    cf	= Pokémon Event 06
-    d0	= Pokémon Event 07
-    d1	= Pokémon Event 08
-    d2	= Pokémon Event 09
-    d3	= Pokémon Event 10
-    d4	= Pokémon Event 11
-    d5	= Pokémon Event 12
-    d6	= Pokémon Event 13
-    d7	= Pokémon Event 14
-    d8	= Pokémon Event 15
-    d9	= Pokémon Event 16
-    da	= Wi-Fi Event
-    db	= Wi-Fi Gift
-    dc	= Pokémon Fan Club
-    dd	= Event Site
-    de	= Concert Event
-    df	= Day-Care Couple
-    e0	= Link trade
-    e1	= Link trade
-    e2	= Kanto
-    e3	= Johto
-    e4	= Hoenn
-    e5	= Sinnoh
-    e6	= ----
-    e7	= Distant land
-    e8	= Traveling Man
-    e9	= Riley
-    ea	= Cynthia
-    eb	= Mystery Zone
+	+ $8$.
+    14	 = Zone Mystère
+    15	 = Bonaugure
+    16	 = Littorella
+    17	 = Floraville
+    18	 = Bonville
+    19	 = Célestia
+    1a	 = Féli-Cité
+    1b	 = Joliberges
+    1c	 = Charbourg
+    1d	 = Vestigion
+    1e	 = Unionpolis
+    1f	 = Verchamps
+    20	 = Voilaroc
+    21	 = Rivamar
+    22	 = Frimapic
+    23	 = Ligue Pokémon
+    24	 = Route 201
+    25	 = Route 202
+    26	 = Route 203
+    27	 = Route 204
+    28	 = Route 205
+    29	 = Route 206
+    2a	 = Route 207
+    2b	 = Route 208
+    2c	 = Route 209
+    2d	 = Route 210
+    2e	 = Route 211
+    2f	 = Route 212
+    30	 = Route 213
+    31	 = Route 214
+    32	 = Route 215
+    33	 = Route 216
+    34	 = Route 217
+    35	 = Route 218
+    36	 = Route 219
+    37	 = Chenal 220
+    38	 = Route 221
+    39	 = Route 222
+    3a	 = Chenal 223
+    3b	 = Route 224
+    3c	 = Route 225
+    3d	 = Chenal 226
+    3e	 = Route 227
+    3f	 = Route 228
+    40	 = Route 229
+    41	 = Chenal 230
+    42	 = Mine Charbourg
+    43	 = Les Eoliennes
+    44	 = Forêt Vestigion
+    45	 = Forge Fuego
+    46	 = Mont Couronné
+    47	 = Colonnes Lances
+    48	 = Grand Marais
+    49	 = Ruines Bonville
+    4a	 = Route Victoire
+    4b	 = Parc des Amis
+    4c	 = Square Paisible
+    4d	 = Chemin Rocheux
+    4e	 = Pré Floraville
+    4f	 = Entrée Charbourg
+    50	 = Ile Pleine Lune
+    51	 = Source Adieu
+    52	 = Grotte Retour
+    53	 = Paradis Fleuri
+    54	 = Temple Frimapic
+    55	 = Grotte Revêche
+    56	 = Grotte Ruineman.
+    57	 = Tunnel Ruineman.
+    58	 = Jardin Trophée
+    59	 = Ile de Fer
+    5a	 = Vieux Château
+    5b	 = QG Galaxie
+    5c	 = Rive Lac Vérité
+    5d	 = Rive Lac Courage
+    5e	 = Rive Lac Savoir
+    5f	 = Chemin Source
+    60	 = Lac Vérité
+    61	 = Lac Courage
+    62	 = Lac Savoir
+    63	 = Ile Nouvellune
+    64	 = Tour de Combat
+    65	 = Aire de Combat
+    66	 = Aire de Survie
+    67	 = Aire de Détente
+    68	 = Mont Abrupt
+    69	 = Passage Marin
+    6a	 = Salle Originelle
+    6b	 = Caverne Vérité
+    6c	 = Caverne Courage
+    6d	 = Caverne Savoir
+    6e	 = Féli-Télé
+    6f	 = Pokémontre S.A.
+    70	 = GTS
+    71	 = Ecole Dresseurs
+    72	 = Musée Minier
+    73	 = Fleuriste
+    74	 = Boutique de Vélo
+    75	 = Salle Concours
+    76	 = Poffinerie
+    77	 = Bâtiment Etrange
+    78	 = Pension Pokémon
+    79	 = C. Com. Voilaroc
+    7a	 = Casino
+    7b	 = Bibl. Joliberges
+    7c	 = Phare Panorama
+    7d	 = Marché Rivamar
+    7e	 = Manoir Pokémon
+    7f	 = Abri Petitpas
+    80	 = Café
+    81	 = Grand Lac
+    82	 = Restaurant
+    83	 = Parc des Combats
+    84	 = TRANSLATION NEEDED
+    85	 = TRANSLATION NEEDED
+    86	 = TRANSLATION NEEDED
+    87	 = TRANSLATION NEEDED
+    88	 = TRANSLATION NEEDED
+    89	 = TRANSLATION NEEDED
+    8a	 = TRANSLATION NEEDED
+    8b	 = TRANSLATION NEEDED
+    8c	 = TRANSLATION NEEDED
+    8d	 = TRANSLATION NEEDED
+    8e	 = TRANSLATION NEEDED
+    8f	 = TRANSLATION NEEDED
+    90	 = TRANSLATION NEEDED
+    91	 = TRANSLATION NEEDED
+    92	 = Endroit superbe
+    93	 = Pokémon Ranger
+    94	 = Endroit lointain
+    95	 = Film Pokémon
+    96	 = Film Pokémon 06
+    97	 = Film Pokémon 07
+    98	 = Film Pokémon 08
+    99	 = Film Pokémon 09
+    9a	 = Film Pokémon 10
+    9b	 = Film Pokémon 11
+    9c	 = Film Pokémon 12
+    9d	 = Film Pokémon 13
+    9e	 = Film Pokémon 14
+    9f	 = Film Pokémon 15
+    a0	 = Film Pokémon 16
+    a1	 = Dessin ani. PKMN
+    a2	 = Space World
+    a3	 = Space World 06
+    a4	 = Space World 07
+    a5	 = Space World 08
+    a6	 = Space World 09
+    a7	 = Space World 10
+    a8	 = Space World 11
+    a9	 = Space World 12
+    aa	 = Space World 13
+    ab	 = Space World 14
+    ac	 = Space World 15
+    ad	 = Space World 16
+    ae	 = Pokémon Festa
+    af	 = Pokémon Festa 06
+    b0	 = Pokémon Festa 07
+    b1	 = Pokémon Festa 08
+    b2	 = Pokémon Festa 09
+    b3	 = Pokémon Festa 10
+    b4	 = Pokémon Festa 11
+    b5	 = Pokémon Festa 12
+    b6	 = Pokémon Festa 13
+    b7	 = Pokémon Festa 14
+    b8	 = Pokémon Festa 15
+    b9	 = Pokémon Festa 16
+    ba	 = POKéPARK
+    bb	 = POKéPARK 06
+    bc	 = POKéPARK 07
+    bd	 = POKéPARK 08
+    be	 = POKéPARK 09
+    bf	 = POKéPARK 10
+    c0	 = POKéPARK 11
+    c1	 = POKéPARK 12
+    c2	 = POKéPARK 13
+    c3	 = POKéPARK 14
+    c4	 = POKéPARK 15
+    c5	 = POKéPARK 16
+    c6	 = Centre Pokémon
+    c7	 = TRANSLATION NEEDED
+    c8	 = CP Osaka
+    c9	 = CP Fukuoka
+    ca	 = CP Nagoya
+    cb	 = CP Sapporo
+    cc	 = CP Yokohama
+    cd	 = Nintendo World
+    ce	 = Evénem. Pokémon
+    cf	 = Evén. Pokémon 06
+    d0	 = Evén. Pokémon 07
+    d1	 = Evén. Pokémon 08
+    d2	 = Evén. Pokémon 09
+    d3	 = Evén. Pokémon 10
+    d4	 = Evén. Pokémon 11
+    d5	 = Evén. Pokémon 12
+    d6	 = Evén. Pokémon 13
+    d7	 = Evén. Pokémon 14
+    d8	 = Evén. Pokémon 15
+    d9	 = Evén. Pokémon 16
+    da	 = Evénement Wi-Fi
+    db	 = Cadeau Wi-Fi
+    dc	 = Fan Club Pokémon
+    dd	 = Lieu d'Evénement
+    de	 = Evénem. Concert
+    df	 = Couple Pension
+    e0	 = Echange Link
+    e1	 = Echange Link
+    e2	 = Kanto
+    e3	 = Johto
+    e4	 = Hoenn
+    e5	 = Sinnoh
+    e6	 = TRANSLATION NEEDED
+    e7	 = TRANSLATION NEEDED
+    e8	 = un voyageur
+    e9	 = Armand
 
-
+    ea	 = TRANSLATION NEEDED
+    eb	 = Zone Mystère

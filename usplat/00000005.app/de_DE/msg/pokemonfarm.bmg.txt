@@ -46,181 +46,171 @@
 #
 #------------------------------------------------------------------------------
 
-     0	= 
-     1	= Starte ein Pokémon-Spiel auf dem\n
-	+ DS-System und wähle im Startmenü\n
-	+ "Mit Wii verbinden".
-     2	= Sollte diese Option nicht im\n
+     0	 = TRANSLATION NEEDED
+     1	 = TRANSLATION NEEDED
+     2	 = Sollte diese Option nicht im\n
 	+ Startmenü erscheinen, kehre\n
 	+ zum Titelbildschirm zurück und\n
 	+ versuche es erneut.
-     3	= Verbindung mit DS-\n
+     3	 = Verbindung mit DS-\n
 	+ System abgebrochen.
-     4	= Nintendo DS-System wird im Modus "Mit Wii verbinden" erkannt.
-     5	= Nintendo DS-System wird im Modus "DS-Download-Spiel" erkannt.
-     6	= Modus "Mit Wii verbinden" wird aktiviert.
-     7	= Modus "DS-Download-Spiel" wird aktiviert.
-     8	= DS-System-Verbindung wird simuliert.
-     9	= Verbindung mit DS-System...
-     a	= Verbindung mit Nintendo DS-System fehlgeschlagen (Zeitüberschreitung:
+     4	 = Nintendo DS-System wird im Modus "Mit Wii verbinden" erkannt.
+     5	 = Nintendo DS-System wird im Modus "DS-Download-Spiel" erkannt.
+     6	 = Modus "Mit Wii verbinden" wird aktiviert.
+     7	 = Modus "DS-Download-Spiel" wird aktiviert.
+     8	 = DS-System-Verbindung wird simuliert.
+     9	 = Verbindung mit DS-System...
+     a	 = Verbindung mit Nintendo DS-System fehlgeschlagen (Zeitüberschreitung:
 	+  60 Sekunden).
-     b	= Download übersprungen.
-     c	= Download abgebrochen.\n
+     b	 = Download übersprungen.
+     c	 = Download abgebrochen.\n
 	+ Nintendo DS-Verbindung\n
 	+ wird simuliert.
-     d	= Download abgeschlossen.
-     e	= Download abgebrochen.
-     f	= \n
+     d	 = Download abgeschlossen.
+     e	 = Download abgebrochen.
+     f	 = \n
 	+ Zeit: %.3f Sekunden
-    10	= Bitte warten...
-    11	= Verbunden mit\n
+    10	 = Bitte warten...
+    11	 = Verbunden mit\n
 	+ Nintendo DS-System
-    12	= Verbindung mit Nintendo DS-System wird getrennt.
-    13	= Verbindung mit Nintendo DS-System wurde getrennt.
-    14	= Verbindung mit\n
+    12	 = Verbindung mit Nintendo DS-System wird getrennt.
+    13	 = Verbindung mit Nintendo DS-System wurde getrennt.
+    14	 = Verbindung mit\n
 	+ Nintendo DS-System
-    15	= Test
-    16	= Ablegen
-    17	= Mitnehm.
-    18	= Speichern
-    19	= Speichervorgang...\n
+    15	 = Test
+    16	 = Ablegen
+    17	 = Mitnehm.
+    18	 = Speichern
+    19	 = Speichervorgang...\n
 	+ Bitte betätige weder den POWER-Schalter noch den RESET-Knopf.
-    1a	= Speichervorgang erfolgreich.
-    1b	= %ls ist auf der\n
+    1a	 = Speichervorgang erfolgreich.
+    1b	 = %ls ist auf der\n
 	+ Ranch eingetroffen!
-    1c	= Verbunden mit\n
+    1c	 = Verbunden mit\n
 	+ Trainer %ls.
-    1d	= Verbunden mit: %ls
-    1e	= Deine Verbindung wurde unterbrochen.
-    1f	= %ls hat die\n
+    1d	 = Verbunden mit: %ls
+    1e	 = Deine Verbindung wurde unterbrochen.
+    1f	 = %ls hat die\n
 	+ Ranch verlassen.
-    20	= Nintendo DS-System wurde\n
+    20	 = Nintendo DS-System wurde\n
 	+ nicht gefunden.
-    21	= Verbindung mit Nintendo DS-\n
+    21	 = Verbindung mit Nintendo DS-\n
 	+ System fehlgeschlagen. Bitte\n
 	+ versuche es erneut.
-    22	= Verbindung mit Nintendo DS-\n
+    22	 = Verbindung mit Nintendo DS-\n
 	+ System fehlgeschlagen. Bitte\n
 	+ versuche es erneut.
-    23	= Ohne Speichern beenden?
-    24	= Übertragungsfehler!\n
+    23	 = Ohne Speichern beenden?
+    24	 = Übertragungsfehler!\n
 	+ Die Verbindung mit dem\n
 	+ Nintendo DS-System wurde\n
 	+ unterbrochen.
-    25	= %d Pokémon sind\n
+    25	 = %d Pokémon sind\n
 	+ auf der Ranch eingetroffen.
-    26	= Ein Pokémon ist auf der Ranch\n
+    26	 = Ein Pokémon ist auf der Ranch\n
 	+ eingetroffen.
-    27	= %d%ls Pokémon ist auf der Ranch\n
-	+ eingetroffen.
-    28	= %d Pokémon haben\n
+    27	 = TRANSLATION NEEDED
+    28	 = %d Pokémon haben\n
 	+ die Ranch verlassen.
-    29	= Ein Pokémon hat die Ranch\n
+    29	 = Ein Pokémon hat die Ranch\n
 	+ verlassen.
-    2a	= %d%ls Pokmémon hat die Ranch\n
-	+ verlassen.
-    2b	= Verbindung zum Nintendo DS-\n
+    2a	 = TRANSLATION NEEDED
+    2b	 = Verbindung zum Nintendo DS-\n
 	+ System fehlgeschlagen.\n
 	+ \fBitte starte "My Pokémon\n
 	+ Ranch" neu und versuche\n
 	+ es noch einmal.
-    2c	= 
-    2d	= Warte auf Nintendo DS-System...
-    2e	= \n
-	+ Verbindung mit dem Nintendo DS-System wurde getrennt.
-    2f	= Bitte warten...
-    30	= Sortierung:\040
-    31	= Name:\040
-    32	= Typ:\040
-    33	= Attacke:\040
-    34	= Fähigkeit:\040
-    35	= Wesen:\040
-    36	= Markierung:\040
-    37	= NICHTS
-    38	= Ankunft
-    39	= Pokedex-Nr.
-    3a	= Name
-    3b	= Spitzname
-    3c	= Level
-    3d	= Item
-    3e	= KP
-    3f	= Angriff
-    40	= Verteidigung
-    41	= Sp. Ang.
-    42	= Sp. Ver.
-    43	= Initiative
-    44	= GEW.
-    45	= GR.
-    46	= Gesuchte Pokémon:
-    47	= Du hast keine Pokémon abgelegt und kannst die Funktion "Gesuchte
+    2c	 = TRANSLATION NEEDED
+    2d	 = Warte auf Nintendo DS-System...
+    2e   = TRANSLATION NEEDED
+    2f   = Bitte warten...
+    30	 = Sortierung:\040
+    31	 = Name:\040
+    32	 = Typ:\040
+    33	 = Attacke:\040
+    34	 = Fähigkeit:\040
+    35	 = Wesen:\040
+    36	 = Markierung:\040
+    37	 = TRANSLATION NEEDED
+    38	 = Ankunft
+    39	 = Pokédex-Nr.
+    3a	 = Name
+    3b	 = Spitzname
+    3c	 = Level
+    3d	 = Item
+    3e	 = KP
+    3f	 = Angriff
+    40	 = Verteidigung
+    41	 = Sp. Ang.
+    42	 = Sp. Ver.
+    43	 = Initiative
+    44	 = GEW.
+    45	 = GR.
+    46	 = Gesuchte Pokémon:\040
+    47	 = Du hast keine Pokémon abgelegt und kannst die Funktion "Gesuchte
 	+  Pokémon" somit nicht verwenden!
-    48	= Zurück
-    49	= Verbindung mit\n
+    48	 = Zurück
+    49	 = Verbindung mit\n
 	+ Nintendo DS-System
-    4a	= Verbindung abbrechen
-    4b	= Verbindung zum DS-System\n
+    4a	 = Verbindung abbrechen
+    4b	 = Verbindung zum DS-System\n
 	+ unterbrechen
-    4c	= Album
-    4d	= Foto schießen
-    4e	= Hilfe
-    4f	= Schwarzes Brett
-    50	= Achtung!
-    51	= Optionen
-    52	= Freier Modus
-    53	= Auto-Modus
-    54	= Details
-    55	= O.K. und zurück
-    56	= Freier Modus
-    57	= Miis einladen
-    58	= Ranch vorführen
-    59	= Gast
-    5a	= Optionen
-    5b	= Nächstes Foto
-    5c	= Vorheriges Foto
-    5d	= Löschen
-    5e	= An Wii-Pinnwand heften
-    5f	= Auf der %ls-Ranch
-    60	= %2d/%2d
-    61	= Foto wird an die Wii-Pinnwand\n
+    4c	 = Album
+    4d	 = Foto schießen
+    4e	 = Hilfe
+    4f	 = Schwarzes Brett
+    50	 = Achtung!
+    51	 = Optionen
+    52	 = Freier Modus
+    53	 = Auto-Modus
+    54	 = Details
+    55	 = O.K. und zurück
+    56	 = Freier Modus
+    57	 = Miis einladen
+    58	 = Ranch vorführen
+    59	 = Gast
+    5a	 = TRANSLATION NEEDED
+    5b	 = Nächstes Foto
+    5c	 = Vorheriges Foto
+    5d	 = Löschen
+    5e	 = An Wii-Pinnwand heften
+    5f	 = Auf der %ls-Ranch
+    60	 = %2d/%2d
+    61	 = Foto wird an die Wii-Pinnwand\n
 	+ geheftet. Einverstanden?
-    62	= Foto wurde an die Wii-Pinnwand\n
+    62	 = Foto wurde an die Wii-Pinnwand\n
 	+ geheftet.
-    63	= Bist du sicher, dass du das Foto\n
+    63	 = Bist du sicher, dass du das Foto\n
 	+ löschen möchtest?
-    64	= Foto gelöscht.
-    65	= Auf SD Card speichern
-    66	= Dieses Foto auf der SD Card\n
+    64	 = Foto gelöscht.
+    65	 = Auf SD Card speichern
+    66	 = Dieses Foto auf der SD Card\n
 	+ speichern?
-    67	= Foto wurde als\n
-	+ %2$.4s%3$04d.JPG im\n
-	+ Ordner \\DCIM\\%1$03dNIN01\n
-	+ auf der SD Card gespeichert.
-    68	= Pokémon Ranch-News
-    69	= Alle Fotos auf der SD Card\n
+    67	 = TRANSLATION NEEDED
+    68	 = Pokémon Ranch-News
+    69	 = Alle Fotos auf der SD Card\n
 	+ löschen
-    6a	= Alle Fotos von "My Pokémon\n
+    6a	 = Alle Fotos von "My Pokémon\n
 	+ Ranch" auf der SD Card werden\n
 	+ gelöscht.
-    6b	= Alle Fotos löschen?
-    6c	= %d Fotos löschen?
-    6d	= 1 Foto löschen?
-    6e	= Alle Fotos löschen?
-    6f	= Fotos auf der SD Card\n
+    6b	 = Alle Fotos löschen?
+    6c	 = %d Fotos löschen?
+    6d	 = 1 Foto löschen?
+    6e	 = Alle Fotos löschen?
+    6f	 = Fotos auf der SD Card\n
 	+ werden überprüft...
-    70	= Keine Fotos von "My Pokémon\n
+    70	 = Keine Fotos von "My Pokémon\n
 	+ Ranch" auf der SD Card\n
 	+ vorhanden.
-    71	= Alle Fotos auf der SD Card\n
+    71	 = Alle Fotos auf der SD Card\n
 	+ werden gelöscht...
-    72	= Alle Fotos auf der SD Card\n
-	+ werden gelöscht...\n
-	+ %d/%d.
-    73	= Alle Fotos auf der SD Card\n
+    72	 = TRANSLATION NEEDED
+    73	 = Alle Fotos auf der SD Card\n
 	+ wurden gelöscht.
-    74	= Manche Fotos auf der\n
+    74	 = Manche der Fotos auf der\n
 	+ SD Card konnten nicht\n
 	+ gelöscht werden.
-    75	= Vorsicht: Zu viele Fotos auf der\n
+    75	 = Vorsicht: Zu viele Fotos auf der\n
 	+ Wii-Pinnwand verbrauchen\n
 	+ schnell den Speicher.\n
 	+ \fIst der Speicher der\n
@@ -229,474 +219,466 @@
 	+ gelöscht (älteste zuerst).\n
 	+ \fNäheres hierzu findest du in\n
 	+ der Wii-Bedienungsanleitung.
-    76	= Schreibschutz\n
+    76	 = Schreibschutz\n
 	+ aktivieren
-    77	= Schreibschutz\n
+    77	 = Schreibschutz\n
 	+ deaktivieren
-    78	= Du kannst den Schreibschutz\n
+    78	 = Du kannst den Schreibschutz\n
 	+ bei bis zu 19 Fotos aktivieren.
-    79	= Es wurden beschädigte Fotos\n
+    79	 = Es wurden beschädigte Fotos\n
 	+ gefunden und gelöscht.
-    7a	= Es wurde ein beschädigtes Foto\n
+    7a	 = Es wurde ein beschädigtes Foto\n
 	+ gefunden und gelöscht.
-    7b	= Alle Fotodaten waren\n
+    7b	 = Alle Fotodaten waren\n
 	+ beschädigt und wurden\n
 	+ gelöscht.
-    7c	= Fotodaten konnten nicht\n
+    7c	 = Fotodaten konnten nicht\n
 	+ geladen werden.
-    7d	= Alle Fotos auf SD Card\n
-	+ speichern.
-    7e	= Alle Fotos in dem Album\n
-	+ auf SD Card speichern.
-    7f	= Möchtest du alles speichern?
-    80	= Alle Fotos wurden im Ordner\n
-	+ \\DCIM\\%1$03dNIN01 auf der\n
-	+ SD Card gespeichert.
-    81	= Alle schreibgeschützten\n
-	+ Fotos löschen?
-    82	= Möchtest du wirklich\n
-	+ alles löschen?
-    83	= Alle schreibgeschützen\n
-	+ Fotos wurden gelöscht.
-    84	= Keine SD Card eingesteckt.
-    85	= Die SD Card ist schreib-\n
+    7d	 = TRANSLATION NEEDED
+    7e	 = TRANSLATION NEEDED
+    7f	 = TRANSLATION NEEDED
+    80	 = TRANSLATION NEEDED
+    81	 = TRANSLATION NEEDED
+    82	 = TRANSLATION NEEDED
+    83	 = TRANSLATION NEEDED
+    84	 = Keine SD Card eingesteckt.
+    85	 = Die SD Card ist schreib-\n
 	+ geschützt. Deaktiviere den\n
 	+ Schreibschutz.
-    86	= Die eingesteckte SD Card\n
+    86	 = Die eingesteckte SD Card\n
 	+ wird nicht erkannt.
-    87	= Die Daten auf der SD Card sind\n
+    87	 = Die Daten auf der SD Card sind\n
 	+ beschädigt. Formatieren?
-    88	= Die eingesteckte SD Card\n
+    88	 = Die eingesteckte SD Card\n
 	+ wird nicht erkannt.
-    89	= Die SD Card ist voll. Du\n
+    89	 = Die SD Card ist voll. Du\n
 	+ benötigst eine SD Card mit\n
 	+ mindestens %d freien\n
 	+ Blöcken Speicherplatz.
-    8a	= Die SD Card ist voll. Du\n
+    8a	 = Die SD Card ist voll. Du\n
 	+ benötigst eine SD Card mit\n
 	+ mindestens 1 freien\n
 	+ Block Speicherplatz.
-    8b	= Bei der SD Card ist ein Fehler\n
+    8b	 = Bei der SD Card ist ein Fehler\n
 	+ aufgetreten.
-    8c	= Die SD Card konnte nicht\n
+    8c	 = Die SD Card konnte nicht\n
 	+ gelesen werden.
-    8d	= SD Card-Speichervorgang...\n
+    8d	 = SD Card-Speichervorgang...\n
 	+ Bitte SD Card nicht entfernen\n
 	+ und weder POWER-Schalter\n
 	+ noch RESET-Knopf betätigen.
-    8e	= Speichervorgang auf der\n
+    8e	 = Speichervorgang auf der\n
 	+ SD Card nicht möglich.
-    8f	= Es können keine weiteren Fotos\n
+    8f	 = Es können keine weiteren Fotos\n
 	+ auf dieser SD Card gespeichert\n
 	+ werden.
-    90	= Formatierung der SD Card...\n
+    90	 = Formatierung der SD Card...\n
 	+ SD Card nicht entfernen. Bitte\n
 	+ betätige weder den POWER-\n
 	+ Schalter noch den RESET-Knopf.
-    91	= SD Card wurde formatiert.
-    92	= SD Card konnte nicht formatiert\n
+    91	 = SD Card wurde formatiert.
+    92	 = SD Card konnte nicht formatiert\n
 	+ werden.
-    93	= Formatierung abgebrochen.\n
+    93	 = Formatierung abgebrochen.\n
 	+ SD Card wurde entfernt.
-    94	= Löschvorgang abgebrochen.\n
+    94	 = Löschvorgang abgebrochen.\n
 	+ SD Card wurde entfernt.
-    95	= Formatierung abgebrochen.\n
-    + SD Card wurde entfernt.
-    96	= Löschvorgang abgebrochen.\n
+    95	 = Formatierung abgebrochen.\n
 	+ SD Card wurde entfernt.
-    97	= Speichervorgang abgebrochen.\n
+    96	 = Löschvorgang abgebrochen.\n
 	+ SD Card wurde entfernt.
-    98	= Bei der SD Card ist ein Fehler\n
+    97	 = Speichervorgang abgebrochen.\n
+	+ SD Card wurde entfernt.
+    98	 = Bei der SD Card ist ein Fehler\n
 	+ aufgetreten. Betätige den\n
 	+ RESET-Knopf und versuche\n
 	+ es erneut.
-    99	= Speichervorgang abgebrochen.\n
-	+ SD Card wurde wieder eingesteckt.
-    9a	= Wähle bitte, welche Miis du auf die\n
+    99   = TRANSLATION NEEDED
+    9a	 = Wähle bitte, welche Miis du auf die\n
 	+ Ranch mitnehmen willst.
-    9b	= Derzeit: %d Übrig: %d
-    9c	= Vorherige Seite
-    9d	= Nächste Seite
-    9e	= Welches Mii soll die Pokémon\n
+    9b	 = Derzeit: %d Übrig: %d
+    9c	 = Vorherige Seite
+    9d	 = Nächste Seite
+    9e	 = Welches Mii soll die Pokémon\n
 	+ dieses Trainers betreuen?
-    9f	= Von dieser\n
+    9f	 = Von dieser\n
 	+ Ranch wählen
-    a0	= Anderes Mii\n
+    a0	 = Anderes Mii\n
 	+ wählen
-    a1	= Ein Mii von dieser Ranch wurde\n
+    a1	 = Ein Mii von dieser Ranch wurde\n
 	+ aus dem Mii-Kanal gelöscht.
-    a2	= Miis von dieser Ranch wurden\n
+    a2	 = Miis von dieser Ranch wurden\n
 	+ aus dem Mii-Kanal gelöscht.
-    a3	= Das Mii, das auf das Pokémon\n
+    a3	 = Das Mii, das auf das Pokémon\n
 	+ aufpassen soll, wurde aus dem\n
 	+ Mii-Kanal gelöscht.
-    a4	= Die Miis, die auf die Pokémon\n
+    a4	 = Die Miis, die auf die Pokémon\n
 	+ aufpassen sollen, wurden aus\n
 	+ dem Mii-Kanal gelöscht.
-    a5	= Eukalia
-    a6	= EUKALIA
-    a7	= Besitzer
-    a8	= Frank
-    a9	= Franka
-    aa	= Eukalia
-    ab	= Ein Fehler ist aufgetreten.\n
+    a5	 = Eukalia
+    a6	 = Eukalia
+    a7	 = Besitzer
+    a8	 = Frank
+    a9	 = Franka
+    aa	 = Eukalia
+    ab	 = Ein Fehler ist aufgetreten.\n
 	+ Bitte speichere, betätige den\n
 	+ RESET-Knopf und versuche\n
 	+ es erneut.
-    ac	= FEHLERCODE: %06d
-    ad	= Bitte warten...
-    ae	= Bitte warten...
-    af	= EIN
-    b0	= AUS
-    b1	= Ist diese Funktion aktiviert,\n
+    ac	 = FEHLERCODE: %06d
+    ad	 = Bitte warten...
+    ae	 = Bitte warten...
+    af	 = EIN
+    b0	 = NICHTS
+    b1	 = Ist diese Funktion aktiviert,\n
 	+ werden Bilder und Status\n
 	+ deiner Ranch zur\n
 	+ Wii-Pinnwand gesendet.
-    b2	= Wenn du WiiConnect24 aktivierst,\n
+    b2	 = Wenn du WiiConnect24 aktivierst,\n
 	+ bekommst du vielleicht einen\n
 	+ unerwarteten Besucher auf deiner\n
 	+ Ranch.
-    b3	= Wenn du WiiConnect24 akti-\n
+    b3	 = Wenn du WiiConnect24 akti-\n
 	+ vierst, bekommst du vielleicht\n
 	+ einen unerwarteten Besucher\n
 	+ auf deiner Ranch. (Nach einer\n
 	+ bestimmten Zeit kommen keine\n
 	+ Gäste mehr auf die Ranch.)
-    b4	= Die Verwendung der Netzwerk-\n
+    b4	 = Die Verwendung der Netzwerk-\n
 	+ funktionen ist eingeschränkt.\n
 	+ Überprüfe die Einstellungen der\n
 	+ Altersbeschränkungen in den\n
 	+ Wii-Optionen.
-    b5	= WiiConnect24 ist nicht\n
+    b5	 = WiiConnect24 ist nicht\n
 	+ aktiviert. Überprüfe die\n
 	+ Einstellungen in\n
 	+ den Wii-Optionen.
-    b6	= Keine Wii-Freunde registriert.\n
+    b6	 = Keine Wii-Freunde registriert.\n
 	+ \fRegistriere einen Wii-Freund\n
 	+ im Menü der Wii-Pinnwand.
-    b7	= Dieser Service kann ohne\n
+    b7	 = Dieser Service kann ohne\n
 	+ Ankündigung eingestellt\n
 	+ werden.
-    b8	= Gesuchte Pokémon
-    b9	= Heutige Musik
-    ba	= Pokéschau-Club
-    bb	= ～%{}-Manie～
-    bc	= ～Eier-Manie～
-    bd	= Ranch-Level\n
+    b8	 = Gesuchte Pokémon
+    b9   = TRANSLATION NEEDED
+    ba	 = TRANSLATION NEEDED
+    bb	 = ～%{}-Manie～
+    bc	 = ～Eier-Manie～
+    bd	 = Ranch-Level\n
 	+ Max. Pokémon\n
 	+ Max. Miis\n
 	+ Pokémon aktuell\n
 	+ Nächster Level
-    be	= %d\n
+    be	 = %d\n
 	+ %ls\n
 	+ %d\n
 	+ %ls\n
 	+ %d
-    bf	= %d\n
+    bf	 = %d\n
 	+ %ls\n
 	+ %d\n
 	+ %ls\n
 	+ ----
-    c0	= 
-    c1	= 
-    c2	= Ranch-Status
-    c3	= Schwarzes Brett
-    c4	= Rekorde
-    c5	= Details
-    c6	= Jeder
-    c7	= %ls\n
+    c0	 = TRANSLATION NEEDED
+    c1	 = TRANSLATION NEEDED
+    c2	 = Ranch-Status
+    c3	 = Schwarzes Brett
+    c4	 = Rekorde
+    c5	 = Details
+    c6	 = Jeder
+    c7	 = %ls\n
 	+ wurde fündig!
-    c8	= Von %ls
-    c9	= bis %ls
-    ca	= Tauschen mit %ls!
-    cb	= Musik auswählen
-    cc	= Vorherige Seite
-    cd	= Nächste Seite
-    ce	= O.K. und zurückkehren
-    cf	= Weitere
-    d0	= (Keine Musik)
-    d1	= ♪Platin Farm
-    d2	= ♪Seichtes Sonnenlicht
-    d3	= ♪Gemächlicher Spaziergang
-    d4	= ♪Verbundene Welt
-    d5	= ♪Mein Traum
-    d6	= ♪Los gehts!
-    d7	= ♪Willkommen auf der Ranch
-    d8	= ♪Pokémon Parade
-    d9	= ♪Pummeluff's Lied
-    da	= Pokéschau-Club
-    db	= Vorherige Seite
-    dc	= Nächste Seite
-    dd	= Zurück
-    de	= Möchtest du zu\n
-	+ %ls Ranch?
-    df	= ???
-    e0	= Morgen:
-    e1	= Die Ranch wird größer!
-    e2	= schließt sich uns an!
-    e3	= Ansicht\n
+    c8	 = Von %ls
+    c9	 = bis %ls
+    ca	 = TRANSLATION NEEDED
+    cb	 = TRANSLATION NEEDED
+    cc	 = Vorherige Seite
+    cd	 = Nächste Seite
+    ce	 = O.K. und zurück
+    cf	 = TRANSLATION NEEDED
+    d0	 = TRANSLATION NEEDED
+    d1	 = TRANSLATION NEEDED
+    d2	 = TRANSLATION NEEDED
+    d3	 = TRANSLATION NEEDED
+    d4	 = TRANSLATION NEEDED
+    d5	 = TRANSLATION NEEDED
+    d6	 = TRANSLATION NEEDED
+    d7	 = TRANSLATION NEEDED
+    d8	 = TRANSLATION NEEDED
+    d9	 = TRANSLATION NEEDED
+    da	 = TRANSLATION NEEDED
+    db	 = Vorherige Seite
+    dc	 = Nächste Seite
+    dd	 = Zurück
+    de	 = TRANSLATION NEEDED
+    df	 = TRANSLATION NEEDED
+    e0	 = Morgen:
+    e1	 = Die Ranch wird größer!
+    e2	 = schließt sich uns an!
+    e3	 = Ansicht\n
 	+ zentriert
-    e4	= Hilfe
-    e5	= Einführung
-    e6	= Steuerung
-    e7	= Fotos
-    e8	= Mit DS-System\n
-	+ verbinden
-    e9	= Details
-    ea	= Schwarzes\n
+    e4	 = Hilfe
+    e5	 = Einführung
+    e6	 = Steuerung
+    e7	 = Fotos
+    e8	 = Verbindung mit\n
+	+ Nintendo DS-System
+    e9	 = Details
+    ea	 = Schwarzes\n
 	+ Brett
-    eb	= Optionen
-    ec	= FAQ
-    ed	= %d/%d
-    ee	= $2$. $1$ 20$0$ \n
+    eb	 = Optionen
+    ec	 = FAQ
+    ed	 = %d/%d
+    ee	 = $2$. $1$ 20$0$ \n
 	+ Mitgebracht von Eukalia.
-    ef	= Ein mysteriöses Ei, erhalten am\n
+    ef	 = Ein mysteriöses Ei, erhalten am\n
 	+ $7$. $6$ 20$5$ von\n
-	+ $8$
-    f0	= Anzahl betreuter Pokémon: %ls
-    f1	= Lv. %d
-    f2	= ★ Bänder erhalten: %d
-    f3	= Neu!
-    f4	= ♂ Lv. %d
-    f5	= ♀ Lv. %d
-    f6	= Lv. %d
-    f7	= ♂
-    f8	= ♀
-    f9	= Freunde a. d. Ranch
-    fa	= Pokémon auf der Ranch
-    fb	= Alle
-    fc	= Favoriten
-    fd	= Meine Pokémon
-    fe	= %d
-    ff	= %d Pokémon entlassen.
-    100	= %d%ls Pokémon entlassen.
-    101	= Vorherige Seite
-    102	= Nächste Seite
-    103	= Zurück
-    104	= Beenden
-    105	= Zur Parade
-    106	= Trainer
-    107 = Abgelegt
-    108	= Betreuer
-    109	= Parade
-    10a	= 
-    10b	= Pokémon entlassen?
-    10c	= Standard
-    10d	= Menge
-    10e	= Typ
-    10f	= Markierung
-    110	= Art
-    111	= %d/%d
-    112	= Rot
-    113	= Blau
-    114	= Gelb
-    115	= Grün
-    116	= Schwarz
-    117	= Braun
-    118	= Lila
-    119	= Grau
-    11a	= Weiß
-    11b	= Rosa
-    11c	= Klein
-    11d	= Groß
-    11e	= Leicht
-    11f	= Schwer
-    120	= Hitzig
-    121	= Kalt
-    122	= Schaurig
-    123	= Schnell
-    124	= Rund
-    125	= Fliegend
-    126	= Robust
-    127	= Fokussiert
-    128	= Lähmend
-    129	= Ruhig
-    12a	= Vergesslich
-    12b	= Stinkend
-    12c	= Singend
-    12d	= Süß riechend
-    12e	= Selten
-    12f	= Ranch-Gerücht %02d
-    130	= %02d: %ls
-    131	= Achtung!
-    132	= Zickzack-Parade
-    133	= Pokémon Dash
-    134	= Luft-Parade
-    135	= Totempfahl
-    136	= Hüpftanz
-    137	= Pikachu-Show
-    138	= Ringelreigen
-    139	= Spaßtanz
-    13a	= Zickzack-Tanz
-    13b	= Langsamer Walzer
-    13c	= Riesenwelle
-    13d	= Chor
-    13e	= Karusselltanz
-    13f	= Uhr
-    140	= Tastatur
-    141	= Schwindeltanz
-    142	= Sumoparade
-    143	= Kampfturnier
-    144	= Hau den Maulwurf
-    145	= Rangeln
-    146	= Blumentanz
-    147	= Reise
-    148	= Orbit
-    149	= Auferstehung
-    14a	= Nach Norden ausgerichtet
-    14b	= Wassersprung
-    14c	= Rotom-Roulette
-    14d	= Duell
-    14e	= Palette
-    14f	= Herzlichen Glückwunsch
-    150	= Beenden
-    151	= Rosie
-    152	= Goldsie
-    153	= Magnus
-    154	= Gunnar
-    155	= Barbara
-    156	= Rita
-    157	= Krissy
-    158	= Wendy
-    159	= Volter
-    15a	= Risa
-    15b	= Robin
-    15c	= Kiki
-    15d	= Ira
-    15e	= Ancel
-    15f	= Greta
-    160	= Stefan
-    161	= Maggie
-    162	= Krista
-    163	= Wanda
-    164	= Bodo
-    165	= Kassius
-    166	= Pascal
-    167	= Friso
-    168	= Linus
-    169	= Marta
-    16a	= Filippa
-    16b	= Gabriel
-    16c	= Grazia
-    16d	= Dieter
-    16e	= Nathan
-    16f	= Rex
-    170	= Torsten
-    171	= Tila
-    172	= Mila
-    173	= Cora
-    174	= Terry
-    175	= Lukas
-    176	= Rita
-    177	= Munchin
-    178	= Bunny
-    179	= Flora
-    17a	= Wasser
-    17b	= Feuer
-    17c	= Unlicht
-    17d	= Psycho
-    17e	= Kämpfer
-    17f	= Käfer
-    180	= Flauschig
-    181	= Elektro
-    182	= Treue
-    183	= Trophäe
-    184	= Winzig
-    185	= Ei
-    186	= Antik
-    187	= Lockduft
-    188	= Erscheinen
-    189	= Magnetilo
-    18a	= Rosa
-    18b	= Woingenau
-    18c	= Bidiza
-    18d	= Pikachu
-    18e	= Fels
-    18f	= Polibog
-    190	= Horror
-    191	= Burmy
-    192	= Tropen
-    193	= Giftmund
-    194	= Entwicklung
-    195	= Untergrund
-    196	= Mystik
-    197	= Schneegebiet
-    198	= Wildbulle
-    199	= Wolle
-    19a	= Milchkuh
-    19b	= Drachen
-    19c	= Boden
-    19d	= Himmelblau
-    19e	= Rot
-    19f	= Hungrig
-    1a0	= Hoppelnd
-    1a1	= © Pokémon / Nintendo.
-    1a2	= %ls-Ranch
-    1a3	= %ls-\n
+	+ $8$.
+    f0	 = Anzahl betreuter Pokémon: %ls
+    f1	 = Lv. %d
+    f2	 = ★ Bänder erhalten: %d
+    f3	 = Neu!
+    f4	 = ♂ Lv. %d
+    f5	 = ♀ Lv. %d
+    f6	 = Lv. %d
+    f7	 = ♂
+    f8	 = ♀
+    f9	 = Freunde a. d. Ranch
+    fa	 = TRANSLATION NEEDED
+    fb	 = Alle
+    fc	 = Favoriten
+    fd	 = TRANSLATION NEEDED
+    fe	 = TRANSLATION NEEDED
+    ff	 = TRANSLATION NEEDED
+   100	 = TRANSLATION NEEDED
+   101	 = Vorherige Seite
+   102	 = Nächste Seite
+   103	 = Zurück
+   104	 = Beenden
+   105	 = Zur Parade
+   106	 = Trainer
+   107	 = Abgelegt
+   108	 = Betreuer
+   109	 = Parade
+   10a	 = TRANSLATION NEEDED
+   10b	 = TRANSLATION NEEDED
+   10c	 = TRANSLATION NEEDED
+   10d	 = TRANSLATION NEEDED
+   10e	 = TRANSLATION NEEDED
+   10f	 = TRANSLATION NEEDED
+   110	 = TRANSLATION NEEDED
+   111	 = %d/%d
+   112	 = TRANSLATION NEEDED
+   113	 = TRANSLATION NEEDED
+   114	 = TRANSLATION NEEDED
+   115	 = TRANSLATION NEEDED
+   116	 = TRANSLATION NEEDED
+   117	 = TRANSLATION NEEDED
+   118	 = TRANSLATION NEEDED
+   119	 = TRANSLATION NEEDED
+   11a	 = TRANSLATION NEEDED
+   11b	 = TRANSLATION NEEDED
+   11c	 = TRANSLATION NEEDED
+   11d	 = TRANSLATION NEEDED
+   11e	 = TRANSLATION NEEDED
+   11f	 = TRANSLATION NEEDED
+   120	 = TRANSLATION NEEDED
+   121	 = TRANSLATION NEEDED
+   122	 = TRANSLATION NEEDED
+   123	 = TRANSLATION NEEDED
+   124	 = TRANSLATION NEEDED
+   125	 = TRANSLATION NEEDED
+   126	 = TRANSLATION NEEDED
+   127	 = TRANSLATION NEEDED
+   128	 = TRANSLATION NEEDED
+   129	 = TRANSLATION NEEDED
+   12a	 = TRANSLATION NEEDED
+   12b	 = TRANSLATION NEEDED
+   12c	 = TRANSLATION NEEDED
+   12d	 = TRANSLATION NEEDED
+   12e	 = TRANSLATION NEEDED
+   12f	 = TRANSLATION NEEDED
+   130	 = TRANSLATION NEEDED
+   131	 = Achtung!
+   132	 = Zickzack-Parade
+   133	 = Pokémon Dash
+   134	 = Luft-Parade
+   135	 = Totempfahl
+   136	 = Hüpftanz
+   137	 = Pikachu-Show
+   138	 = Ringelreigen
+   139	 = Spaßtanz
+   13a	 = Zickzack-Tanz
+   13b	 = Langsamer Walzer
+   13c	 = Riesenwelle
+   13d	 = Chor
+   13e	 = Karusselltanz
+   13f	 = Uhr
+   140	 = Tastatur
+   141	 = TRANSLATION NEEDED
+   142	 = TRANSLATION NEEDED
+   143	 = TRANSLATION NEEDED
+   144	 = TRANSLATION NEEDED
+   145	 = TRANSLATION NEEDED
+   146	 = TRANSLATION NEEDED
+   147	 = TRANSLATION NEEDED
+   148	 = TRANSLATION NEEDED
+   149	 = TRANSLATION NEEDED
+   14a	 = TRANSLATION NEEDED
+   14b	 = TRANSLATION NEEDED
+   14c	 = TRANSLATION NEEDED
+   14d	 = TRANSLATION NEEDED
+   14e	 = TRANSLATION NEEDED
+   14f	 = TRANSLATION NEEDED
+   150	 = Beenden
+   151	 = Rosie
+   152	 = Goldie
+   153	 = Magnus
+   154	 = Gunnar
+   155	 = Barbara
+   156	 = Rita
+   157	 = Krissy
+   158	 = Wendy
+   159	 = Volter
+   15a	 = Risa
+   15b	 = Robin
+   15c	 = Kiki
+   15d	 = Ira
+   15e	 = Ancel
+   15f	 = Greta
+   160	 = Stefan
+   161	 = Maggie
+   162	 = Krista
+   163	 = Wanda
+   164	 = Bodo
+   165	 = Kassius
+   166	 = Pascal
+   167	 = Friso
+   168	 = Linus
+   169	 = Marta
+   16a	 = Filippa
+   16b	 = Gabriel
+   16c	 = Grazia
+   16d	 = Dieter
+   16e	 = Nathan
+   16f	 = Rex
+   170	 = Torsten
+   171	 = Tila
+   172	 = Mila
+   173	 = Cora
+   174	 = Terry
+   175	 = Lukas
+   176	 = TRANSLATION NEEDED
+   177	 = TRANSLATION NEEDED
+   178	 = TRANSLATION NEEDED
+   179	 = Flora
+   17a	 = Wasser
+   17b	 = Feuer
+   17c	 = Unlicht
+   17d	 = Psycho
+   17e	 = Kämpfer
+   17f	 = Käfer
+   180	 = Flauschig
+   181	 = Elektro
+   182	 = Treue
+   183	 = Trophäe
+   184	 = Winzig
+   185	 = Ei
+   186	 = Antik
+   187	 = Lockduft
+   188	 = Erscheinen
+   189	 = Magnetilo
+   18a	 = Rosa
+   18b	 = Woingenau
+   18c	 = Bidiza
+   18d	 = Pikachu
+   18e	 = Fels
+   18f	 = Quappi
+   190	 = Horror
+   191	 = Burmy
+   192	 = Tropen
+   193   = Giftmund
+   194   = Entwicklung
+   195   = Untergrund
+   196   = Mystik
+   197   = Schneegebiet
+   198   = Wildbulle
+   199   = Wolle
+   19a   = Milchkuh
+   19b   = Drachen
+   19c   = Boden
+   19d   = Himmelblau
+   19e   = TRANSLATION NEEDED
+   19f	 = TRANSLATION NEEDED
+   1a0	 = TRANSLATION NEEDED
+   1a1	 = © Pokémon / Nintendo.
+   1a2	 = TRANSLATION NEEDED
+   1a3	 = %ls-\n
 	+ Ranch
-    1a4	= Speichervorgang...
-    1a5	= ●
-    1a6	= ▲
-    1a7	= ■
-    1a8	= ♥
-    1a9	= ★
-    1aa	= ◆
-    1ab	= In "My Pokémon Ranch" treten\n
+   1a4	 = Speichervorgang...
+   1a5	 = ●
+   1a6	 = ▲
+   1a7	 = ■
+   1a8	 = ♥
+   1a9	 = ★
+   1aa	 = ◆
+   1ab	 = In "My Pokémon Ranch" treten\n
 	+ Miis auf, die im Mii-Kanal\n
 	+ erstellt wurden.
-    1ac	= Erstelle auch du ein Mii. Den\n
+   1ac   = Erstelle auch du ein Mii. Den\n
 	+ Mii-Kanal findest du im\n
 	+ Wii-Menü. Drücke \x{e042}, um zum\n
 	+ Wii-Menü zurückzukehren.
-    1ad	= Synchronisierung mit interner\n
+   1ad   = Synchronisierung mit interner\n
 	+ Uhr der Wii-Konsole.
-    1ae	= Kalender: %ls,\n
+   1ae	 = Kalender: %ls,\n
 	+ %ls Uhr. Ist das richtig?
-    1af	= Stelle sicher, dass der Kalender\n
+   1af	 = Stelle sicher, dass der Kalender\n
 	+ im Wii-Menü richtig eingestellt\n
 	+ ist. Drücke \x{e042}, um die\n
 	+ Wii-Optionen aufzurufen.
-    1b0	= Der Kalender wurde\n
+   1b0	 = Der Kalender wurde\n
 	+ zurückgestellt.
-    1b1	= Hinweis: Wenn du die Uhr\n
+   1b1	 = Hinweis: Wenn du die Uhr\n
 	+ zurückdrehst, kann das dazu\n
 	+ führen, dass Speicherdaten\n
 	+ nicht richtig funktionieren.
-    1b2	= Fortfahren?
-    1b3	= 【Musik aus】\n
+   1b2	 = Fortfahren?
+   1b3   = 【Musik aus】\n
 	+ \x{e043} und \x{e041}↓ wurden\n
 	+ gedrückt. Das Spiel wird\n
 	+ ohne Musik gestartet.
-    1b4	= Drücke \x{e042}, um zum Wii-Menü\n
+   1b4   = Drücke \x{e042}, um zum Wii-Menü\n
 	+ zurückzukehren.
-    1b5	= Drücke \x{e042}, um zum Wii-Menü\n
+   1b5	 = Drücke \x{e042}, um zum Wii-Menü\n
 	+ zurückzukehren.
-    1b6	= Möchtest du zum Wii-Menü\n
+   1b6	 = Möchtest du zum Wii-Menü\n
 	+ zurückkehren?
-    1b7	= My Pokémon Ranch
-    1b8	= Ranch (DVD)
-    1b9	= Löschen entfernt alle Pokémon!
-    1ba	= Grundsteuerung (1)
-    1bb	= Hand bewegen
-    1bc	= Bewege die Hand mit der\n
+   1b7	 = My Pokémon Ranch
+   1b8	 = Ranch (DVD)
+   1b9	 = Löschen entfernt alle Pokémon!
+   1ba	 = Grundsteuerung (1)
+   1bb	 = Hand bewegen
+   1bc	 = Bewege die Hand mit der\n
 	+ Wii-Fernbedienung.
-    1bd	= Ansicht zentrieren
-    1be	= Zeige auf ein Objekt, das du\n
+   1bd	 = Ansicht\n
+	+ zentriert
+   1be   = Zeige auf ein Objekt, das du\n
 	+ zentrieren willst, und\n
 	+ drücke \x{e042}.
-    1bf	= Grundsteuerung (2)
-    1c0	= Fotos schießen\n
+   1bf	 = Grundsteuerung (2)
+   1c0	 = Fotos schießen\n
 	+ (Auch mit \x{e047}!)
-    1c1	= Schieß ruhig Fotos auf der Ranch. Eine\n
+   1c1	 = Schieß ruhig Fotos auf der Ranch. Eine\n
 	+ Zahl zeigt dir an, wie viele Fotos du\n
 	+ noch machen kannst.
-    1c2	= Achtung!\n
+   1c2	 = Achtung!\n
 	+ (Auch mit \x{e048}!)
-    1c3	= Pokémon und Miis drehen sich mit dem\n
+   1c3	 = Pokémon und Miis drehen sich mit dem\n
 	+ Gesicht zum Bildschirm.
-    1c4	= Speichern
-    1c5	= Speichern
-    1c6	= Die Spieldaten werden\n
+   1c4	 = Speichern
+   1c5	 = Speichern
+   1c6	 = Die Spieldaten werden\n
 	+ automatisch gespeichert.\n
 	+ \n
 	+ Wenn 'Speichervorgang...'\n
@@ -704,71 +686,53 @@
 	+ betätige bitte weder den\n
 	+ POWER-Schalter noch den\n
 	+ RESET-Knopf.
-    1c7	= 
-    1c8	= 
-    1c9	= Wie höre ich auf?
-    1ca	= Zurück zum Wii-Menü
-    1cb	= Hier kannst du die Pokémon-Ranch\n
+   1c7	 = TRANSLATION NEEDED
+   1c8	 = TRANSLATION NEEDED
+   1c9	 = Wie höre ich auf?
+   1ca	 = Zurück zum Wii-Menü
+   1cb	 = Hier kannst du die Pokémon-Ranch\n
 	+ verlassen und ins Wii-Menü\n
 	+ zurückkehren.
-    1cc	= 
-    1cd	= 
-    1ce	= Einführung
-    1cf	= My Pokémon Ranch
-    1d0	= Hier können Pokémon und Miis\n
-	+ miteinander interagieren.\n
-	+ \n
-	+ Besuche die Ranch jeden Tag, um deine\n
-	+ Pokémon zu betreuen! Am besten\n
-	+ bringst du auch die Pokémon aus\n
-	+ Pokémon Diamant- oder Perl-Edition\n
-	+ mit, um Leben auf die Ranch zu bringen.
-    1d1	= 
-    1d2	= 
-    1d3	= Platin-Update-Informationen (1)
-    1d4	= Platin-Edition-Funktionen
-    1d5	= ・My Pokémon Ranch kann nun mit\n
-	+ Pokémon Platin-Edition für den\n
-	+ Nintendo DS verbunden werden.
-	+ ・Während sich die Ranch vergrößert\n
-	+ kannst du nun bis zu 1.500 Pokémon\n
-	+ in ihr halten.
-    1d6	= Platin-Update-Informationen (2)
-    1d7	= "Es gibt neue Dinge auszuprobieren!"
-    1d8	= ・Mehr Optionen wurden dem Menü\n
-	+ hinzugefügt.\n
-	+ \n
-	+ ・Du kannst nun bis zu 30 Fotos\n
-	+ speichern.\n
-	+ \n
-	+ ・Die Musik kann nun geändert werden.\n
-	+ \n
-	+ ・Du kannst Pokéschau-Club Ranches\n
-	+ mehr als einmal besuchen.
-    1d9	= Einführung - Steuerung
-    1da	= Zentrieren
-    1db	= Suchen
-    1dc	= Foto schießen
-    1dd	= Achtung!
-    1de	= HOME-Menü
-    1df	= Greifen
-    1e0	= Bildschirm bew.
-    1e1	= Vergrößern
-    1e2	= Verkleinern
-    1e3	= Im Freien Modus
-    1e4	= Suchen
-    1e5	= Blättere mit \x{e041} durch die Liste
-    1e6	= Du kannst mit \x{e041} nach\n
+   1cc	 = TRANSLATION NEEDED
+   1cd	 = TRANSLATION NEEDED
+   1ce	 = Einführung
+   1cf	 = My Pokémon Ranch
+   1d0	 = TRANSLATION NEEDED
+   1d1	 = TRANSLATION NEEDED
+   1d2	 = TRANSLATION NEEDED
+   1d3	 = TRANSLATION NEEDED
+   1d4	 = TRANSLATION NEEDED
+   1d5	 = TRANSLATION NEEDED
+   1d6	 = TRANSLATION NEEDED
+   1d7	 = TRANSLATION NEEDED
+   1d8	 = TRANSLATION NEEDED
+   1d9	 = Steuerung
+   1da	 = Ansicht\n
+	+ zentriert
+   1db	 = Suchen
+   1dc	 = Foto schießen
+   1dd	 = Achtung!
+   1de	 = HOME-Menü
+   1df	 = Greifen
+   1e0	 = Bildschirm bew.
+   1e1	 = Vergrößern
+   1e2	 = Verkleinern
+   1e3	 = Im Freien Modus
+   1e4	 = Suchen
+   1e5	 = Blättere mit \x{e041} durch die Liste
+   1e6	 = Du kannst mit \x{e041} nach\n
 	+ Pokémon, Miis oder\n
 	+ Spielzeug suchen.\n
 	+ \n
 	+ ↑↓  Einzeln durchgehen\n
 	+ ←→  Seiten durchblättern
-    1e7	= 
-    1e8	= 
-    1e9	= Ansicht zentrieren
-    1ea	= Zentrieren
-    1eb	= Drücke bei zentrierter\n
+   1e7	 = TRANSLATION NEEDED
+   1e8	 = TRANSLATION NEEDED
+   1e9	 = Ansicht\n
+	+ zentriert
+   1ea	 = Ansicht\n
+	+ zentriert
+   1eb	 = Drücke bei zentrierter\n
 	+ Ansicht erneut \x{e042}, um die\n
 	+ Kamera auf ein Pokémon\n
 	+ oder Mii zu zentrieren.\n
@@ -776,38 +740,38 @@
 	+ Die Kamera folgt dann dem\n
 	+ Pokémon oder Mii, das du\n
 	+ gewählt hast.
-    1ec	= 
-    1ed	= 
-    1ee	= Modi
-    1ef	= Freier Modus
-    1f0	= In diesem Modus kannst du dich auf der\n
+   1ec   = TRANSLATION NEEDED
+   1ed   = TRANSLATION NEEDED
+   1ee   = Modi
+   1ef	 = Freier Modus
+   1f0	 = In diesem Modus kannst du dich auf der\n
 	+ Ranch frei umsehen. Erst ab einem\n
 	+ bestimmten Ranch-Level verfügbar.
-    1f1	= Auto-Modus
-    1f2	= In diesem Modus wechselt die Kamera\n
+   1f1	 = Auto-Modus
+   1f2	 = In diesem Modus wechselt die Kamera\n
 	+ automatisch zwischen verschiedenen\n
 	+ Miis und Pokémon.
-    1f3	= Freier Modus
-    1f4	= Fähigkeiten im Freien Modus
-    1f5	= \x{e042} + \x{e043} : Greifen\n
+   1f3	 = Freier Modus
+   1f4	 = Fähigkeiten im Freien Modus
+   1f5	 = \x{e042} + \x{e043} : Greifen\n
 	+ \x{e043} + \x{e058} : Bildschirm bewegen\n
 	+ \x{e045} : Vergrößern\n
 	+ \x{e046} : Verkleinern
-    1f6	= 
-    1f7	= 
-    1f8	= Nunchuk
-    1f9	= Im Freien Modus
-    1fa	= Du kannst dich mit dem Nunchuk im\n
+   1f6	 = TRANSLATION NEEDED
+   1f7	 = TRANSLATION NEEDED
+   1f8	 = Nunchuk
+   1f9	 = Im Freien Modus
+   1fa	 = Du kannst dich mit dem Nunchuk im\n
 	+ Freien Modus noch freier auf der\n
 	+ Ranch umsehen!
-    1fb	= Nunchuk-Steuerung
-    1fc	= \x{e049} Kamera bewegen\n
+   1fb	 = Nunchuk-Steuerung
+   1fc	 = \x{e049} Kamera bewegen\n
 	+ \x{e04a} Foto schießen\n
 	+ \x{e04b} + \x{e049} Ansicht vergrößern
-    1fd	= Foto schießen
-    1fe	= Foto schießen\n
+   1fd	 = Foto schießen
+   1fe	 = Foto schießen\n
 	+ (Auch mit \x{e047}!)
-    1ff	= Die Zahl zeigt an, wie viele Fotos du\n
+   1ff	 = Die Zahl zeigt an, wie viele Fotos du\n
 	+ noch machen kannst.\n
 	+ \n
 	+ Erreicht sie 0, werden ältere Fotos\n
@@ -815,25 +779,26 @@
 	+ \n
 	+ Aktiviere den Schreibschutz bei Fotos,\n
 	+ die du im Album behalten willst.
-    200	= 
-    201	= 
-    202	= Album (1)
-    203	= Album
-    204	= Hier kannst du alle von dir\n
+   200   = TRANSLATION NEEDED
+   201   = TRANSLATION NEEDED
+   202	 = Album (1)
+   203	 = Album
+   204	 = Hier kannst du alle von dir\n
 	+ geschossenen Fotos betrachten.
-    205	= 
-    206	= 
-    207	= Album (2)
-    208	= Löschen
-    209	= Lösche das Foto, das du gerade\n
+   205	 = TRANSLATION NEEDED
+   206	 = TRANSLATION NEEDED
+   207	 = Album (2)
+   208	 = Löschen
+   209	 = Lösche das Foto, das du gerade\n
 	+ betrachtest.
-    20a	= Schreibschutz aktivieren
-    20b	= Aktiviere den Schreibschutz\n
+   20a	 = Schreibschutz\n
+	+ aktivieren
+   20b	 = Aktiviere den Schreibschutz\n
 	+ bei diesem Foto, damit es\n
 	+ nicht gelöscht wird.
-    20c	= Album (3)
-    20d	= An Wii-Pinnwand heften
-    20e	= Mit dieser Option heftest du\n
+   20c	 = Album (3)
+   20d	 = An Wii-Pinnwand heften
+   20e	 = Mit dieser Option heftest du\n
 	+ Fotos an die Wii-Pinnwand.\n
 	+ Diese Fotos kannst du dann\n
 	+ an Wii-Freunde senden und\n
@@ -841,34 +806,32 @@
 	+ Beachte: Wenn der Speicher\n
 	+ voll ist, werden die ältesten\n
 	+ Fotos gelöscht!
-    20f	= 
-    210	= 
-    211	= Album (4)
-    212	= Auf SD Card speichern
-    213	= Mit dieser Option speicherst\n
+   20f	 = TRANSLATION NEEDED
+   210	 = TRANSLATION NEEDED
+   211	 = Album (4)
+   212	 = Auf SD Card speichern
+   213	 = Mit dieser Option speicherst\n
 	+ du Fotos auf einer\n
 	+ eingesteckten SD Card.
-    214	= Alle Fotos auf der SD Card\n
+   214   = Alle Fotos auf der SD Card\n
 	+ löschen
-    215	= Löscht alle Fotos von "My Pokémon\n
+   215	 = Löscht alle Fotos von "My Pokémon\n
 	+ Ranch" auf der SD Card.
-    216	= 
-    217	= 
-    218	= Album (5) 
-    219	= Auf die SD Card speichern
-    21a	= Speicher alle Fotos im\n
-	+ Album auf die SD Card.
-    21b	= Mit DS-System verbinden (1)
-    21c	= Mit DS-System verbinden
-    21d	= Hier kannst du Pokémon aus\n
-	+ Pokémon Diamant, Perl und\n
-	+ Platin ablegen und mitnehmen.
-    21e	= Verbindung unterbrechen
-    21f	= Mit dieser Option kannst du die\n
+   216	 = TRANSLATION NEEDED
+   217   = TRANSLATION NEEDED
+   218	 = TRANSLATION NEEDED
+   219	 = Auf SD Card speichern
+   21a	 = TRANSLATION NEEDED
+   21b	 = Mit DS-System verbinden (1)
+   21c	 = Verbindung mit\n
+	+ Nintendo DS-System
+   21d	 = TRANSLATION NEEDED
+   21e	 = Verbindung abbrechen
+   21f	 = Mit dieser Option kannst du die\n
 	+ Verbindung abbrechen.
-    220	= Mit DS-System verbinden (2)
-    221	= Vorsicht!
-    222	= Du kannst Pokémon nur mit derselben\n
+   220	 = Mit DS-System verbinden (2)
+   221	 = Vorsicht!
+   222	 = Du kannst Pokémon nur mit derselben\n
 	+ DS-Karte mitnehmen, mit der du sie\n
 	+ abgelegt hast.\n
 	+ \n
@@ -877,11 +840,11 @@
 	+ DS-Karte löschst und ein neues Spiel\n
 	+ beginnst, kannst du zuvor abgelegte\n
 	+ Pokémon nicht mehr mitnehmen.
-    223	= 
-    224	= 
-    225	= Details (1)
-    226	= Details
-    227	= Hier kannst du nachsehen, wer welche\n
+   223   = TRANSLATION NEEDED
+   224   = TRANSLATION NEEDED
+   225	 = Details (1)
+   226	 = Freunde a. d. Ranch
+   227	 = Hier kannst du nachsehen, wer welche\n
 	+ Pokémon abgelegt hat und wie viele es\n
 	+ waren.\n
 	+ \n
@@ -889,30 +852,23 @@
 	+ ändern, das die vom Nintendo DS-\n
 	+ System stammenden Pokémon\n
 	+ betreuen soll.
-    228	= 
-    229	= 
-    22a	= Details (2)
-    22b	= Pokémon auf der Ranch
-    22c	= Du kannst nun die Pokémon\n
-	+ die du gelagert hast sehen.
-	+ Dieser Knopf öffnet den\n
-	+ "Pokémon entlassen?" Dialog.\n
-    22d	= Pokémon entlassen?
-    22e	= Wähle welche Pokémon du\n
-	+ auf die Ranch entlassen willst.\n
-	+ Du kannst nach Typ und Menge\n
-	+ sortieren.
-    22f	= Details (3)
-    230	= Parade
-    231	= Eine Parade aller Pokémon, die sich\n
-	+ derzeit auf der Ranch aufhalten.
-    232	= Betreuer
-    233	= Du kannst den Betreuer\n
+   228	 = TRANSLATION NEEDED
+   229	 = TRANSLATION NEEDED
+   22a	 = Details (2)
+   22b	 = Pokémon auf der Ranch
+   22c	 = TRANSLATION NEEDED
+   22d	 = TRANSLATION NEEDED
+   22e	 = TRANSLATION NEEDED
+   22f	 = Details (3)
+   230	 = Parade
+   231	 = TRANSLATION NEEDED
+   232	 = Betreuer
+   233	 = Du kannst den Betreuer\n
 	+ ändern, indem du sein Mii\n
 	+ mit \x{e042} wählst.
-    234	= Favoriten (1)
-    235	= Favoriten
-    236	= Markiere dein Lieblings-Pokémon.\n
+   234	 = Favoriten (1)
+   235	 = Favoriten
+   236	 = Markiere dein Lieblings-Pokémon.\n
 	+ \n
 	+ Deinen Favoriten kannst du auch mit\n
 	+ der Option "Pokémon auf der Ranch" im\n
@@ -920,182 +876,151 @@
 	+ \n
 	+ Diese Funktion steht dir erst ab einem\n
 	+ bestimmten Ranch-Level zur Verfügung.
-    237	= 
-    238	= 
-    239	= Favoriten (2)
-    23a	= Zu Favoriten hinzufügen
-    23b	= Zeige auf ein Pokémon und\n
+   237	 = TRANSLATION NEEDED
+   238	 = TRANSLATION NEEDED
+   239	 = Favoriten (2)
+   23a	 = Zu Favoriten hinzufügen
+   23b	 = Zeige auf ein Pokémon und\n
 	+ drücke \x{e042}, um es zu den\n
 	+ Favoriten hinzuzufügen.
-    23c	= Aus Favoriten entfernen
-    23d	= Drücke erneut \x{e042}, um das\n
+   23c	 = Aus Favoriten entfernen
+   23d	 = Drücke erneut \x{e042}, um das\n
 	+ Pokémon von den Favoriten\n
 	+ zu entfernen.
-    23e	= Schwarzes Brett
-    23f	= Schwarzes Brett
-    240	= Hier kannst du die\n
+   23e	 = Schwarzes Brett
+   23f	 = Schwarzes Brett
+   240	 = Hier kannst du die\n
 	+ Gesuchten Pokémon\n
 	+ überprüfen.\n
 	+ \n
 	+ Außerdem kannst du dich\n
 	+ hier über den Status deiner\n
 	+ Ranch informieren.
-    241	= \n
-	+ Du kannst die "Heutige Musik" ändern.\n
-	+ Du kannst eine Pokéschau-Club Ranch, die\n
-	+ du bereits besucht hast, wieder\n
-	+ besuchen.
-    242	= 
-    243	= Gesuchte Pokémon (1)
-    244	= Gesuchte Pokémon
-    245= Eukalia gibt dir Tipps, wie du in\n
-	+ Pokémon Diamant, Perl und Platin\n
-	+ Pokémon fängst und so deinen\n
-	+ Pokédex vervollständigst.\n
-	+ Das Ziel besteht darin, Pokémon in\n
-	+ Pokémon Diamant, Perl und Platin zu\n
-	+ fangen und sie auf die Ranch\n
-	+ mitzunehmen. Vielleicht wirst du\n
-	+ belohnt, wenn du Erfolg hast!
-    246	= 
-    247	= 
-    248	= Gesuchte Pokémon (2)
-    249	= Fangtechniken überprüfen
-    24a	= Drücke bei dem Gesuchten\n
+   241   = TRANSLATION NEEDED
+   242	 = TRANSLATION NEEDED
+   243	 = Gesuchte Pokémon (1)
+   244	 = Gesuchte Pokémon
+   245	 = TRANSLATION NEEDED
+   246   = TRANSLATION NEEDED
+   247   = TRANSLATION NEEDED
+   248	 = Gesuchte Pokémon (2)
+   249	 = Fangtechniken überprüfen
+   24a	 = Drücke bei dem Gesuchten\n
 	+ Pokémon auf dem Schwarzen\n
 	+ Brett \x{e042}, um nützliche\n
 	+ Fangtipps zu erhalten!
-    24b	= Editionen wechseln
-    24c	= Drücke den Knopf um\n
-	+ zwischen Pokémon\n
-	+ Diamant, Perl oder Platin\n
-	+ zu wechseln.
-    24d	= Ranch-Status
-    24e	= Ranch-Status
-    24f	= Überprüfe den aktuellen Status\n
+   24b   = TRANSLATION NEEDED
+   24c   = TRANSLATION NEEDED
+   24d	 = Ranch-Status
+   24e	 = Ranch-Status
+   24f	 = Überprüfe den aktuellen Status\n
 	+ deiner Ranch.
-    250	= 
-    251	= 
-    252	= Heutige Musik (1)
-    253	= Heutige Musik
-    254	= Du kannst die Titel\n
-	+ sehen, die du auf der Ranch\n
-	+ gehört hast.\n
-	+ Du kannst auch einen Titel auswählen\n
-	+ um die Musik zu wechseln.
-    255	=
-    256	=
-    257	= Heutige Musik (2)
-    258	= Heutige Musik
-    259	= Außerdem kannst du aus einer\n
-	+ Vielzahl an Songs auswählen.
-    25a	= (Keine Musik)
-    25b	= Musik beenden.
-    25c	= Pokéschau-Club
-    25d	= Pokéschau-Club
-    25e	= Du kannst eine Pokeschau-Club
-	+ Ranch wieder besuchen, wenn du
-	+ sie bereits besucht hast.
-    25f	= Optionen
-    260	= Optionen
-    261	= Wähle die Miis, die auf die\n
+   250	 = TRANSLATION NEEDED
+   251	 = TRANSLATION NEEDED
+   252   = TRANSLATION NEEDED
+   253	 = TRANSLATION NEEDED
+   254	 = TRANSLATION NEEDED
+   255	 = TRANSLATION NEEDED
+   256	 = TRANSLATION NEEDED
+   257	 = TRANSLATION NEEDED
+   258	 = TRANSLATION NEEDED
+   259	 = TRANSLATION NEEDED
+   25a	 = TRANSLATION NEEDED
+   25b	 = TRANSLATION NEEDED
+   25c	 = TRANSLATION NEEDED
+   25d	 = TRANSLATION NEEDED
+   25e	 = TRANSLATION NEEDED
+   25f	 = Optionen
+   260	 = Optionen
+   261	 = Wähle die Miis, die auf die\n
 	+ Ranch kommen sollen, und\n
 	+ passe die WiiConnect24-\n
 	+ Einstellungen an.
-    262	= 
-    263	= 
-    264	= Nimm ein Mii mit
-    265	= Anzahl der Miis
-    266	= Zu Beginn kannst du nur fünf Miis dabei\n
+   262   = TRANSLATION NEEDED
+   263   = TRANSLATION NEEDED
+   264   = Miis einladen
+   265	 = Anzahl der Miis
+   266	 = Zu Beginn kannst du nur fünf Miis dabei\n
 	+ haben, aber mit steigendem Level der\n
 	+ Ranch kannst du mehr mitbringen.
-    267	= Vorsicht!
-    268	= Wenn du im Mii-Kanal ein Mii löschst,\n
+   267	 = Vorsicht!
+   268	 = Wenn du im Mii-Kanal ein Mii löschst,\n
 	+ verschwindet es auch von der\n
 	+ Ranch!
-    269	= Ranch vorführen
-    26a	= Sobald EIN gewählt wurde...
-    26b	= Wii-Freunde können dich besuchen und\n
+   269	 = Ranch vorführen
+   26a	 = Sobald EIN gewählt wurde...
+   26b	 = Wii-Freunde können dich besuchen und\n
 	+ den Status deiner Ranch sowie deine\n
 	+ Fotos sehen. Vielleicht lädt dich ein\n
 	+ Wii-Freund sogar auf seine Ranch ein!
-    26c	= Schalten wir die Option EIN!
-    26d	= Standardmäßig ist die Option AUS. \n
+   26c	 = Schalten wir die Option EIN!
+   26d	 = Standardmäßig ist die Option AUS. \n
 	+ Ranchdaten werden nur mit deiner \n
 	+ Zustimmung gesendet, auch wenn \n
 	+ diese Option auf EIN steht.
-    26e	= Gast
-    26f	= Sobald EIN gewählt wurde...
-    270	= Lass dich überraschen. Mal sehen,\n
+   26e	 = Gast
+   26f	 = Sobald EIN gewählt wurde...
+   270	 = Lass dich überraschen. Mal sehen,\n
 	+ wer dich besuchen kommt!
-    271	= Schalten wir die Option EIN!
-    272	= Standardmäßig ist die Option AUS.\n
+   271	 = Schalten wir die Option EIN!
+   272	 = Standardmäßig ist die Option AUS.\n
 	+ Ranchdaten werden nur mit deiner\n
 	+ Zustimmung gesendet, auch wenn \n
 	+ diese Option auf EIN steht.
-    273	= FAQ (1)
-    274	= Frage
-    275	= Wenn ich ein Pokémon aus Pokémon\n
-	+ Diamant-Edition ablege, kann ich es mit\n
-	+ Pokémon Perl-Edition wieder\n
-	+ mitnehmen?
-    276	= Antwort
-    277	= Nein.\n
+   273	 = FAQ (1)
+   274	 = Frage
+   275	 = TRANSLATION NEEDED
+   276	 = Antwort
+   277	 = Nein.\n
 	+ Du kannst ein Pokémon nur mit\n
 	+ derselben DS-Karte mitnehmen,\n
 	+ mit der du es abgelegt hast.
-    278	= FAQ (2)
-    279	= Frage
-    27a	= Kann ich ein Pokémon von der Ranch\n
-	+ mitnehmen, das mein Freund mit einer\n
-	+ Pokémon Diamant, Perl oder Platin-Karte\n
-	+ abgelegt hat?
-    27b	= Antwort
-    27c	= Nein.\n
+   278	 = FAQ (2)
+   279	 = Frage
+   27a	 = TRANSLATION NEEDED
+   27b	 = Antwort
+   27c	 = Nein.\n
 	+ Du kannst ein Pokémon nur mit\n
 	+ derselben DS-Karte mitnehmen,\n
 	+ mit der du es abgelegt hast.
-    27d	= FAQ (3)
-    27e	= Frage
-    27f	= Wenn ich nach dem Ablegen eines\n
+   27d	 = FAQ (3)
+   27e	 = Frage
+   27f	 = Wenn ich nach dem Ablegen eines\n
 	+ Pokémon auf der Ranch ein neues Spiel\n
 	+ auf dem Nintendo DS anfange, kann ich\n
 	+ das Pokémon wieder mitnehmen?
-    280	= Antwort
-    281	= Nein.\n
+   280	 = Antwort
+   281	 = Nein.\n
 	+ Wenn du deine Speicherdaten löschst,\n
 	+ kannst du Pokémon, die du abgelegt\n
 	+ hast, nicht mehr mitnehmen.
-    282	= FAQ (4)
-    283	= Frage
-    284	= Was passiert, wenn ich die\n
+   282	 = FAQ (4)
+   283	 = Frage
+   284	 = Was passiert, wenn ich die\n
 	+ Speicherdaten von "My Pokémon Ranch"\n
 	+ lösche?
-    285	= Antwort
-    286	= Werden die Speicherdaten von\n
+   285	 = Antwort
+   286	 = Werden die Speicherdaten von\n
 	+ "My Pokémon Ranch" gelöscht, gehen\n
 	+ alle Pokémon verloren. Nimm vorher\n
 	+ unbedingt alle Pokémon mit!
-    287	= FAQ (5)
-    288	= Frage
-    289	= Wie viele Pokémon benötige ich noch,\n
+   287	 = FAQ (5)
+   288	 = Frage
+   289	 = Wie viele Pokémon benötige ich noch,\n
 	+ damit der Level meiner Ranch steigt?
-    28a	= Antwort
-    28b	= Wähle "Ranch-Status" auf dem\n
+   28a	 = Antwort
+   28b	 = Wähle "Ranch-Status" auf dem\n
 	+ Schwarzen Brett. Dort siehst du den\n
 	+ aktuellen Status deiner Ranch.
-    28c	= FAQ (6)
-    28d	= Frage
-    28e	= Wie schalte ich die\n
+   28c	 = FAQ (6)
+   28d	 = Frage
+   28e	 = Wie schalte ich die\n
 	+ Musik aus?
-    28f	= Antwort
-    290	= Wähle (Keine Musik) aus "Heutige Musik"\n
-	+ im Schwarzen Brett, oder halte \x{e043} und \x{e041}↓\n
-	+ wenn du das Spiel startest. Dann kannst\n
-	+ du das Spiel ohne Musik spielen.
-    291	= Miis auf der Ranch (1)
-    292	= Miis wählen
-    293	= Drücke \x{e042}, um ein Mii zu wählen,\n
+   28f	 = Antwort
+   290	 = TRANSLATION NEEDED
+   291	 = Miis auf der Ranch (1)
+   292	 = Miis wählen
+   293	 = Drücke \x{e042}, um ein Mii zu wählen,\n
 	+ das du auf die Ranch mitnehmen willst.\n
 	+ \n
 	+ Drücke \x{e042} erneut, wenn das Mii\n
@@ -1103,19 +1028,20 @@
 	+ \n
 	+ Wenn du fertig bist, zeige auf die Tür\n
 	+ oben links und drücke \x{e042}.
-    294	= 
-    295	= 
-    296	= Miis auf der Ranch (2)
-    297	= Miis jederzeit wählen
-    298	= Du kannst deine Miis jederzeit im\n
+   294	 = TRANSLATION NEEDED
+   295	 = TRANSLATION NEEDED
+   296	 = Miis auf der Ranch (2)
+   297	 = Miis jederzeit wählen
+   298	 = Du kannst deine Miis jederzeit im\n
 	+ Menü "Optionen" einladen und\n
 	+ wegschicken.
-    299	= Vorsicht!
-    29a	= Wenn du im Mii-Kanal ein Mii löschst,\n
+   299	 = Vorsicht!
+   29a	 = Wenn du im Mii-Kanal ein Mii löschst,\n
 	+ verschwindet es auch von der Ranch!
-    29b	= Mit DS-System verbinden
-    29c	= Vorsicht!
-    29d	= Du kannst Pokémon nur mit derselben\n
+   29b	 = Verbindung mit\n
+	+ Nintendo DS-System
+   29c	 = Vorsicht!
+   29d	 = Du kannst Pokémon nur mit derselben\n
 	+ DS-Karte mitnehmen, mit der du sie\n
 	+ abgelegt hast.\n
 	+ \n
@@ -1124,9 +1050,10 @@
 	+ kannst du die Pokémon nicht mehr\n
 	+ mitnehmen, auch wenn du dieselbe\n
 	+ DS-Karte wie beim Ablegen einsetzt.\n
-    29e	= Mit DS-System verbinden
-    29f	= Speichervorgang...
-    2a0	= Speichervorgang...\n
+   29e	 = Verbindung mit\n
+	+ Nintendo DS-System
+   29f	 = Speichervorgang...
+   2a0	 = Speichervorgang...\n
 	+ Bitte betätige weder den POWER-\n
 	+ Schalter noch den RESET-Knopf.\n
 	+ \n
@@ -1134,90 +1061,63 @@
 	+ Wenn du deine Speicherdaten löschst,\n
 	+ kannst du abgelegte Pokémon nicht\n
 	+ mehr mitnehmen, pass also gut auf.
-    2a1	= Mit DS-System verbinden
-    2a2	=
-    2a3	= Die Verbindung zum DS-System wurde\n
+   2a1	 = Verbindung mit\n
+	+ Nintendo DS-System
+   2a2	 = TRANSLATION NEEDED
+   2a3	 = Die Verbindung zum DS-System wurde\n
 	+ beendet, bevor die Daten gespeichert\n
 	+ werden konnten. Der ursprüngliche\n
 	+ Ranch-Status wird wiederhergestellt.
-    2a4	= Mit DS-System verbinden
-    2a5	= Kartenlimit
-    2a6	= Du kannst Pokémon aus bis zu acht\n
+   2a4	 = Verbindung mit\n
+	+ Nintendo DS-System
+   2a5	 = Kartenlimit
+   2a6	 = Du kannst Pokémon aus bis zu acht\n
 	+ verschiedenen DS-Karten ablegen.
-    2a7	= Mit DS-System verbinden
-    2a8	= Kartenlimit
-    2a9	= Wenn du Pokémon von einer neuen\n
-	+ Pokémon Spiel-Karte ablegen willst,\n
-	+ nimm alle Pokémon, die von\n
-	+ anderen DS-Karten abgelegt\n
-	+ wurden, wieder mit.
-    2aa	= Mit DS-System verbinden
-    2ab	= Pokédex nicht gefunden
-    2ac	= Du benötigst einen Pokédex, um\n
+   2a7	 = Verbindung mit\n
+	+ Nintendo DS-System
+   2a8	 = Kartenlimit
+   2a9	 = TRANSLATION NEEDED
+   2aa	 = Verbindung mit\n
+	+ Nintendo DS-System
+   2ab	 = Pokédex nicht gefunden
+   2ac	 = Du benötigst einen Pokédex, um\n
 	+ Pokémon auf der Ranch abzulegen.
-    2ad	= Bitte betätige den POWER-Schalter\n
-	+ der Wii für 4 Sekunden um sie\n
-	+ auszuschalten.
-	+ \n
-	+ Schalte sie danach wieder ein und\n
-	+ stelle den Nicknamen der Konsole\n
-	+ wieder her.
-    2ae	= Speicherdaten konnten nicht\n
-	+ an Nintendo gesendet werden.\n
-	+ \fÜberprüfe deine\n
-	+ Verbindungseinstellungen und\n
-	+ versuche es später erneut.
-    2af	= Deine Speicherdaten\n
-	+ an Nintendo senden?
-    2b0	= Deine Speicherdaten werden\n
-	+ an Nintendo gesendet...
-    2b1	= Deine Speicherdaten wurden\n
-	+ an Nintendo gesendet.
-    2b2	= Speicherdaten konnten nicht\n
-	+ an Nintendo gesendet werden.\n
-	+ \fÜberprüfe deine\n
-	+ Verbindungseinstellungen und\n
-	+ versuche es später erneut.
-    2b3	= Deine Speicherdaten\n
-	+ von Nintendo empfangen?
-    2b4	= Deine Speicherdaten werden\n
-	+ von Nintendo empfangen...
-    2b5	= Deine Speicherdaten wurden\n
-	+ von Nintendo empfangen...
-    2b6	= Keine Speicherdaten bei\n
-	+ Nintendo gefunden.\n
-	+ Bitte kontaktiere den\n
-	+ Nintendo Kundenservice.
-    2b7	= Speicherdaten konnten nicht\n
-	+ geschrieben werden.\n
-	+ Bitte kontaktiere den\n
-	+ Nintendo Kundenservice.
-    2b8	= Netzwerkverbindung wird überprüft\n
-	+ Bitte warte einen Moment...
-    2b9	= Stelle die Sprache deiner\n
+   2ad	 = TRANSLATION NEEDED
+   2ae	 = TRANSLATION NEEDED
+   2af	 = TRANSLATION NEEDED
+   2b0	 = TRANSLATION NEEDED
+   2b1	 = TRANSLATION NEEDED
+   2b2	 = TRANSLATION NEEDED
+   2b3	 = TRANSLATION NEEDED
+   2b4	 = TRANSLATION NEEDED
+   2b5	 = TRANSLATION NEEDED
+   2b6	 = TRANSLATION NEEDED
+   2b7	 = TRANSLATION NEEDED
+   2b8	 = TRANSLATION NEEDED
+   2b9	 = Stelle die Sprache deiner\n
 	+ Wii-Konsole auf Englisch,\n
 	+ um diese Speicherdaten\n
 	+ verwenden zu können.
-    2ba	= Stelle die Sprache deiner\n
+   2ba	 = Stelle die Sprache deiner\n
 	+ Wii-Konsole auf Deutsch,\n
 	+ um diese Speicherdaten\n
 	+ verwenden zu können.
-    2bb	= Stelle die Sprache deiner\n
+   2bb	 = Stelle die Sprache deiner\n
 	+ Wii-Konsole auf Französisch,\n
 	+ um diese Speicherdaten\n
 	+ verwenden zu können.
-    2bc	= Stelle die Sprache deiner\n
+   2bc	 = Stelle die Sprache deiner\n
 	+ Wii-Konsole auf Spanisch,\n
 	+ um diese Speicherdaten\n
 	+ verwenden zu können.
-    2bd	= Stelle die Sprache deiner\n
+   2bd	 = Stelle die Sprache deiner\n
 	+ Wii-Konsole auf Italienisch,\n
 	+ um diese Speicherdaten\n
 	+ verwenden zu können.
-    2be	= Möchtest du auf deine Ranch\n
+   2be	 = Möchtest du auf deine Ranch\n
 	+ zurückkehren?
-    2bf	= Edition
-    2c0	= Diamant
-    2c1	= Perl
-    2c2	= Platin
 
+   2bf	 = TRANSLATION NEEDED
+   2c0	 = TRANSLATION NEEDED
+   2c1	 = TRANSLATION NEEDED
+   2c2	 = TRANSLATION NEEDED

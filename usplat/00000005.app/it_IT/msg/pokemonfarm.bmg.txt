@@ -46,619 +46,1044 @@
 #
 #------------------------------------------------------------------------------
 
-     0	= 
-     1	= Avvia un gioco Pokémon di\n
-	+ Quarta Generazione sul tuo\n
-	+ Nintendo DS e seleziona\n
-	+ Collegamento alla console Wii.
-     2	= Se questa opzione non appare\n
+     0	 = TRANSLATION NEEDED
+     1	 = TRANSLATION NEEDED
+     2	 = Se questa opzione non appare\n
 	+ nel menu principale, torna allo\n
 	+ schermo del titolo e riprova.
-     3	= Collegamento con il DS annullato.
-     4	= Accettando il DS con l'opzione\n
+     3	 = Collegamento annullato con il DS.
+     4	 = Accettare il DS nel modo di\n
 	+ "COLLEGATI ALLA CONSOLE Wii".
-     5	= Accettando il DS con l'opzione\n
-	+ "Download DS".
-     6	= Modificata l'opzione in "COLLEGATI ALLA CONSOLE Wii".
-     7	= Modificata l'opzione in di "Download DS".
-     8	= Simulazione di connessione con il DS in corso.
-     9	= Collegamento alla console\n
-	+ Nintendo DS in corso...
-     a	= Collegamento al DS annullato:\n
-	+ tempo limite per la connessione scaduto (60 secondi).
-     b	= Download annullato.
-     c	= Download cancellato, e\n
-	+ simulazione di connessione con il DS in corso.
-     d	= Download completato.
-     e	= Download cancellato.
-     f	= \n
-	+ Tempo trascorso: %.3f secondi.
-    10	= Attendi...
-    11	= Collegamento alla console\n
+     5	 = Accettare il DS nel\n
+	+ modo di "Download DS".
+     6	 = Commutato al modo di "COLLEGATI ALLA CONSOLE Wii".
+     7	 = Commutato al modo di "Download DS".
+     8	 = Finto collegare con il DS.
+     9	 = Collegamento alla console\n
+	+ Nintendo DS...
+     a	 = [it]Cancelled to accept DS\n
+	+ due to timeout. (60 seconds)
+     b	 = (fixme) Download saltato.
+     c	 = (fixme) Annullato per trasferire e\n
+	+ finto collegare con la DS.
+     d	 = Download completato.
+     e	 = (fixme) Download è annullato.
+     f	 = (fixme) \n
+	+ %.3f secondi sono trascorso.
+    10	 = Attendi...
+    11	 = Collegamento alla console\n
 	+ Nintendo DS effettuato.
-    12	= Disconnessione dal DS in corso...
-    13	= Disconnessione dal DS completata.
-    14	= Collegati al DS
-    15	= Prova
-    16	= Deposita
-    17	= Ritira
-    18	= Salva
-    19	= Salvataggio in corso...\n
-        + Non spegnere la console.
-    1a	= Dati salvati.
-    1b	= %ls è arrivato al Ranch.
-    1c	= Connesso con l'Allenatore\n
+    12	 = (fixme) Staccando con la DS.
+    13	 = (fixme) Staccato con la DS.
+    14	 = Collegati al DS
+    15	 = Prova
+    16	 = Deposita
+    17	 = Ritira
+    18	 = Salva
+    19	 = (fixme) [Rapporto1]
+    1a	 = Dati salvati.
+    1b	 = %ls è al Ranch.
+    1c	 = Collegamento con l'Allenatore\n
 	+ %ls.
-    1d	= Connesso con: %ls
-    1e	= Collegamento interrotto.
-    20	= \n
+    1d	 = Collegamento con: %ls
+    1e	 = Collegamento interrotto.
+    1f	 = %ls ha lasciato \n
 	+ il Ranch.
-    21	= \n
+    20	 = \n
 	+ Non è stata trovata nessuna\n
 	+ console Nintendo DS.
-    22	= \n
+    21	 = \n
 	+ Collegamento non riuscito.\n
-    23	= Vuoi uscire senza salvare?
-    24	= A causa di un errore di\n
+	+ Riprova.
+    22	 = \n
+	+ Collegamento non riuscito.\n
+	+ Riprova.
+    23	 = Vuoi uscire senza salvare?
+    24	 = A causa di un errore di\n
 	+ comunicazione il collegamento\n
 	+ alla console Nintendo DS\n
 	+ è stato interrotto.
-    26	= Un nuovo Pokémon al Ranch.
-    27	= 
-    29	= Un Pokémon ha lasciato il Ranch.
-    2a	= 
-    2b	= Impossibile collegarsi alla\n
-    2c	= 
+    25	 = %d nuovi Pokémon al Ranch.
+    26	 = Un nuovo Pokémon al Ranch.
+    27	 = TRANSLATION NEEDED
+    28	 = %d Pokémon hanno\n
+	+ lasciato il Ranch.
+    29	 = Un Pokémon ha lasciato il Ranch.
+    2a	 = TRANSLATION NEEDED
+    2b	 = Impossibile collegarsi alla\n
+	+ console Nintendo DS.\n
 	+ \fRiavvia My Pokémon Ranch\n
-    2e	= \n
-	+ Disconnected from the DS.
-    2f	= Please wait...
-    30	= Sort:\040
-    31	= Name:\040
-    32	= Type:\040
-    33	= Move:\040
-    34	= Ability:\040
-    35	= Nature:\040
-    36	= Mark:\040
-    37	= NONE
-    38	= Depositato
-    39	= Pokédex No.
-    3a	= Nome
-    3b	= Soprannome
-    3c	= Livello
-    3d	= Oggetto
-    3e	= PS
-    3f	= Attacco
-    40	= Difesa
-    41	= Attacco Sp.
-    42	= Peso
-    48	= Return
-    49	= Connect to DS
-    4a	= Cancel connection
-    4b	= Disconnect from DS
-    4c	= Album
-    4d	= Bacheca
-    55	= Okay and Return
-    56	= Free Mode
-    57	= Bring Mii
-    58	= Look at My Ranch!
-    59	= Foto successiva
-	+ la Bacheca Wii.
-    5b	= Cancella
-    61	= Vuoi davvero cancellare\n
+	+ e riprova.
+    2c	 = TRANSLATION NEEDED
+    2d	 = In attesa di risposta dalla\n
+	+ console Nintendo DS...
+    2e   = TRANSLATION NEEDED
+    2f   = Attendi...
+    30	 = Ordine:\040
+    31	 = Nome:\040
+    32	 = Tipo:\040
+    33	 = Mossa:\040
+    34	 = Abilità:\040
+    35	 = Natura:\040
+    36	 = Contrassegno:\040
+    37	 = TRANSLATION NEEDED
+    38	 = Data deposito
+    39	 = Nº Pokédex
+    3a	 = Nome Pokémon
+    3b	 = Soprannome
+    3c	 = Livello
+    3d	 = Strumento
+    3e	 = PS
+    3f	 = Attacco
+    40	 = Difesa
+    41	 = Attacco Speciale
+    42	 = Difesa Speciale
+    43	 = Velocità
+    44	 = Peso
+    45	 = Altezza
+    46	 = Pokémon desiderati:
+    47	 = Non hai Pokémon, quindi non puoi usare l'opzione Pokémon desiderati!
+    48	 = Indietro
+    49	 = Collegati al DS
+    4a	 = Annulla il\n
+	+ collegamento
+    4b	 = Termina il\n
+	+ collegamento
+    4c	 = Album
+    4d	 = Scatta una foto
+    4e	 = Aiuto
+    4f	 = Bacheca
+    50	 = Guarda qui!
+    51	 = Opzioni
+    52	 = Modalità libera
+    53	 = Modalità automatica
+    54	 = Dettagli
+    55	 = Ok e torna al Ranch
+    56	 = Modalità libera
+    57	 = Porta Mii
+    58	 = Guarda il Ranch!
+    59	 = Ospiti del Ranch
+    5a	 = TRANSLATION NEEDED
+    5b	 = Foto successiva
+    5c	 = Foto precedente
+    5d	 = Cancella
+    5e	 = Invia alla bacheca Wii
+    5f	 = Ranch %ls
+    60	 = %2d/%2d
+    61	 = Vuoi davvero inviare questa\n
+	+ foto alla bacheca Wii?
+    62	 = Foto inviata alla\n
+	+ bacheca Wii.
+    63	 = Vuoi davvero cancellare\n
 	+ questa foto?
-    64	= Vuoi salvare questa foto\n
-	+ foto di My Pokémon Ranch\n
-    65	= Foto salvata come\n
-	+ %2$.4s%3$04d.JPG nella\n
-	+ foto?
-	+ della scheda SD.
-	+ %d foto?
-    68	= Cancella tutte le foto di\n
-	+ the SD Card...
+    64	 = Foto cancellata.
+    65	 = Salva in una scheda SD
+    66	 = Vuoi salvare questa foto\n
+	+ in una scheda SD?
+    67	 = TRANSLATION NEEDED
+    68	 = Notizie dal Ranch
+    69	 = Cancella tutte le foto\n
+	+ salvate nella scheda SD
+    6a	 = Cancella tutte le foto di\n
+	+ My Pokémon Ranch salvate\n
 	+ nella scheda SD.
-	+ Pokémon Ranch were\n
+    6b	 = Vuoi davvero cancellare tutte\n
 	+ le foto?
-    6a	= Vuoi davvero cancellare\n
-	+ Pokémon Ranch pictures\n
-    6b	= Vuoi davvero cancellare\n
+    6c	 = Vuoi davvero cancellare\n
+	+ %d foto?
+    6d	 = Vuoi davvero cancellare\n
 	+ 1 foto?
-	+ Pokémon Ranch pictures\n
-	+ saved on the SD Card...\n
-    6d	= Ricerca delle foto nella\n
+    6e	 = Vuoi davvero cancellare\n
+	+ tutte le foto?
+    6f	 = Ricerca delle foto nella\n
 	+ scheda SD in corso...
-	+ pictures on the SD Card were\n
+    70	 = Non sono state trovate foto\n
 	+ di My Pokémon Ranch nella\n
 	+ scheda SD.
-	+ could not be deleted
-    70	= Cancellazione di tutte le foto\n
+    71	 = Cancellazione di tutte le foto\n
 	+ di My Pokémon Ranch dalla\n
-	+ scheda SD in corso...\n
-	+ %d/%d.
-    71	= Tutte le foto di My Pokémon\n
+	+ scheda SD in corso...
+    72	 = TRANSLATION NEEDED
+    73	 = Tutte le foto di My Pokémon\n
 	+ Ranch nella scheda SD sono\n
 	+ state cancellate.
-    72	= Non è stato possibile cancellare\n
-    74	= Proteggi
-    75	= Rimuovi la protezione
-	+ inserted into the SD Card slot.
+    74	 = Non è stato possibile cancellare\n
+	+ alcune foto dalla scheda SD.
+    75	 = - Attenzione -\n
+	+ Inviare molte foto alla bacheca\n
+	+ Wii riempirà velocemente la \n
+	+ memoria della console Wii.\n
+	+ \fSe la bacheca Wii è piena,\n
+	+ i messaggi più vecchi verranno\n
+	+ cancellati automaticamente.\n
+	+ \fPer maggiori informazioni,\n
+	+ consulta il manuale di istruzioni\n
+	+ della console Wii.
+    76	 = Proteggi
+    77	 = Rimuovi la protezione
+    78	 = Puoi proteggere un massimo\n
 	+ di 19 foto.
-	+ Would you like to format it?
+    79	 = Le foto danneggiate sono\n
 	+ state cancellate.
-	+ inserted into the SD Card slot.
-    7a	= Impossibile caricare\n
-	+ space on the SD Card.\n
-	+ Create 1 block of free\n
-	+ space to save the data.
-    7c	= Impossibile salvare o cancellare\n
+    7a	 = La foto danneggiata è\n
+	+ stata cancellata.
+    7b	 = Tutte le foto sono state\n
+	+ cancellate perché i dati\n
+	+ erano danneggiati.
+    7c	 = Impossibile caricare\n
+	+ i dati delle foto.
+    7d	 = TRANSLATION NEEDED
+    7e	 = TRANSLATION NEEDED
+    7f	 = TRANSLATION NEEDED
+    80	 = TRANSLATION NEEDED
+    81	 = TRANSLATION NEEDED
+    82	 = TRANSLATION NEEDED
+    83	 = TRANSLATION NEEDED
+    84	 = Non è stata trovata\n
+	+ nessuna scheda SD.
+    85	 = Impossibile salvare o cancellare\n
 	+ i dati sulla scheda SD. Rimuovi\n
-	+ the SD Card.
-    7d	= Il dispositivo all'interno\n
-	+ pictures to this SD Card.
+	+ la protezione.
+    86	 = Il dispositivo all'interno\n
+	+ dell'alloggiamento scheda SD\n
 	+ non può essere utilizzato.
-	+ Do not remove the SD card\n
+    87	 = La scheda SD potrebbe essere\n
 	+ danneggiata. Vuoi formattarla?
-    82	= Si è verificato un errore\n
-	+ the SD Card was removed.
-    89	= Impossibile formattare\n
-	+ was erased from the Mii\n
-    8a	= Formattazione annullata.\n
-    8b	= Cancellazione file annullata.\n
-	+ from the Mii Channel.
-    8f	= Si è verificato un errore\n
-    93	= Pagina successiva
-    94	= Scegli un Mii che si prenda cura dei\n
+    88	 = Il dispositivo all'interno\n
+	+ dell'alloggiamento scheda SD\n
+	+ non può essere utilizzato.
+    89	 = La scheda SD è piena.\n
+	+ Inserisci una scheda SD che\n
+	+ abbia almeno %d blocchi liberi.
+    8a	 = La scheda SD è piena.\n
+	+ Inserisci una scheda SD che\n
+	+ abbia almeno 1 blocco libero.
+    8b	 = Si è verificato un errore\n
+	+ con la scheda SD.
+    8c	 = Impossibile leggere\n
+	+ la scheda SD.
+    8d	 = Salvataggio sulla scheda SD...\n
+	+ Non rimuovere la scheda SD e\n
+	+ non toccare il pulsante POWER\n
+	+ o il pulsante RESET.
+    8e	 = Impossibile salvare\n
+	+ sulla scheda SD.
+    8f	 = Impossibile salvare altre\n
+	+ foto in questa scheda SD.
+    90	 = Formattazione della scheda SD.\n
+	+ Non rimuovere la scheda SD e\n
+	+ non toccare il pulsante POWER\n
+	+ o il pulsante RESET.
+    91	 = Scheda SD formattata.
+    92	 = Impossibile formattare\n
+	+ la scheda SD.
+    93	 = Formattazione annullata.\n
+	+ La scheda SD è stata\n
+	+ rimossa.
+    94	 = Cancellazione file annullata.\n
+	+ La scheda SD è stata rimossa.
+    95	 = Formattazione annullata.\n
+	+ La scheda SD è stata\n
+	+ rimossa.
+    96	 = Cancellazione file annullata.\n
+	+ La scheda SD è stata rimossa.
+    97	 = Salvataggio file annullato.\n
+	+ La scheda SD è stata rimossa.
+    98	 = Si è verificato un errore\n
+	+ con la scheda SD. Riavvia\n
+	+ la console Wii e riprova.
+    99   = TRANSLATION NEEDED
+    9a	 = Scegli uno o più Mii da portare\n
+	+ al Ranch.
+    9b	 = Scelti: %d Da scegliere: %d
+    9c	 = Pagina precedente
+    9d	 = Pagina successiva
+    9e	 = Scegli un Mii che si prenda cura dei\n
 	+ Pokémon di questo Allenatore.
-	+ maybe an unexpected guest will\n
+    9f	 = Scegli dal \n
 	+ Ranch.
-    96	= Scegli un Mii\n
+    a0	 = Scegli un Mii\n
 	+ differente.
-	+ maybe an unexpected guest\n
+    a1	 = Il Mii che avevi portato al\n
 	+ Ranch è stato cancellato\n
 	+ dal Canale Mii.
-    98	= I Mii che avevi portato al\n
+    a2	 = I Mii che avevi portato al\n
 	+ Ranch sono stati cancellati\n
 	+ dal Canale Mii.
-	+ been restricted. Check the\n
+    a3	 = Il Mii guardiano è stato\n
 	+ cancellato dal Canale Mii.
-    9a	= I Mii guardiani sono stati\n
-	+ is not turned on.\n
-    9b	= Giulia
-    9c	= GIULIA
-    9d	= Proprietario
-	+ \fRegister a Wii Friend under\n
-    9f	= Rachele
-    a0	= Giulia
-	+ without notice.
+    a4	 = I Mii guardiani sono stati\n
+	+ cancellati dal Canale Mii.
+    a5	 = Giulia
+    a6	 = Giulia
+    a7	 = Proprietario
+    a8	 = Giorgio
+    a9	 = Rachele
+    aa	 = Giulia
+    ab	 = Si è verificato un errore.\n
 	+ Salva i dati, riavvia la\n
-    a4	= Attendi...
-    a5	= SÌ
-    a6	= NO
-    a7	= Selezionando SÌ, potrai inviare\n
-	+ %d\n
-	+ %d\n
+	+ console Wii e riprova.
+    ac	 = CODICE ERRORE: %06d
+    ad	 = Attendi...
+    ae	 = Attendi...
+    af	 = SÌ
+    b0	 = NESSUNO
+    b1	 = Selezionando SÌ, potrai inviare\n
+	+ le foto e altre informazioni \n
 	+ sul Ranch ai tuoi amici Wii.
+    b2	 = Se scegli SÌ potresti ricevere\n
+	+ al Ranch visite inattese\n
+	+ tramite WiiConnect24.
+    b3	 = Se scegli SÌ potresti ricevere\n
+	+ al Ranch visite inattese\n
+	+ tramite WiiConnect24.\n
+	+ (Dopo un certo periodo di\n
+	+ tempo, non riceverai più\n
+	+ questo genere di visite.)
+    b4	 = ネットワークきのうは\n
+	+ ペアレンタル コントロールで\n
+	+ せいげんされています。
+    b5	 = WiiConnect24の せっていが\n
+	+ ONに なっていません。\n
+	+ Wiiオプションで せっていを\n
+	+ かくにんしてください。
+    b6	 = Non ci sono amici Wii registrati.\n
+	+ \fRegistra un amico Wii nel\n
+	+ menu della bacheca.
+    b7	 = Questo servizio può terminare\n
+	+ senza preavviso.
+    b8	 = Pokémon desiderati
+    b9   = TRANSLATION NEEDED
+    ba	 = TRANSLATION NEEDED
+    bb	 = È già pieno di %{}!
+    bc	 = È già pieno di Uova!
+    bd	 = Livello del Ranch\n
+	+ N. Pokémon max.\n
+	+ N. Mii max.\n
+	+ N. Pokémon\n
+	+ Prossimo livello
+    be	 = %d\n
+	+ %ls\n
+	+ %d\n
+	+ %ls\n
 	+ %d
-    ac	= Non ci sono amici Wii registrati.\n
-    c9	= until %ls
-    ca	= Trade with %ls!
-    cb	= Choose Music
-    cc	= Previous Page
-    cd	= Next Page
-    ce	= Okay and Return
-    cf	= Others
-    d0	= (No Music)
-    d1	= ♪Platinum Farm
-    d2	= ♪Soft Sunlight
-    d3	= ♪Leisurely Walk
-    d4	= ♪Connected World
-    d5	= ♪My Dream
-    d6	= ♪Let's Go!
-    d7	= ♪Welcome to the Ranch
-    d8	= ♪My Pokémon Parade
-    d9	= ♪Jigglypuff's Song
-    da	= Club Look-See
-    db	= Previous Page
-    dc	= Next Page
-    dd	= Return
-    de	= Would you like to go to\n
-	+ the %ls Ranch?
-    df	= ???
-    e0	= Tomorrow...
-    e1	= The Ranch's expanding!
-    e2	= ...is coming!
-    e3	= Focus Lock
-    e4	= Help
-    e5	= Introduction
-    e6	= Operations
-    e7	= Pictures
-    e8	= Connect to DS
-    e9	= Details
-    ea	= BBS
-    eb	= Options
-    ec	= FAQ
-    ed	= %d/%d
-    ee	= $1$ $2$, 20$0$\n
-	+ Brought by Hayley.
-%ls\n	%ls\n+%ls\n %ls\n%%ls\nl%ls\ns%ls\n\%ls\nn%ls\n
-	+ A mysterious Egg was received\n
+    bf	 = %d\n
+	+ %ls\n
+	+ %d\n
 	+ %ls\n
 	+ ----
-    f0	= No. of Pokémon cared for: %d
-    f1	= Lv. %d
-    f2	= ★ Number of Ribbons obtained: %d
-    f3	= New!
-    f4	= ♂ Lv. %d
-    f5	= ♀ Lv. %d
-    f6	= Lv. %d
-    f7	= ♂
-    f8	= ♀
-    f9	= Friends at the Ranch
-    fa	= Pokémon on the Ranch
-    fb	= All
-    fd	= Stored Pokémon
-    fe	= %d
-    ff	= %d stored.
-   100	= %d%ls stored.
-   101	= Previous Page
-   102	= Next Page
-   103	= Return
-   104	= Cancel
-   105	= Go to a Parade
-   106	= Trainer
-   107	= Deposit amount
-   108	= Caretaker
-   109	= Parade
-   10a	= 
-   10b	= What do you want to store?
-   10c	= Default
-   10d	= List by Pokédex order
-   10e	= List by type
-   10f	= List by marking
-   110	= List by body style
-   111	= %d/%d
-   112	= red
-   113	= blue
-   114	= yellow
-   115	= green
-   116	= black
-   117	= brown
-   118	= purple
-   119	= gray
-   11a	= white
-   11b	= pink
-   11c	= short
-   11d	= tall
-   11e	= light
-   11f	= heavy
-   120	= fiery
-   121	= cold
-   122	= scary
-   123	= fast
-   124	= round
-   125	= flying
-   126	= sturdy
-   127	= focused
-   128	= paralyzing
-   129	= calm
-   12a	= oblivious
-   12b	= stinky
-   12c	= singing
-   12d	= sweet-smelling
-   12e	= rare
-   12f	= Ranch Rumor %02d
-   130	= %02d:%ls
-   131	= Attention
-   132	= Zigzag Parade
-   133	= Dash
-   134	= Sky Parade
-   135	= Totem Pole
-   136	= Hop-Hop Dance
-   137	= Pikachu Party
-   138	= Circle Dance
-   139	= Ring Dance
-   13a	= Zigzag Dance
-   13b	= Slow Waltz
-   13c	= Do the Wave
-   13d	= Chorus
-   13e	= Carousel
-   13f	= Clock
-   140	= Keyboard
-   141	= Dizzy Dance 
-   142	= Sumo Parade
-   143	= Tournament
-   144	= Whack-a-Mole
-   145	= Shoving Game
-   146	= Flower Dance
-   147	= ●
-   148	= ▲
-	+ Press \x{e042} to return to\n
-   14a	= ♥
-   14b	= ★
-   14c	= ◆
-   14f	= Controllo dell'ora della\n
+    c0	 = TRANSLATION NEEDED
+    c1	 = TRANSLATION NEEDED
+    c2	 = Info sul Ranch
+    c3	 = Bacheca
+    c4	 = Cronologia
+    c5	 = Dettagli
+    c6	 = Tutti
+    c7	 = %ls\n
+	+ ce l'ha fatta!
+    c8	 = Da %ls
+    c9	 = fino a: %ls
+    ca	 = TRANSLATION NEEDED
+    cb	 = TRANSLATION NEEDED
+    cc	 = Pagina precedente
+    cd	 = Pagina successiva
+    ce	 = Ok e torna al Ranch
+    cf	 = TRANSLATION NEEDED
+    d0	 = TRANSLATION NEEDED
+    d1	 = TRANSLATION NEEDED
+    d2	 = TRANSLATION NEEDED
+    d3	 = TRANSLATION NEEDED
+    d4	 = TRANSLATION NEEDED
+    d5	 = TRANSLATION NEEDED
+    d6	 = TRANSLATION NEEDED
+    d7	 = TRANSLATION NEEDED
+    d8	 = TRANSLATION NEEDED
+    d9	 = TRANSLATION NEEDED
+    da	 = TRANSLATION NEEDED
+    db	 = Pagina precedente
+    dc	 = Pagina successiva
+    dd	 = Indietro
+    de	 = TRANSLATION NEEDED
+    df	 = TRANSLATION NEEDED
+    e0	 = Domani...
+    e1	 = ... il Ranch si espande!
+    e2	 = ... in arrivo!
+    e3	 = Blocco\n
+	+ Focus
+    e4	 = Aiuto
+    e5	 = Introduzione
+    e6	 = Comandi
+    e7	 = Foto
+    e8	 = Collegati al DS
+    e9	 = Dettagli
+    ea	 = Bacheca
+    eb	 = Opzioni
+    ec	 = FAQ
+    ed	 = %d/%d
+    ee	 = $2$ $1$ 20$0$\n
+	+ Portato da Giulia.
+    ef	 = $7$ $6$ 20$5$\n
+	+ Hai ricevuto un Uovo misterioso\n
+	+ da $8$.
+    f0	 = Si prende cura di %ls Pokémon.
+    f1	 = L. %d
+    f2	 = ★ Fiocchi ottenuti: %d
+    f3	 = Nuovo!
+    f4	 = ♂ L. %d
+    f5	 = ♀ L. %d
+    f6	 = L. %d
+    f7	 = ♂
+    f8	 = ♀
+    f9	 = Amici al Ranch
+    fa	 = TRANSLATION NEEDED
+    fb	 = Tutti
+    fc	 = Preferiti
+    fd	 = TRANSLATION NEEDED
+    fe	 = TRANSLATION NEEDED
+    ff	 = TRANSLATION NEEDED
+   100	 = TRANSLATION NEEDED
+   101	 = Pagina precedente
+   102	 = Pagina successiva
+   103	 = Indietro
+   104	 = Annulla
+   105	 = Organizza una parata
+   106	 = Allenatore
+   107	 = Depositati
+   108	 = Guardiano
+   109	 = Parata
+   10a	 = TRANSLATION NEEDED
+   10b	 = TRANSLATION NEEDED
+   10c	 = TRANSLATION NEEDED
+   10d	 = TRANSLATION NEEDED
+   10e	 = TRANSLATION NEEDED
+   10f	 = TRANSLATION NEEDED
+   110	 = TRANSLATION NEEDED
+   111	 = %d/%d
+   112	 = TRANSLATION NEEDED
+   113	 = TRANSLATION NEEDED
+   114	 = TRANSLATION NEEDED
+   115	 = TRANSLATION NEEDED
+   116	 = TRANSLATION NEEDED
+   117	 = TRANSLATION NEEDED
+   118	 = TRANSLATION NEEDED
+   119	 = TRANSLATION NEEDED
+   11a	 = TRANSLATION NEEDED
+   11b	 = TRANSLATION NEEDED
+   11c	 = TRANSLATION NEEDED
+   11d	 = TRANSLATION NEEDED
+   11e	 = TRANSLATION NEEDED
+   11f	 = TRANSLATION NEEDED
+   120	 = TRANSLATION NEEDED
+   121	 = TRANSLATION NEEDED
+   122	 = TRANSLATION NEEDED
+   123	 = TRANSLATION NEEDED
+   124	 = TRANSLATION NEEDED
+   125	 = TRANSLATION NEEDED
+   126	 = TRANSLATION NEEDED
+   127	 = TRANSLATION NEEDED
+   128	 = TRANSLATION NEEDED
+   129	 = TRANSLATION NEEDED
+   12a	 = TRANSLATION NEEDED
+   12b	 = TRANSLATION NEEDED
+   12c	 = TRANSLATION NEEDED
+   12d	 = TRANSLATION NEEDED
+   12e	 = TRANSLATION NEEDED
+   12f	 = TRANSLATION NEEDED
+   130	 = TRANSLATION NEEDED
+   131	 = Attenzione
+   132	 = Parata Zigzag
+   133	 = Corsa Pokémon
+   134	 = Parata Volante
+   135	 = Totem
+   136	 = Ballo Salta-Salta
+   137	 = Pikachu Party
+   138	 = Danza in Cerchio
+   139	 = Danza della Gioia
+   13a	 = Danza Zigzag
+   13b	 = Valzer
+   13c	 = La Ola
+   13d	 = Coro
+   13e	 = Carosello
+   13f	 = Orologio
+   140	 = Tastiera
+   141	 = TRANSLATION NEEDED
+   142	 = TRANSLATION NEEDED
+   143	 = TRANSLATION NEEDED
+   144	 = TRANSLATION NEEDED
+   145	 = TRANSLATION NEEDED
+   146	 = TRANSLATION NEEDED
+   147	 = TRANSLATION NEEDED
+   148	 = TRANSLATION NEEDED
+   149	 = TRANSLATION NEEDED
+   14a	 = TRANSLATION NEEDED
+   14b	 = TRANSLATION NEEDED
+   14c	 = TRANSLATION NEEDED
+   14d	 = TRANSLATION NEEDED
+   14e	 = TRANSLATION NEEDED
+   14f	 = TRANSLATION NEEDED
+   150	 = Esci
+   151	 = Rosanna
+   152	 = Gloria
+   153	 = Massimo
+   154	 = Valerio
+   155	 = Barbara
+   156	 = Marta
+   157	 = Tania
+   158	 = Sandra
+   159	 = Giulio
+   15a	 = Patty
+   15b	 = Stefano
+   15c	 = Cecilia
+   15d	 = Betta
+   15e	 = Aldo
+   15f	 = Alice
+   160	 = Sergio
+   161	 = Matilde
+   162	 = Rosa
+   163	 = Vanessa
+   164	 = Bruno
+   165	 = Chiara
+   166	 = Pietro
+   167	 = Paolo
+   168	 = Dario
+   169	 = Ornella
+   16a	 = Susanna
+   16b	 = Carlo
+   16c	 = Grazia
+   16d	 = Diego
+   16e	 = Nicola
+   16f	 = Adriano
+   170	 = Tommaso
+   171	 = Rebecca
+   172	 = Milena
+   173	 = Anita
+   174	 = Arturo
+   175	 = Luca
+   176	 = TRANSLATION NEEDED
+   177	 = TRANSLATION NEEDED
+   178	 = TRANSLATION NEEDED
+   179	 = dei Fiori
+   17a	 = dell'Acqua
+   17b	 = del Fuoco
+   17c	 = Buio
+   17d	 = Psico
+   17e	 = Lotta
+   17f	 = Coleottero
+   180	 = Soffice
+   181	 = Elettro
+   182	 = Concordia
+   183	 = Trofeo
+   184	 = Piccolo
+   185	 = delle Uova
+   186	 = Antico
+   187	 = Profumato
+   188	 = Raduno
+   189	 = Magnetico
+   18a	 = Rosa
+   18b	 = Wobbuffet
+   18c	 = Bidoof
+   18d	 = Pikachu
+   18e	 = di Roccia
+   18f	 = Polipoké
+   190	 = Orrore
+   191	 = Burmy
+   192	 = Tropicale
+   193   = Tossico
+   194   = Evoluzione
+   195   = Sottosuolo
+   196   = Mistico
+   197   = della Neve
+   198   = dei Tori
+   199   = della Lana
+   19a   = Mucca
+   19b   = del Drago
+   19c   = Terra
+   19d   = Gran Cielo
+   19e   = TRANSLATION NEEDED
+   19f	 = TRANSLATION NEEDED
+   1a0	 = TRANSLATION NEEDED
+   1a1	 = © Pokémon/Nintendo.
+   1a2	 = TRANSLATION NEEDED
+   1a3	 = Ranch\n
+	+ %ls
+   1a4	 = Salvataggio in corso...
+   1a5	 = ●
+   1a6	 = ▲
+   1a7	 = ■
+   1a8	 = ♥
+   1a9	 = ★
+   1aa	 = ◆
+   1ab	 = My Pokémon Ranch utilizza\n
+	+ i Mii creati nel Canale Mii.
+   1ac   = Crea un Mii accedendo al\n
+	+ Canale Mii dal menu Wii.\n
+	+ Premi \x{e042} per tornare\n
+	+ al menu Wii.
+   1ad   = Controllo dell'ora della\n
 	+ console Wii in corso.
-   153	= Riportare indietro il calendario\n
+   1ae	 = Calendario: %ls %ls\n
+	+ Va bene?
+   1af	 = Assicurati che il calendario sia\n
+	+ impostato correttamente\n
+	+ nel menu Wii. Premi \x{e042}\n
+	+ per accedere alle opzioni Wii.
+   1b0	 = Il calendario della console Wii\n
+	+ è stato riportato indietro.
+   1b1	 = Riportare indietro il calendario\n
 	+ della console Wii potrebbe \n
-   158	= Vuoi tornare al menu Wii?
-	+ to look at and press \x{e042}.
-   15b	= Se cancelli, perderai i Pokémon!
-   15f	= Focus
-	+ attention to you.
-   161	= I comandi di base (2)
-   164	= Guarda qui!\n
+	+ causare il malfunzionamento\n
+	+ del gioco.
+   1b2	 = Vuoi continuare?
+   1b3   =  [Musica disattivata]\n
+	+ Hai premuto \x{e043} e \x{e041}↓.\n
+	+ Il gioco inizierà senza musica.
+   1b4   = Premi \x{e042} per tornare\n
+	+ al menu Wii.
+   1b5	 = Premi \x{e042} per tornare\n
+	+ al menu Wii.
+   1b6	 = Vuoi tornare al menu Wii?
+   1b7	 = My Pokémon Ranch
+   1b8	 = Ranch (DVD)
+   1b9	 = Se cancelli, perderai i Pokémon!
+   1ba	 = I comandi di base (1)
+   1bb	 = Muovere il cursore
+   1bc	 = Muovi il cursore puntando\n
+	+ il telecomando Wii.
+   1bd	 = Blocco\n
+	+ Focus
+   1be   = Punta l'oggetto che vuoi\n
+	+ guardare e premi \x{e042}.
+   1bf	 = I comandi di base (2)
+   1c0	 = Scatta una foto\n
+	+ (Anche con \x{e047}!)
+   1c1	 = Scatta una foto.\n
+	+ Il numero indica quante\n
+	+ foto puoi ancora scattare.
+   1c2	 = Guarda qui!\n
 	+ (Anche con \x{e048}!)
-   165	= I Pokémon e i Mii si voltano\n
-   169	= 
-   16a	= 
-	+ it every day or migrating Pokémon from\n
-   16c	= Tornare al menu Wii
-   177	= Cerca
-	+ ←→: Previous or Next
-   179	= Guarda qui!
-   17a	= Menu HOME
-   180	= Cerca
-   181	= Usa \x{e041} per cercare nella lista.
-	+ a Pokémon or Mii, your\n
+   1c3	 = I Pokémon e i Mii si voltano\n
+	+ verso di te.
+   1c4	 = Salva
+   1c5	 = Salva
+   1c6	 = I dati di gioco vengono\n
+	+ salvati automaticamente.\n
+	+ \n
+	+ Quando appare il messaggio\n
+	+ "Salvataggio in corso...", non\n
+	+ toccare il pulsante POWER\n
+	+ o il pulsante RESET.
+   1c7	 = TRANSLATION NEEDED
+   1c8	 = TRANSLATION NEEDED
+   1c9	 = Come smetto di giocare?
+   1ca	 = Tornare al menu Wii
+   1cb	 = Quando vuoi smettere di giocare,\n
+	+ scegli questa opzione.
+   1cc	 = TRANSLATION NEEDED
+   1cd	 = TRANSLATION NEEDED
+   1ce	 = Introduzione
+   1cf	 = My Pokémon Ranch
+   1d0	 = TRANSLATION NEEDED
+   1d1	 = TRANSLATION NEEDED
+   1d2	 = TRANSLATION NEEDED
+   1d3	 = TRANSLATION NEEDED
+   1d4	 = TRANSLATION NEEDED
+   1d5	 = TRANSLATION NEEDED
+   1d6	 = TRANSLATION NEEDED
+   1d7	 = TRANSLATION NEEDED
+   1d8	 = TRANSLATION NEEDED
+   1d9	 = Comandi
+   1da	 = Blocco\n
+	+ Focus
+   1db	 = Cerca
+   1dc	 = Scatta una foto
+   1dd	 = Guarda qui!
+   1de	 = Menu HOME
+   1df	 = Afferra
+   1e0	 = Scorri
+   1e1	 = Zoom +
+   1e2	 = Zoom -
+   1e3	 = Quando usi la modalità libera
+   1e4	 = Cerca
+   1e5	 = Usa \x{e041} per cercare nella lista.
+   1e6	 = Puoi usare \x{e041} per cercare\n
 	+ Pokémon, Mii o giocattoli.\n
 	+ \n
 	+ ↑↓  Scorri uno alla volta\n
-   187	= Premi \x{e042} mentre guardi\n
+	+ ←→  Scorri più alla volta
+   1e7	 = TRANSLATION NEEDED
+   1e8	 = TRANSLATION NEEDED
+   1e9	 = Blocco\n
+	+ Focus
+   1ea	 = Blocco\n
+	+ Focus
+   1eb	 = Premi \x{e042} mentre guardi\n
 	+ un Pokémon o un Mii per\n
-	+ changes which Pokémon\n
-	+ or Mii is focused on.
+	+ attivare il Blocco Focus.\n
+	+ \n
 	+ Così facendo, la visuale\n
 	+ segue il Pokémon o il Mii\n
-   18a	= Modalità
-   18b	= Modalità libera
-   18c	= Questa modalità ti lascia guardare\n
-   18f	= Modalità libera
-	+ \x{e04a} : Take Picture\n
-	+ \x{e04b} + \x{e049} : Smooth Zoom
+	+ che stavi guardando.
+   1ec   = TRANSLATION NEEDED
+   1ed   = TRANSLATION NEEDED
+   1ee   = Modalità
+   1ef	 = Modalità libera
+   1f0	 = Questa modalità ti lascia guardare\n
+	+ liberamente il Ranch. La ottieni quando\n
+	+ il Ranch raggiunge un certo livello.
+   1f1	 = Modalità automatica
+   1f2	 = In questa modalità, la visuale\n
+	+ mostra automaticamente i vari\n
+	+ Pokémon e Mii.
+   1f3	 = Modalità libera
+   1f4	 = La modalità libera ti permette...
+   1f5	 = \x{e042} + \x{e043} : afferra\n
 	+ \x{e043} + \x{e058} : scorri\n
 	+ \x{e045} : zoom +\n
-   194	= Nunchuk
-   195	= Con la modalità libera...
-   196	= ... l'utilizzo del Nunchuk ti\n
+	+ \x{e046} : zoom -
+   1f6	 = TRANSLATION NEEDED
+   1f7	 = TRANSLATION NEEDED
+   1f8	 = Nunchuk
+   1f9	 = Con la modalità libera...
+   1fa	 = ... l'utilizzo del Nunchuk ti\n
 	+ permette di osservare il Ranch\n
 	+ ancora più liberamente!
-   197	= Come usare il Nunchuk
-   198	= \x{e049} Cambia la visuale\n
-   19b	= Il numero indica quante fotoIl numero indica quante foto\n
-   19d	= 
-	+ Board
-   1a1	= 
-   1a2	= 
-   1a3	= Album (2)
-   1a4	= Cancella
-   1a5	= Puoi cancellare la foto che\n
+   1fb	 = Come usare il Nunchuk
+   1fc	 = \x{e049} Cambia la visuale\n
+	+ \x{e04a} Scatta una foto\n
+	+ \x{e04b} + \x{e049} Zoom
+   1fd	 = Scatta una foto
+   1fe	 = Scatta una foto\n
+	+ (Anche con \x{e047}!)
+   1ff	 = Il numero indica quante foto\n
+	+ puoi ancora scattare.\n
+	+ Quando arriva a 0, se fai altre \n
+	+ foto, quelle più vecchie vengono\n
+	+ cancellate automaticamente.\n
+	+ Attenzione! Se non vuoi perdere\n
+	+ una foto, vai nell'album e attiva\n
+	+ la protezione.
+   200   = TRANSLATION NEEDED
+   201   = TRANSLATION NEEDED
+   202	 = Album (1)
+   203	 = Album
+   204	 = Qui puoi vedere tutte le foto\n
+	+ che hai scattato.
+   205	 = TRANSLATION NEEDED
+   206	 = TRANSLATION NEEDED
+   207	 = Album (2)
+   208	 = Cancella
+   209	 = Puoi cancellare la foto che\n
 	+ stai guardando.
-   1aa	= Scegliendo questa opzione \n
+   20a	 = Proteggi
+   20b	 = Puoi proteggere una foto per\n
+	+ evitare che venga cancellata.
+   20c	 = Album (3)
+   20d	 = Invia alla bacheca Wii
+   20e	 = Scegliendo questa opzione \n
 	+ puoi inviare le foto alla\n
-   1ae	= Salva nella scheda SD
-   1b2	= 
-	+ You cannot withdraw Pokémon when\n
-   1b4	= Collegamento al DS (1)
-   1b5	= Collegamento al DS
-   1b6	= Deposita o ritira Pokémon per\n
-	+ il Ranch collegandoti a Pokémon\n
-   1b9	= Collegamento al DS (2)
-   1ba	= Attenzione!
+	+ bacheca Wii, inviarle agli\n
+	+ amici Wii e vederle nel\n
+	+ Canale Foto.\n
+	+ Quando non c'è più spazio\n
+	+ in memoria, le più vecchie\n
+	+ vengono cancellate.
+   20f	 = TRANSLATION NEEDED
+   210	 = TRANSLATION NEEDED
+   211	 = Album (4)
+   212	 = Salva in una scheda SD
+   213	 = Scegliendo questa opzione,\n
+	+ salvi nella scheda SD \n
+	+ inserita nell'alloggiamento\n
+	+ scheda.
+   214   = Cancella tutte le foto\n
+	+ dalla scheda SD
+   215	 = Cancella tutte le foto di My Pokémon\n
+	+ Ranch dalla scheda SD.
+   216	 = TRANSLATION NEEDED
+   217   = TRANSLATION NEEDED
+   218	 = TRANSLATION NEEDED
+   219	 = Salva in una scheda SD
+   21a	 = TRANSLATION NEEDED
+   21b	 = Collegamento al DS (1)
+   21c	 = Collegati al DS
+   21d	 = TRANSLATION NEEDED
+   21e	 = Annulla il\n
+	+ collegamento
+   21f	 = Premi per interrompere\n
+	+ il collegamento.
+   220	 = Collegamento al DS (2)
+   221	 = Attenzione!
+   222	 = I Pokémon possono essere ritirati\n
+	+ solo con la stessa scheda di gioco\n
+	+ utilizzata per depositarli nel Ranch.\n
 	+ \n
-	+ Also, you can change the Mii\n
-	+ Caretaker for Pokémon deposited\n
-	+ from your Nintendo DS.
-   1c0	= Controlla quanti Pokémon sono stati\n
+	+ Inoltre, se cancelli i dati salvati\n
+	+ nella scheda o inizi un nuovo gioco,\n
+	+ non potrai ritirare i Pokémon\n
+	+ depositati in precedenza.
+   223   = TRANSLATION NEEDED
+   224   = TRANSLATION NEEDED
+   225	 = Dettagli (1)
+   226	 = Amici al Ranch
+   227	 = Controlla quanti Pokémon sono stati\n
 	+ depositati e da chi.\n
-   1c6	= Guardiano
-   1c7	= Puoi cambiare il guardiano \n
+	+ \n
+	+ Inoltre, puoi anche cambiare i \n
+	+ guardiani dei Pokémon depositati\n
+	+ dalla console Nintendo DS.\040
+   228	 = TRANSLATION NEEDED
+   229	 = TRANSLATION NEEDED
+   22a	 = Dettagli (2)
+   22b	 = Pokémon nel Ranch
+   22c	 = TRANSLATION NEEDED
+   22d	 = TRANSLATION NEEDED
+   22e	 = TRANSLATION NEEDED
+   22f	 = Dettagli (3)
+   230	 = Parata
+   231	 = TRANSLATION NEEDED
+   232	 = Guardiano
+   233	 = Puoi cambiare il guardiano \n
 	+ selezionando il Mii e \n
 	+ premendo \x{e042}.
-	+ This feature becomes available when\n
-   1c9	= Parata
-   1ca	= I Pokémon selezionati nel\n
-   1ce	= Preferiti
-   1cf	= Scegli i tuoi Pokémon preferiti.\n
-   1d1	= 
-   1d2	= Preferiti (2)
-	+ You can revisit a "Club Look-See"\n
-	+ Ranch you've already visited,
-   1d7	= Bacheca
-   1d8	= Bacheca
-   1d9	= Qui puoi controllare quali\n
-	+ good will happen.
+   234	 = Preferiti (1)
+   235	 = Preferiti
+   236	 = Scegli i tuoi Pokémon preferiti.\n
+	+ Per vedere solo questi Pokémon,\n
+	+ seleziona Preferiti dal menu del \n
+	+ Ranch sotto Dettagli.\n
+	+ \n
+	+ Quest'opzione diventa disponibile\n
+	+ quando il Ranch raggiunge un\n
+	+ certo livello.
+   237	 = TRANSLATION NEEDED
+   238	 = TRANSLATION NEEDED
+   239	 = Preferiti (2)
+   23a	 = Aggiungi ai Preferiti
+   23b	 = Premi \x{e042} per aggiungere\n
+	+ un Pokémon ai Preferiti.
+   23c	 = Rimuovi dai Preferiti
+   23d	 = Premi di nuovo \x{e042} per\n
+	+ rimuovere un Pokémon\n
+	+ dai Preferiti.
+   23e	 = Bacheca
+   23f	 = Bacheca
+   240	 = Qui puoi controllare quali\n
+	+ sono i Pokémon desiderati.\n
 	+ \n
 	+ Puoi anche leggere le\n
-   1de	= Giulia ti dà spesso consigli su\n
-	+ come completare il Pokédex di\n
-	+ Pokémon Diamante e Pokémon Perla.\n
-	+ between viewing Pokémon Platinum,\n
-	+ Diamond or Pearl.
-   1e9	= 
-   1ea	= 
-   1ed	= Puoi scegliere quali Mii\n
-	+ status info with your Wii Friends.\n
-	+ Maybe you'll get invited to your\n
-	+ Wii Friends' Ranches?
-   1ee	= 
-   1ef	= 
-   1f0	= Porta Mii
-	+ your Wii Friends when this setting\n
-	+ is on.
+	+ informazioni sul Ranch.
+   241   = TRANSLATION NEEDED
+   242	 = TRANSLATION NEEDED
+   243	 = Pokémon desiderati (1)
+   244	 = Pokémon desiderati
+   245	 = TRANSLATION NEEDED
+   246   = TRANSLATION NEEDED
+   247   = TRANSLATION NEEDED
+   248	 = Pokémon desiderati (2)
+   249	 = Come catturare i Pokémon
+   24a	 = Se premi \x{e042} sul Pokémon\n
+	+ desiderato in bacheca, puoi\n
+	+ leggere informazioni utili e\n
+	+ consigli su come catturarlo!
+   24b   = TRANSLATION NEEDED
+   24c   = TRANSLATION NEEDED
+   24d	 = Info sul Ranch
+   24e	 = Info sul Ranch
+   24f	 = Controlla lo stato\n
+	+ attuale del Ranch.
+   250	 = TRANSLATION NEEDED
+   251	 = TRANSLATION NEEDED
+   252   = TRANSLATION NEEDED
+   253	 = TRANSLATION NEEDED
+   254	 = TRANSLATION NEEDED
+   255	 = TRANSLATION NEEDED
+   256	 = TRANSLATION NEEDED
+   257	 = TRANSLATION NEEDED
+   258	 = TRANSLATION NEEDED
+   259	 = TRANSLATION NEEDED
+   25a	 = TRANSLATION NEEDED
+   25b	 = TRANSLATION NEEDED
+   25c	 = TRANSLATION NEEDED
+   25d	 = TRANSLATION NEEDED
+   25e	 = TRANSLATION NEEDED
+   25f	 = Opzioni
+   260	 = Opzioni
+   261	 = Puoi scegliere quali Mii\n
+	+ portare al Ranch e\n
+	+ cambiare le impostazioni\n
+	+ di WiiConnect24.
+   262   = TRANSLATION NEEDED
+   263   = TRANSLATION NEEDED
+   264   = Porta Mii
+   265	 = Numero di Mii
+   266	 = All'inizio, puoi portare al Ranch\n
 	+ un massimo di 5 Mii. Man mano che\n
 	+ il Ranch si ingrandisce, il numero\n
-   + aumenta.
-	+ up at the Ranch? You never know!
-   1f5	= Guarda il Ranch!
-	+ without your knowledge, even\n
-	+ when this setting is turned on.
+	+ aumenta.
+   267	 = Attenzione!
+   268	 = I Mii cancellati nel Canale Mii\n
+	+ spariscono anche dal Ranch.
+   269	 = Guarda il Ranch!
+   26a	 = Se scegli SÌ...
+   26b	 = ... gli amici Wii possono scambiare con\n
 	+ te le foto e i dati del Ranch.\n
 	+ Potresti anche ricevere l'invito di un\n
 	+ amico Wii a visitare il suo Ranch.
-	+ deposited from Pokémon Diamond\n
-	+ into Pokémon Pearl?
-   1fc	= ... non sorprenderti se\n
+   26c	 = Scegli SÌ!
+   26d	 = L'opzione è automaticamente impostata\n
+	+ su NO. I tuoi amici Wii possono\n
+	+ visualizzare i dati del tuo Ranch\n
+	+ solo se hai scelto SÌ.
+   26e	 = Ospiti del Ranch
+   26f	 = Se scegli SÌ...
+   270	 = ... non sorprenderti se\n
 	+ ricevi ospiti inattesi!
-   1fd	= Scegli SÌ!
-	+ deposited to the Ranch to my Pokémon\n
-	+ Diamond, Pearl or Platinum?\n
-   27b	= Answer
-   27c	= No, you cannot.\n
-	+ You can withdraw Pokémon only to the\n
-	+ Game Card from which you deposited\n
-	+ the Pokémon.
-   27d	= FAQ (3)
-   27e	= Question
-   27f	= I deposited Pokémon to the Ranch and\n
-	+ started a new game on the Nintendo\n
-	+ DS Pokémon game. Can I withdraw the\n
-	+ Pokémon to that Game Card?
-   280	= Answer
-   281	= No, you cannot.\n
-	+ Once the save data on the Nintendo DS\n
-	+ Pokémon game is erased, you cannot\n
-	+ withdraw the deposited Pokémon.
-   282	= FAQ (4)
-   283	= Question
-   284	= What happens to my Pokémon if I erase\n
-	+ the My Pokémon Ranch save data?
-   285	= Answer
-   286	= All of the Pokémon will be erased. Make\n
-	+ sure you withdraw all deposited\n
-	+ Pokémon before you erase the My\n
-	+ Pokémon Ranch save data.
-   287	= FAQ (5)
-   288	= Question
-   289	= How can I find out how many more\n
-	+ Pokémon I need for my Ranch to reach\n
-	+ the next level?
-   28a	= Answer
-   28b	= Select Ranch Info under the BBS\n
-	+ menu. There you can check the\n
-	+ current status of the Ranch.
-   28c	= FAQ (6)
-   28d	= Question
-   28e	= How do I play without music?
-   28f	= Answer
-   290	= Hold down \x{e043} and \x{e041}↓\n
-	+ when you start the game.\n
-	+ Then you can play the game without\n
-	+ music.
-   291	= Miis at the Ranch (1)
-   292	= Select a Mii
-   293	= You can bring a Mii to the Ranch by\n
-	+ selecting it with \x{e042}.\n
+   271	 = Scegli SÌ!
+   272	 = L'opzione è automaticamente impostata\n
+	+ su NO. Anche se scegli SÌ, i dati del tuo\n
+	+ Ranch non potranno essere visualizzati\n
+	+ senza il tuo consenso.
+   273	 = FAQ (1)
+   274	 = Domanda
+   275	 = TRANSLATION NEEDED
+   276	 = Risposta
+   277	 = No. Puoi ritirare un Pokémon solo\n
+	+ usando la stessa scheda di gioco\n
+	+ utilizzata per depositarlo.
+   278	 = FAQ (2)
+   279	 = Domanda
+   27a	 = TRANSLATION NEEDED
+   27b	 = Risposta
+   27c	 = No. Puoi ritirare un Pokémon solo\n
+	+ usando la stessa scheda di gioco\n
+	+ utilizzata per depositarlo.
+   27d	 = FAQ (3)
+   27e	 = Domanda
+   27f	 = Se inizio una nuova partita sulla mia\n
+	+ console Nintendo DS dopo aver\n
+	+ depositato un Pokémon nel Ranch,\n
+	+ posso ritirare quel Pokémon?
+   280	 = Risposta
+   281	 = No. Se cancelli i dati salvati,\n
+	+ non puoi ritirare un Pokémon che\n
+	+ avevi depositato precedentemente.
+   282	 = FAQ (4)
+   283	 = Domanda
+   284	 = Se cancello i dati di\n
+	+ My Pokémon Ranch, cosa\n
+	+ succede ai miei Pokémon?
+   285	 = Risposta
+   286	 = Se cancelli i dati di My Pokémon\n
+	+ Ranch, perdi tutti i Pokémon. \n
+	+ Assicurati di ritirare tutti\n
+	+ i Pokémon prima di farlo!
+   287	 = FAQ (5)
+   288	 = Domanda
+   289	 = Come faccio a scoprire di quanti\n
+	+ Pokémon ho bisogno per far aumentare\n
+	+ il livello del mio Ranch?
+   28a	 = Risposta
+   28b	 = Se selezioni Info sul Ranch dalla\n
+	+ bacheca, puoi vedere lo stato attuale\n
+	+ del Ranch.
+   28c	 = FAQ (6)
+   28d	 = Domanda
+   28e	 = Come faccio a giocare senza musica?
+   28f	 = Risposta
+   290	 = TRANSLATION NEEDED
+   291	 = Mii nel Ranch (1)
+   292	 = Scegliere i Mii
+   293	 = Usa \x{e042} per scegliere il Mii\n
+	+ che vuoi portare nel Ranch.\n
 	+ \n
-	+ If you select the Mii with \x{e042}\n
-	+ again, the Mii will leave the Ranch.\n
+	+ Premi di nuovo \x{e042} se vuoi che\n
+	+ lasci il Ranch.\n
 	+ \n
-	+ To exit, point at the door\n
-	+ located on the top left of the screen\n
-	+ and press \x{e042}.
-   294	= 
-   295	= 
-   296	= Miis at the Ranch (2)
-   297	= You can select Miis anytime
-   298	= You can select Miis under the Options\n
-	+ menu at any time.
-   299	= Warning!
-   29a	= If you erase a Mii in the Mii Channel,\n
-	+ that Mii will disappear from the Ranch.
-   29b	= Connect to DS
-   29c	= Warning!
-   29d	= You can only withdraw Pokémon that\n
-	+ you deposited into the Ranch from a DS\n
-	+ Game Card to that same Game Card.\n
+	+ Per uscire, punta verso la porta\n
+	+ in alto a sinistra e premi \x{e042}.
+   294	 = TRANSLATION NEEDED
+   295	 = TRANSLATION NEEDED
+   296	 = Mii nel Ranch (2)
+   297	 = Sceglili in qualsiasi momento
+   298	 = Puoi selezionare i Mii in qualsiasi\n
+	+ momento dal menu Opzioni.
+   299	 = Attenzione!
+   29a	 = Se cancelli un Mii dal Canale Mii,\n
+	+ scompare anche dal Ranch!
+   29b	 = Collegati al DS
+   29c	 = Attenzione!
+   29d	 = Puoi ritirare i Pokémon solo\n
+	+ utilizzando la stessa scheda di gioco\n
+	+ che hai utilizzato per depositarli.\n
 	+ \n
-	+ -Alert-\n
-	+ You cannot withdraw Pokémon when\n
-	+ you restart the game or delete the save\n
-	+ data of that Game Card.
-   29e	= Connect to DS
-   29f	= Saving...
-   2a0	= Saving...\n
-	+ Don't turn off the power or\n
-	+ press RESET.\n
+	+ -Attenzione-\n
+	+ Se cancelli i dati salvati nella\n
+	+ scheda di gioco o inizi un nuovo\n
+	+ gioco, non puoi ritirare i Pokémon\n
+	+ depositati in precedenza.\n
+   29e	 = Collegati al DS
+   29f	 = Salvataggio in corso...
+   2a0	 = Salvataggio in corso.\n
+	+ Non toccare il pulsante\n
+	+ POWER o il pulsante RESET.\n
 	+ \n
-	+ -Alert-\n
-	+ You will not be able to withdraw\n
-	+ Pokémon if the save data is erased.
-   2a1	= Connect to DS
-   2a2	= 
-   2a3	= The previous Ranch data will be loaded\n
-	+ because you closed the connection with\n
-	+ the Nintendo DS without saving.
-   2a4	= Connect to DS
-   2a5	= Game Card Limit
-   2a6	= You can deposit Pokémon from eight\n
-	+ different Game Cards at most.
-   2a7	= Connect to DS
-   2a8	= Game Card Limit
-   2a9	= If you want to deposit Pokémon from a\n
-	+ new DS-Series Pokémon Game Card\n
-	+ withdraw all of the Pokémon\n
-	+ deposited from any one Game Card.
-   2aa	= Connect to DS
-   2ab	= No Pokédex was found.
-   2ac	= A Pokédex is required to deposit\n
-	+ Pokémon to the Ranch.
-   2ad	= Please press the power\n
-	+ button on the wii for\n
-	+ 4 seconds to turn off\n
-	+ the power.	
-	+ \n
-	+ Afterwards, please turn the\n
-	+ power back on and restore\n
-	+ your Console Nickname.
-   2ae	= Failed to send save data\n
-	+ to Nintendo.\n
-	+ \fPlease check your Connection\n
-	+ Settings and try again later.
-   2af	= Send your save data\n
-	+ to Nintendo?
-   2b0	= Sending your save data\n
-	+ to Nintendo…
-   2b1	= Sent your save data\n
-	+ to Nintendo.
-   2b2	= Failed to send save data\n
-	+ to Nintendo.\n
-	+ \fPlease check your Connection\n
-	+ Settings and try again later.
-   2b3	= Receive your save data\n
-	+ from Nintendo?
-   2b4	= Receiving your save data\n
-	+ from Nintendo…
-   2b5	= Received your save data\n
-	+ from Nintendo.
-   2b6	= No save data was found\n
-	+ at Nintendo.\n
-	+ Please contact Nintendo\n
-	+ Consumer Service.
-   2b7	= Failed to write save data.\n
-	+ Please contact Nintendo\n
-	+ Consumer Service.
-   2b8	= Checking network connection\n
-	+ please wait a moment…
-   2b9	= In order to use this save data,\n
-	+ you must set your Wii console\n
-	+ language to English.
-   2ba	= In order to use this save data,\n
-	+ you must set your Wii console\n
-	+ language to German.
-   2bb	= In order to use this save data,\n
-	+ you must set your Wii console\n
-	+ language to French.
-   2bc	= In order to use this save data,\n
-	+ you must set your Wii console\n
-	+ language to Spanish.
-   2bd	= In order to use this save data,\n
-	+ you must set your Wii console\n
-	+ language to Italian.
-   2be	= Would you like to return\n
-	+ to your Ranch?
-   2bf	= Versione
-   2c0	= Diamante
-   2c1	= Perla
-   2c2	= Platino
+	+ Attenzione: se cancelli i\n
+	+ dati salvati, non puoi\n
+	+ ritirare i Pokémon\n
+	+ depositati.
+   2a1	 = Collegati al DS
+   2a2	 = TRANSLATION NEEDED
+   2a3	 = Il collegamento alla console \n
+	+ Nintendo DS è stato interrotto\n
+	+ senza salvare. Verranno caricati\n
+	+ i dati dell'ultimo salvataggio.
+   2a4	 = Collegati al DS
+   2a5	 = Capienza scheda
+   2a6	 = Puoi depositare Pokémon provenienti\n
+	+ da un massimo di 8 schede di gioco.
+   2a7	 = Collegati al DS
+   2a8	 = Capienza scheda
+   2a9	 = TRANSLATION NEEDED
+   2aa	 = Collegati al DS
+   2ab	 = Pokédex non trovato.
+   2ac	 = È necessario un Pokédex per\n
+	+ poter depositare i Pokémon\n
+	+ nel Ranch.
+   2ad	 = TRANSLATION NEEDED
+   2ae	 = TRANSLATION NEEDED
+   2af	 = TRANSLATION NEEDED
+   2b0	 = TRANSLATION NEEDED
+   2b1	 = TRANSLATION NEEDED
+   2b2	 = TRANSLATION NEEDED
+   2b3	 = TRANSLATION NEEDED
+   2b4	 = TRANSLATION NEEDED
+   2b5	 = TRANSLATION NEEDED
+   2b6	 = TRANSLATION NEEDED
+   2b7	 = TRANSLATION NEEDED
+   2b8	 = TRANSLATION NEEDED
+   2b9	 = Per utilizzare questi dati\n
+	+ salvati, sulla tua console \n
+	+ Wii devi impostare come\n
+	+ lingua l'inglese.
+   2ba	 = Per utilizzare questi dati\n
+	+ salvati, sulla tua console \n
+	+ Wii devi impostare come\n
+	+ lingua il tedesco.
+   2bb	 = Per utilizzare questi dati\n
+	+ salvati, sulla tua console \n
+	+ Wii devi impostare come\n
+	+ lingua il francese.
+   2bc	 = Per utilizzare questi dati\n
+	+ salvati, sulla tua console \n
+	+ Wii devi impostare come\n
+	+ lingua lo spagnolo.
+   2bd	 = Per utilizzare questi dati\n
+	+ salvati, sulla tua console \n
+	+ Wii devi impostare come\n
+	+ lingua l'italiano.
+   2be	 = Vuoi tornare al tuo Ranch?
 
-
+   2bf	 = TRANSLATION NEEDED
+   2c0	 = TRANSLATION NEEDED
+   2c1	 = TRANSLATION NEEDED
+   2c2	 = TRANSLATION NEEDED

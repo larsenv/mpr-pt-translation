@@ -46,323 +46,320 @@
 #
 #------------------------------------------------------------------------------
 
-     0	= $2$. $1$ 20$0$\n
+     0	 = $2$. $1$ 20$0$\n
 	+ $4$\n
 	+ Erhalten mit Lv. $3$.
-     1	= $2$. $1$ 20$0$\n
+     1	 = $2$. $1$ 20$0$\n
 	+ $4$\n
 	+ Offenbar erhalten mit\n
 	+ Lv. $3$.
-     2	= $2$. $1$ 20$0$\n
+     2	 = $2$. $1$ 20$0$\n
 	+ $4$\n
 	+ Erhalten mit Lv. $3$.
-     3	= $7$. $6$ 20$5$\n
+     3	 = $7$. $6$ 20$5$\n
 	+ Ei erhalten bei/von\n
 	+ $8$.\n
 	+ $2$. $1$ 20$0$\n
 	+ Geschlüpft in/auf\n
 	+ $4$.
-     4	= $7$. $6$ 20$5$\n
+     4	 = $7$. $6$ 20$5$\n
 	+ Ei erhalten bei/von\n
 	+ $8$.\n
 	+ $2$. $1$ 20$0$\n
 	+ Offenbar geschlüpft in/\n
 	+ auf $4$.
-     5	= $7$. $6$ 20$5$\n
+     5	 = $7$. $6$ 20$5$\n
 	+ Ei erhalten bei/von\n
 	+ $8$.\n
 	+ $2$. $1$ 20$0$\n
 	+ Geschlüpft in/auf\n
 	+ $4$.
-     6	= $7$. $6$ 20$5$\n
+     6	 = $7$. $6$ 20$5$\n
 	+ Ei erhalten bei/von\n
 	+ $8$.\n
 	+ $2$. $1$ 20$0$\n
 	+ Offenbar geschlüpft in/\n
 	+ auf $4$.
-     7	= $2$. $1$ 20$0$\n
+     7	 = $2$. $1$ 20$0$\n
 	+ $4$\n
 	+ Schicksalhafte\n
 	+ Begegnung mit Lv. $3$.
-     8	= $2$. $1$ 20$0$\n
-	+ $4$\n
-	+ Offenbar schicksalhafte\n
-	+ Begegnung mit Lv. $3$.
-     9	= $7$. $6$ 20$5$\n
+     8	 = TRANSLATION NEEDED
+     9	 = $7$. $6$ 20$5$\n
 	+ Ei erhalten bei/von\n
 	+ $8$.\n
 	+ $2$. $1$ 20$0$\n
 	+ Geschlüpft in/auf\n
 	+ $4$.\n
 	+ Schicksalhafte Begegn.
-     a	= $7$. $6$ 20$5$\n
+     a	 = $7$. $6$ 20$5$\n
 	+ Ei erhalten bei/von\n
 	+ $8$.\n
 	+ $2$. $1$ 20$0$\n
 	+ Offenbar geschlüpft in/\n
 	+ auf $4$.\n
 	+ Schicksalhafte Begegn.
-     b	= $7$. $6$ 20$5$\n
+     b	 = $7$. $6$ 20$5$\n
 	+ $8$\n
 	+ Ei ist angekommen.\n
 	+ $2$. $1$ 20$0$\n
 	+ Geschlüpft in/auf\n
 	+ $4$.\n
 	+ Schicksalhafte Begegn.
-     c	= $7$. $6$ 20$5$\n
+     c	 = $7$. $6$ 20$5$\n
 	+ $8$\n
 	+ Ei ist angekommen.\n
 	+ $2$. $1$ 20$0$\n
 	+ Offenbar geschlüpft in/\n
 	+ auf $4$.\n
 	+ Schicksalhafte Begegn.
-     d	= $7$. $6$ 20$5$\n
+     d	 = $7$. $6$ 20$5$\n
 	+ Ei erhalten bei/von\n
 	+ $8$.\n
 	+ $2$. $1$ 20$0$\n
 	+ Geschlüpft in/auf\n
 	+ $4$.\n
 	+ Schicksalhafte Begegn.
-     e	= $7$. $6$ 20$5$\n
+     e	 = $7$. $6$ 20$5$\n
 	+ Ei erhalten bei/von\n
 	+ $8$.\n
 	+ $2$. $1$ 20$0$\n
 	+ Offenbar geschlüpft in/\n
 	+ auf $4$.\n
 	+ Schicksalhafte Begegn.
-     f	= $2$. $1$ 20$0$\n
+     f	 = $2$. $1$ 20$0$\n
 	+ $4$\n
-	+ Level $3$.
-    10	= $7$. $6$ 20$5$\n
+	+ Erhalten mit Lv. $3$.
+    10	 = $7$. $6$ 20$5$\n
 	+ Ein mysteriöses Pokémon-\n
 	+ Ei. Erhalten bei/von\n
 	+ $8$.
-    11	= $7$. $6$ 20$5$\n
+    11	 = $7$. $6$ 20$5$\n
 	+ Ein mysteriöses Pokémon-\n
 	+ Ei. Erhalten bei/von\n
 	+ $8$.
-    12	= $7$. $6$ 20$5$\n
+    12	 = $7$. $6$ 20$5$\n
 	+ Ein mysteriöses Pokémon-\n
 	+ Ei. Erhalten bei\n
 	+ $8$.
-    13	= $7$. $6$ 20$5$\n
+    13	 = $7$. $6$ 20$5$\n
 	+ Ein sehr mysteriöses\n
 	+ Pokémon-Ei aus\n
 	+ $8$.
-    14	= Mysteriöse Zone
-    15	= Zweiblattdorf
-    16	= Sandgemme
-    17	= Flori
-    18	= Trostu
-    19	= Elyses
-    1a	= Jubelstadt
-    1b	= Fleetburg
-    1c	= Erzelingen
-    1d	= Ewigenau
-    1e	= Herzhofen
-    1f	= Weideburg
-    20	= Schleiede
-    21	= Sonnewik
-    22	= Blizzach
-    23	= Pokémon Liga
-    24	= Route 201
-    25	= Route 202
-    26	= Route 203
-    27	= Route 204
-    28	= Route 205
-    29	= Route 206
-    2a	= Route 207
-    2b	= Route 208
-    2c	= Route 209
-    2d	= Route 210
-    2e	= Route 211
-    2f	= Route 212
-    30	= Route 213
-    31	= Route 214
-    32	= Route 215
-    33	= Route 216
-    34	= Route 217
-    35	= Route 218
-    36	= Route 219
-    37	= Route 220
-    38	= Route 221
-    39	= Route 222
-    3a	= Route 223
-    3b	= Route 224
-    3c	= Route 225
-    3d	= Route 226
-    3e	= Route 227
-    3f	= Route 228
-    40	= Route 229
-    41	= Route 230
-    42	= Erzelingen-Mine
-    43	= Windkraftwerk
-    44	= Ewigwald
-    45	= Feuriohütte
-    46	= Kraterberg
-    47	= Speersäule
-    48	= Großmoor
-    49	= Trostu-Ruinen
-    4a	= Siegesstraße
-    4b	= Park der Freunde
-    4c	= Platz der Treue
-    4d	= Verwüsteter Pfad
-    4e	= Auen von Flori
-    4f	= Erzelingen-Tor
-    50	= Vollmond-Insel
-    51	= Scheidequelle
-    52	= Höhle der Umkehr
-    53	= Blumenparadies
-    54	= Blizzach-Tempel
-    55	= Bizarre Höhle
-    56	= Maniac-Höhle
-    57	= Maniac-Tunnel
-    58	= Trophäengarten
-    59	= Eiseninsel
-    5a	= Alte Villa
-    5b	= Galakti-Zentrale
-    5c	= Wahrheitsufer
-    5d	= Kühnheitsufer
-    5e	= Stärkeufer
-    5f	= Frühlingspfad
-    60	= See der Wahrheit
-    61	= See der Kühnheit
-    62	= See der Stärke
-    63	= Neumond-Insel
-    64	= Duellturm
-    65	= Kampfareal
-    66	= Überlebensareal
-    67	= Erholungsgebiet
-    68	= Kahlberg
-    69	= Buhnen-Pfad
-    6a	= Halle d. Beginns
-    6b	= Wahrheitsgrotte
-    6c	= Kühnheitsgrotte
-    6d	= Stärkegrotte
-    6e	= Jubelstadt TV
-    6f	= Pokétch Ges.
-    70	= GTS
-    71	= Trainerschule
-    72	= Bergbaumuseum
-    73	= Blumenladen
-    74	= Fahrradladen
-    75	= Wettbewerbshalle
-    76	= Knursperei
-    77	= Begegnungsstätte
-    78	= Pokémon-Pension
-    79	= Schleiede-Kaufh.
-    7a	= Spielhalle
-    7b	= Fleetburg-Bibl.
-    7c	= Leuchtturm
-    7d	= Sonnewik-Markt
-    7e	= PKMN-Landgut
-    7f	= Schrittritt-Haus
-    80	= Café
-    81	= Prachtsee
-    82	= Restaurant
-    83	= Duellpark
-    84	= Kampfzone
-    85	= Kampffabrik
-    86	= Kampfpalais
-    87	= Kampfarkaden
-    88	= Kampfsaal
-    89	= Zerrwelt
-    8a	= Global. Terminal
-    8b	= Villa
-    8c	= Duellareal
-    8d	= Raum von ROTOM
-    8e	= Galaktik-Gebäude
-    8f	= Eisen-Ruinen
-    90	= Eisberg-Ruinen
-    91	= Gipfelruinen
-    92	= Idyll
-    93	= Pokémon Ranger
-    94	= Pokémon Movie
-    95	= Pokémon Film 06
-    96	= Pokémon Film 07
-    97	= Pokémon Film 08
-    98	= Pokémon Film 09
-    99	= Pokémon Film 10
-    9a	= Pokémon Film 11
-    9b	= Pokémon Film 12
-    9c	= Pokémon Film 13
-    9d	= Pokémon Film 14
-    9e	= Pokémon Film 15
-    9f	= Pokémon Film 16
-    a1	= Pokémon Cartoon
-    a2	= Space World
-    a3	= Space World 06
-    a4	= Space World 07
-    a5	= Space World 08
-    a6	= Space World 09
-    a7	= Space World 10
-    a8	= Space World 11
-    a9	= Space World 12
-    aa	= Space World 13
-    ab	= Space World 14
-    ac	= Space World 15
-    ad	= Space World 16
-    ae	= Pokémon Festa
-    af	= Pokémon Festa 06
-    b0	= Pokémon Festa 07
-    b1	= Pokémon Festa 08
-    b2	= Pokémon Festa 09
-    b3	= Pokémon Festa 10
-    b4	= Pokémon Festa 11
-    b5	= Pokémon Festa 12
-    b6	= Pokémon Festa 13
-    b7	= Pokémon Festa 14
-    b8	= Pokémon Festa 15
-    b9	= Pokémon Festa 16
-    ba	= POKéPARK
-    bb	= POKéPARK 06
-    bc	= POKéPARK 07
-    bd	= POKéPARK 08
-    be	= POKéPARK 09
-    bf	= POKéPARK 10
-    c0	= POKéPARK 11
-    c1	= POKéPARK 12
-    c2	= POKéPARK 13
-    c3	= POKéPARK 14
-    c4	= POKéPARK 15
-    c5	= POKéPARK 16
-    c6	= Pokémon Center
-    c7	= PC Tokyo
-    c8	= PC Osaka
-    c9	= PC Fukuoka
-    ca	= PC Nagoya
-    cb	= PC Sapporo
-    cc	= PC Yokohama
-    cd	= Nintendo World
-    ce	= Pokémon Event
-    cf	= Pokémon Event 06
-    d0	= Pokémon Event 07
-    d1	= Pokémon Event 08
-    d2	= Pokémon Event 09
-    d3	= Pokémon Event 10
-    d4	= Pokémon Event 11
-    d5	= Pokémon Event 12
-    d6	= Pokémon Event 13
-    d7	= Pokémon Event 14
-    d8	= Pokémon Event 15
-    d9	= Pokémon Event 16
-    da	= Wi-Fi Event
-    db	= Wi-Fi-Geschenk
-    dc	= Pokémon Fan Club
-    dd	= Event
-    de	= Konzert
-    df	= Betreuerpärchen
-    e0	= Linktausch
-    e1	= Linktausch
-    e2	= Kanto
-    e3	= Johto
-    e4	= Hoenn
-    e5	= Sinnoh
-    e6	= ----------
-    e7	= Entferntes Land
-    e8	= Reisender
-    e9	= Urs
-    ea	= Cynthia
-    eb	= Mysteriöse Zone
+    14	 = Mysteriöse Zone
+    15	 = Zweiblattdorf
+    16	 = Sandgemme
+    17	 = Flori
+    18	 = Trostu
+    19	 = Elyses
+    1a	 = Jubelstadt
+    1b	 = Fleetburg
+    1c	 = Erzelingen
+    1d	 = Ewigenau
+    1e	 = Herzhofen
+    1f	 = Weideburg
+    20	 = Schleiede
+    21	 = Sonnewik
+    22	 = Blizzach
+    23	 = Pokémon Liga
+    24	 = Route 201
+    25	 = Route 202
+    26	 = Route 203
+    27	 = Route 204
+    28	 = Route 205
+    29	 = Route 206
+    2a	 = Route 207
+    2b	 = Route 208
+    2c	 = Route 209
+    2d	 = Route 210
+    2e	 = Route 211
+    2f	 = Route 212
+    30	 = Route 213
+    31	 = Route 214
+    32	 = Route 215
+    33	 = Route 216
+    34	 = Route 217
+    35	 = Route 218
+    36	 = Route 219
+    37	 = Route 220
+    38	 = Route 221
+    39	 = Route 222
+    3a	 = Route 223
+    3b	 = Route 224
+    3c	 = Route 225
+    3d	 = Route 226
+    3e	 = Route 227
+    3f	 = Route 228
+    40	 = Route 229
+    41	 = Route 230
+    42	 = Erzelingen-Mine
+    43	 = Windkraftwerk
+    44	 = Ewigwald
+    45	 = Feuriohütte
+    46	 = Kraterberg
+    47	 = Speersäule
+    48	 = Großmoor
+    49	 = Trostu-Ruinen
+    4a	 = Siegesstraße
+    4b	 = Park der Freunde
+    4c	 = Platz der Treue
+    4d	 = Verwüsteter Pfad
+    4e	 = Auen von Flori
+    4f	 = Erzelingen-Tor
+    50	 = Vollmond-Insel
+    51	 = Scheidequelle
+    52	 = Höhle der Umkehr
+    53	 = Blumenparadies
+    54	 = Blizzach-Tempel
+    55	 = Bizarre Höhle
+    56	 = Maniac-Höhle
+    57	 = Maniac-Tunnel
+    58	 = Trophäengarten
+    59	 = Eiseninsel
+    5a	 = Alte Villa
+    5b	 = Galakti-Zentrale
+    5c	 = Wahrheitsufer
+    5d	 = Kühnheitsufer
+    5e	 = Stärkeufer
+    5f	 = Frühlingspfad
+    60	 = See der Wahrheit
+    61	 = See der Kühnheit
+    62	 = See der Stärke
+    63	 = Neumond-Insel
+    64	 = Duellturm
+    65	 = Kampfareal
+    66	 = Überlebensareal
+    67	 = Erholungsgebiet
+    68	 = Kahlberg
+    69	 = Buhnen-Pfad
+    6a	 = Halle d. Beginns
+    6b	 = Wahrheitsgrotte
+    6c	 = Kühnheitsgrotte
+    6d	 = Stärkegrotte
+    6e	 = Jubelstadt TV
+    6f	 = Pokétch Ges.
+    70	 = GTS
+    71	 = Trainerschule
+    72	 = Bergbaumuseum
+    73	 = Blumenladen
+    74	 = Fahrradladen
+    75	 = Wettbewerbshalle
+    76	 = Knursperei
+    77	 = Begegnungsstätte
+    78	 = Pokémon-Pension
+    79	 = Schleiede-Kaufh.
+    7a	 = Spielhalle
+    7b	 = Fleetburg-Bibl.
+    7c	 = Leuchtturm
+    7d	 = Sonnewik-Markt
+    7e	 = PKMN-Landgut
+    7f	 = Schrittritt-Haus
+    80	 = Café
+    81	 = Prachtsee
+    82	 = Restaurant
+    83	 = Duellpark
+    84	 = TRANSLATION NEEDED
+    85	 = TRANSLATION NEEDED
+    86	 = TRANSLATION NEEDED
+    87	 = TRANSLATION NEEDED
+    88	 = TRANSLATION NEEDED
+    89	 = TRANSLATION NEEDED
+    8a	 = TRANSLATION NEEDED
+    8b	 = TRANSLATION NEEDED
+    8c	 = TRANSLATION NEEDED
+    8d	 = TRANSLATION NEEDED
+    8e	 = TRANSLATION NEEDED
+    8f	 = TRANSLATION NEEDED
+    90	 = TRANSLATION NEEDED
+    91	 = TRANSLATION NEEDED
+    92	 = Idyll
+    93	 = Pokémon Ranger
+    94	 = Entfernter Ort
+    95	 = Pokémon Movie
+    96	 = Pokémon Film 06
+    97	 = Pokémon Film 07
+    98	 = Pokémon Film 08
+    99	 = Pokémon Film 09
+    9a	 = Pokémon Film 10
+    9b	 = Pokémon Film 11
+    9c	 = Pokémon Film 12
+    9d	 = Pokémon Film 13
+    9e	 = Pokémon Film 14
+    9f	 = Pokémon Film 15
+    a0	 = Pokémon Film 16
+    a1	 = Pokémon Cartoon
+    a2	 = Space World
+    a3	 = Space World 06
+    a4	 = Space World 07
+    a5	 = Space World 08
+    a6	 = Space World 09
+    a7	 = Space World 10
+    a8	 = Space World 11
+    a9	 = Space World 12
+    aa	 = Space World 13
+    ab	 = Space World 14
+    ac	 = Space World 15
+    ad	 = Space World 16
+    ae	 = Pokémon Festa
+    af	 = Pokémon Festa 06
+    b0	 = Pokémon Festa 07
+    b1	 = Pokémon Festa 08
+    b2	 = Pokémon Festa 09
+    b3	 = Pokémon Festa 10
+    b4	 = Pokémon Festa 11
+    b5	 = Pokémon Festa 12
+    b6	 = Pokémon Festa 13
+    b7	 = Pokémon Festa 14
+    b8	 = Pokémon Festa 15
+    b9	 = Pokémon Festa 16
+    ba	 = POKéPARK
+    bb	 = POKéPARK 06
+    bc	 = POKéPARK 07
+    bd	 = POKéPARK 08
+    be	 = POKéPARK 09
+    bf	 = POKéPARK 10
+    c0	 = POKéPARK 11
+    c1	 = POKéPARK 12
+    c2	 = POKéPARK 13
+    c3	 = POKéPARK 14
+    c4	 = POKéPARK 15
+    c5	 = POKéPARK 16
+    c6	 = Pokémon Center
+    c7	 = TRANSLATION NEEDED
+    c8	 = PC Osaka
+    c9	 = PC Fukuoka
+    ca	 = PC Nagoya
+    cb	 = PC Sapporo
+    cc	 = PC Yokohama
+    cd	 = Nintendo World
+    ce	 = Pokémon Event
+    cf	 = Pokémon Event 06
+    d0	 = Pokémon Event 07
+    d1	 = Pokémon Event 08
+    d2	 = Pokémon Event 09
+    d3	 = Pokémon Event 10
+    d4	 = Pokémon Event 11
+    d5	 = Pokémon Event 12
+    d6	 = Pokémon Event 13
+    d7	 = Pokémon Event 14
+    d8	 = Pokémon Event 15
+    d9	 = Pokémon Event 16
+    da	 = Wi-Fi Event
+    db	 = Wi-Fi-Geschenk
+    dc	 = Pokémon Fan Club
+    dd	 = Event
+    de	 = Konzert
+    df	 = Betreuerpärchen
+    e0	 = Linktausch
+    e1	 = Linktausch
+    e2	 = Kanto
+    e3	 = Johto
+    e4	 = Hoenn
+    e5	 = Sinnoh
+    e6	 = TRANSLATION NEEDED
+    e7	 = TRANSLATION NEEDED
+    e8	 = Reisender
+    e9	 = Urs
 
-
+    ea	 = TRANSLATION NEEDED
+    eb	 = Mysteriöse Zone

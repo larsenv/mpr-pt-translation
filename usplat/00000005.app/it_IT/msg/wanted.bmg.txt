@@ -46,279 +46,507 @@
 #
 #------------------------------------------------------------------------------
 
-     0	= Info su\n
+     0	 = Info su\n
 	+ %ls
-     1	= Luogo:
-     2	= Ora:
-     3	= Catturalo all'Albero Profumato.
-     4	= Rianima un Fossile presso il\n
+     1	 = Luogo:
+     2	 = Ora:
+     3	 = Catturalo all'Albero Profumato.
+     4	 = Rianima un Fossile presso il\n
 	+ Museo Minerario di Mineropoli.
-     5	= Catturalo al Parco Amici.
-     6	= NOSEPASS si evolve facendo salire\n
+     5	 = Catturalo al Parco Amici.
+     6	 = NOSEPASS si evolve facendo salire\n
 	+ il suo livello sul Monte Corona.
-     7	= GLIGAR si evolve se il suo livello\n
+     7	 = GLIGAR si evolve se il suo livello\n
 	+ cresce mentre tiene un Affilodente.
-     8	= EEVEE si evolve se aumenta\n
+     8	 = EEVEE si evolve se aumenta\n
 	+ di livello sul Percorso 217.
-     9	= MANTYKE si evolve quando sale\n
+     9	 = MANTYKE si evolve quando sale\n
 	+ di livello.
-     a	= SNEASEL si evolve se sale di livello\n
+     a	 = SNEASEL si evolve se sale di livello\n
 	+ mentre tiene un Affilartigli.
-     b	= FEEBAS si evolve salendo di livello\n
-        + con la statistica di Bellezza molto alta.
-     c	= EEVEE si evolve in LEAFEON se sale di livello\n
+     b	 = FEEBAS si evolve salendo di livello.
+     c   = EEVEE si evolve se passa di livello\n
 	+ nel Bosco Evopoli.
-     d	= MAGNETON si evolve salendo di\n
+     d	 = MAGNETON si evolve salendo di\n
 	+ livello sul Monte Corona.
-     e	= Ricevilo a Rupepoli.
-     f	= Schiudi l'uovo che Camilla ti ha dato\n
-	+ a Evopoli.
-    10	= SHEDINJA si ottiene evolvendo NINCADA in\n
-	+ NINJASK con uno spazio in squadra e una Poké Ball nella borsa.
-    11	= Evolve by giving an item to\n
+     e	 = TRANSLATION NEEDED
+     f	 = TRANSLATION NEEDED
+    10	 = TRANSLATION NEEDED
+    11	 = Il Pokémon %ls%ls\n
 	+ si evolve dandogli uno strumento.
-    12	= Evolve when %ls%ls\n
+    12	 = %ls%ls si evolve\n
 	+ quando raggiunge il L. %d.
-    13	= %ls%ls si evolve\n
-    17	= Obtain an Egg at the Pokémon Day\n
+    13	 = %ls%ls si evolve se\n
+	+ avete alta affinità e passa di livello.
+    14	 = %ls%ls si evolve\n
+	+ tramite uno scambio.
+    15	 = %ls%ls si evolve\n
+	+ se tiene uno strumento durante\n
+	+ uno scambio.
+    16	 = %ls%ls si evolve\n
+	+ se impara una mossa e cresce\n
 	+ di livello.
-    18	= How to catch it is unknown.
-    19	= You can get it by trading\n
-	+ with other DS Pokémon games.
-    1a	= You can find it roaming\n 
-	+ around the Sinnoh region.
-    1b	= Route 201
-    1c	= Route 202
-    1d	= Route 203
-    1e	= Route 204
-    1f	= Route 205
-    20	= Route 205
-    21	= Route 205
-    22	= Route 206
-    23	= Route 207
-    24	= Route 208
-    25	= Route 209
-    26	= Route 210
-    27	= Route 210
-    28	= Route 211
-    29	= Route 211
-    2a	= Route 211
-    2b	= Route 212
-    2c	= Route 212
-    2d	= Route 212
-    2e	= Route 213
-    2f	= Route 214
-    30	= Route 215
-    31	= Route 216
-    32	= Route 217
-    33	= Route 218
-    34	= Route 219
-    35	= Route 220
-    36	= Route 221
-    37	= Route 222
-    38	= Route 223
-    39	= Route 224
-    3a	= Route 225
-    3b	= Albero Profumato
-    43	= Lake Acuity
-    44	= Sendoff Spring
-    45	= Celestic Town
-    46	= Snowpoint Temple
-    47	= Snowpoint Temple
-    48	= Snowpoint Temple
-    49	= Snowpoint Temple
-    4a	= Oreburgh Gate
-    4b	= Oreburgh Gate
-    4c	= Isola Ferrosa
-    4f	= Iron Island
-    50	= Iron Island
-    51	= Iron Island
-    52	= Iron Island
-    53	= Iron Island
-    54	= Gran Palude\n
-    59	= Pastoria Great Marsh
-    5a	= Pastoria Great Marsh
-    5b	= Pastoria Great Marsh
-    5c	= Via Vittoria
-    5d	= Via Vittoria
-    5e	= Via Vittoria
-    5f	= Via Vittoria
-    60	= Monte Corona
-    61	= Monte Corona
-    62	= Monte Corona
-    63	= Monte Corona
-    6d	= Mt. Coronet
-    6e	= Mt. Coronet
-    6f	= Mt. Coronet
-    70	= Mt. Coronet
-    71	= Mt. Coronet
-    72	= Sunyshore City
-    73	= Pastoria City
-    74	= Stark Mountain
-    75	= Stark Mountain
-    76	= Eterna City
-    77	= Eterna Forest
-    78	= Twinleaf Town
-    79	= Pokémon League
-    7a	= Wayward Cave
-    7b	= Wayward Cave
-    7c	= Wayward Cave
-    7d	= Canalave City
-    7e	= Turnback Cave
-    7f	= Old Chateau
-    80	= Resort Area
-    81	= Lake Valor
-    82	= Valor Lakefront
-    83	= Lost Tower
-    84	= Lost Tower
-    85	= Lost Tower
-    86	= Lost Tower
-    87	= Lost Tower
-    88	= Anytime
-    89	= Morning
-    8a	= Morning/Day
-    8b	= Night
-    8c	= Morning/Night
-    8d	= ・Lv. %d or higher
-    8e	= ・Honey Tree
-    8f	= ・When Defense > Attack
-    90	= ・Pastoria Great Marsh random daily
-    91	= ・HOUNDOUR Egg
-    92	= ・KOFFING Egg
-    93	= ・WHISMUR Egg
-    94	= ・SPINARAK Egg
-    95	= ・SHUPPET Egg
-    96	= ・POOCHYENA Egg
-    97	= ・LEDYBA Egg
-    98	= ・WYNAUT Egg
-    99	= ・TAILLOW Egg
-    9a	= ・SPHEAL Egg
-    9b	= ・SEEL Egg
-    9c	= ・ELEKID Egg
-    9d	= ・MAGBY Egg
-    9e	= ・Fishing: (Old Rod)
-    9f	= ・Fishing: (Good Rod)
-    a0	= ・Fishing: (Super Rod)
-    a1	= ・Item: Up-Grade
-    a2	= ・Item: Dubious Disc
-    a3	= ・Item: Electirizer
-    a4	= ・Item: Shiny Stone
-    a5	= ・Item: Fire Stone
-    a6	= ・Item: Thunderstone
-    a7	= ・Item: DeepSeaTooth
-    a8	= ・Item: Magmarizer
-    a9	= ・Item: Metal Coat
-    aa	= ・Item: Dawn Stone
-    ab	= ・Item: Water Stone
-    ac	= ・Item: King's Rock
-    ad	= ・Item: Protector
-    ae	= ・Item: Reaper Cloth
-    af	= ・Item: Leaf Stone
-    b0	= ・Item: Dragon Scale
-    b1	= ・Item: Razor Fang
-    b2	= ・Item: Razor Claw
-    b3	= ・Item: Sun Stone
-    b4	= ・Item: Moon Stone
-    b5	= ・Item: DeepSeaScale
-    b6	= ・Item: Lax Incense
-    b7	= ・Item: Dusk Stone
-    b8	= ・Damp Rock
-    b9	= ・Icy Rock
-    ba	= ・Fossil: Helix Fossil
-    bb	= ・Fossil: Old Amber
-    bc	= ・Fossil: Dome Fossil
-    bd	= ・Fossil: Root Fossil
-    be	= ・Fossil: Armor Fossil
-    bf	= ・Fossil: Claw Fossil
-    c0	= ・Fossil: Skull Fossil
-    c1	= ・Dug up with an even Trainer ID number.
-    c2	= ・Dug up with an odd Trainer ID number.
-    c3	= ・When Attack = Defense
-    c4	= ・When Attack > Defense
-    c5	= ・On the water (Surf)
-    c6	= ・Diamond only
-    c7	= ・Pearl only
-    c8	= ・Pal Park
-    c9	= ・4 FL/Waterfall Area
-    ca	= ・About UNOWN
-    cb	= ・About FEEBAS
-    cc	= ・Quando ha imparato Rotolamento
-    cd	= ・Dual Slot: Pokémon Smeraldo
-    ce	= ・Dual Slot: Pokémon Rosso Fuoco
-    cf	= ・Dual Slot: Pokémon Verde Foglia
-    d1	= ・Dual Slot: Pokémon Zaffiro
-    d2	= ・Se ottenuto il Pokédex Nazionale
-    d3	= ・Giardino Trofeo
-    d4	= Cospargi un albero con il Miele che hai\n
-    d5	= Ogni giorno, in ogni area della Gran Palude\n
-    d9	= Puoi ottenere un Uovo lasciando un\n
-	+ along with it at the Pokémon Day Care.
-    da	= Puoi ottenere un Uovo lasciando\n
-	+ un LOUDRED♀ o un EXPLOUD♀ con\n
-    dc	= Puoi ottenere un Uovo lasciando un\n
+    17	 = Trova e fai schiudere un Uovo alla\n
+	+ Pensione Pokémon di Flemminia.
+    18	 = Non si sa come catturare\n
+	+ questo Pokémon.
+    19	 = TRANSLATION NEEDED
+    1a	 = TRANSLATION NEEDED
+    1b	 = Percorso 201
+    1c	 = Percorso 202
+    1d	 = Percorso 203
+    1e	 = Percorso 204
+    1f	 = Percorso 205
+    20	 = Percorso 205
+    21	 = Percorso 205
+    22	 = Percorso 206
+    23	 = Percorso 207
+    24	 = Percorso 208
+    25	 = Percorso 209
+    26	 = Percorso 210
+    27	 = Percorso 210
+    28	 = Percorso 211
+    29	 = Percorso 211
+    2a	 = Percorso 211
+    2b	 = Percorso 212
+    2c	 = Percorso 212
+    2d	 = Percorso 212
+    2e	 = Percorso 213
+    2f	 = Percorso 214
+    30	 = Percorso 215
+    31	 = Percorso 216
+    32	 = Percorso 217
+    33	 = Percorso 218
+    34	 = Percorso 219
+    35	 = Percorso 220
+    36	 = Percorso 221
+    37	 = Percorso 222
+    38	 = Percorso 223
+    39	 = Percorso 224
+    3a	 = Percorso 225
+    3b	 = Percorso 226
+    3c	 = Percorso 227
+    3d	 = Percorso 228
+    3e	 = Percorso 229
+    3f	 = Percorso 230
+    40	 = Albero Profumato
+    41	 = Cammino Roccioso
+    42	 = Grotta Rovine
+    43	 = Lago Arguzia
+    44	 = Fonte Saluto
+    45	 = Memoride
+    46	 = Tempio Nevepoli
+    47	 = Tempio Nevepoli
+    48	 = Tempio Nevepoli
+    49	 = Tempio Nevepoli
+    4a	 = Varco Mineropoli
+    4b	 = Varco Mineropoli
+    4c	 = Varco Mineropoli
+    4d	 = Cava Mineropoli
+    4e	 = Isola Ferrosa
+    4f	 = Isola Ferrosa
+    50	 = Isola Ferrosa
+    51	 = Isola Ferrosa
+    52	 = Isola Ferrosa
+    53	 = Isola Ferrosa
+    54	 = Giardino Trofeo
+    55	 = Lago Verità
+    56	 = Rovine Flemminia
+    57   = Gran Palude\n
+	+ di Pratopoli
+    58   = Gran Palude\n
+	+ di Pratopoli
+    59	 = Gran Palude\n
+	+ di Pratopoli
+    5a	 = Gran Palude\n
+	+ di Pratopoli
+    5b	 = Gran Palude\n
+	+ di Pratopoli
+    5c	 = Gran Palude\n
+	+ di Pratopoli
+    5d	 = Gran Palude\n
+	+ di Pratopoli
+    5e	 = Fonderie Fuego
+    5f	 = Impianto Turbine
+    60	 = Via Vittoria
+    61	 = Via Vittoria
+    62	 = Via Vittoria
+    63	 = Via Vittoria
+    64	 = Via Vittoria
+    65   = Monte Corona
+    66   = Monte Corona
+    67   = Monte Corona
+    68   = Monte Corona
+    69   = Monte Corona
+    6a   = Monte Corona
+    6b   = Monte Corona
+    6c   = Monte Corona
+    6d	 = Monte Corona
+    6e	 = Monte Corona
+    6f	 = Monte Corona
+    70	 = Monte Corona
+    71	 = Monte Corona
+    72	 = Arenipoli
+    73	 = Pratopoli
+    74	 = Monte Ostile
+    75	 = Monte Ostile
+    76	 = Evopoli
+    77	 = Bosco Evopoli
+    78	 = Duefoglie
+    79	 = Lega Pokémon
+    7a	 = Grotta Labirinto
+    7b	 = Grotta Labirinto
+    7c	 = Grotta Labirinto
+    7d	 = Canalipoli
+    7e	 = Grotta Ritorno
+    7f	 = Antico Château
+    80	 = Area Svago
+    81	 = Lago Valore
+    82	 = Riva Valore
+    83	 = Torre Memoria
+    84	 = Torre Memoria
+    85	 = Torre Memoria
+    86	 = Torre Memoria
+    87	 = Torre Memoria
+    88	 = Sempre
+    89	 = Mattino
+    8a	 = Mattino/Pomeriggio
+    8b	 = Notte
+    8c	 = TRANSLATION NEEDED
+    8d	 = ・L. %d o maggiore
+    8e	 = ・Albero Profumato
+    8f	 = ・Se la Difesa è più alta dell'Attacco
+    90	 = ・Alcuni giorni alla Gran Palude
+    91	 = ・Uovo di HOUNDOUR
+    92	 = ・Uovo di KOFFING
+    93	 = ・Uovo di WHISMUR
+    94	 = ・Uovo di SPINARAK
+    95	 = ・Uovo di SHUPPET
+    96	 = ・Uovo di POOCHYENA
+    97	 = ・Uovo di LEDYBA
+    98	 = ・Uovo di WYNAUT
+    99	 = ・Uovo di TAILLOW
+    9a	 = TRANSLATION NEEDED
+    9b	 = TRANSLATION NEEDED
+    9c	 = TRANSLATION NEEDED
+    9d	 = TRANSLATION NEEDED
+    9e	 = ・Pesca: (Amo Vecchio)
+    9f	 = ・Pesca: (Amo Buono)
+    a0	 = ・Pesca: (Super Amo)
+    a1	 = ・Strumento: Upgrade
+    a2	 = ・Strumento: Dubbiodisco
+    a3	 = ・Strumento: Elettritore
+    a4	 = ・Strumento: Pietrabrillo
+    a5	 = ・Strumento: Pietrafocaia
+    a6	 = ・Strumento: Pietratuono
+    a7	 = ・Strumento: Dente Abissi
+    a8	 = ・Strumento: Magmatore
+    a9	 = ・Strumento: Metalcoperta
+    aa	 = ・Strumento: Pietralbore
+    ab	 = ・Strumento: Pietraidrica
+    ac	 = ・Strumento: Roccia Di Re
+    ad	 = ・Strumento: Copertura
+    ae	 = ・Strumento: Terrorpanno
+    af	 = ・Strumento: Pietrafoglia
+    b0	 = ・Strumento: Squama Drago
+    b1	 = ・Strumento: Affilodente
+    b2	 = ・Strumento: Affilartigli
+    b3	 = ・Strumento: Pietrasolare
+    b4	 = ・Strumento: Pietralunare
+    b5	 = ・Strumento: Squamabissi
+    b6	 = TRANSLATION NEEDED
+    b7	 = ・Strumento: Neropietra
+    b8	 = ・Rocciaumida
+    b9	 = ・Rocciafredda
+    ba	 = ・Fossile: Helixfossile
+    bb	 = ・Fossile: Ambra Antica
+    bc	 = ・Fossile: Domofossile
+    bd	 = ・Fossile: Radifossile
+    be	 = ・Fossile: Fossilscudo
+    bf	 = ・Fossile: Fossilunghia
+    c0	 = ・Fossile: Fossilcranio
+    c1	 = TRANSLATION NEEDED
+    c2	 = TRANSLATION NEEDED
+    c3	 = ・Se la Difesa è uguale all'Attacco
+    c4	 = ・Se l'Attacco è più alto della Difesa
+    c5	 = ・In acqua (usando Surf)
+    c6	 = ・Solo Pokémon Diamante
+    c7	 = ・Solo Pokémon Perla
+    c8	 = ・Parco Amici
+    c9	 = ・Un posto con 4 livelli di cascata
+    ca	 = ・Informazioni su UNOWN
+    cb	 = ・Informazioni su FEEBAS
+    cc	 = ・Informazioni su DRIFLOON
+    cd	 = ・Informazioni su MIME JR.
+    ce	 = ・Informazioni su SPIRITOMB
+    cf	 = ・Informazioni su SHEDINJA
+    d0	 = ・Informazioni su BONSLY
+    d1	 = TRANSLATION NEEDED
+    d2	 = TRANSLATION NEEDED
+    d3	 = ・Richiesto Poké Radar \040
+    d4	 = ・Raro in Pokémon Diamante
+    d5	 = ・Raro in Pokémon Perla
+    d6	 = ・Raduno di Pokémon
+    d7	 = ・Quando ha imparato Doppiosmash
+    d8	 = ・Quando ha imparato Forzantica
+    d9	 = ・Quando ha imparato Rotolamento
+    da	 = ・Quando ha imparato Rotolamento
+    db	 = ・Dual Slot: Pokémon Smeraldo
+    dc	 = ・Dual Slot: Pokémon Rosso Fuoco
+    dd	 = ・Dual Slot: Pokémon Verde Foglia
+    de	 = ・Dual Slot: Pokémon Rubino
+    df	 = TRANSLATION NEEDED
+    e0	 = TRANSLATION NEEDED
+    e1	 = ・Se ottenuto il Pokédex Nazionale
+    e2	 = ・Giardino Trofeo
+    e3	 = TRANSLATION NEEDED
+    e4	 = Cospargi un albero con il Miele che hai\n
+	+ ottenuto a Prato Fiorito, poi aspetta mezza\n
+	+ giornata perché un Pokémon esca allo\n
+	+ scoperto al tuo ritorno! Il Pokémon varia\n
+	+ a seconda dell'Albero Profumato.
+    e5	 = Ogni giorno, in ogni area della Gran Palude\n
+	+ di Pratopoli, potrai catturare un nuovo\n
+	+ Pokémon. Scopri quale utilizzando il\n
+	+ telescopio al primo piano dell'Osservatorio.
+    e6	 = Il Pokémon e il luogo del Raduno cambiano\n
+	+ ogni giorno. Cerca qualcuno a Sabbiafine\n
 	+ che ti possa dare informazioni utili.
+    e7	 = I Pokémon che puoi catturare nel Giardino\n
+	+ Trofeo cambiano ogni volta che parli con\n
+	+ Granlotto, ma puoi farlo solo una volta \n
+	+ al giorno.
+    e8	 = Puoi ottenere un Uovo lasciando un\n
+	+ HOUNDOOM♀ e un Pokémon maschio\n
+	+ dello stesso gruppo Uovo presso\n
+	+ la Pensione Pokémon. Puoi trovare \n
+	+ HOUNDOOM solo in Pokémon Perla.
+    e9	 = Puoi ottenere un Uovo lasciando un\n
+	+ WEEZING♀ e un Pokémon maschio dello\n
+	+ stesso gruppo Uovo presso la Pensione\n
+	+ Pokémon.
+    ea	 = Puoi ottenere un Uovo lasciando\n
+	+ un LOUDRED♀ o un EXPLOUD♀ con\n
+	+ un Pokémon maschio dello stesso\n
+	+ gruppo Uovo alla Pensione Pokémon.
+    eb	 = Puoi ottenere un Uovo lasciando un\n
+	+ MIGHTYENA♀ e un Pokémon maschio dello\n
+	+ stesso gruppo Uovo nella Pensione\n
+	+ Pokémon. Puoi trovare MIGHTYENA solo\n
+	+ in Pokémon Diamante.
+    ec	 = Puoi ottenere un Uovo lasciando un\n
+	+ ARIADOS♀ e un Pokémon maschio dello\n
 	+ stesso gruppo Uovo nella Pensione\n
 	+ Pokémon.
-    df	= Puoi ottenere un Uovo lasciando un\n
-    e0	= Puoi ottenere un Uovo lasciando uno\n
-    e2	= Puoi ottenere un Dubbiodisco\n
-    e8	= A volte i MAGBY selvatici hanno un\n
-    e9	= A volte i BRONZOR o gli STEELIX selvatici\n
+    ed	 = Puoi ottenere un Uovo lasciando \n
+	+ un BANETTE♀ e un Pokémon maschio\n
+	+ dello stesso gruppo Uovo nella\n
+	+ Pensione Pokémon.
+    ee	 = Puoi ottenere un Uovo lasciando un\n
+	+ LEDIAN♀ e un Pokémon maschio dello\n
+	+ stesso gruppo Uovo nella Pensione\n
+	+ Pokémon.
+    ef	 = Puoi ottenere un Uovo lasciando un\n
+	+ WOBBUFFET♀ e un Pokémon maschio dello\n
+	+ stesso gruppo Uovo nella Pensione\n
+	+ Pokémon. Non dimenticare che uno di\n
+	+ loro deve tenere del Distraroma.
+    f0	 = Puoi ottenere un Uovo lasciando uno\n
+	+ SWELLOW♀ e un Pokémon maschio dello\n
+	+ stesso gruppo Uovo nella Pensione\n
+	+ Pokémon.
+    f1	 = TRANSLATION NEEDED
+    f2	 = TRANSLATION NEEDED
+    f3	 = TRANSLATION NEEDED
+    f4	 = TRANSLATION NEEDED
+    f5	 = Puoi ottenere un Upgrade a Evopoli.
+    f6	 = Puoi ottenere un Dubbiodisco\n
+	+ sul Percorso 225.
+    f7	 = TRANSLATION NEEDED
+    f8	 = A volte gli ELEKID selvatici\n
+	+ hanno l'Elettritore. Puoi\n
+	+ catturare un ELEKID all'Impianto\n
+	+ Turbine.\n
+	+ Dual Slot: Rosso Fuoco.
+    f9	 = TRANSLATION NEEDED
+    fa	 = Puoi ottenere una Pietrabrillo sull'Isola\n
+	+ Ferrosa o sul Percorso 228.
+    fb	 = Puoi ottenere una Pietrafocaia presso le\n
+	+ Fonderie Fuego. Puoi anche trovarne una\n
+	+ scavando nei Sotterranei.
+    fc	 = Puoi ottenere la Pietratuono a\n
+	+ Arenipoli. Puoi anche trovarne\n
+	+ una scavando nei Sotterranei.
+    fd	 = A volte i CARVANHA e gli SHARPEDO\n
+	+ selvatici hanno lo strumento\n
+	+ Dente Abissi.
+    fe	 = A volte i MAGBY selvatici hanno un\n
+	+ Magmatore. Puoi catturare un MAGBY\n
+	+ sul Percorso 227.\n
+	+ Dual Slot: Verde Foglia.
+    ff	 = TRANSLATION NEEDED
+   100	 = A volte i BRONZOR o gli STEELIX selvatici\n
 	+ hanno una Metalcoperta.
-    eb	= Puoi ottenere una Pietraidrica sul\n
-    ed	= Puoi trovare una Copertura\n
+   101	 = La Pietralbore può essere ottenuta sul\n
+	+ Monte Corona o sul Percorso 225.
+   102	 = Puoi ottenere una Pietraidrica sul\n
+	+ Percorso 213. Puoi anche trovarne\n
+	+ una scavando nei Sotterranei.
+   103	 = La Roccia Di Re è uno strumento che\n
+	+ trovano spesso i Pokémon con l'abilità\n
+	+ Raccolta.
+   104	 = Puoi trovare una Copertura\n
 	+ sul Percorso 228.
-    ef	= Puoi ottenere una Pietrafoglia nel\n
+   105	 = Puoi ottenere un Terrorpanno\n
+	+ sul Percorso 229.
+   106	 = Puoi ottenere una Pietrafoglia nel\n
 	+ Prato Fiorito. Puoi anche trovarne\n
 	+ una scavando nei Sotterranei.
-    f1	= A volte puoi trovare una Pietrasolare\n
-    f2	= Può capitare di trovare una Pietralunare\n
+   107	 = Può capitare di incontrare HORSEA o \n
+	+ SEADRA selvatici che hanno una Squama\n
+	+ Drago.
+   108	 = A volte puoi trovare una Pietrasolare\n
+	+ scavando nei Sotterranei. Puoi ottenerla\n
+	+ anche dai SOLROCK selvatici.
+   109	 = Può capitare di trovare una Pietralunare\n
 	+ scavando nei Sotterranei. Possono\n
 	+ averla anche i LUNATONE selvatici.
-    f4	= Puoi ottenere una Neropietra nel\n
+   10a	 = A volte troverai un RELICANTH selvatico\n
+	+ che ha una Squamabissi.
+   10b	 = Puoi ottenere una Neropietra nel\n
 	+ deposito del Team Galassia o in\n
-    f5	= Cerca Fossili nei Sotterranei usando \n
-    f8	= Se il suo Attacco è più alto della sua Difesa,\n
-	+ after you have a little chat with Backlot.
-    fa	= Appare ogni venerdì di fronte \n
-    fc	= 1. Porta la Roccianima nella Torre di Pietra \n
+	+ Via Vittoria.
+   10c	 = Cerca Fossili nei Sotterranei usando \n
+	+ l'Esplorokit. Una volta ottenuto il\n
+	+ Pokédex Nazionale riuscirai a trovare\n
+	+ più tipi di Fossili.
+   10d	 = Il Percorso 221 fino al Parco Amici sarà\n
+	+ disponibile una volta ottenuto il Pokédex\n
+	+ Nazionale. Potrai  portarci Pokémon \n
+	+ catturati nei giochi della serie Pokémon\n
+	+ per GBA per poi catturarli di nuovo.
+   10e	 = Catturati 26 tipi di UNOWN, si aprirà\n
+	+ il Tunnel Rovine sul Percorso 214.\n
+	+ Da lì, avrai accesso a una stanza\n
+	+ dove potrei catturare UNOWN! e UNOWN?.
+   10f	 = Se il suo Attacco è più alto della sua Difesa,\n
+	+ si evolve in un HITMONLEE. Se la sua Difesa\n
+	+ è più alta del suo Attacco, si evolve in un \n
+	+ HITMONCHAN. Se queste statistiche sono\n
+	+ uguali, si evolve in un HITMONTOP.
+   110	 = Pesca mentre usi Surf. I FEEBAS possono\n
+	+ essere catturati in quattro posti. Una volta\n
+	+ trovato quello giusto, avrai il 50% di\n
+	+ probabilità che abbocchino. I luoghi in cui\n
+	+ appaiono cambiano ogni giorno.
+   111	 = Appare ogni venerdì di fronte \n
+	+ all'Impianto Turbine.
+   112	 = Una volta ottenuto il Pokédex Nazionale\n
+	+ in Pokémon Perla, apparirà nel Giardino\n
+	+ Trofeo dopo aver parlato con Granlotto.
+   113	 = 1. Porta la Roccianima nella Torre di Pietra \n
 	+    in Rovina.\n
-	+ in the Underground.
-    fd	= Puoi ottenere un esemplare di SHEDINJA se\n
+	+ 2. Accedi ai Sotterranei con l'Esplorokit.\n
+	+ 3. Parla a 32 persone nei Sotterranei.\n
+	+ 4. SPIRITOMB apparirà nel Pozzo Memoria.
+   114	 = Puoi ottenere un esemplare di SHEDINJA se\n
 	+ hai un posto in squadra, una Poké Ball, e\n
-    fe	= Una volta ottenuto il Pokédex Nazionale\n
-    ff	= Quando EEVEE si è affezionato a te a\n
-   100	= Dopo aver ottenuto il Pokédex Nazionale\n
-   101	= Otterrai il Poké Radar dopo aver\n
-   108	= Puoi ottenere un Affilartigli in\n
-   137	= ・About MANTINE
-   138	= ・About MILOTIC
-   139	= ・About TURTWIG
-   13a	= ・About CHIMCHAR
-   13b	= ・About PIPLUP
-   13c	= ・About REGIGIGAS
-   13d	= ・About DIALGA
-   13e	= ・About PALKIA
-   13f	= ・About GIRATINA
-   140	= ・About ARTICUNO
-   141	= ・About ZAPDOS
-   142	= ・About MOLTRES
-   143	= Discover it at the Pokémon Day\n
-	+ Care in Solaceon Town.
-   144	= ・About Eggs
-   145	= You can discover an Egg by leaving a\n
-	+ Pokémon and a Pokémon that gets\n
-	+ along with it at the Pokémon Day Care.
-   146	= After entering the Hall of Fame,\n
-	+ talk to the elder of Celestic Town.\n
-	+ Requires an Adamant Orb.
-   147	= After entering the Hall of Fame,\n
-	+ talk to the elder of Celestic Town.\n
-	+ Requires a Lustrous Orb.
-   148	= After obtaining the National Dex,
-	+  go to Eterna City and\n
-	+ see Prof. Oak.
-   149	= 
-   14a	= New!
-
+	+ porti un NINCADA che ha raggiunto il L. 20.
+   115	 = Una volta ottenuto il Pokédex Nazionale\n
+	+ in Pokémon Diamante, apparirà nel Giardino\n
+	+ Trofeo dopo aver parlato con Granlotto.
+   116	 = Quando EEVEE si è affezionato a te a\n
+	+ sufficienza, si evolve in ESPEON o\n
+	+ UMBREON passando di livello in un \n
+	+ determinato momento della giornata.
+   117	 = Dopo aver ottenuto il Pokédex Nazionale\n
+	+ in Pokémon Perla, potrai catturarlo sul\n
+	+ Percorso 224.
+   118	 = Otterrai il Poké Radar dopo aver\n
+	+ ottenuto il Pokédex Nazionale. \n
+	+ Quando lo usi, l'erba nei paraggi\n
+	+ comincerà a frusciare e tu dovrai\n
+	+ avvicinarti.
+   119	 = AIPOM apprenderà Doppiosmash\n
+	+ una volta raggiunto il L. 32.
+   11a	 = TANGELA apprenderà Forzantica\n
+	+ una volta raggiunto il L. 33.
+   11b	 = TRANSLATION NEEDED
+   11c	 = Puoi insegnare al Pokémon Forzantica\n
+	+ dando alla Guida Mosse una Squama Cuore.\n
+	+ Puoi ottenere la Squama Cuore scavando\n
+	+ nei Sotterranei.
+   11d	 = Quando LICKITUNG raggiunge il\n
+	+ L. 33 impara Rotolamento.
+   11e	 = TRANSLATION NEEDED
+   11f	 = TRANSLATION NEEDED
+   120	 = Apparirà quando inserisci una cassetta di\n
+	+ gioco della serie Pokémon per Game Boy\n
+	+ Advance nell'alloggiamento cassetta\n
+	+ della console Nintendo DS.
+   121	 = Puoi ottenere un Affilartigli in\n
+	+ Via Vittoria o sul Percorso 224.
+   122	 = Puoi ottenere un Affilodente\n
+	+ nel Giardino Lotta.
+   123	 = TRANSLATION NEEDED
+   124	 = TRANSLATION NEEDED
+   125	 = Trovi lo strumento sul Lago Verità\n
+	+ nella borsa lasciata da Prof. Rowan.
+   126	 = TRANSLATION NEEDED
+   127	 = Fai schiudere l'Uovo che ti dà\n
+	+ Marisio sull'Isola Ferrosa.
+   128	 = Esamina di notte la TV\n
+	+ dell'Antico Château.
+   129	 = Puoi incontrarlo al Lago Arguzia.
+   12a	 = Dopo averlo visto al Lago Verità,\n
+	+ si aggirerà nei dintorni di Sinnoh.
+   12b	 = Puoi trovare questo Pokémon\n
+	+ presso il Lago Valore.
+   12c	 = Incontrerai questo Pokémon sulla\n
+	+ Vetta Lancia del Monte Corona.
+   12d	 = Potrai trovare questo Pokémon\n
+	+ sul Monte Ostile.
+   12e	 = Puoi trovare questo Pokémon\n
+	+ al Tempio Nevepoli.
+   12f	 = Puoi trovare questo Pokémon\n
+	+ presso la Grotta Ritorno.
+   130	 = TRANSLATION NEEDED
+   131	 = Una volta visto sull'Isola Lunapiena,\n
+	+ si aggirerà nella regione di Sinnoh.
+   132	 = Puoi scegliere tra un esemplare di\n
+	+ TURTWIG, CHIMCHAR e PIPLUP. Se i\n
+	+ tuoi amici scelgono un Pokémon\n
+	+ diverso, potrai fare scambi con loro.
+   133	 = Potrai catturare questo Pokémon\n
+	+ se hai in squadra REGIROCK, REGICE\n
+	+ e REGISTEEL.
+   134	 = TRANSLATION NEEDED
+   135	 = Quando FEEBAS passa di livello deve\n
+	+ avere una bellezza sufficiente.
+   136	 = Devi avere un REMORAID in squadra\n
+	+ quando MANTYKE passa di livello.
+   137	 = ・Informazioni su MANTINE
+   138	 = ・Informazioni su MILOTIC
+   139	 = ・Informazioni su TURTWIG
+   13a	 = ・Informazioni su CHIMCHAR
+   13b	 = ・Informazioni su PIPLUP
+   13c	 = ・Informazioni su REGIGIGAS
+   13d	 = TRANSLATION NEEDED
+   13e	 = TRANSLATION NEEDED
+   13f	 = TRANSLATION NEEDED
+   140	 = TRANSLATION NEEDED
+   141	 = TRANSLATION NEEDED
+   142	 = TRANSLATION NEEDED
+   143	 = Puoi trovare quest'Uovo presso la\n
+	+ Pensione Pokémon di Flemminia.
+   144	 = ・Informazioni sulle Uova
+   145	 = Se lasci un esemplare femmina e uno\n
+	+ maschio di Pokémon dello stesso gruppo\n
+	+ Uovo presso la Pensione Pokémon, \n
+	+ otterrai un Uovo.
+   146	 = TRANSLATION NEEDED
+   147	 = TRANSLATION NEEDED
+   148	 = TRANSLATION NEEDED
+   149	 = TRANSLATION NEEDED
+   14a	 = NUOVO!
 

@@ -66,197 +66,34 @@
     11	/
     12	/
     13	/
-	14	= Die Batterieleistung der\n
-	+ Wii-Fernbedienung lässt nach.
-    15	/
-    16	/
-    17	/
-    18	= Es steht genug Speicherplatz\n
-	+ im Speicher der Wii zur verfügung.\n
-	+ Bitte schaffe %d Blöcke an freiem\n
-	+ Speicherplatz, indem du in den\n
-	+ Speicherdateneinstellungen Daten\n
-	+ auf die SD Card verschiebst oder löschst.
-    19	= Es steht nicht genug Speicherplatz\n
-	+ für My Pokémon Ranch Platin im Speicher\n
-	+ der Wii zur verfügung.\n
-	+ Bitte schaffe %d Blöcke an freiem\n
-	+ Speicherplatz, indem du in den\n
-	+ Speicherdateneinstellungen Daten\n
-	+ auf die SD Card verschiebst oder löschst.
-    1a	= Es steht genug Speicherplatz\n
-	+ im Speicher der Wii zur verfügung.\n
-	+ Bitte schaffe 1 Block an freiem\n
-	+ Speicherplatz, indem du in den\n
-	+ Speicherdateneinstellungen Daten\n
-	+ auf die SD Card verschiebst oder löschst.
-    1b	= Es steht nicht genug Speicherplatz\n
-	+ für My Pokémon Ranch Platin im Speicher\n
-	+ der Wii zur verfügung.\n
-	+ Bitte schaffe 1 Block an freiem\n
-	+ Speicherplatz, indem du in den\n
-	+ Speicherdateneinstellungen Daten\n
-	+ auf die SD Card verschiebst oder löschst.
-    1c	= Es steht genug Speicherplatz\n
-	+ im Speicher der Wii zur verfügung.\n
-	+ Bitte schaffe Speicherplatz, indem\n
-	+ du in den Speicherdateneinstellungen\n
-	+ Daten auf die SD Card\n
-	+ verschiebst oder löschst.
-    1d	= Es steht nicht genug Speicherplatz\n
-	+ für My Pokémon Ranch Platin im Speicher\n
-	+ der Wii zur verfügung.\n
-	+ Bitte schaffe Speicherplatz, indem\n
-	+ du in den Speicherdateneinstellungen\n
-	+ Daten auf die SD card\n
-	+ verschiebst oder löschst.
-    1e	= Es steht eine abnormale Menge\n
-	+ freier Speicherplatz im Speicher\n
-	+ der Wii zur Verfügung.\n
-	+ \n
-	+ Bitte lies die\n
-	+ Wii-Bedienungsanleitung, um\n
-	+ weitere Informationen zu erhalten.
-    1f	= Es besteht eine abnormale Menge\n
-	+ an Dateien im Speicher\n
-	+ der Wii zur Verfügung.\n
-	+ \n
-	+ Bitte lies die\n
-	+ Wii-Bedienungsanleitung, um\n
-	+ weitere Informationen zu erhalten.
-    20	/
-    21	= Der Speicher der Wii\n
-	+ wurde beschädigt.\n
-	+ \n
-	+ Bitte lies die\n
-	+ Wii-Bedienungsanleitung, um\n
-	+ weitere Informationen zu erhalten.
-    22	= Speichervorgang...\n
-	+ Bitte betätige weder den POWER-\n
-	+ Schalter noch den RESET-Knopf.\n
-    23	/
-    24	= Es konnte nicht auf den\n
-	+ Speicher der Wii zugegriffen\n
-	+ werden.\n
-	+ Bitte lies die\n
-	+ Wii-Bedienungsanleitung, um\n
-	+ weitere Informationen zu erhalten.
-    25	= Beim Zugriff auf den Speicher\n
-	+ der Wii ist ein Fehler aufgetreten.\n
-	+ \fBitte lies die\n
-	+ Wii-Bedienungsanleitung, um\n
-	+ weitere Informationen zu erhalten.
-    26	= Die Speicherdaten konnten\n
-	+ nicht gelesen werden.\n
-	+ Das Spiel kann nicht gestartet\n
-	+ werden. Bitte kontaktiere den\n
-	+ Nintendo-Kundenservice.\n
-	+ Bitte lies die\n
-	+ Wii-Bedienungsanleitung, um\n
-	+ weitere Informationen zu erhalten.\n
-	+ Fehlercode: %03d%03d.\n
-	+ \n
-	+ Bitte betätige den POWER-Schalter\n
-	+ der Wii für 4 Sekunden um sie\n
-	+ auszuschalten.
-    27	= Es gibt ein Problem mit\n
-	+ dem Speicher der Wii.\n
-	+ WiiConnect24 kann nicht\n
-	+ benutzt werden.
-    28	= Ein Update wird benötigt\n
-	+ um WiiConnect24 zu nutzen.\n
-	+ Bitte lies die\n
-	+ Wii-Bedienungsanleitung, um\n
-	+ weitere Informationen zu erhalten.\n
-    29	= Aufgrund eines Fehlers\n
-	+ kann WiiConnect24 nicht benutzt\n
-	+ werden. Drücke die RESET-Taste\n
-	+ und versuche es erneut.
-    2a	= WiiConnect24 ist aktuell\n
-	+ nicht erreichbar.\n
-	+ Bitte versuche es später erneut\n
-    2b	= WiiConnect24 ist in den\n
-	+ Einstellungen deaktiviert.\n
-	+ Bitte kontrolliere die\n
-	+ Einstellungen der Wii\n
-	+ Bitte lies die\n
-	+ Wii-Bedienungsanleitung, um\n
-	+ weitere Informationen zu erhalten.\n
-    2c	= Es konnte keine\n
-	+ Netzwerkverbindung hergestellt\n
-	+ werden. WiiConnect24 kann nicht\n
-	+ benutzt werden. Überprüfe die\n
-	+ Interneteinstellungen und\n
-	+ deine Internetverbindung.\n
-	+ Bitte lies die\n
-	+ Wii-Bedienungsanleitung, um\n
-	+ weitere Informationen zu erhalten.\n
-    2d	= WiiConnect24 ist aktuell\n
-	+ nicht erreichbar.\n
-	+ Bitte versuche es später erneut\n
-    2e	= WiiConnect24 ist aktuell\n
-	+ nicht erreichbar.\n
-	+ Bitte versuche es später erneut\n
-    2f	= Es gibt ein Problem mit\n
-	+ dem Speicher der Wii.\n
-	+ WiiConnect24 kann nicht\n
-	+ benutzt werden.
-    30	= Aufgrund eines Fehlers\n
-	+ kann WiiConnect24 nicht benutzt\n
-	+ werden. Drücke die RESET-Taste\n
-	+ und versuche es erneut.
-    31	/
-    32	= Die Verwendung von\n
-	+ Netzwerkfunktionen ist\n
-	+ eingeschränkt.\n
-	+ \n
-	+ \n
-	+ Bitte kontrolliere die\n
-	+ Einstellungen der\n
-	+ Altersbeschränkungen in den\n
-	+ Einstellungen der Wii.
-    33	/
-    34	/
-    35	/
-    36	/
-    37	= Ja
-    38	= Nein
-    39	/
-    3a	= Zurück
-    3b	/
-    3c	/
-    3d	/
-    3e	= Zurück zum Wii-Menü.
-    3f	/
-    40	/
-    41	/
-    42	/
-    43	/
-    44	/
-    45	/
-    46	/
-    47	/
-    48	/
-    49	/
-    4a	= Mii-Kanal-Daten konnten nicht\n
-	+ geladen werden. Bitte starte den\n
-	+ Mii-Kanal und überprüfe die\n
-	+ Mii-Kanal-Daten.
-    4b	= My Pokémon Ranch
-    4c	/
-    4d	/
-    4e	/
-    4f	/
-    50	/
-    51	/
-    52	/
-    53	/
-    54	/
-    55	/
-    56	/
-    57	/
-    58	/
-    59	/
-    5a	/
-    5b	/
-
+    14	 = TRANSLATION NEEDED
+    18	 = TRANSLATION NEEDED
+    19	 = TRANSLATION NEEDED
+    1a	 = TRANSLATION NEEDED
+    1b	 = TRANSLATION NEEDED
+    1c	 = TRANSLATION NEEDED
+    1d	 = TRANSLATION NEEDED
+    1e	 = TRANSLATION NEEDED
+    1f	 = TRANSLATION NEEDED
+    21	 = TRANSLATION NEEDED
+    22	 = TRANSLATION NEEDED
+    24	 = TRANSLATION NEEDED
+    25	 = TRANSLATION NEEDED
+    26	 = TRANSLATION NEEDED
+    27	 = TRANSLATION NEEDED
+    28	 = TRANSLATION NEEDED
+    29	 = TRANSLATION NEEDED
+    2a	 = TRANSLATION NEEDED
+    2b	 = TRANSLATION NEEDED
+    2c	 = TRANSLATION NEEDED
+    2d	 = TRANSLATION NEEDED
+    2e	 = TRANSLATION NEEDED
+    2f	 = TRANSLATION NEEDED
+    30	 = TRANSLATION NEEDED
+    32	 = TRANSLATION NEEDED
+    37	 = TRANSLATION NEEDED
+    38	 = TRANSLATION NEEDED
+    3a	 = TRANSLATION NEEDED
+    3e	 = TRANSLATION NEEDED
+    4a	 = TRANSLATION NEEDED
+    4b	 = TRANSLATION NEEDED
