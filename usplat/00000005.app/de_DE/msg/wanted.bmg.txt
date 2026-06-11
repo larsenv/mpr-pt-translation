@@ -568,6 +568,6 @@
    148	 = Gehe nach Ewigenau, nachdem,\n
      + du den Nat. Pokédex erhalten hast\n
      + und sprich mit Prof. Eich.
-   149	 = (TRANSLATION NEEDED) 
+   149	 = 
    14a	 = NEU!
 

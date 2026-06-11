@@ -46,7 +46,7 @@
 #
 #------------------------------------------------------------------------------
 
-     0	 = (TRANSLATION NEEDED) 
+     0	 = 
      1	 = Ti do il benvenuto in\n
 	+ My Pokémon Ranch!
      2	 = Mi chiamo Giulia. \n
@@ -490,7 +490,7 @@
 	+ divertire, no?
     ba	 = Per favore, porta al Ranch \n
 	+ altri Mii!
-    bb	 = (TRANSLATION NEEDED) 
+    bb	 = 
     bc   = C'è una grossa novità! Da oggi\n
 	+ arriveranno al Ranch tre\n
 	+ Box Giochi al giorno!
@@ -502,7 +502,7 @@
 	+ sgusciato da un Uovo deposto\n
 	+ da MANAPHY e da un altro\n
 	+ Pokémon compatibile.
-    c0   = (TRANSLATION NEEDED) 
+    c0   = 
     c1	 = Lo lascerò al Ranch.\n
 	+ Prenditene cura, va bene?
     c2	 = C'è una grossa novità!\n
@@ -534,7 +534,7 @@
     cd	 = Quando il Ranch sarà pieno, \n
 	+ chiederò ai miei Pokémon di \n
 	+ stare nelle stalle.
-    ce	 = (TRANSLATION NEEDED) 
+    ce	 = 
     cf	 = Tu porta pure al Ranch\n
 	+ quanti Pokémon vuoi, non\n
 	+ preoccuparti dei miei!
@@ -561,7 +561,7 @@
     d8	 = Questo è MEW. Si dice che\n
 	+ possegga il codice genetico\n
 	+ di tutti gli altri Pokémon.
-    d9   = (TRANSLATION NEEDED) 
+    d9   = 
     da	 = Lo lascerò qui al Ranch.\n
 	+ Trattalo bene, mi raccomando!
     db	 = Grandi novità! Da oggi\n
@@ -1237,7 +1237,7 @@ Ranch %ls!	Ranch %ls!+Ranch %ls! Ranch %ls!RRanch %ls!aRanch %ls!nRanch %ls!cRan
 	+ tantissimo avere un Uovo \n
 	+ senza sapere che Pokémon\n
 	+ contiene!
-   1f6   = (TRANSLATION NEEDED) 
+   1f6   = 
    1f7   = Se riesci ad ottenere un Uovo\n
 	+ di Pokémon, lo scambieresti\n
 	+ con il mio esemplare di\n

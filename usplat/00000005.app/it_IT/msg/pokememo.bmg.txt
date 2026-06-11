@@ -46,7 +46,7 @@
 #
 #------------------------------------------------------------------------------
 
-     0	 = (TRANSLATION NEEDED) 
+     0	 = 
      1	 = Hayley brought someone along.
      2	 = Hayley brought someone along.
      3	 = I gathered 10 Pokémon.

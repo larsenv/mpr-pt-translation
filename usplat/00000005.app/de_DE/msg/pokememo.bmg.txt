@@ -46,7 +46,7 @@
 #
 #------------------------------------------------------------------------------
 
-     0	 = (TRANSLATION NEEDED) 
+     0	 = 
      1	 = Eukalia hat jemanden mitgebracht.
      2	 = Eukalia hat jemanden mitgebracht.
      3	 = Ich habe 10 Pokémon gesammelt.

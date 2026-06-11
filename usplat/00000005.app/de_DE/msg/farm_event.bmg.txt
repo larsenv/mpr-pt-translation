@@ -46,7 +46,7 @@
 #
 #------------------------------------------------------------------------------
 
-     0	 = (TRANSLATION NEEDED) 
+     0	 = 
      1	 = Willkommen zu\n
 	+ "My Pokémon Ranch"!
      2	 = Ich bin Eukalia, die Leiterin von\n
@@ -531,7 +531,7 @@
 	+ viel Spaß haben!
     ba	 = Nur zu, erstelle viele Miis und\n
 	+ bring sie mit auf die Ranch!
-    bb	 = (TRANSLATION NEEDED) 
+    bb	 = 
     bc   = Außerdem erhalten wir von nun\n
 	+ an drei Spaßkisten - und\n
 	+ das jeden Tag!
@@ -545,7 +545,7 @@
 	+ Pokémon. Es schlüpfte aus\n
 	+ einem Ei von MANAPHY und\n
 	+ einem Pokémon, das es mag.
-    c0   = (TRANSLATION NEEDED) 
+    c0   = 
     c1	 = Ich glaube, ich lass es auf der\n
 	+ Ranch. Du musst mir aber\n
 	+ versprechen, dass du gut\n
@@ -620,7 +620,7 @@
 	+ Pokémon, das angeblich den\n
 	+ genetischen Code aller\n
 	+ Pokémon in sich trägt.
-    d9   = (TRANSLATION NEEDED) 
+    d9   = 
     da	 = Ich glaube, ich lasse es auf der\n
 	+ Ranch. Sei so nett und gib gut\n
 	+ darauf Acht, okay?
@@ -1337,7 +1337,7 @@
 	+ wäre ein Ei, ohne zu wissen,\n
 	+ welches Pokémon daraus\n
 	+ schlüpft! Diese Spannung!
-   1f6   = (TRANSLATION NEEDED) 
+   1f6   = 
    1f7   = Wenn du ein Pokémon-Ei\n
 	+ findest, würde ich es\n
 	+ gerne gegen mein\n

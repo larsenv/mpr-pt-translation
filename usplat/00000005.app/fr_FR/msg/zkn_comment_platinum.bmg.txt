@@ -46,7 +46,7 @@
 #
 #------------------------------------------------------------------------------
 
-     0   = (TRANSLATION NEEDED) 
+     0   = 
      1	 = Au matin de sa vie, la graine sur\n
 		+ son dos lui fournit les éléments\n
 		+ dont il a besoin pour grandir.

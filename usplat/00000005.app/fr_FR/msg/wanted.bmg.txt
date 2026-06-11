@@ -571,6 +571,6 @@
    148	 = After obtaining the National Dex,
 	+  go to Eterna City and\n
 	+ see Prof. Oak.
-   149	 = (TRANSLATION NEEDED) 
+   149	 = 
    14a	 = NOUVEAU!
 

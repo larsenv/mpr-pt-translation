@@ -46,7 +46,7 @@
 #
 #------------------------------------------------------------------------------
 
-     0	 = (TRANSLATION NEEDED) 
+     0	 = 
      1	 = Dopo la nascita, cresce traendo\n
 	+ nutrimento dal seme piantato\n
 	+ sul suo dorso.

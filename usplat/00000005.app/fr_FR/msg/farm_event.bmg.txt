@@ -46,7 +46,7 @@
 #
 #------------------------------------------------------------------------------
 
-     0	 = (TRANSLATION NEEDED) 
+     0	 = 
      1	 = Bonjour! Bienvenue dans\n
 	+ My Pokémon Ranch!
      2	 = Je m'appelle Eulalie. C'est moi\n
@@ -512,7 +512,7 @@
 	+ suffisent largement, non?
     ba	 = Allez, fais donc venir de\n
 	+ nouveaux Mii au Ranch!
-    bb	 = (TRANSLATION NEEDED) 
+    bb	 = 
     bc   = Et encore une bonne nouvelle!\n
 	+ A partir d'aujourd'hui,\n
 	+ le Ranch recevra chaque jour\n
@@ -524,7 +524,7 @@
 	+ qui éclot d'un Œuf de\n
 	+ MANAPHY et d'un autre\n
 	+ Pokémon compatible.
-    c0   = (TRANSLATION NEEDED) 
+    c0   = 
     c1	 = Je vais lui aussi le laisser au\n
 	+ Ranch. Prends bien soin de lui!
     c2	 = Et encore une bonne nouvelle!\n
@@ -587,7 +587,7 @@
 	+ légendaire dont on dit que le\n
 	+ code génétique comprend celui\n
 	+ de tous les autres Pokémon.
-    d9   = (TRANSLATION NEEDED) 
+    d9   = 
     da	 = Je vais lui aussi le laisser au\n
 	+ Ranch. Prends bien soin de lui!
     db	 = Et encore une bonne nouvelle!\n
@@ -1304,7 +1304,7 @@
    1f5	 = J'aimerais tellement avoir\n
 	+ un Œuf, sans savoir quel\n
 	+ Pokémon en sortira!
-   1f6   = (TRANSLATION NEEDED) 
+   1f6   = 
    1f7   = Si tu trouves un Œuf,\n
 	+ tu voudras bien me l'échanger\n
 	+ contre mon %ls?

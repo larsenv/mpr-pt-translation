@@ -46,7 +46,7 @@
 #
 #------------------------------------------------------------------------------
 
-     0	 = (TRANSLATION NEEDED) 
+     0	 = 
      1	 = Avvia un gioco Pokémon di\n
 	+ Quarta Generazione sul tuo\n
 	+ Nintendo DS e seleziona\n
@@ -391,8 +391,8 @@
 	+ %d\n
 	+ %ls\n
 	+ ----
-    c0	 = (TRANSLATION NEEDED) 
-    c1	 = (TRANSLATION NEEDED) 
+    c0	 = 
+    c1	 = 
     c2	 = Info sul Ranch
     c3	 = Bacheca
     c4	 = Cronologia
@@ -471,7 +471,7 @@
    107	 = Depositati
    108	 = Guardiano
    109	 = Parata
-   10a	 = (TRANSLATION NEEDED) 
+   10a	 = 
    10b	 = What do you want to store?
    10c	 = Default
    10d	 = List by Pokédex order
@@ -699,13 +699,13 @@
 	+ selezionando il Mii e \n
 	+ premendo \x{e042}.
 	+ This feature becomes available when\n
-   1c8	 = (TRANSLATION NEEDED) 
+   1c8	 = 
    1c9	 = Come smetto di giocare?
    1ca	 = Tornare al menu Wii
    1cb	 = Quando vuoi smettere di giocare,\n
 	+ scegli questa opzione.
-   1cc	 = (TRANSLATION NEEDED) 
-   1cd	 = (TRANSLATION NEEDED) 
+   1cc	 = 
+   1cd	 = 
    1ce	 = Introduzione
    1cf	 = My Pokémon Ranch
    1d0	 = (TRANSLATION NEEDED) My Pokémon Ranch is a place\n\n
@@ -715,7 +715,7 @@
 	+ Let's make the Ranch lively by visiting\n\n
 	+ it every day or migrating Pokémon from\n\n
 	+ Pokémon Diamond, Pearl and Platinum!\n
-   1d1	 = (TRANSLATION NEEDED) 
+   1d1	 = 
    1d2	 = Preferiti (2)
 	+ You can revisit a "Club Look-See"\n
 	+ Ranch you've already visited,
@@ -749,8 +749,8 @@
 	+ \n
 	+ ↑↓  Scorri uno alla volta\n
 	+ ←→  Scorri più alla volta
-   1e7	 = (TRANSLATION NEEDED) 
-   1e8	 = (TRANSLATION NEEDED) 
+   1e7	 = 
+   1e8	 = 
    1e9	 = Blocco\n
 	+ Focus
    1ea	 = Blocco\n
@@ -762,7 +762,7 @@
 	+ Così facendo, la visuale\n
 	+ segue il Pokémon o il Mii\n
 	+ che stavi guardando.
-   1ec   = (TRANSLATION NEEDED) 
+   1ec   = 
    1ed   = Puoi scegliere quali Mii\n
 	+ status info with your Wii Friends.\n
 	+ Maybe you'll get invited to your\n
@@ -782,8 +782,8 @@
 	+ \x{e043} + \x{e058} : scorri\n
 	+ \x{e045} : zoom +\n
 	+ \x{e046} : zoom -
-   1f6	 = (TRANSLATION NEEDED) 
-   1f7	 = (TRANSLATION NEEDED) 
+   1f6	 = 
+   1f7	 = 
    1f8	 = Nunchuk
    1f9	 = Con la modalità libera...
    1fa	 = ... l'utilizzo del Nunchuk ti\n
@@ -804,14 +804,14 @@
 	+ Attenzione! Se non vuoi perdere\n
 	+ una foto, vai nell'album e attiva\n
 	+ la protezione.
-   200   = (TRANSLATION NEEDED) 
-   201   = (TRANSLATION NEEDED) 
+   200   = 
+   201   = 
    202	 = Album (1)
    203	 = Album
    204	 = Qui puoi vedere tutte le foto\n
 	+ che hai scattato.
-   205	 = (TRANSLATION NEEDED) 
-   206	 = (TRANSLATION NEEDED) 
+   205	 = 
+   206	 = 
    207	 = Album (2)
    208	 = Cancella
    209	 = Puoi cancellare la foto che\n
@@ -829,8 +829,8 @@
 	+ Quando non c'è più spazio\n
 	+ in memoria, le più vecchie\n
 	+ vengono cancellate.
-   20f	 = (TRANSLATION NEEDED) 
-   210	 = (TRANSLATION NEEDED) 
+   20f	 = 
+   210	 = 
    211	 = Album (4)
    212	 = Salva in una scheda SD
    213	 = Scegliendo questa opzione,\n
@@ -841,8 +841,8 @@
 	+ dalla scheda SD
    215	 = Cancella tutte le foto di My Pokémon\n
 	+ Ranch dalla scheda SD.
-   216	 = (TRANSLATION NEEDED) 
-   217   = (TRANSLATION NEEDED) 
+   216	 = 
+   217   = 
    218	 = (TRANSLATION NEEDED) Album (5)
    219	 = Salva in una scheda SD
    21a	 = (TRANSLATION NEEDED) Save all pictures in the\n\n
@@ -867,8 +867,8 @@
 	+ nella scheda o inizi un nuovo gioco,\n
 	+ non potrai ritirare i Pokémon\n
 	+ depositati in precedenza.
-   223   = (TRANSLATION NEEDED) 
-   224   = (TRANSLATION NEEDED) 
+   223   = 
+   224   = 
    225	 = Dettagli (1)
    226	 = Amici al Ranch
    227	 = Controlla quanti Pokémon sono stati\n
@@ -877,8 +877,8 @@
 	+ Inoltre, puoi anche cambiare i \n
 	+ guardiani dei Pokémon depositati\n
 	+ dalla console Nintendo DS.\040
-   228	 = (TRANSLATION NEEDED) 
-   229	 = (TRANSLATION NEEDED) 
+   228	 = 
+   229	 = 
    22a	 = Dettagli (2)
    22b	 = Pokémon nel Ranch
    22c	 = (TRANSLATION NEEDED) You can view the Pokémon\n\n
@@ -909,8 +909,8 @@
 	+ Quest'opzione diventa disponibile\n
 	+ quando il Ranch raggiunge un\n
 	+ certo livello.
-   237	 = (TRANSLATION NEEDED) 
-   238	 = (TRANSLATION NEEDED) 
+   237	 = 
+   238	 = 
    239	 = Preferiti (2)
    23a	 = Aggiungi ai Preferiti
    23b	 = Premi \x{e042} per aggiungere\n
@@ -930,7 +930,7 @@
 	+ You can change "Today's Music".\n\n
 	+ You can revisit a "Club Look-See"\n\n
 	+ Ranch you've already visited,
-   242	 = (TRANSLATION NEEDED) 
+   242	 = 
    243	 = Pokémon desiderati (1)
    244	 = Pokémon desiderati
    245	 = (TRANSLATION NEEDED) Hayley often gives advice on how to\n\n
@@ -942,8 +942,8 @@
 	+ \n\n
 	+ If you succeed, maybe something\n\n
 	+ good will happen.
-   246   = (TRANSLATION NEEDED) 
-   247   = (TRANSLATION NEEDED) 
+   246   = 
+   247   = 
    248	 = Pokémon desiderati (2)
    249	 = Come catturare i Pokémon
    24a	 = Se premi \x{e042} sul Pokémon\n
@@ -959,16 +959,16 @@
    24e	 = Info sul Ranch
    24f	 = Controlla lo stato\n
 	+ attuale del Ranch.
-   250	 = (TRANSLATION NEEDED) 
-   251	 = (TRANSLATION NEEDED) 
+   250	 = 
+   251	 = 
    252   = (TRANSLATION NEEDED) Today's Music (1)
    253	 = (TRANSLATION NEEDED) Today's Music
    254	 = (TRANSLATION NEEDED) You can see the names of the\n\n
 	+ music heard in the Ranch.\n\n
 	+ You can also select a song\n\n
 	+ to change the music.
-   255	 = (TRANSLATION NEEDED) 
-   256	 = (TRANSLATION NEEDED) 
+   255	 = 
+   256	 = 
    257	 = (TRANSLATION NEEDED) Today's Music (2)
    258	 = (TRANSLATION NEEDED) Others
    259	 = (TRANSLATION NEEDED) In addition, you can choose\n\n
@@ -986,8 +986,8 @@
 	+ portare al Ranch e\n
 	+ cambiare le impostazioni\n
 	+ di WiiConnect24.
-   262   = (TRANSLATION NEEDED) 
-   263   = (TRANSLATION NEEDED) 
+   262   = 
+   263   = 
    264   = Porta Mii
    265	 = Numero di Mii
    266	 = All'inizio, puoi portare al Ranch\n
@@ -1082,8 +1082,8 @@
 	+ \n
 	+ Per uscire, punta verso la porta\n
 	+ in alto a sinistra e premi \x{e042}.
-   294	 = (TRANSLATION NEEDED) 
-   295	 = (TRANSLATION NEEDED) 
+   294	 = 
+   295	 = 
    296	 = Mii nel Ranch (2)
    297	 = Sceglili in qualsiasi momento
    298	 = Puoi selezionare i Mii in qualsiasi\n
@@ -1113,7 +1113,7 @@
 	+ ritirare i Pokémon\n
 	+ depositati.
    2a1	 = Collegati al DS
-   2a2	 = (TRANSLATION NEEDED) 
+   2a2	 = 
    2a3	 = Il collegamento alla console \n
 	+ Nintendo DS è stato interrotto\n
 	+ senza salvare. Verranno caricati\n
