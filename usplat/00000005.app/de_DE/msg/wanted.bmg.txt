@@ -72,9 +72,11 @@
 	+ EVOLI im Ewigwald.
      d	 = Entwickelt sich bei Levelanstieg von\n
 	+ MAGNETON auf dem Kraterberg.
-     e	 = TRANSLATION NEEDED
-     f	 = TRANSLATION NEEDED
-    10	 = TRANSLATION NEEDED
+     e	 = Erhalte es in Schleiede.
+     f	 = Brüte das Ei aus, das Cynthia\n
+     + dir in Ewigenau gegeben hat.
+    10	 = Entwickle NINCADA mit Platz\n
+    + in deinem Team.
     11	 = Entwickelt sich, wenn du\n
 	+ %ls%ls ein Item gibst.
     12	 = Entwickelt sich auf Level %3$d\n
@@ -91,8 +93,10 @@
 	+ von Trostu und lass es schlüpfen.
     18	 = Keine Tipps zum Fangen dieses\n
 	+ Pokémon verfügbar.
-    19	 = TRANSLATION NEEDED
-    1a	 = TRANSLATION NEEDED
+    19	 = Tausche mit anderen DS Pokémon-\n
+     + Spielen um es zu erhalten.
+    1a	 = Es wandert in der\n 
+	+ Sinnoh-Region.
     1b	 = Route 201
     1c	 = Route 202
     1d	 = Route 203
@@ -206,7 +210,7 @@
     89	 = Morgens
     8a	 = Morgens/nachmittags
     8b	 = Nachts
-    8c	 = TRANSLATION NEEDED
+    8c	 = Morgens/Nachts
     8d	 = ・Lv. %d oder höher
     8e	 = ・Honigbaum
     8f	 = ・Wenn Vert. > Angriff
@@ -220,10 +224,10 @@
     97	 = ・LEDYBA-Ei
     98	 = ・ISSO-Ei
     99	 = ・SCHWALBINI-Ei
-    9a	 = TRANSLATION NEEDED
-    9b	 = TRANSLATION NEEDED
-    9c	 = TRANSLATION NEEDED
-    9d	 = TRANSLATION NEEDED
+    9a	 = ・SEEMOPS-Ei
+    9b	 = ・JUROB-Ei
+    9c	 = ・ELEKID-Ei
+    9d	 = ・MAGBY-Ei
     9e	 = ・Mit Angel
     9f	 = ・Mit Profiangel
     a0	 = ・Mit Superangel
@@ -248,7 +252,7 @@
     b3	 = ・Item: Sonnenstein
     b4	 = ・Item: Mondstein
     b5	 = ・Item: Abyssplatte
-    b6	 = TRANSLATION NEEDED
+    b6	 = ・Item: Laxrauch
     b7	 = ・Item: Finsterstein
     b8	 = ・Nassbrocken
     b9	 = ・Eisbrocken
@@ -259,8 +263,8 @@
     be	 = ・Fossil: Panzerfossil
     bf	 = ・Fossil: Klauenfossil
     c0	 = ・Fossil: Kopffossil
-    c1	 = TRANSLATION NEEDED
-    c2	 = TRANSLATION NEEDED
+    c1	 = ・Mit einer geraden Trainer ID ausgegraben.
+    c2	 = ・Mit einer ungeraden Trainer ID ausgegraben.
     c3	 = ・Wenn Angriff = Vert.
     c4	 = ・Wenn Angriff > Vert.
     c5	 = ・Auf Wasser (mit Surfer)
@@ -275,8 +279,8 @@
     ce	 = ・Infos über KRYPPUK
     cf	 = ・Infos über NINJATOM
     d0	 = ・Infos über MOBAI
-    d1	 = TRANSLATION NEEDED
-    d2	 = TRANSLATION NEEDED
+    d1	 = ・Levelanstieg zw. 4 und 20 Uhr
+    d2	 = ・Levelanstieg zw. 20 und 4 Uhr
     d3	 = ・Pokéradar erforderlich
     d4	 = ・Pokémon Diamant-Edition - selten
     d5	 = ・Pokémon Perl-Edition - selten
@@ -289,11 +293,11 @@
     dc	 = ・Dual-Modus: Feuerrot
     dd	 = ・Dual-Modus: Blattgrün
     de	 = ・Dual-Modus: Rubin
-    df	 = TRANSLATION NEEDED
-    e0	 = TRANSLATION NEEDED
+    df	 = ・Dual-Modus: Saphir
+    e0	 = ・Dual-Modus: beliebig
     e1	 = ・Nach Erhalt des Nat. Pokédex
     e2	 = ・Trophäengarten
-    e3	 = TRANSLATION NEEDED
+    e3	 = ・Waumpel-Entwicklung
     e4	 = Schmiere Honig, den du in den Auen von\n
 	+ Flori bekommst, auf einen Baum und warte\n
 	+ einen halben Tag, bis ein Pokémon erscheint!\n
@@ -345,19 +349,34 @@
 	+ Pokémon, das es mag, in die Pokémon-\n
 	+ Pension schickst, kannst du dieses Ei\n
 	+ erhalten.
-    f1	 = TRANSLATION NEEDED
-    f2	 = TRANSLATION NEEDED
-    f3	 = TRANSLATION NEEDED
-    f4	 = TRANSLATION NEEDED
+    f1	 = Wenn du ein SEEJONG♀ und ein\n
+     + Pokémon, das es mag, in die Pokémon-\n
+     + Pension schickst, kannst du dieses Ei\n
+     + erhalten.
+    f2	 = Wenn du ein JUGONG♀ und ein\n
+     + Pokémon, das es mag, in die Pokémon-\n
+     + Pension schickst, kannst du dieses Ei\n
+     + erhalten.
+    f3	 = Wenn du ein ELEKTEK♀ und ein\n
+     + Pokémon, das es mag, in die Pokémon-\n
+     + Pension schickst, kannst du dieses Ei\n
+     + erhalten.
+    f4	 = Wenn du ein MAGMAR♀ und ein\n
+     + Pokémon, das es mag, in die Pokémon-\n
+     + Pension schickst, kannst du dieses Ei\n
+     + erhalten.
     f5	 = Du bekommst ein Up-Grade in Ewigenau.
     f6	 = Du bekommst eine Dubiosdisc auf\n
 	+ Route 225.
-    f7	 = TRANSLATION NEEDED
+    f7	 = Du bekommst eine Dubiosdisc im\n
+     + Galaktik-Gebäude von Schleiede.
     f8	 = Du wirst feststellen, dass ein wildes ELEKID\n
 	+ manchmal einen Stromisierer bei sich hat.\n
 	+ Ein ELEKID findest du am Windkraftwerk.\n
 	+ Dual-Modus: Feuerrot.
-    f9	 = TRANSLATION NEEDED
+    f9	 = Du wirst feststellen, dass ein wildes ELEKTEK\n
+     + manchmal einen Stromisierer bei sich hat.\n
+     + Ein ELEKTEK findest du auf Route 222.
     fa	 = Du findest einen Leuchtstein entweder auf\n
 	+ der Eiseninsel oder auf Route 228.
     fb	 = Einen Feuerstein findest du in der\n
@@ -372,7 +391,9 @@
 	+ bei sich. Einem MAGBY begegnest du auf\n
 	+ Route 227.\n
 	+ Dual-Modus: Blattgrün
-    ff	 = TRANSLATION NEEDED
+    ff	 = MAGMAR hält manchmal einen Magmaisierer\n
+     + bei sich. Einem MAGMAR begegnest du bei\n
+     + der Feuriohütte.
    100	 = Metallmäntel werden manchmal von\n
 	+ BRONZEL oder STAHLOS getragen.
    101	 = Einen Funkelstein findest du entweder auf\n
@@ -457,26 +478,29 @@
 	+ Die solltest du genauer untersuchen!
    119	 = GRIFFEL lernt Doppelschlag mit Level 32.
    11a	 = TANGELA lernt Antik-Kraft mit Level 33.
-   11b	 = TRANSLATION NEEDED
+   11b	 = Yanma lernt Antik-Kraft mit Level 33.
    11c	 = Es kann Antik-Kraft erlernen, wenn\n
 	+ du dem Attacken-Helfer eine\n
 	+ Herzschuppe gibst. Diese findest\n
 	+ du durch Graben im Untergrund.
    11d	 = Wenn SCHLURP Level 32 erreicht,\n
 	+ lernt es Walzer.
-   11e	 = TRANSLATION NEEDED
-   11f	 = TRANSLATION NEEDED
+   11e	 = Wenn MOBAI Level 17 erreicht,\n
+     + lernt es Mimikry.
+   11f	 = Wenn PANTIMIMI Level 18 erreicht,\n
+     + lernt es Mimikry.
    120	 = Erscheint, wenn du ein Game Boy Advance-\n
 	+ Pokémon-Spiel in den GBA-Modulschacht\n
 	+ des Nintendo DS steckst.
    121	 = Eine Scharfklaue findest du entweder auf der\n
 	+ Siegesstraße oder auf Route 224.
    122	 = Du findest einen Scharfzahn im Duellpark.
-   123	 = TRANSLATION NEEDED
-   124	 = TRANSLATION NEEDED
+   123	 = Du findest einen Scharfzahn auf Route 224.
+   124	 = Wenn WAUMPEL Lebel 7 erreicht,\n
+     + entwickielt es sich in SCHALOKO oder PANEKON.
    125	 = Nimm Prof. Eibes Aktentasche am\n
 	+ See der Wahrheit an dich.
-   126	 = TRANSLATION NEEDED
+   126	 = Erhalte es von Prof. Eich.
    127	 = Bringe das Ei zum Schlüpfen, das\n
 	+ dir Hordeo auf der Eiseninsel gab.
    128	 = Überprüfe nachts den Fernseher\n
@@ -495,7 +519,8 @@
 	+ im Blizzach-Tempel.
    12f	 = Dieses Pokémon sollte unweit der\n
 	+ Höhle der Umkehr zu finden sein.
-   130	 = TRANSLATION NEEDED
+   130	 = Du begegnest diesem Pokémon in\n
+     + der Zerrwelt.
    131	 = Es fliegt nach eurer Begegnung auf\n
 	+ der Vollmond-Insel in Sinnoh\n
 	+ herum.
@@ -507,7 +532,7 @@
    133	 = Du kannst dieses Pokémon fangen, wenn\n
 	+ sich REGIROCK, REGICE und REGISTEEL in\n
 	+ deiner Gruppe befinden.
-   134	 = TRANSLATION NEEDED
+   134	 = Morgens/abends
    135	 = Sorge dafür, dass die Schönheit eines\n
 	+ BARSCHWA ausreichend hoch ist, wenn\n
 	+ der Level dieses Pokémon steigt.
@@ -520,21 +545,29 @@
    13a	 = ・Infos über PANFLAM
    13b	 = ・Infos über PLINFA
    13c	 = ・Infos über REGIGIGAS
-   13d	 = TRANSLATION NEEDED
-   13e	 = TRANSLATION NEEDED
-   13f	 = TRANSLATION NEEDED
-   140	 = TRANSLATION NEEDED
-   141	 = TRANSLATION NEEDED
-   142	 = TRANSLATION NEEDED
+   13d	 = ・Infos über DIALGA
+   13e	 = ・Infos über PALKIA
+   13f	 = ・Infos über GIRATINA
+   140	 = ・Infos über ARKTOS
+   141	 = ・Infos über ZAPDOS
+   142	 = ・Infos über LAVADOS
    143	 = Dieses Ei findest du in der\n
 	+ Pokémon-Pension von Trostu.
    144	 = ・Infos über Eier
    145	 = Schick ♂ und ♀ Pokémon, die sich mögen,\n
 	+ in die Pokémon-Pension, um ein Ei zu\n
 	+ erhalten.
-   146	 = TRANSLATION NEEDED
-   147	 = TRANSLATION NEEDED
-   148	 = TRANSLATION NEEDED
-   149	 = TRANSLATION NEEDED
+   146	 = Sprich mit der Ältesten in\n
+     + Elyses, nachdem du die Ruhmeshalle\n
+     + betreten hast.\n
+     + Benötigt den Adamant-Orb.
+   147	 = Sprich mit der Ältesten in\n
+     + Elyses, nachdem du die Ruhmeshalle\n
+     + betreten hast.\n
+     + Benötigt den Weiß-Orb.
+   148	 = Gehe nach Ewigenau, nachdem,\n
+     + du den Nat. Pokédex erhalten hast\n
+     + und sprich mit Prof. Eich.
+   149	 = (TRANSLATION NEEDED) 
    14a	 = NEU!
 

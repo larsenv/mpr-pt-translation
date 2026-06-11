@@ -15,10 +15,14 @@ For each locale XX_XX (excluding ja_JP, en_US, en_GB, es_ES):
 
 import os
 import re
+import subprocess
 
 BASE = '/Volumes/SSD/larsen/Downloads/mpr-pt-translation'
 USPLAT = os.path.join(BASE, 'usplat/00000005.app')
 OLD_EU = os.path.join(BASE, 'old/europe/00000005.app')
+
+# The commit right before rosetta first ran (Fillozo's last commit)
+PRE_ROSETTA_COMMIT = 'cb3a2b0'
 
 SKIP_LOCALES = {'ja_JP', 'en_US', 'en_GB', 'es_ES', 'EUR', 'USA', 'nl_NL'}
 SKIP_FILES = {'debug.bmg.txt'}
@@ -121,7 +125,59 @@ txt_files = [f for f in os.listdir(es_msg_dir) if f.endswith('.bmg.txt') and f n
 txt_files.sort()
 print(f"Files to process: {txt_files}")
 
-stats = {'matched': 0, 'not_found': 0, 'no_old_translation': 0, 'total': 0}
+stats = {'matched': 0, 'pre_rosetta': 0, 'not_found': 0, 'no_old_translation': 0, 'total': 0}
+
+def parse_bmg_content(content):
+    """Parse BMG content from a string."""
+    lines = content.splitlines(True)
+    header = []
+    messages = {}
+    current_id_key = None
+    current_block = []
+    for line in lines:
+        m = re.match(r'^(\s*([0-9a-fA-F]+)\s*(?:\[.*?\])?\s*=.*)', line)
+        if m:
+            if current_id_key is not None:
+                messages[current_id_key] = current_block
+            current_id_key = m.group(2).lower().lstrip('0') or '0'
+            current_block = [line]
+        else:
+            if current_id_key is not None:
+                current_block.append(line)
+            else:
+                header.append(line)
+    if current_id_key is not None:
+        messages[current_id_key] = current_block
+    return header, messages
+
+def get_pre_rosetta_messages(locale, txt_file):
+    """Get messages from the pre-rosetta commit for this locale/file."""
+    git_path = f"usplat/00000005.app/{locale}/msg/{txt_file}"
+    try:
+        content = subprocess.check_output(
+            ['git', 'show', f'{PRE_ROSETTA_COMMIT}:{git_path}'],
+            stderr=subprocess.DEVNULL, cwd=BASE
+        ).decode('utf-8')
+        _, msgs = parse_bmg_content(content)
+        return msgs
+    except subprocess.CalledProcessError:
+        return {}
+
+def get_en_us_content_for_block(en_us_msgs, id_key):
+    """Get the content portion (after =) from en_US for a given id."""
+    if id_key in en_us_msgs:
+        block = en_us_msgs[id_key]
+        first = block[0]
+        eq_idx = first.index('=')
+        content_after_eq = first[eq_idx+1:].strip()
+        # Include continuation lines
+        full = content_after_eq
+        for line in block[1:]:
+            stripped = line.strip()
+            if stripped.startswith('+'):
+                full += '\\n\n\t+ ' + stripped[1:].strip()
+        return full
+    return ''
 
 for locale in target_locales:
     print(f"\n=== Processing locale: {locale} ===")
@@ -143,6 +199,13 @@ for locale in target_locales:
 
         # Parse old europe locale file
         _, old_locale_msgs = parse_bmg(old_eu_locale_path)
+
+        # Get pre-rosetta translations (what was there before we ran this script)
+        pre_rosetta_msgs = get_pre_rosetta_messages(locale, txt_file)
+
+        # Parse en_US for fallback text
+        en_us_path = os.path.join(USPLAT, 'en_US', 'msg', txt_file)
+        _, en_us_msgs = parse_bmg(en_us_path)
 
         # Get the header from the existing target file if it exists, otherwise from es_ES
         if os.path.exists(target_path):
@@ -173,14 +236,26 @@ for locale in target_locales:
                 new_block.extend(old_block[1:])
                 new_messages.append((id_key, new_block))
                 stats['matched'] += 1
-            elif old_eu_id is not None:
-                # Found in old es_ES but no translation exists for this locale
-                new_block = [f"{id_prefix} = TRANSLATION NEEDED\n"]
-                new_messages.append((id_key, new_block))
-                stats['no_old_translation'] += 1
+            elif id_key in pre_rosetta_msgs:
+                # Not mapped via rosetta, but we had a translation before - recover it
+                old_block = pre_rosetta_msgs[id_key]
+                old_content = extract_content(old_block)
+                if old_content and old_content != 'TRANSLATION NEEDED':
+                    old_content_after_eq = old_block[0][old_block[0].index('='):]
+                    new_block = [f"{id_prefix} {old_content_after_eq}"]
+                    new_block.extend(old_block[1:])
+                    new_messages.append((id_key, new_block))
+                    stats['pre_rosetta'] += 1
+                else:
+                    # Pre-rosetta had placeholder too, use en_US
+                    en_content = get_en_us_content_for_block(en_us_msgs, id_key)
+                    new_block = [f"{id_prefix} = (TRANSLATION NEEDED) {en_content}\n"]
+                    new_messages.append((id_key, new_block))
+                    stats['not_found'] += 1
             else:
-                # Not found in old europe es_ES at all
-                new_block = [f"{id_prefix} = TRANSLATION NEEDED\n"]
+                # No match anywhere - use en_US with marker
+                en_content = get_en_us_content_for_block(en_us_msgs, id_key)
+                new_block = [f"{id_prefix} = (TRANSLATION NEEDED) {en_content}\n"]
                 new_messages.append((id_key, new_block))
                 stats['not_found'] += 1
 
@@ -191,6 +266,6 @@ for locale in target_locales:
 
 print(f"\n=== Stats ===")
 print(f"Total messages processed: {stats['total']}")
-print(f"Matched with old translations: {stats['matched']}")
-print(f"Old es_ES match but no locale translation: {stats['no_old_translation']}")
-print(f"Not found in old es_ES: {stats['not_found']}")
+print(f"Matched with old translations (rosetta): {stats['matched']}")
+print(f"Recovered from pre-rosetta translations: {stats['pre_rosetta']}")
+print(f"Not found - marked (TRANSLATION NEEDED) + English: {stats['not_found']}")

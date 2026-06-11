@@ -84,7 +84,11 @@
 	+ $4$\n
 	+ Rencontré par hasard au\n
 	+ N. $3$.
-     8	 = TRANSLATION NEEDED
+     8	 = $2$ $1$ 20$0$\n
+	+ $4$\n
+	+ Apparemment rencontré\n
+	+ par hasard au\n
+	+ Lv. $3$.
      9	 = $7$ $6$ 20$5$\n
 	+ $8$\n
 	+ Oeuf obtenu.\n
@@ -258,20 +262,20 @@
     81	 = Grand Lac
     82	 = Restaurant
     83	 = Parc des Combats
-    84	 = TRANSLATION NEEDED
-    85	 = TRANSLATION NEEDED
-    86	 = TRANSLATION NEEDED
-    87	 = TRANSLATION NEEDED
-    88	 = TRANSLATION NEEDED
-    89	 = TRANSLATION NEEDED
-    8a	 = TRANSLATION NEEDED
-    8b	 = TRANSLATION NEEDED
-    8c	 = TRANSLATION NEEDED
-    8d	 = TRANSLATION NEEDED
-    8e	 = TRANSLATION NEEDED
-    8f	 = TRANSLATION NEEDED
-    90	 = TRANSLATION NEEDED
-    91	 = TRANSLATION NEEDED
+    84	 = Battle Frontier
+    85	 = Battle Factory
+    86	 = Battle Castle
+    87	 = Battle Arcade
+    88	 = Battle Hall
+    89	 = Distortion World
+    8a	 = Global Terminal
+    8b	 = Villa
+    8c	 = Battleground
+    8d	 = Rotom's Room
+    8e	 = T.G. Eterna Bldg
+    8f	 = Iron Ruins
+    90	 = Iceberg Ruins
+    91	 = Rock Peak Ruins
     92	 = Endroit superbe
     93	 = Pokémon Ranger
     94	 = Endroit lointain
@@ -325,7 +329,7 @@
     c4	 = POKéPARK 15
     c5	 = POKéPARK 16
     c6	 = Centre Pokémon
-    c7	 = TRANSLATION NEEDED
+    c7	 = PC Tokyo
     c8	 = CP Osaka
     c9	 = CP Fukuoka
     ca	 = CP Nagoya
@@ -356,10 +360,10 @@
     e3	 = Johto
     e4	 = Hoenn
     e5	 = Sinnoh
-    e6	 = TRANSLATION NEEDED
-    e7	 = TRANSLATION NEEDED
+    e6	 = ----
+    e7	 = Distant land
     e8	 = un voyageur
     e9	 = Armand
 
-    ea	 = TRANSLATION NEEDED
+    ea	 = Cynthia
     eb	 = Zone Mystère

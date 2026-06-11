@@ -84,7 +84,11 @@
 	+ $4$\n
 	+ Ottenuto in un'occasione\n
 	+ speciale al L. $3$.
-     8	 = TRANSLATION NEEDED
+     8	 = $2$ $1$ 20$0$\n
+	+ $4$\n
+	+ Probabilmente ottenuto\n
+	+ in un'occasione\n
+	+ speciale al L. $3$.
      9	 = $7$ $6$ 20$5$\n
 	+ $8$\n
 	+ Uovo ottenuto.\n
@@ -258,20 +262,20 @@
     81	 = Grande Lago
     82	 = Ristorante
     83	 = Giardino Lotta
-    84	 = TRANSLATION NEEDED
-    85	 = TRANSLATION NEEDED
-    86	 = TRANSLATION NEEDED
-    87	 = TRANSLATION NEEDED
-    88	 = TRANSLATION NEEDED
-    89	 = TRANSLATION NEEDED
-    8a	 = TRANSLATION NEEDED
-    8b	 = TRANSLATION NEEDED
-    8c	 = TRANSLATION NEEDED
-    8d	 = TRANSLATION NEEDED
-    8e	 = TRANSLATION NEEDED
-    8f	 = TRANSLATION NEEDED
-    90	 = TRANSLATION NEEDED
-    91	 = TRANSLATION NEEDED
+    84	 = Parco Lotta
+    85	 = Azienda Lotta
+    86	 = Maniero Lotta
+    87	 = Arena Lotta
+    88	 = Palco Lotta
+    89	 = Mondo Distorto
+    8a	 = Centro Globale
+    8b	 = Villa
+    8c	 = Casa Lotta
+    8d	 = Stanza di Rotom
+    8e	 = T.G. Eterna Bldg
+    8f	 = Rovine Ferro
+    90	 = Rovine Iceberg
+    91	 = Rovine Picco
     92	 = Luogo grazioso
     93	 = Pokémon Ranger
     94	 = Luogo Remoto
@@ -325,7 +329,7 @@
     c4	 = POKéPARK 15
     c5	 = POKéPARK 16
     c6	 = Centro Pokémon
-    c7	 = TRANSLATION NEEDED
+    c7	 = CP Tokyo
     c8	 = CP Osaka
     c9	 = CP Fukuoka
     ca	 = CP Nagoya
@@ -356,10 +360,10 @@
     e3	 = Johto
     e4	 = Hoenn
     e5	 = Sinnoh
-    e6	 = TRANSLATION NEEDED
-    e7	 = TRANSLATION NEEDED
+    e6	 = ----------
+    e7	 = Terra Lontana
     e8	 = Viaggiatore
     e9	 = Marisio
 
-    ea	 = TRANSLATION NEEDED
+    ea	 = Camilla
     eb	 = Zona Misteriosa

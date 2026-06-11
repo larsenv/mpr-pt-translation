@@ -84,7 +84,10 @@
 	+ $4$\n
 	+ Schicksalhafte\n
 	+ Begegnung mit Lv. $3$.
-     8	 = TRANSLATION NEEDED
+     8	 = $2$. $1$ 20$0$\n
+	+ $4$\n
+	+ Offenbar schicksalhafte\n
+	+ Begegnung mit Lv. $3$.
      9	 = $7$. $6$ 20$5$\n
 	+ Ei erhalten bei/von\n
 	+ $8$.\n
@@ -258,20 +261,20 @@
     81	 = Prachtsee
     82	 = Restaurant
     83	 = Duellpark
-    84	 = TRANSLATION NEEDED
-    85	 = TRANSLATION NEEDED
-    86	 = TRANSLATION NEEDED
-    87	 = TRANSLATION NEEDED
-    88	 = TRANSLATION NEEDED
-    89	 = TRANSLATION NEEDED
-    8a	 = TRANSLATION NEEDED
-    8b	 = TRANSLATION NEEDED
-    8c	 = TRANSLATION NEEDED
-    8d	 = TRANSLATION NEEDED
-    8e	 = TRANSLATION NEEDED
-    8f	 = TRANSLATION NEEDED
-    90	 = TRANSLATION NEEDED
-    91	 = TRANSLATION NEEDED
+    84	 = Kampfzone
+    85	 = Kampffabrik
+    86	 = Kampfpalais
+    87	 = Kampfarkaden
+    88	 = Kampfsaal
+    89	 = Zerrwelt
+    8a	 = Global. Terminal
+    8b	 = Villa
+    8c	 = Duellareal
+    8d	 = Raum von ROTOM
+    8e	 = Galaktik-Gebäude
+    8f	 = Eisen-Ruinen
+    90	 = Eisberg-Ruinen
+    91	 = Gipfelruinen
     92	 = Idyll
     93	 = Pokémon Ranger
     94	 = Entfernter Ort
@@ -325,7 +328,7 @@
     c4	 = POKéPARK 15
     c5	 = POKéPARK 16
     c6	 = Pokémon Center
-    c7	 = TRANSLATION NEEDED
+    c7	 = PC Tokyo
     c8	 = PC Osaka
     c9	 = PC Fukuoka
     ca	 = PC Nagoya
@@ -356,10 +359,10 @@
     e3	 = Johto
     e4	 = Hoenn
     e5	 = Sinnoh
-    e6	 = TRANSLATION NEEDED
-    e7	 = TRANSLATION NEEDED
+    e6	 = ----------
+    e7	 = Entferntes Land
     e8	 = Reisender
     e9	 = Urs
 
-    ea	 = TRANSLATION NEEDED
+    ea	 = Cynthia
     eb	 = Mysteriöse Zone

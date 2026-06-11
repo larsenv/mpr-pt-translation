@@ -72,9 +72,10 @@
 	+ niveau dans la Forêt Vestigion.
      d	 = Un MAGNETON évolue s'il change\n
 	+ de niveau au Mont Couronné.
-     e	 = TRANSLATION NEEDED
-     f	 = TRANSLATION NEEDED
-    10	 = TRANSLATION NEEDED
+     e	 = Un %ls %ls évolue\n
+     f	 = Un %ls %ls évolue\n
+    10	 = (TRANSLATION NEEDED) Evolve NINCADA with room\n\n
+	+ in your party.
     11	 = Un %ls %ls évolue\n
 	+ si tu lui donnes un objet.
     12	 = Un %ls %ls évolue\n
@@ -92,8 +93,10 @@
 	+ la Pension Pokémon de Bonville.
     18	 = Aucun conseil n'est disponible\n
 	+ sur la façon d'attraper ce Pokémon.
-    19	 = TRANSLATION NEEDED
-    1a	 = TRANSLATION NEEDED
+    19	 = You can get it by trading\n
+	+ with other DS Pokémon games.
+    1a	 = You can find it roaming\n 
+	+ around the Sinnoh region.
     1b	 = Route 201
     1c	 = Route 202
     1d	 = Route 203
@@ -215,7 +218,7 @@
     89	 = Le matin
     8a	 = Le matin/L'après-midi
     8b	 = La nuit
-    8c	 = TRANSLATION NEEDED
+    8c	 = Morning/Night
     8d	 = ・Niveau %d ou supérieur
     8e	 = ・Arbre à Miel
     8f	 = ・Si Défense > Attaque
@@ -229,10 +232,10 @@
     97	 = ・Œuf de COXY
     98	 = ・Œuf de OKEOKE
     99	 = ・Œuf de NIRONDELLE
-    9a	 = TRANSLATION NEEDED
-    9b	 = TRANSLATION NEEDED
-    9c	 = TRANSLATION NEEDED
-    9d	 = TRANSLATION NEEDED
+    9a	 = ・SPHEAL Egg
+    9b	 = ・SEEL Egg
+    9c	 = ・ELEKID Egg
+    9d	 = ・MAGBY Egg
     9e	 = ・Pêcher avec la Canne
     9f	 = ・Pêcher avec la Super Canne
     a0	 = ・Pêcher avec la Méga Canne
@@ -257,7 +260,7 @@
     b3	 = ・Objet: Pierresoleil
     b4	 = ・Objet: Pierre Lune
     b5	 = ・Objet: Ecailleocéan
-    b6	 = TRANSLATION NEEDED
+    b6	 = ・Item: Lax Incense
     b7	 = ・Objet: Pierre Nuit
     b8	 = ・Roche Moussue
     b9	 = ・Roche de Glace
@@ -268,8 +271,8 @@
     be	 = ・Fossile: Foss. Armure
     bf	 = ・Fossile: Foss. Griffe
     c0	 = ・Fossile: Foss. Crâne
-    c1	 = TRANSLATION NEEDED
-    c2	 = TRANSLATION NEEDED
+    c1	 = ・Dug up with an even Trainer ID number.
+    c2	 = ・Dug up with an odd Trainer ID number.
     c3	 = ・Si Attaque = Défense\040
     c4	 = ・Si Attaque > Défense\040
     c5	 = ・Sur l'eau (en utilisant Surf)
@@ -284,8 +287,8 @@
     ce	 = ・Informations sur Spiritomb
     cf	 = ・Informations sur Munja
     d0	 = ・Informations sur Manzaï
-    d1	 = TRANSLATION NEEDED
-    d2	 = TRANSLATION NEEDED
+    d1	 = ・Double port: Pokémon Saphir
+    d2	 = (TRANSLATION NEEDED) ・Level up between 8 p.m. and 4 a.m.
     d3	 = ・Nécessite le Poké Radar
     d4	 = ・Pokémon rare de Pokémon Diamant
     d5	 = ・Pokémon rare de Pokémon Perle
@@ -298,11 +301,12 @@
     dc	 = ・Double port: Pokémon Rouge Feu
     dd	 = ・Double port: Pokémon Vert Feuille
     de	 = ・Double port: Pokémon Rubis
-    df	 = TRANSLATION NEEDED
-    e0	 = TRANSLATION NEEDED
+    df	 = (TRANSLATION NEEDED) ・Dual Slot Sapphire
+    e0	 = (TRANSLATION NEEDED) ・Dual Slot Any
     e1	 = ・Après avoir obtenu le Pokédex Nat.
     e2	 = ・Jardin Trophée
-    e3	 = TRANSLATION NEEDED
+    e3	 = Il peut t'arriver de rencontrer un ELEKID\n
+	+ sauvage qui tient un Electiriseur. Tu peux\n
     e4	 = Etale sur un arbre le Miel que tu peux\n
 	+ obtenir au Pré Floraville, puis attends\n
 	+ une demi-journée qu'un Pokémon arrive.\n
@@ -355,21 +359,27 @@
     f0	 = Pour obtenir cet Œuf, laisse à\n
 	+ la Pension Pokémon un Pokémon mâle\n
 	+ compatible avec un HELEDELLE♀.
-    f1	 = TRANSLATION NEEDED
-    f2	 = TRANSLATION NEEDED
-    f3	 = TRANSLATION NEEDED
-    f4	 = TRANSLATION NEEDED
+    f1	 = Tu peux parfois trouver une Pierresoleil \n
+    f2	 = Tu peux parfois trouver une Pierre Lune\n
+	+ en creusant dans le Souterrain.\n
+    f3	 = Tu peux parfois trouver un RELICANTH\n
+	+ sauvage qui tient une Ecailleocéan.
+    f4	 = (TRANSLATION NEEDED) You can discover an Egg by leaving\n\n
+	+ MAGMAR♀ and a Pokémon that gets\n\n
+	+ along with it at the Pokémon Day Care.
     f5	 = Tu peux obtenir un Améliorator\n
 	+ à Vestigion.
     f6	 = Tu peux obtenir un CD Douteux\n
 	+ sur la Route 225.
-    f7	 = TRANSLATION NEEDED
+    f7	 = Si tu réussis à attraper les 26 types\n
     f8	 = Il peut t'arriver de rencontrer un ELEKID\n
 	+ sauvage qui tient un Electiriseur. Tu peux\n
 	+ attraper des ELEKID aux Eoliennes.\n
 	+ \n
 	+ Double port: Pokémon Rouge Feu.
-    f9	 = TRANSLATION NEEDED
+    f9	 = Pêche pendant que tu te déplaces avec Surf.\n
+	+ BARPAU n'apparaît qu'à 4 endroits. Une fois\n
+	+ que tu en as trouvé un, tu as 50% de chance\n
     fa	 = Tu peux trouver une Pierre Eclat\n
 	+ sur l'Ile de Fer ou sur la Route 228.
     fb	 = Tu peux trouver une Pierre Feu\n
@@ -385,7 +395,7 @@
 	+ sur la Route 227.\n
 	+ \n
 	+ Double port: Pokémon Vert Feuille.
-    ff	 = TRANSLATION NEEDED
+    ff	 = Une fois qu'EVOLI t'apprécie suffisamment,\n
    100	 = Il arrive qu'un ARCHEOMIRE sauvage ou\n
 	+ un STEELIX sauvage tienne une Peau Métal.
    101	 = Tu peux obtenir une Pierre Aube au\n
@@ -477,15 +487,15 @@
 	+ au niveau 32.
    11a	 = SAQUEDENEU apprend Pouv.Antique\n
 	+ au niveau 33.
-   11b	 = TRANSLATION NEEDED
+   11b	 = (TRANSLATION NEEDED) YANMA learns AncientPower at Lv. 33.
    11c	 = Ton Pokémon apprendra cette capacité si\n
 	+ tu offres une Ecaillecoeur au Maître des\n
 	+ Capacités à Verchamps. Tu peux obtenir une\n
 	+ Ecaillecoeur en creusant dans le Souterrain.
    11d	 = Quand EXCELANGUE atteint le niveau 33,\n
 	+ il apprend Roulade.
-   11e	 = TRANSLATION NEEDED
-   11f	 = TRANSLATION NEEDED
+   11e	 = (TRANSLATION NEEDED) BONSLY learns Mimic at Lv. 17.
+   11f	 = (TRANSLATION NEEDED) MIME JR. learns Mimic at Lv. 18.
    120	 = Ce Pokémon apparaît si tu insères\n
 	+ une cartouche de jeu Game Boy Advance\n
 	+ Pokémon dans le port cartouche\n
@@ -494,11 +504,12 @@
 	+ sur la Route Victoire ou sur la Route 224.
    122	 = Tu peux obtenir un Croc Rasoir\n
 	+ au Parc des Combats.
-   123	 = TRANSLATION NEEDED
-   124	 = TRANSLATION NEEDED
+   123	 = (TRANSLATION NEEDED) You can get a Razor Fang on Route 225.
+   124	 = (TRANSLATION NEEDED) When WURMPLE reaches level 7,\n\n
+	+ it evolves into SILCOON or CASCOON.
    125	 = Tu le trouves dans le sac oublié par\n
 	+ le Professeur Sorbier au Lac Vérité.
-   126	 = TRANSLATION NEEDED
+   126	 = (TRANSLATION NEEDED) Receive it from Prof. Rowan.
    127	 = Fais éclore l'Œuf qu'Armand\n
 	+ te donne à l'Ile de Fer.
    128	 = Examine la TV du Vieux Château,\n
@@ -517,7 +528,8 @@
 	+ au Temple Frimapic.
    12f	 = Tu peux trouver ce Pokémon\n
 	+ dans la Grotte Retour.
-   130	 = TRANSLATION NEEDED
+   130	 = (TRANSLATION NEEDED) You can meet it in the\n\n
+	+ Distortion World.
    131	 = Une fois aperçu à l'Ile Pleine Lune,\n
 	+ il se met à voler autour de Sinnoh.
    132	 = Tu peux choisir parmi TORTIPOUSS,\n
@@ -527,7 +539,7 @@
    133	 = Tu pourras attraper ce Pokémon\n
 	+ si tu as REGIROCK, REGICE et\n
 	+ REGISTEEL dans ton équipe.
-   134	 = TRANSLATION NEEDED
+   134	 = (TRANSLATION NEEDED) Morning/Night
    135	 = Fais changer de niveau à un BARPAU\n
 	+ lorsqu'il est suffisamment beau.
    136	 = Fais passer BABIMANTA au niveau supérieur\n
@@ -538,21 +550,27 @@
    13a	 = ・Informations sur OUISTICRAM
    13b	 = ・Informations sur TIPLOUF
    13c	 = ・Informations sur REGIGIGAS
-   13d	 = TRANSLATION NEEDED
-   13e	 = TRANSLATION NEEDED
-   13f	 = TRANSLATION NEEDED
-   140	 = TRANSLATION NEEDED
-   141	 = TRANSLATION NEEDED
-   142	 = TRANSLATION NEEDED
+   13d	 = ・About DIALGA
+   13e	 = ・About PALKIA
+   13f	 = ・About GIRATINA
+   140	 = ・About ARTICUNO
+   141	 = ・About ZAPDOS
+   142	 = ・About MOLTRES
    143	 = Tu peux trouver cet Œuf à la\n
 	+ Pension Pokémon de Bonville.
    144	 = ・Informations sur les Œufs
    145	 = Tu peux obtenir un Œuf si tu laisses\n
 	+ des Pokémon ♂ et ♀ compatibles\n
 	+ à la Pension Pokémon.
-   146	 = TRANSLATION NEEDED
-   147	 = TRANSLATION NEEDED
-   148	 = TRANSLATION NEEDED
-   149	 = TRANSLATION NEEDED
+   146	 = After entering the Hall of Fame,\n
+	+ talk to the elder of Celestic Town.\n
+	+ Requires an Adamant Orb.
+   147	 = After entering the Hall of Fame,\n
+	+ talk to the elder of Celestic Town.\n
+	+ Requires a Lustrous Orb.
+   148	 = After obtaining the National Dex,
+	+  go to Eterna City and\n
+	+ see Prof. Oak.
+   149	 = (TRANSLATION NEEDED) 
    14a	 = NOUVEAU!
 

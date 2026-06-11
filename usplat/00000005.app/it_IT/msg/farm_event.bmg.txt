@@ -46,7 +46,7 @@
 #
 #------------------------------------------------------------------------------
 
-     0	 = TRANSLATION NEEDED
+     0	 = (TRANSLATION NEEDED) 
      1	 = Ti do il benvenuto in\n
 	+ My Pokémon Ranch!
      2	 = Mi chiamo Giulia. \n
@@ -123,12 +123,16 @@
     22	 = Se lavoriamo insieme, piano\n
 	+ piano riusciremo a riempire\n
 	+ questo Ranch di Pokémon!
-    23	 = TRANSLATION NEEDED
+    23	 = Se hai catturato dei Pokémon\n
+	+ you caught in Pokémon game versions\n
+	+ for the Nintendo DS.
+	+ pure qui.
     24	 = In questo modo, nel Ranch\n
 	+ ce ne saranno sempre di più!
     25	 = Insomma, se hai dei Pokémon,\n
 	+ portali qui!
-    26	 = TRANSLATION NEEDED
+    26	 = (TRANSLATION NEEDED) By the way... Do you have\n\n
+	+ a Nintendo DS?
     27	 = Sì? Fantastico! Allora\n
 	+ puoi portare al Ranch\n
 	+ tutti i tuoi Pokémon!
@@ -385,13 +389,15 @@
     92	 = Finalmente siamo riusciti ad\n
 	+ avere %ls Pokémon\n
 	+ nel Ranch!
-    93	 = TRANSLATION NEEDED
+    93	 = (TRANSLATION NEEDED) The number of Pokémon at the\n\n
+	+ Ranch has become %d!
     94	 = Forza, ingrandiamo il Ranch!\n
 	+ I lavori dovrebbero finire\n
 	+ domani, %ls!
     95	 = Wow, nel Ranch ci sono già\n
 	+ %ls Pokémon!
-    96	 = TRANSLATION NEEDED
+    96	 = (TRANSLATION NEEDED) Oh? The number of Pokémon at\n\n
+	+ the Ranch is already %d%!
     97	 = Ok. Ingrandiamo di nuovo\n
 	+ il Ranch!
     98	 = I lavori dovrebbero finire\n
@@ -409,7 +415,8 @@
 	+ Pokémon al Ranch.
     9d	 = Finora, ho portato \n
 	+ %ls Pokémon.
-    9e   = TRANSLATION NEEDED
+    9e   = (TRANSLATION NEEDED) So far, I have brought\n\n
+	+ %d Pokémon.
     9f	 = Questi sono i miei \n
 	+ preziosissimi Pokémon. \n
 	+ Trattali bene!
@@ -423,7 +430,9 @@
     a3	 = Non appena avremo %ls\n
 	+ Pokémon, ingrandiremo il\n
 	+ Ranch!
-    a4	 = TRANSLATION NEEDED
+    a4	 = (TRANSLATION NEEDED) Once the number of Pokémon\n\n
+	+ becomes %d, let's expand\n\n
+	+ the Ranch!
     a5	 = Continuiamo a portare\n
 	+ Pokémon al Ranch!
     a6	 = Prendiamo ancora più\n
@@ -432,7 +441,9 @@
     a7	 = Non appena avremo %ls\n
 	+ Pokémon, dovremo ampliare\n
 	+ il Ranch!
-    a8   = TRANSLATION NEEDED
+    a8   = (TRANSLATION NEEDED) Once the number of Pokémon\n\n
+	+ becomes %d, let's expand\n\n
+	+ the Ranch!
     a9	 = Oh!?
     aa	 = Ti senti già più a tuo agio nel\n
 	+ Pokémon Ranch, vero?
@@ -479,7 +490,7 @@
 	+ divertire, no?
     ba	 = Per favore, porta al Ranch \n
 	+ altri Mii!
-    bb	 = TRANSLATION NEEDED
+    bb	 = (TRANSLATION NEEDED) 
     bc   = C'è una grossa novità! Da oggi\n
 	+ arriveranno al Ranch tre\n
 	+ Box Giochi al giorno!
@@ -491,7 +502,7 @@
 	+ sgusciato da un Uovo deposto\n
 	+ da MANAPHY e da un altro\n
 	+ Pokémon compatibile.
-    c0   = TRANSLATION NEEDED
+    c0   = (TRANSLATION NEEDED) 
     c1	 = Lo lascerò al Ranch.\n
 	+ Prenditene cura, va bene?
     c2	 = C'è una grossa novità!\n
@@ -523,11 +534,13 @@
     cd	 = Quando il Ranch sarà pieno, \n
 	+ chiederò ai miei Pokémon di \n
 	+ stare nelle stalle.
-    ce	 = TRANSLATION NEEDED
+    ce	 = (TRANSLATION NEEDED) 
     cf	 = Tu porta pure al Ranch\n
 	+ quanti Pokémon vuoi, non\n
 	+ preoccuparti dei miei!
-    d0	 = TRANSLATION NEEDED
+    d0	 = Splendido! Il Ranch\n
+	+ ha raggiunto il livello\n
+	+ massimo! Complimenti!
     d1	 = Il Ranch che volevo... \n
 	+ Immenso... \n
 	+ Pieno di Pokémon...
@@ -548,7 +561,7 @@
     d8	 = Questo è MEW. Si dice che\n
 	+ possegga il codice genetico\n
 	+ di tutti gli altri Pokémon.
-    d9   = TRANSLATION NEEDED
+    d9   = (TRANSLATION NEEDED) 
     da	 = Lo lascerò qui al Ranch.\n
 	+ Trattalo bene, mi raccomando!
     db	 = Grandi novità! Da oggi\n
@@ -570,7 +583,9 @@
     e2	 = Il numero di Pokémon di cui\n
 	+ possiamo prenderci cura è\n
 	+ salito da %ls a %ls!
-    e3	 = TRANSLATION NEEDED
+    e3	 = (TRANSLATION NEEDED) The number of Pokémon you\n\n
+	+ can keep has increased from\n\n
+	+ %d% to %d!
     e4	 = Il numero di Mii che puoi\n
 	+ portare al Ranch è salito\n
 	+ da %d a %d!
@@ -660,7 +675,7 @@
    105	 = Ciao! Sono felice di rivederti!
    106	 = Ma ciao! Divertiti oggi al\n
 	+ Ranch!
-   107	 = TRANSLATION NEEDED
+   107	 = Sei da %1$ls,\n
    108	 = Divertiti al Ranch\n
 	+ %ls!
    109	 = Quando vuoi tornare a casa,\n
@@ -675,136 +690,284 @@
 	+ la porta in alto a sinistra e\n
 	+ premi \x{e042}.\040
    10d	 = Allora, buon divertimento!
-   10e   = TRANSLATION NEEDED
-   10f   = TRANSLATION NEEDED
-   110   = TRANSLATION NEEDED
-   111   = TRANSLATION NEEDED
-   112	 = TRANSLATION NEEDED
-   113	 = TRANSLATION NEEDED
-   114	 = TRANSLATION NEEDED
-   115	 = TRANSLATION NEEDED
-   116	 = TRANSLATION NEEDED
-   117	 = TRANSLATION NEEDED
-   118	 = TRANSLATION NEEDED
-   119	 = TRANSLATION NEEDED
-   11a	 = TRANSLATION NEEDED
-   11b	 = TRANSLATION NEEDED
-   11c	 = TRANSLATION NEEDED
-   11d	 = TRANSLATION NEEDED
-   11e	 = TRANSLATION NEEDED
-   11f	 = TRANSLATION NEEDED
-   120	 = TRANSLATION NEEDED
-   121	 = TRANSLATION NEEDED
-   122	 = TRANSLATION NEEDED
-   123	 = TRANSLATION NEEDED
-   124	 = TRANSLATION NEEDED
-   125	 = TRANSLATION NEEDED
-   126	 = TRANSLATION NEEDED
-   127	 = TRANSLATION NEEDED
-   128	 = TRANSLATION NEEDED
-   129	 = TRANSLATION NEEDED
-   12a	 = TRANSLATION NEEDED
-   12b	 = TRANSLATION NEEDED
-   12c	 = TRANSLATION NEEDED
-   12d	 = TRANSLATION NEEDED
-   12e	 = TRANSLATION NEEDED
-   12f	 = TRANSLATION NEEDED
-   130	 = TRANSLATION NEEDED
-   131	 = TRANSLATION NEEDED
-   132	 = TRANSLATION NEEDED
-   133	 = TRANSLATION NEEDED
-   134	 = TRANSLATION NEEDED
-   135	 = TRANSLATION NEEDED
-   136	 = TRANSLATION NEEDED
-   137	 = TRANSLATION NEEDED
-   138	 = TRANSLATION NEEDED
-   139	 = TRANSLATION NEEDED
-   13a	 = TRANSLATION NEEDED
-   13b	 = TRANSLATION NEEDED
-   13c	 = TRANSLATION NEEDED
-   13d	 = TRANSLATION NEEDED
-   13e	 = TRANSLATION NEEDED
-   13f	 = TRANSLATION NEEDED
-   140	 = TRANSLATION NEEDED
-   141	 = TRANSLATION NEEDED
-   142	 = TRANSLATION NEEDED
-   143	 = TRANSLATION NEEDED
-   144	 = TRANSLATION NEEDED
-   145	 = TRANSLATION NEEDED
-   146	 = TRANSLATION NEEDED
-   147	 = TRANSLATION NEEDED
-   148	 = TRANSLATION NEEDED
-   149	 = TRANSLATION NEEDED
-   14a	 = TRANSLATION NEEDED
-   14b	 = TRANSLATION NEEDED
-   14c	 = TRANSLATION NEEDED
-   14d	 = TRANSLATION NEEDED
-   14e	 = TRANSLATION NEEDED
-   14f	 = TRANSLATION NEEDED
-   150	 = TRANSLATION NEEDED
-   151	 = TRANSLATION NEEDED
-   152	 = TRANSLATION NEEDED
-   153	 = TRANSLATION NEEDED
-   154	 = TRANSLATION NEEDED
-   155	 = TRANSLATION NEEDED
-   156	 = TRANSLATION NEEDED
-   157	 = TRANSLATION NEEDED
-   158	 = TRANSLATION NEEDED
-   159	 = TRANSLATION NEEDED
-   15a	 = TRANSLATION NEEDED
-   15b	 = TRANSLATION NEEDED
-   15c	 = TRANSLATION NEEDED
-   15d	 = TRANSLATION NEEDED
-   15e	 = TRANSLATION NEEDED
-   15f	 = TRANSLATION NEEDED
-   160	 = TRANSLATION NEEDED
-   161	 = TRANSLATION NEEDED
-   162	 = TRANSLATION NEEDED
-   163	 = TRANSLATION NEEDED
-   164	 = TRANSLATION NEEDED
-   165	 = TRANSLATION NEEDED
-   166	 = TRANSLATION NEEDED
-   167	 = TRANSLATION NEEDED
-   168	 = TRANSLATION NEEDED
-   169	 = TRANSLATION NEEDED
-   16a	 = TRANSLATION NEEDED
-   16b	 = TRANSLATION NEEDED
-   16c	 = TRANSLATION NEEDED
-   16d	 = TRANSLATION NEEDED
-   16e	 = TRANSLATION NEEDED
-   16f	 = TRANSLATION NEEDED
-   170	 = TRANSLATION NEEDED
-   171	 = TRANSLATION NEEDED
-   172	 = TRANSLATION NEEDED
-   173	 = TRANSLATION NEEDED
-   174	 = TRANSLATION NEEDED
-   175	 = TRANSLATION NEEDED
-   176	 = TRANSLATION NEEDED
-   177	 = TRANSLATION NEEDED
-   178	 = TRANSLATION NEEDED
-   179	 = TRANSLATION NEEDED
-   17a	 = TRANSLATION NEEDED
-   17b	 = TRANSLATION NEEDED
-   17c	 = TRANSLATION NEEDED
-   17d	 = TRANSLATION NEEDED
-   17e	 = TRANSLATION NEEDED
-   17f	 = TRANSLATION NEEDED
-   180	 = TRANSLATION NEEDED
-   181	 = TRANSLATION NEEDED
-   182	 = TRANSLATION NEEDED
-   183	 = TRANSLATION NEEDED
-   184	 = TRANSLATION NEEDED
-   185	 = TRANSLATION NEEDED
-   186	 = TRANSLATION NEEDED
-   187	 = TRANSLATION NEEDED
-   188	 = TRANSLATION NEEDED
-   189	 = TRANSLATION NEEDED
-   18a	 = TRANSLATION NEEDED
-   18b	 = TRANSLATION NEEDED
-   18c	 = TRANSLATION NEEDED
-   18d	 = TRANSLATION NEEDED
-   18e	 = TRANSLATION NEEDED
-   18f	 = TRANSLATION NEEDED
+   10e   = (TRANSLATION NEEDED) "Favorite"\n\n
+	+ is today's ranch theme.
+   10f   = (TRANSLATION NEEDED) "Owner"\n\n
+	+ is today's ranch theme.
+   110   = (TRANSLATION NEEDED) "Stored Pokémon"\n\n
+	+ is today's ranch theme.
+   111   = (TRANSLATION NEEDED) "%ls"\n\n
+	+ is today's ranch theme.
+   112	 = (TRANSLATION NEEDED) "6 Pokémon"\n\n
+	+ is today's ranch theme.
+   113	 = Va bene, buon divertimento!
+	+ Andiamo al\n
+	+ %ls Ranch!
+   114	 = (TRANSLATION NEEDED) "50 Pokémon"\n\n
+	+ is today's ranch theme.
+   115	 = Ciao! Ho portato delle\n
+	+ Ciao-Ciao!
+   116	 = (TRANSLATION NEEDED) "200 Pokémon"\n\n
+	+ is today's ranch theme.
+   117	 = (TRANSLATION NEEDED) "500 Pokémon"\n\n
+	+ is today's ranch theme.
+   118	 = (TRANSLATION NEEDED) "800 Pokémon"\n\n
+	+ is today's ranch theme.
+   119	 = (TRANSLATION NEEDED) "1000 Pokémon"\n\n
+	+ is today's ranch theme.
+   11a	 = (TRANSLATION NEEDED) "Normal"\n\n
+	+ is today's ranch theme.
+   11b	 = (TRANSLATION NEEDED) "Fighting"\n\n
+	+ is today's ranch theme.
+   11c	 = (TRANSLATION NEEDED) "Flying"\n\n
+	+ is today's ranch theme.
+   11d	 = (TRANSLATION NEEDED) "Poison"\n\n
+	+ is today's ranch theme.
+   11e	 = Bene, andiamo al\n
+	+ Ranch %ls!
+	+ farlo vedere a più persone possibili\n
+	+ trovarmi quando avrai più\n
+   11f	 = (TRANSLATION NEEDED) "Rock"\n\n
+	+ is today's ranch theme.
+   120	 = Dovremmo proprio rivederci!\n
+	+ Ciao ciao!
+	+ about.
+   121	 = (TRANSLATION NEEDED) "Ghost"\n\n
+	+ is today's ranch theme.
+   122	 = Grazie per aver visitato il\n
+Ranch %ls!	Ranch %ls!+Ranch %ls! Ranch %ls!RRanch %ls!aRanch %ls!nRanch %ls!cRanch %ls!hRanch %ls! Ranch %ls!%Ranch %ls!lRanch %ls!sRanch %ls!!Ranch %ls!
+   123	 = Tornerò a trovarti e ti inviterò\n
+	+ Il club Look-See puo essere!
+   124	 = (TRANSLATION NEEDED) "Fire"\n\n
+	+ is today's ranch theme.
+   125	 = Ti ringrazio della visita al\n
+	+ Ranch %ls!
+	+ Ranch? Ho sentito che c'è un\n
+	+ buon affare!
+   126	 = (TRANSLATION NEEDED) "Grass"\n\n
+	+ is today's ranch theme.
+   127	 = (TRANSLATION NEEDED) "Electric"\n\n
+	+ is today's ranch theme.
+   128	 = Come stai?
+	+ Il mio membro N° è %1$d!
+	+ appartiene a te e a\n
+	+ Do you know what my favorite\n
+	+ è proprio un bel posto!
+   129	 = (TRANSLATION NEEDED) "Ice"\n\n
+	+ is today's ranch theme.
+   12a	 = Io sono il membro N° %1$d\n
+   12b	 = (TRANSLATION NEEDED) "Dark"\n\n
+	+ is today's ranch theme.
+   12c	 = Motto numero uno!\n
+	+ Devi essere esigente e \n
+	+ al mio Ranch, alla prossima\n
+	+ volta!
+   12d	 = (TRANSLATION NEEDED) "▲"\n\n
+	+ is today's ranch theme.
+   12e	 = Questi sono i motti del Club.
+	+ Ranch? Ho sentito molto\n
+	+ Ranch di cui mi occupo!\040
+   12f	 = (TRANSLATION NEEDED) "♥"\n\n
+	+ is today's ranch theme.
+   130	 = Vuoi venire a visitarlo?
+	+ un membro del Club Look-See.\n
+	+ Il mio Membro N° is %1$d!
+   131	 = (TRANSLATION NEEDED) "◆"\n\n
+	+ is today's ranch theme.
+   132	 = Vorrei che anche tu scoprissi\n
+	+ Vuoi indovinare\n
+	+ Guarda-Guarda!
+   133	 = (TRANSLATION NEEDED) "Blue"\n\n
+	+ is today's ranch theme.
+   134	 = (TRANSLATION NEEDED) "Yellow"\n\n
+	+ is today's ranch theme.
+   135	 = Io sono il membro numero %1$d\n
+   136	 = (TRANSLATION NEEDED) "Black"\n\n
+	+ is today's ranch theme.
+   137	 = (TRANSLATION NEEDED) "Brown"\n\n
+	+ is today's ranch theme.
+   138	 = (TRANSLATION NEEDED) "Purple"\n\n
+	+ is today's ranch theme.
+   139	 = (TRANSLATION NEEDED) "Gray"\n\n
+	+ is today's ranch theme.
+   13a	 = (TRANSLATION NEEDED) "White"\n\n
+	+ is today's ranch theme.
+   13b	 = (TRANSLATION NEEDED) "Pink"\n\n
+	+ is today's ranch theme.
+   13c	 = Quindi questo Ranch \n
+   13d	 = (TRANSLATION NEEDED) "Tall"\n\n
+	+ is today's ranch theme.
+   13e	 = (TRANSLATION NEEDED) "Light"\n\n
+	+ is today's ranch theme.
+   13f	 = Vuoi saperlo? Perché non\n
+	+ some time to visit their\n
+   140	 = Davvero? Fantastico!\n
+	+ Forza, andiamo al mio\n
+	+ Verrò a prenderti.\n
+	+ Come and visit again at any time,\n
+	+ che lo vedessi. Che peccato!
+   141	 = (TRANSLATION NEEDED) "Cold"\n\n
+	+ is today's ranch theme.
+   142	 = Prima o poi tornerò per\n
+   143	 = Alla prossima!\n
+	+ ora di visitare i loro Ranch,\n
+	+ will ya?
+   144	 = (TRANSLATION NEEDED) "Round"\n\n
+	+ is today's ranch theme.
+   145	 = (TRANSLATION NEEDED) "Flying"\n\n
+	+ is today's ranch theme.
+   146	 = (TRANSLATION NEEDED) "Sturdy"\n\n
+	+ is today's ranch theme.
+   147	 = Se altri membri del Club\n
+	+ Guarda-Guarda vengono a\n
+   148	 = (TRANSLATION NEEDED) "Paralyzing"\n\n
+	+ is today's ranch theme.
+   149	 = Allora? Che ne pensi?\n
+	+ %{}!
+   14a	 = (TRANSLATION NEEDED) "Oblivious"\n\n
+	+ is today's ranch theme.
+   14b	 = (TRANSLATION NEEDED) "Stinky"\n\n
+	+ is today's ranch theme.
+   14c	 = Ok, stammi bene!
+   14d	 = (TRANSLATION NEEDED) "Sweet-Smelling"\n\n
+	+ is today's ranch theme.
+   14e	 = (TRANSLATION NEEDED) "Rare"\n\n
+	+ is today's ranch theme.
+   14f	 = (TRANSLATION NEEDED) "Favorite"\n\n
+	+ is today's ranch theme.
+   150	 = (TRANSLATION NEEDED) "Owner"\n\n
+	+ is today's ranch theme.
+   151	 = (TRANSLATION NEEDED) "Stored Pokémon"\n\n
+	+ is today's ranch theme.
+   152	 = %ls è in visita\n
+   153	 = (TRANSLATION NEEDED) "6 Pokémon"\n\n
+	+ is today's ranch theme.
+   154	 = (TRANSLATION NEEDED) "20 Pokémon"\n\n
+	+ is today's ranch theme.
+   155	 = Hai ospiti al Ranch!
+   156	 = (TRANSLATION NEEDED) "100 Pokémon"\n\n
+	+ is today's ranch theme.
+   157	 = (TRANSLATION NEEDED) "200 Pokémon"\n\n
+	+ is today's ranch theme.
+   158	 = (TRANSLATION NEEDED) "500 Pokémon"\n\n
+	+ is today's ranch theme.
+   159	 = Prenditi cura di questo\n
+	+ %{}, va bene?
+	+ scambierai per un\n
+	+ %{}! È proprio\n
+	+ quello che stava cercando\n
+	+ Per favore, porta %ls\n
+   15a	 = (TRANSLATION NEEDED) "1000 Pokémon"\n\n
+	+ is today's ranch theme.
+   15b	 = Vuoi scambiare il tuo\n
+	+ %1${} con l'esem-\n
+	+ Abbi cura di\n
+	+ %{}!
+   15c	 = L'esemplare di\n
+	+ %2${} di\n
+	+ ha iniziato a prendersi cura dei Pokémon.
+   15d	 = Capisco. Non fa niente. Però\n
+	+ per sapere quale Pokémon\n
+	+ si schiuderà!
+   15e	 = (TRANSLATION NEEDED) "Poison"\n\n
+	+ is today's ranch theme.
+   15f	 = (TRANSLATION NEEDED) "Ground"\n\n
+	+ is today's ranch theme.
+   160	 = (TRANSLATION NEEDED) "Rock"\n\n
+	+ is today's ranch theme.
+   161	 = (TRANSLATION NEEDED) "Bug"\n\n
+	+ is today's ranch theme.
+   162	 = (TRANSLATION NEEDED) "Ghost"\n\n
+	+ is today's ranch theme.
+   163	 = (TRANSLATION NEEDED) "Steel"\n\n
+	+ is today's ranch theme.
+   164	 = (TRANSLATION NEEDED) ?
+   165	 = (TRANSLATION NEEDED) "Fire"\n\n
+	+ is today's ranch theme.
+   166	 = (TRANSLATION NEEDED) "Water"\n\n
+	+ is today's ranch theme.
+   167	 = (TRANSLATION NEEDED) "Grass"\n\n
+	+ is today's ranch theme.
+   168	 = (TRANSLATION NEEDED) "Electric"\n\n
+	+ is today's ranch theme.
+   169	 = (TRANSLATION NEEDED) "Psychic"\n\n
+	+ is today's ranch theme.
+   16a	 = (TRANSLATION NEEDED) "Ice"\n\n
+	+ is today's ranch theme.
+   16b	 = (TRANSLATION NEEDED) "Dragon"\n\n
+	+ is today's ranch theme.
+   16c	 = (TRANSLATION NEEDED) "Dark"\n\n
+	+ is today's ranch theme.
+   16d	 = (TRANSLATION NEEDED) "●"\n\n
+	+ is today's ranch theme.
+   16e	 = (TRANSLATION NEEDED) "▲"\n\n
+	+ is today's ranch theme.
+   16f	 = (TRANSLATION NEEDED) "■"\n\n
+	+ is today's ranch theme.
+   170	 = (TRANSLATION NEEDED) "♥"\n\n
+	+ is today's ranch theme.
+   171	 = (TRANSLATION NEEDED) "★"\n\n
+	+ is today's ranch theme.
+   172	 = (TRANSLATION NEEDED) "◆"\n\n
+	+ is today's ranch theme.
+   173	 = (TRANSLATION NEEDED) "Red"\n\n
+	+ is today's ranch theme.
+   174	 = (TRANSLATION NEEDED) "Blue"\n\n
+	+ is today's ranch theme.
+   175	 = (TRANSLATION NEEDED) "Yellow"\n\n
+	+ is today's ranch theme.
+   176	 = (TRANSLATION NEEDED) "Green"\n\n
+	+ is today's ranch theme.
+   177	 = (TRANSLATION NEEDED) "Black"\n\n
+	+ is today's ranch theme.
+   178	 = (TRANSLATION NEEDED) "Brown"\n\n
+	+ is today's ranch theme.
+   179	 = (TRANSLATION NEEDED) "Purple"\n\n
+	+ is today's ranch theme.
+   17a	 = (TRANSLATION NEEDED) "Gray"\n\n
+	+ is today's ranch theme.
+   17b	 = (TRANSLATION NEEDED) "White"\n\n
+	+ is today's ranch theme.
+   17c	 = (TRANSLATION NEEDED) "Pink"\n\n
+	+ is today's ranch theme.
+   17d	 = (TRANSLATION NEEDED) "Short"\n\n
+	+ is today's ranch theme.
+   17e	 = (TRANSLATION NEEDED) "Tall"\n\n
+	+ is today's ranch theme.
+   17f	 = (TRANSLATION NEEDED) "Light"\n\n
+	+ is today's ranch theme.
+   180	 = (TRANSLATION NEEDED) "Heavy"\n\n
+	+ is today's ranch theme.
+   181	 = (TRANSLATION NEEDED) "Fiery"\n\n
+	+ is today's ranch theme.
+   182	 = (TRANSLATION NEEDED) "Cold"\n\n
+	+ is today's ranch theme.
+   183	 = (TRANSLATION NEEDED) "Scary"\n\n
+	+ is today's ranch theme.
+   184	 = (TRANSLATION NEEDED) "Fast"\n\n
+	+ is today's ranch theme.
+   185	 = (TRANSLATION NEEDED) "Round"\n\n
+	+ is today's ranch theme.
+   186	 = (TRANSLATION NEEDED) "Flying"\n\n
+	+ is today's ranch theme.
+   187	 = (TRANSLATION NEEDED) "Sturdy"\n\n
+	+ is today's ranch theme.
+   188	 = (TRANSLATION NEEDED) "Focused"\n\n
+	+ is today's ranch theme.
+   189	 = (TRANSLATION NEEDED) "Paralyzing"\n\n
+	+ is today's ranch theme.
+   18a	 = (TRANSLATION NEEDED) "Easygoing"\n\n
+	+ is today's ranch theme.
+   18b	 = (TRANSLATION NEEDED) "Oblivious"\n\n
+	+ is today's ranch theme.
+   18c	 = (TRANSLATION NEEDED) "Stinky"\n\n
+	+ is today's ranch theme.
+   18d	 = (TRANSLATION NEEDED) "Singing"\n\n
+	+ is today's ranch theme.
+   18e	 = (TRANSLATION NEEDED) "Sweet-Smelling"\n\n
+	+ is today's ranch theme.
+   18f	 = (TRANSLATION NEEDED) "Rare"\n\n
+	+ is today's ranch theme.
    190	 = Questo è il mio Ranch. È il\n
 	+ mio orgoglio. Esploralo pure\n
 	+ in lungo e in largo!
@@ -827,7 +990,9 @@
    197	 = Ciao! Ho portato delle\n
 	+ foto fatte al Ranch \n
 	+ %ls!
-   198	 = TRANSLATION NEEDED
+   198	 = (TRANSLATION NEEDED) Hello!\n\n
+	+ I'm %ls\n\n
+	+ from %ls Ranch!
    199   = Ciao! Ho portato delle\n
 	+ foto fatte al Ranch\n
 	+ %ls!
@@ -934,12 +1099,20 @@
 	+ accetterai il mio invito!
    1c5	 = Alla prossima!\n
 	+ E... Guarda-Guarda!
-   1c6   = TRANSLATION NEEDED
-   1c7   = TRANSLATION NEEDED
-   1c8   = TRANSLATION NEEDED
-   1c9   = TRANSLATION NEEDED
-   1ca   = TRANSLATION NEEDED
-   1cb   = TRANSLATION NEEDED
+   1c6   = (TRANSLATION NEEDED) My name is %2$ls,\n\n
+	+ a member of Club Look-See.\n\n
+	+ My Member No. is %1$d!
+   1c7   = (TRANSLATION NEEDED) So... I'd heard you're coming to\n\n
+	+ visit my Ranch, right?
+   1c8   = (TRANSLATION NEEDED) My name is %2$ls,\n\n
+	+ a member of Club Look-See.\n\n
+	+ My Member No. is %1$d!
+   1c9   = (TRANSLATION NEEDED) So... I hear you'd like to see\n\n
+	+ my Ranch, huh?
+   1ca   = (TRANSLATION NEEDED) Won't you come and visit\n\n
+	+ my Ranch again sometime?
+   1cb   = (TRANSLATION NEEDED) Come and visit my Ranch\n\n
+	+ again sometime, will ya?
    1cc   = Grazie per aver accettato\n
 	+ di visitare il mio Ranch!
    1cd	 = Sai, mi fa molto piacere\n
@@ -953,7 +1126,11 @@
 	+ Guarda-Guarda vengono a\n
 	+ trovarti, vai a visitare\n
 	+ anche i loro Ranch!
-   1d0   = TRANSLATION NEEDED
+   1d0   = (TRANSLATION NEEDED) Oh, one more thing!\n\n
+	+ If you call me from the BBS,\n\n
+	+ I will come and pick you up.\n\n
+	+ Please come and visit again\n\n
+	+ at any time.
    1d1   = Buon ritorno a casa!
    1d2	 = Allora? Che ne pensi?\n
 	+ Niente male, eh?
@@ -963,7 +1140,10 @@
 	+ Guarda-Guarda visitano il tuo\n
 	+ Ranch, trova il tempo di\n
 	+ ricambiare la visita!
-   1d5   = TRANSLATION NEEDED
+   1d5   = (TRANSLATION NEEDED) If you call me from the BBS,\n\n
+	+ I will come and pick you up.\n\n
+	+ Come and visit again at any\n\n
+	+ time, okay?
    1d6	 = Ok, stammi bene!
    1d7	 = Grazie per aver visitato il\n
 	+ mio Ranch. Che ne pensi?\n
@@ -974,7 +1154,10 @@
 	+ Guarda-Guarda, vai anche tu\n
 	+ a visitare i loro Ranch.\n
 	+ Ci tengono!
-   1da   = TRANSLATION NEEDED
+   1da   = (TRANSLATION NEEDED) If you call me from the BBS,\n\n
+	+ I will come and pick you up.\n\n
+	+ Come and visit again at any\n\n
+	+ time, all right?
    1db   = Ok, buon ritorno a casa!
    1dc   = Guarda-Guarda!
    1dd	 = %ls è in visita\n
@@ -1054,7 +1237,7 @@
 	+ tantissimo avere un Uovo \n
 	+ senza sapere che Pokémon\n
 	+ contiene!
-   1f6   = TRANSLATION NEEDED
+   1f6   = (TRANSLATION NEEDED) 
    1f7   = Se riesci ad ottenere un Uovo\n
 	+ di Pokémon, lo scambieresti\n
 	+ con il mio esemplare di\n
@@ -1099,7 +1282,10 @@
    206	 = Controlliamo il tuo Pokédex...\n
 	+ Visti: %d\n
 	+ Catturati: %d
-   207   = TRANSLATION NEEDED
+   207   = According to your Pokédex,\n
+	+ you have...\n
+	+ Seen: %d%ls\n
+	+ Obtained: %d%ls
    208   = Incredibile! Il tuo Pokédex\n
 	+ è completo!
    209   = Volevo aiutarti a completare\n
@@ -1123,7 +1309,10 @@
 	+ rispetto all'ultima volta...\n
 	+ Visti: %d\n
 	+ Catturati: %d
-   210   = TRANSLATION NEEDED
+   210   = Since last time,\n
+	+ the number has increased by...\n
+	+ Seen: %d%ls\n
+	+ Obtained: %d%ls
    211   = Ce l'hai fatta! Il tuo Pokédex\n
 	+ è completo!
    212   = Bene, visto che sei in grado\n
@@ -1132,12 +1321,17 @@
 	+ Pokémon che mi interessa?
    213   = Wow! Hai completato il\n
 	+ Pokédex! Complimenti!
-   214   = TRANSLATION NEEDED
+   214   = Keep this up and you'll\n
+	+ catch all the Pokémon in\n
+	+ the Pokédex!
    215   = I Pokémon sono aumentati \n
 	+ rispetto all'ultima volta...\n
 	+ Visti: %d\n
 	+ Catturati: %d
-   216   = TRANSLATION NEEDED
+   216   = Since last time,\n
+	+ the number has increased by...\n
+	+ Seen: %d%ls\n
+	+ Obtained: %d%ls
    217   = Hai fatto un altro passo\n
 	+ verso il completamento del\n
 	+ Pokédex! Complimenti!
@@ -1234,7 +1428,11 @@
 	+ \fImparata la mossa Forzantica,\n
 	+ si può evolvere in un Pokémon\n
 	+ molto forte.
-   22a	 = TRANSLATION NEEDED
+   22a	 = LICKITUNG, a Pokémon I caught\n
+	+ near Lake Valor during a\n
+	+ Mass Outbreak.\n
+	+ \fIt's a cute Pokémon with its\n
+	+ tongue sticking out!
    22b	 = Questo WYNAUT è con me\n
 	+ sin da quando è sgusciato \n
 	+ dall'Uovo.\n
@@ -1256,7 +1454,10 @@
 	+ \fQuesto Pokémon non si vede\n
 	+ spesso. Se ce l'hai puoi\n
 	+ vantartene con gli amici!
-   22f	 = TRANSLATION NEEDED
+   22f	 = TANGELA, a Pokémon you\n
+	+ can catch in the Pal Park.\n
+	+ \fIt is shrouded by vines...\n
+	+ Such a mysterious Pokémon!
    230	 = Per catturare questo COMBEE\n
 	+ ho messo del Miele su un\n
 	+ Albero Profumato.\n
@@ -1278,14 +1479,32 @@
 	+ usando MEW anche nelle\n
 	+ lotte!
 
-   233   = TRANSLATION NEEDED
-   234   = TRANSLATION NEEDED
-   235   = TRANSLATION NEEDED
-   236   = TRANSLATION NEEDED
-   237   = TRANSLATION NEEDED
-   238   = TRANSLATION NEEDED
-   239   = TRANSLATION NEEDED
-   23a   = TRANSLATION NEEDED
-   23b   = TRANSLATION NEEDED
-   23c   = TRANSLATION NEEDED
-   23d   = TRANSLATION NEEDED
+   233   = Hello! I'm Hayley
+   234   = Hello! I'm Hayley\n
+	+ Long time no see!
+   235   = Do you have a moment before\n
+	+ I go back to my Ranch?\n
+	+ I have something to tell you!
+   236   = Wow!\n
+	+ Our Ranch is now connected\n
+	+ to Pokémon Platinum!
+   237   = There's more!\n
+	+ Many parts of the Ranch\n
+	+ have been upgraded!
+   238   = Here's what's new.\n
+   239   = Hurry!\n
+	+ Let's see what's new\n
+	+ at the Ranch!\n
+	+ Let's go!
+   23a   = This is our newly upgraded\n
+	+ Ranch!
+   23b   = The Ranch has grown since\n
+	+ connecting to Pokémon\n
+	+ Platinum!
+   23c   = A lot has changed,\n
+	+ but I won't tell you\n
+	+ about all of it.\n
+	+ The rest is for you\n
+	+ to find!
+   23d   = Well then, let's continue\n
+	+ to work together!

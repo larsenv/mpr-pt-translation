@@ -69,9 +69,11 @@
 	+ nel Bosco Evopoli.
      d	 = MAGNETON si evolve salendo di\n
 	+ livello sul Monte Corona.
-     e	 = TRANSLATION NEEDED
-     f	 = TRANSLATION NEEDED
-    10	 = TRANSLATION NEEDED
+     e	 = Ricevilo a Rupepoli.
+     f	 = Schiudi l'uovo che Camilla ti ha dato\n
+	+ a Evopoli.
+    10	 = SHEDINJA si ottiene evolvendo NINCADA in\n
+	+ NINJASK con uno spazio in squadra e una Poké Ball nella borsa.
     11	 = Il Pokémon %ls%ls\n
 	+ si evolve dandogli uno strumento.
     12	 = %ls%ls si evolve\n
@@ -90,8 +92,10 @@
 	+ Pensione Pokémon di Flemminia.
     18	 = Non si sa come catturare\n
 	+ questo Pokémon.
-    19	 = TRANSLATION NEEDED
-    1a	 = TRANSLATION NEEDED
+    19	 = You can get it by trading\n
+	+ with other DS Pokémon games.
+    1a	 = You can find it roaming\n 
+	+ around the Sinnoh region.
     1b	 = Percorso 201
     1c	 = Percorso 202
     1d	 = Percorso 203
@@ -212,7 +216,7 @@
     89	 = Mattino
     8a	 = Mattino/Pomeriggio
     8b	 = Notte
-    8c	 = TRANSLATION NEEDED
+    8c	 = Morning/Night
     8d	 = ・L. %d o maggiore
     8e	 = ・Albero Profumato
     8f	 = ・Se la Difesa è più alta dell'Attacco
@@ -226,10 +230,10 @@
     97	 = ・Uovo di LEDYBA
     98	 = ・Uovo di WYNAUT
     99	 = ・Uovo di TAILLOW
-    9a	 = TRANSLATION NEEDED
-    9b	 = TRANSLATION NEEDED
-    9c	 = TRANSLATION NEEDED
-    9d	 = TRANSLATION NEEDED
+    9a	 = ・SPHEAL Egg
+    9b	 = ・SEEL Egg
+    9c	 = ・ELEKID Egg
+    9d	 = ・MAGBY Egg
     9e	 = ・Pesca: (Amo Vecchio)
     9f	 = ・Pesca: (Amo Buono)
     a0	 = ・Pesca: (Super Amo)
@@ -254,7 +258,7 @@
     b3	 = ・Strumento: Pietrasolare
     b4	 = ・Strumento: Pietralunare
     b5	 = ・Strumento: Squamabissi
-    b6	 = TRANSLATION NEEDED
+    b6	 = ・Item: Lax Incense
     b7	 = ・Strumento: Neropietra
     b8	 = ・Rocciaumida
     b9	 = ・Rocciafredda
@@ -265,8 +269,8 @@
     be	 = ・Fossile: Fossilscudo
     bf	 = ・Fossile: Fossilunghia
     c0	 = ・Fossile: Fossilcranio
-    c1	 = TRANSLATION NEEDED
-    c2	 = TRANSLATION NEEDED
+    c1	 = ・Dug up with an even Trainer ID number.
+    c2	 = ・Dug up with an odd Trainer ID number.
     c3	 = ・Se la Difesa è uguale all'Attacco
     c4	 = ・Se l'Attacco è più alto della Difesa
     c5	 = ・In acqua (usando Surf)
@@ -281,8 +285,8 @@
     ce	 = ・Informazioni su SPIRITOMB
     cf	 = ・Informazioni su SHEDINJA
     d0	 = ・Informazioni su BONSLY
-    d1	 = TRANSLATION NEEDED
-    d2	 = TRANSLATION NEEDED
+    d1	 = ・Dual Slot: Pokémon Zaffiro
+    d2	 = ・Se ottenuto il Pokédex Nazionale
     d3	 = ・Richiesto Poké Radar \040
     d4	 = ・Raro in Pokémon Diamante
     d5	 = ・Raro in Pokémon Perla
@@ -295,11 +299,11 @@
     dc	 = ・Dual Slot: Pokémon Rosso Fuoco
     dd	 = ・Dual Slot: Pokémon Verde Foglia
     de	 = ・Dual Slot: Pokémon Rubino
-    df	 = TRANSLATION NEEDED
-    e0	 = TRANSLATION NEEDED
+    df	 = Puoi ottenere un Uovo lasciando un\n
+    e0	 = Puoi ottenere un Uovo lasciando uno\n
     e1	 = ・Se ottenuto il Pokédex Nazionale
     e2	 = ・Giardino Trofeo
-    e3	 = TRANSLATION NEEDED
+    e3	 = (TRANSLATION NEEDED) ・WURMPLE Evolution
     e4	 = Cospargi un albero con il Miele che hai\n
 	+ ottenuto a Prato Fiorito, poi aspetta mezza\n
 	+ giornata perché un Pokémon esca allo\n
@@ -355,20 +359,27 @@
 	+ SWELLOW♀ e un Pokémon maschio dello\n
 	+ stesso gruppo Uovo nella Pensione\n
 	+ Pokémon.
-    f1	 = TRANSLATION NEEDED
-    f2	 = TRANSLATION NEEDED
-    f3	 = TRANSLATION NEEDED
-    f4	 = TRANSLATION NEEDED
+    f1	 = A volte puoi trovare una Pietrasolare\n
+    f2	 = Può capitare di trovare una Pietralunare\n
+	+ scavando nei Sotterranei. Possono\n
+	+ averla anche i LUNATONE selvatici.
+    f3	 = (TRANSLATION NEEDED) You can discover an Egg by leaving\n\n
+	+ ELECTABUZZ♀ and a Pokémon that gets\n\n
+	+ along with it at the Pokémon Day Care.
+    f4	 = Puoi ottenere una Neropietra nel\n
+	+ deposito del Team Galassia o in\n
     f5	 = Puoi ottenere un Upgrade a Evopoli.
     f6	 = Puoi ottenere un Dubbiodisco\n
 	+ sul Percorso 225.
-    f7	 = TRANSLATION NEEDED
+    f7	 = (TRANSLATION NEEDED) You can get a Dubious Disc in Team Galactic HQ.
     f8	 = A volte gli ELEKID selvatici\n
 	+ hanno l'Elettritore. Puoi\n
 	+ catturare un ELEKID all'Impianto\n
 	+ Turbine.\n
 	+ Dual Slot: Rosso Fuoco.
-    f9	 = TRANSLATION NEEDED
+    f9	 = (TRANSLATION NEEDED) Electirizer is an item that wild ELECTABUZZ\n\n
+	+ sometimes have. You can catch\n\n
+	+ ELECTABUZZ at Route 222.
     fa	 = Puoi ottenere una Pietrabrillo sull'Isola\n
 	+ Ferrosa o sul Percorso 228.
     fb	 = Puoi ottenere una Pietrafocaia presso le\n
@@ -384,7 +395,7 @@
 	+ Magmatore. Puoi catturare un MAGBY\n
 	+ sul Percorso 227.\n
 	+ Dual Slot: Verde Foglia.
-    ff	 = TRANSLATION NEEDED
+    ff	 = Quando EEVEE si è affezionato a te a\n
    100	 = A volte i BRONZOR o gli STEELIX selvatici\n
 	+ hanno una Metalcoperta.
    101	 = La Pietralbore può essere ottenuta sul\n
@@ -471,15 +482,15 @@
 	+ una volta raggiunto il L. 32.
    11a	 = TANGELA apprenderà Forzantica\n
 	+ una volta raggiunto il L. 33.
-   11b	 = TRANSLATION NEEDED
+   11b	 = (TRANSLATION NEEDED) YANMA learns AncientPower at Lv. 33.
    11c	 = Puoi insegnare al Pokémon Forzantica\n
 	+ dando alla Guida Mosse una Squama Cuore.\n
 	+ Puoi ottenere la Squama Cuore scavando\n
 	+ nei Sotterranei.
    11d	 = Quando LICKITUNG raggiunge il\n
 	+ L. 33 impara Rotolamento.
-   11e	 = TRANSLATION NEEDED
-   11f	 = TRANSLATION NEEDED
+   11e	 = (TRANSLATION NEEDED) BONSLY learns Mimic at Lv. 17.
+   11f	 = (TRANSLATION NEEDED) MIME JR. learns Mimic at Lv. 18.
    120	 = Apparirà quando inserisci una cassetta di\n
 	+ gioco della serie Pokémon per Game Boy\n
 	+ Advance nell'alloggiamento cassetta\n
@@ -488,11 +499,12 @@
 	+ Via Vittoria o sul Percorso 224.
    122	 = Puoi ottenere un Affilodente\n
 	+ nel Giardino Lotta.
-   123	 = TRANSLATION NEEDED
-   124	 = TRANSLATION NEEDED
+   123	 = (TRANSLATION NEEDED) You can get a Razor Fang on Route 225.
+   124	 = (TRANSLATION NEEDED) When WURMPLE reaches level 7,\n\n
+	+ it evolves into SILCOON or CASCOON.
    125	 = Trovi lo strumento sul Lago Verità\n
 	+ nella borsa lasciata da Prof. Rowan.
-   126	 = TRANSLATION NEEDED
+   126	 = (TRANSLATION NEEDED) Receive it from Prof. Rowan.
    127	 = Fai schiudere l'Uovo che ti dà\n
 	+ Marisio sull'Isola Ferrosa.
    128	 = Esamina di notte la TV\n
@@ -510,7 +522,8 @@
 	+ al Tempio Nevepoli.
    12f	 = Puoi trovare questo Pokémon\n
 	+ presso la Grotta Ritorno.
-   130	 = TRANSLATION NEEDED
+   130	 = (TRANSLATION NEEDED) You can meet it in the\n\n
+	+ Distortion World.
    131	 = Una volta visto sull'Isola Lunapiena,\n
 	+ si aggirerà nella regione di Sinnoh.
    132	 = Puoi scegliere tra un esemplare di\n
@@ -520,7 +533,7 @@
    133	 = Potrai catturare questo Pokémon\n
 	+ se hai in squadra REGIROCK, REGICE\n
 	+ e REGISTEEL.
-   134	 = TRANSLATION NEEDED
+   134	 = (TRANSLATION NEEDED) Morning/Night
    135	 = Quando FEEBAS passa di livello deve\n
 	+ avere una bellezza sufficiente.
    136	 = Devi avere un REMORAID in squadra\n
@@ -531,12 +544,12 @@
    13a	 = ・Informazioni su CHIMCHAR
    13b	 = ・Informazioni su PIPLUP
    13c	 = ・Informazioni su REGIGIGAS
-   13d	 = TRANSLATION NEEDED
-   13e	 = TRANSLATION NEEDED
-   13f	 = TRANSLATION NEEDED
-   140	 = TRANSLATION NEEDED
-   141	 = TRANSLATION NEEDED
-   142	 = TRANSLATION NEEDED
+   13d	 = ・About DIALGA
+   13e	 = ・About PALKIA
+   13f	 = ・About GIRATINA
+   140	 = ・About ARTICUNO
+   141	 = ・About ZAPDOS
+   142	 = ・About MOLTRES
    143	 = Puoi trovare quest'Uovo presso la\n
 	+ Pensione Pokémon di Flemminia.
    144	 = ・Informazioni sulle Uova
@@ -544,9 +557,15 @@
 	+ maschio di Pokémon dello stesso gruppo\n
 	+ Uovo presso la Pensione Pokémon, \n
 	+ otterrai un Uovo.
-   146	 = TRANSLATION NEEDED
-   147	 = TRANSLATION NEEDED
-   148	 = TRANSLATION NEEDED
-   149	 = TRANSLATION NEEDED
+   146	 = After entering the Hall of Fame,\n
+	+ talk to the elder of Celestic Town.\n
+	+ Requires an Adamant Orb.
+   147	 = After entering the Hall of Fame,\n
+	+ talk to the elder of Celestic Town.\n
+	+ Requires a Lustrous Orb.
+   148	 = After obtaining the National Dex,
+	+  go to Eterna City and\n
+	+ see Prof. Oak.
+   149	 = (TRANSLATION NEEDED) 
    14a	 = NUOVO!
 

@@ -93,7 +93,7 @@
     2c	 = sa
     2d	 = ,
     2e	 = .
-    2f	 = TRANSLATION NEEDED
+    2f	 = (TRANSLATION NEEDED) 
     30	 = 0
     31	 = /
     32	 = %3$02d/%2$02d/%1$d
@@ -102,7 +102,7 @@
     35	 = %2$d%3$ls %1$ls
     36	 = 0
     37	 = 2
-    38	 = TRANSLATION NEEDED
+    38	 = (TRANSLATION NEEDED) 
     39	 = :
     3a	 = %d:%02d:%02d
     3b	 = %d:%02d
