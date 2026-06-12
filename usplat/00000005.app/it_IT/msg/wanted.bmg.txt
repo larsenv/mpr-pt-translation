@@ -377,7 +377,7 @@
 	+ catturare un ELEKID all'Impianto\n
 	+ Turbine.\n
 	+ Dual Slot: Rosso Fuoco.
-    f9	 = L'Elettritore è un'oggetto che un ELECTABUZZ selvatico\n\n
+    f9	 = L'Elettritore è un oggetto che un ELECTABUZZ selvatico\n\n
 	+ ha qualche volta. Puoi ottenere\n\n
 	+ ELECTABUZZ al Percorso 222.
     fa	 = Puoi ottenere una Pietrabrillo sull'Isola\n
