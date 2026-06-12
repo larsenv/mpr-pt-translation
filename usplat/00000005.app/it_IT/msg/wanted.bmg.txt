@@ -363,9 +363,9 @@
     f2	 = Può capitare di trovare una Pietralunare\n
 	+ scavando nei Sotterranei. Possono\n
 	+ averla anche i LUNATONE selvatici.
-    f3	 = Puoi scoprire un Uovo lasciandolo\n\n
-	+ ELECTABUZZ♀ e un'altro Pokémon con cui\n\n
-	+ ci va d'accordo al Centro Pokémon.
+    f3	 = Puoi scoprire un Uovo lasciando\n\n
+	+ ELECTABUZZ♀ e un altro Pokémon con cui\n\n
+	+ va d'accordo al Centro Pokémon.
     f4	 = Puoi ottenere una Neropietra nel\n
 	+ deposito del Team Galassia o in\n
     f5	 = Puoi ottenere un Upgrade a Evopoli.
