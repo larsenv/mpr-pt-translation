@@ -1111,7 +1111,7 @@ Ranch %ls!	Ranch %ls!+Ranch %ls! Ranch %ls!RRanch %ls!aRanch %ls!nRanch %ls!cRan
 	+ mio Ranch, vero?
    1ca   = Non ti andrebbe di visitare il\n\n
 	+ mio Ranch di nuovo qualche volta?
-   1cb   = Viani a visitare di nuovo il mio Ranch\n\n
+   1cb   = Vieni a visitare di nuovo il mio Ranch\n\n
 	+ qualche volta!
    1cc   = Grazie per aver accettato\n
 	+ di visitare il mio Ranch!
