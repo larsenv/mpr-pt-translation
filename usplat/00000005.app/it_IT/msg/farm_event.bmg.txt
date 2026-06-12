@@ -415,7 +415,7 @@
 	+ Pokémon al Ranch.
     9d	 = Finora, ho portato \n
 	+ %ls Pokémon.
-    9e   = Fino ad'ora, ho portato\n\n
+    9e   = Finora, ho portato\n\n
 	+ %d Pokémon.
     9f	 = Questi sono i miei \n
 	+ preziosissimi Pokémon. \n
