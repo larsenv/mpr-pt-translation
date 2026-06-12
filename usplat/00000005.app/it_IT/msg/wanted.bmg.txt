@@ -303,7 +303,7 @@
     e0	 = Puoi ottenere un Uovo lasciando uno\n
     e1	 = ・Se ottenuto il Pokédex Nazionale
     e2	 = ・Giardino Trofeo
-    e3	 = (TRANSLATION NEEDED) ・WURMPLE Evolution
+    e3	 = ・Evoluzione di WURMPLE
     e4	 = Cospargi un albero con il Miele che hai\n
 	+ ottenuto a Prato Fiorito, poi aspetta mezza\n
 	+ giornata perché un Pokémon esca allo\n
@@ -363,23 +363,23 @@
     f2	 = Può capitare di trovare una Pietralunare\n
 	+ scavando nei Sotterranei. Possono\n
 	+ averla anche i LUNATONE selvatici.
-    f3	 = (TRANSLATION NEEDED) You can discover an Egg by leaving\n\n
-	+ ELECTABUZZ♀ and a Pokémon that gets\n\n
-	+ along with it at the Pokémon Day Care.
+    f3	 = Puoi scoprire un Uovo lasciandolo\n\n
+	+ ELECTABUZZ♀ e un'altro Pokémon con cui\n\n
+	+ ci va d'accordo al Centro Pokémon.
     f4	 = Puoi ottenere una Neropietra nel\n
 	+ deposito del Team Galassia o in\n
     f5	 = Puoi ottenere un Upgrade a Evopoli.
     f6	 = Puoi ottenere un Dubbiodisco\n
 	+ sul Percorso 225.
-    f7	 = (TRANSLATION NEEDED) You can get a Dubious Disc in Team Galactic HQ.
+    f7	 = Puoi ottenere un Dubbiodisco agli HQ del Team Galattico.
     f8	 = A volte gli ELEKID selvatici\n
 	+ hanno l'Elettritore. Puoi\n
 	+ catturare un ELEKID all'Impianto\n
 	+ Turbine.\n
 	+ Dual Slot: Rosso Fuoco.
-    f9	 = (TRANSLATION NEEDED) Electirizer is an item that wild ELECTABUZZ\n\n
-	+ sometimes have. You can catch\n\n
-	+ ELECTABUZZ at Route 222.
+    f9	 = L'Elettritore è un'oggetto che un ELECTABUZZ selvatico\n\n
+	+ ha qualche volta. Puoi ottenere\n\n
+	+ ELECTABUZZ al Percorso 222.
     fa	 = Puoi ottenere una Pietrabrillo sull'Isola\n
 	+ Ferrosa o sul Percorso 228.
     fb	 = Puoi ottenere una Pietrafocaia presso le\n
@@ -482,15 +482,15 @@
 	+ una volta raggiunto il L. 32.
    11a	 = TANGELA apprenderà Forzantica\n
 	+ una volta raggiunto il L. 33.
-   11b	 = (TRANSLATION NEEDED) YANMA learns AncientPower at Lv. 33.
+   11b	 = YANMA impara AncientPower al Liv. 33.
    11c	 = Puoi insegnare al Pokémon Forzantica\n
 	+ dando alla Guida Mosse una Squama Cuore.\n
 	+ Puoi ottenere la Squama Cuore scavando\n
 	+ nei Sotterranei.
    11d	 = Quando LICKITUNG raggiunge il\n
 	+ L. 33 impara Rotolamento.
-   11e	 = (TRANSLATION NEEDED) BONSLY learns Mimic at Lv. 17.
-   11f	 = (TRANSLATION NEEDED) MIME JR. learns Mimic at Lv. 18.
+   11e	 = BONSLY impara Mimic al Liv. 17.
+   11f	 = MIME JR. impara Mimic al Liv. 18.
    120	 = Apparirà quando inserisci una cassetta di\n
 	+ gioco della serie Pokémon per Game Boy\n
 	+ Advance nell'alloggiamento cassetta\n
@@ -499,12 +499,12 @@
 	+ Via Vittoria o sul Percorso 224.
    122	 = Puoi ottenere un Affilodente\n
 	+ nel Giardino Lotta.
-   123	 = (TRANSLATION NEEDED) You can get a Razor Fang on Route 225.
-   124	 = (TRANSLATION NEEDED) When WURMPLE reaches level 7,\n\n
-	+ it evolves into SILCOON or CASCOON.
+   123	 = (TRANSLATION NEEDED) Puoi ottenere un Razor Fang al Percorso 225.
+   124	 = Quando WURMPLE arriva al livello 7,\n\n
+	+ egli si evolve in un SILCOON o CASCOON.
    125	 = Trovi lo strumento sul Lago Verità\n
 	+ nella borsa lasciata da Prof. Rowan.
-   126	 = (TRANSLATION NEEDED) Receive it from Prof. Rowan.
+   126	 = Ricevilo dal Prof. Rowan.
    127	 = Fai schiudere l'Uovo che ti dà\n
 	+ Marisio sull'Isola Ferrosa.
    128	 = Esamina di notte la TV\n
@@ -522,8 +522,8 @@
 	+ al Tempio Nevepoli.
    12f	 = Puoi trovare questo Pokémon\n
 	+ presso la Grotta Ritorno.
-   130	 = (TRANSLATION NEEDED) You can meet it in the\n\n
-	+ Distortion World.
+   130	 = Puoi incontrarlo nel\n\n
+	+ Mondo Distorto.
    131	 = Una volta visto sull'Isola Lunapiena,\n
 	+ si aggirerà nella regione di Sinnoh.
    132	 = Puoi scegliere tra un esemplare di\n
@@ -533,7 +533,7 @@
    133	 = Potrai catturare questo Pokémon\n
 	+ se hai in squadra REGIROCK, REGICE\n
 	+ e REGISTEEL.
-   134	 = (TRANSLATION NEEDED) Morning/Night
+   134	 = Mattina/Notte
    135	 = Quando FEEBAS passa di livello deve\n
 	+ avere una bellezza sufficiente.
    136	 = Devi avere un REMORAID in squadra\n
