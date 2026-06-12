@@ -1,0 +1,443 @@
+<?xml version="1.0" ?>
+<characters>
+  <character name="Akiyama">
+    <mii>80060041006B006900790061006D006100000000000040408836A1113A017D6284003E00017D0891A48B084084485AAE008A008A25040000000000000000000000000000000000000000</mii>
+    <pokemon/>
+    <text>
+      <en_US>
+        <string index="0"/>
+        <string index="1"/>
+        <string index="2"/>
+        <string index="3"/>
+        <string index="4"/>
+        <string index="5"/>
+        <string index="6"/>
+        <string index="7"/>
+        <string index="8"/>
+      </en_US>
+      <ja_JP>
+        <string index="0">ポケモーニング！
+あきやまたいいんだよ</string>
+        <string index="1">コイキングをつれてくると、ケッキングと
+こうかんしてくれるそうです。</string>
+        <string index="2"/>
+        <string index="3"/>
+        <string index="4"/>
+        <string index="5"/>
+        <string index="6"/>
+        <string index="7"/>
+        <string index="8"/>
+      </ja_JP>
+      <de_DE>
+        <string index="0"/>
+        <string index="1"/>
+        <string index="2"/>
+        <string index="3"/>
+        <string index="4"/>
+        <string index="5"/>
+        <string index="6"/>
+        <string index="7"/>
+        <string index="8"/>
+      </de_DE>
+      <fr_FR>
+        <string index="0"/>
+        <string index="1"/>
+        <string index="2"/>
+        <string index="3"/>
+        <string index="4"/>
+        <string index="5"/>
+        <string index="6"/>
+        <string index="7"/>
+        <string index="8"/>
+      </fr_FR>
+      <es_ES>
+        <string index="0"/>
+        <string index="1"/>
+        <string index="2"/>
+        <string index="3"/>
+        <string index="4"/>
+        <string index="5"/>
+        <string index="6"/>
+        <string index="7"/>
+        <string index="8"/>
+      </es_ES>
+      <it_IT>
+        <string index="0"/>
+        <string index="1"/>
+        <string index="2"/>
+        <string index="3"/>
+        <string index="4"/>
+        <string index="5"/>
+        <string index="6"/>
+        <string index="7"/>
+        <string index="8"/>
+      </it_IT>
+    </text>
+  </character>
+  <character name="Babaigon">
+    <mii>8008004200610062006100690067006F006E0000000040408836A0223A017D6240004400017D06A2684C08608640784E008A008A25040000000000000000000000000000000000000000</mii>
+    <pokemon/>
+    <text>
+      <en_US>
+        <string index="0"/>
+        <string index="1"/>
+        <string index="2"/>
+        <string index="3"/>
+        <string index="4"/>
+        <string index="5"/>
+        <string index="6"/>
+        <string index="7"/>
+        <string index="8"/>
+      </en_US>
+      <ja_JP>
+        <string index="0"/>
+        <string index="1">すこい！ムックルをつれてきて
+さっそくこうかんしよう。</string>
+        <string index="2"/>
+        <string index="3"/>
+        <string index="4"/>
+        <string index="5"/>
+        <string index="6"/>
+        <string index="7"/>
+        <string index="8"/>
+      </ja_JP>
+      <de_DE>
+        <string index="0"/>
+        <string index="1"/>
+        <string index="2"/>
+        <string index="3"/>
+        <string index="4"/>
+        <string index="5"/>
+        <string index="6"/>
+        <string index="7"/>
+        <string index="8"/>
+      </de_DE>
+      <fr_FR>
+        <string index="0"/>
+        <string index="1"/>
+        <string index="2"/>
+        <string index="3"/>
+        <string index="4"/>
+        <string index="5"/>
+        <string index="6"/>
+        <string index="7"/>
+        <string index="8"/>
+      </fr_FR>
+      <es_ES>
+        <string index="0"/>
+        <string index="1"/>
+        <string index="2"/>
+        <string index="3"/>
+        <string index="4"/>
+        <string index="5"/>
+        <string index="6"/>
+        <string index="7"/>
+        <string index="8"/>
+      </es_ES>
+      <it_IT>
+        <string index="0"/>
+        <string index="1"/>
+        <string index="2"/>
+        <string index="3"/>
+        <string index="4"/>
+        <string index="5"/>
+        <string index="6"/>
+        <string index="7"/>
+        <string index="8"/>
+      </it_IT>
+    </text>
+  </character>
+  <character name="Golko">
+    <mii>80160047006F006C006B006F00000000000000000000404088369F123A017D6284002E00613D08611CAA0640743020CE008A402625040000000000000000000000000000000000000000</mii>
+    <pokemon/>
+    <text>
+      <en_US>
+        <string index="0"/>
+        <string index="1"/>
+        <string index="2"/>
+        <string index="3"/>
+        <string index="4"/>
+        <string index="5"/>
+        <string index="6"/>
+        <string index="7"/>
+        <string index="8"/>
+        <string index="9"/>
+      </en_US>
+      <ja_JP>
+        <string index="0">やあみんな、ポケサンカンパニーの
+ゴルゴしょちょうだ。
+ポケモン★サンデーをみて、もっと
+ポケモンをすきになってくれよな。
+</string>
+        <string index="1">じつはな、ジグサクマを
+25ひきあつめると
+ジグザグパレードをするんじゃ。
+わしは、と〜ってもそれがみたい！</string>
+        <string index="2">ぜひ、キミの ジグサグマと
+わしの オクタンを
+こうかんしようじゃないか。</string>
+        <string index="3">たのしかった!
+ほんとにありがとう。
+このなつは、
+えいがかんで あおうね！</string>
+        <string index="4"/>
+        <string index="5">わしは、しばらくほくじょうで
+あそんでいくぞ。いいな？</string>
+        <string index="6">ジグザグマをつれてくると
+オクタンと
+こうかんしてくれるそうです。</string>
+        <string index="7">お、ジグザグマを
+つれてきてくれたのかい。
+さっそく こうかんしょうじゃないか。</string>
+        <string index="8">ゴルゴしょちょう</string>
+        <string index="9"/>
+      </ja_JP>
+      <de_DE>
+        <string index="0"/>
+        <string index="1"/>
+        <string index="2"/>
+        <string index="3"/>
+        <string index="4"/>
+        <string index="5"/>
+        <string index="6"/>
+        <string index="7"/>
+        <string index="8"/>
+        <string index="9"/>
+      </de_DE>
+      <fr_FR>
+        <string index="0"/>
+        <string index="1"/>
+        <string index="2"/>
+        <string index="3"/>
+        <string index="4"/>
+        <string index="5"/>
+        <string index="6"/>
+        <string index="7"/>
+        <string index="8"/>
+        <string index="9"/>
+      </fr_FR>
+      <es_ES>
+        <string index="0"/>
+        <string index="1"/>
+        <string index="2"/>
+        <string index="3"/>
+        <string index="4"/>
+        <string index="5"/>
+        <string index="6"/>
+        <string index="7"/>
+        <string index="8"/>
+        <string index="9"/>
+      </es_ES>
+      <it_IT>
+        <string index="0"/>
+        <string index="1"/>
+        <string index="2"/>
+        <string index="3"/>
+        <string index="4"/>
+        <string index="5"/>
+        <string index="6"/>
+        <string index="7"/>
+        <string index="8"/>
+        <string index="9"/>
+      </it_IT>
+    </text>
+  </character>
+  <character name="レッドはかせ">
+    <mii>000230EC30C330C9306F304B305B00000000000000007F408108E2EFC2EFA02E44C43E00918008737C890460333030EC8280028A25040000000000000000000000000000000000000000</mii>
+    <pokemon>B0514907000012EA03E2243BA248E7DFBF81BE3F675769D38AAD942D08CE6CA89805E09F446BE7007525F0A541CB06E1FFDB3127A010751CEE6D53D48F5EE88E66FA13015A32250546496302F6AD8CECAB6AEE96F0E5CEB37253D7F8C8BD8C9DA8D7B1C180E361A11B1496F56510A40B9DB7958DEED9015E532E6F482F0AEBF246353B24838D8766</pokemon>
+    <text>
+      <en_US>
+        <string index="0">PokéMorning!
+Did you happen to see me on Pokémon Sunday?
+I'm Professor Red!
+I brought my METAGROSS, Homerun!</string>
+        <string index="1">Oh, that's MACHOP!
+You brought it for me, right?
+Thank you.
+So, let's trade.</string>
+        <string index="2">I have to return to
+</string>
+        <string index="3">the PokéSun Company soon...
+Let's meet again on Pokémon Sunday!
+Poké we.. GO!</string>
+        <string index="4">P.S.
+Thank you for trading for METAGROSS.
+My Homerun is really strong~!
+Please take good care of it!</string>
+        <string index="5">Well, actually, I heard an amazing
+rumor that if you 
+gather 8 Fighting Type Pokémon in the new ranch,
+they'll have a Tournament
+</string>
+        <string index="6">I wonder, would you trade your MACHOP for my Homerun?</string>
+        <string index="7">I'm going to watch the Pokémon on the ranch for a while.</string>
+        <string index="8">Professor Red</string>
+        <string index="9">From Professor Red</string>
+      </en_US>
+      <ja_JP>
+        <string index="0">ポケモーニング!
+「ポケモン☆サンデー」での わたしの
+かつやくを みてくれているかな?
+レッドはかせです!
+わたしのメタグロス、ホームランを
+つれてきちゃいました～!</string>
+        <string index="1">お、それはワンリキー!
+つれてきてくれたんですね。
+ありがとう。
+では、こうかんしましょうか。</string>
+        <string index="2">そろそろ ポケサンカンパニーに 
+かえらなくては……
+また 「ポケモン☆サンデー」で
+あいましょう!
+ポケ・ウィー・ゴー!</string>
+        <string index="3">P.S.
+メタグロスと
+こうかんしてくれて、ありがとう。
+わたしの ホームランは
+つよいですよ～!
+ちゃんと かわいがってくださいね!</string>
+        <string index="4">いや～、じつはですね、すごいウワサを 
+みみにしたんですが、
+あたらしいぼくじょうで、
+かくとうタイプの ポケモンを 8ぴき 
+あつめると、トーナメントを 
+するらしいんですよね～。
+すっごく きになってるんですが、 
+あなたのワンリキーと 
+わたしのホームラン、
+こうかんしません?</string>
+        <string index="5">しばらく ぼくじょうで ポケモンたちを
+かんさつすることにするよ。</string>
+        <string index="6">レッドはかせ</string>
+        <string index="7">レッドはかせより</string>
+        <string index="8"/>
+        <string index="9"/>
+      </ja_JP>
+      <de_DE>
+        <string index="0"/>
+        <string index="1"/>
+        <string index="2"/>
+        <string index="3"/>
+        <string index="4"/>
+        <string index="5"/>
+        <string index="6"/>
+        <string index="7"/>
+        <string index="8"/>
+        <string index="9"/>
+      </de_DE>
+      <fr_FR>
+        <string index="0"/>
+        <string index="1"/>
+        <string index="2"/>
+        <string index="3"/>
+        <string index="4"/>
+        <string index="5"/>
+        <string index="6"/>
+        <string index="7"/>
+        <string index="8"/>
+        <string index="9"/>
+      </fr_FR>
+      <es_ES>
+        <string index="0"/>
+        <string index="1"/>
+        <string index="2"/>
+        <string index="3"/>
+        <string index="4"/>
+        <string index="5"/>
+        <string index="6"/>
+        <string index="7"/>
+        <string index="8"/>
+        <string index="9"/>
+      </es_ES>
+      <it_IT>
+        <string index="0"/>
+        <string index="1"/>
+        <string index="2"/>
+        <string index="3"/>
+        <string index="4"/>
+        <string index="5"/>
+        <string index="6"/>
+        <string index="7"/>
+        <string index="8"/>
+        <string index="9"/>
+      </it_IT>
+    </text>
+  </character>
+  <character name="Yukina">
+    <mii>C00E00590075006B0069006E0061000000000000000040408836A0623A017D6220008F8001BD24A38C6B06A06438B0AD008A008A8C580000000000000000000000000000000000000000</mii>
+    <pokemon/>
+    <text>
+      <en_US>
+        <string index="0"/>
+        <string index="1"/>
+        <string index="2"/>
+        <string index="3"/>
+        <string index="4"/>
+        <string index="5"/>
+        <string index="6"/>
+        <string index="7"/>
+        <string index="8"/>
+      </en_US>
+      <ja_JP>
+        <string index="0">ポケチョリーッス！
+ゆっきーなこときのしたゆきなです。</string>
+        <string index="1"/>
+        <string index="2"/>
+        <string index="3">ちょーたのしかった！サンキュー!
+またどこかで あえるといいね！
+P.S.
+こうかんしてくれて ありがとう！
+ゆきなのニャース、だいじにしてね。</string>
+        <string index="4"/>
+        <string index="5"/>
+        <string index="6"/>
+        <string index="7"/>
+        <string index="8"/>
+      </ja_JP>
+      <de_DE>
+        <string index="0"/>
+        <string index="1"/>
+        <string index="2"/>
+        <string index="3"/>
+        <string index="4"/>
+        <string index="5"/>
+        <string index="6"/>
+        <string index="7"/>
+        <string index="8"/>
+      </de_DE>
+      <fr_FR>
+        <string index="0"/>
+        <string index="1"/>
+        <string index="2"/>
+        <string index="3"/>
+        <string index="4"/>
+        <string index="5"/>
+        <string index="6"/>
+        <string index="7"/>
+        <string index="8"/>
+      </fr_FR>
+      <es_ES>
+        <string index="0"/>
+        <string index="1"/>
+        <string index="2"/>
+        <string index="3"/>
+        <string index="4"/>
+        <string index="5"/>
+        <string index="6"/>
+        <string index="7"/>
+        <string index="8"/>
+      </es_ES>
+      <it_IT>
+        <string index="0"/>
+        <string index="1"/>
+        <string index="2"/>
+        <string index="3"/>
+        <string index="4"/>
+        <string index="5"/>
+        <string index="6"/>
+        <string index="7"/>
+        <string index="8"/>
+      </it_IT>
+    </text>
+  </character>
+</characters>

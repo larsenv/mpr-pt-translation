@@ -1,12 +1,10 @@
 import argparse
-import binascii
-import collections
 import os
-import pyaes
 import rsa
 import struct
-import subprocess
-
+from binascii import unhexlify
+from Crypto.Cipher import AES
+from nlzss import encode_file
 
 def u8(data):
     return struct.pack(">B", data)
@@ -22,7 +20,7 @@ def u32(data):
 parser = argparse.ArgumentParser(description="Sign / Encrypt WiiConnect24 files.")
 parser.add_argument("-t", "--type",
                         type=str, nargs="+",
-                        help="Type of file. Set either enc for encrypted file, or dec for decrypted (compressed) file.")
+                        help="Type of file. Set either enc for encrypted file, or dec for non-encrypted file.")
 parser.add_argument("-in", "--input",
                         type=str, nargs="+",
                         help="Input file.")
@@ -31,7 +29,7 @@ parser.add_argument("-out", "--output",
                         help="Output file.")
 parser.add_argument("-c", "--compress",
                         type=str, nargs="+",
-                        help="If set, this will compress the file before signing.")
+                        help="If set, this will compress the file before signing with LZ10.")
 parser.add_argument("-key", "--aes-key",
                         type=str, nargs="+",
                         help="AES key in hex or a path.")
@@ -45,18 +43,13 @@ parser.add_argument("-rsa", "--rsa-key-path",
 args = parser.parse_args()
 
 if args.compress is not None:
-    subprocess.call(["cp", args.input[0], "temp"])
-    subprocess.call(["lzss", "-evf", "temp"])
-
-if args.type[0] == "enc":
-    filename = args.input[0]
-elif args.type[0] == "dec":
+    encode_file(in_path=args.input[0], out_path="temp")
     filename = "temp"
+else:
+    filename = args.input[0]
 
 with open(filename, "rb") as f:
     data = f.read()
-
-"""RSA sign the file."""
 
 if args.rsa_key_path is not None:
     rsa_key_path = args.rsa_key_path[0]
@@ -73,25 +66,24 @@ signature = rsa.sign(data, private_key, "SHA-1")
 if args.type[0] == "enc":
     if args.iv_key is not None:
         try:
-            iv = binascii.unhexlify(args.iv_key[0])
+            iv = unhexlify(args.iv_key[0])
         except:
             iv = open(args.iv_key[0], "rb").read()
     else:
         iv = os.urandom(16)
 
     try:
-        key = binascii.unhexlify(args.aes_key[0])
+        key = unhexlify(args.aes_key[0])
     except:
         key = open(args.aes_key[0], "rb").read()
 
-    aes = pyaes.AESModeOfOperationOFB(key, iv=iv)
+    aes = AES.new(key, AES.MODE_OFB, iv=iv)
     processed = aes.encrypt(data)
 elif args.type[0] == "dec":
     processed = data
 
-content = collections.OrderedDict()
+content = {"magic": b"WC24" if args.type[0] == "enc" else u32(0)}
 
-content["magic"] = b"WC24" if args.type[0] == "enc" else u32(0)
 content["version"] = u32(1) if args.type[0] == "enc" else u32(0)
 content["filler"] = u32(0)
 content["crypt_type"] = u8(1) if args.type[0] == "enc" else u8(0)
