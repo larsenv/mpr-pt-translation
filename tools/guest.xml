@@ -1,8 +1,7 @@
 <?xml version="1.0" ?>
 <events>
-  <event action="187">
+  <event id="1">
     <character name="Akiyama">
-      <event_type>187</event_type>
       <mii>80060041006B006900790061006D006100000000000040408836A1113A017D6284003E00017D0891A48B084084485AAE008A008A25040000000000000000000000000000000000000000</mii>
       <pokemon/>
       <text>
@@ -15,7 +14,6 @@
           <string key="dialog_3"/>
           <string key="name_1"/>
           <string key="name_2"/>
-          <string key="pad"/>
         </en_US>
         <ja_JP>
           <string key="dialog_1">ポケモーニング！
@@ -28,7 +26,6 @@
           <string key="dialog_3"/>
           <string key="name_1"/>
           <string key="name_2"/>
-          <string key="pad"/>
         </ja_JP>
         <de_DE>
           <string key="dialog_1"/>
@@ -39,7 +36,6 @@
           <string key="dialog_3"/>
           <string key="name_1"/>
           <string key="name_2"/>
-          <string key="pad"/>
         </de_DE>
         <fr_FR>
           <string key="dialog_1"/>
@@ -50,7 +46,6 @@
           <string key="dialog_3"/>
           <string key="name_1"/>
           <string key="name_2"/>
-          <string key="pad"/>
         </fr_FR>
         <es_ES>
           <string key="dialog_1"/>
@@ -61,7 +56,6 @@
           <string key="dialog_3"/>
           <string key="name_1"/>
           <string key="name_2"/>
-          <string key="pad"/>
         </es_ES>
         <it_IT>
           <string key="dialog_1"/>
@@ -72,14 +66,12 @@
           <string key="dialog_3"/>
           <string key="name_1"/>
           <string key="name_2"/>
-          <string key="pad"/>
         </it_IT>
       </text>
     </character>
   </event>
-  <event action="187">
+  <event id="2">
     <character name="Babaigon">
-      <event_type>187</event_type>
       <mii>8008004200610062006100690067006F006E0000000040408836A0223A017D6240004400017D06A2684C08608640784E008A008A25040000000000000000000000000000000000000000</mii>
       <pokemon/>
       <text>
@@ -92,7 +84,6 @@
           <string key="dialog_3"/>
           <string key="name_1"/>
           <string key="name_2"/>
-          <string key="pad"/>
         </en_US>
         <ja_JP>
           <string key="dialog_1"/>
@@ -104,7 +95,6 @@
           <string key="dialog_3"/>
           <string key="name_1"/>
           <string key="name_2"/>
-          <string key="pad"/>
         </ja_JP>
         <de_DE>
           <string key="dialog_1"/>
@@ -115,7 +105,6 @@
           <string key="dialog_3"/>
           <string key="name_1"/>
           <string key="name_2"/>
-          <string key="pad"/>
         </de_DE>
         <fr_FR>
           <string key="dialog_1"/>
@@ -126,7 +115,6 @@
           <string key="dialog_3"/>
           <string key="name_1"/>
           <string key="name_2"/>
-          <string key="pad"/>
         </fr_FR>
         <es_ES>
           <string key="dialog_1"/>
@@ -137,7 +125,6 @@
           <string key="dialog_3"/>
           <string key="name_1"/>
           <string key="name_2"/>
-          <string key="pad"/>
         </es_ES>
         <it_IT>
           <string key="dialog_1"/>
@@ -148,14 +135,12 @@
           <string key="dialog_3"/>
           <string key="name_1"/>
           <string key="name_2"/>
-          <string key="pad"/>
         </it_IT>
       </text>
     </character>
   </event>
-  <event action="187">
+  <event id="3">
     <character name="Golko">
-      <event_type>187</event_type>
       <mii>80160047006F006C006B006F00000000000000000000404088369F123A017D6284002E00613D08611CAA0640743020CE008A402625040000000000000000000000000000000000000000</mii>
       <pokemon/>
       <text>
@@ -169,7 +154,6 @@
           <string key="dialog_4"/>
           <string key="dialog_5"/>
           <string key="name_1"/>
-          <string key="pad"/>
         </en_US>
         <ja_JP>
           <string key="dialog_1">やあみんな、ポケサンカンパニーの
@@ -197,7 +181,6 @@
 つれてきてくれたのかい。
 さっそく こうかんしょうじゃないか。</string>
           <string key="name_1">ゴルゴしょちょう</string>
-          <string key="pad"/>
         </ja_JP>
         <de_DE>
           <string key="dialog_1"/>
@@ -209,7 +192,6 @@
           <string key="dialog_4"/>
           <string key="dialog_5"/>
           <string key="name_1"/>
-          <string key="pad"/>
         </de_DE>
         <fr_FR>
           <string key="dialog_1"/>
@@ -221,7 +203,6 @@
           <string key="dialog_4"/>
           <string key="dialog_5"/>
           <string key="name_1"/>
-          <string key="pad"/>
         </fr_FR>
         <es_ES>
           <string key="dialog_1"/>
@@ -233,7 +214,6 @@
           <string key="dialog_4"/>
           <string key="dialog_5"/>
           <string key="name_1"/>
-          <string key="pad"/>
         </es_ES>
         <it_IT>
           <string key="dialog_1"/>
@@ -245,14 +225,12 @@
           <string key="dialog_4"/>
           <string key="dialog_5"/>
           <string key="name_1"/>
-          <string key="pad"/>
         </it_IT>
       </text>
     </character>
   </event>
-  <event action="18d">
+  <event id="4">
     <character name="Red">
-      <event_type>18d</event_type>
       <mii>000230EC30C330C9306F304B305B00000000000000007F408108E2EFC2EFA02E44C43E00918008737C890460333030EC8280028A25040000000000000000000000000000000000000000</mii>
       <pokemon>B0514907000012EA03E2243BA248E7DFBF81BE3F675769D38AAD942D08CE6CA89805E09F446BE7007525F0A541CB06E1FFDB3127A010751CEE6D53D48F5EE88E66FA13015A32250546496302F6AD8CECAB6AEE96F0E5CEB37253D7F8C8BD8C9DA8D7B1C180E361A11B1496F56510A40B9DB7958DEED9015E532E6F482F0AEBF246353B24838D8766</pokemon>
       <text>
@@ -362,9 +340,8 @@ I wonder, would you trade your MACHOP for my Homerun?</string>
       </text>
     </character>
   </event>
-  <event action="187">
+  <event id="5">
     <character name="Yukina">
-      <event_type>187</event_type>
       <mii>C00E00590075006B0069006E0061000000000000000040408836A0623A017D6220008F8001BD24A38C6B06A06438B0AD008A008A8C580000000000000000000000000000000000000000</mii>
       <pokemon/>
       <text>
@@ -377,7 +354,6 @@ I wonder, would you trade your MACHOP for my Homerun?</string>
           <string key="dialog_3"/>
           <string key="name_1"/>
           <string key="name_2"/>
-          <string key="pad"/>
         </en_US>
         <ja_JP>
           <string key="dialog_1">ポケチョリーッス！
@@ -393,7 +369,6 @@ P.S.
           <string key="dialog_3"/>
           <string key="name_1"/>
           <string key="name_2"/>
-          <string key="pad"/>
         </ja_JP>
         <de_DE>
           <string key="dialog_1"/>
@@ -404,7 +379,6 @@ P.S.
           <string key="dialog_3"/>
           <string key="name_1"/>
           <string key="name_2"/>
-          <string key="pad"/>
         </de_DE>
         <fr_FR>
           <string key="dialog_1"/>
@@ -415,7 +389,6 @@ P.S.
           <string key="dialog_3"/>
           <string key="name_1"/>
           <string key="name_2"/>
-          <string key="pad"/>
         </fr_FR>
         <es_ES>
           <string key="dialog_1"/>
@@ -426,7 +399,6 @@ P.S.
           <string key="dialog_3"/>
           <string key="name_1"/>
           <string key="name_2"/>
-          <string key="pad"/>
         </es_ES>
         <it_IT>
           <string key="dialog_1"/>
@@ -437,7 +409,6 @@ P.S.
           <string key="dialog_3"/>
           <string key="name_1"/>
           <string key="name_2"/>
-          <string key="pad"/>
         </it_IT>
       </text>
     </character>

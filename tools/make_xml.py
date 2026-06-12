@@ -10,7 +10,7 @@ def remove_invalid_xml_chars(val):
     return re.sub(r'[\x00-\x08\x0b\x0c\x0e-\x1f]', '', val)
 
 namespace = {}
-with open("guestz.py", "r", encoding="utf-8") as f:
+with open("guest.py", "r", encoding="utf-8") as f:
     source = f.read()
     # prevent subprocess execution
     source = re.sub(r'subprocess\.run\s*\(.*?\)', 'pass', source, flags=re.DOTALL)
@@ -74,5 +74,5 @@ for i in range(len(mii_list)):
                 str_node.text = ""
 
 xmlstr = minidom.parseString(ET.tostring(root, 'utf-8')).toprettyxml(indent="  ")
-with open("guestz.xml", "w", encoding="utf-8") as f:
+with open("guest.xml", "w", encoding="utf-8") as f:
     f.write(xmlstr)

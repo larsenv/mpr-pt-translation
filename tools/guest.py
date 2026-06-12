@@ -45,7 +45,7 @@ opening_timestamp = int(calendar.timegm(datetime.now(timezone.utc).timetuple()))
 import sys
 import xml.etree.ElementTree as ET
 
-tree = ET.parse("guestz.xml")
+tree = ET.parse("guest.xml")
 root = tree.getroot()
 
 event_idx = int(sys.argv[1]) if len(sys.argv) > 1 else 0
@@ -54,9 +54,6 @@ if event_idx >= len(events):
     raise ValueError(f"Event index {event_idx} out of range")
 
 event_node = events[event_idx]
-
-event_type_hex = event_node.attrib.get("action", "187")
-event_type = int(event_type_hex, 16)
 
 pokemon = []
 mii = []
@@ -142,14 +139,14 @@ celebrity.update({
     "unknown_9": u8(0) * 4248
 })
 
-with open("talentzz.dat", "wb") as f:
+with open("talent.dat", "wb") as f:
     for value in celebrity.values():
         f.write(value)
 
 subprocess.run([
     "/usr/bin/python3", "wc24encrypt.py", 
     "-t", "enc", 
-    "-in", "talentzz.dat", 
+    "-in", "talent.dat", 
     "-out", "/opt/nwcs/wbm/talent_pt.ja_JP.enc", 
     "-key", "610B782DAD94000572F66AB3AFB6BDEF", 
     "-rsa", "/opt/key/ranch.pem"
