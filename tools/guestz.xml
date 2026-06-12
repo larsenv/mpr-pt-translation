@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <events>
-  <event action="18f">
+  <event action="187">
     <character name="Akiyama">
       <event_type>187</event_type>
       <mii>80060041006B006900790061006D006100000000000040408836A1113A017D6284003E00017D0891A48B084084485AAE008A008A25040000000000000000000000000000000000000000</mii>
@@ -76,6 +76,8 @@
         </it_IT>
       </text>
     </character>
+  </event>
+  <event action="187">
     <character name="Babaigon">
       <event_type>187</event_type>
       <mii>8008004200610062006100690067006F006E0000000040408836A0223A017D6240004400017D06A2684C08608640784E008A008A25040000000000000000000000000000000000000000</mii>
@@ -150,6 +152,8 @@
         </it_IT>
       </text>
     </character>
+  </event>
+  <event action="187">
     <character name="Golko">
       <event_type>187</event_type>
       <mii>80160047006F006C006B006F00000000000000000000404088369F123A017D6284002E00613D08611CAA0640743020CE008A402625040000000000000000000000000000000000000000</mii>
@@ -246,7 +250,7 @@
       </text>
     </character>
   </event>
-  <event action="18e">
+  <event action="18d">
     <character name="Red">
       <event_type>18d</event_type>
       <mii>000230EC30C330C9306F304B305B00000000000000007F408108E2EFC2EFA02E44C43E00918008737C890460333030EC8280028A25040000000000000000000000000000000000000000</mii>
@@ -357,6 +361,8 @@ I wonder, would you trade your MACHOP for my Homerun?</string>
         </it_IT>
       </text>
     </character>
+  </event>
+  <event action="187">
     <character name="Yukina">
       <event_type>187</event_type>
       <mii>C00E00590075006B0069006E0061000000000000000040408836A0623A017D6220008F8001BD24A38C6B06A06438B0AD008A008A8C580000000000000000000000000000000000000000</mii>

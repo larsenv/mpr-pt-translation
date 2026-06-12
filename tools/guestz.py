@@ -42,15 +42,18 @@ def crc16_xmodem(data, crc=0):
 
 opening_timestamp = int(calendar.timegm(datetime.now(timezone.utc).timetuple())) - 946684800
 
+import sys
 import xml.etree.ElementTree as ET
 
 tree = ET.parse("guestz.xml")
 root = tree.getroot()
 
-# Get the first event
-event_node = root.find("event")
-if event_node is None:
-    raise ValueError("No event found in guestz.xml")
+event_idx = int(sys.argv[1]) if len(sys.argv) > 1 else 0
+events = root.findall("event")
+if event_idx >= len(events):
+    raise ValueError(f"Event index {event_idx} out of range")
+
+event_node = events[event_idx]
 
 event_type_hex = event_node.attrib.get("action", "187")
 event_type = int(event_type_hex, 16)
