@@ -147,7 +147,7 @@ subprocess.run([
     "/usr/bin/python3", "wc24encrypt.py", 
     "-t", "enc", 
     "-in", "talent.dat", 
-    "-out", "../talent_pt.ja_JP.enc", 
+    "-out", "talent_pt.ja_JP.enc", 
     "-key", "610B782DAD94000572F66AB3AFB6BDEF", 
-    "-rsa", "../ranch.pem"
+    "-rsa", "ranch.pem"
 ], check=True)
