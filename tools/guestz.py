@@ -46,74 +46,147 @@ pokemon = ["", "", "", "B0514907000012EA03E2243BA248E7DFBF81BE3F675769D38AAD942D
 
 mii = ["80060041006B006900790061006D006100000000000040408836A1113A017D6284003E00017D0891A48B084084485AAE008A008A25040000000000000000000000000000000000000000", "8008004200610062006100690067006F006E0000000040408836A0223A017D6240004400017D06A2684C08608640784E008A008A25040000000000000000000000000000000000000000", "80160047006F006C006B006F00000000000000000000404088369F123A017D6284002E00613D08611CAA0640743020CE008A402625040000000000000000000000000000000000000000", "000230EC30C330C9306F304B305B00000000000000007F408108E2EFC2EFA02E44C43E00918008737C890460333030EC8280028A25040000000000000000000000000000000000000000", "C00E00590075006B0069006E0061000000000000000040408836A0623A017D6220008F8001BD24A38C6B06A06438B0AD008A008A8C580000000000000000000000000000000000000000"]
 
-# Text converted to clear dictionaries mapped to their functional names
 text = [
     {
         "ja_JP": {
-            "dialog_1": "ポケモーニング！\nあきやまたいいんだよ\0",
-            "exchange_1": "コイキングをつれてくると、ケッキングと\nこうかんしてくれるそうです。\0",
+            "dialog_1": """ポケモーニング！
+あきやまたいいんだよ""",
+            "exchange_1": """コイキングをつれてくると、ケッキングと
+こうかんしてくれるそうです。""",
             "mail_1": "", "mail_2": "", "dialog_2": "", "dialog_3": "", "name_1": "", "name_2": "", "pad": ""
         }
     },
     {
         "ja_JP": {
             "dialog_1": "",
-            "exchange_1": "すこい！ムックルをつれてきて\nさっそくこうかんしよう。\0",
+            "exchange_1": """すこい！ムックルをつれてきて
+さっそくこうかんしよう。""",
             "mail_1": "", "mail_2": "", "dialog_2": "", "dialog_3": "", "name_1": "", "name_2": "", "pad": ""
         }
     },
     {
         "ja_JP": {
-            "dialog_1": "やあみんな、ポケサンカンパニーの\nゴルゴしょちょうだ。\nポケモン★サンデーをみて、もっと\nポケモンをすきになってくれよな。                                                  ",
-            "exchange_1": "じつはな、ジグサクマを\n25ひきあつめると\nジグザグパレードをするんじゃ。\nわしは、と〜ってもそれがみたい！\0",
-            "mail_1": "ぜひ、キミの ジグサグマと\nわしの オクタンを\nこうかんしようじゃないか。\0",
-            "mail_2": "たのしかった!\nほんとにありがとう。\nこのなつは、\nえいがかんで あおうね！\0",
+            "dialog_1": """やあみんな、ポケサンカンパニーの
+ゴルゴしょちょうだ。
+ポケモン★サンデーをみて、もっと
+ポケモンをすきになってくれよな。                                                  """,
+            "exchange_1": """じつはな、ジグサクマを
+25ひきあつめると
+ジグザグパレードをするんじゃ。
+わしは、と〜ってもそれがみたい！""",
+            "mail_1": """ぜひ、キミの ジグサグマと
+わしの オクタンを
+こうかんしようじゃないか。""",
+            "mail_2": """たのしかった!
+ほんとにありがとう。
+このなつは、
+えいがかんで あおうね！""",
             "dialog_2": "",
-            "dialog_3": "わしは、しばらくほくじょうで\nあそんでいくぞ。いいな？\0",
-            "name_1": "ジグザグマをつれてくると\nオクタンと\nこうかんしてくれるそうです。\0",
-            "name_2": "お、ジグザグマを\nつれてきてくれたのかい。\nさっそく こうかんしょうじゃないか。\0",
-            "extra": "ゴルゴしょちょう\0",
+            "dialog_3": """わしは、しばらくほくじょうで
+あそんでいくぞ。いいな？""",
+            "name_1": """ジグザグマをつれてくると
+オクタンと
+こうかんしてくれるそうです。""",
+            "name_2": """お、ジグザグマを
+つれてきてくれたのかい。
+さっそく こうかんしょうじゃないか。""",
+            "extra": """ゴルゴしょちょう""",
             "pad": ""
         }
     },
     {
         "en_US": {
-            "dialog_1": "PokéMorning!\nDid you happen to see me on Pokémon Sunday?\nI'm Professor Red!\n                                    \nI brought my METAGROSS, Homerun!\0",
-            "exchange_1": "Oh, that's MACHOP!\nYou brought it for me, right?\nThank you.\nSo, let's trade.\0",
-            "mail_1": "I have to return to\nthe PokéSun Company soon...\nLet's meet again on Pokémon Sunday!\nPoké we.. GO!\0",
-            "mail_2": "P.S.\nThank you for trading for METAGROSS.\nMy Homerun is really strong~!\nPlease take good care of it!\0",
-            "dialog_2": "Well, actually, I heard an amazing\nrumor that if you \ngather 8 Fighting Type Pokémon in the new ranch,\nthey'll have a Tournament\n                                           \nI wonder, would you trade your MACHOP for my Homerun?\0",
-            "dialog_3": "I'm going to watch the Pokémon on the ranch for a while.\0",
-            "name_1": "Professor Red\0",
-            "name_from": "From Professor Red\0"
+            "dialog_1": """PokéMorning!
+Did you happen to see me on Pokémon Sunday?
+I'm Professor Red!
+                                    
+I brought my METAGROSS, Homerun!""",
+            "exchange_1": """Oh, that's MACHOP!
+You brought it for me, right?
+Thank you.
+So, let's trade.""",
+            "mail_1": """I have to return to
+the PokéSun Company soon...
+Let's meet again on Pokémon Sunday!
+Poké we.. GO!""",
+            "mail_2": """P.S.
+Thank you for trading for METAGROSS.
+My Homerun is really strong~!
+Please take good care of it!""",
+            "dialog_2": """Well, actually, I heard an amazing
+rumor that if you 
+gather 8 Fighting Type Pokémon in the new ranch,
+they'll have a Tournament
+                                           
+I wonder, would you trade your MACHOP for my Homerun?""",
+            "dialog_3": """I'm going to watch the Pokémon on the ranch for a while.""",
+            "name_1": """Professor Red""",
+            "name_from": """From Professor Red"""
         },
         "ja_JP": {
-            "dialog_1": "ポケモーニング!\n「ポケモン☆サンデー」での わたしの\nかつやくを みてくれているかな?\nレッドはかせです!\n                                   \nわたしのメタグロス、ホームランを\nつれてきちゃいました～!\0",
-            "exchange_1": "お、それはワンリキー!\nつれてきてくれたんですね。\nありがとう。\nでは、こうかんしましょうか。\0",
-            "mail_1": "そろそろ ポケサンカンパニーに \r\nかえらなくては……\r\nまた 「ポケモン☆サンデー」で\r\nあいましょう!\r\nポケ・ウィー・ゴー!\0",
-            "mail_2": "P.S.\r\nメタグロスと\r\nこうかんしてくれて、ありがとう。\r\nわたしの ホームランは\r\nつよいですよ～!\r\nちゃんと かわいがってくださいね!\0",
-            "dialog_2": "いや～、じつはですね、すごいウワサを \nみみにしたんですが、\n                                      \nあたらしいぼくじょうで、\nかくとうタイプの ポケモンを 8ぴき \nあつめると、トーナメントを \nするらしいんですよね～。\n                                          \nすっごく きになってるんですが、 \nあなたのワンリキーと \nわたしのホームラン、\nこうかんしません?\0",
-            "dialog_3": "しばらく ぼくじょうで ポケモンたちを\nかんさつすることにするよ。\0",
-            "name_1": "レッドはかせ\0",
-            "name_from": "レッドはかせより\0"
+            "dialog_1": """ポケモーニング!
+「ポケモン☆サンデー」での わたしの
+かつやくを みてくれているかな?
+レッドはかせです!
+                                   
+わたしのメタグロス、ホームランを
+つれてきちゃいました～!""",
+            "exchange_1": """お、それはワンリキー!
+つれてきてくれたんですね。
+ありがとう。
+では、こうかんしましょうか。""",
+            "mail_1": """そろそろ ポケサンカンパニーに 
+かえらなくては……
+また 「ポケモン☆サンデー」で
+あいましょう!
+ポケ・ウィー・ゴー!""",
+            "mail_2": """P.S.
+メタグロスと
+こうかんしてくれて、ありがとう。
+わたしの ホームランは
+つよいですよ～!
+ちゃんと かわいがってくださいね!""",
+            "dialog_2": """いや～、じつはですね、すごいウワサを 
+みみにしたんですが、
+                                      
+あたらしいぼくじょうで、
+かくとうタイプの ポケモンを 8ぴき 
+あつめると、トーナメントを 
+するらしいんですよね～。
+                                          
+すっごく きになってるんですが、 
+あなたのワンリキーと 
+わたしのホームラン、
+こうかんしません?""",
+            "dialog_3": """しばらく ぼくじょうで ポケモンたちを
+かんさつすることにするよ。""",
+            "name_1": """レッドはかせ""",
+            "name_from": """レッドはかせより"""
         }
     },
     {
         "ja_JP": {
-            "dialog_1": "ポケチョリーッス！\nゆっきーなこときのしたゆきなです。\0",
+            "dialog_1": """ポケチョリーッス！
+ゆっきーなこときのしたゆきなです。""",
             "exchange_1": "",
             "mail_1": "",
-            "mail_2": "ちょーたのしかった！サンキュー!\nまたどこかで あえるといいね！\nP.S.\nこうかんしてくれて ありがとう！\nゆきなのニャース、だいじにしてね。\0",
+            "mail_2": """ちょーたのしかった！サンキュー!
+またどこかで あえるといいね！
+P.S.
+こうかんしてくれて ありがとう！
+ゆきなのニャース、だいじにしてね。""",
             "dialog_2": "", "dialog_3": "", "name_1": "", "name_2": "", "pad": ""
         }
     }
 ]
 
-# Convert dictionary values to a list to maintain legacy sizing logic
-en_US_text_list = list(text[3]["en_US"].values())
+# Append the \0 terminator only to populated strings
+en_US_text_list = [val + "\0" if val else "" for val in text[3]["en_US"].values()]
+
 
 def get_utf16_len(count):
     return len("".join(en_US_text_list[:count]).encode("utf-16be")) // 2
+
 
 celebrity = {
     "unknown1": binascii.unhexlify("04ffff00ffff00"),
