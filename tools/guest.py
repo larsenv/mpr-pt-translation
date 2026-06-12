@@ -55,18 +55,19 @@ if event_idx >= len(events):
 
 event_node = events[event_idx]
 
-pokemon = []
+event_pokemon_hex = event_node.find("pokemon").text or ("00" * 136)
+
 mii = []
 text = []
 
-chars = list(event_node.findall("character"))
+celeb_node = event_node.find("celebrity")
+chars = list(celeb_node.findall("character")) if celeb_node is not None else []
 
 # Pad up to 3 guests
 for i in range(3):
     if i < len(chars):
         char_node = chars[i]
-        mii.append(char_node.find("mii").text or "")
-        pokemon.append(char_node.find("pokemon").text or "")
+        mii.append(char_node.find("mii").text or ("00" * 74))
         
         char_text = {}
         text_node = char_node.find("text")
@@ -82,7 +83,6 @@ for i in range(3):
     else:
         # Empty guest
         mii.append("00" * 74)
-        pokemon.append("00" * 136)
         text.append({})
 
 # Append the \0 terminator only to populated strings
@@ -97,20 +97,17 @@ celebrity = {
     "unknown1": binascii.unhexlify("04ffff00ffff00"),
     "unknown2": binascii.unhexlify("00000000000000000000000000000000000789"),
     
-    "wanted_pokemon_0": u16(66),
+    "wanted_pokemon": u16(66),
     "celebrity_mii_0": binascii.unhexlify(mii[0]),
     "celebrity_mii_xmodem_0": u16(crc16_xmodem(binascii.unhexlify(mii[0]))),
-    "celebrity_pokemon_0": binascii.unhexlify(pokemon[0]),
-
-    "wanted_pokemon_1": u16(66 if mii[1] != "00"*74 else 0),
+    
     "celebrity_mii_1": binascii.unhexlify(mii[1]),
     "celebrity_mii_xmodem_1": u16(crc16_xmodem(binascii.unhexlify(mii[1]))),
-    "celebrity_pokemon_1": binascii.unhexlify(pokemon[1]),
 
-    "wanted_pokemon_2": u16(66 if mii[2] != "00"*74 else 0),
     "celebrity_mii_2": binascii.unhexlify(mii[2]),
     "celebrity_mii_xmodem_2": u16(crc16_xmodem(binascii.unhexlify(mii[2]))),
-    "celebrity_pokemon_2": binascii.unhexlify(pokemon[2]),
+
+    "celebrity_pokemon": binascii.unhexlify(event_pokemon_hex),
 
     "opening_timestamp_1": u32(opening_timestamp + (1209599 * 10)),
     "closing_timestamp_1": u32(opening_timestamp + (1209599 * 11)),

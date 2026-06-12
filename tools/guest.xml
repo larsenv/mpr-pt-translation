@@ -1,405 +1,414 @@
 <?xml version="1.0" ?>
 <events>
   <event id="1">
-    <character name="Akiyama">
-      <mii>80060041006B006900790061006D006100000000000040408836A1113A017D6284003E00017D0891A48B084084485AAE008A008A25040000000000000000000000000000000000000000</mii>
-      <pokemon/>
-      <text>
-        <en_US>
-          <string key="dialog_1"/>
-          <string key="exchange_1"/>
-          <string key="mail_1"/>
-          <string key="mail_2"/>
-          <string key="dialog_2"/>
-          <string key="dialog_3"/>
-          <string key="dialog_4"/>
-          <string key="dialog_5"/>
-          <string key="name_1"/>
-          <string key="name_2"/>
-        </en_US>
-        <ja_JP>
-          <string key="dialog_1">ポケモーニング！
+    <pokemon/>
+    <celebrity>
+      <character name="Akiyama">
+        <mii>80060041006B006900790061006D006100000000000040408836A1113A017D6284003E00017D0891A48B084084485AAE008A008A25040000000000000000000000000000000000000000</mii>
+        <text>
+          <en_US>
+            <string key="dialog_1"/>
+            <string key="exchange_1"/>
+            <string key="mail_1"/>
+            <string key="mail_2"/>
+            <string key="dialog_2"/>
+            <string key="dialog_3"/>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1"/>
+            <string key="name_2"/>
+          </en_US>
+          <ja_JP>
+            <string key="dialog_1">ポケモーニング！
 あきやまたいいんだよ</string>
-          <string key="exchange_1">コイキングをつれてくると、ケッキングと
+            <string key="exchange_1">コイキングをつれてくると、ケッキングと
 こうかんしてくれるそうです。</string>
-          <string key="mail_1"/>
-          <string key="mail_2"/>
-          <string key="dialog_2"/>
-          <string key="dialog_3"/>
-          <string key="dialog_4"/>
-          <string key="dialog_5"/>
-          <string key="name_1"/>
-          <string key="name_2"/>
-        </ja_JP>
-        <de_DE>
-          <string key="dialog_1"/>
-          <string key="exchange_1"/>
-          <string key="mail_1"/>
-          <string key="mail_2"/>
-          <string key="dialog_2"/>
-          <string key="dialog_3"/>
-          <string key="dialog_4"/>
-          <string key="dialog_5"/>
-          <string key="name_1"/>
-          <string key="name_2"/>
-        </de_DE>
-        <fr_FR>
-          <string key="dialog_1"/>
-          <string key="exchange_1"/>
-          <string key="mail_1"/>
-          <string key="mail_2"/>
-          <string key="dialog_2"/>
-          <string key="dialog_3"/>
-          <string key="dialog_4"/>
-          <string key="dialog_5"/>
-          <string key="name_1"/>
-          <string key="name_2"/>
-        </fr_FR>
-        <es_ES>
-          <string key="dialog_1"/>
-          <string key="exchange_1"/>
-          <string key="mail_1"/>
-          <string key="mail_2"/>
-          <string key="dialog_2"/>
-          <string key="dialog_3"/>
-          <string key="dialog_4"/>
-          <string key="dialog_5"/>
-          <string key="name_1"/>
-          <string key="name_2"/>
-        </es_ES>
-        <it_IT>
-          <string key="dialog_1"/>
-          <string key="exchange_1"/>
-          <string key="mail_1"/>
-          <string key="mail_2"/>
-          <string key="dialog_2"/>
-          <string key="dialog_3"/>
-          <string key="dialog_4"/>
-          <string key="dialog_5"/>
-          <string key="name_1"/>
-          <string key="name_2"/>
-        </it_IT>
-      </text>
-    </character>
+            <string key="mail_1"/>
+            <string key="mail_2"/>
+            <string key="dialog_2"/>
+            <string key="dialog_3"/>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1"/>
+            <string key="name_2"/>
+          </ja_JP>
+          <de_DE>
+            <string key="dialog_1"/>
+            <string key="exchange_1"/>
+            <string key="mail_1"/>
+            <string key="mail_2"/>
+            <string key="dialog_2"/>
+            <string key="dialog_3"/>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1"/>
+            <string key="name_2"/>
+          </de_DE>
+          <fr_FR>
+            <string key="dialog_1"/>
+            <string key="exchange_1"/>
+            <string key="mail_1"/>
+            <string key="mail_2"/>
+            <string key="dialog_2"/>
+            <string key="dialog_3"/>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1"/>
+            <string key="name_2"/>
+          </fr_FR>
+          <es_ES>
+            <string key="dialog_1"/>
+            <string key="exchange_1"/>
+            <string key="mail_1"/>
+            <string key="mail_2"/>
+            <string key="dialog_2"/>
+            <string key="dialog_3"/>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1"/>
+            <string key="name_2"/>
+          </es_ES>
+          <it_IT>
+            <string key="dialog_1"/>
+            <string key="exchange_1"/>
+            <string key="mail_1"/>
+            <string key="mail_2"/>
+            <string key="dialog_2"/>
+            <string key="dialog_3"/>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1"/>
+            <string key="name_2"/>
+          </it_IT>
+        </text>
+      </character>
+    </celebrity>
   </event>
   <event id="2">
-    <character name="Babaigon">
-      <mii>8008004200610062006100690067006F006E0000000040408836A0223A017D6240004400017D06A2684C08608640784E008A008A25040000000000000000000000000000000000000000</mii>
-      <pokemon/>
-      <text>
-        <en_US>
-          <string key="dialog_1"/>
-          <string key="exchange_1"/>
-          <string key="mail_1"/>
-          <string key="mail_2"/>
-          <string key="dialog_2"/>
-          <string key="dialog_3"/>
-          <string key="dialog_4"/>
-          <string key="dialog_5"/>
-          <string key="name_1"/>
-          <string key="name_2"/>
-        </en_US>
-        <ja_JP>
-          <string key="dialog_1"/>
-          <string key="exchange_1">すこい！ムックルをつれてきて
+    <pokemon/>
+    <celebrity>
+      <character name="Babaigon">
+        <mii>8008004200610062006100690067006F006E0000000040408836A0223A017D6240004400017D06A2684C08608640784E008A008A25040000000000000000000000000000000000000000</mii>
+        <text>
+          <en_US>
+            <string key="dialog_1"/>
+            <string key="exchange_1"/>
+            <string key="mail_1"/>
+            <string key="mail_2"/>
+            <string key="dialog_2"/>
+            <string key="dialog_3"/>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1"/>
+            <string key="name_2"/>
+          </en_US>
+          <ja_JP>
+            <string key="dialog_1"/>
+            <string key="exchange_1">すこい！ムックルをつれてきて
 さっそくこうかんしよう。</string>
-          <string key="mail_1"/>
-          <string key="mail_2"/>
-          <string key="dialog_2"/>
-          <string key="dialog_3"/>
-          <string key="dialog_4"/>
-          <string key="dialog_5"/>
-          <string key="name_1"/>
-          <string key="name_2"/>
-        </ja_JP>
-        <de_DE>
-          <string key="dialog_1"/>
-          <string key="exchange_1"/>
-          <string key="mail_1"/>
-          <string key="mail_2"/>
-          <string key="dialog_2"/>
-          <string key="dialog_3"/>
-          <string key="dialog_4"/>
-          <string key="dialog_5"/>
-          <string key="name_1"/>
-          <string key="name_2"/>
-        </de_DE>
-        <fr_FR>
-          <string key="dialog_1"/>
-          <string key="exchange_1"/>
-          <string key="mail_1"/>
-          <string key="mail_2"/>
-          <string key="dialog_2"/>
-          <string key="dialog_3"/>
-          <string key="dialog_4"/>
-          <string key="dialog_5"/>
-          <string key="name_1"/>
-          <string key="name_2"/>
-        </fr_FR>
-        <es_ES>
-          <string key="dialog_1"/>
-          <string key="exchange_1"/>
-          <string key="mail_1"/>
-          <string key="mail_2"/>
-          <string key="dialog_2"/>
-          <string key="dialog_3"/>
-          <string key="dialog_4"/>
-          <string key="dialog_5"/>
-          <string key="name_1"/>
-          <string key="name_2"/>
-        </es_ES>
-        <it_IT>
-          <string key="dialog_1"/>
-          <string key="exchange_1"/>
-          <string key="mail_1"/>
-          <string key="mail_2"/>
-          <string key="dialog_2"/>
-          <string key="dialog_3"/>
-          <string key="dialog_4"/>
-          <string key="dialog_5"/>
-          <string key="name_1"/>
-          <string key="name_2"/>
-        </it_IT>
-      </text>
-    </character>
+            <string key="mail_1"/>
+            <string key="mail_2"/>
+            <string key="dialog_2"/>
+            <string key="dialog_3"/>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1"/>
+            <string key="name_2"/>
+          </ja_JP>
+          <de_DE>
+            <string key="dialog_1"/>
+            <string key="exchange_1"/>
+            <string key="mail_1"/>
+            <string key="mail_2"/>
+            <string key="dialog_2"/>
+            <string key="dialog_3"/>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1"/>
+            <string key="name_2"/>
+          </de_DE>
+          <fr_FR>
+            <string key="dialog_1"/>
+            <string key="exchange_1"/>
+            <string key="mail_1"/>
+            <string key="mail_2"/>
+            <string key="dialog_2"/>
+            <string key="dialog_3"/>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1"/>
+            <string key="name_2"/>
+          </fr_FR>
+          <es_ES>
+            <string key="dialog_1"/>
+            <string key="exchange_1"/>
+            <string key="mail_1"/>
+            <string key="mail_2"/>
+            <string key="dialog_2"/>
+            <string key="dialog_3"/>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1"/>
+            <string key="name_2"/>
+          </es_ES>
+          <it_IT>
+            <string key="dialog_1"/>
+            <string key="exchange_1"/>
+            <string key="mail_1"/>
+            <string key="mail_2"/>
+            <string key="dialog_2"/>
+            <string key="dialog_3"/>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1"/>
+            <string key="name_2"/>
+          </it_IT>
+        </text>
+      </character>
+    </celebrity>
   </event>
   <event id="3">
-    <character name="Golko">
-      <mii>80160047006F006C006B006F00000000000000000000404088369F123A017D6284002E00613D08611CAA0640743020CE008A402625040000000000000000000000000000000000000000</mii>
-      <pokemon/>
-      <text>
-        <en_US>
-          <string key="dialog_1"/>
-          <string key="exchange_1"/>
-          <string key="mail_1"/>
-          <string key="mail_2"/>
-          <string key="dialog_2"/>
-          <string key="dialog_3"/>
-          <string key="dialog_4"/>
-          <string key="dialog_5"/>
-          <string key="name_1"/>
-          <string key="name_2"/>
-        </en_US>
-        <ja_JP>
-          <string key="dialog_1">やあみんな、ポケサンカンパニーの
+    <pokemon/>
+    <celebrity>
+      <character name="Golko">
+        <mii>80160047006F006C006B006F00000000000000000000404088369F123A017D6284002E00613D08611CAA0640743020CE008A402625040000000000000000000000000000000000000000</mii>
+        <text>
+          <en_US>
+            <string key="dialog_1"/>
+            <string key="exchange_1"/>
+            <string key="mail_1"/>
+            <string key="mail_2"/>
+            <string key="dialog_2"/>
+            <string key="dialog_3"/>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1"/>
+            <string key="name_2"/>
+          </en_US>
+          <ja_JP>
+            <string key="dialog_1">やあみんな、ポケサンカンパニーの
 ゴルゴしょちょうだ。
 ポケモン★サンデーをみて、もっと
 ポケモンをすきになってくれよな。                                                  </string>
-          <string key="exchange_1">じつはな、ジグサクマを
+            <string key="exchange_1">じつはな、ジグサクマを
 25ひきあつめると
 ジグザグパレードをするんじゃ。
 わしは、と〜ってもそれがみたい！</string>
-          <string key="mail_1">ぜひ、キミの ジグサグマと
+            <string key="mail_1">ぜひ、キミの ジグサグマと
 わしの オクタンを
 こうかんしようじゃないか。</string>
-          <string key="mail_2">たのしかった!
+            <string key="mail_2">たのしかった!
 ほんとにありがとう。
 このなつは、
 えいがかんで あおうね！</string>
-          <string key="dialog_2"/>
-          <string key="dialog_3">わしは、しばらくほくじょうで
+            <string key="dialog_2"/>
+            <string key="dialog_3">わしは、しばらくほくじょうで
 あそんでいくぞ。いいな？</string>
-          <string key="dialog_4">ジグザグマをつれてくると
+            <string key="dialog_4">ジグザグマをつれてくると
 オクタンと
 こうかんしてくれるそうです。</string>
-          <string key="dialog_5">お、ジグザグマを
+            <string key="dialog_5">お、ジグザグマを
 つれてきてくれたのかい。
 さっそく こうかんしょうじゃないか。</string>
-          <string key="name_1">ゴルゴしょちょう</string>
-          <string key="name_2"/>
-        </ja_JP>
-        <de_DE>
-          <string key="dialog_1"/>
-          <string key="exchange_1"/>
-          <string key="mail_1"/>
-          <string key="mail_2"/>
-          <string key="dialog_2"/>
-          <string key="dialog_3"/>
-          <string key="dialog_4"/>
-          <string key="dialog_5"/>
-          <string key="name_1"/>
-          <string key="name_2"/>
-        </de_DE>
-        <fr_FR>
-          <string key="dialog_1"/>
-          <string key="exchange_1"/>
-          <string key="mail_1"/>
-          <string key="mail_2"/>
-          <string key="dialog_2"/>
-          <string key="dialog_3"/>
-          <string key="dialog_4"/>
-          <string key="dialog_5"/>
-          <string key="name_1"/>
-          <string key="name_2"/>
-        </fr_FR>
-        <es_ES>
-          <string key="dialog_1"/>
-          <string key="exchange_1"/>
-          <string key="mail_1"/>
-          <string key="mail_2"/>
-          <string key="dialog_2"/>
-          <string key="dialog_3"/>
-          <string key="dialog_4"/>
-          <string key="dialog_5"/>
-          <string key="name_1"/>
-          <string key="name_2"/>
-        </es_ES>
-        <it_IT>
-          <string key="dialog_1"/>
-          <string key="exchange_1"/>
-          <string key="mail_1"/>
-          <string key="mail_2"/>
-          <string key="dialog_2"/>
-          <string key="dialog_3"/>
-          <string key="dialog_4"/>
-          <string key="dialog_5"/>
-          <string key="name_1"/>
-          <string key="name_2"/>
-        </it_IT>
-      </text>
-    </character>
+            <string key="name_1">ゴルゴしょちょう</string>
+            <string key="name_2"/>
+          </ja_JP>
+          <de_DE>
+            <string key="dialog_1"/>
+            <string key="exchange_1"/>
+            <string key="mail_1"/>
+            <string key="mail_2"/>
+            <string key="dialog_2"/>
+            <string key="dialog_3"/>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1"/>
+            <string key="name_2"/>
+          </de_DE>
+          <fr_FR>
+            <string key="dialog_1"/>
+            <string key="exchange_1"/>
+            <string key="mail_1"/>
+            <string key="mail_2"/>
+            <string key="dialog_2"/>
+            <string key="dialog_3"/>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1"/>
+            <string key="name_2"/>
+          </fr_FR>
+          <es_ES>
+            <string key="dialog_1"/>
+            <string key="exchange_1"/>
+            <string key="mail_1"/>
+            <string key="mail_2"/>
+            <string key="dialog_2"/>
+            <string key="dialog_3"/>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1"/>
+            <string key="name_2"/>
+          </es_ES>
+          <it_IT>
+            <string key="dialog_1"/>
+            <string key="exchange_1"/>
+            <string key="mail_1"/>
+            <string key="mail_2"/>
+            <string key="dialog_2"/>
+            <string key="dialog_3"/>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1"/>
+            <string key="name_2"/>
+          </it_IT>
+        </text>
+      </character>
+    </celebrity>
   </event>
   <event id="4">
-    <character name="Yukina">
-      <mii>C00E00590075006B0069006E0061000000000000000040408836A0623A017D6220008F8001BD24A38C6B06A06438B0AD008A008A8C580000000000000000000000000000000000000000</mii>
-      <pokemon/>
-      <text>
-        <en_US>
-          <string key="dialog_1"/>
-          <string key="exchange_1"/>
-          <string key="mail_1"/>
-          <string key="mail_2"/>
-          <string key="dialog_2"/>
-          <string key="dialog_3"/>
-          <string key="dialog_4"/>
-          <string key="dialog_5"/>
-          <string key="name_1"/>
-          <string key="name_2"/>
-        </en_US>
-        <ja_JP>
-          <string key="dialog_1">ポケチョリーッス！
+    <pokemon/>
+    <celebrity>
+      <character name="Yukina">
+        <mii>C00E00590075006B0069006E0061000000000000000040408836A0623A017D6220008F8001BD24A38C6B06A06438B0AD008A008A8C580000000000000000000000000000000000000000</mii>
+        <text>
+          <en_US>
+            <string key="dialog_1"/>
+            <string key="exchange_1"/>
+            <string key="mail_1"/>
+            <string key="mail_2"/>
+            <string key="dialog_2"/>
+            <string key="dialog_3"/>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1"/>
+            <string key="name_2"/>
+          </en_US>
+          <ja_JP>
+            <string key="dialog_1">ポケチョリーッス！
 ゆっきーなこときのしたゆきなです。</string>
-          <string key="exchange_1"/>
-          <string key="mail_1"/>
-          <string key="mail_2">ちょーたのしかった！サンキュー!
+            <string key="exchange_1"/>
+            <string key="mail_1"/>
+            <string key="mail_2">ちょーたのしかった！サンキュー!
 またどこかで あえるといいね！
 P.S.
 こうかんしてくれて ありがとう！
 ゆきなのニャース、だいじにしてね。</string>
-          <string key="dialog_2"/>
-          <string key="dialog_3"/>
-          <string key="dialog_4"/>
-          <string key="dialog_5"/>
-          <string key="name_1"/>
-          <string key="name_2"/>
-        </ja_JP>
-        <de_DE>
-          <string key="dialog_1"/>
-          <string key="exchange_1"/>
-          <string key="mail_1"/>
-          <string key="mail_2"/>
-          <string key="dialog_2"/>
-          <string key="dialog_3"/>
-          <string key="dialog_4"/>
-          <string key="dialog_5"/>
-          <string key="name_1"/>
-          <string key="name_2"/>
-        </de_DE>
-        <fr_FR>
-          <string key="dialog_1"/>
-          <string key="exchange_1"/>
-          <string key="mail_1"/>
-          <string key="mail_2"/>
-          <string key="dialog_2"/>
-          <string key="dialog_3"/>
-          <string key="dialog_4"/>
-          <string key="dialog_5"/>
-          <string key="name_1"/>
-          <string key="name_2"/>
-        </fr_FR>
-        <es_ES>
-          <string key="dialog_1"/>
-          <string key="exchange_1"/>
-          <string key="mail_1"/>
-          <string key="mail_2"/>
-          <string key="dialog_2"/>
-          <string key="dialog_3"/>
-          <string key="dialog_4"/>
-          <string key="dialog_5"/>
-          <string key="name_1"/>
-          <string key="name_2"/>
-        </es_ES>
-        <it_IT>
-          <string key="dialog_1"/>
-          <string key="exchange_1"/>
-          <string key="mail_1"/>
-          <string key="mail_2"/>
-          <string key="dialog_2"/>
-          <string key="dialog_3"/>
-          <string key="dialog_4"/>
-          <string key="dialog_5"/>
-          <string key="name_1"/>
-          <string key="name_2"/>
-        </it_IT>
-      </text>
-    </character>
+            <string key="dialog_2"/>
+            <string key="dialog_3"/>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1"/>
+            <string key="name_2"/>
+          </ja_JP>
+          <de_DE>
+            <string key="dialog_1"/>
+            <string key="exchange_1"/>
+            <string key="mail_1"/>
+            <string key="mail_2"/>
+            <string key="dialog_2"/>
+            <string key="dialog_3"/>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1"/>
+            <string key="name_2"/>
+          </de_DE>
+          <fr_FR>
+            <string key="dialog_1"/>
+            <string key="exchange_1"/>
+            <string key="mail_1"/>
+            <string key="mail_2"/>
+            <string key="dialog_2"/>
+            <string key="dialog_3"/>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1"/>
+            <string key="name_2"/>
+          </fr_FR>
+          <es_ES>
+            <string key="dialog_1"/>
+            <string key="exchange_1"/>
+            <string key="mail_1"/>
+            <string key="mail_2"/>
+            <string key="dialog_2"/>
+            <string key="dialog_3"/>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1"/>
+            <string key="name_2"/>
+          </es_ES>
+          <it_IT>
+            <string key="dialog_1"/>
+            <string key="exchange_1"/>
+            <string key="mail_1"/>
+            <string key="mail_2"/>
+            <string key="dialog_2"/>
+            <string key="dialog_3"/>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1"/>
+            <string key="name_2"/>
+          </it_IT>
+        </text>
+      </character>
+    </celebrity>
   </event>
   <event id="5">
-    <character name="Red">
-      <mii>000230EC30C330C9306F304B305B00000000000000007F408108E2EFC2EFA02E44C43E00918008737C890460333030EC8280028A25040000000000000000000000000000000000000000</mii>
-      <pokemon>B0514907000012EA03E2243BA248E7DFBF81BE3F675769D38AAD942D08CE6CA89805E09F446BE7007525F0A541CB06E1FFDB3127A010751CEE6D53D48F5EE88E66FA13015A32250546496302F6AD8CECAB6AEE96F0E5CEB37253D7F8C8BD8C9DA8D7B1C180E361A11B1496F56510A40B9DB7958DEED9015E532E6F482F0AEBF246353B24838D8766</pokemon>
-      <text>
-        <en_US>
-          <string key="dialog_1">PokéMorning!
+    <pokemon>B0514907000012EA03E2243BA248E7DFBF81BE3F675769D38AAD942D08CE6CA89805E09F446BE7007525F0A541CB06E1FFDB3127A010751CEE6D53D48F5EE88E66FA13015A32250546496302F6AD8CECAB6AEE96F0E5CEB37253D7F8C8BD8C9DA8D7B1C180E361A11B1496F56510A40B9DB7958DEED9015E532E6F482F0AEBF246353B24838D8766</pokemon>
+    <celebrity>
+      <character name="Red">
+        <mii>000230EC30C330C9306F304B305B00000000000000007F408108E2EFC2EFA02E44C43E00918008737C890460333030EC8280028A25040000000000000000000000000000000000000000</mii>
+        <text>
+          <en_US>
+            <string key="dialog_1">PokéMorning!
 Did you happen to see me on Pokémon Sunday?
 I'm Professor Red!
 I brought my METAGROSS, Homerun!</string>
-          <string key="exchange_1">Oh, that's MACHOP!
+            <string key="exchange_1">Oh, that's MACHOP!
 You brought it for me, right?
 Thank you.
 So, let's trade.</string>
-          <string key="mail_1">I have to return to
+            <string key="mail_1">I have to return to
 the PokéSun Company soon...
 Let's meet again on Pokémon Sunday!
 Poké we.. GO!</string>
-          <string key="mail_2">P.S.
+            <string key="mail_2">P.S.
 Thank you for trading for METAGROSS.
 My Homerun is really strong~!
 Please take good care of it!</string>
-          <string key="dialog_2">Well, actually, I heard an amazing
+            <string key="dialog_2">Well, actually, I heard an amazing
 rumor that if you 
 gather 8 Fighting Type Pokémon in the new ranch,
 they'll have a Tournament
 I wonder, would you trade your MACHOP for my Homerun?</string>
-          <string key="dialog_3">I'm going to watch the Pokémon on the ranch for a while.</string>
-          <string key="dialog_4"/>
-          <string key="dialog_5"/>
-          <string key="name_1">Professor Red</string>
-          <string key="name_2">From Professor Red</string>
-        </en_US>
-        <ja_JP>
-          <string key="dialog_1">ポケモーニング!
+            <string key="dialog_3">I'm going to watch the Pokémon on the ranch for a while.</string>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1">Professor Red</string>
+            <string key="name_2">From Professor Red</string>
+          </en_US>
+          <ja_JP>
+            <string key="dialog_1">ポケモーニング!
 「ポケモン☆サンデー」での わたしの
 かつやくを みてくれているかな?
 レッドはかせです!
 わたしのメタグロス、ホームランを
 つれてきちゃいました～!</string>
-          <string key="exchange_1">お、それはワンリキー!
+            <string key="exchange_1">お、それはワンリキー!
 つれてきてくれたんですね。
 ありがとう。
 では、こうかんしましょうか。</string>
-          <string key="mail_1">そろそろ ポケサンカンパニーに 
+            <string key="mail_1">そろそろ ポケサンカンパニーに 
 かえらなくては……
 また 「ポケモン☆サンデー」で
 あいましょう!
 ポケ・ウィー・ゴー!</string>
-          <string key="mail_2">P.S.
+            <string key="mail_2">P.S.
 メタグロスと
 こうかんしてくれて、ありがとう。
 わたしの ホームランは
 つよいですよ～!
 ちゃんと かわいがってくださいね!</string>
-          <string key="dialog_2">いや～、じつはですね、すごいウワサを 
+            <string key="dialog_2">いや～、じつはですね、すごいウワサを 
 みみにしたんですが、
 あたらしいぼくじょうで、
 かくとうタイプの ポケモンを 8ぴき 
@@ -409,62 +418,63 @@ I wonder, would you trade your MACHOP for my Homerun?</string>
 あなたのワンリキーと 
 わたしのホームラン、
 こうかんしません?</string>
-          <string key="dialog_3">しばらく ぼくじょうで ポケモンたちを
+            <string key="dialog_3">しばらく ぼくじょうで ポケモンたちを
 かんさつすることにするよ。</string>
-          <string key="dialog_4"/>
-          <string key="dialog_5"/>
-          <string key="name_1">レッドはかせ</string>
-          <string key="name_2">レッドはかせより</string>
-        </ja_JP>
-        <de_DE>
-          <string key="dialog_1"/>
-          <string key="exchange_1"/>
-          <string key="mail_1"/>
-          <string key="mail_2"/>
-          <string key="dialog_2"/>
-          <string key="dialog_3"/>
-          <string key="dialog_4"/>
-          <string key="dialog_5"/>
-          <string key="name_1"/>
-          <string key="name_2"/>
-        </de_DE>
-        <fr_FR>
-          <string key="dialog_1"/>
-          <string key="exchange_1"/>
-          <string key="mail_1"/>
-          <string key="mail_2"/>
-          <string key="dialog_2"/>
-          <string key="dialog_3"/>
-          <string key="dialog_4"/>
-          <string key="dialog_5"/>
-          <string key="name_1"/>
-          <string key="name_2"/>
-        </fr_FR>
-        <es_ES>
-          <string key="dialog_1"/>
-          <string key="exchange_1"/>
-          <string key="mail_1"/>
-          <string key="mail_2"/>
-          <string key="dialog_2"/>
-          <string key="dialog_3"/>
-          <string key="dialog_4"/>
-          <string key="dialog_5"/>
-          <string key="name_1"/>
-          <string key="name_2"/>
-        </es_ES>
-        <it_IT>
-          <string key="dialog_1"/>
-          <string key="exchange_1"/>
-          <string key="mail_1"/>
-          <string key="mail_2"/>
-          <string key="dialog_2"/>
-          <string key="dialog_3"/>
-          <string key="dialog_4"/>
-          <string key="dialog_5"/>
-          <string key="name_1"/>
-          <string key="name_2"/>
-        </it_IT>
-      </text>
-    </character>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1">レッドはかせ</string>
+            <string key="name_2">レッドはかせより</string>
+          </ja_JP>
+          <de_DE>
+            <string key="dialog_1"/>
+            <string key="exchange_1"/>
+            <string key="mail_1"/>
+            <string key="mail_2"/>
+            <string key="dialog_2"/>
+            <string key="dialog_3"/>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1"/>
+            <string key="name_2"/>
+          </de_DE>
+          <fr_FR>
+            <string key="dialog_1"/>
+            <string key="exchange_1"/>
+            <string key="mail_1"/>
+            <string key="mail_2"/>
+            <string key="dialog_2"/>
+            <string key="dialog_3"/>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1"/>
+            <string key="name_2"/>
+          </fr_FR>
+          <es_ES>
+            <string key="dialog_1"/>
+            <string key="exchange_1"/>
+            <string key="mail_1"/>
+            <string key="mail_2"/>
+            <string key="dialog_2"/>
+            <string key="dialog_3"/>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1"/>
+            <string key="name_2"/>
+          </es_ES>
+          <it_IT>
+            <string key="dialog_1"/>
+            <string key="exchange_1"/>
+            <string key="mail_1"/>
+            <string key="mail_2"/>
+            <string key="dialog_2"/>
+            <string key="dialog_3"/>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1"/>
+            <string key="name_2"/>
+          </it_IT>
+        </text>
+      </character>
+    </celebrity>
   </event>
 </events>
