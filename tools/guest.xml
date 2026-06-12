@@ -12,6 +12,8 @@
           <string key="mail_2"/>
           <string key="dialog_2"/>
           <string key="dialog_3"/>
+          <string key="dialog_4"/>
+          <string key="dialog_5"/>
           <string key="name_1"/>
           <string key="name_2"/>
         </en_US>
@@ -24,6 +26,8 @@
           <string key="mail_2"/>
           <string key="dialog_2"/>
           <string key="dialog_3"/>
+          <string key="dialog_4"/>
+          <string key="dialog_5"/>
           <string key="name_1"/>
           <string key="name_2"/>
         </ja_JP>
@@ -34,6 +38,8 @@
           <string key="mail_2"/>
           <string key="dialog_2"/>
           <string key="dialog_3"/>
+          <string key="dialog_4"/>
+          <string key="dialog_5"/>
           <string key="name_1"/>
           <string key="name_2"/>
         </de_DE>
@@ -44,6 +50,8 @@
           <string key="mail_2"/>
           <string key="dialog_2"/>
           <string key="dialog_3"/>
+          <string key="dialog_4"/>
+          <string key="dialog_5"/>
           <string key="name_1"/>
           <string key="name_2"/>
         </fr_FR>
@@ -54,6 +62,8 @@
           <string key="mail_2"/>
           <string key="dialog_2"/>
           <string key="dialog_3"/>
+          <string key="dialog_4"/>
+          <string key="dialog_5"/>
           <string key="name_1"/>
           <string key="name_2"/>
         </es_ES>
@@ -64,6 +74,8 @@
           <string key="mail_2"/>
           <string key="dialog_2"/>
           <string key="dialog_3"/>
+          <string key="dialog_4"/>
+          <string key="dialog_5"/>
           <string key="name_1"/>
           <string key="name_2"/>
         </it_IT>
@@ -82,6 +94,8 @@
           <string key="mail_2"/>
           <string key="dialog_2"/>
           <string key="dialog_3"/>
+          <string key="dialog_4"/>
+          <string key="dialog_5"/>
           <string key="name_1"/>
           <string key="name_2"/>
         </en_US>
@@ -93,6 +107,8 @@
           <string key="mail_2"/>
           <string key="dialog_2"/>
           <string key="dialog_3"/>
+          <string key="dialog_4"/>
+          <string key="dialog_5"/>
           <string key="name_1"/>
           <string key="name_2"/>
         </ja_JP>
@@ -103,6 +119,8 @@
           <string key="mail_2"/>
           <string key="dialog_2"/>
           <string key="dialog_3"/>
+          <string key="dialog_4"/>
+          <string key="dialog_5"/>
           <string key="name_1"/>
           <string key="name_2"/>
         </de_DE>
@@ -113,6 +131,8 @@
           <string key="mail_2"/>
           <string key="dialog_2"/>
           <string key="dialog_3"/>
+          <string key="dialog_4"/>
+          <string key="dialog_5"/>
           <string key="name_1"/>
           <string key="name_2"/>
         </fr_FR>
@@ -123,6 +143,8 @@
           <string key="mail_2"/>
           <string key="dialog_2"/>
           <string key="dialog_3"/>
+          <string key="dialog_4"/>
+          <string key="dialog_5"/>
           <string key="name_1"/>
           <string key="name_2"/>
         </es_ES>
@@ -133,6 +155,8 @@
           <string key="mail_2"/>
           <string key="dialog_2"/>
           <string key="dialog_3"/>
+          <string key="dialog_4"/>
+          <string key="dialog_5"/>
           <string key="name_1"/>
           <string key="name_2"/>
         </it_IT>
@@ -154,6 +178,7 @@
           <string key="dialog_4"/>
           <string key="dialog_5"/>
           <string key="name_1"/>
+          <string key="name_2"/>
         </en_US>
         <ja_JP>
           <string key="dialog_1">やあみんな、ポケサンカンパニーの
@@ -181,6 +206,7 @@
 つれてきてくれたのかい。
 さっそく こうかんしょうじゃないか。</string>
           <string key="name_1">ゴルゴしょちょう</string>
+          <string key="name_2"/>
         </ja_JP>
         <de_DE>
           <string key="dialog_1"/>
@@ -192,6 +218,7 @@
           <string key="dialog_4"/>
           <string key="dialog_5"/>
           <string key="name_1"/>
+          <string key="name_2"/>
         </de_DE>
         <fr_FR>
           <string key="dialog_1"/>
@@ -203,6 +230,7 @@
           <string key="dialog_4"/>
           <string key="dialog_5"/>
           <string key="name_1"/>
+          <string key="name_2"/>
         </fr_FR>
         <es_ES>
           <string key="dialog_1"/>
@@ -214,6 +242,7 @@
           <string key="dialog_4"/>
           <string key="dialog_5"/>
           <string key="name_1"/>
+          <string key="name_2"/>
         </es_ES>
         <it_IT>
           <string key="dialog_1"/>
@@ -225,6 +254,7 @@
           <string key="dialog_4"/>
           <string key="dialog_5"/>
           <string key="name_1"/>
+          <string key="name_2"/>
         </it_IT>
       </text>
     </character>
@@ -257,6 +287,8 @@ gather 8 Fighting Type Pokémon in the new ranch,
 they'll have a Tournament
 I wonder, would you trade your MACHOP for my Homerun?</string>
           <string key="dialog_3">I'm going to watch the Pokémon on the ranch for a while.</string>
+          <string key="dialog_4"/>
+          <string key="dialog_5"/>
           <string key="name_1">Professor Red</string>
           <string key="name_2">From Professor Red</string>
         </en_US>
@@ -294,6 +326,8 @@ I wonder, would you trade your MACHOP for my Homerun?</string>
 こうかんしません?</string>
           <string key="dialog_3">しばらく ぼくじょうで ポケモンたちを
 かんさつすることにするよ。</string>
+          <string key="dialog_4"/>
+          <string key="dialog_5"/>
           <string key="name_1">レッドはかせ</string>
           <string key="name_2">レッドはかせより</string>
         </ja_JP>
@@ -304,6 +338,8 @@ I wonder, would you trade your MACHOP for my Homerun?</string>
           <string key="mail_2"/>
           <string key="dialog_2"/>
           <string key="dialog_3"/>
+          <string key="dialog_4"/>
+          <string key="dialog_5"/>
           <string key="name_1"/>
           <string key="name_2"/>
         </de_DE>
@@ -314,6 +350,8 @@ I wonder, would you trade your MACHOP for my Homerun?</string>
           <string key="mail_2"/>
           <string key="dialog_2"/>
           <string key="dialog_3"/>
+          <string key="dialog_4"/>
+          <string key="dialog_5"/>
           <string key="name_1"/>
           <string key="name_2"/>
         </fr_FR>
@@ -324,6 +362,8 @@ I wonder, would you trade your MACHOP for my Homerun?</string>
           <string key="mail_2"/>
           <string key="dialog_2"/>
           <string key="dialog_3"/>
+          <string key="dialog_4"/>
+          <string key="dialog_5"/>
           <string key="name_1"/>
           <string key="name_2"/>
         </es_ES>
@@ -334,6 +374,8 @@ I wonder, would you trade your MACHOP for my Homerun?</string>
           <string key="mail_2"/>
           <string key="dialog_2"/>
           <string key="dialog_3"/>
+          <string key="dialog_4"/>
+          <string key="dialog_5"/>
           <string key="name_1"/>
           <string key="name_2"/>
         </it_IT>
@@ -352,6 +394,8 @@ I wonder, would you trade your MACHOP for my Homerun?</string>
           <string key="mail_2"/>
           <string key="dialog_2"/>
           <string key="dialog_3"/>
+          <string key="dialog_4"/>
+          <string key="dialog_5"/>
           <string key="name_1"/>
           <string key="name_2"/>
         </en_US>
@@ -367,6 +411,8 @@ P.S.
 ゆきなのニャース、だいじにしてね。</string>
           <string key="dialog_2"/>
           <string key="dialog_3"/>
+          <string key="dialog_4"/>
+          <string key="dialog_5"/>
           <string key="name_1"/>
           <string key="name_2"/>
         </ja_JP>
@@ -377,6 +423,8 @@ P.S.
           <string key="mail_2"/>
           <string key="dialog_2"/>
           <string key="dialog_3"/>
+          <string key="dialog_4"/>
+          <string key="dialog_5"/>
           <string key="name_1"/>
           <string key="name_2"/>
         </de_DE>
@@ -387,6 +435,8 @@ P.S.
           <string key="mail_2"/>
           <string key="dialog_2"/>
           <string key="dialog_3"/>
+          <string key="dialog_4"/>
+          <string key="dialog_5"/>
           <string key="name_1"/>
           <string key="name_2"/>
         </fr_FR>
@@ -397,6 +447,8 @@ P.S.
           <string key="mail_2"/>
           <string key="dialog_2"/>
           <string key="dialog_3"/>
+          <string key="dialog_4"/>
+          <string key="dialog_5"/>
           <string key="name_1"/>
           <string key="name_2"/>
         </es_ES>
@@ -407,6 +459,8 @@ P.S.
           <string key="mail_2"/>
           <string key="dialog_2"/>
           <string key="dialog_3"/>
+          <string key="dialog_4"/>
+          <string key="dialog_5"/>
           <string key="name_1"/>
           <string key="name_2"/>
         </it_IT>
