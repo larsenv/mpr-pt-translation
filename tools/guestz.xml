@@ -5,72 +5,72 @@
     <pokemon/>
     <text>
       <en_US>
-        <string index="0"/>
-        <string index="1"/>
-        <string index="2"/>
-        <string index="3"/>
-        <string index="4"/>
-        <string index="5"/>
-        <string index="6"/>
-        <string index="7"/>
-        <string index="8"/>
+        <string key="dialog_1"/>
+        <string key="exchange_1"/>
+        <string key="mail_1"/>
+        <string key="mail_2"/>
+        <string key="dialog_2"/>
+        <string key="dialog_3"/>
+        <string key="name_1"/>
+        <string key="name_2"/>
+        <string key="pad"/>
       </en_US>
       <ja_JP>
-        <string index="0">ポケモーニング！
+        <string key="dialog_1">ポケモーニング！
 あきやまたいいんだよ</string>
-        <string index="1">コイキングをつれてくると、ケッキングと
+        <string key="exchange_1">コイキングをつれてくると、ケッキングと
 こうかんしてくれるそうです。</string>
-        <string index="2"/>
-        <string index="3"/>
-        <string index="4"/>
-        <string index="5"/>
-        <string index="6"/>
-        <string index="7"/>
-        <string index="8"/>
+        <string key="mail_1"/>
+        <string key="mail_2"/>
+        <string key="dialog_2"/>
+        <string key="dialog_3"/>
+        <string key="name_1"/>
+        <string key="name_2"/>
+        <string key="pad"/>
       </ja_JP>
       <de_DE>
-        <string index="0"/>
-        <string index="1"/>
-        <string index="2"/>
-        <string index="3"/>
-        <string index="4"/>
-        <string index="5"/>
-        <string index="6"/>
-        <string index="7"/>
-        <string index="8"/>
+        <string key="dialog_1"/>
+        <string key="exchange_1"/>
+        <string key="mail_1"/>
+        <string key="mail_2"/>
+        <string key="dialog_2"/>
+        <string key="dialog_3"/>
+        <string key="name_1"/>
+        <string key="name_2"/>
+        <string key="pad"/>
       </de_DE>
       <fr_FR>
-        <string index="0"/>
-        <string index="1"/>
-        <string index="2"/>
-        <string index="3"/>
-        <string index="4"/>
-        <string index="5"/>
-        <string index="6"/>
-        <string index="7"/>
-        <string index="8"/>
+        <string key="dialog_1"/>
+        <string key="exchange_1"/>
+        <string key="mail_1"/>
+        <string key="mail_2"/>
+        <string key="dialog_2"/>
+        <string key="dialog_3"/>
+        <string key="name_1"/>
+        <string key="name_2"/>
+        <string key="pad"/>
       </fr_FR>
       <es_ES>
-        <string index="0"/>
-        <string index="1"/>
-        <string index="2"/>
-        <string index="3"/>
-        <string index="4"/>
-        <string index="5"/>
-        <string index="6"/>
-        <string index="7"/>
-        <string index="8"/>
+        <string key="dialog_1"/>
+        <string key="exchange_1"/>
+        <string key="mail_1"/>
+        <string key="mail_2"/>
+        <string key="dialog_2"/>
+        <string key="dialog_3"/>
+        <string key="name_1"/>
+        <string key="name_2"/>
+        <string key="pad"/>
       </es_ES>
       <it_IT>
-        <string index="0"/>
-        <string index="1"/>
-        <string index="2"/>
-        <string index="3"/>
-        <string index="4"/>
-        <string index="5"/>
-        <string index="6"/>
-        <string index="7"/>
-        <string index="8"/>
+        <string key="dialog_1"/>
+        <string key="exchange_1"/>
+        <string key="mail_1"/>
+        <string key="mail_2"/>
+        <string key="dialog_2"/>
+        <string key="dialog_3"/>
+        <string key="name_1"/>
+        <string key="name_2"/>
+        <string key="pad"/>
       </it_IT>
     </text>
   </character>
@@ -79,71 +79,71 @@
     <pokemon/>
     <text>
       <en_US>
-        <string index="0"/>
-        <string index="1"/>
-        <string index="2"/>
-        <string index="3"/>
-        <string index="4"/>
-        <string index="5"/>
-        <string index="6"/>
-        <string index="7"/>
-        <string index="8"/>
+        <string key="dialog_1"/>
+        <string key="exchange_1"/>
+        <string key="mail_1"/>
+        <string key="mail_2"/>
+        <string key="dialog_2"/>
+        <string key="dialog_3"/>
+        <string key="name_1"/>
+        <string key="name_2"/>
+        <string key="pad"/>
       </en_US>
       <ja_JP>
-        <string index="0"/>
-        <string index="1">すこい！ムックルをつれてきて
+        <string key="dialog_1"/>
+        <string key="exchange_1">すこい！ムックルをつれてきて
 さっそくこうかんしよう。</string>
-        <string index="2"/>
-        <string index="3"/>
-        <string index="4"/>
-        <string index="5"/>
-        <string index="6"/>
-        <string index="7"/>
-        <string index="8"/>
+        <string key="mail_1"/>
+        <string key="mail_2"/>
+        <string key="dialog_2"/>
+        <string key="dialog_3"/>
+        <string key="name_1"/>
+        <string key="name_2"/>
+        <string key="pad"/>
       </ja_JP>
       <de_DE>
-        <string index="0"/>
-        <string index="1"/>
-        <string index="2"/>
-        <string index="3"/>
-        <string index="4"/>
-        <string index="5"/>
-        <string index="6"/>
-        <string index="7"/>
-        <string index="8"/>
+        <string key="dialog_1"/>
+        <string key="exchange_1"/>
+        <string key="mail_1"/>
+        <string key="mail_2"/>
+        <string key="dialog_2"/>
+        <string key="dialog_3"/>
+        <string key="name_1"/>
+        <string key="name_2"/>
+        <string key="pad"/>
       </de_DE>
       <fr_FR>
-        <string index="0"/>
-        <string index="1"/>
-        <string index="2"/>
-        <string index="3"/>
-        <string index="4"/>
-        <string index="5"/>
-        <string index="6"/>
-        <string index="7"/>
-        <string index="8"/>
+        <string key="dialog_1"/>
+        <string key="exchange_1"/>
+        <string key="mail_1"/>
+        <string key="mail_2"/>
+        <string key="dialog_2"/>
+        <string key="dialog_3"/>
+        <string key="name_1"/>
+        <string key="name_2"/>
+        <string key="pad"/>
       </fr_FR>
       <es_ES>
-        <string index="0"/>
-        <string index="1"/>
-        <string index="2"/>
-        <string index="3"/>
-        <string index="4"/>
-        <string index="5"/>
-        <string index="6"/>
-        <string index="7"/>
-        <string index="8"/>
+        <string key="dialog_1"/>
+        <string key="exchange_1"/>
+        <string key="mail_1"/>
+        <string key="mail_2"/>
+        <string key="dialog_2"/>
+        <string key="dialog_3"/>
+        <string key="name_1"/>
+        <string key="name_2"/>
+        <string key="pad"/>
       </es_ES>
       <it_IT>
-        <string index="0"/>
-        <string index="1"/>
-        <string index="2"/>
-        <string index="3"/>
-        <string index="4"/>
-        <string index="5"/>
-        <string index="6"/>
-        <string index="7"/>
-        <string index="8"/>
+        <string key="dialog_1"/>
+        <string key="exchange_1"/>
+        <string key="mail_1"/>
+        <string key="mail_2"/>
+        <string key="dialog_2"/>
+        <string key="dialog_3"/>
+        <string key="name_1"/>
+        <string key="name_2"/>
+        <string key="pad"/>
       </it_IT>
     </text>
   </character>
@@ -152,93 +152,92 @@
     <pokemon/>
     <text>
       <en_US>
-        <string index="0"/>
-        <string index="1"/>
-        <string index="2"/>
-        <string index="3"/>
-        <string index="4"/>
-        <string index="5"/>
-        <string index="6"/>
-        <string index="7"/>
-        <string index="8"/>
-        <string index="9"/>
+        <string key="dialog_1"/>
+        <string key="exchange_1"/>
+        <string key="mail_1"/>
+        <string key="mail_2"/>
+        <string key="dialog_2"/>
+        <string key="dialog_3"/>
+        <string key="name_1"/>
+        <string key="name_2"/>
+        <string key="extra"/>
+        <string key="pad"/>
       </en_US>
       <ja_JP>
-        <string index="0">やあみんな、ポケサンカンパニーの
+        <string key="dialog_1">やあみんな、ポケサンカンパニーの
 ゴルゴしょちょうだ。
 ポケモン★サンデーをみて、もっと
-ポケモンをすきになってくれよな。
-</string>
-        <string index="1">じつはな、ジグサクマを
+ポケモンをすきになってくれよな。                                                  </string>
+        <string key="exchange_1">じつはな、ジグサクマを
 25ひきあつめると
 ジグザグパレードをするんじゃ。
 わしは、と〜ってもそれがみたい！</string>
-        <string index="2">ぜひ、キミの ジグサグマと
+        <string key="mail_1">ぜひ、キミの ジグサグマと
 わしの オクタンを
 こうかんしようじゃないか。</string>
-        <string index="3">たのしかった!
+        <string key="mail_2">たのしかった!
 ほんとにありがとう。
 このなつは、
 えいがかんで あおうね！</string>
-        <string index="4"/>
-        <string index="5">わしは、しばらくほくじょうで
+        <string key="dialog_2"/>
+        <string key="dialog_3">わしは、しばらくほくじょうで
 あそんでいくぞ。いいな？</string>
-        <string index="6">ジグザグマをつれてくると
+        <string key="name_1">ジグザグマをつれてくると
 オクタンと
 こうかんしてくれるそうです。</string>
-        <string index="7">お、ジグザグマを
+        <string key="name_2">お、ジグザグマを
 つれてきてくれたのかい。
 さっそく こうかんしょうじゃないか。</string>
-        <string index="8">ゴルゴしょちょう</string>
-        <string index="9"/>
+        <string key="extra">ゴルゴしょちょう</string>
+        <string key="pad"/>
       </ja_JP>
       <de_DE>
-        <string index="0"/>
-        <string index="1"/>
-        <string index="2"/>
-        <string index="3"/>
-        <string index="4"/>
-        <string index="5"/>
-        <string index="6"/>
-        <string index="7"/>
-        <string index="8"/>
-        <string index="9"/>
+        <string key="dialog_1"/>
+        <string key="exchange_1"/>
+        <string key="mail_1"/>
+        <string key="mail_2"/>
+        <string key="dialog_2"/>
+        <string key="dialog_3"/>
+        <string key="name_1"/>
+        <string key="name_2"/>
+        <string key="extra"/>
+        <string key="pad"/>
       </de_DE>
       <fr_FR>
-        <string index="0"/>
-        <string index="1"/>
-        <string index="2"/>
-        <string index="3"/>
-        <string index="4"/>
-        <string index="5"/>
-        <string index="6"/>
-        <string index="7"/>
-        <string index="8"/>
-        <string index="9"/>
+        <string key="dialog_1"/>
+        <string key="exchange_1"/>
+        <string key="mail_1"/>
+        <string key="mail_2"/>
+        <string key="dialog_2"/>
+        <string key="dialog_3"/>
+        <string key="name_1"/>
+        <string key="name_2"/>
+        <string key="extra"/>
+        <string key="pad"/>
       </fr_FR>
       <es_ES>
-        <string index="0"/>
-        <string index="1"/>
-        <string index="2"/>
-        <string index="3"/>
-        <string index="4"/>
-        <string index="5"/>
-        <string index="6"/>
-        <string index="7"/>
-        <string index="8"/>
-        <string index="9"/>
+        <string key="dialog_1"/>
+        <string key="exchange_1"/>
+        <string key="mail_1"/>
+        <string key="mail_2"/>
+        <string key="dialog_2"/>
+        <string key="dialog_3"/>
+        <string key="name_1"/>
+        <string key="name_2"/>
+        <string key="extra"/>
+        <string key="pad"/>
       </es_ES>
       <it_IT>
-        <string index="0"/>
-        <string index="1"/>
-        <string index="2"/>
-        <string index="3"/>
-        <string index="4"/>
-        <string index="5"/>
-        <string index="6"/>
-        <string index="7"/>
-        <string index="8"/>
-        <string index="9"/>
+        <string key="dialog_1"/>
+        <string key="exchange_1"/>
+        <string key="mail_1"/>
+        <string key="mail_2"/>
+        <string key="dialog_2"/>
+        <string key="dialog_3"/>
+        <string key="name_1"/>
+        <string key="name_2"/>
+        <string key="extra"/>
+        <string key="pad"/>
       </it_IT>
     </text>
   </character>
@@ -247,119 +246,112 @@
     <pokemon>B0514907000012EA03E2243BA248E7DFBF81BE3F675769D38AAD942D08CE6CA89805E09F446BE7007525F0A541CB06E1FFDB3127A010751CEE6D53D48F5EE88E66FA13015A32250546496302F6AD8CECAB6AEE96F0E5CEB37253D7F8C8BD8C9DA8D7B1C180E361A11B1496F56510A40B9DB7958DEED9015E532E6F482F0AEBF246353B24838D8766</pokemon>
     <text>
       <en_US>
-        <string index="0">PokéMorning!
+        <string key="dialog_1">PokéMorning!
 Did you happen to see me on Pokémon Sunday?
 I'm Professor Red!
+                                    
 I brought my METAGROSS, Homerun!</string>
-        <string index="1">Oh, that's MACHOP!
+        <string key="exchange_1">Oh, that's MACHOP!
 You brought it for me, right?
 Thank you.
 So, let's trade.</string>
-        <string index="2">I have to return to
-</string>
-        <string index="3">the PokéSun Company soon...
+        <string key="mail_1">I have to return to
+the PokéSun Company soon...
 Let's meet again on Pokémon Sunday!
 Poké we.. GO!</string>
-        <string index="4">P.S.
+        <string key="mail_2">P.S.
 Thank you for trading for METAGROSS.
 My Homerun is really strong~!
 Please take good care of it!</string>
-        <string index="5">Well, actually, I heard an amazing
+        <string key="dialog_2">Well, actually, I heard an amazing
 rumor that if you 
 gather 8 Fighting Type Pokémon in the new ranch,
 they'll have a Tournament
-</string>
-        <string index="6">I wonder, would you trade your MACHOP for my Homerun?</string>
-        <string index="7">I'm going to watch the Pokémon on the ranch for a while.</string>
-        <string index="8">Professor Red</string>
-        <string index="9">From Professor Red</string>
+                                           
+I wonder, would you trade your MACHOP for my Homerun?</string>
+        <string key="dialog_3">I'm going to watch the Pokémon on the ranch for a while.</string>
+        <string key="name_1">Professor Red</string>
+        <string key="name_from">From Professor Red</string>
       </en_US>
       <ja_JP>
-        <string index="0">ポケモーニング!
+        <string key="dialog_1">ポケモーニング!
 「ポケモン☆サンデー」での わたしの
 かつやくを みてくれているかな?
 レッドはかせです!
+                                   
 わたしのメタグロス、ホームランを
 つれてきちゃいました～!</string>
-        <string index="1">お、それはワンリキー!
+        <string key="exchange_1">お、それはワンリキー!
 つれてきてくれたんですね。
 ありがとう。
 では、こうかんしましょうか。</string>
-        <string index="2">そろそろ ポケサンカンパニーに 
+        <string key="mail_1">そろそろ ポケサンカンパニーに 
 かえらなくては……
 また 「ポケモン☆サンデー」で
 あいましょう!
 ポケ・ウィー・ゴー!</string>
-        <string index="3">P.S.
+        <string key="mail_2">P.S.
 メタグロスと
 こうかんしてくれて、ありがとう。
 わたしの ホームランは
 つよいですよ～!
 ちゃんと かわいがってくださいね!</string>
-        <string index="4">いや～、じつはですね、すごいウワサを 
+        <string key="dialog_2">いや～、じつはですね、すごいウワサを 
 みみにしたんですが、
+                                      
 あたらしいぼくじょうで、
 かくとうタイプの ポケモンを 8ぴき 
 あつめると、トーナメントを 
 するらしいんですよね～。
+                                          
 すっごく きになってるんですが、 
 あなたのワンリキーと 
 わたしのホームラン、
 こうかんしません?</string>
-        <string index="5">しばらく ぼくじょうで ポケモンたちを
+        <string key="dialog_3">しばらく ぼくじょうで ポケモンたちを
 かんさつすることにするよ。</string>
-        <string index="6">レッドはかせ</string>
-        <string index="7">レッドはかせより</string>
-        <string index="8"/>
-        <string index="9"/>
+        <string key="name_1">レッドはかせ</string>
+        <string key="name_from">レッドはかせより</string>
       </ja_JP>
       <de_DE>
-        <string index="0"/>
-        <string index="1"/>
-        <string index="2"/>
-        <string index="3"/>
-        <string index="4"/>
-        <string index="5"/>
-        <string index="6"/>
-        <string index="7"/>
-        <string index="8"/>
-        <string index="9"/>
+        <string key="dialog_1"/>
+        <string key="exchange_1"/>
+        <string key="mail_1"/>
+        <string key="mail_2"/>
+        <string key="dialog_2"/>
+        <string key="dialog_3"/>
+        <string key="name_1"/>
+        <string key="name_from"/>
       </de_DE>
       <fr_FR>
-        <string index="0"/>
-        <string index="1"/>
-        <string index="2"/>
-        <string index="3"/>
-        <string index="4"/>
-        <string index="5"/>
-        <string index="6"/>
-        <string index="7"/>
-        <string index="8"/>
-        <string index="9"/>
+        <string key="dialog_1"/>
+        <string key="exchange_1"/>
+        <string key="mail_1"/>
+        <string key="mail_2"/>
+        <string key="dialog_2"/>
+        <string key="dialog_3"/>
+        <string key="name_1"/>
+        <string key="name_from"/>
       </fr_FR>
       <es_ES>
-        <string index="0"/>
-        <string index="1"/>
-        <string index="2"/>
-        <string index="3"/>
-        <string index="4"/>
-        <string index="5"/>
-        <string index="6"/>
-        <string index="7"/>
-        <string index="8"/>
-        <string index="9"/>
+        <string key="dialog_1"/>
+        <string key="exchange_1"/>
+        <string key="mail_1"/>
+        <string key="mail_2"/>
+        <string key="dialog_2"/>
+        <string key="dialog_3"/>
+        <string key="name_1"/>
+        <string key="name_from"/>
       </es_ES>
       <it_IT>
-        <string index="0"/>
-        <string index="1"/>
-        <string index="2"/>
-        <string index="3"/>
-        <string index="4"/>
-        <string index="5"/>
-        <string index="6"/>
-        <string index="7"/>
-        <string index="8"/>
-        <string index="9"/>
+        <string key="dialog_1"/>
+        <string key="exchange_1"/>
+        <string key="mail_1"/>
+        <string key="mail_2"/>
+        <string key="dialog_2"/>
+        <string key="dialog_3"/>
+        <string key="name_1"/>
+        <string key="name_from"/>
       </it_IT>
     </text>
   </character>
@@ -368,75 +360,75 @@ they'll have a Tournament
     <pokemon/>
     <text>
       <en_US>
-        <string index="0"/>
-        <string index="1"/>
-        <string index="2"/>
-        <string index="3"/>
-        <string index="4"/>
-        <string index="5"/>
-        <string index="6"/>
-        <string index="7"/>
-        <string index="8"/>
+        <string key="dialog_1"/>
+        <string key="exchange_1"/>
+        <string key="mail_1"/>
+        <string key="mail_2"/>
+        <string key="dialog_2"/>
+        <string key="dialog_3"/>
+        <string key="name_1"/>
+        <string key="name_2"/>
+        <string key="pad"/>
       </en_US>
       <ja_JP>
-        <string index="0">ポケチョリーッス！
+        <string key="dialog_1">ポケチョリーッス！
 ゆっきーなこときのしたゆきなです。</string>
-        <string index="1"/>
-        <string index="2"/>
-        <string index="3">ちょーたのしかった！サンキュー!
+        <string key="exchange_1"/>
+        <string key="mail_1"/>
+        <string key="mail_2">ちょーたのしかった！サンキュー!
 またどこかで あえるといいね！
 P.S.
 こうかんしてくれて ありがとう！
 ゆきなのニャース、だいじにしてね。</string>
-        <string index="4"/>
-        <string index="5"/>
-        <string index="6"/>
-        <string index="7"/>
-        <string index="8"/>
+        <string key="dialog_2"/>
+        <string key="dialog_3"/>
+        <string key="name_1"/>
+        <string key="name_2"/>
+        <string key="pad"/>
       </ja_JP>
       <de_DE>
-        <string index="0"/>
-        <string index="1"/>
-        <string index="2"/>
-        <string index="3"/>
-        <string index="4"/>
-        <string index="5"/>
-        <string index="6"/>
-        <string index="7"/>
-        <string index="8"/>
+        <string key="dialog_1"/>
+        <string key="exchange_1"/>
+        <string key="mail_1"/>
+        <string key="mail_2"/>
+        <string key="dialog_2"/>
+        <string key="dialog_3"/>
+        <string key="name_1"/>
+        <string key="name_2"/>
+        <string key="pad"/>
       </de_DE>
       <fr_FR>
-        <string index="0"/>
-        <string index="1"/>
-        <string index="2"/>
-        <string index="3"/>
-        <string index="4"/>
-        <string index="5"/>
-        <string index="6"/>
-        <string index="7"/>
-        <string index="8"/>
+        <string key="dialog_1"/>
+        <string key="exchange_1"/>
+        <string key="mail_1"/>
+        <string key="mail_2"/>
+        <string key="dialog_2"/>
+        <string key="dialog_3"/>
+        <string key="name_1"/>
+        <string key="name_2"/>
+        <string key="pad"/>
       </fr_FR>
       <es_ES>
-        <string index="0"/>
-        <string index="1"/>
-        <string index="2"/>
-        <string index="3"/>
-        <string index="4"/>
-        <string index="5"/>
-        <string index="6"/>
-        <string index="7"/>
-        <string index="8"/>
+        <string key="dialog_1"/>
+        <string key="exchange_1"/>
+        <string key="mail_1"/>
+        <string key="mail_2"/>
+        <string key="dialog_2"/>
+        <string key="dialog_3"/>
+        <string key="name_1"/>
+        <string key="name_2"/>
+        <string key="pad"/>
       </es_ES>
       <it_IT>
-        <string index="0"/>
-        <string index="1"/>
-        <string index="2"/>
-        <string index="3"/>
-        <string index="4"/>
-        <string index="5"/>
-        <string index="6"/>
-        <string index="7"/>
-        <string index="8"/>
+        <string key="dialog_1"/>
+        <string key="exchange_1"/>
+        <string key="mail_1"/>
+        <string key="mail_2"/>
+        <string key="dialog_2"/>
+        <string key="dialog_3"/>
+        <string key="name_1"/>
+        <string key="name_2"/>
+        <string key="pad"/>
       </it_IT>
     </text>
   </character>
