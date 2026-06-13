@@ -46,10 +46,10 @@
 #
 #------------------------------------------------------------------------------
 
-     0	= B. Muelle
-     1	= Base Muelle
-     2	= Campana
-     3	= Campana
+     0 [1,1,1,1] = B. Muelle
+     1 [1,1,1,1] = Base Muelle
+     2 [1,1,1,1] = Campana
+     3 [1,1,1,1] = Campana
      4 [2,2,1,1] = T. Desfile
      5 [2,2,1,1] = Tambor de Desfile
      6	= P. Plátano
@@ -110,16 +110,16 @@
     3d [2,2,1,1] = Marco
     3e	= Flor
     3f	= Flor
-    40	= Lámpara
-    41	= Lámpara
+    40 [2,2,1,1] = Farol
+    41 [2,2,1,1] = Farol
     42 [2,2,1,1] = Imán
     43 [2,2,1,1] = Imán
     44	= Turbina
     45	= Turbina
     46	= Almohadilla
     47	= Almohadilla
-    48 [2,2,1,1] = Arbolito
-    49 [2,2,1,1] = Arbolito de Rancho
+    48 [2,2,1,1] = Árbol
+    49 [2,2,1,1] = Árbol
     4a	= C. Grande
     4b	= Caja Grande
     4c [2,2,1,1] = M. Grande

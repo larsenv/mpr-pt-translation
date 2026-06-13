@@ -354,7 +354,7 @@
 	+ inesperadas en tu rancho a través\n
 	+ de WiiConnect24 si activas este\n
 	+ modo. ¿Quién sabe quién podría\n
-	+ pasarse por aquí?...
+	+ pasarse por aquí...?
     b3	= Probablemente recibirás visitas\n
 	+ inesperadas en tu rancho a\n
 	+ través de WiiConnect24 si\n
@@ -405,19 +405,19 @@
     c8	= Por %ls
     c9	= hasta %ls
     ca	= ¡Cambiar con %ls!
-    cb	= Elegir Música
+    cb	= Elegir melodía
     cc	= Página anterior
     cd	= Página siguiente
     ce	= Aceptar y volver
-    cf	= Otros
+    cf	= Más
     d0	= (Silenciar)
-    d1	= ♪Granja Platino
-    d2	= ♪Bajo el tibio sol
-    d3	= ♪Paseo plácido
+    d1	= ♪Rancho Platino
+    d2	= ♪Bajo la luz del sol
+    d3	= ♪Paseo sereno
     d4	= ♪Un mundo conectado
     d5	= ♪Mi sueño
     d6	= ♪¡Vamos!
-    d7	= ♪Bienvenido al Rancho
+    d7	= ♪Bienvenido al rancho
     d8	= ♪Desfile Pokémon
     d9	= ♪Canción de Jigglypuff
     da	= Club Mírame
@@ -476,7 +476,7 @@
    109	= Desfile
    10a	= 
    10b	= Filtrar Pokémon
-   10c	= Opciones:
+   10c	= Predeterminados
    10d	= Cantidad
    10e	= Tipo
    10f	= Marcas
@@ -723,13 +723,13 @@
         + 　1,500 Pokémon.
    1d6	= Sobre la actualización (2)
    1d7	= Nuevas funciones
-   1d8	= ・Se añadieron nuevas\n
-        + 　opciones en el menú.
+   1d8	= ・Se han añadido nuevas\n
+        + 　opciones en el menú.\n
 	+ \n
-	+ ・Ahora se pueden almacenar\n
+	+ ・Ahora puedes almacenar\n
 	+ 　hasta 30 fotos.\n
 	+ \n
-	+ ・También puedes elegir la música.\n
+	+ ・También puedes elegir la melodía.\n
 	+ \n
 	+ ・Además puedes visitar los ranchos\n
         + 　ya vistos del Club Mírame.
@@ -882,9 +882,9 @@
         + menú de filtros.
    22d	= Filtrar Pokémon
    22e	= Elige los Pokémon que\n
-	+ andan sueltos por el Rancho.\n
+	+ andan sueltos por el rancho.\n
 	+ Puedes filtrar por tipo o\n
-	+ cantidad.
+	+ cantidad, entre otras opciones.
    22f	= Detalles (3)
    230	= Desfile
    231	= Los Pokémon seleccionados\n
@@ -924,9 +924,9 @@
 	+ También puedes consultar la\n
 	+ opción Informe del rancho.
    241  =  \n
-        + Cambia la música o\n
-        + visita cualquier Rancho del\n
-        + Club Mírame ya visto.\n
+        + Además puedes cambiar la melodía\n
+        + o visitar cualquier rancho\n
+        + del Club Mírame ya visto.\n
    242	= 
    243	= Pokémon buscados (1)
    244	= Pokémon buscados
@@ -960,22 +960,24 @@
    252  = Música (1)
    253	= Música
    254	= Aquí puedes ver los nombres\n
-	+ de las canciones del juego.\n
+	+ de las melodías del juego.\n
 	+ Pulsa sobre el nombre para\n
-	+ cambiar la música que suena.
+	+ cambiar la melodía que suena.
    255	= 
    256	= 
    257	= Música (2)
-   258	= Otros
-   259	= Hay muchas canciones\n
-        + para escoger, míralas.
-   25a	= Silenciar
-   25b	= Juega sin música
+   258	= Más
+   259	= Otro apartado con más\n
+        + melodías para escoger.
+   25a	= (Silenciar)
+   25b	= Te permite jugar\n
+        + sin música.
    25c	= Club Mírame
    25d	= Club Mírame
-   25e	= Puedes revisitar un\n
-        + Rancho del Club Mírame.\n
-        + si has estado ahí antes.
+   25e	= Puedes volver a visitar\n
+        + cualquier rancho del\n
+        + Club Mírame que ya hayas\n
+        + visto.
    25f	= Opciones
    260	= Opciones
    261	= Esta función te permite\n
@@ -1005,7 +1007,7 @@
 	+ de tu rancho.
    26e	= Invitados
    26f	= Si activas esta opción...
-   270	= ¡pronto recibirás visitas de lo más\n
+   270	= ¡recibirás pronto visitas de lo más\n
 	+ interesantes en tu rancho!
    271	= ¡Activa esta opción y ya verás!
    272	= Este modo está desactivado por\n
