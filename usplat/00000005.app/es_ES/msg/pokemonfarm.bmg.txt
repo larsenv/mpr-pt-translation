@@ -354,7 +354,7 @@
 	+ inesperadas en tu rancho a través\n
 	+ de WiiConnect24 si activas este\n
 	+ modo. ¿Quién sabe quién podría\n
-	+ pasarse por aquí...?
+	+ pasarse por aquí?...
     b3	= Probablemente recibirás visitas\n
 	+ inesperadas en tu rancho a\n
 	+ través de WiiConnect24 si\n
@@ -732,7 +732,7 @@
 	+ ・También puedes elegir la melodía.\n
 	+ \n
 	+ ・Además puedes visitar los ranchos\n
-        + 　ya vistos del Club Mírame.
+        + 　del Club Mírame que ya hayas visto.
    1d9	= Controles
    1da	= Enfoque
    1db	= Buscar
@@ -924,9 +924,10 @@
 	+ También puedes consultar la\n
 	+ opción Informe del rancho.
    241  =  \n
-        + Además puedes cambiar la melodía\n
-        + o visitar cualquier rancho\n
-        + del Club Mírame ya visto.\n
+        + Además puedes cambiar la\n
+        + melodía o visitar cualquier\n
+        + rancho del Club Mírame que\n
+        + ya hayas visto.
    242	= 
    243	= Pokémon buscados (1)
    244	= Pokémon buscados
@@ -1007,7 +1008,7 @@
 	+ de tu rancho.
    26e	= Invitados
    26f	= Si activas esta opción...
-   270	= ¡recibirás pronto visitas de lo más\n
+   270	= ¡pronto recibirás visitas de lo más\n
 	+ interesantes en tu rancho!
    271	= ¡Activa esta opción y ya verás!
    272	= Este modo está desactivado por\n
