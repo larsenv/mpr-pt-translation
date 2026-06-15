@@ -412,7 +412,7 @@
     cf	= Otros
     d0	= (Silenciar)
     d1	= ♪Rancho Platino
-    d2	= ♪Bajo la afable luz solar
+    d2	= ♪Luz solar
     d3	= ♪Paseo sereno
     d4	= ♪Un mundo conectado
     d5	= ♪Mi sueño
