@@ -884,7 +884,7 @@
    22e	= Elige los Pokémon que\n
 	+ andan sueltos por el rancho.\n
 	+ Puedes filtrar por tipo o\n
-	+ cantidad, entre otras opciones.
+	+ cantidad, entre otros.
    22f	= Detalles (3)
    230	= Desfile
    231	= Los Pokémon seleccionados\n
@@ -925,9 +925,8 @@
 	+ opción Informe del rancho.
    241  =  \n
         + Además puedes cambiar la\n
-        + melodía o visitar cualquier\n
-        + rancho del Club Mírame que\n
-        + ya hayas visto.
+        + melodía o visitar ranchos\n
+        + del Club Mírame ya vistos.
    242	= 
    243	= Pokémon buscados (1)
    244	= Pokémon buscados
@@ -950,8 +949,9 @@
 	+ Pokémon buscados.
    24b  = Cambiar de edición
    24c  = Pulsa este botón para\n
-        + elegir entre pistas de\n
-        + Diamante, Perla o Platino.
+        + cambiar entre pistas de\n
+        + las Ediciones Diamante,\n
+        + Perla o Platino.
    24d	= Informe del rancho
    24e	= Informe del rancho
    24f	= Aquí puedes consultar la situación\n

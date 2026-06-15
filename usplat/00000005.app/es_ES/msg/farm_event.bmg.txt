@@ -1105,17 +1105,16 @@
 	+ Club Mírame.\n
 	+ ¡Me llaman %2$ls!
    1c7  = Me han dicho que te gustaría\n 
-	+ venir a mi Rancho, ¿es cierto?
+	+ venir a mi rancho, ¿es cierto?
    1c8  = Soy el miembro n.º %1$d del\n
 	+ Club Mírame, conocido como\n
         + %2$ls.
    1c9  = Conque dicen que te gustaría\n 
-        + ver mi Rancho, ¿eh?
-   1ca  = ¡Puedes volver a visitar mi Rancho\n
+        + ver mi rancho, ¿eh?
+   1ca  = ¡Puedes volver a visitar mi rancho\n
         + siempre que quieras!
-   1cb  = Vendrás a mi Rancho\n
-        + de nuevo pronto,\n 
-        + ¿verdad?
+   1cb  = Vendrás pronto a mi\n
+        + rancho de nuevo, ¿verdad?
    1cc  = ¡Muchas gracias por venir a ver\n
 	+ mi rancho!
    1cd	= Vaya. ¡Cómo me alegra que\n
@@ -1127,11 +1126,10 @@
 	+ del Club Mírame, ¡espero que\n
 	+ también vayas a visitar sus\n
 	+ ranchos! ¡No te cortes!
-   1d0  = ¡Ah! Por cierto,\n
-        + si me llamas desde el\n
-        + tablón de anuncios,\n
-        + vendré a recogerte.\n
-        + ¡Ven cuando quieras! ¿Vale?
+   1d0  = ¡Ah! Por cierto, si me llamas\n
+        + desde el tablón de anuncios,\n
+        + vendré a recogerte, ¿vale?\n
+        + ¡Ven cuando quieras!
    1d1  = ¡Que tengas un buen viaje\n
 	+ de vuelta!
    1d2	= Gracias por venir a mi rancho.\n
