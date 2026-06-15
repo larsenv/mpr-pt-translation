@@ -374,7 +374,7 @@
     b7	= Este servicio puede ser\n
 	+ cancelado sin previo aviso.
     b8	= Pokémon buscados
-    b9  = Música
+    b9  = Música de hoy
     ba	= Club Mírame
     bb	= ～Lleno de %{}～
     bc	= ～Lleno de huevos～
@@ -409,10 +409,10 @@
     cc	= Página anterior
     cd	= Página siguiente
     ce	= Aceptar y volver
-    cf	= Más
+    cf	= Otros
     d0	= (Silenciar)
     d1	= ♪Rancho Platino
-    d2	= ♪Bajo la luz del sol
+    d2	= ♪Bajo la afable luz solar
     d3	= ♪Paseo sereno
     d4	= ♪Un mundo conectado
     d5	= ♪Mi sueño
@@ -475,7 +475,7 @@
    108	= Encargado:
    109	= Desfile
    10a	= 
-   10b	= Filtrar Pokémon
+   10b	= Soltar Pokémon
    10c	= Predeterminados
    10d	= Cantidad
    10e	= Tipo
@@ -711,7 +711,7 @@
 	+ y Platino de Pokémon.
    1d1	= 
    1d2	= 
-   1d3	= Sobre la actualización (1)
+   1d3	= Edición Platino (1)
    1d4	= Características
    1d5	= ・My Pokémon Ranch ya puede\n
 	+ 　conectarse a Pokémon Edición\n
@@ -721,8 +721,8 @@
 	+ ・Cuando el rancho se amplíe,\n
 	+ 　podrás depositar hasta\n
         + 　1,500 Pokémon.
-   1d6	= Sobre la actualización (2)
-   1d7	= Nuevas funciones
+   1d6	= Edición Platino (2)
+   1d7	= ¡Novedades para probar!
    1d8	= ・Se han añadido nuevas\n
         + 　opciones en el menú.\n
 	+ \n
@@ -732,7 +732,7 @@
 	+ ・También puedes elegir la melodía.\n
 	+ \n
 	+ ・Además puedes visitar los ranchos\n
-        + 　del Club Mírame que ya hayas visto.
+        + 　del Club Mírame de nuevo.
    1d9	= Controles
    1da	= Enfoque
    1db	= Buscar
@@ -879,8 +879,8 @@
    22c	= Puedes ver los Pokémon\n
 	+ que hayas depositado.\n
 	+ Este botón abre el\n
-        + menú de filtros.
-   22d	= Filtrar Pokémon
+        + menú Soltar Pokémon.
+   22d	= Soltar Pokémon
    22e	= Elige los Pokémon que\n
 	+ andan sueltos por el rancho.\n
 	+ Puedes filtrar por tipo o\n
@@ -958,19 +958,21 @@
 	+ actual del rancho.
    250	= 
    251	= 
-   252  = Música (1)
-   253	= Música
+   252  = Música de hoy (1)
+   253	= Música de hoy
    254	= Aquí puedes ver los nombres\n
 	+ de las melodías del juego.\n
 	+ Pulsa sobre el nombre para\n
-	+ cambiar la melodía que suena.
+	+ cambiar la melodía que\n
+	+ suena.
    255	= 
    256	= 
-   257	= Música (2)
-   258	= Más
-   259	= Otro apartado con más\n
-        + melodías para escoger.
-   25a	= (Silenciar)
+   257	= Música de hoy (2)
+   258	= Otros
+   259	= Otro apartado con otro\n
+        + tipo de melodías para\n
+        + escoger.
+   25a	= (Sin música)
    25b	= Te permite jugar\n
         + sin música.
    25c	= Club Mírame
@@ -1067,10 +1069,9 @@
    28d	= Pregunta
    28e	= ¿Cómo se desactiva la música?
    28f	= Respuesta
-   290	= Selecciona "(Silenciar)" en "Música" o\n
-	+ mantén pulsados \x{e043} y \x{e041}↓ al empezar\n
-	+ el juego. De este modo, podrás jugar\n
-	+ sin música.
+   290	= Selecciona la opción (Sin música) en\n
+	+ el menú Música de hoy o mantén pulsados\n
+	+ \x{e043} y \x{e041}↓ al comenzar el juego.\n
    291	= Miis en el rancho (1)
    292	= Escoger Miis
    293	= Pulsa \x{e042} para seleccionar el Mii que\n

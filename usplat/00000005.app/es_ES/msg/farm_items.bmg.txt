@@ -46,10 +46,10 @@
 #
 #------------------------------------------------------------------------------
 
-     0 [1,1,1,1] = B. Muelle
-     1 [1,1,1,1] = Base Muelle
-     2 [1,1,1,1] = Campana
-     3 [1,1,1,1] = Campana
+     0 = B. Muelle
+     1 = Base Muelle
+     2 = Campana
+     3 = Campana
      4 [2,2,1,1] = T. Desfile
      5 [2,2,1,1] = Tambor de Desfile
      6	= P. Plátano
