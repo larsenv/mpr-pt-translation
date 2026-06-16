@@ -180,28 +180,6 @@ def get_en_us_marked_block(en_us_msgs, id_key, id_prefix):
         return new_block
     return [f"{id_prefix} = (TRANSLATION NEEDED)\\n"]
 
-def build_en_us_cont_set(en_us_msgs):
-    """Build a set of en_US continuation line texts for bilingual garbage detection."""
-    cont_set = set()
-    for id_k, b in en_us_msgs.items():
-        for line in b[1:]:
-            stripped = line.strip()
-            if stripped.startswith('+'):
-                text = re.sub(r'\\n\s*$', '', stripped[1:].strip()).strip()
-                if text and len(text) >= 6:
-                    cont_set.add(text)
-    return cont_set
-
-def is_bilingual_block(block, en_us_cont_set):
-    """Return True if any continuation line matches an en_US continuation (bilingual garbage)."""
-    for line in block[1:]:
-        stripped = line.strip()
-        if stripped.startswith('+'):
-            text = re.sub(r'\\n\s*$', '', stripped[1:].strip()).strip()
-            if text and text in en_us_cont_set:
-                return True
-    return False
-
 
 for locale in target_locales:
     print(f"\n=== Processing locale: {locale} ===")
@@ -230,7 +208,6 @@ for locale in target_locales:
         # Parse en_US for fallback text
         en_us_path = os.path.join(USPLAT, 'en_US', 'msg', txt_file)
         _, en_us_msgs = parse_bmg(en_us_path)
-        en_us_cont_set = build_en_us_cont_set(en_us_msgs)
 
         # Get the header and messages from the existing target file if it exists
         target_msgs = {}
@@ -290,15 +267,11 @@ for locale in target_locales:
                             stats['kept_existing'] += 1
                             kept_target = True
                 else:
-                    # Fully translated (no marker) - keep unless bilingual garbage
-                    if not is_bilingual_block(target_block, en_us_cont_set):
-                        new_messages.append((id_key, [line.replace('¥', '\\') for line in target_block]))
-                        stats.setdefault('kept_existing', 0)
-                        stats['kept_existing'] += 1
-                        kept_target = True
-                    else:
-                        stats.setdefault('bilingual_discarded', 0)
-                        stats['bilingual_discarded'] += 1
+                    # Fully translated (no marker), keep it unconditionally
+                    new_messages.append((id_key, [line.replace('¥', '\\') for line in target_block]))
+                    stats.setdefault('kept_existing', 0)
+                    stats['kept_existing'] += 1
+                    kept_target = True
 
             if kept_target:
                 continue
@@ -307,15 +280,13 @@ for locale in target_locales:
             old_eu_id = old_es_content_map.get(normalized)
             if old_eu_id is not None and old_eu_id in old_locale_msgs:
                 old_block = old_locale_msgs[old_eu_id]
-                if not is_bilingual_block(old_block, en_us_cont_set):
-                    # Found a clean match! Use the old locale's translation
-                    old_content_after_eq = old_block[0][old_block[0].index('='):]
-                    new_block = [f"{id_prefix} {old_content_after_eq}"]
-                    new_block.extend(old_block[1:])
-                    new_messages.append((id_key, [line.replace('¥', '\\') for line in new_block]))
-                    stats['matched'] += 1
-                    continue
-                # Old EU block is bilingual, fall through to TRANSLATION NEEDED
+                # Found a clean match! Use the old locale's translation
+                old_content_after_eq = old_block[0][old_block[0].index('='):]
+                new_block = [f"{id_prefix} {old_content_after_eq}"]
+                new_block.extend(old_block[1:])
+                new_messages.append((id_key, [line.replace('¥', '\\') for line in new_block]))
+                stats['matched'] += 1
+                continue
 
             # 3. Fallback to en_US with marker
             new_messages.append((id_key, en_block_marked))

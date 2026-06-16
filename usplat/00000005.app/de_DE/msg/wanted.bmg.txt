@@ -83,7 +83,7 @@
 	+ aus %1$ls%2$ls.
     13	 = Entwickelt sich, wenn dich\n
 	+ %ls%ls genug mag.
-    14	 = (TRANSLATION NEEDED) Evolve by trading\n
+    14	 = Entwickelt sich beim Tausch von\n
 	+ %ls%ls.
     15	 = Hält %ls%ls beim\n
 	+ Tausch ein Item, entwickelt es sich.

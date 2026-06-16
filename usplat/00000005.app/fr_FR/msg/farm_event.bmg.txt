@@ -427,7 +427,7 @@
 	+ de notre Ranch!
     9c	 = Aujourd'hui, je n'ai amené\n
 	+ aucun Pokémon au Ranch.
-    9d	 = (TRANSLATION NEEDED) So far, I have brought\n
+    9d	 = A ce jour, j'ai déjà amené\n
 	+ %ls Pokémon.
     9e   = (TRANSLATION NEEDED) So far, I have brought\n
 	+ %d Pokémon. 
@@ -1458,12 +1458,13 @@
 	+ \fSi tu le fais évoluer, j'ai\n
 	+ entendu dire qu'il devient un\n
 	+ Pokémon énorme!
-   228	 = (TRANSLATION NEEDED) MILTANK, a Pokémon you can\n
-	+ catch on Route 209 using\n
-	+ the Poké Radar.\n
-	+ \fDon't you think MILTANK\n
-	+ is a Pokémon that matches\n
-	+ the image of the Ranch well?
+   228	 = Tu peux attraper\n
+	+ un ECREMEUH en utilisant\n
+	+ le Poké Radar sur la Route 209.\n
+	+ \fTu ne trouves pas\n
+	+ qu'ECREMEUH est tout à fait\n
+	+ adapté au cadre du Ranch\n
+	+ Pokémon?
    229	 = Tu peux attraper YANMA dans\n
 	+ le Grand Marais de Verchamps.\n
 	+ \fS'il connaît la capacité\n

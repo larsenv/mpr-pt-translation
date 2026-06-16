@@ -49,9 +49,9 @@
      0	 = $2$. $1$ 20$0$\n
 	+ $4$\n
 	+ Erhalten mit Lv. $3$.
-     1	 = (TRANSLATION NEEDED) $1$ $2$, 20$0$\n
+     1	 = $2$. $1$ 20$0$\n
 	+ $4$\n
-	+ Apparently met at\n
+	+ Offenbar erhalten mit\n
 	+ Lv. $3$.
      2	 = $2$. $1$ 20$0$\n
 	+ $4$\n

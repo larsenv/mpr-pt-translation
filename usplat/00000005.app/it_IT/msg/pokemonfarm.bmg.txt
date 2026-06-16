@@ -316,8 +316,8 @@
     9d	 = Pagina successiva
     9e	 = Scegli un Mii che si prenda cura dei\n
 	+ Pokémon di questo Allenatore.
-    9f	 = (TRANSLATION NEEDED) Select from\n
-	+ the Ranch
+    9f	 = Scegli dal \n
+	+ Ranch.
     a0	 = Scegli un Mii\n
 	+ differente.
     a1	 = Il Mii che avevi portato al\n

@@ -49,10 +49,10 @@
      0	 = 
      1	 = Ti do il benvenuto in\n
 	+ My Pokémon Ranch!
-     2	 = (TRANSLATION NEEDED) My name is Hayley.\n
-	+ I'm the creator of the\n
+     2	 = Mi chiamo Giulia. \n
+	+ Sono l'ideatrice dei\n
 	+ Pokémon Ranch!\n
-	+ It's so nice to meet you!
+	+ Piacere di conoscerti!
      3	 = Il Pokémon Ranch è un luogo\n
 	+ dove le persone e i Pokémon\n
 	+ possono vivere e divertirsi\n
@@ -117,9 +117,9 @@
 	+ che ci vediamo.
     20	 = Tu devi prendertene cura,\n
 	+ mi raccomando!
-    21	 = (TRANSLATION NEEDED) When you visit the Ranch, every\n
-	+ day you'll find one new\n
-	+ Pokémon added to the Ranch!\n
+    21	 = Troverai un nuovo Pokémon\n
+	+ ogni giorno che verrai al\n
+	+ Ranch.
     22	 = Se lavoriamo insieme, piano\n
 	+ piano riusciremo a riempire\n
 	+ questo Ranch di Pokémon!
@@ -413,7 +413,7 @@
 	+ solito!
     9c	 = Oggi non ho portato nessun\n
 	+ Pokémon al Ranch.
-    9d	 = (TRANSLATION NEEDED) So far, I have brought\n
+    9d	 = Finora, ho portato \n
 	+ %ls Pokémon.
     9e   = (TRANSLATION NEEDED) So far, I have brought\n
 	+ %d Pokémon. 
@@ -427,9 +427,9 @@
 	+ ingrandire il Ranch...
     a2	 = Prenditi cura dei Pokémon \n
 	+ e del Ranch!
-    a3	 = (TRANSLATION NEEDED) Once the number of Pokémon\n
-	+ becomes %ls, let's expand\n
-	+ the Ranch!
+    a3	 = Non appena avremo %ls\n
+	+ Pokémon, ingrandiremo il\n
+	+ Ranch!
     a4	 = Una volta che il numero di Pokémon\n\n
 	+ diventerà %d, possiamo espandere\n\n
 	+ il Ranch!
@@ -509,8 +509,9 @@
 	+ Da oggi riceveremo quattro\n
 	+ Box Giochi al giorno!
     c3	 = Che meraviglia!
-    c4	 = (TRANSLATION NEEDED) The number of Pokémon you\n
-	+ can keep is now 1,000!
+    c4	 = Evviva! Ora possiamo prenderci\n
+	+ cura di ben 1000 Pokémon al\n
+	+ Ranch!
     c5	 = Congratulazioni!
     c6   = Il Ranch continuerà a\n
 	+ crescere...
@@ -547,8 +548,9 @@
 	+ il Pokémon Ranch dei miei\n
 	+ sogni! Ed è qui, di fronte\n
 	+ a me!
-    d3	 = (TRANSLATION NEEDED) I am so glad that I chose you\n
-	+ as my Ranch partner!
+    d3	 = Sapevo che avrei potuto\n
+	+ contare su di te per il\n
+	+ Ranch!
     d4	 = Credo che mi divertirò a \n
 	+ lungo a vivere qui con tutti!
     d5	 = Insieme a tutti, per sempre...
@@ -671,8 +673,8 @@
 	+ deciso di passare dal\n
 	+ Ranch, oggi!
    105	 = Ciao! Sono felice di rivederti!
-   106	 = (TRANSLATION NEEDED) Hello!\n
-	+ Enjoy your time at the Ranch!
+   106	 = Ma ciao! Divertiti oggi al\n
+	+ Ranch!
    107	 = Sei da %1$ls,\n
    108	 = Divertiti al Ranch\n
 	+ %ls!
@@ -1061,8 +1063,9 @@ Ranch %ls!	Ranch %ls!+Ranch %ls! Ranch %ls!RRanch %ls!aRanch %ls!nRanch %ls!cRan
 	+ Pokémon preferito?
    1b9   = Se vuoi saperlo, visita il\n
 	+ mio Ranch!
-   1ba   = (TRANSLATION NEEDED) All right! That's the way!\n
-	+ Okay, let's go to my Ranch!
+   1ba   = Bene! Sapevo che avresti\n
+	+ accettato! Andiamo al mio\n
+	+ Ranch!
    1bb	 = Capisco... Speravo davvero\n
 	+ che avremmo visto il mio\n
 	+ Ranch assieme. Peccato.
@@ -1081,8 +1084,9 @@ Ranch %ls!	Ranch %ls!+Ranch %ls! Ranch %ls!RRanch %ls!aRanch %ls!nRanch %ls!cRan
 	+ Pokémon che adoro di più?
    1c1	 = Vuoi saperlo? Perché non\n
 	+ vieni al mio Ranch?
-   1c2	 = (TRANSLATION NEEDED) Yes? Cool!\n
-	+ Okay, let's go to my Ranch!
+   1c2	 = Davvero? Fantastico!\n
+	+ Forza, andiamo al mio\n
+	+ Ranch!
    1c3	 = Oh, va bene... Volevo proprio\n
 	+ che lo vedessi. Che peccato!
    1c4	 = Prima o poi tornerò per\n
@@ -1350,14 +1354,13 @@ Ranch %ls!	Ranch %ls!+Ranch %ls! Ranch %ls!RRanch %ls!aRanch %ls!nRanch %ls!cRan
 	+ raggiungere molti luoghi e \n
 	+ potrai anche contare su di lui\n
 	+ durante le lotte!
-   21f   = (TRANSLATION NEEDED) SHROOMISH, a Pokémon you\n
-	+ can catch in the Pastoria\n
-	+ Great Marsh.\n
-	+ \fIt learns moves that are\n
-	+ useful for catching Pokémon.\n
-	+ \fMaybe you can catch more\n
-	+ Pokémon when you have it in\n
-	+ your party?
+   21f   = Puoi catturare SHROOMISH\n
+	+ nella Gran Palude di Pratopoli.\n
+	+ \fPuò imparare mosse utili\n
+	+ per catturare altri Pokémon.\n
+	+ \fCon SHROOMISH in squadra\n
+	+ puoi catturare ancora più\n
+	+ Pokémon!
    220   = Ho usato un Amo Buono sul\n
 	+ Percorso 205 per prendere\n
 	+ questo FINNEON.\n

@@ -256,8 +256,8 @@
 	+ singenden Pokémon?
     53	 = Wie wäre es morgen mit einem\n
 	+ süßlich riechenden Pokémon?
-    54	 = (TRANSLATION NEEDED) Okay, perhaps\n
-	+ %ls\n
+    54	 = Okay, dann vielleicht ein\n
+	+ %ls \n
 	+ Pokémon?
     55	 = Okay, dann vielleicht ein\n
 	+ rotes Pokémon?
@@ -414,8 +414,9 @@
 	+ welches Pokémon ich beim\n
 	+ nächsten Mal mitbringe.
     91	 = Also dann! Bis bald!
-    92	 = (TRANSLATION NEEDED) The number of Pokémon at the\n
-	+ Ranch has become %ls!
+    92	 = Wow! Wir betreuen jetzt\n
+	+ %ls Pokémon auf der\n
+	+ Ranch!
     93	 = (TRANSLATION NEEDED) The number of Pokémon at the\n
 	+ Ranch has become %d!
     94	 = Okay, dann lass uns die Ranch\n
@@ -1046,9 +1047,9 @@
 	+ Foto von der\n
 	+ %ls-Ranch\n
 	+ mitgebracht!
-   19a   = (TRANSLATION NEEDED) Hello!\n
-	+ I'm %ls\n
-	+ from %ls Ranch.
+   19a   = Hi! Ich bin %2$ls\n
+	+ von der %1$ls-\n
+	+ Ranch.
    19b	 = Wenn du gerade Zeit hast,\n
 	+ warum stattest du der\n
 	+ %ls-Ranch\n
@@ -1354,18 +1355,18 @@
 	+ Item. Wirklich tauschen?
    1fe   = Hm? Soll der Tausch\n
 	+ abgebrochen werden?
-   1ff	 = (TRANSLATION NEEDED) %ls  %ls  Lv. %d\n
+   1ff	 = %ls  %ls  Lv. %d\n
 	+ Name: %ls\n
-	+ OT: %ls\n
+	+ Ursprung: %ls\n
 	+ Trainer: %ls\n
-	+ Mark: %ls
-   200	 = (TRANSLATION NEEDED) %ls  %ls  Lv. %d\n
+	+ Markierung: %ls
+   200	 = %ls  %ls  Lv. %d\n
 	+ Name: %ls\n
-	+ OT: %ls
-   201	 = (TRANSLATION NEEDED) Egg\n
-	+ Obtained: %ls\n
+	+ Ursprung: %ls
+   201	 = Ei\n
+	+ Erhalten am: %ls\n
 	+ Trainer: %ls\n
-	+ Mark: %ls
+	+ Markierung: %ls
    202	 = Vielen Dank, dass du deine\n
 	+ Pokémon mitgebracht hast!
    203	 = Dank dir herrscht schon viel\n
