@@ -84,10 +84,10 @@
 	+ $4$\n
 	+ Rencontré par hasard au\n
 	+ N. $3$.
-     8	 = $2$ $1$ 20$0$\n
+     8	 = (TRANSLATION NEEDED) $1$ $2$, 20$0$\n
 	+ $4$\n
-	+ Apparemment rencontré\n
-	+ par hasard au\n
+	+ Apparently had a\n
+	+ fateful encounter at\n
 	+ Lv. $3$.
      9	 = $7$ $6$ 20$5$\n
 	+ $8$\n

@@ -92,9 +92,9 @@
 	+ Pensione Pokémon di Flemminia.
     18	 = Non si sa come catturare\n
 	+ questo Pokémon.
-    19	 = You can get it by trading\n
+    19	 = (TRANSLATION NEEDED) You can get it by trading\n
 	+ with other DS Pokémon games.
-    1a	 = You can find it roaming\n 
+    1a	 = (TRANSLATION NEEDED) You can find it roaming\n 
 	+ around the Sinnoh region.
     1b	 = Percorso 201
     1c	 = Percorso 202
@@ -557,13 +557,13 @@
 	+ maschio di Pokémon dello stesso gruppo\n
 	+ Uovo presso la Pensione Pokémon, \n
 	+ otterrai un Uovo.
-   146	 = After entering the Hall of Fame,\n
+   146	 = (TRANSLATION NEEDED) After entering the Hall of Fame,\n
 	+ talk to the elder of Celestic Town.\n
 	+ Requires an Adamant Orb.
-   147	 = After entering the Hall of Fame,\n
+   147	 = (TRANSLATION NEEDED) After entering the Hall of Fame,\n
 	+ talk to the elder of Celestic Town.\n
 	+ Requires a Lustrous Orb.
-   148	 = After obtaining the National Dex,
+   148	 = (TRANSLATION NEEDED) After obtaining the National Dex,
 	+  go to Eterna City and\n
 	+ see Prof. Oak.
    149	 = 

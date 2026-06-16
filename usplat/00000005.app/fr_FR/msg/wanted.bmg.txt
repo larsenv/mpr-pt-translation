@@ -74,7 +74,7 @@
 	+ de niveau au Mont Couronné.
      e	 = Un %ls %ls évolue\n
      f	 = Un %ls %ls évolue\n
-    10	 = (TRANSLATION NEEDED) Evolve NINCADA with room\n\n
+    10	 = (TRANSLATION NEEDED) Evolve NINCADA with room\n
 	+ in your party.
     11	 = Un %ls %ls évolue\n
 	+ si tu lui donnes un objet.
@@ -93,9 +93,9 @@
 	+ la Pension Pokémon de Bonville.
     18	 = Aucun conseil n'est disponible\n
 	+ sur la façon d'attraper ce Pokémon.
-    19	 = You can get it by trading\n
+    19	 = (TRANSLATION NEEDED) You can get it by trading\n
 	+ with other DS Pokémon games.
-    1a	 = You can find it roaming\n 
+    1a	 = (TRANSLATION NEEDED) You can find it roaming\n 
 	+ around the Sinnoh region.
     1b	 = Route 201
     1c	 = Route 202
@@ -364,8 +364,8 @@
 	+ en creusant dans le Souterrain.\n
     f3	 = Tu peux parfois trouver un RELICANTH\n
 	+ sauvage qui tient une Ecailleocéan.
-    f4	 = (TRANSLATION NEEDED) You can discover an Egg by leaving\n\n
-	+ MAGMAR♀ and a Pokémon that gets\n\n
+    f4	 = (TRANSLATION NEEDED) You can discover an Egg by leaving\n
+	+ MAGMAR♀ and a Pokémon that gets\n
 	+ along with it at the Pokémon Day Care.
     f5	 = Tu peux obtenir un Améliorator\n
 	+ à Vestigion.
@@ -505,7 +505,7 @@
    122	 = Tu peux obtenir un Croc Rasoir\n
 	+ au Parc des Combats.
    123	 = (TRANSLATION NEEDED) You can get a Razor Fang on Route 225.
-   124	 = (TRANSLATION NEEDED) When WURMPLE reaches level 7,\n\n
+   124	 = (TRANSLATION NEEDED) When WURMPLE reaches level 7,\n 
 	+ it evolves into SILCOON or CASCOON.
    125	 = Tu le trouves dans le sac oublié par\n
 	+ le Professeur Sorbier au Lac Vérité.
@@ -528,7 +528,7 @@
 	+ au Temple Frimapic.
    12f	 = Tu peux trouver ce Pokémon\n
 	+ dans la Grotte Retour.
-   130	 = (TRANSLATION NEEDED) You can meet it in the\n\n
+   130	 = (TRANSLATION NEEDED) You can meet it in the\n
 	+ Distortion World.
    131	 = Une fois aperçu à l'Ile Pleine Lune,\n
 	+ il se met à voler autour de Sinnoh.
@@ -562,13 +562,13 @@
    145	 = Tu peux obtenir un Œuf si tu laisses\n
 	+ des Pokémon ♂ et ♀ compatibles\n
 	+ à la Pension Pokémon.
-   146	 = After entering the Hall of Fame,\n
+   146	 = (TRANSLATION NEEDED) After entering the Hall of Fame,\n
 	+ talk to the elder of Celestic Town.\n
 	+ Requires an Adamant Orb.
-   147	 = After entering the Hall of Fame,\n
+   147	 = (TRANSLATION NEEDED) After entering the Hall of Fame,\n
 	+ talk to the elder of Celestic Town.\n
 	+ Requires a Lustrous Orb.
-   148	 = After obtaining the National Dex,
+   148	 = (TRANSLATION NEEDED) After obtaining the National Dex,
 	+  go to Eterna City and\n
 	+ see Prof. Oak.
    149	 = 

@@ -66,77 +66,77 @@
     11	/
     12	/
     13	/
-    14	 = The Wii Remote battery power\n
+    14	 = (TRANSLATION NEEDED) The Wii Remote battery power\n
 	+ is running low.
     15	/
     16	/
     17	/
-    18	 = There is not enough available\n
+    18	 = (TRANSLATION NEEDED) There is not enough available\n
 	+ space in Wii system memory.\n
 	+ Create %d blocks\n
 	+ of free space either by moving data to\n
 	+ an SD Card or by deleting data in\n
 	+ the Save Data screen.
-    19	 = There is not enough available\n
+    19	 = (TRANSLATION NEEDED) There is not enough available\n
 	+ space in Wii system memory for\n
 	+ My Pokémon Ranch Platinum Version.\n
 	+ Create %d blocks\n
 	+ of free space either by moving data to\n
 	+ an SD Card or by deleting data in\n
 	+ the Save Data screen.
-    1a	 = There is not enough available\n
+    1a	 = (TRANSLATION NEEDED) There is not enough available\n
 	+ space in Wii system memory.\n
 	+ Create 1 block\n
 	+ of free space either by moving data to\n
 	+ an SD Card or by deleting data in\n
 	+ the Save Data screen.
-    1b	 = There is not enough available\n
+    1b	 = (TRANSLATION NEEDED) There is not enough available\n
 	+ space in Wii system memory for\n
 	+ My Pokémon Ranch Platinum Version.\n
 	+ Create 1 block\n
 	+ of free space either by moving data to\n
 	+ an SD Card or by deleting data in\n
 	+ the Save Data screen.
-    1c	 = There is not enough available\n
+    1c	 = (TRANSLATION NEEDED) There is not enough available\n
 	+ space in Wii system memory.\n
 	+ Either move data to an\n
 	+ SD Card or delete data in the\n
 	+ Save Data screen.
-    1d	 = There is not enough available\n
+    1d	 = (TRANSLATION NEEDED) There is not enough available\n
 	+ space in Wii system memory for\n
 	+ My Pokémon Ranch Platinum Version.\n
 	+ \fEither move data to an\n
 	+ SD Card or delete data in\n
 	+ My Pokémon Ranch.
-    1e	 = There is an abnormal amount\n
+    1e	 = (TRANSLATION NEEDED) There is an abnormal amount\n
 	+ of free space in Wii system memory.\n
 	+ \n
 	+ Refer to the Wii Operations\n
 	+ Manual for details.
-    1f	 = There is an abnormal number\n
+    1f	 = (TRANSLATION NEEDED) There is an abnormal number\n
 	+ of files in Wii system memory.\n
 	+ \n
 	+ Refer to the Wii Operations\n
 	+ Manual for details.
     20	/
-    21	 = The Wii system memory\n
+    21	 = (TRANSLATION NEEDED) The Wii system memory\n
 	+ has been damaged.\n
 	+ \n
 	+ Refer to the Wii Operations\n
 	+ Manual for details.
-    22	 = Saving...\n
+    22	 = (TRANSLATION NEEDED) Saving...\n
 	+ Don't turn off the power or\n
 	+ press RESET.
     23	/
-    24	 = Could not access Wii system\n
+    24	 = (TRANSLATION NEEDED) Could not access Wii system\n
 	+ memory.\n
 	+ \fRefer to the Wii Operations\n
 	+ Manual for details.
-    25	 = An error occurred while\n
+    25	 = (TRANSLATION NEEDED) An error occurred while\n
 	+ accessing Wii system memory.\n
 	+ \fRefer to the Wii Operations\n
 	+ Manual for details.
-    26	 = The save data cannot be read.\n
+    26	 = (TRANSLATION NEEDED) The save data cannot be read.\n
 	+ You cannot start the game.\n
 	+ Please contact a Nintendo Service\n
 	+ Center. For more information,\n
@@ -144,55 +144,49 @@
 	+ The error code is %03d%03d.\n
 	+ \n
 	+ Please press and hold the\n
-	+ POWER Button for at least\n
-	+ four seconds to turn the\n
-	+ console off.	
-    27	 = There is a problem with the\n
+	+ POWER Button for at least four\n
+	+ seconds to turn the console off.
+    27	 = (TRANSLATION NEEDED) There is a problem with the\n
 	+ Wii system memory, so\n
 	+ WiiConnect24 cannot be\n
 	+ used.
-    28	 = To use WiiConnect24, a\n
+    28	 = (TRANSLATION NEEDED) To use WiiConnect24, a\n
 	+ system update is required.\n
 	+ Refer to the Wii Operations\n
 	+ Manual for details.
-    29	 = WiiConnect24 cannot be\n
+    29	 = (TRANSLATION NEEDED) WiiConnect24 cannot be\n
 	+ used because an error has\n
 	+ occurred. Reset and try\n
 	+ again.
-    2a	 = WiiConnect24 is\n
+    2a	 = (TRANSLATION NEEDED) WiiConnect24 is\n
 	+ temporarily unavailable.\n
 	+ Please try again later.
-    2b	 = The WiiConnect24 setting\n
+    2b	 = (TRANSLATION NEEDED) The WiiConnect24 setting\n
 	+ is not turned on. Please\n
 	+ check the settings under\n
-	+ Wii Options. Refer to the\n
-	+ Wii Operations Manual for\n
-	+ details.
-    2c	 = An Internet connection\n
+	+ Wii Options.
+    2c	 = (TRANSLATION NEEDED) An Internet connection\n
 	+ cannot be established, so\n
 	+ WiiConnect24 cannot be\n
 	+ used. Check the Internet\n
 	+ settings and connection.\n
-	+ Refer to the Wii Operations\n
-	+ Manual for details.
-    2d	 = WiiConnect24 is\n
+    2d	 = (TRANSLATION NEEDED) WiiConnect24 is\n
 	+ temporarily unavailable.\n
 	+ Please try again later.
-    2e	 == WiiConnect24 is\n
+    2e	 = (TRANSLATION NEEDED) WiiConnect24 is\n
 	+ temporarily unavailable.\n
 	+ Please try again later.
-    2f	 = There is a problem with the\n
+    2f	 = (TRANSLATION NEEDED) There is a problem with the\n
 	+ Wii system memory, so\n
 	+ WiiConnect24 cannot be\n
 	+ used.
-    30	 = WiiConnect24 cannot be\n
+    30	 = (TRANSLATION NEEDED) WiiConnect24 cannot be\n
 	+ used because an error has\n
 	+ occurred. Reset and try\n
 	+ again.\n
     31	/
-    32	 = Use of network features has\n
+    32	 = (TRANSLATION NEEDED) Use of network features has\n
 	+ been restricted.\n
-	+ \n
 	+ \n
 	+ Please check the settings\n
 	+ for Parental Controls under\n
@@ -220,7 +214,7 @@
     47	/
     48	/
     49	/
-    4a	 = Unable to load Mii Channel data.
+    4a	 = (TRANSLATION NEEDED) Unable to load Mii Channel data.
 	+ Please access the Mii Channel
 	+ and check Mii Channel data.
     4b	 = My Pokémon Ranch

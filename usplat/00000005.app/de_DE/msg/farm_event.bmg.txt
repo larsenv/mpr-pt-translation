@@ -147,8 +147,8 @@
 	+ zusammengefasst: Wenn du\n
 	+ irgendwelche Pokémon hast,\n
 	+ bring sie mit!
-    26	 = Sag mal, hast du einen\n
-	+ Nintendo DS?
+    26	 = (TRANSLATION NEEDED) By the way... Do you have\n
+	+ a Nintendo DS?
     27	 = Ja? Fantastisch! Das heißt, du\n
 	+ kannst alle deine Pokémon aus\n
 	+ diesen Spielen auf die Ranch\n
@@ -256,8 +256,8 @@
 	+ singenden Pokémon?
     53	 = Wie wäre es morgen mit einem\n
 	+ süßlich riechenden Pokémon?
-    54	 = Okay, dann vielleicht ein\n
-	+ %ls \n
+    54	 = (TRANSLATION NEEDED) Okay, perhaps\n
+	+ %ls\n
 	+ Pokémon?
     55	 = Okay, dann vielleicht ein\n
 	+ rotes Pokémon?
@@ -414,12 +414,10 @@
 	+ welches Pokémon ich beim\n
 	+ nächsten Mal mitbringe.
     91	 = Also dann! Bis bald!
-    92	 = Wow! Wir betreuen jetzt\n
-	+ %ls Pokémon auf der\n
-	+ Ranch!
-    93	 = Wow! Wir betreuen jetzt\n
-	+ %ls Pokémon auf der\n
-	+ Ranch!
+    92	 = (TRANSLATION NEEDED) The number of Pokémon at the\n
+	+ Ranch has become %ls!
+    93	 = (TRANSLATION NEEDED) The number of Pokémon at the\n
+	+ Ranch has become %d!
     94	 = Okay, dann lass uns die Ranch\n
 	+ vergrößern! Morgen, am\n
 	+ %ls, wird der\n
@@ -1041,16 +1039,16 @@
 	+ Foto von der\n
 	+ %ls-Ranch\n
 	+ mitgebracht!
-   198	 = Hi! Ich bin %2$ls\n
-	+ von der %1$ls-\n
-	+ Ranch.
+   198	 = (TRANSLATION NEEDED) Hello!\n
+	+ I'm %ls\n
+	+ from %ls Ranch!
    199   = Hallo! Ich habe dir ein\n
 	+ Foto von der\n
 	+ %ls-Ranch\n
 	+ mitgebracht!
-   19a   = Hi! Ich bin %2$ls\n
-	+ von der %1$ls-\n
-	+ Ranch.
+   19a   = (TRANSLATION NEEDED) Hello!\n
+	+ I'm %ls\n
+	+ from %ls Ranch.
    19b	 = Wenn du gerade Zeit hast,\n
 	+ warum stattest du der\n
 	+ %ls-Ranch\n
@@ -1356,18 +1354,18 @@
 	+ Item. Wirklich tauschen?
    1fe   = Hm? Soll der Tausch\n
 	+ abgebrochen werden?
-   1ff	 = %ls  %ls  Lv. %d\n
+   1ff	 = (TRANSLATION NEEDED) %ls  %ls  Lv. %d\n
 	+ Name: %ls\n
-	+ Ursprung: %ls\n
+	+ OT: %ls\n
 	+ Trainer: %ls\n
-	+ Markierung: %ls
-   200	 = %ls  %ls  Lv. %d\n
+	+ Mark: %ls
+   200	 = (TRANSLATION NEEDED) %ls  %ls  Lv. %d\n
 	+ Name: %ls\n
-	+ Ursprung: %ls
-   201	 = Ei\n
-	+ Erhalten am: %ls\n
+	+ OT: %ls
+   201	 = (TRANSLATION NEEDED) Egg\n
+	+ Obtained: %ls\n
 	+ Trainer: %ls\n
-	+ Markierung: %ls
+	+ Mark: %ls
    202	 = Vielen Dank, dass du deine\n
 	+ Pokémon mitgebracht hast!
    203	 = Dank dir herrscht schon viel\n
@@ -1633,8 +1631,8 @@
      + Lass uns schauen, was alles\n
      + auf der Ranch neu ist!\n
      + Auf geht's!
-   23a   = Das ist unsere verbesserte\n
-     + Ranch!
+   23a   = (TRANSLATION NEEDED) This is our newly upgraded\n
+	+ Ranch!
    23b   = Die Ranch ist gewachsen\n
      + seitdem sie mit Pokémon Platin\n
      + verbunden wurde!

@@ -352,10 +352,10 @@
 	+ werden Bilder und Status\n
 	+ deiner Ranch zur\n
 	+ Wii-Pinnwand gesendet.
-    b2	 = Wenn du WiiConnect24 aktivierst,\n
-	+ bekommst du vielleicht einen\n
-	+ unerwarteten Besucher auf deiner\n
-	+ Ranch.
+    b2	 = (TRANSLATION NEEDED) When this setting is turned on,\n
+	+ maybe an unexpected guest will\n
+	+ visit your Ranch through\n
+	+ WiiConnect24?
     b3	 = Wenn du WiiConnect24 akti-\n
 	+ vierst, bekommst du vielleicht\n
 	+ einen unerwarteten Besucher\n

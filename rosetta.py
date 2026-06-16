@@ -163,21 +163,45 @@ def get_pre_rosetta_messages(locale, txt_file):
     except subprocess.CalledProcessError:
         return {}
 
-def get_en_us_content_for_block(en_us_msgs, id_key):
-    """Get the content portion (after =) from en_US for a given id."""
+def get_en_us_marked_block(en_us_msgs, id_key, id_prefix):
+    """Get the EN_US block marked with TRANSLATION NEEDED and properly fix backslashes."""
     if id_key in en_us_msgs:
         block = en_us_msgs[id_key]
         first = block[0]
         eq_idx = first.index('=')
-        content_after_eq = first[eq_idx+1:].strip()
-        # Include continuation lines
-        full = content_after_eq
+        content_after_eq = first[eq_idx+1:].lstrip(' \t')
+        content_after_eq = content_after_eq.replace('¥', '\\')
+        # Strip the trailing real newline so the line ends cleanly
+        content_after_eq = content_after_eq.rstrip('\n')
+        
+        new_block = [f"{id_prefix} = (TRANSLATION NEEDED) {content_after_eq}\n"]
         for line in block[1:]:
+            new_block.append(line.replace('¥', '\\'))
+        return new_block
+    return [f"{id_prefix} = (TRANSLATION NEEDED)\\n"]
+
+def build_en_us_cont_set(en_us_msgs):
+    """Build a set of en_US continuation line texts for bilingual garbage detection."""
+    cont_set = set()
+    for id_k, b in en_us_msgs.items():
+        for line in b[1:]:
             stripped = line.strip()
             if stripped.startswith('+'):
-                full += '\\n\n\t+ ' + stripped[1:].strip()
-        return full
-    return ''
+                text = re.sub(r'\\n\s*$', '', stripped[1:].strip()).strip()
+                if text and len(text) >= 6:
+                    cont_set.add(text)
+    return cont_set
+
+def is_bilingual_block(block, en_us_cont_set):
+    """Return True if any continuation line matches an en_US continuation (bilingual garbage)."""
+    for line in block[1:]:
+        stripped = line.strip()
+        if stripped.startswith('+'):
+            text = re.sub(r'\\n\s*$', '', stripped[1:].strip()).strip()
+            if text and text in en_us_cont_set:
+                return True
+    return False
+
 
 for locale in target_locales:
     print(f"\n=== Processing locale: {locale} ===")
@@ -206,10 +230,12 @@ for locale in target_locales:
         # Parse en_US for fallback text
         en_us_path = os.path.join(USPLAT, 'en_US', 'msg', txt_file)
         _, en_us_msgs = parse_bmg(en_us_path)
+        en_us_cont_set = build_en_us_cont_set(en_us_msgs)
 
-        # Get the header from the existing target file if it exists, otherwise from es_ES
+        # Get the header and messages from the existing target file if it exists
+        target_msgs = {}
         if os.path.exists(target_path):
-            target_header, _ = parse_bmg(target_path)
+            target_header, target_msgs = parse_bmg(target_path)
         else:
             target_header = us_es_header[:]
 
@@ -224,40 +250,76 @@ for locale in target_locales:
             # Get the id line prefix from the US es_ES (preserves spacing and attrs)
             id_prefix = extract_id_and_attrs(block)
 
-            # Search for this content in old europe es_ES
-            old_eu_id = old_es_content_map.get(normalized)
+            # Get en_US fallback content
+            en_block_marked = get_en_us_marked_block(en_us_msgs, id_key, id_prefix)
+            en_content_only = extract_content(en_block_marked).replace('(TRANSLATION NEEDED)', '').strip()
 
+            
+            # 1. Check existing target message
+            kept_target = False
+            if id_key in target_msgs:
+                target_block = target_msgs[id_key]
+                target_content = extract_content(target_block)
+                
+                if "(TRANSLATION NEEDED)" in target_content:
+                    target_cont_count = sum(1 for line in target_block[1:] if line.strip().startswith('+'))
+                    en_cont_count = sum(1 for line in en_block_marked[1:] if line.strip().startswith('+'))
+                    
+                    if target_cont_count != en_cont_count:
+                        # Garbled by previous rosetta run (cross-contaminated continuations)
+                        stats.setdefault('bilingual_discarded', 0)
+                        stats['bilingual_discarded'] += 1
+                    else:
+                        target_text_only = target_content.replace('(TRANSLATION NEEDED)', '').strip()
+                        en_text_normalized = en_content_only.replace('¥', '\\')
+                        target_text_normalized = target_text_only.replace('¥', '\\')
+                        
+                        target_text_cmp = re.sub(r'\s+', ' ', target_text_normalized.replace('\\n', ' ')).strip()
+                        en_text_cmp = re.sub(r'\s+', ' ', en_text_normalized.replace('\\n', ' ')).strip()
+                        
+                        if target_text_cmp != en_text_cmp and target_text_cmp != "":
+                            # User modified it, keep it
+                            cleaned_block = []
+                            for i, line in enumerate(target_block):
+                                cleaned_line = line.replace('¥', '\\')
+                                if i == 0 and '(TRANSLATION NEEDED)' in cleaned_line:
+                                    cleaned_line = cleaned_line.replace('\\n\\n\n', '\\n\n')
+                                cleaned_block.append(cleaned_line)
+                            new_messages.append((id_key, cleaned_block))
+                            stats.setdefault('kept_existing', 0)
+                            stats['kept_existing'] += 1
+                            kept_target = True
+                else:
+                    # Fully translated (no marker) - keep unless bilingual garbage
+                    if not is_bilingual_block(target_block, en_us_cont_set):
+                        new_messages.append((id_key, [line.replace('¥', '\\') for line in target_block]))
+                        stats.setdefault('kept_existing', 0)
+                        stats['kept_existing'] += 1
+                        kept_target = True
+                    else:
+                        stats.setdefault('bilingual_discarded', 0)
+                        stats['bilingual_discarded'] += 1
+
+            if kept_target:
+                continue
+
+            # 2. Try old europe matching
+            old_eu_id = old_es_content_map.get(normalized)
             if old_eu_id is not None and old_eu_id in old_locale_msgs:
-                # Found a match! Use the old locale's translation
                 old_block = old_locale_msgs[old_eu_id]
-                # Rewrite the block with the new ID but old content
-                old_content_after_eq = old_block[0][old_block[0].index('='):]
-                new_block = [f"{id_prefix} {old_content_after_eq}"]
-                new_block.extend(old_block[1:])
-                new_messages.append((id_key, new_block))
-                stats['matched'] += 1
-            elif id_key in pre_rosetta_msgs:
-                # Not mapped via rosetta, but we had a translation before - recover it
-                old_block = pre_rosetta_msgs[id_key]
-                old_content = extract_content(old_block)
-                if old_content and old_content != 'TRANSLATION NEEDED':
+                if not is_bilingual_block(old_block, en_us_cont_set):
+                    # Found a clean match! Use the old locale's translation
                     old_content_after_eq = old_block[0][old_block[0].index('='):]
                     new_block = [f"{id_prefix} {old_content_after_eq}"]
                     new_block.extend(old_block[1:])
-                    new_messages.append((id_key, new_block))
-                    stats['pre_rosetta'] += 1
-                else:
-                    # Pre-rosetta had placeholder too, use en_US
-                    en_content = get_en_us_content_for_block(en_us_msgs, id_key)
-                    new_block = [f"{id_prefix} = (TRANSLATION NEEDED) {en_content}\n"]
-                    new_messages.append((id_key, new_block))
-                    stats['not_found'] += 1
-            else:
-                # No match anywhere - use en_US with marker
-                en_content = get_en_us_content_for_block(en_us_msgs, id_key)
-                new_block = [f"{id_prefix} = (TRANSLATION NEEDED) {en_content}\n"]
-                new_messages.append((id_key, new_block))
-                stats['not_found'] += 1
+                    new_messages.append((id_key, [line.replace('¥', '\\') for line in new_block]))
+                    stats['matched'] += 1
+                    continue
+                # Old EU block is bilingual, fall through to TRANSLATION NEEDED
+
+            # 3. Fallback to en_US with marker
+            new_messages.append((id_key, en_block_marked))
+            stats['not_found'] += 1
 
         # Write the file
         os.makedirs(os.path.dirname(target_path), exist_ok=True)
@@ -267,5 +329,6 @@ for locale in target_locales:
 print(f"\n=== Stats ===")
 print(f"Total messages processed: {stats['total']}")
 print(f"Matched with old translations (rosetta): {stats['matched']}")
-print(f"Recovered from pre-rosetta translations: {stats['pre_rosetta']}")
+print(f"Kept existing manual translations: {stats.get('kept_existing', 0)}")
+print(f"Bilingual garbage discarded: {stats.get('bilingual_discarded', 0)}")
 print(f"Not found - marked (TRANSLATION NEEDED) + English: {stats['not_found']}")
