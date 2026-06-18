@@ -183,7 +183,7 @@
 	+ cette photo sur une carte SD?
     67	 = (TRANSLATION NEEDED) Saved the picture as\n
 	+ %2$.4s%3$04d.JPG\n
-	+ to folder \DCIM\%03dNIN01\n
+	+ to folder \\DCIM\\%03dNIN01\n
 	+ in the SD Card.
     68	 = Infos du Ranch Pokémon
     69	 = Effacer toutes les photos\n
@@ -245,7 +245,7 @@
 	+ to the SD Card.
     7f	 = (TRANSLATION NEEDED) Is it okay to save everything?
     80	 = (TRANSLATION NEEDED) All pictures have been saved\n
-	+ to folder \DCIM\%03dNIN01\n
+	+ to folder \\DCIM\\%03dNIN01\n
 	+ in the SD Card.
     81	 = (TRANSLATION NEEDED) Delete all unsecured\n
 	+ pictures?
