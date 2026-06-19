@@ -1490,10 +1490,10 @@
    236  = ¡El rancho se ha conectado\n
         + a Pokémon Edición Platino!\n
         + ¡Increíble!
-   237  = Y además,\n
-        + ¡he mejorado el rancho con\n
-        + nuevas funciones!
-   238  = Aquí tienes los detalles.
+   237  = ¡Y aún hay mas!\n
+        + ¡Varias partes del rancho\n
+        + han mejorado!
+   238  = Estas son las novedades.
    239  = ¡Venga!\n
         + ¡Veamos todas las novedades\n
         + que nos esperan en el rancho!\n
@@ -1507,6 +1507,6 @@
         + ¡Deberás descubrirlas por\n
         + tu propia cuenta!
    23d  = En fin,\n
-        + ¡gracias por toda tu ayuda!
+        + ¡gracias por toda tu ayuda!\n
         + ¡Sigamos trabajando\n
         + codo a codo!
