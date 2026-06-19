@@ -3,8 +3,8 @@ import shutil
 import struct
 import os
 
-region = sys.argv[2]
-filepath = sys.argv[1]
+region = sys.argv[1]
+filepath = sys.argv[2]
 backup_filepath = filepath + ".bak"
 
 if not os.path.exists(filepath):
