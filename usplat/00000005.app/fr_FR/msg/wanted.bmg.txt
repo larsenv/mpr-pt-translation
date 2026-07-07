@@ -74,8 +74,8 @@
 	+ de niveau au Mont Couronné.
      e	 = Un %ls %ls évolue\n
      f	 = Un %ls %ls évolue\n
-    10	 = (TRANSLATION NEEDED) Evolve NINCADA with room\n
-	+ in your party.
+    10	 = Fais évoluer NINGALE avec une\n
+	+ place dans ton équipe.
     11	 = Un %ls %ls évolue\n
 	+ si tu lui donnes un objet.
     12	 = Un %ls %ls évolue\n
@@ -93,10 +93,10 @@
 	+ la Pension Pokémon de Bonville.
     18	 = Aucun conseil n'est disponible\n
 	+ sur la façon d'attraper ce Pokémon.
-    19	 = (TRANSLATION NEEDED) You can get it by trading\n
-	+ with other DS Pokémon games.
-    1a	 = (TRANSLATION NEEDED) You can find it roaming\n 
-	+ around the Sinnoh region.
+    19	 = Tu peux l'obtenir en échangeant\n
+	+ avec d'autres jeux Pokémon DS.
+    1a	 = C'est un Pokémon nomade\n
+	+ dans la région de Sinnoh.
     1b	 = Route 201
     1c	 = Route 202
     1d	 = Route 203
@@ -288,7 +288,7 @@
     cf	 = ・Informations sur Munja
     d0	 = ・Informations sur Manzaï
     d1	 = ・Double port: Pokémon Saphir
-    d2	 = (TRANSLATION NEEDED) ・Level up between 8 p.m. and 4 a.m.
+    d2	 = ・Change de niveau entre 20 h et 4 h
     d3	 = ・Nécessite le Poké Radar
     d4	 = ・Pokémon rare de Pokémon Diamant
     d5	 = ・Pokémon rare de Pokémon Perle
@@ -301,8 +301,8 @@
     dc	 = ・Double port: Pokémon Rouge Feu
     dd	 = ・Double port: Pokémon Vert Feuille
     de	 = ・Double port: Pokémon Rubis
-    df	 = (TRANSLATION NEEDED) ・Dual Slot Sapphire
-    e0	 = (TRANSLATION NEEDED) ・Dual Slot Any
+    df	 = ・Double port: Pokémon Saphir
+    e0	 = ・Double port n'importe quel jeu
     e1	 = ・Après avoir obtenu le Pokédex Nat.
     e2	 = ・Jardin Trophée
     e3	 = Il peut t'arriver de rencontrer un ELEKID\n
@@ -364,9 +364,9 @@
 	+ en creusant dans le Souterrain.\n
     f3	 = Tu peux parfois trouver un RELICANTH\n
 	+ sauvage qui tient une Ecailleocéan.
-    f4	 = (TRANSLATION NEEDED) You can discover an Egg by leaving\n
-	+ MAGMAR♀ and a Pokémon that gets\n
-	+ along with it at the Pokémon Day Care.
+    f4	 = Pour obtenir cet Œuf, laisse à\n
+	+ la Pension Pokémon un Pokémon mâle\n
+	+ compatible avec un MAGMAR♀.
     f5	 = Tu peux obtenir un Améliorator\n
 	+ à Vestigion.
     f6	 = Tu peux obtenir un CD Douteux\n
@@ -487,15 +487,18 @@
 	+ au niveau 32.
    11a	 = SAQUEDENEU apprend Pouv.Antique\n
 	+ au niveau 33.
-   11b	 = (TRANSLATION NEEDED) YANMA learns AncientPower at Lv. 33.
+   11b	 = YANMA apprend Pouv.Antique\n
+	+ au niveau 33.
    11c	 = Ton Pokémon apprendra cette capacité si\n
 	+ tu offres une Ecaillecoeur au Maître des\n
 	+ Capacités à Verchamps. Tu peux obtenir une\n
 	+ Ecaillecoeur en creusant dans le Souterrain.
    11d	 = Quand EXCELANGUE atteint le niveau 33,\n
 	+ il apprend Roulade.
-   11e	 = (TRANSLATION NEEDED) BONSLY learns Mimic at Lv. 17.
-   11f	 = (TRANSLATION NEEDED) MIME JR. learns Mimic at Lv. 18.
+   11e	 = MANZAI apprend Copie\n
+	+ au niveau 17.
+   11f	 = MIME JR. apprend Copie\n
+	+ au niveau 18.
    120	 = Ce Pokémon apparaît si tu insères\n
 	+ une cartouche de jeu Game Boy Advance\n
 	+ Pokémon dans le port cartouche\n
@@ -504,12 +507,13 @@
 	+ sur la Route Victoire ou sur la Route 224.
    122	 = Tu peux obtenir un Croc Rasoir\n
 	+ au Parc des Combats.
-   123	 = (TRANSLATION NEEDED) You can get a Razor Fang on Route 225.
-   124	 = (TRANSLATION NEEDED) When WURMPLE reaches level 7,\n 
-	+ it evolves into SILCOON or CASCOON.
+   123	 = Tu peux obtenir un Croc Rasoir\n
+	+ sur la Route 225.
+   124	 = Quand CHENIPOTTE atteint le niveau 7,\n
+	+ il évolue en ARMULYS ou BLINDALYS.
    125	 = Tu le trouves dans le sac oublié par\n
 	+ le Professeur Sorbier au Lac Vérité.
-   126	 = (TRANSLATION NEEDED) Receive it from Prof. Rowan.
+   126	 = Reçu de la part du Professeur Sorbier.
    127	 = Fais éclore l'Œuf qu'Armand\n
 	+ te donne à l'Ile de Fer.
    128	 = Examine la TV du Vieux Château,\n
@@ -528,8 +532,8 @@
 	+ au Temple Frimapic.
    12f	 = Tu peux trouver ce Pokémon\n
 	+ dans la Grotte Retour.
-   130	 = (TRANSLATION NEEDED) You can meet it in the\n
-	+ Distortion World.
+   130	 = Tu peux trouver ce Pokémon\n
+	+ dans le Monde Distorsion.
    131	 = Une fois aperçu à l'Ile Pleine Lune,\n
 	+ il se met à voler autour de Sinnoh.
    132	 = Tu peux choisir parmi TORTIPOUSS,\n
@@ -539,7 +543,7 @@
    133	 = Tu pourras attraper ce Pokémon\n
 	+ si tu as REGIROCK, REGICE et\n
 	+ REGISTEEL dans ton équipe.
-   134	 = (TRANSLATION NEEDED) Morning/Night
+   134	 = Le matin/La nuit
    135	 = Fais changer de niveau à un BARPAU\n
 	+ lorsqu'il est suffisamment beau.
    136	 = Fais passer BABIMANTA au niveau supérieur\n
@@ -562,15 +566,14 @@
    145	 = Tu peux obtenir un Œuf si tu laisses\n
 	+ des Pokémon ♂ et ♀ compatibles\n
 	+ à la Pension Pokémon.
-   146	 = (TRANSLATION NEEDED) After entering the Hall of Fame,\n
-	+ talk to the elder of Celestic Town.\n
-	+ Requires an Adamant Orb.
-   147	 = (TRANSLATION NEEDED) After entering the Hall of Fame,\n
-	+ talk to the elder of Celestic Town.\n
-	+ Requires a Lustrous Orb.
-   148	 = (TRANSLATION NEEDED) After obtaining the National Dex,
-	+  go to Eterna City and\n
-	+ see Prof. Oak.
+   146	 = Après être entré au Panthéon,\n
+	+ parle à la doyenne de Célestia.\n
+	+ Requiert un Orbe Adamant.
+   147	 = Après être entré au Panthéon,\n
+	+ parle à la doyenne de Célestia.\n
+	+ Requiert un Orbe Perlé.
+   148	 = Après avoir obtenu le Pokédex National,
+	+  va à Vestigion et parle au Professeur Chen.
    149	 = 
    14a	 = NOUVEAU!
 
