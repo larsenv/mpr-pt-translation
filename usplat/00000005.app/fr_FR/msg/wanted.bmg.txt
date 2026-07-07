@@ -72,8 +72,9 @@
 	+ niveau dans la Forêt Vestigion.
      d	 = Un MAGNETON évolue s'il change\n
 	+ de niveau au Mont Couronné.
-     e	 = Un %ls %ls évolue\n
-     f	 = Un %ls %ls évolue\n
+     e	 = Reçu à Voilaroc.
+     f	 = Fais éclore l'œuf donné par\n
+	+ Cynthia à Vestigion.
     10	 = Fais évoluer NINGALE avec une\n
 	+ place dans ton équipe.
     11	 = Un %ls %ls évolue\n
@@ -218,7 +219,7 @@
     89	 = Le matin
     8a	 = Le matin/L'après-midi
     8b	 = La nuit
-    8c	 = Morning/Night
+    8c	 = Le matin/La nuit
     8d	 = ・Niveau %d ou supérieur
     8e	 = ・Arbre à Miel
     8f	 = ・Si Défense > Attaque
@@ -232,10 +233,10 @@
     97	 = ・Œuf de COXY
     98	 = ・Œuf de OKEOKE
     99	 = ・Œuf de NIRONDELLE
-    9a	 = ・SPHEAL Egg
-    9b	 = ・SEEL Egg
-    9c	 = ・ELEKID Egg
-    9d	 = ・MAGBY Egg
+    9a	 = ・Œuf de OBALIE
+    9b	 = ・Œuf de OTARIA
+    9c	 = ・Œuf de ELEKID
+    9d	 = ・Œuf de MAGBY
     9e	 = ・Pêcher avec la Canne
     9f	 = ・Pêcher avec la Super Canne
     a0	 = ・Pêcher avec la Méga Canne
@@ -260,7 +261,7 @@
     b3	 = ・Objet: Pierresoleil
     b4	 = ・Objet: Pierre Lune
     b5	 = ・Objet: Ecailleocéan
-    b6	 = ・Item: Lax Incense
+    b6	 = ・Objet: Encens Doux
     b7	 = ・Objet: Pierre Nuit
     b8	 = ・Roche Moussue
     b9	 = ・Roche de Glace
@@ -271,8 +272,8 @@
     be	 = ・Fossile: Foss. Armure
     bf	 = ・Fossile: Foss. Griffe
     c0	 = ・Fossile: Foss. Crâne
-    c1	 = ・Dug up with an even Trainer ID number.
-    c2	 = ・Dug up with an odd Trainer ID number.
+    c1	 = ・En creusant avec un ID dresseur pair.
+    c2	 = ・En creusant avec un ID dresseur impair.
     c3	 = ・Si Attaque = Défense\040
     c4	 = ・Si Attaque > Défense\040
     c5	 = ・Sur l'eau (en utilisant Surf)
@@ -305,8 +306,7 @@
     e0	 = ・Double port n'importe quel jeu
     e1	 = ・Après avoir obtenu le Pokédex Nat.
     e2	 = ・Jardin Trophée
-    e3	 = Il peut t'arriver de rencontrer un ELEKID\n
-	+ sauvage qui tient un Electiriseur. Tu peux\n
+    e3	 = Evolution de CHENIPOTTE
     e4	 = Etale sur un arbre le Miel que tu peux\n
 	+ obtenir au Pré Floraville, puis attends\n
 	+ une demi-journée qu'un Pokémon arrive.\n
@@ -359,11 +359,15 @@
     f0	 = Pour obtenir cet Œuf, laisse à\n
 	+ la Pension Pokémon un Pokémon mâle\n
 	+ compatible avec un HELEDELLE♀.
-    f1	 = Tu peux parfois trouver une Pierresoleil \n
-    f2	 = Tu peux parfois trouver une Pierre Lune\n
-	+ en creusant dans le Souterrain.\n
-    f3	 = Tu peux parfois trouver un RELICANTH\n
-	+ sauvage qui tient une Ecailleocéan.
+    f1	 = Pour obtenir cet Œuf, laisse à\n
+	+ la Pension Pokémon un Pokémon mâle\n
+	+ compatible avec un PHOGLEUR♀.
+    f2	 = Pour obtenir cet Œuf, laisse à\n
+	+ la Pension Pokémon un Pokémon mâle\n
+	+ compatible avec un LAMANTINE♀.
+    f3	 = Pour obtenir cet Œuf, laisse à\n
+	+ la Pension Pokémon un Pokémon mâle\n
+	+ compatible avec un ELEKTEK♀.
     f4	 = Pour obtenir cet Œuf, laisse à\n
 	+ la Pension Pokémon un Pokémon mâle\n
 	+ compatible avec un MAGMAR♀.
@@ -377,9 +381,9 @@
 	+ attraper des ELEKID aux Eoliennes.\n
 	+ \n
 	+ Double port: Pokémon Rouge Feu.
-    f9	 = Pêche pendant que tu te déplaces avec Surf.\n
-	+ BARPAU n'apparaît qu'à 4 endroits. Une fois\n
-	+ que tu en as trouvé un, tu as 50% de chance\n
+    f9	 = Il peut t'arriver de rencontrer un ELEKTEK\n
+	+ sauvage qui tient un Electiriseur. Tu peux\n
+	+ attraper des ELEKTEK sur la Route 222.\n
     fa	 = Tu peux trouver une Pierre Eclat\n
 	+ sur l'Ile de Fer ou sur la Route 228.
     fb	 = Tu peux trouver une Pierre Feu\n
@@ -395,7 +399,9 @@
 	+ sur la Route 227.\n
 	+ \n
 	+ Double port: Pokémon Vert Feuille.
-    ff	 = Une fois qu'EVOLI t'apprécie suffisamment,\n
+    ff	 = Un MAGMAR sauvage tient parfois un\n
+	+ Magmariseur. Tu peux attraper un MAGMAR\n
+	+ à la Forge Fuego.
    100	 = Il arrive qu'un ARCHEOMIRE sauvage ou\n
 	+ un STEELIX sauvage tienne une Peau Métal.
    101	 = Tu peux obtenir une Pierre Aube au\n
@@ -554,12 +560,12 @@
    13a	 = ・Informations sur OUISTICRAM
    13b	 = ・Informations sur TIPLOUF
    13c	 = ・Informations sur REGIGIGAS
-   13d	 = ・About DIALGA
-   13e	 = ・About PALKIA
-   13f	 = ・About GIRATINA
-   140	 = ・About ARTICUNO
-   141	 = ・About ZAPDOS
-   142	 = ・About MOLTRES
+   13d	 = ・Informations sur DIALGA
+   13e	 = ・Informations sur PALKIA
+   13f	 = ・Informations sur GIRATINA
+   140	 = ・Informations sur ARTIKODIN
+   141	 = ・Informations sur ELECTHOR
+   142	 = ・Informations sur SULFURA
    143	 = Tu peux trouver cet Œuf à la\n
 	+ Pension Pokémon de Bonville.
    144	 = ・Informations sur les Œufs
