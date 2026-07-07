@@ -84,11 +84,11 @@
 	+ $4$\n
 	+ Rencontré par hasard au\n
 	+ N. $3$.
-     8	 = (TRANSLATION NEEDED) $1$ $2$, 20$0$\n
+     8	 = $1$ $2$, 20$0$\n
 	+ $4$\n
-	+ Apparently had a\n
-	+ fateful encounter at\n
-	+ Lv. $3$.
+	+ Apparemment rencontré\n
+	+ par hasard\n
+	+ au N. $3$.
      9	 = $7$ $6$ 20$5$\n
 	+ $8$\n
 	+ Oeuf obtenu.\n
@@ -262,20 +262,20 @@
     81	 = Grand Lac
     82	 = Restaurant
     83	 = Parc des Combats
-    84	 = Battle Frontier
-    85	 = Battle Factory
-    86	 = Battle Castle
-    87	 = Battle Arcade
-    88	 = Battle Hall
-    89	 = Distortion World
-    8a	 = Global Terminal
+    84	 = Zone de Combat
+    85	 = Usine de Combat
+    86	 = Castel de Combat
+    87	 = Arcade de Combat
+    88	 = Scène de Combat
+    89	 = Monde Distorsion
+    8a	 = Terminal Mondial
     8b	 = Villa
-    8c	 = Battleground
-    8d	 = Rotom's Room
-    8e	 = T.G. Eterna Bldg
-    8f	 = Iron Ruins
-    90	 = Iceberg Ruins
-    91	 = Rock Peak Ruins
+    8c	 = Café Combats
+    8d	 = Salle MOTISMA
+    8e	 = Team G Vestigion
+    8f	 = Ruines de Fer
+    90	 = Ruines Iceberg
+    91	 = Ruines Pic Roche
     92	 = Endroit superbe
     93	 = Pokémon Ranger
     94	 = Endroit lointain
@@ -329,7 +329,7 @@
     c4	 = POKéPARK 15
     c5	 = POKéPARK 16
     c6	 = Centre Pokémon
-    c7	 = PC Tokyo
+    c7	 = CP Tokyo
     c8	 = CP Osaka
     c9	 = CP Fukuoka
     ca	 = CP Nagoya
@@ -361,7 +361,7 @@
     e4	 = Hoenn
     e5	 = Sinnoh
     e6	 = ----
-    e7	 = Distant land
+    e7	 = Pays lointain
     e8	 = un voyageur
     e9	 = Armand
 
