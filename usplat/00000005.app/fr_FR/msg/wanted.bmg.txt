@@ -375,7 +375,8 @@
 	+ à Vestigion.
     f6	 = Tu peux obtenir un CD Douteux\n
 	+ sur la Route 225.
-    f7	 = Si tu réussis à attraper les 26 types\n
+    f7	 = Tu peux obtenir un CD Douteux\n
+	+ dans le QG Galaxie.
     f8	 = Il peut t'arriver de rencontrer un ELEKID\n
 	+ sauvage qui tient un Electiriseur. Tu peux\n
 	+ attraper des ELEKID aux Eoliennes.\n
