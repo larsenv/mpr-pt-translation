@@ -1,0 +1,85 @@
+#BMG  <<<  The first 4 characters '#BMG' are the magic for a BMG text file.
+#     <<<  Don't remove them!
+#
+# Details about BMG text files are available in the Web:
+#  * Syntax and Semantics: https://szs.wiimm.de/doc/bmg/text
+#  * The BMG file format:  https://szs.wiimm.de/r/wiki/BMG
+#
+#
+#------------------------------------------------------------------------------
+
+# The endianness of binary files: 0=big endian (default), 1=little endian.
+# Little endian is only tested for encoding UTF-8 (need examples of analysis).
+@ENDIAN = 0
+
+# If 1, then enable legacy (GameCube) mode for old binary BMG files.
+# If enabled, ENCODING is always CP1252.
+@LEGACY = 0
+
+# Define encoding of BMG: 1=CP1252, 2=UTF-16/be, 3=Shift-JIS, 4=UTF-8
+@ENCODING = 2
+
+# Create »MID1« section: 0=off, 1=on
+@BMG-MID = 0
+
+# Size of each element of section 'INF1' (MKW=8).
+# This setting has impact to attributes and MKW features.
+@INF-SIZE = 0x08
+
+# Default attribute values for this BMG (MKW=[1])
+@DEFAULT-ATTRIBS = [0]
+
+# Use MKW specific color names: 0=off, 1=auto, 2=on
+@COLOR-NAMES = 1
+
+# Use MKW messages and track names: 0=off, 1=auto, 2=on
+@MKW-MESSAGES = 1
+
+#
+#------------------------------------------------------------------------------
+
+# This part defines values for unknown parameters of section headers.
+@UNKNOWN-INF32-0C =    0x30000	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
+@UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
+
+#
+#------------------------------------------------------------------------------
+
+     0	= Normal
+     1	= Lucha
+     2	= Volador
+     3	= Veneno
+     4	= Tierra
+     5	= Roca
+     6	= Bicho
+     7	= Fantasma
+     8	= Acero
+     9	= (?)
+     a	= Fuego
+     b	= Agua
+     c	= Planta
+     d	= Eléctrico
+     e	= Psíquico
+     f	= Hielo
+    10	= Dragón
+    11	= Siniestro
+    12	= NORMAL
+    13	= LUCHA
+    14	= VOLAD
+    15	= VENENO
+    16	= TIERRA
+    17	= ROCA
+    18	= BICHO
+    19	= FANT
+    1a	= ACERO
+    1b	= (?)
+    1c	= FUEGO
+    1d	= AGUA
+    1e	= PLANTA
+    1f	= ELÉCT
+    20	= PSÍQ
+    21	= HIELO
+    22	= DRAGÓN
+    23	= SINIE
+

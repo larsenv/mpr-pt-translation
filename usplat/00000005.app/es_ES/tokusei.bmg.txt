@@ -1,0 +1,172 @@
+#BMG  <<<  The first 4 characters '#BMG' are the magic for a BMG text file.
+#     <<<  Don't remove them!
+#
+# Details about BMG text files are available in the Web:
+#  * Syntax and Semantics: https://szs.wiimm.de/doc/bmg/text
+#  * The BMG file format:  https://szs.wiimm.de/r/wiki/BMG
+#
+#
+#------------------------------------------------------------------------------
+
+# The endianness of binary files: 0=big endian (default), 1=little endian.
+# Little endian is only tested for encoding UTF-8 (need examples of analysis).
+@ENDIAN = 0
+
+# If 1, then enable legacy (GameCube) mode for old binary BMG files.
+# If enabled, ENCODING is always CP1252.
+@LEGACY = 0
+
+# Define encoding of BMG: 1=CP1252, 2=UTF-16/be, 3=Shift-JIS, 4=UTF-8
+@ENCODING = 2
+
+# Create »MID1« section: 0=off, 1=on
+@BMG-MID = 0
+
+# Size of each element of section 'INF1' (MKW=8).
+# This setting has impact to attributes and MKW features.
+@INF-SIZE = 0x08
+
+# Default attribute values for this BMG (MKW=[1])
+@DEFAULT-ATTRIBS = [0]
+
+# Use MKW specific color names: 0=off, 1=auto, 2=on
+@COLOR-NAMES = 1
+
+# Use MKW messages and track names: 0=off, 1=auto, 2=on
+@MKW-MESSAGES = 1
+
+#
+#------------------------------------------------------------------------------
+
+# This part defines values for unknown parameters of section headers.
+@UNKNOWN-INF32-0C =    0x70000	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
+@UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
+
+#
+#------------------------------------------------------------------------------
+
+     0	= -
+     1	= Hedor
+     2	= Llovizna
+     3	= Impulso
+     4	= Armad. Bat.
+     5	= Robustez
+     6	= Humedad
+     7	= Flexibilidad
+     8	= Velo Arena
+     9	= Elec. Estát.
+     a	= Absor. Elec.
+     b	= Absor. Agua
+     c	= Despiste
+     d	= Aclimatación
+     e	= Ojocompuesto
+     f	= Insomnio
+    10	= Cambio Color
+    11	= Inmunidad
+    12	= Absor. Fuego
+    13	= Polvo Escudo
+    14	= Ritmo Propio
+    15	= Ventosas
+    16	= Intimidación
+    17	= Sombratrampa
+    18	= Piel Tosca
+    19	= Superguarda
+    1a	= Levitación
+    1b	= Efec. Espora
+    1c	= Sincronía
+    1d	= Cuerpo Puro
+    1e	= Cura Natural
+    1f	= Pararrayos
+    20	= Dicha
+    21	= Nado Rápido
+    22	= Clorofila
+    23	= Iluminación
+    24	= Rastro
+    25	= Potencia
+    26	= Punto Tóxico
+    27	= Foco Interno
+    28	= Escudo Magma
+    29	= Velo Agua
+    2a	= Imán
+    2b	= Insonorizar
+    2c	= Cura Lluvia
+    2d	= Chorro Arena
+    2e	= Presión
+    2f	= Sebo
+    30	= Madrugar
+    31	= Cuerpo Llama
+    32	= Fuga
+    33	= Vista Lince
+    34	= Corte Fuerte
+    35	= Recogida
+    36	= Ausente
+    37	= Entusiasmo
+    38	= Gran Encanto
+    39	= Más
+    3a	= Menos
+    3b	= Predicción
+    3c	= Viscosidad
+    3d	= Mudar
+    3e	= Agallas
+    3f	= Escama Esp.
+    40	= Lodo Líquido
+    41	= Espesura
+    42	= Mar Llamas
+    43	= Torrente
+    44	= Enjambre
+    45	= Cabeza Roca
+    46	= Sequía
+    47	= Trampa Arena
+    48	= Espír. Vital
+    49	= Humo Blanco
+    4a	= Energía Pura
+    4b	= Caparazón
+    4c	= Bucle Aire
+    4d	= Tumbos
+    4e	= Electromotor
+    4f	= Rivalidad
+    50	= Impasible
+    51	= Manto Níveo
+    52	= Gula
+    53	= Irascible
+    54	= Liviano
+    55	= Ignífugo
+    56	= Simple
+    57	= Piel Seca
+    58	= Descarga
+    59	= Puño Férreo
+    5a	= Antídoto
+    5b	= Adaptable
+    5c	= Encadenado
+    5d	= Hidratación
+    5e	= Poder Solar
+    5f	= Pies Rápidos
+    60	= Normalidad
+    61	= Francotirad.
+    62	= Muro Mágico
+    63	= Indefenso
+    64	= Rezagado
+    65	= Experto
+    66	= Defensa Hoja
+    67	= Zoquete
+    68	= Rompemoldes
+    69	= Afortunado
+    6a	= Resquicio
+    6b	= Anticipación
+    6c	= Alerta
+    6d	= Ignorante
+    6e	= Cromolente
+    6f	= Filtro
+    70	= Inicio Lento
+    71	= Intrépido
+    72	= Colector
+    73	= Gélido
+    74	= Roca Sólida
+    75	= Nevada
+    76	= Recogemiel
+    77	= Cacheo
+    78	= Audaz
+    79	= Multitipo
+    7a	= Don Floral
+    7b	= Mal Sueño
