@@ -1184,16 +1184,14 @@
 	+ des Pokéschau-Clubs.\n
 	+ Nenne mich einfach\n
 	+ %2$ls!
-   1c7   = Also...\n
-     + Ich hab gehört, du kommst,\n
-     + um meine Ranch zu besuchen,\n
-     + stimmt's?
+   1c7   = Also... Ich hab gehört,\n
+     + du kommst meine Ranch besuchen?
    1c8   = Ich bin Mitglied Nr. %1$d\n
 	+ des Pokéschau-Clubs.\n
 	+ Nenne mich einfach\n
 	+ %2$ls!
-   1c9   = Also.. Ich hab gehört,\n
-     + du möchtest meine Ranch sehen?
+   1c9   = Also... Ich hab gehört, du\n
+     + möchtest meine Ranch sehen?
    1ca   = Dann komme ich ein anderes\n
 	+ Mal vorbei und lade dich ein.\n
 	+ Vielleicht hast du ja dann Zeit.
@@ -1618,9 +1616,10 @@
 
    233   = Hallo! Ich bin Eukalia
    234   = Hallo! Ich bin Eukalia\n
-	+ Wir haben uns lange nicht gesehen!
-   235   = Hast du einen Moment Zeit\n
-     + bevor ich zur Ranch zurückkehre?\n
+	+ Wir haben uns lange nicht\n
+	+ gesehen!
+   235   = Hast du kurz Zeit bevor\n
+     + ich zur Ranch zurückkehre?\n
      + Ich habe dir was zu erzählen!
    236   = Wow!\n
      + Unsere Ranch ist nun mit\n

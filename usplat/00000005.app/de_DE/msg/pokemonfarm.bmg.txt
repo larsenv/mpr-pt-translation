@@ -47,8 +47,9 @@
 #------------------------------------------------------------------------------
 
      0	 = 
-     1	 = Starte ein Pokémon-Spiel auf dem\n
-	+ DS-System und wähle im Startmenü\n
+     1	 = Starte ein Pokémon-Spiel\n
+	+ auf dem DS-System\n
+	+ und wähle im Startmenü\n
 	+ "Mit Wii verbinden".
      2	 = Sollte diese Option nicht im\n
 	+ Startmenü erscheinen, kehre\n
@@ -417,11 +418,11 @@
     d0	 = (Keine Musik)
     d1	 = ♪Platin Farm
     d2	 = ♪Seichtes Sonnenlicht
-    d3	 = ♪Gemächlicher Spaziergang
+    d3	 = ♪Ruhiger Spaziergang
     d4	 = ♪Verbundene Welt
     d5	 = ♪Mein Traum
     d6	 = ♪Los gehts!
-    d7	 = ♪Willkommen auf der Ranch
+    d7	 = ♪Willkommen a. d. Ranch
     d8	 = ♪Pokémon Parade
     d9	 = ♪Pummeluff's Lied
     da	 = Pokéschau-Club
@@ -440,8 +441,8 @@
     e5	 = Einführung
     e6	 = Steuerung
     e7	 = Fotos
-    e8	 = Verbindung mit\n
-	+ Nintendo DS-System
+    e8	 = Mit DS-System\n
+	+ verbinden
     e9	 = Details
     ea	 = Schwarzes\n
 	+ Brett
@@ -680,8 +681,7 @@
    1bb	 = Hand bewegen
    1bc	 = Bewege die Hand mit der\n
 	+ Wii-Fernbedienung.
-   1bd	 = Ansicht\n
-	+ zentriert
+   1bd	 = Ansicht zentriert
    1be   = Zeige auf ein Objekt, das du\n
 	+ zentrieren willst, und\n
 	+ drücke \x{e042}.
@@ -726,16 +726,17 @@
 	+ mit, um Leben auf die Ranch zu bringen.
    1d1	 = 
    1d2	 = 
-   1d3	 = Platin-Update-Informationen (1)
+   1d3	 = Platin-Update-Info (1)
    1d4	 = Platin-Edition-Funktionen
    1d5	 = ・My Pokémon Ranch kann nun mit\n
 	+ Pokémon Platin-Edition für den\n
-	+ Nintendo DS verbunden werden.
+	+ Nintendo DS verbunden werden.\n
+	+ \n
 	+ ・Während sich die Ranch vergrößert\n
 	+ kannst du nun bis zu 1.500 Pokémon\n
 	+ in ihr halten.
-   1d6	 = Platin-Update-Informationen (2)
-   1d7	 = "Es gibt neue Dinge auszuprobieren!"
+   1d6	 = Platin-Update-Info (2)
+   1d7	 = "Probier neue Dinge aus!"
    1d8	 = ・Mehr Optionen wurden dem Menü\n
 	+ hinzugefügt.\n
 	+ \n
@@ -768,10 +769,8 @@
 	+ ←→  Seiten durchblättern
    1e7	 = 
    1e8	 = 
-   1e9	 = Ansicht\n
-	+ zentriert
-   1ea	 = Ansicht\n
-	+ zentriert
+   1e9	 = Ansicht zentrieren
+   1ea	 = Zentrieren
    1eb	 = Drücke bei zentrierter\n
 	+ Ansicht erneut \x{e042}, um die\n
 	+ Kamera auf ein Pokémon\n
@@ -900,14 +899,14 @@
    22a	 = Details (2)
    22b	 = Pokémon auf der Ranch
    22c	 = Du kannst nun die Pokémon\n
-	+ die du gelagert hast sehen.
+	+ die du gelagert hast sehen.\n
 	+ Dieser Knopf öffnet den\n
 	+ "Pokémon entlassen?" Dialog.\n
    22d	 = Pokémon entlassen?
    22e	 = Wähle welche Pokémon du\n
-	+ auf die Ranch entlassen willst.\n
-	+ Du kannst nach Typ und Menge\n
-	+ sortieren.
+	+ auf die Ranch entlassen\n
+	+ willst. Du kannst nach Typ\n 
+	+ und Menge sortieren.
    22f	 = Details (3)
    230	 = Parade
    231	 = Eine Parade aller Pokémon, die sich\n
@@ -987,8 +986,9 @@
    254	 = Du kannst die Titel\n
 	+ sehen, die du auf der Ranch\n
 	+ gehört hast.\n
-	+ Du kannst auch einen Titel auswählen\n
-	+ um die Musik zu wechseln.
+	+ Du kannst auch einen Titel\n
+	+ auswählen um die Musik\n
+	+ zu wechseln.
    255	 = 
    256	 = 
    257	 = Heutige Musik (2)
@@ -999,9 +999,10 @@
    25b	 = Musik beenden.
    25c	 = Pokéschau-Club
    25d	 = Pokéschau-Club
-   25e	 = Du kannst eine Pokeschau-Club
-	+ Ranch wieder besuchen, wenn du
-	+ sie bereits besucht hast.
+   25e	 = Du kannst eine Pokéschau\n
+    + -Club Ranch wieder besuchen,\n
+	+ wenn du sie bereits besucht\n
+	+ hast.
    25f	 = Optionen
    260	 = Optionen
    261	 = Wähle die Miis, die auf die\n
@@ -1054,8 +1055,8 @@
    279	 = Frage
    27a	 = Kann ich ein Pokémon von der Ranch\n
 	+ mitnehmen, das mein Freund mit einer\n
-	+ Pokémon Diamant, Perl oder Platin-Karte\n
-	+ abgelegt hat?
+	+ Pokémon Diamant, Perl oder\n
+	+ Platin-Karte abgelegt hat?
    27b	 = Antwort
    27c	 = Nein.\n
 	+ Du kannst ein Pokémon nur mit\n
@@ -1095,10 +1096,11 @@
    28e	 = Wie schalte ich die\n
 	+ Musik aus?
    28f	 = Antwort
-   290	 = Wähle (Keine Musik) aus "Heutige Musik"\n
-	+ im Schwarzen Brett, oder halte \x{e043} und \x{e041}↓\n
-	+ wenn du das Spiel startest. Dann kannst\n
-	+ du das Spiel ohne Musik spielen.
+   290	 = Wähle im Schwarzen Brett unter\n
+    + "Heutige Musik" (Keine Musik) aus,\n
+	+ oder halte \x{e043} und \x{e041}↓\n
+	+ wenn du das Spiel startest. Dann\n
+	+ kannst du ohne Musik spielen.
    291	 = Miis auf der Ranch (1)
    292	 = Miis wählen
    293	 = Drücke \x{e042}, um ein Mii zu wählen,\n
