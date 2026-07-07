@@ -147,8 +147,8 @@
 	+ zusammengefasst: Wenn du\n
 	+ irgendwelche Pokémon hast,\n
 	+ bring sie mit!
-    26	 = (TRANSLATION NEEDED) By the way... Do you have\n
-	+ a Nintendo DS?
+    26	 = Übrigens... Hast du einen\n
+	+ Nintendo DS?
     27	 = Ja? Fantastisch! Das heißt, du\n
 	+ kannst alle deine Pokémon aus\n
 	+ diesen Spielen auf die Ranch\n
@@ -417,8 +417,8 @@
     92	 = Wow! Wir betreuen jetzt\n
 	+ %ls Pokémon auf der\n
 	+ Ranch!
-    93	 = (TRANSLATION NEEDED) The number of Pokémon at the\n
-	+ Ranch has become %d!
+    93	 = Die Anzahl der Pokémon auf\n
+	+ der Ranch erreicht %d!
     94	 = Okay, dann lass uns die Ranch\n
 	+ vergrößern! Morgen, am\n
 	+ %ls, wird der\n
@@ -1040,9 +1040,10 @@
 	+ Foto von der\n
 	+ %ls-Ranch\n
 	+ mitgebracht!
-   198	 = (TRANSLATION NEEDED) Hello!\n
-	+ I'm %ls\n
-	+ from %ls Ranch!
+   198	 = Hallo!\n
+	+ Ich bin %ls\n
+	+ von der %ls-\n
+	+ Ranch!
    199   = Hallo! Ich habe dir ein\n
 	+ Foto von der\n
 	+ %ls-Ranch\n
@@ -1632,8 +1633,8 @@
      + Lass uns schauen, was alles\n
      + auf der Ranch neu ist!\n
      + Auf geht's!
-   23a   = (TRANSLATION NEEDED) This is our newly upgraded\n
-	+ Ranch!
+   23a   = Das ist unsere vor kurzem\n
+	+ erweiterte Ranch!
    23b   = Die Ranch ist gewachsen\n
      + seitdem sie mit Pokémon Platin\n
      + verbunden wurde!
