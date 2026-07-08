@@ -47,10 +47,10 @@
 #------------------------------------------------------------------------------
 
      0	 = 
-     1	 = (TRANSLATION NEEDED) Start a Nintendo DS Pokémon\n
-	+ game on the Nintendo DS system\n
-	+ and select Connect to Wii on the\n
-	+ main menu.
+     1	 = Démarrez un jeu Pokémon DS sur\n
+	+  votre console Nintendo DS et\n
+	+  sélectionnez "Se connecter à la\n
+	+  Wii" au menu de démarrage.
      2	 = Si cette option ne s'affiche pas\n
 	+ au menu de démarrage, revenez\n
 	+ à l'écran titre puis réessayez.
@@ -107,18 +107,18 @@
 	+ a été interrompue.
     25	 = %d Pokémon ont rejoint le Ranch.
     26	 = 1 Pokémon a rejoint le Ranch.
-    27	 = (TRANSLATION NEEDED) %d Pokémon joined.
+    27	 = %d Pokémon ont rejoint le Ranch.
     28	 = %d Pokémon ont quitté le Ranch.
     29	 = 1 Pokémon a quitté le Ranch.
-    2a	 = (TRANSLATION NEEDED) %d Pokémon left.
+    2a	 = %d Pokémon ont quitté le Ranch.
     2b	 = La connexion à la Nintendo DS\n
 	+ a échoué.\n
 	+ \fVeuillez redémarrer My\n
 	+ Pokémon Ranch et réessayer.
     2c	 = 
     2d	 = En attente de réponse de la DS...
-    2e   = (TRANSLATION NEEDED) \n
-	+ Disconnected from the DS.
+    2e   = \n
+	+ DS déconnectée.
     2f   = Veuillez patienter...
     30	 = Trier:\040
     31	 = Nom:\040
@@ -181,10 +181,10 @@
 	+ sur une carte SD
     66	 = Voulez-vous sauvegarder\n
 	+ cette photo sur une carte SD?
-    67	 = (TRANSLATION NEEDED) Saved the picture as\n
-	+ %2$.4s%3$04d.JPG\n
-	+ to folder \\DCIM\\%03dNIN01\n
-	+ in the SD Card.
+    67	 = Photo sauvegardée dans le\n
+	+ répertoire \\DCIM\\%03dNIN01\n
+	+ de la carte SD, sous le nom\n
+	+ %.4s%04d.JPG.
     68	 = Infos du Ranch Pokémon
     69	 = Effacer toutes les photos\n
 	+ de la carte SD
@@ -239,19 +239,23 @@
 	+ ont été effacées.
     7c	 = Impossible de lire les données\n
 	+ des photos.
-    7d	 = (TRANSLATION NEEDED) Save all pictures to the\n
-	+ SD Card.
-    7e	 = (TRANSLATION NEEDED) Save all pictures in the album\n
-	+ to the SD Card.
-    7f	 = (TRANSLATION NEEDED) Is it okay to save everything?
-    80	 = (TRANSLATION NEEDED) All pictures have been saved\n
-	+ to folder \\DCIM\\%03dNIN01\n
-	+ in the SD Card.
-    81	 = (TRANSLATION NEEDED) Delete all unsecured\n
-	+ pictures?
-    82	 = (TRANSLATION NEEDED) Are you sure you want to\n
-	+ delete everything?
-    83	 = La carte SD n'a pas pu être lue.
+    7d	 = Sauvegarder toutes les photos\n
+	+ sur la carte SD
+    7e	 = Il est possible de\n
+	+ sauvegarder toutes les photos\n
+	+ de l'album sur la carte SD.
+    7f	 = Voulez-vous sauvegarder\n
+	+ toutes les photos?
+    80	 = Toutes les photos ont été\n
+	+ sauvegardées dans le répertoire\n
+	+ \\DCIM\\%03dNIN01 de la\n
+	+ carte SD.
+    81	 = Voulez-vous effacer toutes les\n
+	+ photos non protégées?
+    82	 = Voulez-vous vraiment\n
+	+ effacer toutes les photos?
+    83	 = Toutes les photos non protégées\n
+	+ ont été effacées.
     84	 = Aucune carte SD détectée.
     85	 = Impossible d'écrire sur la carte\n
 	+ SD. Veuillez vérifier le verrou\n
@@ -307,8 +311,8 @@
 	+ survenue avec la carte SD.\n
 	+ Veuillez réinitialiser\n
 	+ la console et réessayer.
-    99   = (TRANSLATION NEEDED) Saving was canceled because\n
-	+ the SD Card was reinserted.
+    99   = La sauvegarde a été annulée\n
+	+ parce que la carte SD a été réinsérée.
     9a	 = Sélectionnez le ou les Mii que\n
 	+ vous voulez amener au Ranch.
     9b	 = %d au Ranch, encore %d à choisir.
@@ -376,8 +380,8 @@
     b7	 = Ce service peut être interrompu\n
 	+ sans préavis.
     b8	 = Recherche Pokémon
-    b9   = (TRANSLATION NEEDED) Today's Music
-    ba	 = (TRANSLATION NEEDED) Club Look-See
+    b9   = Musique du jour
+    ba	 = Club Regardez-moi
     bb	 = Il est plein %(02)%{}!
     bc	 = Il est plein d'Oeufs!
     bd	 = Niveau du Ranch\n
@@ -406,28 +410,28 @@
 	+ par %ls!
     c8	 = Par %ls
     c9	 = jusqu'au %ls
-    ca	 = Trade with %ls!
-    cb	 = Choose Music
+    ca	 = Échange avec %ls!
+    cb	 = Musique
     cc	 = Page précédente
     cd	 = Page suivante
     ce	 = Valider et ressortir
-    cf	 = Others
-    d0	 = (No Music)
-    d1	 = ♪Platinum Farm
-    d2	 = ♪Soft Sunlight
-    d3	 = ♪Leisurely Walk
-    d4	 = ♪Connected World
-    d5	 = ♪My Dream
-    d6	 = ♪Let's Go!
-    d7	 = ♪Welcome to the Ranch
-    d8	 = ♪My Pokémon Parade
-    d9	 = ♪Jigglypuff's Song
-    da	 = Club Look-See
+    cf	 = Autres
+    d0	 = (Pas de musique)
+    d1	 = ♪Ferme Platine
+    d2	 = ♪Lueur du soleil
+    d3	 = ♪Balade paisible
+    d4	 = ♪Monde connecté
+    d5	 = ♪Mon rêve
+    d6	 = ♪Allons-y!
+    d7	 = ♪Bienvenue au Ranch
+    d8	 = ♪Mon défilé Pokémon
+    d9	 = ♪Chanson de Rondoudou
+    da	 = Club Regardez-moi
     db	 = Page précédente
     dc	 = Page suivante
     dd	 = Retour
-    de	 = (TRANSLATION NEEDED) Would you like to go to\n
-	+ the %ls Ranch?
+    de	 = Voudriez-vous visiter le Ranch\n
+	+ de %ls?
     df	 = ???
     e0	 = Demain
     e1	 = le Ranch va s'agrandir!
@@ -460,13 +464,14 @@
     f7	 = ♂
     f8	 = ♀
     f9	 = Les amis du Ranch
-    fa	 = Pokémon on the Ranch
+    fa	 = Pokémon sur le\n
+	+ Ranch
     fb	 = Tous
     fc	 = Mes favoris
-    fd	 = Stored Pokémon
+    fd	 = Mes Pokémon
     fe	 = %d
-    ff	 = %d stored.
-   100	 = %d stored.
+    ff	 = %d Pokémon affiché(s).
+   100	 = %d Pokémon affiché(s).
    101	 = Page précédente
    102	 = Page suivante
    103	 = Retour
@@ -477,43 +482,43 @@
    108	 = Responsable
    109	 = Défilé
    10a	 = 
-   10b	 = What do you want to store?
-   10c	 = Default
-   10d	 = List by Pokédex order
-   10e	 = List by type
-   10f	 = List by marking
-   110	 = List by body style
+   10b	 = Filtrer
+   10c	 = Défaut
+   10d	 = Quantité
+   10e	 = Type
+   10f	 = Marquage
+   110	 = Corps
    111	 = %d/%d
-   112	 = red
-   113	 = blue
-   114	 = yellow
-   115	 = green
-   116	 = black
-   117	 = brown
-   118	 = purple
-   119	 = gray
-   11a	 = white
-   11b	 = pink
-   11c	 = short
-   11d	 = tall
-   11e	 = light
-   11f	 = heavy
-   120	 = fiery
-   121	 = cold
-   122	 = scary
-   123	 = fast
-   124	 = round
-   125	 = flying
-   126	 = sturdy
-   127	 = focused
-   128	 = paralyzing
-   129	 = calm
-   12a	 = oblivious
-   12b	 = stinky
-   12c	 = singing
-   12d	 = sweet-smelling
-   12e	 = rare
-   12f	 = Ranch Rumor %02d
+   112	 = Rouge
+   113	 = Bleu
+   114	 = Jaune
+   115	 = Vert
+   116	 = Noir
+   117	 = Marron
+   118	 = Violet
+   119	 = Gris
+   11a	 = Blanc
+   11b	 = Rose
+   11c	 = Petit
+   11d	 = Grand
+   11e	 = Léger
+   11f	 = Lourd
+   120	 = Fougueux
+   121	 = Froid
+   122	 = Effrayant
+   123	 = Rapide
+   124	 = Rond
+   125	 = Volant
+   126	 = Robuste
+   127	 = Concentré
+   128	 = Paralysant
+   129	 = Calme
+   12a	 = Inconscient
+   12b	 = Puant
+   12c	 = Chanteur
+   12d	 = Parfumé
+   12e	 = Rare
+   12f	 = Rumeur du Ranch %02d
    130	 = %02d:%ls
    131	 = L'appel du Ranch
    132	 = Le défilé en zigzags
@@ -531,22 +536,21 @@
    13e	 = Le manège des Pokémon
    13f	 = La Pokéhorloge
    140	 = Le clavier des Pokémon
-   141	 = (TRANSLATION NEEDED) Dizzy Dance 
-   142	 = (TRANSLATION NEEDED) Sumo Parade
-   143	 = © Pokémon / Nintendo.
-   144	 = Ranch %ls
-   145	 = Ranch\n
-   146	 = Sauvegarde en cours...
-   147	 = (TRANSLATION NEEDED) Journey
-   148	 = (TRANSLATION NEEDED) Orbit
-   149	 = (TRANSLATION NEEDED) Resurrection
-   14a	 = ♥
-   14b	 = ★
-   14c	 = ◆
-   14d	 = (TRANSLATION NEEDED) Showdown
-   14e	 = (TRANSLATION NEEDED) Palette
-   14f	 = Vérification du calendrier\n
-	+ de la console Wii.
+   141	 = La danse étourdissante
+   142	 = Le défilé des sumos
+   143	 = Le tournoi des Pokémon
+   144	 = Le tape-Taupiqueur
+   145	 = Le jeu de la bousculade
+   146	 = La danse florale
+   147	 = Le voyage aérien
+   148	 = L'orbite des Pokémon
+   149	 = La résurrection des Pokémon
+   14a	 = Les regards au nord
+   14b	 = Les sauts en surf
+   14c	 = La ronde des Motisma
+   14d	 = L'affrontement des Pokémon
+   14e	 = Palette
+   14f	 = Joyeux anniversaire
    150	 = Quitter
    151	 = Rosalie
    152	 = Irène
@@ -585,9 +589,9 @@
    173	 = Louise
    174	 = Tristan
    175	 = Lucas
-   176	 = (TRANSLATION NEEDED) Rita
-   177	 = (TRANSLATION NEEDED) Munchin
-   178	 = Photographier
+   176	 = Monia
+   177	 = Rex
+   178	 = Orélie
    179	 = des Fleurs
    17a	 = d'Eau
    17b	 = de Feu
@@ -625,11 +629,11 @@
    19b   = Dragon
    19c   = Terre
    19d   = Vaste ciel
-   19e   = (TRANSLATION NEEDED) Red
-   19f	 = Album
-   1a0	 = (TRANSLATION NEEDED) Bouncy
+   19e   = Rouge
+   19f	 = Affamé
+   1a0	 = Rebond
    1a1	 = © Pokémon / Nintendo.
-   1a2	 = (TRANSLATION NEEDED) %ls Ranch
+   1a2	 = Ranch de %ls
    1a3	 = Ranch\n
 	+ %ls
    1a4	 = Sauvegarde en cours...
@@ -702,36 +706,46 @@
 	+ s'affiche à l'écran,\n
 	+ ne touchez pas au bouton\n
 	+ POWER ni au bouton RESET.
-   1c7	 = (TRANSLATION NEEDED) 
+   1c7	 = 
    1c8	 = 
    1c9	 = Comment quitter le jeu?
    1ca	 = Retourner au menu Wii
    1cb	 = Sélectionnez ce bouton\n
 	+ pour quitter le jeu.
    1cc	 = 
-   1cd	 = Mes favoris (1)
+   1cd	 = 
    1ce	 = Introduction
    1cf	 = My Pokémon Ranch
-   1d0	 = (TRANSLATION NEEDED) My Pokémon Ranch is a place\n
-	+ where Pokémon and Miis\n
-	+ can interact with each other.\n
+   1d0	 = Un Ranch Pokémon est un lieu où les\n
+	+ Pokémon et les Mii peuvent interagir.\n
 	+ \n
-	+ Let's make the Ranch lively by visiting\n
-	+ it every day or migrating Pokémon from\n
-	+ Pokémon Diamond, Pearl and Platinum!\n
+	+ Pour rendre le Ranch plus animé,\n
+	+ venez y faire un tour chaque jour \n
+	+ ou amenez-y des Pokémon depuis\n
+	+ Pokémon Diamant, Perle et Platine!
    1d1	 = 
    1d2	 = 
-   1d3	 = (TRANSLATION NEEDED) Platinum Update Info (1)
-   1d4	 = Pointez ce bouton et\n
-   1d5	 = (TRANSLATION NEEDED) ・My Pokémon Ranch can now connect\n
-	+ 　to Pokémon Platinum Version for\n
-	+ 　the Nintendo DS.\n
+   1d3	= Mise à jour (1)
+   1d4	= Nouvelles fonctionnalités
+   1d5	= ・My Pokémon Ranch peut maintenant\n
+	+ 　se connecter à Pokémon Version\n
+	+ 　Platine pour la Nintendo DS.\n
 	+ \n
-	+ ・As the Ranch expands, you can\n
-	+ 　keep up to 1,500 Pokémon.\n
-   1d6	 = (TRANSLATION NEEDED) Platinum Update Info (2)
-   1d7	 = Panneau d'affichage
-   1d8	 = Panneau d'affichage
+	+ ・En agrandissant le Ranch, il est\n
+	+ 　possible de déposer jusqu'à 1 500\n
+	+ 　Pokémon.\n
+   1d6	= Mise à jour (2)
+   1d7	= "Il y a du nouveau!"
+   1d8	= ・Plus d'options sont disponibles.\n
+	+ \n
+	+ ・Il est désormais possible de\n
+	+ 　sauvegarder jusqu'à 30 photos.\n
+	+ \n
+	+ ・La musique peut être changée.\n
+	+ \n
+	+ ・Il est désormais possible de\n
+	+ 　revisiter les Ranchs du Club des\n
+	+ 　Regardez-moi.\n
    1d9	 = Commandes
    1da	 = Caméra\n
 	+ verrouillée
@@ -769,8 +783,8 @@
 	+ Si la caméra est verrouillée,\n
 	+ elle suivra toujours le Mii ou\n
 	+ le Pokémon sélectionné.
-   1ec   = Options
-   1ed   = (TRANSLATION NEEDED) 
+   1ec   = 
+   1ed   = 
    1ee   = Modes
    1ef	 = Mode déplacement libre
    1f0	 = Quand le Ranch atteint un certain\n
@@ -786,7 +800,7 @@
 	+ \x{e043} + \x{e058} Faire défiler\n
 	+ \x{e045} Zoom avant\n
 	+ \x{e046} Zoom arrière
-   1f6	 = (TRANSLATION NEEDED) 
+   1f6	 = 
    1f7	 = 
    1f8	 = Nunchuk
    1f9	 = En mode déplacement libre...
@@ -850,17 +864,17 @@
 	+ photos de My Pokémon Ranch.
    216	 = 
    217   = 
-   218	 = (TRANSLATION NEEDED) Album (5)
+   218	 = Album (5)
    219	 = Sauvegarder\n
 	+ sur une carte SD
-   21a	 = (TRANSLATION NEEDED) Save all pictures in the\n
-	+ Album to SD Card.
+   21a	 = Sauvegarder toutes les photos de\n
+	+ l'album sur la carte SD.
    21b	 = Se connecter à la DS (1)
    21c	 = Se connecter à la DS
-   21d	 = (TRANSLATION NEEDED) You can deposit Pokémon to and\n
-	+ withdraw Pokémon from the Ranch by\n
-	+ connecting with Pokémon Diamond,\n
-	+ Pearl and Platinum.
+   21d	 = Vous pouvez déposer au Ranch un\n
+	+ Pokémon de Pokémon\n
+	+ Diamant/Perle/Platine, ou retirer\n
+	+ un Pokémon déposé.
    21e	 = Annuler la connexion
    21f	 = Appuyez ici pour interrompre\n
 	+ la connexion.
@@ -891,20 +905,19 @@
    229	 = 
    22a	 = Détails (2)
    22b	 = Pokémon dans le Ranch
-   22c	 = (TRANSLATION NEEDED) You can view the Pokémon\n
-	+ you have stored.\n
-	+ This button opens the\n
-	+ "Release Pokémon?" screen.\n.
-   22d	 = (TRANSLATION NEEDED) Release Pokémon?
-   22e	 = (TRANSLATION NEEDED) Choose which Pokémon you\n
-	+ want to release to the Ranch.\n
-	+ You can sort by type or\n
-	+ amount.
+   22c	 = Vous pouvez voir les\n
+	+ Pokémon que vous avez\n
+	+ déposés.
+   22d	 = Relâcher ce Pokémon?
+   22e	 = Sélectionnez les Pokémon\n
+	+ que vous souhaitez relâcher\n
+	+ du Ranch. Vous pouvez trier\n
+	+ par type ou quantité.
    22f	 = Détails (3)
    230	 = Défilé
-   231	 = (TRANSLATION NEEDED) Pokémon selected from Pokémon\n
-	+ on the Ranch and their Caretakers\n
-	+ march in a parade.
+   231	 = Vous pouvez organiser un défilé avec\n
+	+ les Pokémon sélectionnés et les Mii\n
+	+ qui en sont responsables.
    232	 = Mii responsable
    233	 = Pour changer le responsable\n
 	+ des Pokémon déposés par un\n
@@ -939,63 +952,64 @@
 	+ \n
 	+ Vous pouvez aussi consulter\n
 	+ la situation du Ranch.
-   241   = (TRANSLATION NEEDED) \n
-	+ You can change "Today's Music".\n
-	+ You can revisit a "Club Look-See"\n
-	+ Ranch you've already visited,
+   241   = \n
+	+ Il est aussi possible de changer\n
+	+ la musique, ou de revisiter les\n
+	+ Ranchs du Club des Regardez-moi.
    242	 = 
    243	 = Recherche Pokémon (1)
    244	 = Recherche Pokémon
-   245	 = (TRANSLATION NEEDED) Hayley often gives advice on how to\n
-	+ complete your Pokédex in Pokémon\n
-	+ Diamond, Pearl and Platinum.\n
-	+ It's done by catching the Wanted\n
-	+ Pokémon in these games and\n
-	+ bringing them to the Ranch.\n
-	+ \n
-	+ If you succeed, maybe something\n
-	+ good will happen.
+   245	 = Eulalie vous donnera souvent des\n
+	+ conseils pour vous aider à compléter\n
+	+ votre Pokédex dans Pokémon Diamant,\n
+	+ Pokémon Perle et Pokémon Platine.\n
+	+ Votre but est de capturer le Pokémon\n
+	+ recherché dans Pokémon Diamant,\n
+	+ Perle ou Platine, puis de le\n
+	+ rapporter au Ranch. Si vous\n
+	+ réussissez, vous aurez peut-être une\n
+	+ récompense!
    246   = 
    247   = 
    248	 = Recherche Pokémon (2)
    249	 = Voir les techniques de capture
-   24a	 = Pour voir des informations\n
-	+ utiles et des conseils sur la\n
-	+ façon d'attraper un Pokémon\n
-	+ recherché, sélectionnez\n
-	+ un avis de recherche\n
-	+ du panneau d'affichage\n
-	+ en appuyant sur \x{e042}.
-   24b   = (TRANSLATION NEEDED) Switch Versions
-   24c   = (TRANSLATION NEEDED) Press the button to switch\n
-	+ between viewing Pokémon\n
-	+ Platinum, Diamond, or\n
-	+ Pearl.
+   24a	 = Pour voir des conseils pour\n
+	+ attraper un Pokémon\n
+	+ recherché, consultez son\n
+	+ avis de recherche.
+   24b   = Changer de Version
+   24c   = Appuyez sur le bouton pour\n
+	+ alterner entre Pokémon\n
+	+ Platine, Diamant ou Perle.
    24d	 = Situation du Ranch
    24e	 = Situation du Ranch
    24f	 = Vous pouvez consulter ici la situation\n
 	+ actuelle du Ranch.
    250	 = 
    251	 = 
-   252   = (TRANSLATION NEEDED) Today's Music (1)
-   253	 = (TRANSLATION NEEDED) Today's Music
-   254	 = (TRANSLATION NEEDED) You can see the names of the\n
-	+ music heard in the Ranch.\n
-	+ You can also select a song\n
-	+ to change the music.
+   252   = Musique du jour (1)
+   253	 = Musique du jour
+   254	 = Vous pouvez voir le nom des\n
+	+ musiques entendues au\n
+	+ Ranch.\n
+	+ Vous pouvez aussi\n
+	+ sélectionner ou changer de\n
+	+ musique.
    255	 = 
    256	 = 
-   257	 = (TRANSLATION NEEDED) Today's Music (2)
-   258	 = (TRANSLATION NEEDED) Others
-   259	 = (TRANSLATION NEEDED) In addition, you can choose\n
-	+ music from a variety of songs.
-   25a	 = (TRANSLATION NEEDED) (No Music)
-   25b	 = (TRANSLATION NEEDED) Stop the music.
-   25c	 = (TRANSLATION NEEDED) Club Look-See
-   25d	 = (TRANSLATION NEEDED) Club Look-See
-   25e	 = (TRANSLATION NEEDED) You can revisit a\n
-	+ Club Look-See Ranch if \n
-	+ you've been there before.
+   257	 = Musique du jour (2)
+   258	 = Autres
+   259	 = Vous pouvez également\n
+	+ sélectionner une variété de musiques.
+   25a	 = (Pas de musique)
+   25b	 = Vous pouvez arrêter la musique en\n
+	+ sélectionnant cette option.
+   25c	 = Club Regardez-moi
+   25d	 = Club Regardez-moi
+   25e	 = Vous pouvez revisiter le\n
+	+ Ranch d'un membre du Club\n
+	+ des Regardez-moi si vous\n
+	+ l'avez déjà visité.
    25f	 = Options
    260	 = Options
    261	 = Ce menu vous permet de\n
@@ -1036,9 +1050,9 @@
 	+ pour tout envoi de vos données.
    273	 = FAQ (1)
    274	 = Question
-   275	 = (TRANSLATION NEEDED) Can I withdraw Pokémon that I\n
-	+ deposited from Pokémon Diamond\n
-	+ into Pokémon Pearl?\n
+   275	 = Si je dépose au Ranch un Pokémon\n
+	+ de Pokémon Diamant, puis-je le\n
+	+ retirer en utilisant Pokémon Perle?
    276	 = Réponse
    277	 = Non.\n
 	+ Vous ne pouvez retirer un Pokémon du\n
@@ -1046,9 +1060,10 @@
 	+ a servi à le déposer à l'origine.
    278	 = FAQ (2)
    279	 = Question
-   27a	 = (TRANSLATION NEEDED) Can I withdraw Pokémon that my friend\n
-	+ deposited to the Ranch to my Pokémon\n
-	+ Diamond, Pearl or Platinum?\n
+   27a	 = Puis-je retirer un Pokémon qu'un(e)\n
+	+ de mes ami(e)s a laissé au Ranch,\n
+	+ en utilisant ma carte de jeu DS\n
+	+ Pokémon Diamant, Perle ou Platine?
    27b	 = Réponse
    27c	 = Non.\n
 	+ Vous ne pouvez retirer un Pokémon du\n
@@ -1088,10 +1103,10 @@
    28d	 = Question
    28e	 = Comment désactiver la musique?
    28f	 = Réponse
-   290	 = (TRANSLATION NEEDED) Select (No Music) from "Today's Music"\n
-	+ under the BBS, or hold down \x{e043} and \x{e041}↓\n
-	+ when you start the game. Then you\n
-	+ can play the game without music.
+   290	 = Sélectionnez "(Pas de musique)"\n
+	+ depuis le Panneau d'affichage, ou\n
+	+ maintenez \x{e043} et \x{e041}↓ enfoncés\n
+	+ pendant le démarrage du jeu.
    291	 = Mii dans le Ranch (1)
    292	 = Choisir des Mii
    293	 = Utilisez \x{e042} pour sélectionner un Mii que\n
@@ -1147,51 +1162,54 @@
 	+ de jeu DS au maximum.
    2a7	 = Se connecter à la DS
    2a8	 = Max. de cartes gérées
-   2a9	 = (TRANSLATION NEEDED) If you want to deposit Pokémon from a\n
-	+ new DS-Series Pokémon Game Card\n
-	+ withdraw all of the Pokémon\n
-	+ deposited from any one Game Card.
+   2a9	 = Pour déposer des Pokémon à partir\n
+	+ d'une nouvelle carte de la série\n
+	+ Pokémon, retirez d'abord tous les\n
+	+ Pokémon déposés depuis une même\n
+	+ carte de jeu DS.
    2aa	 = Se connecter à la DS
    2ab	 = Pas de Pokédex trouvé.
    2ac	 = Pour pouvoir déposer des Pokémon au\n
 	+ Ranch, vous devez avoir un Pokédex.
-   2ad	 = (TRANSLATION NEEDED) Please press the power\n
-	+ button on the wii for\n
-	+ 4 seconds to turn off\n
-	+ the power.	
+   2ad	 = Veuillez appuyer sur le bouton\n
+	+ POWER de la Wii pendant\n
+	+ 4 secondes pour éteindre la\n
+	+ console.	
 	+ \n
-	+ Afterwards, please turn the\n
-	+ power back on and restore\n
-	+ your Console Nickname.
-   2ae	 = (TRANSLATION NEEDED) Failed to send save data\n
-	+ to Nintendo.\n
-	+ \fPlease check your Connection\n
-	+ Settings and try again later.
-   2af	 = (TRANSLATION NEEDED) Send your save data\n
-	+ to Nintendo?
-   2b0	 = (TRANSLATION NEEDED) Sending your save data\n
-	+ to Nintendo…
-   2b1	 = (TRANSLATION NEEDED) Sent your save data\n
-	+ to Nintendo.
-   2b2	 = (TRANSLATION NEEDED) Failed to send save data\n
-	+ to Nintendo.\n
-	+ \fPlease check your Connection\n
-	+ Settings and try again later.
-   2b3	 = (TRANSLATION NEEDED) Receive your save data\n
-	+ from Nintendo?
-   2b4	 = (TRANSLATION NEEDED) Receiving your save data\n
-	+ from Nintendo…
-   2b5	 = (TRANSLATION NEEDED) Received your save data\n
-	+ from Nintendo.
-   2b6	 = (TRANSLATION NEEDED) No save data was found\n
-	+ at Nintendo.\n
-	+ Please contact Nintendo\n
-	+ Consumer Service.
-   2b7	 = (TRANSLATION NEEDED) Failed to write save data.\n
-	+ Please contact Nintendo\n
-	+ Consumer Service.
-   2b8	 = (TRANSLATION NEEDED) Checking network connection\n
-	+ please wait a moment…
+	+ Ensuite, veuillez rallumer la\n
+	+ console puis restaurez le Surnom\n
+	+ de la Console.
+   2ae	 = Les données de sauvegarde n'ont\n
+	+ pas pu être envoyées à Nintendo.\n
+	+ \fVeuillez vérifier vos paramètres\n
+	+ de connexion et réessayer.
+   2af	 = Envoyer les données de sauvegarde\n
+	+ à Nintendo?
+   2b0	 = Envoi des données de sauvegarde à\n
+	+ Nintendo...
+   2b1	 = Les données de sauvegarde ont été\n
+	+ envoyées à Nintendo.
+   2b2	 = Les données de sauvegarde n'ont\n
+	+ pas pu être envoyées à Nintendo.\n
+	+ \fVeuillez vérifier vos paramètres\n
+	+ de connexion puis réessayez.
+   2b3	 = Récupérer vos données de\n
+	+ sauvegarde envoyées à Nintendo?
+   2b4	 = Récupération des données de\n
+	+ sauvegarde envoyées à Nintendo...
+   2b5	 = Les données de sauvegarde\n
+	+ envoyées par Nintendo ont été\n
+	+ reçues.
+   2b6	 = Aucune donnée de sauvegarde n'a\n
+	+ été trouvée chez Nintendo.\n
+	+ Veuillez contacter le Service\n
+	+ Client Nintendo.
+   2b7	 = Les données de sauvegarde n'ont\n
+	+ pas pu être écrites. Veuillez\n
+	+ contacter le Service Client\n
+	+ Nintendo.
+   2b8	 = Vérification des paramètres de\n
+	+ connexion, veuillez patienter...
    2b9	 = Pour utiliser ces données de\n
 	+ sauvegarde, vous devez\n
 	+ sélectionner l'anglais comme\n
@@ -1216,8 +1234,8 @@
 	+ à votre Ranch?
 
    2bf	 = Version
-   2c0	 = Diamond
-   2c1	 = Pearl
-   2c2	 = Platinum
+   2c0	 = Diamant
+   2c1	 = Perle
+   2c2	 = Platine
 
 

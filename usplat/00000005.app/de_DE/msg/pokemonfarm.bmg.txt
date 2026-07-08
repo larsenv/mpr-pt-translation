@@ -63,8 +63,7 @@
      7	 = Modus "DS-Download-Spiel" wird aktiviert.
      8	 = DS-System-Verbindung wird simuliert.
      9	 = Verbindung mit DS-System...
-     a	 = Verbindung mit Nintendo DS-System fehlgeschlagen (Zeitüberschreitung:
-	+  60 Sekunden).
+     a	 = Verbindung mit Nintendo DS-System fehlgeschlagen (Zeitüberschreitung: 60 Sekunden).
      b	 = Download übersprungen.
      c	 = Download abgebrochen.\n
 	+ Nintendo DS-Verbindung\n
@@ -335,7 +334,7 @@
 	+ aufpassen sollen, wurden aus\n
 	+ dem Mii-Kanal gelöscht.
     a5	 = Eukalia
-    a6	 = Eukalia
+    a6	 = EUKALIA
     a7	 = Besitzer
     a8	 = Frank
     a9	 = Franka
@@ -348,7 +347,7 @@
     ad	 = Bitte warten...
     ae	 = Bitte warten...
     af	 = EIN
-    b0	 = NICHTS
+    b0	 = AUS
     b1	 = Ist diese Funktion aktiviert,\n
 	+ werden Bilder und Status\n
 	+ deiner Ranch zur\n
@@ -588,9 +587,9 @@
    173	 = Cora
    174	 = Terry
    175	 = Lukas
-   176	 = Rita
-   177	 = Munchin
-   178	 = Bunny
+   176	 = Ronja
+   177	 = Manfred
+   178	 = Hopps
    179	 = Flora
    17a	 = Wasser
    17b	 = Feuer
@@ -681,7 +680,7 @@
    1bb	 = Hand bewegen
    1bc	 = Bewege die Hand mit der\n
 	+ Wii-Fernbedienung.
-   1bd	 = Ansicht zentriert
+   1bd	 = Ansicht zentrieren
    1be   = Zeige auf ein Objekt, das du\n
 	+ zentrieren willst, und\n
 	+ drücke \x{e042}.
@@ -721,9 +720,9 @@
 	+ \n
 	+ Besuche die Ranch jeden Tag, um deine\n
 	+ Pokémon zu betreuen! Am besten\n
-	+ bringst du auch die Pokémon aus\n
-	+ Pokémon Diamant- oder Perl-Edition\n
-	+ mit, um Leben auf die Ranch zu bringen.
+	+ bringst du Pokémon aus der Diamant-\n
+	+ Perl- oder Platin-Edition mit,\n
+	+ um Leben auf die Ranch zu bringen.
    1d1	 = 
    1d2	 = 
    1d3	 = Platin-Update-Info (1)
@@ -747,9 +746,8 @@
 	+ \n
 	+ ・Du kannst Pokéschau-Club Ranches\n
 	+ mehr als einmal besuchen.
-   1d9	 = Steuerung
-   1da	 = Ansicht\n
-	+ zentriert
+   1d9	 = Einführung - Steuerung
+   1da	 = Zentrieren
    1db	 = Suchen
    1dc	 = Foto schießen
    1dd	 = Achtung!
@@ -830,8 +828,7 @@
    208	 = Löschen
    209	 = Lösche das Foto, das du gerade\n
 	+ betrachtest.
-   20a	 = Schreibschutz\n
-	+ aktivieren
+   20a	 = Schreibschutz aktivieren
    20b	 = Aktiviere den Schreibschutz\n
 	+ bei diesem Foto, damit es\n
 	+ nicht gelöscht wird.
@@ -863,12 +860,11 @@
    21a	 = Speicher alle Fotos im\n
 	+ Album auf die SD Card.
    21b	 = Mit DS-System verbinden (1)
-   21c	 = Verbindung mit\n
-	+ Nintendo DS-System
+   21c	 = Mit DS-System verbinden
    21d	 = Hier kannst du Pokémon aus\n
-	+ Pokémon Diamant, Perl und\n
+	+ Pokémon Diamant-, Perl- und\n
 	+ Platin ablegen und mitnehmen.
-   21e	 = Verbindung abbrechen
+   21e	 = Verbindung unterbrechen
    21f	 = Mit dieser Option kannst du die\n
 	+ Verbindung abbrechen.
    220	 = Mit DS-System verbinden (2)
@@ -938,17 +934,15 @@
 	+ zu entfernen.
    23e	 = Schwarzes Brett
    23f	 = Schwarzes Brett
-   240	 = Hier kannst du die\n
-	+ Gesuchten Pokémon\n
-	+ überprüfen.\n
+   240	 = Du kannst gesuchte\n
+	+ Pokémon überprüfen.
 	+ \n
-	+ Außerdem kannst du dich\n
-	+ hier über den Status deiner\n
-	+ Ranch informieren.
+	+ Informiere dich über\n
+	+ den Status der Ranch.\n
    241   = \n
 	+ Du kannst die "Heutige Musik" ändern.\n
-	+ Du kannst eine Pokéschau-Club Ranch, die\n
-	+ du bereits besucht hast, wieder\n
+	+ Du kannst eine Pokéschau-Club Ranch,\n
+	+ die du bereits besucht hast, wieder\n
 	+ besuchen.
    242	 = 
    243	 = Gesuchte Pokémon (1)
@@ -1098,9 +1092,8 @@
    28f	 = Antwort
    290	 = Wähle im Schwarzen Brett unter\n
     + "Heutige Musik" (Keine Musik) aus,\n
-	+ oder halte \x{e043} und \x{e041}↓\n
-	+ wenn du das Spiel startest. Dann\n
-	+ kannst du ohne Musik spielen.
+	+ oder halte \x{e043} und \x{e041}↓ wenn du\n
+	+ das Spiel startest.
    291	 = Miis auf der Ranch (1)
    292	 = Miis wählen
    293	 = Drücke \x{e042}, um ein Mii zu wählen,\n
@@ -1122,7 +1115,7 @@
    29a	 = Wenn du im Mii-Kanal ein Mii löschst,\n
 	+ verschwindet es auch von der Ranch!
    29b	 = Verbindung mit\n
-	+ Nintendo DS-System
+	+ Mit DS-System verbinden
    29c	 = Vorsicht!
    29d	 = Du kannst Pokémon nur mit derselben\n
 	+ DS-Karte mitnehmen, mit der du sie\n
@@ -1134,7 +1127,7 @@
 	+ mitnehmen, auch wenn du dieselbe\n
 	+ DS-Karte wie beim Ablegen einsetzt.\n
    29e	 = Verbindung mit\n
-	+ Nintendo DS-System
+	+ Mit DS-System verbinden
    29f	 = Speichervorgang...
    2a0	 = Speichervorgang...\n
 	+ Bitte betätige weder den POWER-\n
@@ -1144,28 +1137,24 @@
 	+ Wenn du deine Speicherdaten löschst,\n
 	+ kannst du abgelegte Pokémon nicht\n
 	+ mehr mitnehmen, pass also gut auf.
-   2a1	 = Verbindung mit\n
-	+ Nintendo DS-System
+   2a1	 = Mit DS-System verbinden
    2a2	 = 
    2a3	 = Die Verbindung zum DS-System wurde\n
 	+ beendet, bevor die Daten gespeichert\n
 	+ werden konnten. Der ursprüngliche\n
 	+ Ranch-Status wird wiederhergestellt.
-   2a4	 = Verbindung mit\n
-	+ Nintendo DS-System
+   2a4	 = Mit DS-System verbinden
    2a5	 = Kartenlimit
    2a6	 = Du kannst Pokémon aus bis zu acht\n
 	+ verschiedenen DS-Karten ablegen.
-   2a7	 = Verbindung mit\n
-	+ Nintendo DS-System
+   2a7	 = Mit DS-System verbinden
    2a8	 = Kartenlimit
    2a9	 = Wenn du Pokémon von einer neuen\n
 	+ Pokémon Spiel-Karte ablegen willst,\n
 	+ nimm alle Pokémon, die von\n
 	+ anderen DS-Karten abgelegt\n
 	+ wurden, wieder mit.
-   2aa	 = Verbindung mit\n
-	+ Nintendo DS-System
+   2aa	 = Mit DS-System verbinden
    2ab	 = Pokédex nicht gefunden
    2ac	 = Du benötigst einen Pokédex, um\n
 	+ Pokémon auf der Ranch abzulegen.
