@@ -82,7 +82,7 @@
     19	= No hay suficiente espacio\n
         + libre en la memoria de la\n
         + consola Wii para\n
-        + My Pokémon Ranch: Edición Platino.\n
+        + My Pokémon Ranch.\n
         + \fBloques libres necesarios: %d.\n
         + \fTransfiere datos a una\n
         + tarjeta SD o borra los que\n
@@ -90,8 +90,8 @@
         + de gestión de datos.\n
     1a	= No hay suficiente espacio\n
         + libre en la memoria de la\n
-        + consola Wii. Bloques libres\n
-        + necesarios: 1.\n
+        + consola Wii.\n
+        + Bloques libres necesarios: 1.\n
         + \fTransfiere datos a una\n
         + tarjeta SD o borra los que\n
         + no necesites en la pantalla\n
@@ -99,7 +99,7 @@
     1b	= No hay suficiente espacio\n
         + libre en la memoria de la\n
         + consola Wii para\n
-        + My Pokémon Ranch: Edición Platino.\n
+        + My Pokémon Ranch.\n
         + \fBloques libres necesarios: 1.\n
         + \fTransfiere datos a una\n
         + tarjeta SD o borra los que\n
@@ -115,7 +115,7 @@
     1d	= No queda espacio libre\n
         + en la memoria de\n
         + la consola Wii para\n
-        + My Pokémon Ranch: Edición Platino.\n
+        + My Pokémon Ranch.\n
 	+ \fTransfiere datos a una\n
         + tarjeta SD o bórralos en\n
         + My Pokémon Ranch.\n
@@ -178,8 +178,9 @@
         + consola Wii para poder usar\n
         + WiiConnect24.\n
         + \fConsulta el manual de\n
-        + instrucciones de la consola Wii\n
-        + para obtener más información.
+        + instrucciones de la consola\n
+        + Wii para obtener más\n
+        + información.
     29	= Se ha producido un error y no\n
         + se puede usar WiiConnect24.\n
         + \fReinicia la consola y vuelve\n
@@ -193,8 +194,9 @@
         + configuración en las\n
         + opciones de Wii.
         + \fConsulta el manual de\n
-        + instrucciones de la consola Wii\n
-        + para obtener más información.
+        + instrucciones de la consola\n
+        + Wii para obtener más\n
+        + información.
     2c	= WiiConnect24 no está\n
         + disponible porque no se puede\n
         + establecer una conexión a\n
@@ -203,8 +205,9 @@
         + la configuración de\n
         + internet.
         + \fConsulta el manual de\n
-        + instrucciones de la consola Wii\n
-        + para obtener más información.
+        + instrucciones de la consola\n
+        + Wii para obtener más\n
+        + información.
     2d	= En estos momentos\n
         + WiiConnect24\n
         + no está disponible.\n
@@ -224,7 +227,7 @@
     31	/
     32	= El uso de la comunicación\n
         + en línea está restringido.\n
-        + Consulta los ajustes del\n
+        + \fConsulta los ajustes del\n
         + control parental en las\n
         + Opciones de Wii.
     33	/
