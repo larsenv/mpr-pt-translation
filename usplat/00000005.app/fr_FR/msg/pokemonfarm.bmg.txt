@@ -907,7 +907,7 @@
    22c	 = Vous pouvez voir les Pokémon que\n
 	+ vous avez déposés.\n
 	+ Ce bouton ouvre l'écran "Relâcher\n
-	+ ce Pokémon?".\n.
+	+ ce Pokémon?".\n
    22d	 = Relâcher ce Pokémon?
    22e	 = Sélectionnez les Pokémon que\n
 	+ vous souhaitez relâcher du Ranch.\n
