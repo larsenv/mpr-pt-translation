@@ -436,8 +436,7 @@
     e0	 = Demain
     e1	 = le Ranch va s'agrandir!
     e2	 = ... va nous rejoindre!
-    e3	 = Caméra\n
-	+ verrouillée
+    e3	 = Caméra verrouillée
     e4	 = Aide
     e5	 = Introduction
     e6	 = Commandes
