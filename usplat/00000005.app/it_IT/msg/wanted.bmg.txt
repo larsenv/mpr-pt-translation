@@ -563,7 +563,7 @@
    147	 = (TRANSLATION NEEDED) After entering the Hall of Fame,\n
 	+ talk to the elder of Celestic Town.\n
 	+ Requires a Lustrous Orb.
-   148	 = (TRANSLATION NEEDED) After obtaining the National Dex,
+   148	 = (TRANSLATION NEEDED) After obtaining the National Dex,\n
 	+  go to Eterna City and\n
 	+ see Prof. Oak.
    149	 = 

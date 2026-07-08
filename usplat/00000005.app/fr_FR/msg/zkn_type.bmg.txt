@@ -537,7 +537,7 @@
    1e8	 = Pokémon Lunaire
    1e9	 = Pokémon Dérivenmer
    1ea	 = Pokémon Voyagenmer
-   1eb	 = Pokémon Obscurité
+   1eb	 = Pokémon Noirtotal
    1ec	 = Pokémon Gratitude
    1ed	 = Pokémon Alpha
 
