@@ -470,8 +470,8 @@
     fc	 = Mes favoris
     fd	 = Mes Pokémon
     fe	 = %d
-    ff	 = %d Pokémon affichés.
-   100	 = %d Pokémon affiché.
+    ff	 = %d Pokémon affiché(s).
+   100	 = %d Pokémon affiché(s).
    101	 = Page précédente
    102	 = Page suivante
    103	 = Retour
