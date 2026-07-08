@@ -239,12 +239,13 @@
 	+ ont été effacées.
     7c	 = Impossible de lire les données\n
 	+ des photos.
-    7d	 = Sauvegarder toutes les photos sur\n
-	+ la carte SD.
-    7e	 = Sauvegarder toutes les photos de\n
-	+ l'album sur la carte SD.
-    7f	 = Voulez-vous sauvegarder toutes\n
-	+ les photos?
+    7d	 = Sauvegarder toutes les photos\n
+	+ sur la carte SD
+    7e	 = Il est possible de\n
+	+ sauvegarder toutes les photos\n
+	+ de l'album sur la carte SD.
+    7f	 = Voulez-vous sauvegarder\n
+	+ toutes les photos?
     80	 = Toutes les photos ont été\n
 	+ sauvegardées dans le répertoire\n
 	+ \\DCIM\\%03dNIN01 de la\n
@@ -380,7 +381,7 @@
 	+ sans préavis.
     b8	 = Recherche Pokémon
     b9   = Musique du jour
-    ba	 = Club des Regardez-moi
+    ba	 = Club Regardez-moi
     bb	 = Il est plein %(02)%{}!
     bc	 = Il est plein d'Oeufs!
     bd	 = Niveau du Ranch\n
@@ -410,7 +411,7 @@
     c8	 = Par %ls
     c9	 = jusqu'au %ls
     ca	 = Échange avec %ls!
-    cb	 = Choix de la musique
+    cb	 = Musique
     cc	 = Page précédente
     cd	 = Page suivante
     ce	 = Valider et ressortir
@@ -425,7 +426,7 @@
     d7	 = ♪Bienvenue au Ranch
     d8	 = ♪Mon défilé Pokémon
     d9	 = ♪Chanson de Rondoudou
-    da	 = Club des Regardez-moi
+    da	 = Club Regardez-moi
     db	 = Page précédente
     dc	 = Page suivante
     dd	 = Retour
@@ -723,8 +724,8 @@
 	+ Pokémon Diamant, Perle et Platine!
    1d1	 = 
    1d2	 = 
-   1d3	= Infos de la mise à jour Platine (1)
-   1d4	= Fonctionnalités de la Version Platine
+   1d3	= Infos de la mise à jour (1)
+   1d4	= Nouvelles fonctionnalités
    1d5	= ・My Pokémon Ranch peut maintenant\n
 	+ 　se connecter à Pokémon Version\n
 	+ 　Platine pour la Nintendo DS.\n
@@ -732,15 +733,14 @@
 	+ ・En agrandissant le Ranch, il est\n
 	+  possible de déposer jusqu'à 1 500\n
 	+  Pokémon.\n
-   1d6	= Infos de la mise à jour Platine (2)
-   1d7	= "Il y a de nouvelles choses à essayer!"
-   1d8	= ・De nouvelles options ont été\n
-	+ 　ajoutées au menu.\n
+   1d6	= Infos de la mise à jour (2)
+   1d7	= "De nouvelles choses à essayer!"
+   1d8	= ・Plus d'options sont disponibles.\n
 	+ \n
 	+ ・Il est désormais possible de\n
 	+ 　sauvegarder jusqu'à 30 photos.\n
 	+ \n
-	+ ・La musique peut désormais être changée.\n
+	+ ・La musique peut être changée.\n
 	+ \n
 	+ ・Il est désormais possible de\n
 	+ 　revisiter les Ranchs du Club des\n
@@ -904,21 +904,19 @@
    229	 = 
    22a	 = Détails (2)
    22b	 = Pokémon dans le Ranch
-   22c	 = Vous pouvez voir les Pokémon que\n
-	+ vous avez déposés.\n
-	+ Ce bouton ouvre l'écran "Relâcher\n
-	+ ce Pokémon?".\n
+   22c	 = Vous pouvez voir les\n
+	+ Pokémon que vous avez\n
+	+ déposés.
    22d	 = Relâcher ce Pokémon?
-   22e	 = Sélectionnez les Pokémon que\n
-	+ vous souhaitez relâcher du Ranch.\n
-	+ Vous pouvez trier par type ou\n
-	+ quantité.
+   22e	 = Sélectionnez les Pokémon\n
+	+ que vous souhaitez relâcher\n
+	+ du Ranch. Vous pouvez trier\n
+	+ par type ou quantité.
    22f	 = Détails (3)
    230	 = Défilé
-   231	 = Vous pouvez organiser un défilé\n
-	+ avec les Pokémon sélectionnés\n
-	+ dans le Ranch et les Mii qui en\n
-	+ sont responsables.
+   231	 = Vous pouvez organiser un défilé avec\n
+	+ les Pokémon sélectionnés et les Mii\n
+	+ qui en sont responsables.
    232	 = Mii responsable
    233	 = Pour changer le responsable\n
 	+ des Pokémon déposés par un\n
@@ -952,11 +950,10 @@
 	+ les Pokémon recherchés.\n
 	+ \n
 	+ Vous pouvez aussi consulter\n
-	+ la situation du Ranch.
-   241   = \n
-	+ Vous pouvez changer la musique du\n
-	+ jour. Vous pouvez revisiter les\n
-	+ Ranchs du Club des Regardez-moi,
+	+ la situation du Ranch,
+   241   = changer la musique du jour, ou\n
+	+ encore revisiter les Ranchs du\n
+	+ Club des Regardez-moi.
    242	 = 
    243	 = Recherche Pokémon (1)
    244	 = Recherche Pokémon
@@ -974,17 +971,14 @@
    247   = 
    248	 = Recherche Pokémon (2)
    249	 = Voir les techniques de capture
-   24a	 = Pour voir des informations\n
-	+ utiles et des conseils sur la\n
-	+ façon d'attraper un Pokémon\n
-	+ recherché, sélectionnez\n
-	+ un avis de recherche\n
-	+ du panneau d'affichage\n
-	+ en appuyant sur \x{e042}.
+   24a	 = Pour voir des conseils sur\n
+	+ la façon d'attraper un\n
+	+ Pokémon recherché, consultez\n
+	+ son avis de recherche.
    24b   = Changer de Version
    24c   = Appuyez sur le bouton pour\n
-	+ alterner entre Pokémon Platine,\n
-	+ Diamant ou Perle.
+	+ alterner entre Pokémon\n
+	+ Platine, Diamant ou Perle.
    24d	 = Situation du Ranch
    24e	 = Situation du Ranch
    24f	 = Vous pouvez consulter ici la situation\n
@@ -994,23 +988,26 @@
    252   = Musique du jour (1)
    253	 = Musique du jour
    254	 = Vous pouvez voir le nom des\n
-	+ musiques entendues au Ranch.\n
-	+ Vous pouvez aussi sélectionner ou\n
-	+ changer de musique.
+	+ musiques entendues au\n
+	+ Ranch.\n
+	+ Vous pouvez aussi\n
+	+ sélectionner ou changer de\n
+	+ musique.
    255	 = 
    256	 = 
    257	 = Musique du jour (2)
    258	 = Autres
-   259	 = (TRANSLATION NEEDED) In addition, you can choose\n
-	+ music from a variety of songs.
+   259	 = Vous pouvez également\n
+	+ sélectionner une variété de musiques.
    25a	 = (Pas de musique)
-   25b	 = Arrêter la musique.
-   25c	 = Club des Regardez-moi
-   25d	 = Club des Regardez-moi
-   25e	 = Vous pouvez revisiter le Ranch\n
-	+ d'un membre du Club des\n
-	+ Regardez-moi si vous l'avez déjà\n
-	+ visité.
+   25b	 = Vous pouvez arrêter la musique en\n
+	+ sélectionnant cette option.
+   25c	 = Club Regardez-moi
+   25d	 = Club Regardez-moi
+   25e	 = Vous pouvez revisiter le\n
+	+ Ranch d'un membre du Club\n
+	+ des Regardez-moi si vous\n
+	+ l'avez déjà visité.
    25f	 = Options
    260	 = Options
    261	 = Ce menu vous permet de\n
@@ -1064,8 +1061,7 @@
    27a	 = Puis-je retirer un Pokémon qu'un(e)\n
 	+ de mes ami(e)s a laissé au Ranch,\n
 	+ en utilisant ma carte de jeu DS\n
-	+ Pokémon Diamant, Pokémon Perle ou\n
-	+ Pokémon Platine?
+	+ Pokémon Diamant, Perle ou Platine?
    27b	 = Réponse
    27c	 = Non.\n
 	+ Vous ne pouvez retirer un Pokémon du\n
@@ -1106,12 +1102,9 @@
    28e	 = Comment désactiver la musique?
    28f	 = Réponse
    290	 = Sélectionnez "(Pas de musique)"\n
-	+ depuis la musique du jour dans le\n
-	+ menu Panneau d'affichage, ou\n
+	+ depuis le Panneau d'affichage, ou\n
 	+ maintenez \x{e043} et \x{e041}↓ enfoncés\n
-	+ pendant le démarrage du jeu.\n
-	+ Vous pourrez alors jouer\n
-	+ sans musique.
+	+ pendant le démarrage du jeu.
    291	 = Mii dans le Ranch (1)
    292	 = Choisir des Mii
    293	 = Utilisez \x{e042} pour sélectionner un Mii que\n
@@ -1187,7 +1180,7 @@
    2ae	 = Les données de sauvegarde n'ont\n
 	+ pas pu être envoyées à Nintendo.\n
 	+ \fVeuillez vérifier vos paramètres\n
-	+ de connexion puis réessayez.
+	+ de connexion et réessayer.
    2af	 = Envoyer les données de sauvegarde\n
 	+ à Nintendo?
    2b0	 = Envoi des données de sauvegarde à\n
