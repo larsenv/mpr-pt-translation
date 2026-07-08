@@ -947,8 +947,8 @@
 	+ Ranch informieren.
    241   = \n
 	+ Du kannst die "Heutige Musik" ändern.\n
-	+ Du kannst eine Pokéschau-Club Ranch, die\n
-	+ du bereits besucht hast, wieder\n
+	+ Du kannst eine Pokéschau-Club Ranch,\n
+	+ die du bereits besucht hast, wieder\n
 	+ besuchen.
    242	 = 
    243	 = Gesuchte Pokémon (1)
@@ -1098,9 +1098,8 @@
    28f	 = Antwort
    290	 = Wähle im Schwarzen Brett unter\n
     + "Heutige Musik" (Keine Musik) aus,\n
-	+ oder halte \x{e043} und \x{e041}↓\n
-	+ wenn du das Spiel startest. Dann\n
-	+ kannst du ohne Musik spielen.
+	+ oder halte \x{e043} und \x{e041}↓ wenn du\n
+	+ das Spiel startest.
    291	 = Miis auf der Ranch (1)
    292	 = Miis wählen
    293	 = Drücke \x{e042}, um ein Mii zu wählen,\n

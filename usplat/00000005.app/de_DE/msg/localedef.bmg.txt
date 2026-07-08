@@ -72,7 +72,7 @@
     17	 = Dezember
     18	 = (So)
     19	 = (Mo)
-    1a	 = Mär.
+    1a	 = (Di)
     1b	 = (Mi)
     1c	 = (Do)
     1d	 = (Fr)
@@ -86,7 +86,7 @@
     25	 = Samstag
     26	 = (So)
     27	 = (Mo)
-    28	 = Mär.
+    28	 = (Di)
     29	 = (Mi)
     2a	 = (Do)
     2b	 = (Fr)

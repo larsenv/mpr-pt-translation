@@ -1212,10 +1212,9 @@
 	+ besuchen, solltest du dir ihre\n
 	+ Ranch auch anschauen!
    1d0   = Oh, und eine Sache noch!\n
-     + Wenn du mich anrufst, komme\n
-     + ich vorbei und hole dich ab.\n
      + Du kannst mich jederzeit wieder\n
-     + besuchen kommen.
+     + besuchen kommen. Ich hole dich\n
+	 + ab, wenn du anrufst!
    1d1   = Komm gut nach Hause!
    1d2	 = Danke, dass du mich besucht\n
 	+ und dir meine Ranch angesehen\n
@@ -1614,7 +1613,7 @@
 	+ schön staunen, wenn du MEW\n
 	+ in einem Kampf einsetzt!
 
-   233   = Hallo! Ich bin Eukalia
+   233   = Hallo! Ich bin Eukalia.
    234   = Hallo! Ich bin Eukalia\n
 	+ Wir haben uns lange nicht\n
 	+ gesehen!
