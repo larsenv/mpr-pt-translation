@@ -71,51 +71,51 @@
     15	/
     16	/
     17	/
-    18	 = La mémoire système de la Wii est pleine.\n
-	+ Libérez %d blocs\n
-	+ d'espace en supprimant ou déplaçant\n
+    18	 = La mémoire de la Wii est pleine.\n
+	+ Libérez %d blocs d'espace\n
+	+ en supprimant ou déplaçant\n
 	+ des données vers une carte SD\n
-	+ depuis l'écran de Données de sauvegarde.
-    19	 = La mémoire système de la Wii est trop pleine pour\n
+	+ depuis la Gestion des données.
+    19	 = La mémoire de la Wii est trop pleine pour\n
 	+ My Pokémon Ranch Version Platine.\n
-	+ Libérez %d blocs\n
-	+ d'espace en supprimant ou déplaçant\n
+	+ Libérez %d blocs d'espace\n
+	+ en supprimant ou déplaçant\n
 	+ des données vers une carte SD\n
-	+ depuis l'écran de Données de sauvegarde.
-    1a	 = La mémoire système de la Wii est pleine.\n
-	+ Libérez 1 bloc\n
-	+ d'espace en supprimant ou déplaçant\n
+	+ depuis la Gestion des données.
+    1a	 = La mémoire de la Wii est pleine.\n
+	+ Libérez 1 bloc d'espace\n
+	+ en supprimant ou déplaçant\n
 	+ des données vers une carte SD\n
-	+ depuis l'écran de Données de sauvegarde.
-    1b	 = La mémoire système de la Wii est trop pleine pour\n
+	+ depuis la Gestion des données.
+    1b	 = La mémoire de la Wii est trop pleine pour\n
 	+ My Pokémon Ranch Version Platine.\n
-	+ Libérez 1 bloc\n
-	+ d'espace en supprimant ou déplaçant\n
+	+ Libérez 1 bloc d'espace\n
+	+ en supprimant ou déplaçant\n
 	+ des données vers une carte SD\n
-	+ depuis l'écran de Données de sauvegarde.
-    1c	 = La mémoire système de la Wii est pleine.\n
+	+ depuis la Gestion des données.
+    1c	 = La mémoire de la Wii est pleine.\n
 	+ Libérez de l'espace\n
 	+ en supprimant ou déplaçant\n
 	+ des données vers une carte SD\n
-	+ depuis l'écran de Données de sauvegarde.
-    1d	 = La mémoire système de la Wii est trop pleine pour\n
+	+ depuis la Gestion des données.
+    1d	 = La mémoire de la Wii est trop pleine pour\n
 	+ My Pokémon Ranch Version Platine.\n
 	+ Libérez de l'espace\n
 	+ en supprimant ou déplaçant\n
 	+ des données vers une carte SD\n
-	+ depuis l'écran de Données de sauvegarde.
+	+ depuis la Gestion des données.
     1e	 = Il y a une quantité anormale\n
-	+ d'espace libre dans la mémoire système\n
+	+ d'espace libre dans la mémoire\n
 	+ de la Wii.\n
 	+ Référez-vous au Manuel d'Opérations de\n
 	+ la Wii pour plus de détails.
     1f	 = Il y a une quantité anormale\n
-	+ de fichiers dans la mémoire système\n
+	+ de fichiers dans la mémoire\n
 	+ de la Wii.\n
 	+ Référez-vous au Manuel d'Opérations de\n
 	+ la Wii pour plus de détails.
     20	/
-    21	 = La mémoire système de la Wii\n
+    21	 = La mémoire de la Wii\n
 	+ a été endommagée.\n
 	+ \n
 	+ Référez-vous au Manuel d'Opérations de\n
@@ -124,12 +124,12 @@
 	+ N'éteignez pas la console\n
 	+ et n'appoyez pas sur RESET.
     23	/
-    24	 = La mémoire système de la Wii
+    24	 = La mémoire de la Wii
     + est inaccessible.\n
 	+ \fRéférez-vous au Manuel d'Opérations de\n
 	+ la Wii pour plus de détails.
     25	 = Une erreur a eu lieu lors de\n
-    + l'accès à la mémoire système de la Wii.\n
+    + l'accès à la mémoire de la Wii.\n
 	+ \fRéférez-vous au Manuel d'Opérations de\n
 	+ la Wii pour plus de détails.
     26	 = La sauvegarde ne peut pas être lue.\n
