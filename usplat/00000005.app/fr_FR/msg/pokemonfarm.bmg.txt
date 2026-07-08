@@ -724,7 +724,7 @@
 	+ Pokémon Diamant, Perle et Platine!
    1d1	 = 
    1d2	 = 
-   1d3	= Infos de la mise à jour (1)
+   1d3	= Mise à jour (1)
    1d4	= Nouvelles fonctionnalités
    1d5	= ・My Pokémon Ranch peut maintenant\n
 	+ 　se connecter à Pokémon Version\n
@@ -733,8 +733,8 @@
 	+ ・En agrandissant le Ranch, il est\n
 	+  possible de déposer jusqu'à 1 500\n
 	+  Pokémon.\n
-   1d6	= Infos de la mise à jour (2)
-   1d7	= "De nouvelles choses à essayer!"
+   1d6	= Mise à jour (2)
+   1d7	= "Il y a du nouveau!"
    1d8	= ・Plus d'options sont disponibles.\n
 	+ \n
 	+ ・Il est désormais possible de\n
@@ -744,7 +744,7 @@
 	+ \n
 	+ ・Il est désormais possible de\n
 	+ 　revisiter les Ranchs du Club des\n
-	+  Regardez-moi.\n
+	+ 　Regardez-moi.\n
    1d9	 = Commandes
    1da	 = Caméra\n
 	+ verrouillée
@@ -950,10 +950,11 @@
 	+ les Pokémon recherchés.\n
 	+ \n
 	+ Vous pouvez aussi consulter\n
-	+ la situation du Ranch,
-   241   = changer la musique du jour, ou\n
-	+ encore revisiter les Ranchs du\n
-	+ Club des Regardez-moi.
+	+ la situation du Ranch.
+   241   = \n
+	+ Il est aussi possible de changer\n
+	+ la musique, ou de revisiter les\n
+	+ Ranchs du Club des Regardez-moi.
    242	 = 
    243	 = Recherche Pokémon (1)
    244	 = Recherche Pokémon
@@ -973,7 +974,7 @@
    249	 = Voir les techniques de capture
    24a	 = Pour voir des conseils sur\n
 	+ la façon d'attraper un\n
-	+ Pokémon recherché, consultez\n
+	+ Pokémon recherché, regardez\n
 	+ son avis de recherche.
    24b   = Changer de Version
    24c   = Appuyez sur le bouton pour\n
