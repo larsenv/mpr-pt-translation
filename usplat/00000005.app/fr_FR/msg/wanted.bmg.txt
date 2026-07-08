@@ -72,8 +72,8 @@
 	+ niveau dans la Forêt Vestigion.
      d	 = Un MAGNETON évolue s'il change\n
 	+ de niveau au Mont Couronné.
-     e	 = Reçu à Voilaroc.
-     f	 = Fais éclore l'œuf donné par\n
+     e	 = Récupère-le à Voilaroc.
+     f	 = Fais éclore l'Œuf donné par\n
 	+ Cynthia à Vestigion.
     10	 = Fais évoluer NINGALE avec une\n
 	+ place dans ton équipe.
@@ -288,7 +288,7 @@
     ce	 = ・Informations sur Spiritomb
     cf	 = ・Informations sur Munja
     d0	 = ・Informations sur Manzaï
-    d1	 = ・Double port: Pokémon Saphir
+    d1	 = ・Change de niveau entre 4 h et 20 h
     d2	 = ・Change de niveau entre 20 h et 4 h
     d3	 = ・Nécessite le Poké Radar
     d4	 = ・Pokémon rare de Pokémon Diamant
@@ -297,7 +297,7 @@
     d7	 = ・Après avoir appris Coup Double
     d8	 = ・Après avoir appris Pouv.Antique
     d9	 = ・Après avoir appris Roulade
-    da	 = ・Après avoir appris Roulade
+    da	 = ・Après avoir appris Copie
     db	 = ・Double port: Pokémon Emeraude
     dc	 = ・Double port: Pokémon Rouge Feu
     dd	 = ・Double port: Pokémon Vert Feuille
@@ -502,10 +502,10 @@
 	+ Ecaillecoeur en creusant dans le Souterrain.
    11d	 = Quand EXCELANGUE atteint le niveau 33,\n
 	+ il apprend Roulade.
-   11e	 = MANZAI apprend Copie\n
-	+ au niveau 17.
-   11f	 = MIME JR. apprend Copie\n
-	+ au niveau 18.
+   11e	 = Quand MANZAI atteint le niveau 17,\n
+	+ il apprend COPIE.
+   11f	 = Quand MIME JR. atteint le niveau 18,\n
+	+ il apprend COPIE.
    120	 = Ce Pokémon apparaît si tu insères\n
 	+ une cartouche de jeu Game Boy Advance\n
 	+ Pokémon dans le port cartouche\n
@@ -579,7 +579,7 @@
    147	 = Après être entré au Panthéon,\n
 	+ parle à la doyenne de Célestia.\n
 	+ Requiert un Orbe Perlé.
-   148	 = Après avoir obtenu le Pokédex National,
+   148	 = Après avoir obtenu le Pokédex National,\n
 	+  va à Vestigion et parle au Professeur Chen.
    149	 = 
    14a	 = NOUVEAU!
