@@ -689,7 +689,7 @@
     f0	 = %ls wollte\n
 	+ auch so eins fangen, glaube ich.
     f1	 = %ls wollte\n
-	+ auch so eins fangen, glaube ich.
+	+ genau so ein Exemplar fangen.
     f2	 = Warum tauscht ihr nicht ein\n
 	+ paar Tipps und Tricks aus, wie\n
 	+ man sie fängt?
@@ -713,8 +713,8 @@
 	+ Nintendo DS-System an.
     f9	 = Okay, lass dich nicht stressen.\n
 	+ Man sieht sich!
-    fa	 = Okay, lass dich nicht stressen.\n
-	+ Man sieht sich!
+    fa	 = Alles klar, ich sehe dich dann\n
+	+ auf der Ranch!
     fb   = Lange nicht gesehen! Wie viele\n
 	+ Jahre ist das jetzt her? %d?
     fc	 = Lange nicht gesehen! Ist das\n
@@ -1260,8 +1260,8 @@
 	+ %ls.
    1df	 = Wir haben einen Gast auf\n
 	+ unserer Ranch!
-   1e0	 = Wir haben einen Gast auf\n
-	+ unserer Ranch!
+   1e0	 = Wir haben Gäste auf unserer\n
+	+ Ranch!
    1e1	 = Wenn du ein\n
 	+ %ls mitbringst,\n
 	+ kannst du es gegen ein\n
