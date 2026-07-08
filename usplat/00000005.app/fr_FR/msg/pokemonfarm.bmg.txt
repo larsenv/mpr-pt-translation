@@ -735,7 +735,7 @@
    1d6	= Infos de la mise à jour Platine (2)
    1d7	= "Il y a de nouvelles choses à essayer!"
    1d8	= ・De nouvelles options ont été\n
-    + 　ajoutées au menu.\n
+	+ 　ajoutées au menu.\n
 	+ \n
 	+ ・Il est désormais possible de\n
 	+ 　sauvegarder jusqu'à 30 photos.\n
@@ -1106,7 +1106,7 @@
    28e	 = Comment désactiver la musique?
    28f	 = Réponse
    290	 = Sélectionnez "(Pas de musique)"\n
-    + depuis la musique du jour dans le\n
+	+ depuis la musique du jour dans le\n
 	+ menu Panneau d'affichage, ou\n
 	+ maintenez \x{e043} et \x{e041}↓ enfoncés\n
 	+ pendant le démarrage du jeu.\n
