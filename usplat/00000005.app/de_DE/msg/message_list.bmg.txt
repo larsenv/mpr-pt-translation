@@ -184,11 +184,11 @@
 	+ weitere Informationen zu erhalten.\n
     2c	 = Keine Verbindung zum Internet\n
 	+ möglich. WiiConnect24 ist nicht\n
-	+ verfügbar.\n
-	+ Überprüfe die Verbindung\n
+	+ verfügbar.
+	+ \fÜberprüfe die Verbindung\n
 	+ zum Internet und die Internet-\n
-	+ Einstellungen der Wii-Konsole.\n
-	+ Bitte lies die Wii-Bedienungs-\n
+	+ Einstellungen der Wii-Konsole.
+	+ \fBitte lies die Wii-Bedienungs-\n
 	+ anleitung, um weitere\n
 	+ Informationen zu erhalten.\n
     2d	 = WiiConnect24 ist aktuell\n
