@@ -464,13 +464,14 @@
     f7	 = ♂
     f8	 = ♀
     f9	 = Les amis du Ranch
-    fa	 = Pokémon sur le Ranch
+    fa	 = Pokémon sur le\n
+	+ Ranch
     fb	 = Tous
     fc	 = Mes favoris
     fd	 = Mes Pokémon
     fe	 = %d
-    ff	 = A relâché %d Pokémon.
-   100	 = A relâché %d Pokémon.
+    ff	 = %d Pokémon affichés.
+   100	 = %d Pokémon affiché.
    101	 = Page précédente
    102	 = Page suivante
    103	 = Retour
@@ -481,7 +482,7 @@
    108	 = Responsable
    109	 = Défilé
    10a	 = 
-   10b	 = Relâcher ce Pokémon?
+   10b	 = Filtrer
    10c	 = Défaut
    10d	 = Quantité
    10e	 = Type
@@ -510,7 +511,7 @@
    125	 = Volant
    126	 = Robuste
    127	 = Concentré
-   128	 = Tétanisant
+   128	 = Paralysant
    129	 = Calme
    12a	 = Inconscient
    12b	 = Puant
@@ -731,8 +732,8 @@
 	+ 　Platine pour la Nintendo DS.\n
 	+ \n
 	+ ・En agrandissant le Ranch, il est\n
-	+  possible de déposer jusqu'à 1 500\n
-	+  Pokémon.\n
+	+ 　possible de déposer jusqu'à 1 500\n
+	+ 　Pokémon.\n
    1d6	= Mise à jour (2)
    1d7	= "Il y a du nouveau!"
    1d8	= ・Plus d'options sont disponibles.\n
@@ -972,10 +973,10 @@
    247   = 
    248	 = Recherche Pokémon (2)
    249	 = Voir les techniques de capture
-   24a	 = Pour voir des conseils sur\n
-	+ la façon d'attraper un\n
-	+ Pokémon recherché, regardez\n
-	+ son avis de recherche.
+   24a	 = Pour voir des conseils pour\n
+	+ attraper un Pokémon\n
+	+ recherché, consultez son\n
+	+ avis de recherche.
    24b   = Changer de Version
    24c   = Appuyez sur le bouton pour\n
 	+ alterner entre Pokémon\n
