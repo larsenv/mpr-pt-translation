@@ -71,138 +71,134 @@
     15	/
     16	/
     17	/
-    18	 = (TRANSLATION NEEDED) There is not enough available\n
-	+ space in Wii system memory.\n
-	+ Create %d blocks\n
-	+ of free space either by moving data to\n
-	+ an SD Card or by deleting data in\n
-	+ the Save Data screen.
-    19	 = (TRANSLATION NEEDED) There is not enough available\n
-	+ space in Wii system memory for\n
-	+ My Pokémon Ranch Platinum Version.\n
-	+ Create %d blocks\n
-	+ of free space either by moving data to\n
-	+ an SD Card or by deleting data in\n
-	+ the Save Data screen.
-    1a	 = (TRANSLATION NEEDED) There is not enough available\n
-	+ space in Wii system memory.\n
-	+ Create 1 block\n
-	+ of free space either by moving data to\n
-	+ an SD Card or by deleting data in\n
-	+ the Save Data screen.
-    1b	 = (TRANSLATION NEEDED) There is not enough available\n
-	+ space in Wii system memory for\n
-	+ My Pokémon Ranch Platinum Version.\n
-	+ Create 1 block\n
-	+ of free space either by moving data to\n
-	+ an SD Card or by deleting data in\n
-	+ the Save Data screen.
-    1c	 = (TRANSLATION NEEDED) There is not enough available\n
-	+ space in Wii system memory.\n
-	+ Either move data to an\n
-	+ SD Card or delete data in the\n
-	+ Save Data screen.
-    1d	 = (TRANSLATION NEEDED) There is not enough available\n
-	+ space in Wii system memory for\n
-	+ My Pokémon Ranch Platinum Version.\n
-	+ \fEither move data to an\n
-	+ SD Card or delete data in\n
-	+ My Pokémon Ranch.
-    1e	 = (TRANSLATION NEEDED) There is an abnormal amount\n
-	+ of free space in Wii system memory.\n
-	+ \n
-	+ Refer to the Wii Operations\n
-	+ Manual for details.
-    1f	 = (TRANSLATION NEEDED) There is an abnormal number\n
-	+ of files in Wii system memory.\n
-	+ \n
-	+ Refer to the Wii Operations\n
-	+ Manual for details.
+    18	 = La mémoire système de la Wii est pleine.\n
+	+ Libérez %d blocs\n
+	+ d'espace en supprimant ou déplaçant\n
+	+ des données vers une carte SD\n
+	+ depuis l'écran de Données de sauvegarde.
+    19	 = La mémoire système de la Wii est trop pleine pour\n
+	+ My Pokémon Ranch Version Platine.\n
+	+ Libérez %d blocs\n
+	+ d'espace en supprimant ou déplaçant\n
+	+ des données vers une carte SD\n
+	+ depuis l'écran de Données de sauvegarde.
+    1a	 = La mémoire système de la Wii est pleine.\n
+	+ Libérez 1 bloc\n
+	+ d'espace en supprimant ou déplaçant\n
+	+ des données vers une carte SD\n
+	+ depuis l'écran de Données de sauvegarde.
+    1b	 = La mémoire système de la Wii est trop pleine pour\n
+	+ My Pokémon Ranch Version Platine.\n
+	+ Libérez 1 bloc\n
+	+ d'espace en supprimant ou déplaçant\n
+	+ des données vers une carte SD\n
+	+ depuis l'écran de Données de sauvegarde.
+    1c	 = La mémoire système de la Wii est pleine.\n
+	+ Libérez de l'espace\n
+	+ en supprimant ou déplaçant\n
+	+ des données vers une carte SD\n
+	+ depuis l'écran de Données de sauvegarde.
+    1d	 = La mémoire système de la Wii est trop pleine pour\n
+	+ My Pokémon Ranch Version Platine.\n
+	+ Libérez de l'espace\n
+	+ en supprimant ou déplaçant\n
+	+ des données vers une carte SD\n
+	+ depuis l'écran de Données de sauvegarde.
+    1e	 = Il y a une quantité anormale\n
+	+ d'espace libre dans la mémoire système\n
+	+ de la Wii.\n
+	+ Référez-vous au Manuel d'Opérations de\n
+	+ la Wii pour plus de détails.
+    1f	 = Il y a une quantité anormale\n
+	+ de fichiers dans la mémoire système\n
+	+ de la Wii.\n
+	+ Référez-vous au Manuel d'Opérations de\n
+	+ la Wii pour plus de détails.
     20	/
-    21	 = (TRANSLATION NEEDED) The Wii system memory\n
-	+ has been damaged.\n
+    21	 = La mémoire système de la Wii\n
+	+ a été endommagée.\n
 	+ \n
-	+ Refer to the Wii Operations\n
-	+ Manual for details.
-    22	 = (TRANSLATION NEEDED) Saving...\n
-	+ Don't turn off the power or\n
-	+ press RESET.
+	+ Référez-vous au Manuel d'Opérations de\n
+	+ la Wii pour plus de détails.
+    22	 = Sauvegarde...\n
+	+ N'éteignez pas la console\n
+	+ et n'appoyez pas sur RESET.
     23	/
-    24	 = (TRANSLATION NEEDED) Could not access Wii system\n
-	+ memory.\n
-	+ \fRefer to the Wii Operations\n
-	+ Manual for details.
-    25	 = (TRANSLATION NEEDED) An error occurred while\n
-	+ accessing Wii system memory.\n
-	+ \fRefer to the Wii Operations\n
-	+ Manual for details.
-    26	 = (TRANSLATION NEEDED) The save data cannot be read.\n
-	+ You cannot start the game.\n
-	+ Please contact a Nintendo Service\n
-	+ Center. For more information,\n
-	+ see the Wii Operations Manual.\n
-	+ The error code is %03d%03d.\n
+    24	 = La mémoire système de la Wii
+    + est inaccessible.\n
+	+ \fRéférez-vous au Manuel d'Opérations de\n
+	+ la Wii pour plus de détails.
+    25	 = Une erreur a eu lieu lors de\n
+    + l'accès à la mémoire système de la Wii.\n
+	+ \fRéférez-vous au Manuel d'Opérations de\n
+	+ la Wii pour plus de détails.
+    26	 = La sauvegarde ne peut pas être lue.\n
+	+ Impossible de démarrer le jeu.\n
+	+ Contactez un Centre de Service Nintendo.\n
+	+ Pour plus d'information,\n
+	+ consultez le Manuel d'Opérations de la Wii.\n
+	+ Le code d'erreur est %03d%03d.\n
 	+ \n
-	+ Please press and hold the\n
-	+ POWER Button for at least four\n
-	+ seconds to turn the console off.
-    27	 = (TRANSLATION NEEDED) There is a problem with the\n
-	+ Wii system memory, so\n
-	+ WiiConnect24 cannot be\n
-	+ used.
-    28	 = (TRANSLATION NEEDED) To use WiiConnect24, a\n
-	+ system update is required.\n
-	+ Refer to the Wii Operations\n
-	+ Manual for details.
-    29	 = (TRANSLATION NEEDED) WiiConnect24 cannot be\n
-	+ used because an error has\n
-	+ occurred. Reset and try\n
-	+ again.
-    2a	 = (TRANSLATION NEEDED) WiiConnect24 is\n
-	+ temporarily unavailable.\n
-	+ Please try again later.
-    2b	 = (TRANSLATION NEEDED) The WiiConnect24 setting\n
-	+ is not turned on. Please\n
-	+ check the settings under\n
-	+ Wii Options.
-    2c	 = (TRANSLATION NEEDED) An Internet connection\n
-	+ cannot be established, so\n
-	+ WiiConnect24 cannot be\n
-	+ used. Check the Internet\n
-	+ settings and connection.\n
-    2d	 = (TRANSLATION NEEDED) WiiConnect24 is\n
-	+ temporarily unavailable.\n
-	+ Please try again later.
-    2e	 = (TRANSLATION NEEDED) WiiConnect24 is\n
-	+ temporarily unavailable.\n
-	+ Please try again later.
-    2f	 = (TRANSLATION NEEDED) There is a problem with the\n
-	+ Wii system memory, so\n
-	+ WiiConnect24 cannot be\n
-	+ used.
-    30	 = (TRANSLATION NEEDED) WiiConnect24 cannot be\n
-	+ used because an error has\n
-	+ occurred. Reset and try\n
-	+ again.\n
+	+ Appuyez sur le bouton POWER\n
+	+ pendant au moins quarte\n
+	+ secondes pour éteindre la console
+    27	 = Il y a un problème avec la\n
+	+ mémoire système de la Wii, donc\n
+	+ WiiConnect24 est\n
+	+ inaccessible.
+    28	 = Pour utiliser WiiConnect24, une\n
+	+ mise à jour système est requise.\n
+	+ Référez-vous au Manuel d'Opérations de\n
+	+ la Wii pour plus de détails.
+    29	 = WiiConnect24 ne peut pas être\n
+	+ utilisé car une erreur a eu\n
+	+ lieu. Redémarrez et\n
+	+ réessayez.
+    2a	 = WiiConnect24 est\n
+	+ temporairement inaccessible.\n
+	+ Réessayez plus tard.
+    2b	 = Le paramètre WiiConnect24\n
+	+ n'est pas activé.\n
+	+ Vérifiez les paramètres dans\n
+	+ les Options Wii.
+    2c	 = Une connexion Internet\n
+	+ ne peut pas être établie, donc\n
+	+ WiiConnect24 ne peut pas être\n
+	+ utilisé. Vérifiez les paramètres\n
+	+ de connexion à Internet.\n
+    2d	 = WiiConnect24 est\n
+	+ temporairement inaccessible.\n
+	+ Réessayez plus tard.
+    2e	 = WiiConnect24 est\n
+	+ temporairement inaccessible.\n
+	+ Réessayez plus tard.
+    2f	 = Il y a un problème avec la\n
+	+ mémoire système de la Wii, donc\n
+	+ WiiConnect24 est\n
+	+ inaccessible.
+    30	 = WiiConnect24 ne peut pas être\n
+	+ utilisé car une erreur a eu\n
+	+ lieu. Redémarrez puis\n
+	+ réessayez.\n
     31	/
-    32	 = (TRANSLATION NEEDED) Use of network features has\n
-	+ been restricted.\n
+    32	 = L'usage du réseau a été\n
+	+ restreint.\n
 	+ \n
-	+ Please check the settings\n
-	+ for Parental Controls under\n
-	+ Wii Options.
+	+ Vérifiez les paramètres\n
+	+ de Contrôle Parental dans les\n
+	+ Options Wii.
     33	/
     34	/
     35	/
     36	/
-    37	 = Yes
-    38	 = No
+    37	 = Oui
+    38	 = Non
     39	/
-    3a	 = Return
+    3a	 = Retour
     3b	/
     3c	/
     3d	/
-    3e	 = Return to the Wii Menu.
+    3e	 = Retour au Menu Wii
     3f	/
     40	/
     41	/
@@ -214,9 +210,9 @@
     47	/
     48	/
     49	/
-    4a	 = (TRANSLATION NEEDED) Unable to load Mii Channel data.
-	+ Please access the Mii Channel
-	+ and check Mii Channel data.
+    4a	 = Impossible de charger les données de la Chaîne Mii.
+	+ Allez dans la Chaîne Mii
+	+ et testez les données de la Chaîne Mii.
     4b	 = My Pokémon Ranch
     4c	/
     4d	/
