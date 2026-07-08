@@ -1147,28 +1147,28 @@
 	+ Conexión e inténtalo de nuevo.
    2af	= Enviar los datos de\n
 	+ guardado a Nintendo?
-   2b0	= Subiendo los datos…
+   2b0	= Enviando datos…
    2b1	= Se han enviado correctamente\n
-	+ tus datos a Nintendo.
-   2b2	= No se han podido subir\n
-	+ los datos\n
-	+ \fRevisa tus Ajustes de\n
-	+ Conexión e inténtalo de nuevo.
-   2b3	= Descargar tus datos\n
-	+ guardados desde Nintendo?
-   2b4	= Descagando tus datos\n
-	+ desde Nintendo…
+	+ tus datos de guardado a Nintendo.
+   2b2	= No se ha podido enviar\n
+	+ los datos de guardado\n
+	+ \fRevisa los ajustes de\n
+	+ internet e inténtalo de nuevo.
+   2b3	= ¿Descargar tus datos\n
+	+ de guardado desde Nintendo?\n
+   2b4	= Descargando tus datos\n
+	+ de guardado desde Nintendo...\n
    2b5	= Se han descargado los\n
-	+ datos desde Nintendo.
+	+ datos de guardado.
    2b6	= No se han encontrado\n
-	+ datos en Nintendo.\n
-	+ Porfavor, contacta al\n
-	+ servicio al cliente de.\n
-        + Nintendo de tu zona.
+	+ datos de guardado en Nintendo.\n
+	+ Por favor, contacta al\n
+	+ Servicio de Asistencia\n
+        + Técnica de Nintendo.
    2b7	= No se ha podido guardar.\n
-	+ Porfavor, contacta al\n
-	+ servicio al cliente de.\n
-        + Nintendo de tu zona
+	+ Por favor, contacta al\n
+	+ Servicio de Asistencia\n
+        + Técnica de Nintendo.
    2b8	= Comprobando la conexión\n
 	+ a internet…
    2b9	= Para usar los datos guardados,\n
