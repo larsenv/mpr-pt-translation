@@ -72,7 +72,7 @@
     17	 = dicembre
     18	 = do
     19	 = lu
-    1a	 = mar.
+    1a	 = ma
     1b	 = me
     1c	 = gi
     1d	 = ve
@@ -86,7 +86,7 @@
     25	 = sabato
     26	 = do
     27	 = lu
-    28	 = mar.
+    28	 = ma
     29	 = me
     2a	 = gi
     2b	 = ve
@@ -110,7 +110,7 @@
     3d	 = PM
     3e	 = 24
     3f	 = %d'%02d%quot;%02d
-    40	 = 0
+    40	 = 1
     41	 = %d:%02d:%02d
     42	 = %d:%02d
     43	 = 0

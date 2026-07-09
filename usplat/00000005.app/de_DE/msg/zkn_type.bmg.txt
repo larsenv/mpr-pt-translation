@@ -182,12 +182,12 @@
     85	 = Evolution
     86	 = Blubblase
     87	 = Blitz
-    88	 = Flamme
+    88	 = Feuer
     89	 = Virtuell
     8a	 = Spirale
     8b	 = Spirale
-    8c	 = Panzer
-    8d	 = Panzer
+    8c	 = Schaltier
+    8d	 = Schaltier
     8e	 = Fossil
     8f	 = Tagträumer
     90	 = Eis
@@ -537,7 +537,7 @@
    1e8	 = Lunar
    1e9	 = Seedrift
    1ea	 = Seefahrer
-   1eb	 = Finsternis
+   1eb	 = Dunkelnacht
    1ec	 = Dankbarkeit
    1ed	 = Alpha
 
