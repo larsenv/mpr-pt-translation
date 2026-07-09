@@ -168,7 +168,7 @@
     57	 = Porta Mii
     58	 = Guarda il Ranch!
     59	 = Ospiti del Ranch
-    5a	 = (TRANSLATION NEEDED) Options
+    5a	 = Opzioni
     5b	 = Foto successiva
     5c	 = Foto precedente
     5d	 = Cancella
@@ -399,8 +399,8 @@
 	+ ce l'ha fatta!
     c8	 = Da %ls
     c9	 = fino a: %ls
-    ca	 = Trade with %ls!
-    cb	 = Choose Music
+    ca	 = Scambia con %ls!
+    cb	 = Scegli la musica
     cc	 = Pagina precedente
     cd	 = Pagina successiva
     ce	 = Ok e torna al Ranch
@@ -700,13 +700,14 @@
    1cd	 = 
    1ce	 = Introduzione
    1cf	 = My Pokémon Ranch
-   1d0	 = (TRANSLATION NEEDED) My Pokémon Ranch is a place\n
-	+ where Pokémon and Miis\n
-	+ can interact with each other.\n
+   1d0	 = Un Pokémon Ranch è un luogo\n
+	+ in cui Pokémon e Mii possono\n
+	+ interagire fra loro.\n
 	+ \n
-	+ Let's make the Ranch lively by visiting\n
-	+ it every day or migrating Pokémon from\n
-	+ Pokémon Diamond, Pearl and Platinum!\n
+	+ Visita ogni giorno il Ranch per\n
+	+ prenderti cura dei tuoi Pokémon!\n
+	+ Prova a portare anche i Pokémon di\n
+   + Diamante, Perla e Platino. Vedrai che allegria!
    1d1	 = 
    1d2	 = (TRANSLATION NEEDED) 
    1d3	 = (TRANSLATION NEEDED) Platinum Update Info (1)
