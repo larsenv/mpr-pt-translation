@@ -1434,7 +1434,7 @@
    22a	= Atrapé a este LICKITUNG una\n
 	+ vez que aparecieron un montón\n
 	+ de ellos en el Lago Valor.\n
-	+ Tiene una lengua larguísima,\n
+	+ \fTiene una lengua larguísima,\n
 	+ ¡pero es un Pokémon adorable!
    22b	= He criado a este WYNAUT\n
 	+ desde que salió del cascarón.\n
@@ -1458,7 +1458,7 @@
 	+ enseñárselo a tus amigos si\n
 	+ consigues uno!
    22f	= He capturado a TANGELA.\n
-	+ ¡Es un Pokémon misterioso\n
+	+ \f¡Es un Pokémon misterioso\n
 	+ que tiene todo el cuerpo\n
 	+ cubierto de enredaderas!
    230	= A COMBEE le encanta el dulce,\n
