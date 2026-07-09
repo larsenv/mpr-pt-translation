@@ -100,8 +100,8 @@
     33	 = %{} rennt mit %{} um die Wette.
     34	 = %{} hat richtig viel Spaß!
     35	 = %{} hat richtig viel Spaß!
-    36	 = %{} ist guter Laune!
-    37	 = %{} ist guter Laune!
+    36	 = %{} steckt voller Leben!
+    37	 = %{} steckt voller Leben!
     38	 = %{} repariert den Zaun.
     39	 = %{} repariert den Zaun.
     3a	 = %{} hat %{} hochgehoben.
@@ -172,7 +172,7 @@
     79	 = %{} möchte die %{}-Herausforderung probieren!
     7a	 = Herausforderung erfolgreich bestanden!
     7b	 = Es ist zu groß, um in die Falle hineinzufallen...
-    7c	 = %1${} ist in %2${} gehechtet!
+    7c	 = %{} ist in %{} gehechtet!
     7d	 = %{} ist in %{} gefallen!
     7e	 = %{} ist in %{} gefallen!
     7f	 = %2${} hat %1${} ziemlich überrascht!
@@ -196,9 +196,9 @@
     91	 = %{} ist herausgekommen!
     92	 = %{} ist herausgekommen!
     93	 = %{} ist herausgekommen!
-    94	 = %{} ist herausgekommen!
-    95	 = %{} ist herausgekommen!
-    96	 = %{} ist herausgekommen!
+    94	 = %{} sind herausgekommen!
+    95	 = %{} sind herausgekommen!
+    96	 = %{} sind herausgekommen!
     97	 = Ob %{} glücklich ist?
     98	 = Ich glaube, %{} ahmt %{} nach!
     99	 = %{} singt offenbar ein Lied!
@@ -208,7 +208,7 @@
     9d	 = %{} wird von %{} getragen.
     9e	 = %{} wird von %{} getragen.
     9f	 = %{} wird von %{} getragen.
-    a0	 = %{} wirkt glücklich.
+    a0	 = %{} scheint aus irgendeinem Grund glücklich zu sein.
     a1	 = %{} jagt %{} hinterher!
     a2	 = %{} wird langsam ruppig!
     a3	 = %{} jagt seinem eigenen Schweif hinterher!

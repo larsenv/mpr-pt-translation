@@ -271,8 +271,8 @@
     8a	 = Centro Globale
     8b	 = Villa
     8c	 = Casa Lotta
-    8d	 = Stanza di Rotom
-    8e	 = T.G. Eterna Bldg
+    8d	 = Stanza di ROTOM
+    8e	 = Edificio T. G.
     8f	 = Rovine Ferro
     90	 = Rovine Iceberg
     91	 = Rovine Picco

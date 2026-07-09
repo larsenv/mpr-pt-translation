@@ -537,7 +537,7 @@
    1e8	 = Pokémon Falcato
    1e9	 = Pokémon Oceanbondo
    1ea	 = Pokémon Oceandante
-   1eb	 = Pokémon Oscurità
+   1eb	 = Pokémon Neropesto
    1ec	 = Pokémon Gratitudine
    1ed	 = Pokémon Primevo
 
