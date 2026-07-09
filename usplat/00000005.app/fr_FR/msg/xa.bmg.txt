@@ -257,9 +257,8 @@
     cd	 = %{} s'est trop approchée %(02)%(12)%{}!
     ce	 = 
     cf	 = BOUM!
-
-    d0	 = %{} regarde par là.
-    d1	 = %{} regarde par là.
+    d0	 = %{} regarde par ici.
+    d1	 = %{} regarde par ici.
     d2	 = 
     d3	 = %{} s'est fait repousser.
     d4	 = %{} s'est faite repousser.

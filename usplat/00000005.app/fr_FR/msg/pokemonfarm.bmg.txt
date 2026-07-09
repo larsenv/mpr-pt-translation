@@ -208,8 +208,10 @@
 	+ photos de My Pokémon Ranch\n
 	+ sauvegardées sur la carte SD\n
 	+ en cours...
-    72	 = Certaines photos n'ont pas pu\n
-	+ être effacées de la carte SD.
+    72	 = Effacement de toutes les\n
+	+ photos de My Pokémon Ranch\n
+	+ sauvegardées sur la carte SD\n
+	+ en cours... %d/%d.
     73	 = Toutes les photos\n
 	+ sauvegardées sur la carte SD\n
 	+ ont été effacées.
@@ -410,7 +412,7 @@
 	+ par %ls!
     c8	 = Par %ls
     c9	 = jusqu'au %ls
-    ca	 = Échange avec %ls!
+    ca	 = Échangé contre %ls!
     cb	 = Musique
     cc	 = Page précédente
     cd	 = Page suivante
@@ -680,8 +682,7 @@
    1bb	 = Déplacer le curseur
    1bc	 = Déplacez le curseur à l'aide\n
 	+ de la télécommande Wii.
-   1bd	 = Caméra\n
-	+ verrouillée
+   1bd	 = Caméra verrouillée
    1be   = Pointez le personnage que\n
 	+ vous voulez suivre avec la\n
 	+ caméra et appuyez sur \x{e042}.
@@ -769,10 +770,8 @@
 	+        précédente ou suivante.
    1e7	 = 
    1e8	 = 
-   1e9	 = Caméra\n
-	+ verrouillée
-   1ea	 = Caméra\n
-	+ verrouillée
+   1e9	 = Caméra verrouillée
+   1ea	 = Caméra verrouillée
    1eb	 = Appuyez à nouveau sur \x{e042}\n
 	+ alors que vous suivez\n
 	+ un Pokémon ou un Mii pour\n
@@ -893,8 +892,9 @@
    225	 = Détails (1)
    226	 = Les amis du Ranch
    227	 = Vous pouvez voir quels Dresseurs\n
-	+ ont amené des Pokémon au Ranch\n
-	+ et combien chacun en a déposé.\n
+	+ ont amené des Pokémon au Ranch,\n
+	+ combien chacun en a déposé et\n
+	+ trier les Pokémon affichés.\n
 	+ \n
 	+ Par ailleurs, vous pouvez aussi\n
 	+ changer le Mii qui est chargé de\n
@@ -907,11 +907,11 @@
    22c	 = Vous pouvez voir les\n
 	+ Pokémon que vous avez\n
 	+ déposés.
-   22d	 = Relâcher ce Pokémon?
+   22d	 = Trier
    22e	 = Sélectionnez les Pokémon\n
-	+ que vous souhaitez relâcher\n
-	+ du Ranch. Vous pouvez trier\n
-	+ par type ou quantité.
+	+ que vous souhaitez voir au Ranch.\n
+	+ Vous pouvez trier par type,\n
+	+ quantité, corps ou marquage.
    22f	 = Détails (3)
    230	 = Défilé
    231	 = Vous pouvez organiser un défilé avec\n
