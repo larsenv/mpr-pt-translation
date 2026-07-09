@@ -239,10 +239,8 @@
 	+ Se han borrado todas las fotos.
     7c	= No se han podido cargar los\n
 	+ datos de las fotos.
-    7d	= Guardar todas las fotos a la\n
-	+ tarjeta SD.
-    7e	= Guardar todas las fotos en el\n
-	+ álbum a la tarjeta SD.
+    7d	= Guardar todas las fotos en una tarjeta SD
+    7e	= Guardar todas las fotos del álbum en una tarjeta SD
     7f	= ¿Quieres guardar todo?
     80	= Se han guardado todas las fotos\n
 	+ en la carpeta \\DCIM\\%03dNIN01\n
@@ -949,7 +947,7 @@
 	+ Pokémon buscados.
    24b  = Cambiar de edición
    24c  = Pulsa este botón para\n
-        + cambiar entre pistas de\n
+        + elegir entre pistas de\n
         + las Ediciones Diamante,\n
         + Perla o Platino.
    24d	= Informe del rancho
@@ -1070,8 +1068,8 @@
    28e	= ¿Cómo se desactiva la música?
    28f	= Respuesta
    290	= Selecciona la opción (Sin música) en\n
-	+ el menú Música de hoy o mantén pulsados\n
-	+ \x{e043} y \x{e041}↓ al comenzar el juego.\n
+	+ el menú Música de hoy o mantén\n
+	+ pulsados \x{e043} y \x{e041}↓ al comenzar el juego.\n
    291	= Miis en el rancho (1)
    292	= Escoger Miis
    293	= Pulsa \x{e042} para seleccionar el Mii que\n
