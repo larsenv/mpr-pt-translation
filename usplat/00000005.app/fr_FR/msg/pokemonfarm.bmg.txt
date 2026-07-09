@@ -909,9 +909,9 @@
 	+ déposés.
    22d	 = Trier
    22e	 = Sélectionnez les Pokémon\n
-	+ que vous souhaitez voir au Ranch.\n
-	+ Vous pouvez trier par type,\n
-	+ quantité, corps ou marquage.
+	+ que vous souhaitez voir au\n
+	+ Ranch. Vous pouvez trier par\n
+	+ type, quantité ou catégorie.
    22f	 = Détails (3)
    230	 = Défilé
    231	 = Vous pouvez organiser un défilé avec\n

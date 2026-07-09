@@ -195,7 +195,7 @@
     3b	/
     3c	/
     3d	/
-    3e	 = Retourner au Menu Wii
+    3e	 = Retourner au menu Wii
     3f	/
     40	/
     41	/
