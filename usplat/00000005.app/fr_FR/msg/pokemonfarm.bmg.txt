@@ -242,10 +242,10 @@
     7c	 = Impossible de lire les données\n
 	+ des photos.
     7d	 = Sauvegarder toutes les\n
-	+ photos sur la carte SD
+	+ photos sur une carte SD
     7e	 = Il est possible de\n
 	+ sauvegarder toutes les photos\n
-	+ de l'album sur la carte SD.
+	+ de l'album sur une carte SD.
     7f	 = Voulez-vous sauvegarder\n
 	+ toutes les photos?
     80	 = Toutes les photos ont été\n
@@ -864,7 +864,7 @@
    217   = 
    218	 = Album (5)
    219	 = Sauvegarder toute les\n
-	+ photos sur la carte SD
+	+ photos sur une carte SD
    21a	 = Sauvegarder toutes les photos de\n
 	+ l'album sur la carte SD.
    21b	 = Se connecter à la DS (1)
