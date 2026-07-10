@@ -134,7 +134,7 @@
 	+ Contactez le Service Client Nintendo.\n
 	+ Pour plus d'information,\n
 	+ consultez le Mode d'Emploi de la Wii.\n
-	+ Le code d'erreur est %03d%03d.\n
+	+ CODE D'ERREUR: %03d%03d.\n
 	+ \n
 	+ Appuyez sur le bouton POWER\n
 	+ pendant au moins 4 secondes\n
@@ -154,10 +154,10 @@
     2a	 = WiiConnect24 est\n
 	+ temporairement inaccessible.\n
 	+ Réessayez plus tard.
-    2b	 = Le paramètre WiiConnect24\n
-	+ n'est pas activé.\n
-	+ Vérifiez les paramètres dans\n
-	+ les Options Wii.
+    2b	 = WiiConnect24 n'est\n
+	+ pas activé.\n
+	+ Vérifiez vos paramètres\n
+	+ dans les options Wii.
     2c	 = Une connexion Internet\n
 	+ ne peut pas être établie, donc\n
 	+ WiiConnect24 ne peut pas être\n
@@ -178,12 +178,10 @@
 	+ lieu. Redémarrez puis\n
 	+ réessayez.\n
     31	/
-    32	 = L'usage du réseau a été\n
-	+ restreint.\n
-	+ \n
-	+ Vérifiez les paramètres\n
-	+ de Contrôle Parental dans les\n
-	+ Options Wii.
+    32	 = L'utilisation des fonctions réseau\n
+	+ est limitée. Veuillez vérifier\n
+	+ les paramètres du contrôle\n
+	+ parental dans les options Wii.
     33	/
     34	/
     35	/
