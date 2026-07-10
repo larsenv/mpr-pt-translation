@@ -865,8 +865,10 @@
    218	 = Album (5)
    219	 = Sauvegarder toute les\n
 	+ photos sur une carte SD
-   21a	 = Sauvegarder toutes les photos de\n
-	+ l'album sur la carte SD.
+   21a	 = Vous pouvez sauvegarder toutes\n
+	+ les photos de l'album sur une\n
+	+ carte SD insérée dans le port\n
+	+ carte SD.
    21b	 = Se connecter à la DS (1)
    21c	 = Se connecter à la DS
    21d	 = Vous pouvez déposer au Ranch un\n
