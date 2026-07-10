@@ -634,7 +634,7 @@
    19f	 = Affamé
    1a0	 = Rebond
    1a1	 = © Pokémon / Nintendo.
-   1a2	 = Ranch de %ls
+   1a2	 = Ranch %ls
    1a3	 = Ranch\n
 	+ %ls
    1a4	 = Sauvegarde en cours...
