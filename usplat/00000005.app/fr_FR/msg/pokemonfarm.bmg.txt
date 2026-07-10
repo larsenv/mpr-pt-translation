@@ -520,7 +520,7 @@
    12d	 = Parfumé
    12e	 = Rare
    12f	 = Rumeur du Ranch %02d
-   130	 = %02d:%ls
+   130	 = %02d: %ls
    131	 = L'appel du Ranch
    132	 = Le défilé en zigzags
    133	 = Le sprint des Pokémon
