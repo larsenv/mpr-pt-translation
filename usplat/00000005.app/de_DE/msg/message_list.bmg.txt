@@ -179,7 +179,7 @@
 	+ Einstellungen deaktiviert.\n
 	+ Bitte kontrolliere die\n
 	+ Einstellungen der Wii\n
-	+ Bitte lies die\n
+	+ \fBitte lies die\n
 	+ Wii-Bedienungsanleitung, um\n
 	+ weitere Informationen zu erhalten.\n
     2c	 = Keine Verbindung zum Internet\n

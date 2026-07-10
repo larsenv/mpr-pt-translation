@@ -1213,8 +1213,8 @@
 	+ Ranch auch anschauen!
    1d0   = Oh, und eine Sache noch!\n
      + Du kannst mich jederzeit wieder\n
-     + besuchen kommen. Ich hole dich\n
-	 + ab, wenn du anrufst!
+     + besuchen kommen. Ich hole\n
+	 + dich ab, wenn du anrufst!
    1d1   = Komm gut nach Hause!
    1d2	 = Danke, dass du mich besucht\n
 	+ und dir meine Ranch angesehen\n

@@ -480,7 +480,7 @@
    108	 = Betreuer
    109	 = Parade
    10a	 = 
-   10b	 = Pokémon entlassen?
+   10b	 = PKMN entlassen?
    10c	 = Standard
    10d	 = Menge
    10e	 = Typ
@@ -897,8 +897,8 @@
    22c	 = Du kannst nun die Pokémon\n
 	+ die du gelagert hast sehen.\n
 	+ Dieser Knopf öffnet den\n
-	+ "Pokémon entlassen?" Dialog.\n
-   22d	 = Pokémon entlassen?
+	+ "PKMN entlassen?" Dialog.\n
+   22d	 = PKMN entlassen?
    22e	 = Wähle welche Pokémon du\n
 	+ auf die Ranch entlassen\n
 	+ willst. Du kannst nach Typ\n
@@ -940,8 +940,8 @@
 	+ den Status der Ranch.
    241   = \n
 	+ ・Du kannst die "Heutige Musik" ändern.\n
-	+ ・Du kannst eine Pokéschau-Club Ranch,\n
-	+ wieder besuchen.
+	+ ・Du kannst eine Pokéschau-Club\n
+	+ Ranch, wieder besuchen.
    242	 = 
    243	 = Gesuchte Pokémon (1)
    244	 = Gesuchte Pokémon
@@ -992,9 +992,9 @@
    25c	 = Pokéschau-Club
    25d	 = Pokéschau-Club
    25e	 = Du kannst eine Pokéschau-\n
-    + Club Ranch wieder\n
-	+ besuchen, wenn du sie bereits\n
-	+ besucht hast.
+    + Club Ranch wieder besuchen,\n
+	+ wenn du sie bereits besucht\n
+	+ hast.
    25f	 = Optionen
    260	 = Optionen
    261	 = Wähle die Miis, die auf die\n
