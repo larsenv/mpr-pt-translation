@@ -862,7 +862,7 @@
    21b	 = Mit DS-System verbinden (1)
    21c	 = Mit DS-System verbinden
    21d	 = Hier kannst du Pokémon aus\n
-	+ Pokémon Diamant-, Perl- und\n
+	+ Pokémon Diamant, Perl und\n
 	+ Platin ablegen und mitnehmen.
    21e	 = Verbindung unterbrechen
    21f	 = Mit dieser Option kannst du die\n
@@ -901,7 +901,7 @@
    22d	 = Pokémon entlassen?
    22e	 = Wähle welche Pokémon du\n
 	+ auf die Ranch entlassen\n
-	+ willst. Du kannst nach Typ\n 
+	+ willst. Du kannst nach Typ\n
 	+ und Menge sortieren.
    22f	 = Details (3)
    230	 = Parade
@@ -934,16 +934,14 @@
 	+ zu entfernen.
    23e	 = Schwarzes Brett
    23f	 = Schwarzes Brett
-   240	 = Du kannst gesuchte\n
-	+ Pokémon überprüfen.
-	+ \n
-	+ Informiere dich über\n
-	+ den Status der Ranch.\n
+   240	 = ・Du kannst gesuchte\n
+	+ Pokémon überprüfen.\n
+	+ ・Informiere dich über\n
+	+ den Status der Ranch.
    241   = \n
-	+ Du kannst die "Heutige Musik" ändern.\n
-	+ Du kannst eine Pokéschau-Club Ranch,\n
-	+ die du bereits besucht hast, wieder\n
-	+ besuchen.
+	+ ・Du kannst die "Heutige Musik" ändern.\n
+	+ ・Du kannst eine Pokéschau-Club Ranch,\n
+	+ wieder besuchen.
    242	 = 
    243	 = Gesuchte Pokémon (1)
    244	 = Gesuchte Pokémon
@@ -993,10 +991,10 @@
    25b	 = Musik beenden.
    25c	 = Pokéschau-Club
    25d	 = Pokéschau-Club
-   25e	 = Du kannst eine Pokéschau\n
-    + -Club Ranch wieder besuchen,\n
-	+ wenn du sie bereits besucht\n
-	+ hast.
+   25e	 = Du kannst eine Pokéschau-\n
+    + Club Ranch wieder\n
+	+ besuchen, wenn du sie bereits\n
+	+ besucht hast.
    25f	 = Optionen
    260	 = Optionen
    261	 = Wähle die Miis, die auf die\n
@@ -1049,7 +1047,7 @@
    279	 = Frage
    27a	 = Kann ich ein Pokémon von der Ranch\n
 	+ mitnehmen, das mein Freund mit einer\n
-	+ Pokémon Diamant, Perl oder\n
+	+ Pokémon Diamant-, Perl- oder\n
 	+ Platin-Karte abgelegt hat?
    27b	 = Antwort
    27c	 = Nein.\n

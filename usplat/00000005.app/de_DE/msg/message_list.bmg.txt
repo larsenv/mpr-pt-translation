@@ -190,7 +190,7 @@
 	+ Einstellungen der Wii-Konsole.
 	+ \fBitte lies die Wii-Bedienungs-\n
 	+ anleitung, um weitere\n
-	+ Informationen zu erhalten.\n
+	+ Informationen zu erhalten.
     2d	 = WiiConnect24 ist aktuell\n
 	+ nicht erreichbar.\n
 	+ Bitte versuche es später erneut\n

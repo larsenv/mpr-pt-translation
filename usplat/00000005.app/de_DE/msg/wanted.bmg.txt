@@ -502,7 +502,7 @@
 	+ See der Wahrheit an dich.
    126	 = Erhalte es von Prof. Eich.
    127	 = Bringe das Ei zum Schlüpfen, das\n
-	+ dir Hordeo auf der Eiseninsel gab.
+	+ dir Urs auf der Eiseninsel gab.
    128	 = Überprüfe nachts den Fernseher\n
 	+ in der Alten Villa.
    129	 = Du begegnest diesem Pokémon\n
