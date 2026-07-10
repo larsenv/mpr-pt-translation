@@ -241,8 +241,8 @@
 	+ ont été effacées.
     7c	 = Impossible de lire les données\n
 	+ des photos.
-    7d	 = Sauvegarder toutes les photos\n
-	+ sur la carte SD
+    7d	 = Sauvegarder toutes les\n
+	+ photos sur la carte SD
     7e	 = Il est possible de\n
 	+ sauvegarder toutes les photos\n
 	+ de l'album sur la carte SD.
@@ -504,19 +504,19 @@
    11d	 = Grand
    11e	 = Léger
    11f	 = Lourd
-   120	 = Fougueux
+   120	 = De feu
    121	 = Froid
    122	 = Effrayant
-   123	 = Rapide
+   123	 = Très rapide
    124	 = Rond
    125	 = Volant
-   126	 = Robuste
-   127	 = Concentré
+   126	 = Costaud
+   127	 = Energique
    128	 = Paralysant
-   129	 = Calme
-   12a	 = Inconscient
+   129	 = Paisible
+   12a	 = Insouciant
    12b	 = Puant
-   12c	 = Chanteur
+   12c	 = Chantant
    12d	 = Parfumé
    12e	 = Rare
    12f	 = Rumeur du Ranch %02d
@@ -863,8 +863,8 @@
    216	 = 
    217   = 
    218	 = Album (5)
-   219	 = Sauvegarder\n
-	+ sur une carte SD
+   219	 = Sauvegarder toute les\n
+	+ photos sur la carte SD
    21a	 = Sauvegarder toutes les photos de\n
 	+ l'album sur la carte SD.
    21b	 = Se connecter à la DS (1)
