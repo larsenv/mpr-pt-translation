@@ -1381,8 +1381,7 @@
 	+ \fTiene una colita mullidita y\n
 	+ dientecitos sobresalientes.\n
 	+ ¡Es de lo más adorable!
-   222	= Capturé a este PONYTA\n
-	+ en la Ruta 211.\n
+   222	= Mira a este PONYTA.\n
 	+ \f¡Es una aportación excelente al\n
 	+ rancho, con esa cola de color\n
 	+ rojo carmín!
@@ -1420,8 +1419,7 @@
 	+ \f¡He oído por ahí que cuando\n
 	+ evoluciona se vuelve enorme!
    228	= Puedes capturar a MILTANK\n
-	+ si usas el Pokéradar\n
-	+ en la Ruta 209.\n
+	+ usando el Pokéradar.\n
 	+ \f¿No crees que MILTANK es\n
 	+ justo lo que necesita el rancho?
    229	= Puedes capturar a YANMA en\n
@@ -1431,9 +1429,7 @@
 	+ Pokémon formidable al subir\n
 	+ de nivel tras aprender el\n
 	+ movimiento Poder Pasado.
-   22a	= Atrapé a este LICKITUNG una\n
-	+ vez que aparecieron un montón\n
-	+ de ellos en el Lago Valor.\n
+   22a	= Atrapé a este LICKITUNG.\n
 	+ \fTiene una lengua larguísima,\n
 	+ ¡pero es un Pokémon adorable!
    22b	= He criado a este WYNAUT\n

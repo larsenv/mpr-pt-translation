@@ -271,7 +271,7 @@
     8a	= Terminal Global
     8b	= Mansión
     8c	= Café Revancha
-    8d	= Sala de ROTOM
+    8d	= Sala de Rotom
     8e	= Edificio Galaxia
     8f	= Ruinas Hierro
     90	= Ruinas Iceberg
@@ -361,7 +361,7 @@
     e4	= Hoenn
     e5	= Sinnoh
     e6	= ----
-    e7	= Tierra lejana
+    e7	= Tierra Lejana
     e8	= Viajero
     e9	= Quinoa
     ea	= Cintia
