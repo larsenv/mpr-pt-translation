@@ -1381,7 +1381,7 @@
 	+ \fTiene una colita mullidita y\n
 	+ dientecitos sobresalientes.\n
 	+ ¡Es de lo más adorable!
-   222	= Mira a este PONYTA.\n
+   222	= Capturé a este PONYTA.\n
 	+ \f¡Es una aportación excelente al\n
 	+ rancho, con esa cola de color\n
 	+ rojo carmín!

@@ -60,8 +60,8 @@
      b [2,2,1,1] = Lanzador
      c [2,2,1,1] = Poké Cojín
      d [2,2,1,1] = Poké Cojín
-     e [1,1,1,1] = Fogata
-     f [1,1,1,1] = Fogata
+     e	= Fogata
+     f	= Fogata
     10	= Ban. Líder
     11	= Bandera de Líder
     12	= Fuente
