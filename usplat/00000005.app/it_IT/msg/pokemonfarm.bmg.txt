@@ -112,7 +112,8 @@
     28	 = %d Pokémon hanno\n
 	+ lasciato il Ranch.
     29	 = Un Pokémon ha lasciato il Ranch.
-    2a	 = (TRANSLATION NEEDED) %d Pokémon left.
+    2a	 = %d Pokémon hanno\n
+   + lasciato il ranch.
     2b	 = Impossibile collegarsi alla\n
 	+ console Nintendo DS.\n
 	+ \fRiavvia My Pokémon Ranch\n
@@ -121,8 +122,8 @@
 	+ \fRiavvia My Pokémon Ranch\n
     2d	 = In attesa di risposta dalla\n
 	+ console Nintendo DS...
-    2e   = (TRANSLATION NEEDED) \n
-	+ Disconnected from the DS.
+    2e   = Disconnesso dal\n
+	+ Nintendo DS.
     2f   = Attendi...
     30	 = Ordine:\040
     31	 = Nome:\040
@@ -185,10 +186,10 @@
     65	 = Salva in una scheda SD
     66	 = Vuoi salvare questa foto\n
 	+ in una scheda SD?
-    67	 = (TRANSLATION NEEDED) Saved the picture as\n
-	+ %2$.4s%3$04d.JPG\n
-	+ to folder \\DCIM\\%03dNIN01\n
-	+ in the SD Card.
+    67	 = Foto salvata come\n
+	+ %2$.4s%3$04d.JPG nella\n
+	+ directory \\DCIM\\%03dNIN01\n
+	+ della scheda SD.
     68	 = Notizie dal Ranch
     69	 = Cancella tutte le foto\n
 	+ salvate nella scheda SD
@@ -245,9 +246,9 @@
     7e	 = (TRANSLATION NEEDED) Save all pictures in the album\n
 	+ to the SD Card.
     7f	 = (TRANSLATION NEEDED) Is it okay to save everything?
-    80	 = (TRANSLATION NEEDED) All pictures have been saved\n
-	+ to folder \\DCIM\\%03dNIN01\n
-	+ in the SD Card.
+    80	 = Tutte le foto sono state salvate\n
+	+ nella directory \\DCIM\\%03dNIN01\n
+	+ della scheda SD.
     81	 = (TRANSLATION NEEDED) Delete all unsecured\n
 	+ pictures?
     82	 = (TRANSLATION NEEDED) Are you sure you want to\n

@@ -131,8 +131,8 @@
 	+ ce ne saranno sempre di più!
     25	 = Insomma, se hai dei Pokémon,\n
 	+ portali qui!
-    26	 = (TRANSLATION NEEDED) By the way... Do you have\n
-	+ a Nintendo DS?
+    26	 = Comunque... Hai una\n
+	+ Nintendo DS?
     27	 = Sì? Fantastico! Allora\n
 	+ puoi portare al Ranch\n
 	+ tutti i tuoi Pokémon!
