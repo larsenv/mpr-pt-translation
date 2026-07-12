@@ -100,8 +100,8 @@
     33 [2,,,2] = Poké Balloons
     34	= Birthday Cake
     35	= Birthday Cake
-    36	= Apple Box
-    37	= Apple Box
+    36 [2,3,,1] = Apple Box
+    37 [2,3,,1] = Apple Box
     38	= Tricorne
     39	= Tricorne
     3a	= Dice
