@@ -187,7 +187,7 @@
     67	= Se ha guardado la foto en\n
 	+ la tarjeta SD con el nombre\n
 	+ %2$.4s%3$04d.JPG en la\n
-	+ carpeta \\DCIM\\%03dNIN01.
+	+ carpeta \\DCIM\\%1$03dNIN01.
     68	= Noticias
     69	= Borrar todas las fotos de\n
 	+ la tarjeta SD
@@ -239,13 +239,16 @@
 	+ Se han borrado todas las fotos.
     7c	= No se han podido cargar los\n
 	+ datos de las fotos.
-    7d	= Guardar todas las fotos en una tarjeta SD
-    7e	= Guardar todas las fotos del álbum en una tarjeta SD
+    7d	= Guardar todas las fotos\n
+	+ en una tarjeta SD
+    7e	= Guardar todas las fotos\n
+	+ del Álbum en una tarjeta SD.
     7f	= ¿Quieres guardar todo?
     80	= Se han guardado todas las fotos\n
-	+ en la carpeta \\DCIM\\%03dNIN01\n
+	+ en la carpeta ¥DCIM¥%03dNIN01\n
 	+ dentro de la tarjeta SD.
-    81	= ¿Borrar todas las fotos desprotegidas?
+    81	= ¿Borrar todas las fotos\n
+	+ desprotegidas?
     82	= ¿De verdad quieres borrar todo?\n
     83	= Se han borrado todas las\n
 	+ fotos desprotegidas.
