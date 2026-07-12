@@ -241,20 +241,20 @@
 	+ erano danneggiati.
     7c	 = Impossibile caricare\n
 	+ i dati delle foto.
-    7d	 = (TRANSLATION NEEDED) Save all pictures to the\n
-	+ SD Card.
-    7e	 = (TRANSLATION NEEDED) Save all pictures in the album\n
-	+ to the SD Card.
-    7f	 = (TRANSLATION NEEDED) Is it okay to save everything?
+    7d	 = Salva tutte le foto nella\n
+	+ scheda SD.
+    7e	 = Salva tutte le foto nell'album\n
+	+ della scheda SD.
+    7f	 = Vuoi davvero salvare tutte le immagini?
     80	 = Tutte le foto sono state salvate\n
 	+ nella directory \\DCIM\\%03dNIN01\n
 	+ della scheda SD.
-    81	 = (TRANSLATION NEEDED) Delete all unsecured\n
-	+ pictures?
-    82	 = (TRANSLATION NEEDED) Are you sure you want to\n
-	+ delete everything?
-    83	 = (TRANSLATION NEEDED) All unsecured pictures have\n
-	+ been deleted.
+    81	 = Vuoi eliminare tutte le foto non\n
+	+ protette?
+    82	 = Vuoi davvero eliminare\n
+	+ tutte le foto?
+    83	 = Tutte le foto non protette\n
+	+ sono state eliminate.
     84	 = Non è stata trovata\n
 	+ nessuna scheda SD.
     85	 = Impossibile salvare o cancellare\n
@@ -308,8 +308,8 @@
     98	 = Si è verificato un errore\n
 	+ con la scheda SD. Riavvia\n
 	+ la console Wii e riprova.
-    99   = (TRANSLATION NEEDED) Saving was canceled because\n
-	+ the SD Card was reinserted.
+    99   = Il salvataggio è stato annullato perchè\n
+	+ la scheda SD è stata reinserita.
     9a	 = Scegli uno o più Mii da portare\n
 	+ al Ranch.
     9b	 = Scelti: %d Da scegliere: %d
@@ -835,8 +835,8 @@
    217   = 
    218	 = (TRANSLATION NEEDED) Album (5)
    219	 = Salva in una scheda SD
-   21a	 = (TRANSLATION NEEDED) Save all pictures in the\n
-	+ Album to SD Card.
+   21a	 = Salva tutte le foto nell'album\n
+	+ della scheda SD.
    21b	 = Collegamento al DS (1)
    21c	 = Collegati al DS
    21d	 = (TRANSLATION NEEDED) You can deposit Pokémon to and\n
