@@ -27,7 +27,7 @@
 @INF-SIZE = 0x08
 
 # Default attribute values for this BMG (MKW=[1])
-@DEFAULT-ATTRIBS = [0]
+@DEFAULT-ATTRIBS = [3,3,2,1]
 
 # Use MKW specific color names: 0=off, 1=auto, 2=on
 @COLOR-NAMES = 1
