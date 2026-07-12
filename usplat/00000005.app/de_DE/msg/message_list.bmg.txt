@@ -178,10 +178,10 @@
     2b	 = WiiConnect24 ist in den\n
 	+ Einstellungen deaktiviert.\n
 	+ Bitte kontrolliere die\n
-	+ Einstellungen der Wii\n
+	+ Einstellungen der Wii.\n
 	+ \fBitte lies die\n
 	+ Wii-Bedienungsanleitung, um\n
-	+ weitere Informationen zu erhalten.\n
+	+ weitere Informationen zu erhalten.
     2c	 = Keine Verbindung zum Internet\n
 	+ möglich. WiiConnect24 ist nicht\n
 	+ verfügbar.

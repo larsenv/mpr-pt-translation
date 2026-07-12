@@ -938,8 +938,7 @@
 	+ Pokémon überprüfen.\n
 	+ ・Informiere dich über\n
 	+ den Status der Ranch.
-   241   = \n
-	+ ・Du kannst die "Heutige Musik" ändern.\n
+   241   = ・Du kannst die "Heutige Musik" ändern.\n
 	+ ・Du kannst eine Pokéschau-Club\n
 	+ Ranch, wieder besuchen.
    242	 = 
