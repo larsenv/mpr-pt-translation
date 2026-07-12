@@ -159,7 +159,8 @@
     53	 = Mode automatique
     54	 = Détails
     55	 = Valider et ressortir
-    56	 = Mode déplacement libre
+    56	 = Mode\n
+	+  déplacement libre
     57	 = Faire venir des Mii
     58	 = Montrer mon Ranch
     59	 = Invités du Ranch
