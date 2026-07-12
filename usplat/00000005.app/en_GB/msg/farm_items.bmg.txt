@@ -27,7 +27,7 @@
 @INF-SIZE = 0x08
 
 # Default attribute values for this BMG (MKW=[1])
-@DEFAULT-ATTRIBS = [0]
+@DEFAULT-ATTRIBS = [2,2,,1]
 
 # Use MKW specific color names: 0=off, 1=auto, 2=on
 @COLOR-NAMES = 1
@@ -66,8 +66,8 @@
     11	= Leader Flag
     12	= Fountain
     13	= Fountain
-    14	= Ice
-    15	= Ice
+    14 [2,3,,1] = Ice Block
+    15 [2,3,,1] = Ice Block
     16	= Poké Microphone
     17	= Poké Microphone
     18	= Burst Ball
@@ -88,16 +88,16 @@
     27	= Round Rock
     28	= Spin Ride
     29	= Spin Ride
-    2a	= Attractor
-    2b	= Attractor
+    2a [2,3,,1] = Attractor
+    2b [2,3,,1] = Attractor
     2c	= Challenger
     2d	= Challenger
     2e	= Toy Box
     2f	= Toy Box
     30	= Poké Ball
     31	= Poké Ball
-    32	= Poké Balloons
-    33	= Poké Balloons
+    32 [2,,,2] = Poké Balloons
+    33 [2,,,2] = Poké Balloons
     34	= Birthday Cake
     35	= Birthday Cake
     36	= Apple Box
