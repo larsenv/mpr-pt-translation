@@ -245,7 +245,7 @@
 	+ del Álbum en una tarjeta SD.
     7f	= ¿Quieres guardar todo?
     80	= Se han guardado todas las fotos\n
-	+ en la carpeta ¥DCIM¥%03dNIN01\n
+	+ en la carpeta \\DCIM\\%1$03dNIN01\n
 	+ dentro de la tarjeta SD.
     81	= ¿Borrar todas las fotos\n
 	+ desprotegidas?
