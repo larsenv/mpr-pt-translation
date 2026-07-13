@@ -79,7 +79,7 @@
     1e	= I saw the Flower Dance.
     1f	= I saw the Journey.
     20	= I saw the Orbit.
-    21	= I saw a Ressurection.
+    21	= I saw a Resurrection.
     22	= I saw Facing North.
     23	= I saw a Surfing Jump.
     24	= I saw the Rotom Roulette.
@@ -93,7 +93,7 @@
     2c	= I spent %d hours at the Ranch.
     2d	= I took a picture.
     2e	= I picked it up.
-    2f	= I watched cafefully.
+    2f	= I watched carefully.
     30	= I played at the Ranch.
     31	= I watched the Parade.
     32	= %{} left %{} at the Ranch.

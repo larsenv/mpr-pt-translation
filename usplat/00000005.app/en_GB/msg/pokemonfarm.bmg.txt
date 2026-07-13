@@ -1109,8 +1109,8 @@
    2ab	= No Pokédex was found.
    2ac	= A Pokédex is required to deposit\n
 	+ Pokémon to the Ranch.
-   2ad	= Please press the power\n
-	+ button on the wii for\n
+   2ad	= Please press the POWER\n
+	+ button on the Wii for\n
 	+ 4 seconds to turn off\n
 	+ the power.	
 	+ \n

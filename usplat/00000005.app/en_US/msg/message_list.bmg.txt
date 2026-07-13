@@ -72,39 +72,39 @@
     16	/
     17	/
     18	= There is not enough available\n
-	+ space in Wii system memory.\n
-	+ \fCreate %d blocks\n
+	+ space in Wii system memory.\f
+	+ Create %d blocks\n
 	+ of free space either by moving data to\n
 	+ an SD Card or by deleting data in\n
 	+ the Save Data screen.
     19	= There is not enough available\n
 	+ space in Wii system memory for\n
-	+ My Pokémon Ranch Platinum Version.\n
-	+ \fCreate %d blocks\n
+	+ My Pokémon Ranch Platinum Version.\f
+	+ Create %d blocks\n
 	+ of free space either by moving data to\n
 	+ an SD Card or by deleting data in\n
 	+ the Save Data screen.
     1a	= There is not enough available\n
-	+ space in Wii system memory.\n
-	+ \fCreate 1 block\n
+	+ space in Wii system memory.\f
+	+ Create 1 block\n
 	+ of free space either by moving data to\n
 	+ an SD Card or by deleting data in\n
 	+ the Save Data screen.
     1b	= There is not enough available\n
 	+ space in Wii system memory for\n
-	+ My Pokémon Ranch Platinum Version.\n
-	+ \fCreate 1 block\n
+	+ My Pokémon Ranch Platinum Version.\f
+	+ Create 1 block\n
 	+ of free space either by moving data to\n
 	+ an SD Card or by deleting data in\n
 	+ the Save Data screen.
     1c	= There is not enough available\n
-	+ space in Wii system memory.\n
-	+ \fEither move data to an\n
+	+ space in Wii system memory.\f
+	+ Either move data to an\n
 	+ SD Card or delete data in the\n
 	+ Save Data screen.
     1d	= There is not enough available\n
 	+ space in Wii system memory for\n
-	+ My Pokémon Ranch Platinum Version.\n
+	+ My Pokémon Ranch Platinum Version.\f
 	+ \fEither move data to an\n
 	+ SD Card or delete data in\n
 	+ My Pokémon Ranch.
