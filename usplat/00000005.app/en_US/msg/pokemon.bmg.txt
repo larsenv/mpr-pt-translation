@@ -27,7 +27,7 @@
 @INF-SIZE = 0x08
 
 # Default attribute values for this BMG (MKW=[1])
-@DEFAULT-ATTRIBS = [0]
+@DEFAULT-ATTRIBS = [2,2]
 
 # Use MKW specific color names: 0=off, 1=auto, 2=on
 @COLOR-NAMES = 1
@@ -539,7 +539,6 @@
    1ea	= DARKRAI
    1eb	= SHAYMIN
    1ec	= ARCEUS
-   1ed	= Egg
-   1ee	= Bad Egg
+   1ed	= Huevo
+   1ee	= Huevo malo
    1ef	= NIDORAN
-
