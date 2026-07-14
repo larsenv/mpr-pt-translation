@@ -72,88 +72,95 @@
     16	/
     17	/
     18	= There is not enough available\n
-	+ space in Wii system memory.\f
-	+ Create %d blocks\n
-	+ of free space either by moving data to\n
-	+ an SD Card or by deleting data in\n
-	+ the Save Data screen.
+	+ space in Wii system memory.\n
+	+ \fCreate %d blocks of free space\n
+	+ either by moving data to\n
+	+ an SD Card or by deleting data\n
+	+ in the Save Data screen.
     19	= There is not enough available\n
 	+ space in Wii system memory for\n
-	+ My Pokémon Ranch Platinum Version.\f
-	+ Create %d blocks\n
-	+ of free space either by moving data to\n
-	+ an SD Card or by deleting data in\n
-	+ the Save Data screen.
+	+ the Platinum Version.\n
+	+ \fCreate %d blocks of free space\n
+	+ either by moving data to\n
+	+ an SD Card or by deleting data\n
+	+ in the Save Data screen.
+	+ \fDo not move My Pokémon Ranch\n
+	+ data to the SD Card.
     1a	= There is not enough available\n
-	+ space in Wii system memory.\f
-	+ Create 1 block\n
-	+ of free space either by moving data to\n
-	+ an SD Card or by deleting data in\n
-	+ the Save Data screen.
+	+ space in Wii system memory.\n
+	+ \fCreate 1 block of free space\n
+	+ either by moving data to\n
+	+ an SD Card or by deleting data\n
+	+ in the Save Data screen.
     1b	= There is not enough available\n
 	+ space in Wii system memory for\n
-	+ My Pokémon Ranch Platinum Version.\f
-	+ Create 1 block\n
-	+ of free space either by moving data to\n
-	+ an SD Card or by deleting data in\n
-	+ the Save Data screen.
+	+ the Platinum Version.\n
+	+ \fCreate 1 block of free space\n
+	+ either by moving data to\n
+	+ an SD Card or by deleting data\n
+	+ in the Save Data screen.
+	+ \fDo not move My Pokémon Ranch\n
+	+ data to the SD Card.
     1c	= There is not enough available\n
 	+ space in Wii system memory.\f
 	+ Either move data to an\n
-	+ SD Card or delete data in the\n
-	+ Save Data screen.
+	+ SD Card or delete data in\n
+	+ the Save Data screen.
     1d	= There is not enough available\n
 	+ space in Wii system memory for\n
-	+ My Pokémon Ranch Platinum Version.\f
+	+ the Platinum Version.\f
 	+ \fEither move data to an\n
 	+ SD Card or delete data in\n
-	+ My Pokémon Ranch.
+	+ the Save Data screen.
+	+ \fDo not move My Pokémon Ranch\n
+	+ data to the SD Card.
     1e	= There is an abnormal amount\n
-	+ of free space in Wii system memory.\n
+	+ of free space in\n
+	+ Wii system memory\n
 	+ \n
-	+ Refer to the Wii Operations\n
-	+ Manual for details.
+	+ Please refer to the Wii\n
+	+ Operations Manual for details.
     1f	= There is an abnormal number\n
 	+ of files in Wii system memory.\n
 	+ \n
-	+ Refer to the Wii Operations\n
-	+ Manual for details.
+	+ Please refer to the Wii\n
+	+ Operations Manual for details.
     20	/
     21	= The Wii system memory\n
 	+ has been damaged.\n
 	+ \n
-	+ Refer to the Wii Operations\n
-	+ Manual for details.
+	+ Please Refer to the Wii\n
+	+ Operations Manual for details.
     22	= Saving...\n
-	+ Don't turn off the power or\n
-	+ press RESET.
+	+ Please do not touch the\n
+	+ POWER Button or RESET.
     23	/
-    24	= Could not access Wii system\n
-	+ memory.\n
-	+ \fRefer to the Wii Operations\n
-	+ Manual for details.
+    24	= Could not access\n
+	+ Wii system memory.\n
+	+ \fPlease refer to the Wii\n
+	+ Operations Manual for details.
     25	= An error occurred while\n
 	+ accessing Wii system memory.\n
-	+ \fRefer to the Wii Operations\n
-	+ Manual for details.
+	+ \fPlease refer to the Wii\n
+	+ Operations Manual for details.
     26	= The save data cannot be read.\n
 	+ You cannot start the game.\n
-	+ Please contact a Nintendo Service\n
-	+ Center. For more information,\n
+	+ Please contact a Nintendo\n
+	+ Service Centre.
+	+ For more information,\n
 	+ see the Wii Operations Manual.\n
 	+ The error code is %03d%03d.\n
-	+ \n
-	+ Please press and hold the\n
-	+ POWER Button for at least four\n
-	+ seconds to turn the console off.
+	+ Press and hold the POWER\n
+	+ Button for at least 4 seconds\n
+	+ to turn the Wii console off.
     27	= There is a problem with the\n
 	+ Wii system memory, so\n
 	+ WiiConnect24 cannot be\n
 	+ used.
     28	= To use WiiConnect24, a\n
 	+ system update is required.\n
-	+ Refer to the Wii Operations\n
-	+ Manual for details.
+	+ Please refer to the Wii\n
+	+ Operations Manual for details.
     29	= WiiConnect24 cannot be\n
 	+ used because an error has\n
 	+ occurred. Reset and try\n
@@ -167,8 +174,8 @@
 	+ Wii Options.
     2c	= An Internet connection\n
 	+ cannot be established, so\n
-	+ WiiConnect24 cannot be\n
-	+ used. Check the Internet\n
+	+ WiiConnect24 cannot be used.\n
+	+ \fCheck the Internet\n
 	+ settings and connection.\n
     2d	= WiiConnect24 is\n
 	+ temporarily unavailable.\n
@@ -188,7 +195,7 @@
     32	= Use of network features has\n
 	+ been restricted.\n
 	+ \n
-	+ Please check the settings\n
+	+ \fPlease check the settings\n
 	+ for Parental Controls under\n
 	+ Wii Options.
     33	/
@@ -214,8 +221,9 @@
     47	/
     48	/
     49	/
-    4a	= Unable to load Mii Channel data.
-	+ Please access the Mii Channel
+    4a	= Unable to load\n
+	+ Mii Channel data.\n
+	+ Please access the Mii Channel\n
 	+ and check Mii Channel data.
     4b	= My Pokémon Ranch
     4c	/
