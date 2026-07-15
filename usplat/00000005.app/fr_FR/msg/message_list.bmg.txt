@@ -86,7 +86,9 @@
 	+ des données vers une carte SD\n
 	+ ou en les effaçant depuis\n
 	+ l'écran de gestion\n
-	+ des données.
+	+ des données.\n
+	+ \fNe déplacez pas les données de\n
+	+ My Pokémon Ranch vers la carte SD.
     1a	 = Il n'y a pas assez d'espace libre\n
 	+ dans la mémoire de la console\n
 	+ Wii.\n
@@ -102,7 +104,9 @@
 	+ des données vers une carte SD\n
 	+ ou en les effaçant depuis\n
 	+ l'écran de gestion\n
-	+ des données.
+	+ des données.\n
+	+ \fNe déplacez pas les données de\n
+	+ My Pokémon Ranch vers la carte SD.
     1c	 = Il n'y a pas assez d'espace libre\n
 	+ dans la mémoire de la console\n
 	+ Wii.\n
@@ -113,13 +117,14 @@
 	+ des données.
     1d	 = Il n'y a pas assez d'espace libre\n
 	+ dans la mémoire de la console\n
-	+ Wii.\n
-	+ pour la version Platine.\n
+	+ Wii pour la version Platine.\n
 	+ \fLibérez de l'espace en transférant\n
 	+ des données vers une carte SD\n
 	+ ou en les effaçant depuis\n
 	+ l'écran de gestion\n
-	+ des données.
+	+ des données.\n
+	+ \fNe déplacez pas les données de\n
+	+ My Pokémon Ranch vers la carte SD.
     1e	 = Il y a une quantité anormale\n
 	+ d'espace libre dans la mémoire\n
 	+ de la console Wii.\n
@@ -195,8 +200,10 @@
 	+ lieu. Redémarrez puis\n
 	+ réessayez.\n
     31	/
-    32	 = L'utilisation des fonctions réseau\n
-	+ est limitée. Veuillez vérifier\n
+    32	= L'utilisation des fonctions réseau\n
+	+ est limitée.\n
+	+ \n
+	+ \fVeuillez vérifier\n
 	+ les paramètres du contrôle\n
 	+ parental dans les options Wii.
     33	/
@@ -222,9 +229,11 @@
     47	/
     48	/
     49	/
-    4a	 = Impossible de charger les données de la Chaîne Mii.
-	+ Allez dans la Chaîne Mii
-	+ et testez les données de la Chaîne Mii.
+    4a	 = Impossible de charger les\n
+    + données de la Chaîne Mii.\n
+	+ Allez dans la Chaîne Mii\n
+	+ et testez les données de\n
+	+ la Chaîne Mii.
     4b	 = My Pokémon Ranch
     4c	/
     4d	/
