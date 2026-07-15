@@ -72,52 +72,62 @@
     16	/
     17	/
     18	 = Il n'y a pas assez d'espace libre\n
-	+ dans la mémoire de la console Wii.\n
+	+ dans la mémoire de la console\n
+	+ Wii.\n
 	+ \fLibérez %d blocs en transférant\n
 	+ des données vers une carte SD\n
-	+ ou en les effaçant depuis l'écran\n
-	+ de gestion des données.
+	+ ou en les effaçant depuis\n
+	+ l'écran de gestion\n
+	+ des données.
     19	 = Il n'y a pas assez d'espace libre\n
-	+ dans la mémoire de la console Wii\n
-	+ pour la version Platine.\n
+	+ dans la mémoire de la console\n
+	+ Wii pour la version Platine.\n
 	+ \fLibérez %d blocs en transférant\n
 	+ des données vers une carte SD\n
-	+ ou en les effaçant depuis l'écran\n
-	+ de gestion des données.
+	+ ou en les effaçant depuis\n
+	+ l'écran de gestion\n
+	+ des données.
     1a	 = Il n'y a pas assez d'espace libre\n
-	+ dans la mémoire de la console Wii.\n
+	+ dans la mémoire de la console\n
+	+ Wii.\n
 	+ \fLibérez 1 bloc en transférant\n
 	+ des données vers une carte SD\n
-	+ ou en les effaçant depuis l'écran\n
-	+ de gestion des données.
+	+ ou en les effaçant depuis\n
+	+ l'écran de gestion\n
+	+ des données.
     1b	 = Il n'y a pas assez d'espace libre\n
-	+ dans la mémoire de la console Wii\n
-	+ pour la version Platine.\n
+	+ dans la mémoire de la console\n
+	+ Wii pour la version Platine.\n
 	+ \fLibérez 1 bloc en transférant\n
 	+ des données vers une carte SD\n
-	+ ou en les effaçant depuis l'écran\n
-	+ de gestion des données.
+	+ ou en les effaçant depuis\n
+	+ l'écran de gestion\n
+	+ des données.
     1c	 = Il n'y a pas assez d'espace libre\n
-	+ dans la mémoire de la console Wii.\n
+	+ dans la mémoire de la console\n
+	+ Wii.\n
 	+ \fLibérez de l'espace en transférant\n
 	+ des données vers une carte SD\n
-	+ ou en les effaçant depuis l'écran\n
-	+ de gestion des données.
+	+ ou en les effaçant depuis\n
+	+ l'écran de gestion\n
+	+ des données.
     1d	 = Il n'y a pas assez d'espace libre\n
-	+ dans la mémoire de la console Wii\n
+	+ dans la mémoire de la console\n
+	+ Wii.\n
 	+ pour la version Platine.\n
 	+ \fLibérez de l'espace en transférant\n
 	+ des données vers une carte SD\n
-	+ ou en les effaçant depuis l'écran\n
-	+ de gestion des données.
+	+ ou en les effaçant depuis\n
+	+ l'écran de gestion\n
+	+ des données.
     1e	 = Il y a une quantité anormale\n
 	+ d'espace libre dans la mémoire\n
-	+ de la Wii.\n
+	+ de la console Wii.\n
 	+ \fRéférez-vous au Mode d'Emploi de\n
 	+ la Wii pour plus de détails.
     1f	 = Il y a une quantité anormale\n
 	+ de fichiers dans la mémoire\n
-	+ de la Wii.\n
+	+ de la console Wii.\n
 	+ \fRéférez-vous au Mode d'Emploi de\n
 	+ la Wii pour plus de détails.
     20	/
