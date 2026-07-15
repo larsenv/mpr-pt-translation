@@ -71,33 +71,33 @@
     15	/
     16	/
     17	/
-    18	 = La mémoire de la Wii est pleine.\f
-	+ Libérez %d blocs en effaçant\n
+    18	 = La mémoire de la Wii est pleine.\n
+	+ \fLibérez %d blocs en effaçant\n
 	+ ou transférant des données\n
 	+ vers une carte SD depuis la\n
 	+ gestion des données.
-    19	 = La mémoire de la Wii est pleine.\f
-	+ Libérez %d blocs en effaçant\n
+    19	 = La mémoire de la Wii est pleine.\n
+	+ \fLibérez %d blocs en effaçant\n
     + ou transférant des données\n
     + vers une carte SD depuis la\n
     + gestion des données.
-    1a	 = La mémoire de la Wii est pleine.\f
-	+ Libérez 1 bloc en effaçant\n
+    1a	 = La mémoire de la Wii est pleine.\n
+	+ \fLibérez 1 bloc en effaçant\n
     + ou transférant des données\n
     + vers une carte SD depuis la\n
     + gestion des données.
-    1b	 = La mémoire de la Wii est pleine.\f
-	+ Libérez 1 bloc en effaçant\n
+    1b	 = La mémoire de la Wii est pleine.\n
+	+ \fLibérez 1 bloc en effaçant\n
     + ou transférant des données\n
     + vers une carte SD depuis la\n
     + gestion des données.
-    1c	 = La mémoire de la Wii est pleine.\f
-	+ Libérez de l'espace\n
+    1c	 = La mémoire de la Wii est pleine.\n
+	+ \fLibérez de l'espace\n
 	+ en effaçant ou transférant\n
 	+ des données vers une carte SD\n
 	+ depuis la gestion des données.
-    1d	 = La mémoire de la Wii est pleine.\f
-	+ Libérez de l'espace\n
+    1d	 = La mémoire de la Wii est pleine.\n
+	+ \fLibérez de l'espace\n
 	+ en effaçant ou transférant\n
 	+ des données vers une carte SD\n
 	+ depuis la gestion des données.
