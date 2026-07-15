@@ -77,16 +77,14 @@
 	+ \fLibérez %d blocs en transférant\n
 	+ des données vers une carte SD\n
 	+ ou en les effaçant depuis\n
-	+ l'écran de gestion\n
-	+ des données.
+	+ l'écran de gestion des données.
     19	 = Il n'y a pas assez d'espace libre\n
 	+ dans la mémoire de la console\n
 	+ Wii pour la version Platine.\n
 	+ \fLibérez %d blocs en transférant\n
 	+ des données vers une carte SD\n
 	+ ou en les effaçant depuis\n
-	+ l'écran de gestion\n
-	+ des données.\n
+	+ l'écran de gestion des données.\n
 	+ \fNe déplacez pas les données de\n
 	+ My Pokémon Ranch vers la carte SD.
     1a	 = Il n'y a pas assez d'espace libre\n
@@ -95,16 +93,14 @@
 	+ \fLibérez 1 bloc en transférant\n
 	+ des données vers une carte SD\n
 	+ ou en les effaçant depuis\n
-	+ l'écran de gestion\n
-	+ des données.
+	+ l'écran de gestion des données.
     1b	 = Il n'y a pas assez d'espace libre\n
 	+ dans la mémoire de la console\n
 	+ Wii pour la version Platine.\n
 	+ \fLibérez 1 bloc en transférant\n
 	+ des données vers une carte SD\n
 	+ ou en les effaçant depuis\n
-	+ l'écran de gestion\n
-	+ des données.\n
+	+ l'écran de gestion des données.\n
 	+ \fNe déplacez pas les données de\n
 	+ My Pokémon Ranch vers la carte SD.
     1c	 = Il n'y a pas assez d'espace libre\n
@@ -113,16 +109,14 @@
 	+ \fLibérez de l'espace en transférant\n
 	+ des données vers une carte SD\n
 	+ ou en les effaçant depuis\n
-	+ l'écran de gestion\n
-	+ des données.
+	+ l'écran de gestion des données.
     1d	 = Il n'y a pas assez d'espace libre\n
 	+ dans la mémoire de la console\n
 	+ Wii pour la version Platine.\n
 	+ \fLibérez de l'espace en transférant\n
 	+ des données vers une carte SD\n
 	+ ou en les effaçant depuis\n
-	+ l'écran de gestion\n
-	+ des données.\n
+	+ l'écran de gestion des données.\n
 	+ \fNe déplacez pas les données de\n
 	+ My Pokémon Ranch vers la carte SD.
     1e	 = Il y a une quantité anormale\n
