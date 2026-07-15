@@ -66,8 +66,8 @@
     11	/
     12	/
     13	/
-    14	 = La batterie de la télécommande Wii\n
-	+ est faible.
+    14	 = La batterie de la télécommande\n
+	+ Wii est faible.
     15	/
     16	/
     17	/
