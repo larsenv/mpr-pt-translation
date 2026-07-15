@@ -1246,7 +1246,7 @@
 	+ Clubs bekommst, sieh dir ihre\n
 	+ Ranch an. Das kommt gut an!
    1da   = Wenn du mich anrufst\n
-     + komme ich um dich abzuholen.\n
+     + komme ich, um dich abzuholen.\n
      + Du kannst mich jederzeit\n
      + besuchen, okay?
    1db   = Okay, gib auf dich Acht!\n

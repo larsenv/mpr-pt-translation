@@ -72,41 +72,41 @@
     16	/
     17	/
     18	 = Es steht genug Speicherplatz\n
-	+ im Speicher der Wii zur verfügung.\n
-	+ Bitte schaffe %d Blöcke an freiem\n
+	+ im Speicher der Wii zur verfügung.
+	+ \fBitte schaffe %d Blöcke an freiem\n
 	+ Speicherplatz, indem du in den\n
 	+ Speicherdateneinstellungen Daten\n
 	+ auf die SD Card verschiebst oder löschst.
     19	 = Es steht nicht genug Speicherplatz\n
 	+ für My Pokémon Ranch Platin im Speicher\n
-	+ der Wii zur verfügung.\n
-	+ Bitte schaffe %d Blöcke an freiem\n
+	+ der Wii zur verfügung.
+	+ \fBitte schaffe %d Blöcke an freiem\n
 	+ Speicherplatz, indem du in den\n
 	+ Speicherdateneinstellungen Daten\n
 	+ auf die SD Card verschiebst oder löschst.
     1a	 = Es steht genug Speicherplatz\n
-	+ im Speicher der Wii zur verfügung.\n
-	+ Bitte schaffe 1 Block an freiem\n
+	+ im Speicher der Wii zur verfügung.
+	+ \fBitte schaffe 1 Block an freiem\n
 	+ Speicherplatz, indem du in den\n
 	+ Speicherdateneinstellungen Daten\n
 	+ auf die SD Card verschiebst oder löschst.
     1b	 = Es steht nicht genug Speicherplatz\n
 	+ für My Pokémon Ranch Platin im Speicher\n
-	+ der Wii zur verfügung.\n
-	+ Bitte schaffe 1 Block an freiem\n
+	+ der Wii zur verfügung.
+	+ \fBitte schaffe 1 Block an freiem\n
 	+ Speicherplatz, indem du in den\n
 	+ Speicherdateneinstellungen Daten\n
 	+ auf die SD Card verschiebst oder löschst.
     1c	 = Es steht genug Speicherplatz\n
-	+ im Speicher der Wii zur verfügung.\n
-	+ Bitte schaffe Speicherplatz, indem\n
+	+ im Speicher der Wii zur verfügung.
+	+ \fBitte schaffe Speicherplatz, indem\n
 	+ du in den Speicherdateneinstellungen\n
 	+ Daten auf die SD Card\n
 	+ verschiebst oder löschst.
     1d	 = Es steht nicht genug Speicherplatz\n
 	+ für My Pokémon Ranch Platin im Speicher\n
-	+ der Wii zur verfügung.\n
-	+ Bitte schaffe Speicherplatz, indem\n
+	+ der Wii zur verfügung.
+	+ \fBitte schaffe Speicherplatz, indem\n
 	+ du in den Speicherdateneinstellungen\n
 	+ Daten auf die SD card\n
 	+ verschiebst oder löschst.
