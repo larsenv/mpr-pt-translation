@@ -71,51 +71,59 @@
     15	/
     16	/
     17	/
-    18	 = La mémoire de la Wii est pleine.\n
-	+ \fLibérez %d blocs en effaçant\n
-	+ ou transférant des données\n
-	+ vers une carte SD depuis la\n
-	+ gestion des données.
-    19	 = La mémoire de la Wii est pleine.\n
-	+ \fLibérez %d blocs en effaçant\n
-    + ou transférant des données\n
-    + vers une carte SD depuis la\n
-    + gestion des données.
-    1a	 = La mémoire de la Wii est pleine.\n
-	+ \fLibérez 1 bloc en effaçant\n
-    + ou transférant des données\n
-    + vers une carte SD depuis la\n
-    + gestion des données.
-    1b	 = La mémoire de la Wii est pleine.\n
-	+ \fLibérez 1 bloc en effaçant\n
-    + ou transférant des données\n
-    + vers une carte SD depuis la\n
-    + gestion des données.
-    1c	 = La mémoire de la Wii est pleine.\n
-	+ \fLibérez de l'espace\n
-	+ en effaçant ou transférant\n
+    18	 = Il n'y a pas assez d'espace libre\n
+	+ dans la mémoire de la console Wii.\n
+	+ \fLibérez %d blocs en transférant\n
 	+ des données vers une carte SD\n
-	+ depuis la gestion des données.
-    1d	 = La mémoire de la Wii est pleine.\n
-	+ \fLibérez de l'espace\n
-	+ en effaçant ou transférant\n
+	+ ou en les effaçant depuis l'écran\n
+	+ de gestion des données.
+    19	 = Il n'y a pas assez d'espace libre\n
+	+ dans la mémoire de la console Wii\n
+	+ pour la version Platine.\n
+	+ \fLibérez %d blocs en transférant\n
 	+ des données vers une carte SD\n
-	+ depuis la gestion des données.
+	+ ou en les effaçant depuis l'écran\n
+	+ de gestion des données.
+    1a	 = Il n'y a pas assez d'espace libre\n
+	+ dans la mémoire de la console Wii.\n
+	+ \fLibérez 1 bloc en transférant\n
+	+ des données vers une carte SD\n
+	+ ou en les effaçant depuis l'écran\n
+	+ de gestion des données.
+    1b	 = Il n'y a pas assez d'espace libre\n
+	+ dans la mémoire de la console Wii\n
+	+ pour la version Platine.\n
+	+ \fLibérez 1 bloc en transférant\n
+	+ des données vers une carte SD\n
+	+ ou en les effaçant depuis l'écran\n
+	+ de gestion des données.
+    1c	 = Il n'y a pas assez d'espace libre\n
+	+ dans la mémoire de la console Wii.\n
+	+ \fLibérez de l'espace en transférant\n
+	+ des données vers une carte SD\n
+	+ ou en les effaçant depuis l'écran\n
+	+ de gestion des données.
+    1d	 = Il n'y a pas assez d'espace libre\n
+	+ dans la mémoire de la console Wii\n
+	+ pour la version Platine.\n
+	+ \fLibérez de l'espace en transférant\n
+	+ des données vers une carte SD\n
+	+ ou en les effaçant depuis l'écran\n
+	+ de gestion des données.
     1e	 = Il y a une quantité anormale\n
 	+ d'espace libre dans la mémoire\n
 	+ de la Wii.\n
-	+ Référez-vous au Mode d'Emploi de\n
+	+ \fRéférez-vous au Mode d'Emploi de\n
 	+ la Wii pour plus de détails.
     1f	 = Il y a une quantité anormale\n
 	+ de fichiers dans la mémoire\n
 	+ de la Wii.\n
-	+ Référez-vous au Mode d'Emploi de\n
+	+ \fRéférez-vous au Mode d'Emploi de\n
 	+ la Wii pour plus de détails.
     20	/
     21	 = La mémoire de la Wii\n
 	+ a été endommagée.\n
-	+ \n
-	+ Référez-vous au Mode d'Emploi de\n
+	+ \fRéférez-vous au Mode d'Emploi de\n
 	+ la Wii pour plus de détails.
     22	 = Sauvegarde...\n
 	+ N'éteignez pas la console\n
@@ -132,11 +140,10 @@
     26	 = La sauvegarde ne peut pas être lue.\n
 	+ Impossible de démarrer le jeu.\n
 	+ Contactez le Service Client Nintendo.\n
-	+ Pour plus d'information,\n
+	+ \fPour plus d'information,\n
 	+ consultez le Mode d'Emploi de la Wii.\n
 	+ CODE D'ERREUR: %03d%03d.\n
-	+ \n
-	+ Appuyez sur le bouton POWER\n
+	+ \fAppuyez sur le bouton POWER\n
 	+ pendant au moins 4 secondes\n
 	+ pour éteindre la console.
     27	 = Il y a un problème avec la\n
