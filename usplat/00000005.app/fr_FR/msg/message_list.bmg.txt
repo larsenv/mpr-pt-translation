@@ -73,11 +73,13 @@
     17	/
     18	 = Il n'y a pas assez d'espace libre\n
 	+ dans la mémoire de la console\n
-	+ Wii.\n
+	+ Wii pour la version Platine.\n
 	+ \fLibérez %d blocs en transférant\n
 	+ des données vers une carte SD\n
 	+ ou en les effaçant depuis\n
-	+ l'écran de gestion des données.
+	+ l'écran de gestion des données.\n
+	+ \fNe déplacez pas les données de\n
+	+ My Pokémon Ranch vers la carte SD.
     19	 = Il n'y a pas assez d'espace libre\n
 	+ dans la mémoire de la console\n
 	+ Wii pour la version Platine.\n
