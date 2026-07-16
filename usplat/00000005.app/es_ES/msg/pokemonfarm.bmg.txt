@@ -167,7 +167,7 @@
     57	= Traer Miis
     58	= ¡Mira mi rancho!
     59	= Invitados
-    5a	= Opción:
+    5a	= Opciones
     5b	= Foto siguiente
     5c	= Foto anterior
     5d	= Borrar
@@ -190,7 +190,7 @@
 	+ carpeta \\DCIM\\%1$03dNIN01.
     68	= Noticias
     69	= Borrar todas las fotos de\n
-	+ la tarjeta SD
+	+ la tarjeta SD\\
     6a	= Se borrarán todas las fotos\n
 	+ de My Pokémon Ranch\n
 	+ guardadas en la tarjeta SD.
