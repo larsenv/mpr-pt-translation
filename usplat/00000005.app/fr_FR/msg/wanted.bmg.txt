@@ -272,8 +272,8 @@
     be	 = ・Fossile: Foss. Armure
     bf	 = ・Fossile: Foss. Griffe
     c0	 = ・Fossile: Foss. Crâne
-    c1	 = ・En creusant avec un ID dresseur pair.
-    c2	 = ・En creusant avec un ID dresseur impair.
+    c1	 = ・Creuser avec un ID dresseur pair.
+    c2	 = ・Creuser avec un ID dresseur impair.
     c3	 = ・Si Attaque = Défense\040
     c4	 = ・Si Attaque > Défense\040
     c5	 = ・Sur l'eau (en utilisant Surf)
