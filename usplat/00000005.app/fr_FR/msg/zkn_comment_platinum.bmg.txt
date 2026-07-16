@@ -453,7 +453,7 @@
 		+ poils et lancer des décharges.
      88	 = L'air qu'il inspire est chauffé par\n
 		+ la glande enflammée de son corps,\n
-		+ atteignant les 1 700 \x01E8C.
+		+ atteignant les 1 700 °C.
      89	 = Ce Pokémon créé par des\n
 		+ scientifiques peut arpenter\n
 		+ librement le cyberespace.
@@ -701,7 +701,7 @@
 		+ S'il cesse de bouger, il refroidit\n
 		+ et durcit.
      db	 = Sa température corporelle avoisine\n
-		+ les 10 000 \x01E8C. Des flammes \n
+		+ les 10 000 °C. Des flammes \n
 		+ fusent des fissures de sa coquille.
      dc	 = Son nez très sensible détecte\n
 		+ champignons, Baies et sources\n
@@ -765,7 +765,7 @@
 		+ pas y mettre la main!
      f0	 = Son sang est chaud comme du magma\n
 		+ et la température de son corps\n
-		+ peut atteindre 600 \x01E8C.
+		+ peut atteindre 600 °C.
      f1	 = On raconte que les enfants élevés\n
 		+ au lait d'ECREMEUH deviennent des\n
 		+ adultes braves et robustes.
@@ -810,7 +810,7 @@
 		+ le meilleur combattant des jungles.
      ff	 = Ses câlins réchauffent car il\n
 		+ renferme une fournaise. Il envoie\n
-		+ des boules de feu à 1 000 \x01E8C.
+		+ des boules de feu à 1 000 °C.
     100	 = Ce maître du coup de pied peut\n
 		+ donner 10 coups par seconde. Ses\n
 		+ cris aigus intimident l'ennemi.
@@ -1178,7 +1178,7 @@
 		+ des pierres pour le réparer.
     17a	 = Son corps est fait de glace datant\n
 		+ de l'ère glaciaire. Il contrôle un\n
-		+ air gelé de -200 \x01E8C.
+		+ air gelé de -200 °C.
     17b	 = Son corps invulnérable fut forgé\n
 		+ par la pression souterraine durant\n
 		+ des dizaines de milliers d'années.
@@ -1444,7 +1444,7 @@
 		+ toucher l'ennemi de ses queues\n
 		+ et lui inflige une forte décharge.
     1d3	 = Quand il lance des boules de feu\n
-		+ à plus de 2 000 \x01E8C, son corps\n
+		+ à plus de 2 000 °C, son corps\n
 		+ est comme chauffé à blanc.
     1d4	 = Il apprécie particulièrement les\n
 		+ gens qui respectent les autres\n
@@ -1477,7 +1477,7 @@
 		+ pour emprisonner les esprits\n
 		+ perdus et les ramener chez eux.
     1de	 = On dit que MOMARTIK gèle ses proies\n
-		+ grâce à son souffle à -50 \x01E8C avant\n
+		+ grâce à son souffle à -50 °C avant\n
 		+ de les exposer dans sa tanière.
     1df	 = Son corps parcouru d'électricité\n
 		+ lui permet de prendre le contrôle\n

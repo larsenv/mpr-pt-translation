@@ -456,7 +456,7 @@
 	+ piccoli nugoli.
     88	= La sacca ardente dentro il suo\n
 	+ corpo infiamma l'aria che respira,\n
-	+ che supera i 1650 \x01E8C.
+	+ che supera i 1650 °C.
     89	= Un Pokémon creato dall'uomo con\n
 	+ metodi scientifici avanzatissimi. Si\n
 	+ muove liberamente nel ciberspazio.
@@ -704,7 +704,7 @@
 	+ non si muove continuamente, il suo\n
 	+ corpo si raffredda e s'indurisce.
     db	= Ha una temperatura corporea di\n
-	+ circa 10000\x01E8C. Dai fori del guscio\n
+	+ circa 10000°C. Dai fori del guscio\n
 	+ fuoriescono intense fiammate.
     dc	= Grazie al suo olfatto sviluppato\n
 	+ trova funghi, bacche e persino\n
@@ -768,7 +768,7 @@
 	+ passa una mano rimane fulminato.
     f0	= Il suo sangue assomiglia al magma.\n
 	+ La sua temperatura corporea\n
-	+ raggiunge i 600 \x01E8C.
+	+ raggiunge i 600 °C.
     f1	= Si dice che se un bambino beve\n
 	+ il latte di MILTANK crescerà bene\n
 	+ e da adulto sarà sano e buono.
@@ -812,7 +812,7 @@
 	+ beri. Nel suo habitat, è imbattibile.
     ff	= Nel suo corpo brucia una fiamma e\n
 	+ abbracciandolo si avverte calore.\n
-	+ Lancia palle di fuoco a 1000\x01E8C.
+	+ Lancia palle di fuoco a 1000°C.
    100	= Possiede l'abilità di sferrare anche\n
 	+ 10 calci al secondo. Emette urla\n
 	+ strazianti per intimorire i nemici.
@@ -1180,7 +1180,7 @@
 	+ altre per sostituirle.
    17a	= Il suo corpo è costituito da ghiac-\n
 	+ cio dell'era glaciale. Mantiene\n
-	+ l'aria a una temperatura di -200\x01E8C.
+	+ l'aria a una temperatura di -200°C.
    17b	= La pressione subita sottoterra\n
 	+ per decine di migliaia di anni ha\n
 	+ reso il suo corpo resistentissimo.
@@ -1446,7 +1446,7 @@
 	+ avvicina, tocca il nemico con le co-\n
 	+ de e rilascia una scarica elettrica.
    1d3	= Spara palle di fuoco di oltre\n
-	+ 2000 \x01E8C e il corpo assume una tinta\n
+	+ 2000 °C e il corpo assume una tinta\n
 	+ bianca a causa del calore intenso.
    1d4	= La sua natura lo rende affine alle\n
 	+ persone che rispettano i diritti\n
@@ -1478,7 +1478,7 @@
 	+ smarriti nel suo corpo flessibile\n
 	+ per riportarli a casa.
    1de	= Congela le prede con un alito\n
-	+ glaciale a -50 \x01E8C. Si dice che poi\n
+	+ glaciale a -50 °C. Si dice che poi\n
 	+ le metta segretamente in mostra.
    1df	= Il suo corpo elettrico può intro-\n
 	+ dursi in alcuni strumenti, prenden-\n
