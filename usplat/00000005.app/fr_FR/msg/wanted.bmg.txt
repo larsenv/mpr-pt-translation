@@ -520,7 +520,8 @@
 	+ il évolue en ARMULYS ou BLINDALYS.
    125	 = Tu le trouves dans le sac oublié par\n
 	+ le Professeur Sorbier au Lac Vérité.
-   126	 = Reçu de la part du Professeur Sorbier.
+   126	 = Reçu de la part du Professeur\n
+    + Sorbier.
    127	 = Fais éclore l'Œuf qu'Armand\n
 	+ te donne à l'Ile de Fer.
    128	 = Examine la TV du Vieux Château,\n
