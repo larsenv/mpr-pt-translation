@@ -250,15 +250,15 @@
     7f	 = Voulez-vous sauvegarder\n
 	+ toutes les photos?
     80	 = Toutes les photos ont été\n
-	+ sauvegardées dans le répertoire\n
-	+ \\DCIM\\%03dNIN01 de la\n
-	+ carte SD.
+	+ sauvegardées dans le\n
+	+ répertoire \\DCIM\\%03dNIN01\n
+	+ de la carte SD.
     81	 = Voulez-vous effacer toutes les\n
 	+ photos non protégées?
     82	 = Voulez-vous vraiment\n
 	+ effacer toutes les photos?
-    83	 = Toutes les photos non protégées\n
-	+ ont été effacées.
+    83	 = Toutes les photos non\n
+	+ protégées ont été effacées.
     84	 = Aucune carte SD détectée.
     85	 = Impossible d'écrire sur la carte\n
 	+ SD. Veuillez vérifier le verrou\n

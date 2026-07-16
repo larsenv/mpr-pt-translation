@@ -272,11 +272,11 @@
     dc	 = %(12)%{} semble avoir bonne odeur.
     dd	 = %(12)%{} semble avoir bonne odeur.
     de	 = 
-    df	 = %(12)%{} brille.
-    e0	 = %(12)%{} brille.
+    df	 = %(12)%{} brille!
+    e0	 = %(12)%{} brille!
     e1	 = 
-    e2	 = %(12)%{} brille.
-    e3	 = %(12)%{} brille.
+    e2	 = %(12)%{} brille!
+    e3	 = %(12)%{} brille!
     e4	 = 
     e5	 = %(12)%{} s'est éteinte.
     e6	 = %(12)%{} s'est éteinte.
