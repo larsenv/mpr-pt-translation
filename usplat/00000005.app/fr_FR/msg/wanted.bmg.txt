@@ -96,8 +96,8 @@
 	+ sur la façon d'attraper ce Pokémon.
     19	 = Tu peux l'obtenir en échangeant\n
 	+ avec d'autres jeux Pokémon DS.
-    1a	 = C'est un Pokémon nomade\n
-	+ dans la région de Sinnoh.
+    1a	 = Tu peux le trouver en train de\n
+	+ voler autour de Sinnoh.
     1b	 = Route 201
     1c	 = Route 202
     1d	 = Route 203
