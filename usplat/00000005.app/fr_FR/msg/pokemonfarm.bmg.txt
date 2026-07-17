@@ -127,7 +127,7 @@
     34	 = Capacité spéciale:\040
     35	 = Nature:\040
     36	 = Marquage:\040
-    37	 = NONE
+    37	 = AUCUN
     38	 = Date de dépôt
     39	 = Nº Pokédex
     3a	 = Nom
