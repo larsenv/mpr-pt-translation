@@ -340,7 +340,7 @@
 	+ Pokémon déposés au Ranch ont\n
 	+ été effacés de la chaîne Mii.
     a5	 = Eulalie
-    a6	 = Eulalie
+    a6	 = EULALIE
     a7	 = Propriétaire
     a8	 = Georges
     a9	 = Rachel
