@@ -549,7 +549,7 @@
    149	 = La résurrection
    14a	 = Les regards au nord
    14b	 = Les sauts en surf
-   14c	 = La ronde des Motisma
+   14c	 = La ronde des MOTISMA
    14d	 = L'affrontement
    14e	 = Palette
    14f	 = Joyeux anniversaire

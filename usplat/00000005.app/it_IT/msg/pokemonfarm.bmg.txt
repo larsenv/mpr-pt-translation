@@ -416,7 +416,7 @@
     d6	 = ♪Let's Go!
     d7	 = ♪Welcome to the Ranch
     d8	 = ♪My Pokémon Parade
-    d9	 = ♪Jigglypuff's Song
+    d9	 = ♪JIGGLYPUFF's Song
     da	 = Club Look-See
     db	 = Pagina precedente
     dc	 = Pagina successiva
