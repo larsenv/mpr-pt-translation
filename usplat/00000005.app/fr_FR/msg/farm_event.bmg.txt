@@ -133,7 +133,7 @@
 	+ pour remplir petit à petit\n
 	+ ce Ranch de Pokémon!
     23	 = Tu peux amener les Pokémon que tu\n
-	+ as attrapé dans les versions\n
+	+ as attrapés dans les versions\n
 	+ de Pokémon pour la Nintendo DS.
     24	 = C'est un bon moyen pour\n
 	+ augmenter le nombre de\n
@@ -706,7 +706,8 @@
    106	 = Coucou!\n
 	+ Amuse-toi bien au Ranch!
    107	 = Tu es arrivé au\n
-	+ Ranch de %ls!
+	+ Ranch %ls de\n
+	+ %ls!
    108	 = Amuse-toi bien au Ranch\n
 	+ %ls!
    109	 = Pour quitter ce Ranch,\n
@@ -1122,19 +1123,19 @@
 	+ \n
 	+ Regardez...-MOI!
    1c6   = Je m'appelle %2$ls,\n
-	+ et je suis membre du Club Regardez-moi.\n
-	+ My Member No. is %1$d!
+	+ membre du Club Regardez-moi.\n
+	+ Mon numéro de membre est %1$d!
    1c7   = Alors... J'ai entendu que tu viens\n
 	+ visiter mon Ranch, pas vrai?	
    1c8   = Je m'appelle %2$ls,\n
 	+ membre du Club Regardez-moi.\n
 	+ Mon numéro de membre est %1$d!
-   1c9   = Alors... J'ai entendu que tu voudrais\n
+   1c9   = Alors... J'ai entendu que tu voulais\n
 	+ voir mon Ranch, hein?
    1ca   = Ne viendras-tu pas visiter\n
-	+ mon Ranch encore un jour?
+	+ mon Ranch un autre jour?
    1cb   = Viens visiter mon Ranch\n
-	+ encore un jour, d'accord?
+	+ un autre jour, d'accord?
    1cc   = Merci d'avoir visité mon Ranch!
    1cd	 = Franchement, ça me fait très\n
 	+ plaisir que tu aies pris la peine\n
@@ -1150,7 +1151,7 @@
 	+ Si tu m'appelles depuis le\n
 	+ Panneau d'affichage, je pourrai\n
 	+ venir te chercher. N'hésite pas à\n
-	+ me rendre visite, s'il te plaît!
+	+ me rendre visite!
    1d1   = Bon retour dans ton Ranch!
    1d2	 = Alors? Qu'en penses-tu?\n
 	+ Impressionnant, non?
@@ -1307,7 +1308,7 @@
    206	 = D'après ton Pokédex, tu en as...\n
 	+ - vu: %d \n
 	+ - obtenu: %d
-   207   = Selon ton Pokédex,\n
+   207   = D'après ton Pokédex,\n
 	+ tu as...\n
 	+ vu: %d\n
 	+ obtenu: %d
@@ -1474,8 +1475,8 @@
    22a	 = J'ai attrapé cet EXCELANGUE\n
 	+ dans Lac Courage pendant un\n
 	+ Apparition Massive de Pokémon.\n
-	+ \fC'est un Pokémon mignon avec\n
-	+ la langue tirée!
+	+ \fC'est un Pokémon mignon qui\n
+	+ tire la langue!
    22b	 = J'ai élevé ce OKEOKE depuis\n
 	+ qu'il est sorti de son Œuf.\n
 	+ \fC'est un Pokémon tout mignon,\n
