@@ -463,7 +463,7 @@
     f7	 = ♂
     f8	 = ♀
     f9	 = Freunde a. d. Ranch
-    fa	 = Pokémon auf der Ranch
+    fa	 = Pokémon auf\nder Ranch
     fb	 = Alle
     fc	 = Favoriten
     fd	 = Meine Pokémon
