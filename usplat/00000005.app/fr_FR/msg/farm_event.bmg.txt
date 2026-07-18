@@ -402,15 +402,16 @@
     92	 = Le nombre de Pokémon\n
 	+ dans le Ranch est désormais\n
 	+ de %ls!
-    93	 = Le nombre de Pokémon dans le\n
-	+ Ranch a attient %d!
+    93	 = Le nombre de Pokémon\n
+	+ dans le Ranch est désormais\n
+	+ de %d!
     94	 = Nous allons agrandir le Ranch!\n
 	+ Les travaux devraient être\n
 	+ terminés le %ls!
     95	 = Oh! Il y a déjà\n
 	+ %ls Pokémon dans le Ranch!
-    96	 = Oh? Le nombre de Pokémon dans \n
-	+ le Ranch est déjà %d%! 
+    95	 = Oh! Il y a déjà\n
+	+ %d% Pokémon dans le Ranch!
     97	 = Eh bien, agrandissons\n
 	+ de nouveau le Ranch!
     98	 = Les travaux devraient être\n
@@ -429,8 +430,8 @@
 	+ aucun Pokémon au Ranch.
     9d	 = A ce jour, j'ai déjà amené\n
 	+ %ls Pokémon.
-    9e   = Jusqu'au maintenant, j'ai amené\n
-	+ %d Pokémon. 
+    9e	 = A ce jour, j'ai déjà amené\n
+	+ %d Pokémon.
     9f	 = Voici mes Pokémon adorés.\n
 	+ Prends bien soin d'eux!
     a0	 = J'aime beaucoup ce Pokémon.\n
@@ -442,9 +443,9 @@
     a3	 = Quand nous aurons\n
 	+ %ls Pokémon,\n
 	+ nous agrandirons le Ranch!
-    a4	 = Une fois que le nombre de\n
-	+ Pokémon attient %d,\n
-	+ agrandissons le Ranch!
+    a4	 = Quand nous aurons\n
+	+ %d Pokémon,\n
+	+ nous agrandirons le Ranch!
     a5	 = Continuons à amener de\n
 	+ nouveaux Pokémon au Ranch!
     a6	 = Pour agrandir le Ranch,\n
@@ -453,9 +454,9 @@
     a7	 = Quand nous aurons\n
 	+ %ls Pokémon,\n
 	+ nous agrandirons le Ranch!
-    a8   = Une fois que le nombre de\n
-	+ Pokémon attient %d,\n
-	+ agrandissons le Ranch!
+    a8	 = Quand nous aurons\n
+	+ %d Pokémon,\n
+	+ nous agrandirons le Ranch!
     a9	 = Oh!...
     aa	 = Maintenant, tu connais bien\n
 	+ le Ranch Pokémon, pas vrai?
@@ -557,7 +558,7 @@
     cf	 = Ne t'inquiète pas pour\n
 	+ mes Pokémon. Apportes-en\n
 	+ autant que tu veux!
-    d0	 = Le Ranch a enfin attient\n
+    d0	 = Le Ranch a enfin atteint\n
 	+ le niveau %d! Félicitations!
     d1	 = Voilà le Ranch dont j'ai toujours\n
 	+ rêvé... Un Ranch immense...\n
