@@ -161,11 +161,11 @@
 	+ console Wii. Per maggiori\n
 	+ informazioni, leggere il\n
 	+ manuale di istruzioni della console.
-    2c	 = (TRANSLATION NEEDED) An Internet connection\n
-	+ cannot be established, so\n
-	+ WiiConnect24 cannot be\n
-	+ used. Check the Internet\n
-	+ settings and connection.\n
+    2c	 = Impossibile collegarsi ad Internet.\n
+	+ WiiConnect24 non puo essere\n\n
+	+ utilizzato. Controlla le\n
+	+ impostazioni Internet\n
+	+ della console.\n
     2d	 = WiiConnect24 non è disponibile\n
 	+ al momento.\n
 	+ Riprova più tardi.
