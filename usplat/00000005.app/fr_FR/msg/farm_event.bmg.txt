@@ -132,16 +132,17 @@
     22	 = Nous allons travailler ensemble\n
 	+ pour remplir petit à petit\n
 	+ ce Ranch de Pokémon!
-    23	 = Tu peux amener les Pokémon que tu\n
-	+ as attrapés dans les versions\n
-	+ de Pokémon pour la Nintendo DS.
+    23	 = Tu peux aussi y amener\n
+	+ des Pokémon attrapés dans les\n
+	+ versions de Pokémon pour la\n
+	+ Nintendo DS.
     24	 = C'est un bon moyen pour\n
 	+ augmenter le nombre de\n
 	+ Pokémon dans le Ranch!
     25	 = Si tu as le moindre Pokémon,\n
 	+ n'hésite pas à l'amener ici!
     26	 = Au fait, as-tu une carte de jeu\n
-	+ Pokémon Diamant ou Perle?
+	+ Pokémon pour la Nintendo DS?
     27	 = C'est vrai? C'est magnifique!\n
 	+ Tu vas donc pouvoir amener tes\n
 	+ propres Pokémon au Ranch!
@@ -402,16 +403,13 @@
     92	 = Le nombre de Pokémon\n
 	+ dans le Ranch est désormais\n
 	+ de %ls!
-    93	 = Le nombre de Pokémon\n
-	+ dans le Ranch est désormais\n
-	+ de %d!
+    93	 = 
     94	 = Nous allons agrandir le Ranch!\n
 	+ Les travaux devraient être\n
 	+ terminés le %ls!
     95	 = Oh! Il y a déjà\n
 	+ %ls Pokémon dans le Ranch!
-    95	 = Oh! Il y a déjà\n
-	+ %d% Pokémon dans le Ranch!
+    96	 = 
     97	 = Eh bien, agrandissons\n
 	+ de nouveau le Ranch!
     98	 = Les travaux devraient être\n
@@ -430,8 +428,7 @@
 	+ aucun Pokémon au Ranch.
     9d	 = A ce jour, j'ai déjà amené\n
 	+ %ls Pokémon.
-    9e	 = A ce jour, j'ai déjà amené\n
-	+ %d Pokémon.
+    9e	 = 
     9f	 = Voici mes Pokémon adorés.\n
 	+ Prends bien soin d'eux!
     a0	 = J'aime beaucoup ce Pokémon.\n
@@ -443,9 +440,7 @@
     a3	 = Quand nous aurons\n
 	+ %ls Pokémon,\n
 	+ nous agrandirons le Ranch!
-    a4	 = Quand nous aurons\n
-	+ %d Pokémon,\n
-	+ nous agrandirons le Ranch!
+    a4	 = 
     a5	 = Continuons à amener de\n
 	+ nouveaux Pokémon au Ranch!
     a6	 = Pour agrandir le Ranch,\n
@@ -454,9 +449,7 @@
     a7	 = Quand nous aurons\n
 	+ %ls Pokémon,\n
 	+ nous agrandirons le Ranch!
-    a8	 = Quand nous aurons\n
-	+ %d Pokémon,\n
-	+ nous agrandirons le Ranch!
+    a8	 = 
     a9	 = Oh!...
     aa	 = Maintenant, tu connais bien\n
 	+ le Ranch Pokémon, pas vrai?
@@ -554,12 +547,14 @@
     cd	 = Quand le Ranch sera plein,\n
 	+ je demanderai à mes Pokémon\n
 	+ de rester dans la grange.
-    ce	 =
+    ce	 = Ça veut dire que tu peux\n
+        + amener jusqu'à 1 000 Pokémon\n
+        + au Ranch!
     cf	 = Ne t'inquiète pas pour\n
 	+ mes Pokémon. Apportes-en\n
 	+ autant que tu veux!
-    d0	 = Le Ranch a enfin atteint\n
-	+ le niveau %d! Félicitations!
+    d0	 = Le Ranch a enfin atteint le\n
+	+ niveau %d! Félicitations!
     d1	 = Voilà le Ranch dont j'ai toujours\n
 	+ rêvé... Un Ranch immense...\n
 	+ Et plein de Pokémon...
@@ -605,9 +600,7 @@
     e2	 = Le nombre de Pokémon que\n
 	+ tu peux y garder est passé\n
 	+ de %ls à %ls!
-    e3	 = Le nombre de Pokémon que\n
-	+ tu peux y garder est passé\n
-	+ de %d% à %d!
+    e3	 = 
     e4	 = Le nombre de Mii que tu peux\n
 	+ faire venir dans le Ranch est\n
 	+ passé de %d à %d!
@@ -705,9 +698,9 @@
 	+ de te revoir!
    106	 = Coucou!\n
 	+ Amuse-toi bien au Ranch!
-   107	 = Tu es arrivé au\n
-	+ Ranch %ls de\n
-	+ %ls!
+   107	 = Nous sommes arrivés\n
+	+ chez %ls,\n
+	+ au Ranch %ls!
    108	 = Amuse-toi bien au Ranch\n
 	+ %ls!
    109	 = Pour quitter ce Ranch,\n
@@ -732,7 +725,8 @@
 	+ est le thème du Ranch pour aujourd'hui.
    112	 = "6 Pokémon"\n
 	+ est le thème du Ranch pour aujourd'hui.
-   113	 = Amuse-toi bien!
+   113	 = "20 Pokémon"\n
+	+ est le thème du Ranch pour aujourd'hui.
    114	 = "50 Pokémon"\n
 	+ est le thème du Ranch pour aujourd'hui.
    115	 = "100 Pokémon"\n
@@ -780,34 +774,38 @@
 	+ est le thème du Ranch pour aujourd'hui.
    12b	 = "Ténèbres"\n
 	+ est le thème du Ranch pour aujourd'hui.
-   12c	 = Règle numéro un!\n
-	+ Tu dois rechercher la perfection\n
+   12c	 = "●"\n
+	+ est le thème du Ranch pour aujourd'hui.
    12d	 = "▲"\n
 	+ est le thème du Ranch pour aujourd'hui.
-   12e	 = Ce sont les deux principes\n
+   12e	 = "■"\n
+	+ est le thème du Ranch pour aujourd'hui.
    12f	 = "♥"\n
 	+ est le thème du Ranch pour aujourd'hui.
-   130	 = Veux-tu venir me rendre visite?
+   130	 = "★"\n
+	+ est le thème du Ranch pour aujourd'hui.
    131	 = "◆"\n
 	+ est le thème du Ranch pour aujourd'hui.
    132	 = "Rouge"\n
 	+ est le thème du Ranch pour aujourd'hui.
-   133	 = Excellent! Je savais que tu\n
+   133	 = "Bleu"\n
+	+ est le thème du Ranch pour aujourd'hui.
    134	 = "Jaune"\n
 	+ est le thème du Ranch pour aujourd'hui.
    135	 = "Vert"\n
 	+ est le thème du Ranch pour aujourd'hui.
    136	 = "Noir"\n
 	+ est le thème du Ranch pour aujourd'hui.
-   137	 = Pour le savoir, il ne te reste\n
-	+ plus qu'à venir voir mon Ranch!
+   137	 = "Marron"\n
+	+ est le thème du Ranch pour aujourd'hui.
    138	 = "Violet"\n
 	+ est le thème du Ranch pour aujourd'hui.
    139	 = "Gris"\n
 	+ est le thème du Ranch pour aujourd'hui.
    13a	 = "Blanc"\n
 	+ est le thème du Ranch pour aujourd'hui.
-   13b	 = Attention!\n
+   13b	 = "Rose"\n
+	+ est le thème du Ranch pour aujourd'hui.
    13c	 = "Petit"\n
 	+ est le thème du Ranch pour aujourd'hui.
    13d	 = "Grand"\n
@@ -820,8 +818,9 @@
 	+ est le thème du Ranch pour aujourd'hui.
    141	 = "Froid"\n
 	+ est le thème du Ranch pour aujourd'hui.
-   142	 = Je reviendrai t'inviter un autre\n
-   143	 = "Trés rapide"\n
+   142	 = "Effrayant"\n
+	+ est le thème du Ranch pour aujourd'hui.
+   143	 = "Très rapide"\n
 	+ est le thème du Ranch pour aujourd'hui.
    144	 = "Rond"\n
 	+ est le thème du Ranch pour aujourd'hui.
@@ -831,7 +830,8 @@
 	+ est le thème du Ranch pour aujourd'hui.
    147	 = "Concentré"\n
 	+ est le thème du Ranch pour aujourd'hui.
-   148	 = Bon retour dans ton Ranch!
+   148	 = "Paralysant"\n
+	+ est le thème du Ranch pour aujourd'hui.
    149	 = "Paisible"\n
 	+ est le thème du Ranch pour aujourd'hui.
    14a	 = "Insouciant"\n
@@ -949,7 +949,7 @@
 	+ est le thème du Ranch pour aujourd'hui.
    183	 = "Effrayant"\n
 	+ est le thème du Ranch pour aujourd'hui.
-   184	 = "Trés rapide"\n
+   184	 = "Très rapide"\n
 	+ est le thème du Ranch pour aujourd'hui.
    185	 = "Rond"\n
 	+ est le thème du Ranch pour aujourd'hui.
@@ -959,7 +959,7 @@
 	+ est le thème du Ranch pour aujourd'hui.
    188	 = "Concentré"\n
 	+ est le thème du Ranch pour aujourd'hui.
-   189	 = "Paralyzing"\n
+   189	 = "Paralysant"\n
 	+ est le thème du Ranch pour aujourd'hui.
    18a	 = "Paisible"\n
 	+ est le thème du Ranch pour aujourd'hui.
@@ -996,8 +996,8 @@
 	+ une photo du Ranch\n
 	+ %ls!
    198	 = Salut! Je suis\n
-	+ %ls\n
-	+ du Ranch %ls!
+	+ 2$ls,\n
+	+ du Ranch %1$ls!
    199   = Bonjour! Je t'ai apporté\n
 	+ une photo du Ranch\n
 	+ %ls!
@@ -1122,20 +1122,22 @@
    1c5	 = Allez, au revoir!\n
 	+ \n
 	+ Regardez...-MOI!
-   1c6   = Je m'appelle %2$ls,\n
-	+ membre du Club Regardez-moi.\n
-	+ Mon numéro de membre est %1$d!
-   1c7   = Alors... J'ai entendu que tu viens\n
-	+ visiter mon Ranch, pas vrai?	
-   1c8   = Je m'appelle %2$ls,\n
-	+ membre du Club Regardez-moi.\n
-	+ Mon numéro de membre est %1$d!
-   1c9   = Alors... J'ai entendu que tu voulais\n
-	+ voir mon Ranch, hein?
-   1ca   = Ne viendras-tu pas visiter\n
-	+ mon Ranch un autre jour?
-   1cb   = Viens visiter mon Ranch\n
-	+ un autre jour, d'accord?
+   1c6   = Je m'appelle\n
+	+ %2$ls et je suis\n
+	+ le membre numéro %1$d\n
+	+ du Club des Regardez-moi.
+   1c7   = Alors... Tu viens visiter mon\n
+	+ Ranch, pas vrai?
+   1c8   = Je suis %2$ls,\n
+	+ le membre numéro %1$d\n
+	+ du Club des Regardez-moi!
+   1c9   = Alors... J'ai entendu que tu\n
+	+ voulais voir mon Ranch, c'est ça?
+   1ca   = Tu viendras visiter mon Ranch\n
+	+ une autre fois, hein?
+   1cb   = N'hésite pas à revenir visiter\n
+	+ mon Ranch une autre fois,\n
+	+ d'accord?
    1cc   = Merci d'avoir visité mon Ranch!
    1cd	 = Franchement, ça me fait très\n
 	+ plaisir que tu aies pris la peine\n
@@ -1150,8 +1152,8 @@
    1d0   = Oh, encore une chose!\n
 	+ Si tu m'appelles depuis le\n
 	+ Panneau d'affichage, je pourrai\n
-	+ venir te chercher. N'hésite pas à\n
-	+ me rendre visite!
+	+ venir te chercher.\n
+	+ \fN'hésite pas à me rendre visite!
    1d1   = Bon retour dans ton Ranch!
    1d2	 = Alors? Qu'en penses-tu?\n
 	+ Impressionnant, non?
@@ -1181,7 +1183,7 @@
    1da   = Si tu m'appelles depuis le\n
 	+ Panneau d'affichage, je viendrai\n
 	+ te chercher. N'hésite pas à\n
-	+ me rendre visite, trés bien?
+	+ me rendre visite, compris?
    1db   = Eh bien, fais bien attention\n
 	+ à toi en rentrant!
    1dc   = Regardez...-MOI!
@@ -1308,10 +1310,7 @@
    206	 = D'après ton Pokédex, tu en as...\n
 	+ - vu: %d \n
 	+ - obtenu: %d
-   207   = D'après ton Pokédex,\n
-	+ tu as...\n
-	+ vu: %d\n
-	+ obtenu: %d
+   207   = 
    208   = C'est incroyable, tu as réussi\n
 	+ à attraper tous les Pokémon\n
 	+ du Pokédex!
@@ -1336,14 +1335,10 @@
 	+ mais puis-je quand même\n
 	+ te demander encore un petit\n
 	+ service de temps en temps?
-   20f   = Tu as progressé! Depuis la\n
-	+ dernière fois, tu en as...\n
-	+ - vu: %d\n
+   20f   = D'après ton Pokédex, tu en as...\n
+	+ - vu: %d \n
 	+ - obtenu: %d
-   210   = Depuis la\n
-	+ dernière fois, tu en as...\n
-	+ - vu: %d\n
-	+ - obtenu: %d
+   210   = 
    211   = Mais oui! Tu as réussi à\n
 	+ attraper tous les Pokémon\n
 	+ du Pokédex! C'est fantastique!
@@ -1355,17 +1350,14 @@
 	+ Tu as enfin réussi à\n
 	+ compléter ton Pokédex!\n
 	+ Félicitations!
-   214   = Continue comme ça,\n
-	+ et tu vas attraper tous les pokémon\n
-	+ du Pokédex!
+   214   = Continue comme ça jusqu'à\n
+	+ avoir attrapé chacun des\n
+	+ Pokémon du Pokédex!
    215   = Tu as progressé! Depuis la\n
 	+ dernière fois, tu en as...\n
 	+ - vu: %d\n
 	+ - obtenu: %d
-   216   = Depuis la dernière fois,\n
-	+ le nombre a augmenté de...\n
-	+ vu: %d\n
-	+ pris: %d
+   216   = 
    217   = Tu es en bonne voie pour\n
 	+ compléter ton Pokédex!\n
 	+ Félicitations!
@@ -1473,10 +1465,11 @@
 	+ niveau, il évolue et peut devenir\n
 	+ un formidable Pokémon.
    22a	 = J'ai attrapé cet EXCELANGUE\n
-	+ dans Lac Courage pendant un\n
-	+ Apparition Massive de Pokémon.\n
-	+ \fC'est un Pokémon mignon qui\n
-	+ tire la langue!
+	+ près du Lac Courage, au milieu\n
+	+ d'une nuée de Pokémon.\n
+	+ \fSa langue est vraiment\n
+	+ très longue, mais c'est un\n
+	+ mignon petit Pokémon!
    22b	 = J'ai élevé ce OKEOKE depuis\n
 	+ qu'il est sorti de son Œuf.\n
 	+ \fC'est un Pokémon tout mignon,\n
@@ -1501,10 +1494,11 @@
 	+ pas souvent, alors si tu en\n
 	+ possèdes un, tu peux épater\n
 	+ tes amis!
-   22f	 = Tu peux attraper SAQUEDENEU\n
-	+ dans le Parc des Amis.\n
-	+ \fIl est enveloppé de vignes....\n
-	+ Quel Pokémon mystérieux!
+   22f	 = J'ai attrapé ce SAQUEDENEU\n
+	+ au Parc des Amis.\n
+	+ \fC'est un étrange Pokémon\n
+	+ complètement recouvert\n
+	+ de lianes...
    230	 = APITRINI aime les choses qui\n
 	+ ont une odeur sucrée, j'ai donc\n
 	+ utilisé du miel pour le capturer.\n
@@ -1527,32 +1521,31 @@
 	+ combats, tous tes amis vont\n
 	+ probablement t'envier!
 
-   233   = Hello! I'm Hayley
-   234   = (TRANSLATION NEEDED) Hello! I'm Hayley\n
-	+ Long time no see!
-   235   = (TRANSLATION NEEDED) Do you have a moment before\n
-	+ I go back to my Ranch?\n
-	+ I have something to tell you!
-   236   = (TRANSLATION NEEDED) Wow!\n
-	+ Our Ranch is now connected\n
-	+ to Pokémon Platinum!
-   237   = (TRANSLATION NEEDED) There's more!\n
-	+ Many parts of the Ranch\n
-	+ have been upgraded!
-   238   = Here's what's new.\n
-   239   = (TRANSLATION NEEDED) Hurry!\n
-	+ Let's see what's new\n
-	+ at the Ranch!\n
-	+ Let's go!
-   23a   = (TRANSLATION NEEDED) This is our newly upgraded\n
-	+ Ranch!
-   23b   = (TRANSLATION NEEDED) The Ranch has grown since\n
-	+ connecting to Pokémon\n
-	+ Platinum!
-   23c   = (TRANSLATION NEEDED) A lot has changed,\n
-	+ but I won't tell you\n
-	+ about all of it.\n
-	+ The rest is for you\n
-	+ to find!
-   23d   = (TRANSLATION NEEDED) Well then, let's continue\n
-	+ to work together!
+   233   = Bonjour! Je m'appelle Eulalie
+   234   = Bonjour! Je m'appelle Eulalie!\n
+	+ On ne t'avait pas vu depuis un\n
+	+ moment!
+   235   = Aurais-tu un peu de temps avant\n
+	+ de retourner au Ranch?\n
+	+ J'ai quelque chose à t'annoncer!
+   236   = Ouah!\n
+	+ Notre Ranch est désormais\n
+	+ connecté à Pokémon Platine!
+   237   = Ce n'est pas tout!\n
+	+ Beaucoup de choses au Ranch ont\n
+	+ été améliorées!
+   238   = Voici les nouveautés.\n
+   239   = Ne perdons pas plus de temps!\n
+	+ Allons voir ce qui a changé au\n
+	+ Ranch!\n
+	+ C'est parti!
+   23a   = Voici notre Ranch tout récemment\n
+	+ amélioré!
+   23b   = Le Ranch s'est agrandi depuis la\n
+	+ connexion à Pokémon Platine!
+   23c   = Beaucoup de choses ont changé,\n
+	+ mais je ne vais pas tout te\n
+	+ montrer. Je te laisse le plaisir\n
+	+ de la découverte!
+   23d   = Maintenant, continuons à\n
+	+ travailler tous ensemble!
