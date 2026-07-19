@@ -1549,6 +1549,6 @@
    23c   = Beaucoup de choses ont\n
 	+ changé, mais je ne vais pas\n
 	+ tout te montrer. Je te laisse\n
-	+ le plaisir de la découverte!
+	+ le découvrir par toi-même!
    23d   = Maintenant, continuons à\n
 	+ travailler tous ensemble!
