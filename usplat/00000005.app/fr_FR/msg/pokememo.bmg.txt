@@ -79,11 +79,11 @@
     1e	 = J'ai vu la danse florale.
     1f	 = J'ai vu le voyage aérien.
     20	 = J'ai vu l'orbite des Pokémon.
-    21	 = J'ai vu la résurrection des Pokémon.
+    21	 = J'ai vu la résurrection.
     22	 = J'ai vu les regards au nord.
     23	 = J'ai vu les sauts en surf.
     24	 = J'ai vu la ronde des Motisma.
-    25	 = J'ai vu l'affrontement des Pokémon.
+    25	 = J'ai vu l'affrontement.
     26	 = J'ai pris une photo de groupe.
     27	 = J'ai vu un joyeux anniversaire.
     28	 = J'ai réussi une Recherche Pokémon.
