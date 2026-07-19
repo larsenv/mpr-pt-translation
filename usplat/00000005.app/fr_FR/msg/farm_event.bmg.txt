@@ -1149,11 +1149,10 @@
 	+ des Regardez-moi viennent te\n
 	+ rendre visite, n'hésite pas à\n
 	+ aller voir leurs Ranchs aussi!
-   1d0   = Oh, encore une chose!\n
-	+ Si tu m'appelles depuis le\n
-	+ panneau d'affichage, je pourrai\n
-	+ venir te chercher.\n
-	+ \fN'hésite pas à me rendre visite!
+   1d0   = Oh, encore une chose! Si tu\n
+	+ m'appelles depuis le panneau\n
+	+ d'affichage, je pourrai venir te\n
+	+  chercher. N'hésite pas!
    1d1   = Bon retour dans ton Ranch!
    1d2	 = Alors? Qu'en penses-tu?\n
 	+ Impressionnant, non?
@@ -1537,7 +1536,7 @@
    237   = Ce n'est pas tout!\n
 	+ Beaucoup de choses au Ranch\n
 	+ ont été améliorées!
-   238   = Voici les nouveautés.\n
+   238   = Voici les nouveautés!\n
    239   = Ne perdons pas plus de temps!\n
 	+ Allons voir ce qui a changé au\n
 	+ Ranch!\n
