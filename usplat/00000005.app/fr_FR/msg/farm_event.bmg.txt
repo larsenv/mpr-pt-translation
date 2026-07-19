@@ -1131,8 +1131,8 @@
    1c8   = Je suis %2$ls,\n
 	+ le membre numéro %1$d\n
 	+ du Club des Regardez-moi!
-   1c9   = Alors... J'ai entendu que tu\n
-	+ voulais voir mon Ranch, c'est ça?
+   1c9   = Alors... Tu voulais voir mon\n
+	+ Ranch, c'est ça?
    1ca   = Tu viendras visiter mon Ranch\n
 	+ une autre fois, hein?
    1cb   = N'hésite pas à revenir visiter\n
@@ -1151,7 +1151,7 @@
 	+ aller voir leurs Ranchs aussi!
    1d0   = Oh, encore une chose!\n
 	+ Si tu m'appelles depuis le\n
-	+ Panneau d'affichage, je pourrai\n
+	+ panneau d'affichage, je pourrai\n
 	+ venir te chercher.\n
 	+ \fN'hésite pas à me rendre visite!
    1d1   = Bon retour dans ton Ranch!
@@ -1165,7 +1165,7 @@
 	+ visiter ton Ranch, n'hésite pas\n
 	+ à faire pareil: va voir le leur!
    1d5   = Si tu m'appelles depuis le\n
-	+ Panneau d'affichage, je viendrai\n
+	+ panneau d'affichage, je viendrai\n
 	+ te chercher. N'hésite pas à\n
 	+ me rendre visite, d'accord?
    1d6	 = Bon, eh bien, fais bonne route\n
@@ -1181,7 +1181,7 @@
 	+ donc aussi voir leur Ranch.\n
 	+ Ça leur fera sûrement plaisir!
    1da   = Si tu m'appelles depuis le\n
-	+ Panneau d'affichage, je viendrai\n
+	+ panneau d'affichage, je viendrai\n
 	+ te chercher. N'hésite pas à\n
 	+ me rendre visite, compris?
    1db   = Eh bien, fais bien attention\n
@@ -1521,31 +1521,34 @@
 	+ combats, tous tes amis vont\n
 	+ probablement t'envier!
 
-   233   = Bonjour! Je m'appelle Eulalie
+   233   = Bonjour! Je m'appelle Eulalie!\n
+	+ On ne t'avait pas vu depuis un\n
+	+ moment!
    234   = Bonjour! Je m'appelle Eulalie!\n
 	+ On ne t'avait pas vu depuis un\n
 	+ moment!
-   235   = Aurais-tu un peu de temps avant\n
-	+ de retourner au Ranch?\n
-	+ J'ai quelque chose à t'annoncer!
+   235   = Aurais-tu un peu de temps\n
+	+ avant de retourner au Ranch?\n
+	+ J'ai quelque chose à\n
+	+ t'annoncer!
    236   = Ouah!\n
 	+ Notre Ranch est désormais\n
 	+ connecté à Pokémon Platine!
    237   = Ce n'est pas tout!\n
-	+ Beaucoup de choses au Ranch ont\n
-	+ été améliorées!
+	+ Beaucoup de choses au Ranch\n
+	+ ont été améliorées!
    238   = Voici les nouveautés.\n
    239   = Ne perdons pas plus de temps!\n
 	+ Allons voir ce qui a changé au\n
 	+ Ranch!\n
 	+ C'est parti!
-   23a   = Voici notre Ranch tout récemment\n
-	+ amélioré!
+   23a   = Voici notre Ranch tout\n
+	+ récemment amélioré!
    23b   = Le Ranch s'est agrandi depuis la\n
 	+ connexion à Pokémon Platine!
-   23c   = Beaucoup de choses ont changé,\n
-	+ mais je ne vais pas tout te\n
-	+ montrer. Je te laisse le plaisir\n
-	+ de la découverte!
+   23c   = Beaucoup de choses ont\n
+	+ changé, mais je ne vais pas\n
+	+ tout te montrer. Je te laisse\n
+	+ le plaisir de la découverte!
    23d   = Maintenant, continuons à\n
 	+ travailler tous ensemble!
