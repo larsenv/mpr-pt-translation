@@ -132,16 +132,17 @@
     22	 = Nous allons travailler ensemble\n
 	+ pour remplir petit à petit\n
 	+ ce Ranch de Pokémon!
-    23	 = (TRANSLATION NEEDED) You can bring Pokémon that\n
-	+ you caught in Pokémon game\n
-	+ versions for the Nintendo DS.
+    23	 = Tu peux aussi y amener\n
+	+ des Pokémon attrapés dans les\n
+	+ versions de Pokémon pour la\n
+	+ Nintendo DS.
     24	 = C'est un bon moyen pour\n
 	+ augmenter le nombre de\n
 	+ Pokémon dans le Ranch!
     25	 = Si tu as le moindre Pokémon,\n
 	+ n'hésite pas à l'amener ici!
     26	 = Au fait, as-tu une carte de jeu\n
-	+ Pokémon Diamant ou Perle?
+	+ Pokémon pour la Nintendo DS?
     27	 = C'est vrai? C'est magnifique!\n
 	+ Tu vas donc pouvoir amener tes\n
 	+ propres Pokémon au Ranch!
@@ -402,15 +403,13 @@
     92	 = Le nombre de Pokémon\n
 	+ dans le Ranch est désormais\n
 	+ de %ls!
-    93	 = (TRANSLATION NEEDED) The number of Pokémon at the\n
-	+ Ranch has become %d!
+    93	 = 
     94	 = Nous allons agrandir le Ranch!\n
 	+ Les travaux devraient être\n
 	+ terminés le %ls!
     95	 = Oh! Il y a déjà\n
 	+ %ls Pokémon dans le Ranch!
-    96	 = (TRANSLATION NEEDED) Oh? The number of Pokémon at\n
-	+ the Ranch is already %d%! 
+    96	 = 
     97	 = Eh bien, agrandissons\n
 	+ de nouveau le Ranch!
     98	 = Les travaux devraient être\n
@@ -429,8 +428,7 @@
 	+ aucun Pokémon au Ranch.
     9d	 = A ce jour, j'ai déjà amené\n
 	+ %ls Pokémon.
-    9e   = (TRANSLATION NEEDED) So far, I have brought\n
-	+ %d Pokémon. 
+    9e	 = 
     9f	 = Voici mes Pokémon adorés.\n
 	+ Prends bien soin d'eux!
     a0	 = J'aime beaucoup ce Pokémon.\n
@@ -442,9 +440,7 @@
     a3	 = Quand nous aurons\n
 	+ %ls Pokémon,\n
 	+ nous agrandirons le Ranch!
-    a4	 = (TRANSLATION NEEDED) Once the number of Pokémon\n
-	+ becomes %d, let's expand\n
-	+ the Ranch!
+    a4	 = 
     a5	 = Continuons à amener de\n
 	+ nouveaux Pokémon au Ranch!
     a6	 = Pour agrandir le Ranch,\n
@@ -453,9 +449,7 @@
     a7	 = Quand nous aurons\n
 	+ %ls Pokémon,\n
 	+ nous agrandirons le Ranch!
-    a8   = (TRANSLATION NEEDED) Once the number of Pokémon\n
-	+ becomes %d, let's expand\n
-	+ the Ranch! 
+    a8	 = 
     a9	 = Oh!...
     aa	 = Maintenant, tu connais bien\n
 	+ le Ranch Pokémon, pas vrai?
@@ -553,12 +547,14 @@
     cd	 = Quand le Ranch sera plein,\n
 	+ je demanderai à mes Pokémon\n
 	+ de rester dans la grange.
-    ce	 = (TRANSLATION NEEDED) 
+    ce	 = Ça veut dire que tu peux\n
+        + amener jusqu'à 1 000 Pokémon\n
+        + au Ranch!
     cf	 = Ne t'inquiète pas pour\n
 	+ mes Pokémon. Apportes-en\n
 	+ autant que tu veux!
-    d0	 = (TRANSLATION NEEDED) The Ranch has finally reached\n
-	+ level %d! Congratulations!
+    d0	 = Le Ranch a enfin atteint le\n
+	+ niveau %d! Félicitations!
     d1	 = Voilà le Ranch dont j'ai toujours\n
 	+ rêvé... Un Ranch immense...\n
 	+ Et plein de Pokémon...
@@ -604,9 +600,7 @@
     e2	 = Le nombre de Pokémon que\n
 	+ tu peux y garder est passé\n
 	+ de %ls à %ls!
-    e3	 = (TRANSLATION NEEDED) The number of Pokémon you\n
-	+ can keep has increased from\n
-	+ %d% to %d!
+    e3	 = 
     e4	 = Le nombre de Mii que tu peux\n
 	+ faire venir dans le Ranch est\n
 	+ passé de %d à %d!
@@ -704,9 +698,9 @@
 	+ de te revoir!
    106	 = Coucou!\n
 	+ Amuse-toi bien au Ranch!
-   107	 = (TRANSLATION NEEDED) You have arrived at\n
-	+ %ls's\n
-	+ %ls Ranch!
+   107	 = Nous sommes arrivés\n
+	+ chez %ls,\n
+	+ au Ranch %ls!
    108	 = Amuse-toi bien au Ranch\n
 	+ %ls!
    109	 = Pour quitter ce Ranch,\n
@@ -721,257 +715,264 @@
 	+ supérieur gauche de l'écran\n
 	+ et appuie sur \x{e042}.
    10d	 = Amuse-toi bien!
-   10e   = (TRANSLATION NEEDED) "Favorite"\n
-	+ is today's ranch theme.
-   10f   = (TRANSLATION NEEDED) "Owner"\n
-	+ is today's ranch theme.
-   110   = (TRANSLATION NEEDED) "Stored Pokémon"\n
-	+ is today's ranch theme.
-   111   = (TRANSLATION NEEDED) "%ls"\n
-	+ is today's ranch theme.
-   112	 = (TRANSLATION NEEDED) "6 Pokémon"\n
-	+ is today's ranch theme.
-   113	 = Amuse-toi bien!
-   114	 = (TRANSLATION NEEDED) "50 Pokémon"\n
-	+ is today's ranch theme.
-   115	 = (TRANSLATION NEEDED) "100 Pokémon"\n
-	+ is today's ranch theme.
-   116	 = (TRANSLATION NEEDED) "200 Pokémon"\n
-	+ is today's ranch theme.
-   117	 = (TRANSLATION NEEDED) "500 Pokémon"\n
-	+ is today's ranch theme.
-   118	 = (TRANSLATION NEEDED) "800 Pokémon"\n
-	+ is today's ranch theme.
-   119	 = (TRANSLATION NEEDED) "1000 Pokémon"\n
-	+ is today's ranch theme.
-   11a	 = (TRANSLATION NEEDED) "Normal"\n
-	+ is today's ranch theme.
-   11b	 = (TRANSLATION NEEDED) "Fighting"\n
-	+ is today's ranch theme.
-   11c	 = (TRANSLATION NEEDED) "Flying"\n
-	+ is today's ranch theme.
-   11d	 = (TRANSLATION NEEDED) "Poison"\n
-	+ is today's ranch theme.
-   11e	 = (TRANSLATION NEEDED) "Ground"\n
-	+ is today's ranch theme.
-   11f	 = (TRANSLATION NEEDED) "Rock"\n
-	+ is today's ranch theme.
-   120	 = (TRANSLATION NEEDED) "Bug"\n
-	+ is today's ranch theme.
-   121	 = (TRANSLATION NEEDED) "Ghost"\n
-	+ is today's ranch theme.
-   122	 = (TRANSLATION NEEDED) "Steel"\n
-	+ is today's ranch theme.
-   123	 = Je reviendrai certainement te\n
-   124	 = (TRANSLATION NEEDED) "Fire"\n
-	+ is today's ranch theme.
-   125	 = (TRANSLATION NEEDED) "Water"\n
-	+ is today's ranch theme.
-   126	 = (TRANSLATION NEEDED) "Grass"\n
-	+ is today's ranch theme.
-   127	 = (TRANSLATION NEEDED) "Electric"\n
-	+ is today's ranch theme.
-   128	 = (TRANSLATION NEEDED) "Psychic"\n
-	+ is today's ranch theme.
-   129	 = (TRANSLATION NEEDED) "Ice"\n
-	+ is today's ranch theme.
-   12a	 = (TRANSLATION NEEDED) "Dragon"\n
-	+ is today's ranch theme.
-   12b	 = (TRANSLATION NEEDED) "Dark"\n
-	+ is today's ranch theme.
-   12c	 = Règle numéro un!\n
-	+ Tu dois rechercher la perfection\n
-   12d	 = (TRANSLATION NEEDED) "▲"\n
-	+ is today's ranch theme.
-   12e	 = Ce sont les deux principes\n
-   12f	 = (TRANSLATION NEEDED) "♥"\n
-	+ is today's ranch theme.
-   130	 = Veux-tu venir me rendre visite?
-   131	 = (TRANSLATION NEEDED) "◆"\n
-	+ is today's ranch theme.
-   132	 = (TRANSLATION NEEDED) "Red"\n
-	+ is today's ranch theme.
-   133	 = Excellent! Je savais que tu\n
-   134	 = (TRANSLATION NEEDED) "Yellow"\n
-	+ is today's ranch theme.
-   135	 = (TRANSLATION NEEDED) "Green"\n
-	+ is today's ranch theme.
-   136	 = (TRANSLATION NEEDED) "Black"\n
-	+ is today's ranch theme.
-   137	 = Pour le savoir, il ne te reste\n
-	+ plus qu'à venir voir mon Ranch!
-   138	 = (TRANSLATION NEEDED) "Purple"\n
-	+ is today's ranch theme.
-   139	 = (TRANSLATION NEEDED) "Gray"\n
-	+ is today's ranch theme.
-   13a	 = (TRANSLATION NEEDED) "White"\n
-	+ is today's ranch theme.
-   13b	 = Attention!\n
-   13c	 = (TRANSLATION NEEDED) "Short"\n
-	+ is today's ranch theme.
-   13d	 = (TRANSLATION NEEDED) "Tall"\n
-	+ is today's ranch theme.
-   13e	 = (TRANSLATION NEEDED) "Light"\n
-	+ is today's ranch theme.
-   13f	 = (TRANSLATION NEEDED) "Heavy"\n
-	+ is today's ranch theme.
-   140	 = (TRANSLATION NEEDED) "Fiery"\n
-	+ is today's ranch theme.
-   141	 = (TRANSLATION NEEDED) "Cold"\n
-	+ is today's ranch theme.
-   142	 = Je reviendrai t'inviter un autre\n
-   143	 = (TRANSLATION NEEDED) "Fast"\n
-	+ is today's ranch theme.
-   144	 = (TRANSLATION NEEDED) "Round"\n
-	+ is today's ranch theme.
-   145	 = (TRANSLATION NEEDED) "Flying"\n
-	+ is today's ranch theme.
-   146	 = (TRANSLATION NEEDED) "Sturdy"\n
-	+ is today's ranch theme.
-   147	 = (TRANSLATION NEEDED) "Focused"\n
-	+ is today's ranch theme.
-   148	 = Bon retour dans ton Ranch!
-   149	 = (TRANSLATION NEEDED) "Easygoing"\n
-	+ is today's ranch theme.
-   14a	 = (TRANSLATION NEEDED) "Oblivious"\n
-	+ is today's ranch theme.
-   14b	 = (TRANSLATION NEEDED) "Stinky"\n
-	+ is today's ranch theme.
-   14c	 = (TRANSLATION NEEDED) "Singing"\n
-	+ is today's ranch theme.
-   14d	 = (TRANSLATION NEEDED) "Sweet-Smelling"\n
-	+ is today's ranch theme.
-   14e	 = (TRANSLATION NEEDED) "Rare"\n
-	+ is today's ranch theme.
-   14f	 = (TRANSLATION NEEDED) "Favorite"\n
-	+ is today's ranch theme.
-   150	 = (TRANSLATION NEEDED) "Owner"\n
-	+ is today's ranch theme.
-   151	 = (TRANSLATION NEEDED) "Stored Pokémon"\n
-	+ is today's ranch theme.
-   152	 = (TRANSLATION NEEDED) "%ls"\n
-	+ is today's ranch theme.
-   153	 = (TRANSLATION NEEDED) "6 Pokémon"\n
-	+ is today's ranch theme.
-   154	 = (TRANSLATION NEEDED) "20 Pokémon"\n
-	+ is today's ranch theme.
-   155	 = (TRANSLATION NEEDED) "50 Pokémon"\n
-	+ is today's ranch theme.
-   156	 = (TRANSLATION NEEDED) "100 Pokémon"\n
-	+ is today's ranch theme.
-   157	 = (TRANSLATION NEEDED) "200 Pokémon"\n
-	+ is today's ranch theme.
-   158	 = (TRANSLATION NEEDED) "500 Pokémon"\n
-	+ is today's ranch theme.
-   159	 = (TRANSLATION NEEDED) "800 Pokémon"\n
-	+ is today's ranch theme.
-   15a	 = (TRANSLATION NEEDED) "1000 Pokémon"\n
-	+ is today's ranch theme.
-   15b	 = (TRANSLATION NEEDED) "Normal"\n
-	+ is today's ranch theme.
-   15c	 = (TRANSLATION NEEDED) "Fighting"\n
-	+ is today's ranch theme.
-   15d	 = (TRANSLATION NEEDED) "Flying"\n
-	+ is today's ranch theme.
-   15e	 = (TRANSLATION NEEDED) "Poison"\n
-	+ is today's ranch theme.
-   15f	 = (TRANSLATION NEEDED) "Ground"\n
-	+ is today's ranch theme.
-   160	 = (TRANSLATION NEEDED) "Rock"\n
-	+ is today's ranch theme.
-   161	 = (TRANSLATION NEEDED) "Bug"\n
-	+ is today's ranch theme.
-   162	 = (TRANSLATION NEEDED) "Ghost"\n
-	+ is today's ranch theme.
-   163	 = (TRANSLATION NEEDED) "Steel"\n
-	+ is today's ranch theme.
-   164	 = (TRANSLATION NEEDED) ?
-   165	 = (TRANSLATION NEEDED) "Fire"\n
-	+ is today's ranch theme.
-   166	 = (TRANSLATION NEEDED) "Water"\n
-	+ is today's ranch theme.
-   167	 = (TRANSLATION NEEDED) "Grass"\n
-	+ is today's ranch theme.
-   168	 = (TRANSLATION NEEDED) "Electric"\n
-	+ is today's ranch theme.
-   169	 = (TRANSLATION NEEDED) "Psychic"\n
-	+ is today's ranch theme.
-   16a	 = (TRANSLATION NEEDED) "Ice"\n
-	+ is today's ranch theme.
-   16b	 = (TRANSLATION NEEDED) "Dragon"\n
-	+ is today's ranch theme.
-   16c	 = (TRANSLATION NEEDED) "Dark"\n
-	+ is today's ranch theme.
-   16d	 = (TRANSLATION NEEDED) "●"\n
-	+ is today's ranch theme.
-   16e	 = (TRANSLATION NEEDED) "▲"\n
-	+ is today's ranch theme.
-   16f	 = (TRANSLATION NEEDED) "■"\n
-	+ is today's ranch theme.
-   170	 = (TRANSLATION NEEDED) "♥"\n
-	+ is today's ranch theme.
-   171	 = (TRANSLATION NEEDED) "★"\n
-	+ is today's ranch theme.
-   172	 = (TRANSLATION NEEDED) "◆"\n
-	+ is today's ranch theme.
-   173	 = (TRANSLATION NEEDED) "Red"\n
-	+ is today's ranch theme.
-   174	 = (TRANSLATION NEEDED) "Blue"\n
-	+ is today's ranch theme.
-   175	 = (TRANSLATION NEEDED) "Yellow"\n
-	+ is today's ranch theme.
-   176	 = (TRANSLATION NEEDED) "Green"\n
-	+ is today's ranch theme.
-   177	 = (TRANSLATION NEEDED) "Black"\n
-	+ is today's ranch theme.
-   178	 = (TRANSLATION NEEDED) "Brown"\n
-	+ is today's ranch theme.
-   179	 = (TRANSLATION NEEDED) "Purple"\n
-	+ is today's ranch theme.
-   17a	 = (TRANSLATION NEEDED) "Gray"\n
-	+ is today's ranch theme.
-   17b	 = (TRANSLATION NEEDED) "White"\n
-	+ is today's ranch theme.
-   17c	 = (TRANSLATION NEEDED) "Pink"\n
-	+ is today's ranch theme.
-   17d	 = (TRANSLATION NEEDED) "Short"\n
-	+ is today's ranch theme.
-   17e	 = (TRANSLATION NEEDED) "Tall"\n
-	+ is today's ranch theme.
-   17f	 = (TRANSLATION NEEDED) "Light"\n
-	+ is today's ranch theme.
-   180	 = (TRANSLATION NEEDED) "Heavy"\n
-	+ is today's ranch theme.
-   181	 = (TRANSLATION NEEDED) "Fiery"\n
-	+ is today's ranch theme.
-   182	 = (TRANSLATION NEEDED) "Cold"\n
-	+ is today's ranch theme.
-   183	 = (TRANSLATION NEEDED) "Scary"\n
-	+ is today's ranch theme.
-   184	 = (TRANSLATION NEEDED) "Fast"\n
-	+ is today's ranch theme.
-   185	 = (TRANSLATION NEEDED) "Round"\n
-	+ is today's ranch theme.
-   186	 = (TRANSLATION NEEDED) "Flying"\n
-	+ is today's ranch theme.
-   187	 = (TRANSLATION NEEDED) "Sturdy"\n
-	+ is today's ranch theme.
-   188	 = (TRANSLATION NEEDED) "Focused"\n
-	+ is today's ranch theme.
-   189	 = (TRANSLATION NEEDED) "Paralyzing"\n
-	+ is today's ranch theme.
-   18a	 = (TRANSLATION NEEDED) "Easygoing"\n
-	+ is today's ranch theme.
-   18b	 = (TRANSLATION NEEDED) "Oblivious"\n
-	+ is today's ranch theme.
-   18c	 = (TRANSLATION NEEDED) "Stinky"\n
-	+ is today's ranch theme.
-   18d	 = (TRANSLATION NEEDED) "Singing"\n
-	+ is today's ranch theme.
-   18e	 = (TRANSLATION NEEDED) "Sweet-Smelling"\n
-	+ is today's ranch theme.
-   18f	 = (TRANSLATION NEEDED) "Rare"\n
-	+ is today's ranch theme.
+   10e   = "Mes favoris"\n
+	+ est le thème du Ranch pour aujourd'hui.
+   10f   = "Propriétaire"\n
+	+ est le thème du Ranch pour aujourd'hui.
+   110   = "Pokémon stockés"\n
+	+ est le thème du Ranch pour aujourd'hui.
+   111   = "%ls"\n
+	+ est le thème du Ranch pour aujourd'hui.
+   112	 = "6 Pokémon"\n
+	+ est le thème du Ranch pour aujourd'hui.
+   113	 = "20 Pokémon"\n
+	+ est le thème du Ranch pour aujourd'hui.
+   114	 = "50 Pokémon"\n
+	+ est le thème du Ranch pour aujourd'hui.
+   115	 = "100 Pokémon"\n
+	+ est le thème du Ranch pour aujourd'hui.
+   116	 = "200 Pokémon"\n
+	+ est le thème du Ranch pour aujourd'hui.
+   117	 = "500 Pokémon"\n
+	+ est le thème du Ranch pour aujourd'hui.
+   118	 = "800 Pokémon"\n
+	+ est le thème du Ranch pour aujourd'hui.
+   119	 = "1 000 Pokémon"\n
+	+ est le thème du Ranch pour aujourd'hui.
+   11a	 = "Normal"\n
+	+ est le thème du Ranch pour aujourd'hui.
+   11b	 = "Combat"\n
+	+ est le thème du Ranch pour aujourd'hui.
+   11c	 = "Vol"\n
+	+ est le thème du Ranch pour aujourd'hui.
+   11d	 = "Poison"\n
+	+ est le thème du Ranch pour aujourd'hui.
+   11e	 = "Sol"\n
+	+ est le thème du Ranch pour aujourd'hui.
+   11f	 = "Roche"\n
+	+ est le thème du Ranch pour aujourd'hui.
+   120	 = "Insecte"\n
+	+ est le thème du Ranch pour aujourd'hui.
+   121	 = "Spectre"\n
+	+ est le thème du Ranch pour aujourd'hui.
+   122	 = "Acier"\n
+	+ est le thème du Ranch pour aujourd'hui.
+   123	 = ?
+   124	 = "Feu"\n
+	+ est le thème du Ranch pour aujourd'hui.
+   125	 = "Eau"\n
+	+ est le thème du Ranch pour aujourd'hui.
+   126	 = "Plante"\n
+	+ est le thème du Ranch pour aujourd'hui.
+   127	 = "Electrik"\n
+	+ est le thème du Ranch pour aujourd'hui.
+   128	 = "Psy"\n
+	+ est le thème du Ranch pour aujourd'hui.
+   129	 = "Glace"\n
+	+ est le thème du Ranch pour aujourd'hui.
+   12a	 = "Dragon"\n
+	+ est le thème du Ranch pour aujourd'hui.
+   12b	 = "Ténèbres"\n
+	+ est le thème du Ranch pour aujourd'hui.
+   12c	 = "●"\n
+	+ est le thème du Ranch pour aujourd'hui.
+   12d	 = "▲"\n
+	+ est le thème du Ranch pour aujourd'hui.
+   12e	 = "■"\n
+	+ est le thème du Ranch pour aujourd'hui.
+   12f	 = "♥"\n
+	+ est le thème du Ranch pour aujourd'hui.
+   130	 = "★"\n
+	+ est le thème du Ranch pour aujourd'hui.
+   131	 = "◆"\n
+	+ est le thème du Ranch pour aujourd'hui.
+   132	 = "Rouge"\n
+	+ est le thème du Ranch pour aujourd'hui.
+   133	 = "Bleu"\n
+	+ est le thème du Ranch pour aujourd'hui.
+   134	 = "Jaune"\n
+	+ est le thème du Ranch pour aujourd'hui.
+   135	 = "Vert"\n
+	+ est le thème du Ranch pour aujourd'hui.
+   136	 = "Noir"\n
+	+ est le thème du Ranch pour aujourd'hui.
+   137	 = "Marron"\n
+	+ est le thème du Ranch pour aujourd'hui.
+   138	 = "Violet"\n
+	+ est le thème du Ranch pour aujourd'hui.
+   139	 = "Gris"\n
+	+ est le thème du Ranch pour aujourd'hui.
+   13a	 = "Blanc"\n
+	+ est le thème du Ranch pour aujourd'hui.
+   13b	 = "Rose"\n
+	+ est le thème du Ranch pour aujourd'hui.
+   13c	 = "Petit"\n
+	+ est le thème du Ranch pour aujourd'hui.
+   13d	 = "Grand"\n
+	+ est le thème du Ranch pour aujourd'hui.
+   13e	 = "Léger"\n
+	+ est le thème du Ranch pour aujourd'hui.
+   13f	 = "Lourd"\n
+	+ est le thème du Ranch pour aujourd'hui.
+   140	 = "De feu"\n
+	+ est le thème du Ranch pour aujourd'hui.
+   141	 = "Froid"\n
+	+ est le thème du Ranch pour aujourd'hui.
+   142	 = "Effrayant"\n
+	+ est le thème du Ranch pour aujourd'hui.
+   143	 = "Très rapide"\n
+	+ est le thème du Ranch pour aujourd'hui.
+   144	 = "Rond"\n
+	+ est le thème du Ranch pour aujourd'hui.
+   145	 = "Volant"\n
+	+ est le thème du Ranch pour aujourd'hui.
+   146	 = "Costaud"\n
+	+ est le thème du Ranch pour aujourd'hui.
+   147	 = "Concentré"\n
+	+ est le thème du Ranch pour aujourd'hui.
+   148	 = "Paralysant"\n
+	+ est le thème du Ranch pour aujourd'hui.
+   149	 = "Paisible"\n
+	+ est le thème du Ranch pour aujourd'hui.
+   14a	 = "Insouciant"\n
+	+ est le thème du Ranch pour aujourd'hui.
+   14b	 = "Puant"\n
+	+ est le thème du Ranch pour aujourd'hui.
+   14c	 = "Chantant"\n
+	+ est le thème du Ranch pour aujourd'hui.
+   14d	 = "Parfumé"\n
+	+ est le thème du Ranch pour aujourd'hui.
+   14e	 = "Rare"\n
+	+ est le thème du Ranch pour aujourd'hui.
+   14f	 = "Mes favoris"\n
+	+ est le thème du Ranch pour aujourd'hui.
+   150	 = "Propriétaire"\n
+	+ est le thème du Ranch pour aujourd'hui.
+   151	 = "Pokémon stockés"\n
+	+ est le thème du Ranch pour aujourd'hui.
+   152	 = "%ls"\n
+	+ est le thème du Ranch pour aujourd'hui.
+   153	 = "6 Pokémon"\n
+	+ est le thème du Ranch pour aujourd'hui.
+   154	 = "20 Pokémon"\n
+	+ est le thème du Ranch pour aujourd'hui.
+   155	 = "50 Pokémon"\n
+	+ est le thème du Ranch pour aujourd'hui.
+   156	 = "100 Pokémon"\n
+	+ est le thème du Ranch pour aujourd'hui.
+   157	 = "200 Pokémon"\n
+	+ est le thème du Ranch pour aujourd'hui.
+   158	 = "500 Pokémon"\n
+	+ est le thème du Ranch pour aujourd'hui.
+   159	 = "800 Pokémon"\n
+	+ est le thème du Ranch pour aujourd'hui.
+   15a	 = "1 000 Pokémon"\n
+	+ est le thème du Ranch pour aujourd'hui.
+   15b	 = "Normal"\n
+	+ est le thème du Ranch pour aujourd'hui.
+   15c	 = "Combat"\n
+	+ est le thème du Ranch pour aujourd'hui.
+   15d	 = "Vol"\n
+	+ est le thème du Ranch pour aujourd'hui.
+   15e	 = "Poison"\n
+	+ est le thème du Ranch pour aujourd'hui.
+   15f	 = "Sol"\n
+	+ est le thème du Ranch pour aujourd'hui.
+   160	 = "Roche"\n
+	+ est le thème du Ranch pour aujourd'hui.
+   161	 = "Insecte"\n
+	+ est le thème du Ranch pour aujourd'hui.
+   162	 = "Spectre"\n
+	+ est le thème du Ranch pour aujourd'hui.
+   163	 = "Acier"\n
+	+ est le thème du Ranch pour aujourd'hui.
+   164	 = ?
+   165	 = "Feu"\n
+	+ est le thème du Ranch pour aujourd'hui.
+   166	 = "Eau"\n
+	+ est le thème du Ranch pour aujourd'hui.
+   167	 = "Plante"\n
+	+ est le thème du Ranch pour aujourd'hui.
+   168	 = "Electrik"\n
+	+ est le thème du Ranch pour aujourd'hui.
+   169	 = "Psy"\n
+	+ est le thème du Ranch pour aujourd'hui.
+   16a	 = "Glace"\n
+	+ est le thème du Ranch pour aujourd'hui.
+   16b	 = "Dragon"\n
+	+ est le thème du Ranch pour aujourd'hui.
+   16c	 = "Ténèbres"\n
+	+ est le thème du Ranch pour aujourd'hui.
+   16d	 = "●"\n
+	+ est le thème du Ranch pour aujourd'hui.
+   16e	 = "▲"\n
+	+ est le thème du Ranch pour aujourd'hui.
+   16f	 = "■"\n
+	+ est le thème du Ranch pour aujourd'hui.
+   170	 = "♥"\n
+	+ est le thème du Ranch pour aujourd'hui.
+   171	 = "★"\n
+	+ est le thème du Ranch pour aujourd'hui.
+   172	 = "◆"\n
+	+ est le thème du Ranch pour aujourd'hui.
+   173	 = "Rouge"\n
+	+ est le thème du Ranch pour aujourd'hui.
+   174	 = "Bleu"\n
+	+ est le thème du Ranch pour aujourd'hui.
+   175	 = "Jaune"\n
+	+ est le thème du Ranch pour aujourd'hui.
+   176	 = "Vert"\n
+	+ est le thème du Ranch pour aujourd'hui.
+   177	 = "Noir"\n
+	+ est le thème du Ranch pour aujourd'hui.
+   178	 = "Marron"\n
+	+ est le thème du Ranch pour aujourd'hui.
+   179	 = "Violet"\n
+	+ est le thème du Ranch pour aujourd'hui.
+   17a	 = "Gris"\n
+	+ est le thème du Ranch pour aujourd'hui.
+   17b	 = "Blanc"\n
+	+ est le thème du Ranch pour aujourd'hui.
+   17c	 = "Rose"\n
+	+ est le thème du Ranch pour aujourd'hui.
+   17d	 = "Petit"\n
+	+ est le thème du Ranch pour aujourd'hui.
+   17e	 = "Grand"\n
+	+ est le thème du Ranch pour aujourd'hui.
+   17f	 = "Léger"\n
+	+ est le thème du Ranch pour aujourd'hui.
+   180	 = "Lourd"\n
+	+ est le thème du Ranch pour aujourd'hui.
+   181	 = "De feu"\n
+	+ est le thème du Ranch pour aujourd'hui.
+   182	 = "Froid"\n
+	+ est le thème du Ranch pour aujourd'hui.
+   183	 = "Effrayant"\n
+	+ est le thème du Ranch pour aujourd'hui.
+   184	 = "Très rapide"\n
+	+ est le thème du Ranch pour aujourd'hui.
+   185	 = "Rond"\n
+	+ est le thème du Ranch pour aujourd'hui.
+   186	 = "Volant"\n
+	+ est le thème du Ranch pour aujourd'hui.
+   187	 = "Costaud"\n
+	+ est le thème du Ranch pour aujourd'hui.
+   188	 = "Concentré"\n
+	+ est le thème du Ranch pour aujourd'hui.
+   189	 = "Paralysant"\n
+	+ est le thème du Ranch pour aujourd'hui.
+   18a	 = "Paisible"\n
+	+ est le thème du Ranch pour aujourd'hui.
+   18b	 = "Insouciant"\n
+	+ est le thème du Ranch pour aujourd'hui.
+   18c	 = "Puant"\n
+	+ est le thème du Ranch pour aujourd'hui.
+   18d	 = "Chantant"\n
+	+ est le thème du Ranch pour aujourd'hui.
+   18e	 = "Parfumé"\n
+	+ est le thème du Ranch pour aujourd'hui.
+   18f	 = "Rare"\n
+	+ est le thème du Ranch pour aujourd'hui.
    190	 = Ce Ranch fait ma joie et\n
 	+ ma fierté. N'hésite pas à\n
 	+ en explorer tous les recoins!
@@ -994,9 +995,9 @@
    197	 = Bonjour! Je t'ai apporté\n
 	+ une photo du Ranch\n
 	+ %ls!
-   198	 = (TRANSLATION NEEDED) Hello!\n
-	+ I'm %ls\n
-	+ from %ls Ranch!
+   198	 = Salut! Je suis\n
+	+ 2$ls,\n
+	+ du Ranch %1$ls!
    199   = Bonjour! Je t'ai apporté\n
 	+ une photo du Ranch\n
 	+ %ls!
@@ -1121,20 +1122,22 @@
    1c5	 = Allez, au revoir!\n
 	+ \n
 	+ Regardez...-MOI!
-   1c6   = (TRANSLATION NEEDED) My name is %2$ls,\n
-	+ a member of Club Look-See.\n
-	+ My Member No. is %1$d!
-   1c7   = (TRANSLATION NEEDED) So... I'd heard you're coming to\n
-	+ visit my Ranch, right?	
-   1c8   = (TRANSLATION NEEDED) My name is %2$ls,\n
-	+ a member of Club Look-See.\n
-	+ My Member No. is %1$d!
-   1c9   = (TRANSLATION NEEDED) So... I hear you'd like to see\n
-	+ my Ranch, huh?
-   1ca   = (TRANSLATION NEEDED) Won't you come and visit\n
-	+ my Ranch again sometime?
-   1cb   = (TRANSLATION NEEDED) Come and visit my Ranch\n
-	+ again sometime, will ya?
+   1c6   = Je m'appelle\n
+	+ %2$ls et je suis\n
+	+ le membre numéro %1$d\n
+	+ du Club des Regardez-moi.
+   1c7   = Alors... Tu viens visiter mon\n
+	+ Ranch, pas vrai?
+   1c8   = Je suis %2$ls,\n
+	+ le membre numéro %1$d\n
+	+ du Club des Regardez-moi!
+   1c9   = Alors... J'ai entendu que tu\n
+	+ voulais voir mon Ranch, c'est ça?
+   1ca   = Tu viendras visiter mon Ranch\n
+	+ une autre fois, hein?
+   1cb   = N'hésite pas à revenir visiter\n
+	+ mon Ranch une autre fois,\n
+	+ d'accord?
    1cc   = Merci d'avoir visité mon Ranch!
    1cd	 = Franchement, ça me fait très\n
 	+ plaisir que tu aies pris la peine\n
@@ -1146,11 +1149,11 @@
 	+ des Regardez-moi viennent te\n
 	+ rendre visite, n'hésite pas à\n
 	+ aller voir leurs Ranchs aussi!
-   1d0   = (TRANSLATION NEEDED) Oh, one more thing!\n
-	+ If you call me from the BBS,\n
-	+ I will come and pick you up.\n
-	+ Please come and visit again\n
-	+ at any time.
+   1d0   = Oh, encore une chose!\n
+	+ Si tu m'appelles depuis le\n
+	+ Panneau d'affichage, je pourrai\n
+	+ venir te chercher.\n
+	+ \fN'hésite pas à me rendre visite!
    1d1   = Bon retour dans ton Ranch!
    1d2	 = Alors? Qu'en penses-tu?\n
 	+ Impressionnant, non?
@@ -1161,10 +1164,10 @@
 	+ des Regardez-moi viennent\n
 	+ visiter ton Ranch, n'hésite pas\n
 	+ à faire pareil: va voir le leur!
-   1d5   = (TRANSLATION NEEDED) If you call me from the BBS,\n
-	+ I will come and pick you up.\n
-	+ Come and visit again at any\n
-	+ time, okay?
+   1d5   = Si tu m'appelles depuis le\n
+	+ Panneau d'affichage, je viendrai\n
+	+ te chercher. N'hésite pas à\n
+	+ me rendre visite, d'accord?
    1d6	 = Bon, eh bien, fais bonne route\n
 	+ en rentrant chez toi!
    1d7	 = Merci d'avoir visité mon Ranch.\n
@@ -1177,10 +1180,10 @@
 	+ du Club des Regardez-moi, va\n
 	+ donc aussi voir leur Ranch.\n
 	+ Ça leur fera sûrement plaisir!
-   1da   = (TRANSLATION NEEDED) If you call me from the BBS,\n
-	+ I will come and pick you up.\n
-	+ Come and visit again at any\n
-	+ time, all right?
+   1da   = Si tu m'appelles depuis le\n
+	+ Panneau d'affichage, je viendrai\n
+	+ te chercher. N'hésite pas à\n
+	+ me rendre visite, compris?
    1db   = Eh bien, fais bien attention\n
 	+ à toi en rentrant!
    1dc   = Regardez...-MOI!
@@ -1307,10 +1310,7 @@
    206	 = D'après ton Pokédex, tu en as...\n
 	+ - vu: %d \n
 	+ - obtenu: %d
-   207   = (TRANSLATION NEEDED) According to your Pokédex,\n
-	+ you have...\n
-	+ Seen: %d\n
-	+ Obtained: %d
+   207   = 
    208   = C'est incroyable, tu as réussi\n
 	+ à attraper tous les Pokémon\n
 	+ du Pokédex!
@@ -1335,14 +1335,10 @@
 	+ mais puis-je quand même\n
 	+ te demander encore un petit\n
 	+ service de temps en temps?
-   20f   = Tu as progressé! Depuis la\n
-	+ dernière fois, tu en as...\n
-	+ - vu: %d\n
+   20f   = D'après ton Pokédex, tu en as...\n
+	+ - vu: %d \n
 	+ - obtenu: %d
-   210   = (TRANSLATION NEEDED) Since last time,\n
-	+ the number has increased by...\n
-	+ Seen: %d\n
-	+ Obtained: %d
+   210   = 
    211   = Mais oui! Tu as réussi à\n
 	+ attraper tous les Pokémon\n
 	+ du Pokédex! C'est fantastique!
@@ -1354,17 +1350,14 @@
 	+ Tu as enfin réussi à\n
 	+ compléter ton Pokédex!\n
 	+ Félicitations!
-   214   = (TRANSLATION NEEDED) Keep this up and you'll\n
-	+ catch all the Pokémon in\n
-	+ the Pokédex!
+   214   = Continue comme ça jusqu'à\n
+	+ avoir attrapé chacun des\n
+	+ Pokémon du Pokédex!
    215   = Tu as progressé! Depuis la\n
 	+ dernière fois, tu en as...\n
 	+ - vu: %d\n
 	+ - obtenu: %d
-   216   = (TRANSLATION NEEDED) Since last time,\n
-	+ the number has increased by...\n
-	+ Seen: %d\n
-	+ Obtained: %d
+   216   = 
    217   = Tu es en bonne voie pour\n
 	+ compléter ton Pokédex!\n
 	+ Félicitations!
@@ -1471,11 +1464,12 @@
 	+ Pouv.Antique et augmente de\n
 	+ niveau, il évolue et peut devenir\n
 	+ un formidable Pokémon.
-   22a	 = (TRANSLATION NEEDED) LICKITUNG, a Pokémon I caught\n
-	+ near Lake Valor during a\n
-	+ Mass Outbreak.\n
-	+ \fIt's a cute Pokémon with its\n
-	+ tongue sticking out!
+   22a	 = J'ai attrapé cet EXCELANGUE\n
+	+ près du Lac Courage, au milieu\n
+	+ d'une nuée de Pokémon.\n
+	+ \fSa langue est vraiment\n
+	+ très longue, mais c'est un\n
+	+ mignon petit Pokémon!
    22b	 = J'ai élevé ce OKEOKE depuis\n
 	+ qu'il est sorti de son Œuf.\n
 	+ \fC'est un Pokémon tout mignon,\n
@@ -1500,10 +1494,11 @@
 	+ pas souvent, alors si tu en\n
 	+ possèdes un, tu peux épater\n
 	+ tes amis!
-   22f	 = (TRANSLATION NEEDED) TANGELA, a Pokémon you\n
-	+ can catch in the Pal Park.\n
-	+ \fIt is shrouded by vines...\n
-	+ Such a mysterious Pokémon!
+   22f	 = J'ai attrapé ce SAQUEDENEU\n
+	+ au Parc des Amis.\n
+	+ \fC'est un étrange Pokémon\n
+	+ complètement recouvert\n
+	+ de lianes...
    230	 = APITRINI aime les choses qui\n
 	+ ont une odeur sucrée, j'ai donc\n
 	+ utilisé du miel pour le capturer.\n
@@ -1526,33 +1521,31 @@
 	+ combats, tous tes amis vont\n
 	+ probablement t'envier!
 
-   233   = Hello! I'm Hayley
-   234   = (TRANSLATION NEEDED) Hello! I'm Hayley\n
-	+ Long time no see!
-   235   = (TRANSLATION NEEDED) Do you have a moment before\n
-	+ I go back to my Ranch?\n
-	+ I have something to tell you!
-   236   = (TRANSLATION NEEDED) Wow!\n
-	+ Our Ranch is now connected\n
-	+ to Pokémon Platinum!
-   237   = (TRANSLATION NEEDED) There's more!\n
-	+ Many parts of the Ranch\n
-	+ have been upgraded!
-   238   = Here's what's new.\n
-   239   = (TRANSLATION NEEDED) Hurry!\n
-	+ Let's see what's new\n
-	+ at the Ranch!\n
-	+ Let's go!
-   23a   = (TRANSLATION NEEDED) This is our newly upgraded\n
-	+ Ranch!
-   23b   = (TRANSLATION NEEDED) The Ranch has grown since\n
-	+ connecting to Pokémon\n
-	+ Platinum!
-   23c   = (TRANSLATION NEEDED) A lot has changed,\n
-	+ but I won't tell you\n
-	+ about all of it.\n
-	+ The rest is for you\n
-	+ to find!
-   23d   = (TRANSLATION NEEDED) Well then, let's continue\n
-	+ to work together!
-
+   233   = Bonjour! Je m'appelle Eulalie
+   234   = Bonjour! Je m'appelle Eulalie!\n
+	+ On ne t'avait pas vu depuis un\n
+	+ moment!
+   235   = Aurais-tu un peu de temps avant\n
+	+ de retourner au Ranch?\n
+	+ J'ai quelque chose à t'annoncer!
+   236   = Ouah!\n
+	+ Notre Ranch est désormais\n
+	+ connecté à Pokémon Platine!
+   237   = Ce n'est pas tout!\n
+	+ Beaucoup de choses au Ranch ont\n
+	+ été améliorées!
+   238   = Voici les nouveautés.\n
+   239   = Ne perdons pas plus de temps!\n
+	+ Allons voir ce qui a changé au\n
+	+ Ranch!\n
+	+ C'est parti!
+   23a   = Voici notre Ranch tout récemment\n
+	+ amélioré!
+   23b   = Le Ranch s'est agrandi depuis la\n
+	+ connexion à Pokémon Platine!
+   23c   = Beaucoup de choses ont changé,\n
+	+ mais je ne vais pas tout te\n
+	+ montrer. Je te laisse le plaisir\n
+	+ de la découverte!
+   23d   = Maintenant, continuons à\n
+	+ travailler tous ensemble!
