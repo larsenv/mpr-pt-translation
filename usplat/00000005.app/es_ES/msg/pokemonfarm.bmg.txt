@@ -420,7 +420,7 @@
     d6	= ♪¡Vamos!
     d7	= ♪Bienvenido al rancho
     d8	= ♪Desfile Pokémon
-    d9	= ♪Canción de JIGGLYPUFF
+    d9	= ♪Canción de Jigglypuff
     da	= Club Mírame
     db	= Página anterior
     dc	= Página siguiente
@@ -541,7 +541,7 @@
    149	= Resurrección
    14a	= Mirando al norte
    14b	= Salto surfista
-   14c	= Ruleta ROTOM
+   14c	= Ruleta Rotom
    14d	= Confrontación
    14e	= Paleta de colores
    14f	= ¡Feliz cumpleaños!

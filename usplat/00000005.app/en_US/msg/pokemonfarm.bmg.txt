@@ -403,7 +403,7 @@
     d6	= ♪Let's Go!
     d7	= ♪Welcome to the Ranch
     d8	= ♪My Pokémon Parade
-    d9	= ♪JIGGLYPUFF's Song
+    d9	= ♪Jigglypuff's Song
     da	= Club Look-See
     db	= Previous Page
     dc	= Next Page
@@ -524,7 +524,7 @@
    149	= Resurrection
    14a	= Facing North
    14b	= Surfing Jump
-   14c	= ROTOM Roulette
+   14c	= Rotom Roulette
    14d	= Showdown
    14e	= Palette
    14f	= Happy Birthday

@@ -423,7 +423,7 @@
     d6	 = ♪Los gehts!
     d7	 = ♪Willkommen a. d. Ranch
     d8	 = ♪Pokémon Parade
-    d9	 = ♪PUMMELUFF's Lied
+    d9	 = ♪Pummeluff's Lied
     da	 = Pokéschau-Club
     db	 = Vorherige Seite
     dc	 = Nächste Seite
@@ -545,7 +545,7 @@
    149	 = Auferstehung
    14a	 = Nach Norden ausgerichtet
    14b	 = Wassersprung
-   14c	 = ROTOM-Roulette
+   14c	 = Rotom-Roulette
    14d	 = Duell
    14e	 = Palette
    14f	 = Herzlichen Glückwunsch
