@@ -428,7 +428,7 @@
     d6	 = ♪Allons-y!
     d7	 = ♪Bienvenue au Ranch
     d8	 = ♪Mon défilé Pokémon
-    d9	 = ♪Chanson de RONDOUDOU
+    d9	 = ♪Chanson de Rondoudou
     da	 = Club Regardez-moi
     db	 = Page précédente
     dc	 = Page suivante
