@@ -81,7 +81,7 @@
     20	= I saw the Orbit.
     21	= I saw a Resurrection.
     22	= I saw Facing North.
-    23	= I saw a Surfing Jump.
+    23	= I saw a Swimming Jump.
     24	= I saw the Rotom Roulette.
     25	= I saw a Showdown.
     26	= I took a group picture.

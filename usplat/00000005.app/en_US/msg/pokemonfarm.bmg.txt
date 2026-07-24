@@ -523,7 +523,7 @@
    148	= Orbit
    149	= Resurrection
    14a	= Facing North
-   14b	= Surfing Jump
+   14b	= Swimming Jump
    14c	= Rotom Roulette
    14d	= Showdown
    14e	= Palette
