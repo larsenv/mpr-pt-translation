@@ -92,6 +92,9 @@ from enum import IntFlag
 # Constants
 # --------------------------------------------------------------------------- #
 
+XML_PATH = "guest.xml"       # event definitions live here
+OUTPUT_PATH = "talent.dat"   # plaintext written here, then encrypted in place
+
 FORMAT_VERSION = 0x04
 TOTAL_SIZE = 0x19BC          # the game rejects anything smaller
 NANDBOOT_EPOCH = 946684800   # 2000-01-01 00:00:00 UTC, in Unix seconds
@@ -114,7 +117,11 @@ WINDOW_SECONDS = 1209599
 class GuestFlags(IntFlag):
     """Record flag bits at file offset 0x18 (validated in 0x803E29AC)."""
 
-    TRADE = 0x0001       # enables text offset at 0x920 (celebrity offers a trade)
+    # A trade is OPTIONAL: a celebrity can just visit without a Pokémon
+    # exchange (debug.bmg 0x187-0x189 "appears w/o a Pokémon exchange" vs
+    # 0x18A-0x18C "w/ a trade"). This bit — which also enables text offset G at
+    # 0x920 — is set only when the event actually offers one (wanted_species set).
+    TRADE = 0x0001
     GUEST_2 = 0x0002     # a second guest Mii is present at 0x924
     GUEST_3 = 0x0004     # a third guest Mii is present at 0x970 (requires GUEST_2)
     FORCED_EXIT = 0x0020  # kill switch: the whole payload is ignored if set
@@ -317,6 +324,10 @@ def build_talent(
     text_offsets = (char_offsets + [0] * 8)[:8]
     if any(off >= MAX_TEXT_OFFSET for off in text_offsets):
         raise ValueError("a text offset exceeds the 0xC00 character bound")
+    # Text offset G (0x920) is gated by the TRADE flag; without a trade the
+    # game requires it to be 0.
+    if not (flags & GuestFlags.TRADE):
+        text_offsets[6] = 0
 
     w = StructWriter()
 
@@ -385,64 +396,47 @@ def main():
     )
     parser.add_argument("event", nargs="?", type=int, default=1,
                         help="event id within guest.xml (matches the id= attribute; default: 1)")
-    parser.add_argument("--xml", default="guest.xml",
-                        help="path to the guest XML (default: guest.xml)")
     parser.add_argument("--locale", default="en_US",
                         help="locale whose strings populate text pool #1")
-    parser.add_argument("--out", default="talent.dat",
-                        help="plaintext output path (default: talent.dat)")
-    parser.add_argument("--wanted-species", type=int, default=None,
-                        help="override the event's wanted_species (National Dex no.)")
-    parser.add_argument("--object-a", type=int, default=None,
-                        help="override the event's object_a (0 disables the field)")
-    parser.add_argument("--object-b", type=int, default=None,
-                        help="override the event's object_b (0 disables the field)")
-    parser.add_argument("--no-encrypt", action="store_true",
-                        help="write only the plaintext, skip wc24encrypt.py")
     args = parser.parse_args()
 
-    root = ET.parse(args.xml).getroot()
+    root = ET.parse(XML_PATH).getroot()
     event = parse_event(root, args.event)
 
-    # XML supplies the values; the CLI flags are optional per-run overrides.
-    wanted_species = event.wanted_species if args.wanted_species is None else args.wanted_species
-    object_a = event.object_a if args.object_a is None else args.object_a
-    object_b = event.object_b if args.object_b is None else args.object_b
-
-    # Derive the flags from what the event actually contains.
-    flags = GuestFlags.TRADE
+    # Everything comes from the XML. Derive the flags from what the event holds;
+    # the trade is optional and only offered when a wanted_species is set.
+    flags = GuestFlags(0)
+    if event.wanted_species:
+        flags |= GuestFlags.TRADE
     if not event.characters[1].is_empty:
         flags |= GuestFlags.GUEST_2
     if not event.characters[2].is_empty:
         flags |= GuestFlags.GUEST_3
-    if object_a:
+    if event.object_a:
         flags |= GuestFlags.OBJECT_A
-    if object_b:
+    if event.object_b:
         flags |= GuestFlags.OBJECT_B
 
     payload = build_talent(
         event.pokemon_hex,
         event.characters,
         flags=flags,
-        wanted_species=wanted_species,
-        object_id_a=object_a,
-        object_id_b=object_b,
+        wanted_species=event.wanted_species,
+        object_id_a=event.object_a,
+        object_id_b=event.object_b,
         locale=args.locale,
     )
     assert len(payload) == TOTAL_SIZE
 
-    with open(args.out, "wb") as f:
+    with open(OUTPUT_PATH, "wb") as f:
         f.write(payload)
-    log(f"wrote {args.out} ({len(payload)} bytes, flags={flags!r})")
-
-    if args.no_encrypt:
-        return
+    log(f"wrote {OUTPUT_PATH} ({len(payload)} bytes, flags={flags!r})")
 
     subprocess.run(
         [
             sys.executable, "wc24encrypt.py",
             "-t", "enc",
-            "-in", args.out,
+            "-in", OUTPUT_PATH,
             "-out", "talent_pt.ja_JP.enc",
             "-key", "610B782DAD94000572F66AB3AFB6BDEF",
             "-rsa", "ranch.pem",
