@@ -69,9 +69,14 @@ metadata bits that the model builder later reads via ``0x803B66C4``:
 
 * ``X_OKUTAN``  — the PKM decrypts to Octillery (species/form family check).
 * ``X_PIKATYUU`` — all of: species == 25 (Pikachu); it knows move 19 (0x13,
-  "Fly") in its Attacks block; a specific Misc-block byte equals 0x10; and it
-  passes the species/form family + validity checks. In other words: **a
-  Fly-knowing Pikachu**, rendered floating with balloons.
+  "Fly") in its Attacks block; its Poke Ball is the Cherish Ball; and it passes
+  the species/form family + validity checks. In other words: **a Fly-knowing
+  Cherish-Ball Pikachu**, rendered floating with balloons.
+
+  The ball check is ``*(u8)(PK4 + 0x83) == 0x10`` — PK4 offset 0x83 is the
+  Diamond/Pearl/Platinum ball field (Misc block D, +0x1B), and 0x10 == 16 ==
+  Cherish Ball, the ball used only for event/gift Pokemon. (In the decoder at
+  0x803B7AB0 this is read as ``misc_block + 0x1B``.)
 
 Gender (``_F`` / ``_M``) is chosen from the PKM's gender via ``0x803B24F4``.
 None of this is a field you set here; it is an emergent property of the
@@ -432,17 +437,19 @@ def main():
         f.write(payload)
     log(f"wrote {OUTPUT_PATH} ({len(payload)} bytes, flags={flags!r})")
 
+    enc_name = f"talent_pt.{args.locale}.enc"
     subprocess.run(
         [
             sys.executable, "wc24encrypt.py",
             "-t", "enc",
             "-in", OUTPUT_PATH,
-            "-out", "talent_pt.ja_JP.enc",
+            "-out", enc_name,
             "-key", "610B782DAD94000572F66AB3AFB6BDEF",
             "-rsa", "ranch.pem",
         ],
         check=True,
     )
+    log(f"encrypted -> {enc_name}")
 
 
 if __name__ == "__main__":
