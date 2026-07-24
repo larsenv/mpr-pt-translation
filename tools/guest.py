@@ -54,6 +54,28 @@ File map (all multi-byte fields big-endian)::
 The eight ``text_offsets`` are *character* offsets into the text pools: pool #1
 holds 1024 chars, pool #2 holds 2048 chars, for 3072 total. The game rejects any
 offset >= 0xC00 (3072).
+
+Special "X_" models (balloon Pikachu / Octillery)
+-------------------------------------------------
+The ranch has two hardcoded override models in ``4:/pii.arc/`` — ``X_PIKATYUU``
+(a Pikachu holding balloons) and ``X_OKUTAN`` (Octillery, Golko's trade). Both
+are chosen by the model builder at ``0x800CF0F0`` and are driven **entirely by
+the celebrity's Pokémon** (the 136-byte PKM at file offset 0x68), not by any
+separate flag in this file — so guest data *can* produce them by crafting that
+PKM appropriately.
+
+The decoder ``0x803B7AB0`` decrypts the PKM and, from its own contents, sets two
+metadata bits that the model builder later reads via ``0x803B66C4``:
+
+* ``X_OKUTAN``  — the PKM decrypts to Octillery (species/form family check).
+* ``X_PIKATYUU`` — all of: species == 25 (Pikachu); it knows move 19 (0x13,
+  "Fly") in its Attacks block; a specific Misc-block byte equals 0x10; and it
+  passes the species/form family + validity checks. In other words: **a
+  Fly-knowing Pikachu**, rendered floating with balloons.
+
+Gender (``_F`` / ``_M``) is chosen from the PKM's gender via ``0x803B24F4``.
+None of this is a field you set here; it is an emergent property of the
+``<pokemon>`` blob. Populate ``<pokemon>`` with a qualifying Pikachu to use it.
 """
 
 import argparse
