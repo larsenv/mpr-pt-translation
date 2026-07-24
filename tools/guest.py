@@ -39,8 +39,8 @@ File map (all multi-byte fields big-endian)::
     0x0908  2*2     text_offsets[4:6]
     0x090C  3       date_a                   {year, month, day}, month 1-12 day 1-31
     0x090F  3       date_b                   {year, month, day}
-    0x0912  2       object_id_a              gated by flag OBJECT_A (0x200)
-    0x0914  2       object_id_b              gated by flag OBJECT_B (0x400)
+    0x0912  2       object_id_a              wanted-Pii species id; gated by OBJECT_A (0x200)
+    0x0914  2       object_id_b              wanted-Pii species id; gated by OBJECT_B (0x400)
     0x0916  2       (unchecked)
     0x0918  8       0x00 * 8 (reserved)
     0x0920  2*2     text_offsets[6:8]
@@ -81,6 +81,29 @@ metadata bits that the model builder later reads via ``0x803B66C4``:
 Gender (``_F`` / ``_M``) is chosen from the PKM's gender via ``0x803B24F4``.
 None of this is a field you set here; it is an emergent property of the
 ``<pokemon>`` blob. Populate ``<pokemon>`` with a qualifying Pikachu to use it.
+
+Ranch object IDs (object_a / object_b)
+--------------------------------------
+``object_a`` / ``object_b`` (gated by flags 0x200 / 0x400) are the celebrity's
+extra "wanted Pii" -- **ranch Pokemon-species IDs**, not arbitrary object indices:
+
+* Base forms use the **National Dex number** (e.g. ``object_b`` == 62 == Poliwrath).
+* Alternate forms use an extended **3000+ bank** (the game treats 0xBBA == 3002 as
+  a "use the alternate form" sentinel when decoding a Pokemon).
+
+This is the *same* species-number space the game classifies decrypted PK4 species
+in: the validator ``0x803A8498`` shares its family bounds table (at SDA2 -0x6900,
+a runtime-built table) with ``0x803A83CC``, the species-family classifier called
+throughout the Pokemon decode/render code -- including ``0x803CE074``, which
+validates the celebrity's own PK4. Because the bounds are built at runtime they
+are not recoverable from the static DOL, so the exact valid ranges (and which form
+a given 3000+ id names) can't be pinned here.
+
+The renderable roster these refer to -- every Pokemon model the ranch can draw,
+including 89 gender-split species (``_M``/``_F`` in separate slots), Arceus's 17
+form slots and the two eggs -- was pulled from the DOL to ``ranch_pii_table.tsv``.
+Note that file's row index is a *model* index, distinct from the species numbers
+used here.
 """
 
 import argparse

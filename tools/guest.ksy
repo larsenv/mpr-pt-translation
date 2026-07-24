@@ -106,11 +106,18 @@ types:
       - id: object_id_a
         type: u2
         doc: |
-          Species/form-family ID, validated (0x803A8498) only when flag 0x200 is set.
-          File 0x912.
+          The celebrity's extra "wanted Pii" -- a ranch Pokemon-species ID, validated
+          (0x803A8498) only when flag 0x200 is set. Base forms use the National Dex
+          number (e.g. 62 = Poliwrath); alternate forms use an extended 3000+ bank
+          (the game treats 0xBBA=3002 as a "use alternate form" sentinel). This is the
+          same species-number space the game classifies decrypted PK4 species in --
+          0x803A8498 shares its family-bounds table (SDA2 -0x6900, built at runtime)
+          with 0x803A83CC, the species classifier used across the Pokemon decode/render
+          code. See ranch_pii_table.tsv for the ranch's renderable-model roster (its row
+          index is a model index, NOT this species number). File 0x912.
       - id: object_id_b
         type: u2
-        doc: Species/form-family ID, validated only when flag 0x400 is set. File 0x914.
+        doc: Second wanted-Pii species id (same scheme as object_id_a); gated by flag 0x400. File 0x914.
       - id: reserved_916
         type: u2
         doc: Not validated. File 0x916.
