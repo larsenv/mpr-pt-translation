@@ -2,8 +2,13 @@
 <events>
   <event id="1">
     <pokemon/>
-    <!-- wanted_species: National Dex no. the guest asks you to bring (0 = none, < 496).
-         object_a / object_b: ranch object IDs offered, validated at runtime; 0 disables. -->
+    <!-- trade: does the celebrity offer a Pokemon exchange? (omit = auto: on when
+              wanted_species is set). Sets the 0x1 flag.
+         wanted_species: National Dex no. the guest asks you to bring (0 = none, < 496).
+         object_a / object_b: extra "wanted Pii" species ids (dex; 3000+ = alt form); 0 disables.
+         window_open / window_close: distribution period (UTC "YYYY-MM-DD [HH:MM:SS]").
+              Both or neither; omit to auto-generate a now-relative window. -->
+    <trade>true</trade>
     <wanted_species>129</wanted_species>
     <object_a>0</object_a>
     <object_b>0</object_b>
@@ -91,6 +96,7 @@
   </event>
   <event id="2">
     <pokemon/>
+    <trade>true</trade>
     <wanted_species>396</wanted_species>
     <object_a>0</object_a>
     <object_b>0</object_b>
@@ -177,6 +183,7 @@
   </event>
   <event id="3">
     <pokemon/>
+    <trade>true</trade>
     <wanted_species>263</wanted_species>
     <object_a>0</object_a>
     <object_b>0</object_b>
@@ -278,6 +285,7 @@
   </event>
   <event id="4">
     <pokemon/>
+    <trade>false</trade>
     <wanted_species>0</wanted_species>
     <object_a>0</object_a>
     <object_b>0</object_b>
@@ -368,9 +376,12 @@ P.S.
   </event>
   <event id="5">
     <pokemon>B0514907000012EA03E2243BA248E7DFBF81BE3F675769D38AAD942D08CE6CA89805E09F446BE7007525F0A541CB06E1FFDB3127A010751CEE6D53D48F5EE88E66FA13015A32250546496302F6AD8CECAB6AEE96F0E5CEB37253D7F8C8BD8C9DA8D7B1C180E361A11B1496F56510A40B9DB7958DEED9015E532E6F482F0AEBF246353B24838D8766</pokemon>
+    <trade>true</trade>
     <wanted_species>66</wanted_species>
     <object_a>3060</object_a>
     <object_b>62</object_b>
+    <window_open>2025-02-26 19:27:47</window_open>
+    <window_close>2025-03-12 19:27:46</window_close>
     <celebrity>
       <character name="Red">
         <mii>000230EC30C330C9306F304B305B00000000000000007F408108E2EFC2EFA02E44C43E00918008737C890460333030EC8280028A25040000000000000000000000000000000000000000</mii>

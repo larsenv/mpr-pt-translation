@@ -74,7 +74,10 @@ types:
           below. See PKHeX RK4.cs.
       - id: window_1_open
         type: u4
-        doc: Distribution window open, seconds since 2000-01-01 UTC. File 0xF0.
+        doc: |
+          Distribution window open, seconds since 2000-01-01 UTC. This is the
+          period the game gates on ("not its distribution period yet" /
+          "expired", debug.bmg 0x1FB / 0x200). File 0xF0.
       - id: window_1_close
         type: u4
         doc: Distribution window close. File 0xF4.

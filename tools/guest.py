@@ -147,8 +147,9 @@ class GuestFlags(IntFlag):
 
     # A trade is OPTIONAL: a celebrity can just visit without a Pokémon
     # exchange (debug.bmg 0x187-0x189 "appears w/o a Pokémon exchange" vs
-    # 0x18A-0x18C "w/ a trade"). This bit — which also enables text offset G at
-    # 0x920 — is set only when the event actually offers one (wanted_species set).
+    # 0x18A-0x18C "w/ a trade"). Set it explicitly with <trade> in the XML; if
+    # that is omitted it defaults to "on when a wanted_species is given". This
+    # bit also enables text offset G at 0x920.
     TRADE = 0x0001
     GUEST_2 = 0x0002     # a second guest Mii is present at 0x924
     GUEST_3 = 0x0004     # a third guest Mii is present at 0x970 (requires GUEST_2)
@@ -162,6 +163,13 @@ class GuestFlags(IntFlag):
 
 def log(msg, level="INFO"):
     print(f"[{level}] {msg}")
+
+
+def _fmt_window(window):
+    """Human-readable UTC range for a (open, close) pair in seconds since 2000."""
+    o, c = window
+    fmt = lambda s: datetime.fromtimestamp(s + NANDBOOT_EPOCH, timezone.utc).strftime("%Y-%m-%d %H:%M:%S")
+    return f"{fmt(o)} .. {fmt(c)} UTC"
 
 
 # --------------------------------------------------------------------------- #
@@ -247,17 +255,49 @@ class Character:
 
 
 class Event:
-    def __init__(self, pokemon_hex, characters, wanted_species, object_a, object_b):
+    def __init__(self, pokemon_hex, characters, wanted_species, object_a, object_b,
+                 trade=None, window_open=None, window_close=None):
         self.pokemon_hex = pokemon_hex
         self.characters = characters       # exactly three (padded)
         self.wanted_species = wanted_species
         self.object_a = object_a
         self.object_b = object_b
+        self.trade = trade                 # True/False, or None to auto-infer
+        self.window_open = window_open      # seconds since 2000, or None
+        self.window_close = window_close
 
 
 def _int_field(node, tag, default=0):
     text = node.findtext(tag)
     return int(text.strip()) if text and text.strip() else default
+
+
+def _bool_field(node, tag, default=None):
+    """Parse a boolean XML child; returns `default` when absent/empty."""
+    text = node.findtext(tag)
+    if text is None or not text.strip():
+        return default
+    return text.strip().lower() in ("1", "true", "yes", "on")
+
+
+def _when_field(node, tag):
+    """Parse a date/datetime XML child into seconds since 2000-01-01 UTC (or None).
+
+    Accepts ``YYYY-MM-DD`` or ``YYYY-MM-DD HH:MM:SS`` (``T`` separator ok).
+    """
+    text = node.findtext(tag)
+    if text is None or not text.strip():
+        return None
+    s = text.strip().replace("T", " ")
+    for fmt in ("%Y-%m-%d %H:%M:%S", "%Y-%m-%d"):
+        try:
+            dt = datetime.strptime(s, fmt)
+            break
+        except ValueError:
+            dt = None
+    if dt is None:
+        raise ValueError(f"<{tag}> is not a valid date: {text!r}")
+    return int(calendar.timegm(dt.timetuple())) - NANDBOOT_EPOCH
 
 
 def parse_character(char_node):
@@ -294,12 +334,20 @@ def parse_event(root, event_id):
     while len(characters) < 3:
         characters.append(Character(None, {}))
 
+    window_open = _when_field(event, "window_open")
+    window_close = _when_field(event, "window_close")
+    if (window_open is None) != (window_close is None):
+        raise ValueError("set both <window_open> and <window_close>, or neither")
+
     return Event(
         pokemon_hex,
         characters,
         wanted_species=_int_field(event, "wanted_species", 0),
         object_a=_int_field(event, "object_a", 0),
         object_b=_int_field(event, "object_b", 0),
+        trade=_bool_field(event, "trade"),
+        window_open=window_open,
+        window_close=window_close,
     )
 
 
@@ -336,14 +384,28 @@ def build_talent(
     object_id_b=0,
     date_a=(0, 0, 0),
     date_b=(0, 0, 0),
+    window=None,
     locale="en_US",
     now=None,
 ):
     if wanted_species >= MAX_SPECIES:
         raise ValueError(f"wanted_species {wanted_species} >= {MAX_SPECIES}")
 
-    now = now if now is not None else datetime.now(timezone.utc)
-    opening = int(calendar.timegm(now.timetuple())) - NANDBOOT_EPOCH
+    # Distribution window (seconds since 2000). `window` = (open, close) sets the
+    # gated period at 0xF0/0xF4 directly; otherwise fall back to a rolling window
+    # ~140 days out from `now`. The second window pair at 0x900/0x904 keeps the
+    # game's relationship: the same span shifted two windows earlier.
+    if window is not None:
+        w1_open, w1_close = window
+    else:
+        now = now if now is not None else datetime.now(timezone.utc)
+        opening = int(calendar.timegm(now.timetuple())) - NANDBOOT_EPOCH
+        w1_open = opening + WINDOW_SECONDS * 10
+        w1_close = opening + WINDOW_SECONDS * 11
+    if not w1_open <= w1_close:
+        raise ValueError("window_open must be <= window_close")
+    w2_open = w1_open - WINDOW_SECONDS * 2
+    w2_close = w1_close - WINDOW_SECONDS * 2
 
     # Text of the primary guest goes in pool #1; its eight offsets are the
     # character positions of the first eight strings.
@@ -375,16 +437,16 @@ def build_talent(
     mii_block(w, characters[0].mii_hex)
     w.at(0x68, "pokemon").raw(binascii.unhexlify(pokemon_hex))
 
-    w.at(0xF0, "window_1").u32(opening + WINDOW_SECONDS * 10)
-    w.u32(opening + WINDOW_SECONDS * 11)
+    w.at(0xF0, "window_1").u32(w1_open)
+    w.u32(w1_close)
     w.at(0xF8, "text_offsets[0:4]")
     for off in text_offsets[0:4]:
         w.u16(off)
 
     w.at(0x100, "text_pool_1").raw(pool_1)
 
-    w.at(0x900, "window_2").u32(opening + WINDOW_SECONDS * 8)
-    w.u32(opening + WINDOW_SECONDS * 9)
+    w.at(0x900, "window_2").u32(w2_open)
+    w.u32(w2_close)
     w.at(0x908, "text_offsets[4:6]")
     for off in text_offsets[4:6]:
         w.u16(off)
@@ -431,10 +493,12 @@ def main():
     root = ET.parse(XML_PATH).getroot()
     event = parse_event(root, args.event)
 
-    # Everything comes from the XML. Derive the flags from what the event holds;
-    # the trade is optional and only offered when a wanted_species is set.
+    # Flags come from the XML. <trade> sets the trade bit explicitly; if it is
+    # omitted we fall back to "trade iff a wanted_species is given". GUEST_2/3
+    # and OBJECT_A/B follow from whether those fields are populated.
+    trade = event.trade if event.trade is not None else bool(event.wanted_species)
     flags = GuestFlags(0)
-    if event.wanted_species:
+    if trade:
         flags |= GuestFlags.TRADE
     if not event.characters[1].is_empty:
         flags |= GuestFlags.GUEST_2
@@ -445,6 +509,10 @@ def main():
     if event.object_b:
         flags |= GuestFlags.OBJECT_B
 
+    window = None
+    if event.window_open is not None:
+        window = (event.window_open, event.window_close)
+
     payload = build_talent(
         event.pokemon_hex,
         event.characters,
@@ -452,13 +520,15 @@ def main():
         wanted_species=event.wanted_species,
         object_id_a=event.object_a,
         object_id_b=event.object_b,
+        window=window,
         locale=args.locale,
     )
     assert len(payload) == TOTAL_SIZE
 
     with open(OUTPUT_PATH, "wb") as f:
         f.write(payload)
-    log(f"wrote {OUTPUT_PATH} ({len(payload)} bytes, flags={flags!r})")
+    when = "now-relative" if window is None else _fmt_window(window)
+    log(f"wrote {OUTPUT_PATH} ({len(payload)} bytes, flags={flags!r}, window={when})")
 
     enc_name = f"talent_pt.{args.locale}.enc"
     subprocess.run(
