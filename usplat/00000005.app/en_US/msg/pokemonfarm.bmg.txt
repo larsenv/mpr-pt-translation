@@ -153,7 +153,7 @@
     4e	= Help
     4f	= BBS
     50	= Look This Way
-    51	= Options
+    51	= Options\x5C\u005C
     52	= Free Mode
     53	= Auto Mode
     54	= Deposit\n
