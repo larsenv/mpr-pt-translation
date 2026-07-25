@@ -6,7 +6,7 @@
 #   variants (_M/_F) and forms each take their own slot, and 173 slots are placeholders
 #   (name ptr -> 0x807Cxxxx) for species with no dedicated ranch model. Arceus fills 17
 #   slots (632-648); the two eggs are 649 (TAMAGO_NORMAL) and 650 (TAMAGO_MANAFI).
-# The talent_pt object_a/object_b fields are SPECIES numbers, not these indices.
+# The talent_pt pokemonlevel/metlocation fields are SPECIES numbers, not these indices.
 #
 # index	name_M	name_F	kind
 0	HUSIGIDANE	HUSIGIDANE	model

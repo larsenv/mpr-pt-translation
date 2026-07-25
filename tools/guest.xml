@@ -12,13 +12,13 @@
     <!-- trade: does the celebrity offer a Pokemon exchange? (omit = auto: on when
               wanted_species is set). Sets the 0x1 flag.
          wanted_species: National Dex no. the guest asks you to bring (0 = none, < 496).
-         object_a / object_b: met location and level of the Pokemon respectively; 0 disables.
+         pokemonlevel / metlocation: met location and level of the Pokemon respectively; 0 disables.
          window_open / window_close: distribution period (UTC "YYYY-MM-DD [HH:MM:SS]").
               Both or neither; omit to auto-generate a now-relative window. -->
     <trade>true</trade>
     <wanted_species>129</wanted_species>
-    <object_a>0</object_a>
-    <object_b>0</object_b>
+    <pokemonlevel>0</pokemonlevel>
+    <metlocation>0</metlocation>
     <celebrity>
       <character name="Akiyama">
         <mii>80060041006B006900790061006D006100000000000040408836A1113A017D6284003E00017D0891A48B084084485AAE008A008A25040000000000000000000000000000000000000000</mii>
@@ -112,8 +112,8 @@
     </pokemon>
     <trade>true</trade>
     <wanted_species>396</wanted_species>
-    <object_a>0</object_a>
-    <object_b>0</object_b>
+    <pokemonlevel>0</pokemonlevel>
+    <metlocation>0</metlocation>
     <celebrity>
       <character name="Babaigon">
         <mii>8008004200610062006100690067006F006E0000000040408836A0223A017D6240004400017D06A2684C08608640784E008A008A25040000000000000000000000000000000000000000</mii>
@@ -206,8 +206,8 @@
     </pokemon>
     <trade>true</trade>
     <wanted_species>263</wanted_species>
-    <object_a>0</object_a>
-    <object_b>0</object_b>
+    <pokemonlevel>0</pokemonlevel>
+    <metlocation>0</metlocation>
     <celebrity>
       <character name="Golko">
         <mii>80160047006F006C006B006F00000000000000000000404088369F123A017D6284002E00613D08611CAA0640743020CE008A402625040000000000000000000000000000000000000000</mii>
@@ -315,8 +315,8 @@
     </pokemon>
     <trade>false</trade>
     <wanted_species>0</wanted_species>
-    <object_a>0</object_a>
-    <object_b>0</object_b>
+    <pokemonlevel>0</pokemonlevel>
+    <metlocation>0</metlocation>
     <celebrity>
       <character name="Yukina">
         <mii>C00E00590075006B0069006E0061000000000000000040408836A0623A017D6220008F8001BD24A38C6B06A06438B0AD008A008A8C580000000000000000000000000000000000000000</mii>
@@ -413,8 +413,8 @@ P.S.
     </pokemon>
     <trade>true</trade>
     <wanted_species>66</wanted_species>
-    <object_a>3060</object_a>
-    <object_b>62</object_b>
+    <pokemonlevel>3060</pokemonlevel>
+    <metlocation>62</metlocation>
     <window_open>2025-02-26 19:27:47</window_open>
     <window_close>2025-03-12 19:27:46</window_close>
     <celebrity>

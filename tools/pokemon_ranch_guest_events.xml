@@ -1,0 +1,2364 @@
+<?xml version='1.0' encoding='utf-8'?>
+<events>
+  <event id="1">
+    <window_open>2008-04-08 00:00:00</window_open>
+    <window_close>2008-04-14 23:59:59</window_close>
+    <pokemon/>
+    <trade>false</trade>
+    <wanted_species>0</wanted_species>
+    <pokemonlevel>100</pokemonlevel>
+    <metlocation>0</metlocation>
+    <celebrity>
+      <character name="しょこたん">
+        <mii/>
+        <text>
+          <en_US>
+            <string key="dialog_1">I'm Shokotan\n
+from the\n
+PokéSun Company!\n
+\fI brought my\n
+WEAVILE along\n
+to come visit!
+            <string key="exchange_1"/>
+            <string key="mail_1">The ranch was\n
+so much fun!\n
+See you again on\n
+Pokémon Sunday!</string>
+            <string key="mail_2"/>
+            <string key="dialog_2">Have you been\n
+\nkeeping up with
+Pokémon Sunday?</string>
+            <string key="dialog_3">I'm going to\n
+play here at\n
+the Ranch for\n
+a little while!</string>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1">Shokotan</string>
+            <string key="name_2">From Shokotan</string>
+          </en_US>
+          <ja_JP>
+            <string key="dialog_1">ポケサンカンパニーの\n
+しょこたんです。\n
+わたしの マニューラと\n
+あそびにきたわよ!</string>
+            <string key="exchange_1"/>
+            <string key="mail_1">牧場、とっても たのしかったよ!\n
+また、ポケモン☆サンデーで\n
+あおうね～。</string>
+            <string key="mail_2"/>
+            <string key="dialog_2">いつも ポケモン☆サンデーを\n
+みてくれているかな?</string>
+            <string key="dialog_3">しばらく ぼくじょうで\n
+あそんでいくね。</string>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1">しょこたん</string>
+            <string key="name_2">しょこたんより</string>
+          </ja_JP>
+          <de_DE>
+            <string key="dialog_1"/>
+            <string key="exchange_1"/>
+            <string key="mail_1"/>
+            <string key="mail_2"/>
+            <string key="dialog_2"/>
+            <string key="dialog_3"/>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1"/>
+            <string key="name_2"/>
+          </de_DE>
+          <fr_FR>
+            <string key="dialog_1"/>
+            <string key="exchange_1"/>
+            <string key="mail_1"/>
+            <string key="mail_2"/>
+            <string key="dialog_2"/>
+            <string key="dialog_3"/>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1"/>
+            <string key="name_2"/>
+          </fr_FR>
+          <es_ES>
+            <string key="dialog_1"/>
+            <string key="exchange_1"/>
+            <string key="mail_1"/>
+            <string key="mail_2"/>
+            <string key="dialog_2"/>
+            <string key="dialog_3"/>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1"/>
+            <string key="name_2"/>
+          </es_ES>
+          <it_IT>
+            <string key="dialog_1"/>
+            <string key="exchange_1"/>
+            <string key="mail_1"/>
+            <string key="mail_2"/>
+            <string key="dialog_2"/>
+            <string key="dialog_3"/>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1"/>
+            <string key="name_2"/>
+          </it_IT>
+        </text>
+      </character>
+    </celebrity>
+  </event>
+  <event id="2">
+    <window_open>2008-04-15 00:00:00</window_open>
+    <window_close>2008-04-21 23:59:59</window_close>
+    <pokemon/>
+    <trade>false</trade>
+    <wanted_species>0</wanted_species>
+    <pokemonlevel>32</pokemonlevel>
+    <metlocation>0</metlocation>
+    <celebrity>
+      <character name="アンガールズやまね">
+        <mii/>
+        <text>
+          <en_US>
+            <string key="dialog_1">I'm Yamane
+from the comedy\n
+duo Ungirls.\n
+\fI joined\n
+Pokémon Sunday's\n
+Celebrity\n
+Pokémon Fan Club!</string>
+            <string key="exchange_1"/>
+            <string key="mail_1">Thanks so much!\n
+I made some great\n
+memories here.\n
+\fI'll have to brag\n
+to Tanaka!</string>
+            <string key="mail_2"/>
+            <string key="dialog_2">I came to visit\n
+with GIRAFARIG.\n
+Losing that\n
+battle stung!</string>
+            <string key="dialog_3">I'll be staying\n
+at the Ranch for\n
+a little while!</string>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1">Ungirls Yamane</string>
+            <string key="name_2">From Ungirls Yamane</string>
+          </en_US>
+          <ja_JP>
+            <string key="dialog_1">ポケモン☆サンデーで ゆうめいじん\n
+ポケモンだいすきクラブに はいった、\n
+アンガールズやまねです。</string>
+            <string key="exchange_1"/>
+            <string key="mail_1">どうもありがとう!\n
+いいおもいでが できたよ。\n
+たなかにも じまんしよう</string>
+            <string key="mail_2"/>
+            <string key="dialog_2">キリンリキを つれて あそびに\n
+きました。バトルに まけたのは\n
+くやしかったな〜。</string>
+            <string key="dialog_3">しばらく ぼくじょうに いるぞ〜。</string>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1">アンガールズやまね</string>
+            <string key="name_2">アンガールズやまねより</string>
+          </ja_JP>
+          <de_DE>
+            <string key="dialog_1"/>
+            <string key="exchange_1"/>
+            <string key="mail_1"/>
+            <string key="mail_2"/>
+            <string key="dialog_2"/>
+            <string key="dialog_3"/>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1"/>
+            <string key="name_2"/>
+          </de_DE>
+          <fr_FR>
+            <string key="dialog_1"/>
+            <string key="exchange_1"/>
+            <string key="mail_1"/>
+            <string key="mail_2"/>
+            <string key="dialog_2"/>
+            <string key="dialog_3"/>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1"/>
+            <string key="name_2"/>
+          </fr_FR>
+          <es_ES>
+            <string key="dialog_1"/>
+            <string key="exchange_1"/>
+            <string key="mail_1"/>
+            <string key="mail_2"/>
+            <string key="dialog_2"/>
+            <string key="dialog_3"/>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1"/>
+            <string key="name_2"/>
+          </es_ES>
+          <it_IT>
+            <string key="dialog_1"/>
+            <string key="exchange_1"/>
+            <string key="mail_1"/>
+            <string key="mail_2"/>
+            <string key="dialog_2"/>
+            <string key="dialog_3"/>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1"/>
+            <string key="name_2"/>
+          </it_IT>
+        </text>
+      </character>
+    </celebrity>
+  </event>
+  <event id="3">
+    <window_open>2008-04-22 00:00:00</window_open>
+    <window_close>2008-04-28 23:59:59</window_close>
+    <pokemon/>
+    <trade>false</trade>
+    <wanted_species>0</wanted_species>
+    <pokemonlevel>14</pokemonlevel>
+    <metlocation>0</metlocation>
+    <celebrity>
+      <character name="アンガールズたなか">
+        <mii/>
+        <text>
+          <en_US>
+            <string key="dialog_1">I'm Tanaka\n
+from the comedy\n
+duo Ungirls.\n
+\fI joined\n
+Pokémon Sunday's\n
+Celebrity\n
+Pokémon Fan Club!</string>
+            <string key="exchange_1"/>
+            <string key="mail_1"/>
+            <string key="mail_2"/>
+            <string key="dialog_2">I came to visit\n
+with my MEDITITE.\n
+I'll keep honing\n
+my battle skills!</string>
+            <string key="dialog_3">I'll be staying\n
+at the Ranch for\n
+a little while!</string>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1">Ungirls Tanaka</string>
+            <string key="name_2">From Ungirls Tanaka</string>
+          </en_US>
+          <ja_JP>
+            <string key="dialog_1">ポケモン☆サンデーで ゆうめいじん\n
+ポケモンだいすきクラブに はいった\n
+アンガールズたなかです。</string>
+            <string key="exchange_1"/>
+            <string key="mail_1">どうもありがとう!\n
+ぼくじょうでの できごと、\n
+やまねに じまんしよう。</string>
+            <string key="mail_2"/>
+            <string key="dialog_2">ぼくの アサナンと いっしょに\n
+あそびに きちゃいました。\n
+これからは どんどん バトルのうでを\n
+みがくぞ!</string>
+            <string key="dialog_3">しばらく ぼくじょうに いるぞ〜。</string>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1">アンガールズたなか</string>
+            <string key="name_2">アンガールズたなかより</string>
+          </ja_JP>
+          <de_DE>
+            <string key="dialog_1"/>
+            <string key="exchange_1"/>
+            <string key="mail_1"/>
+            <string key="mail_2"/>
+            <string key="dialog_2"/>
+            <string key="dialog_3"/>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1"/>
+            <string key="name_2"/>
+          </de_DE>
+          <fr_FR>
+            <string key="dialog_1"/>
+            <string key="exchange_1"/>
+            <string key="mail_1"/>
+            <string key="mail_2"/>
+            <string key="dialog_2"/>
+            <string key="dialog_3"/>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1"/>
+            <string key="name_2"/>
+          </fr_FR>
+          <es_ES>
+            <string key="dialog_1"/>
+            <string key="exchange_1"/>
+            <string key="mail_1"/>
+            <string key="mail_2"/>
+            <string key="dialog_2"/>
+            <string key="dialog_3"/>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1"/>
+            <string key="name_2"/>
+          </es_ES>
+          <it_IT>
+            <string key="dialog_1"/>
+            <string key="exchange_1"/>
+            <string key="mail_1"/>
+            <string key="mail_2"/>
+            <string key="dialog_2"/>
+            <string key="dialog_3"/>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1"/>
+            <string key="name_2"/>
+          </it_IT>
+        </text>
+      </character>
+    </celebrity>
+  </event>
+  <event id="4">
+    <window_open>2008-04-29 00:00:00</window_open>
+    <window_close>2008-05-05 23:59:59</window_close>
+    <pokemon/>
+    <trade>false</trade>
+    <wanted_species>0</wanted_species>
+    <pokemonlevel>25</pokemonlevel>
+    <metlocation>0</metlocation>
+    <celebrity>
+      <character name="いいじま あかね">
+        <mii/>
+        <text>
+          <en_US>
+            <string key="dialog_1">I'm Akane Iijima!\n
+\fI joined\n
+Pokémon Sunday's\n
+Celebrity\n
+Pokémon Fan Club!</string>
+            <string key="exchange_1"/>
+            <string key="mail_1">I had so much fun!\n
+I'll never forget\n
+my time here\n
+at the Ranch!</string>
+            <string key="mail_2"/>
+            string key="dialog_2">I came to visit\n
+with PIKACHU.\n
+I love golf,\n
+and Pokémon too!</string>
+            <string key="dialog_3">I'll be playing\n
+here at the Ranch\n
+for a little while!</string>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1">Akane Iijima</string>
+            <string key="name_2">From Akane Iijima</string>
+          </en_US>
+          <ja_JP>
+            <string key="dialog_1">ポケモン☆サンデーで ゆうめいじん\n
+ポケモンだいすきクラブに はいった、\n
+いいじま あかねです!</string>
+            <string key="exchange_1"/>
+            <string key="mail_1">と～っても たのしかったです!\n
+ぼくじょうでの おもいで、\n
+わすれません。</string>
+            <string key="mail_2"/>
+            <string key="dialog_2">ピカチュウと いっしょに あそびに\n
+きました。ゴルフも すきだけど、\n
+ポケモンも だいすき!</string>
+            <string key="dialog_3">しばらく ぼくじょうで\n
+あそんでいくわよ。</string>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1">いいじま あかね</string>
+            <string key="name_2">いいじま あかねより</string>
+          </ja_JP>
+          <de_DE>
+            <string key="dialog_1"/>
+            <string key="exchange_1"/>
+            <string key="mail_1"/>
+            <string key="mail_2"/>
+            <string key="dialog_2"/>
+            <string key="dialog_3"/>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1"/>
+            <string key="name_2"/>
+          </de_DE>
+          <fr_FR>
+            <string key="dialog_1"/>
+            <string key="exchange_1"/>
+            <string key="mail_1"/>
+            <string key="mail_2"/>
+            <string key="dialog_2"/>
+            <string key="dialog_3"/>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1"/>
+            <string key="name_2"/>
+          </fr_FR>
+          <es_ES>
+            <string key="dialog_1"/>
+            <string key="exchange_1"/>
+            <string key="mail_1"/>
+            <string key="mail_2"/>
+            <string key="dialog_2"/>
+            <string key="dialog_3"/>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1"/>
+            <string key="name_2"/>
+          </es_ES>
+          <it_IT>
+            <string key="dialog_1"/>
+            <string key="exchange_1"/>
+            <string key="mail_1"/>
+            <string key="mail_2"/>
+            <string key="dialog_2"/>
+            <string key="dialog_3"/>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1"/>
+            <string key="name_2"/>
+          </it_IT>
+        </text>
+      </character>
+    </celebrity>
+  </event>
+  <event id="5">
+    <window_open>2008-05-06 00:00:00</window_open>
+    <window_close>2008-05-12 23:59:59</window_close>
+    <pokemon/>
+    <trade>false</trade>
+    <wanted_species>0</wanted_species>
+    <pokemonlevel>19</pokemonlevel>
+    <metlocation>0</metlocation>
+    <celebrity>
+      <character name="アッキーナ">
+        <mii/>
+        <text>
+          <en_US>
+            <string key="dialog_1">I love Pokémon!\n
+I'm Akina Minami,\n
+better known as\n
+Akkina!\n
+\fI came to visit\n
+with my VULPIX!</string>
+            <string key="exchange_1"/>
+            <string key="mail_1">I had sooo much\n
+fun!\n
+Thanks a lot!\n
+See you at\n
+the movies\n
+this summer!</string>
+            <string key="mail_2"/>
+            <string key="dialog_2">I'll be voicing\n
+a character in\n
+Giratina and the\n
+Sky Warrior!\n
+\fI hope you\n
+enjoy it!</string>
+            <string key="dialog_3">Mind if I stay\n
+and play here\n
+at the Ranch\n
+for a while?</string>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1">Akkina</string>
+            <string key="name_2">From Akkina</string>
+          </en_US>
+          <ja_JP>
+            <string key="dialog_1">ポケモンだいすき! アッキーナこと\n
+みなみあきなです。\n
+ロコンと いっしょに\n
+あそびにきました。</string>
+            <string key="exchange_1"/>
+            <string key="mail_1">たのしかった!\n
+ほんとに ありがとう。\n
+このなつは、\n
+えいがかんで あおうね!</string>
+            <string key="mail_2"/>
+            <string key="dialog_2">このなつのえいが「ギラティナと\n
+そらのはなたば シェイミ」で、\n
+こえの しゅつえんをします。\n
+たのしみにしていてくださいね!</string>
+            <string key="dialog_3">しばらく、ぼくじょうで\n
+あそんでいっても いいかな?</string>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1">アッキーナ</string>
+            <string key="name_2">アッキーナより</string>
+          </ja_JP>
+          <de_DE>
+            <string key="dialog_1"/>
+            <string key="exchange_1"/>
+            <string key="mail_1"/>
+            <string key="mail_2"/>
+            <string key="dialog_2"/>
+            <string key="dialog_3"/>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1"/>
+            <string key="name_2"/>
+          </de_DE>
+          <fr_FR>
+            <string key="dialog_1"/>
+            <string key="exchange_1"/>
+            <string key="mail_1"/>
+            <string key="mail_2"/>
+            <string key="dialog_2"/>
+            <string key="dialog_3"/>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1"/>
+            <string key="name_2"/>
+          </fr_FR>
+          <es_ES>
+            <string key="dialog_1"/>
+            <string key="exchange_1"/>
+            <string key="mail_1"/>
+            <string key="mail_2"/>
+            <string key="dialog_2"/>
+            <string key="dialog_3"/>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1"/>
+            <string key="name_2"/>
+          </es_ES>
+          <it_IT>
+            <string key="dialog_1"/>
+            <string key="exchange_1"/>
+            <string key="mail_1"/>
+            <string key="mail_2"/>
+            <string key="dialog_2"/>
+            <string key="dialog_3"/>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1"/>
+            <string key="name_2"/>
+          </it_IT>
+        </text>
+      </character>
+    </celebrity>
+  </event>
+  <event id="6">
+    <window_open>2008-05-13 00:00:00</window_open>
+    <window_close>2008-05-26 23:59:59</window_close>
+    <pokemon/>
+    <trade>true</trade>
+    <wanted_species>263</wanted_species>
+    <pokemonlevel>50</pokemonlevel>
+    <metlocation>0</metlocation>
+    <celebrity>
+      <character name="ゴルゴしょちょう">
+        <mii/>
+        <text>
+          <en_US>
+            <string key="dialog_1"/>
+            <string key="exchange_1"/>
+            <string key="mail_1"/>
+            <string key="mail_2"/>
+            <string key="dialog_2"/>
+            <string key="dialog_3"/>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1"/>
+            <string key="name_2"/>
+          </en_US>
+          <ja_JP>
+            <string key="dialog_1">やあみんな、ポケサンカンパニーの\n
+ゴルゴしょちょうだ。\n
+ポケモン☆サンデーをみて、もっと\n
+ポケモンを すきになってくれよな。</string>
+            <string key="exchange_1">お、ジグザグマを\n
+つれてきてくれたのかい。\n
+さっそく こうかんしようじゃないか。</string>
+            <string key="mail_1">う～む、\n
+すっかり リフレッシュできたな。\n
+また ポケモン☆サンデーで あおう!</string>
+            <string key="mail_2">P.S.\n
+うむ、こうかん、ありがとうな。\n
+キミの やさしさに\n
+かんどうしたぞ。\n
+わしのオクタン、\n
+ぜひ かわいがって くれたまえ</string>
+            <string key="dialog_2">じつはな、ジグザグマを\n
+25ひきあつめると\n
+ジグザグパレードをするんじゃ。\n
+わしは、と〜っても それがみたい!\n
+\fぜひ、キミの ジグザグマと\n
+わしの オクタンを\n
+こうかんしようじゃないか。</string>
+            <string key="dialog_3">わしは、しばらく ぼくじょうで\n
+あそんでいくぞ。いいな?</string>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1">ゴルゴしょちょう</string>
+            <string key="name_2">ゴルゴしょちょうより</string>
+          </ja_JP>
+          <de_DE>
+            <string key="dialog_1"/>
+            <string key="exchange_1"/>
+            <string key="mail_1"/>
+            <string key="mail_2"/>
+            <string key="dialog_2"/>
+            <string key="dialog_3"/>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1"/>
+            <string key="name_2"/>
+          </de_DE>
+          <fr_FR>
+            <string key="dialog_1"/>
+            <string key="exchange_1"/>
+            <string key="mail_1"/>
+            <string key="mail_2"/>
+            <string key="dialog_2"/>
+            <string key="dialog_3"/>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1"/>
+            <string key="name_2"/>
+          </fr_FR>
+          <es_ES>
+            <string key="dialog_1"/>
+            <string key="exchange_1"/>
+            <string key="mail_1"/>
+            <string key="mail_2"/>
+            <string key="dialog_2"/>
+            <string key="dialog_3"/>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1"/>
+            <string key="name_2"/>
+          </es_ES>
+          <it_IT>
+            <string key="dialog_1"/>
+            <string key="exchange_1"/>
+            <string key="mail_1"/>
+            <string key="mail_2"/>
+            <string key="dialog_2"/>
+            <string key="dialog_3"/>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1"/>
+            <string key="name_2"/>
+          </it_IT>
+        </text>
+      </character>
+    </celebrity>
+  </event>
+  <event id="7">
+    <window_open>2008-05-27 00:00:00</window_open>
+    <window_close>2008-06-02 23:59:59</window_close>
+    <pokemon/>
+    <trade>false</trade>
+    <wanted_species>0</wanted_species>
+    <pokemonlevel>41</pokemonlevel>
+    <metlocation>0</metlocation>
+    <celebrity>
+      <character name="ミッチー＆アカネ">
+        <mii/>
+        <text>
+          <en_US>
+            <string key="dialog_1"/>
+            <string key="exchange_1"/>
+            <string key="mail_1"/>
+            <string key="mail_2"/>
+            <string key="dialog_2"/>
+            <string key="dialog_3"/>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1"/>
+            <string key="name_2"/>
+          </en_US>
+          <ja_JP>
+            <string key="dialog_1">ポケモン☆サンデーでも おなじみ、\n
+ポケモンだいすきクラブサポーターの\n
+ミッチーとアカネです。</string>
+            <string key="exchange_1"/>
+            <string key="mail_1">ありがとう! たのしかったよ。\n
+これからも ポケモン☆サンデーと\n
+ポケモンだいすきクラブを
+よろしくね!</string>
+            <string key="mail_2"/>
+            <string key="dialog_2">ポッチャマを つれて\n
+あそびにきました!</string>
+            <string key="dialog_3">ふたりでしばらく、\n
+ぼくじょうで あそんでいきま〜す!</string>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1">ミッチー＆アカネ</string>
+            <string key="name_2">ミッチー&アカネより</string>
+          </ja_JP>
+          <de_DE>
+            <string key="dialog_1"/>
+            <string key="exchange_1"/>
+            <string key="mail_1"/>
+            <string key="mail_2"/>
+            <string key="dialog_2"/>
+            <string key="dialog_3"/>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1"/>
+            <string key="name_2"/>
+          </de_DE>
+          <fr_FR>
+            <string key="dialog_1"/>
+            <string key="exchange_1"/>
+            <string key="mail_1"/>
+            <string key="mail_2"/>
+            <string key="dialog_2"/>
+            <string key="dialog_3"/>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1"/>
+            <string key="name_2"/>
+          </fr_FR>
+          <es_ES>
+            <string key="dialog_1"/>
+            <string key="exchange_1"/>
+            <string key="mail_1"/>
+            <string key="mail_2"/>
+            <string key="dialog_2"/>
+            <string key="dialog_3"/>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1"/>
+            <string key="name_2"/>
+          </es_ES>
+          <it_IT>
+            <string key="dialog_1"/>
+            <string key="exchange_1"/>
+            <string key="mail_1"/>
+            <string key="mail_2"/>
+            <string key="dialog_2"/>
+            <string key="dialog_3"/>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1"/>
+            <string key="name_2"/>
+          </it_IT>
+        </text>
+      </character>
+    </celebrity>
+  </event>
+  <event id="8">
+    <window_open>2008-06-03 00:00:00</window_open>
+    <window_close>2008-06-09 23:59:59</window_close>
+    <pokemon/>
+    <trade>false</trade>
+    <wanted_species>0</wanted_species>
+    <pokemonlevel>100</pokemonlevel>
+    <metlocation>0</metlocation>
+    <celebrity>
+      <character name="レッドはかせ">
+        <mii/>
+        <text>
+          <en_US>
+            <string key="dialog_1"/>
+            <string key="exchange_1"/>
+            <string key="mail_1"/>
+            <string key="mail_2"/>
+            <string key="dialog_2"/>
+            <string key="dialog_3"/>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1"/>
+            <string key="name_2"/>
+          </en_US>
+          <ja_JP>
+            <string key="dialog_1">やあみんな! ポケサンカンパニーの\n
+レッドはかせだ。\n
+メタグロスの ホームランと\n
+あそびにきたぞ。</string>
+            <string key="exchange_1"/>
+            <string key="mail_1"/>
+            <string key="mail_2"/>
+            <string key="dialog_2">これからも ポケモン☆サンデーで、\n
+どんどん あたらしい\n
+はつめいをするぞ!</string>
+            <string key="dialog_3">しばらく、ぼくじょうで あそばせて\n
+もらうぞ! ポケ・ウィー・ゴー!!
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1">レッドはかせ</string>
+            <string key="name_2">レッドはかせより</string>
+          </ja_JP>
+          <de_DE>
+            <string key="dialog_1"/>
+            <string key="exchange_1"/>
+            <string key="mail_1">どうも ありがとう! これからも、\n
+ポケモン☆サンデーの おうえん\n
+よろしく!</string>
+            <string key="mail_2"/>
+            <string key="dialog_2"/>
+            <string key="dialog_3"/>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1"/>
+            <string key="name_2"/>
+          </de_DE>
+          <fr_FR>
+            <string key="dialog_1"/>
+            <string key="exchange_1"/>
+            <string key="mail_1"/>
+            <string key="mail_2"/>
+            <string key="dialog_2"/>
+            <string key="dialog_3"/>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1"/>
+            <string key="name_2"/>
+          </fr_FR>
+          <es_ES>
+            <string key="dialog_1"/>
+            <string key="exchange_1"/>
+            <string key="mail_1"/>
+            <string key="mail_2"/>
+            <string key="dialog_2"/>
+            <string key="dialog_3"/>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1"/>
+            <string key="name_2"/>
+          </es_ES>
+          <it_IT>
+            <string key="dialog_1"/>
+            <string key="exchange_1"/>
+            <string key="mail_1"/>
+            <string key="mail_2"/>
+            <string key="dialog_2"/>
+            <string key="dialog_3"/>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1"/>
+            <string key="name_2"/>
+          </it_IT>
+        </text>
+      </character>
+    </celebrity>
+  </event>
+  <event id="9">
+    <window_open>2008-06-10 00:00:00</window_open>
+    <window_close>2008-06-16 23:59:59</window_close>
+    <pokemon/>
+    <trade>false</trade>
+    <wanted_species>0</wanted_species>
+    <pokemonlevel>100</pokemonlevel>
+    <metlocation>0</metlocation>
+    <celebrity>
+      <character name="あきやま">
+        <mii/>
+        <text>
+          <en_US>
+            <string key="dialog_1"/>
+            <string key="exchange_1"/>
+            <string key="mail_1"/>
+            <string key="mail_2"/>
+            <string key="dialog_2"/>
+            <string key="dialog_3"/>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1"/>
+            <string key="name_2"/>
+          </en_US>
+          <ja_JP>
+            <string key="dialog_1">ポケサンカンパニーの\n
+あきやまたいいんです！\n
+ケッキングの ジョンと\n
+あそびにきたぞ～。</string>
+            <string key="exchange_1"/>
+            <string key="mail_1">いや～ たのしかったな。\n
+これからも ポケモン☆サンデーで、\n
+どんどん ポケモンに\n
+くわしくなるぞ!</string>
+            <string key="mail_2"/>
+            <string key="dialog_2">ポケモン☆サンデーでの かつやく、\n
+おうえんしてくれよな。</string>
+            <string key="dialog_3">よーし、しばらく ぼくじょうで\n
+あそんでいくぞ!</string>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1">あきやま</string>
+            <string key="name_2">あきやまより</string>
+          </ja_JP>
+          <de_DE>
+            <string key="dialog_1"/>
+            <string key="exchange_1"/>
+            <string key="mail_1"/>
+            <string key="mail_2"/>
+            <string key="dialog_2"/>
+            <string key="dialog_3"/>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1"/>
+            <string key="name_2"/>
+          </de_DE>
+          <fr_FR>
+            <string key="dialog_1"/>
+            <string key="exchange_1"/>
+            <string key="mail_1"/>
+            <string key="mail_2"/>
+            <string key="dialog_2"/>
+            <string key="dialog_3"/>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1"/>
+            <string key="name_2"/>
+          </fr_FR>
+          <es_ES>
+            <string key="dialog_1"/>
+            <string key="exchange_1"/>
+            <string key="mail_1"/>
+            <string key="mail_2"/>
+            <string key="dialog_2"/>
+            <string key="dialog_3"/>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1"/>
+            <string key="name_2"/>
+          </es_ES>
+          <it_IT>
+            <string key="dialog_1"/>
+            <string key="exchange_1"/>
+            <string key="mail_1"/>
+            <string key="mail_2"/>
+            <string key="dialog_2"/>
+            <string key="dialog_3"/>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1"/>
+            <string key="name_2"/>
+          </it_IT>
+        </text>
+      </character>
+    </celebrity>
+  </event>
+  <event id="10">
+    <window_open>2008-06-17 00:00:00</window_open>
+    <window_close>2008-06-23 23:59:59</window_close>
+    <pokemon/>
+    <trade>false</trade>
+    <wanted_species>0</wanted_species>
+    <pokemonlevel>100</pokemonlevel>
+    <metlocation>0</metlocation>
+    <celebrity>
+      <character name="やまもと">
+        <mii/>
+        <text>
+          <en_US>
+            <string key="dialog_1"/>
+            <string key="exchange_1"/>
+            <string key="mail_1"/>
+            <string key="mail_2"/>
+            <string key="dialog_2"/>
+            <string key="dialog_3"/>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1"/>
+            <string key="name_2"/>
+          </en_US>
+          <ja_JP>
+            <string key="dialog_1">ポケサンカンパニーの やまもと\n
+たいいんです!\n
+ミカルゲと いっしょに\n
+あそびにきました。</string>
+            <string key="exchange_1"/>
+            <string key="mail_1">いや～ いいきぶんてんかんに\n
+なったよ。\n
+これで、ポケモン☆サンデーの\n
+バトルでも あたまが すっきり!?</string>
+            <string key="mail_2"/>
+            <string key="dialog_2">ポケモンサンデーでは、バトル
+がんばるぞ。</string>
+            <string key="dialog_3">ちょっと ほうじょうで あそんで\n
+いくけど、いいよね。</string>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1">やまもと</string>
+            <string key="name_2">やまもとより</string>
+          </ja_JP>
+          <de_DE>
+            <string key="dialog_1"/>
+            <string key="exchange_1"/>
+            <string key="mail_1"/>
+            <string key="mail_2"/>
+            <string key="dialog_2"/>
+            <string key="dialog_3"/>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1"/>
+            <string key="name_2"/>
+          </de_DE>
+          <fr_FR>
+            <string key="dialog_1"/>
+            <string key="exchange_1"/>
+            <string key="mail_1"/>
+            <string key="mail_2"/>
+            <string key="dialog_2"/>
+            <string key="dialog_3"/>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1"/>
+            <string key="name_2"/>
+          </fr_FR>
+          <es_ES>
+            <string key="dialog_1"/>
+            <string key="exchange_1"/>
+            <string key="mail_1"/>
+            <string key="mail_2"/>
+            <string key="dialog_2"/>
+            <string key="dialog_3"/>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1"/>
+            <string key="name_2"/>
+          </es_ES>
+          <it_IT>
+            <string key="dialog_1"/>
+            <string key="exchange_1"/>
+            <string key="mail_1"/>
+            <string key="mail_2"/>
+            <string key="dialog_2"/>
+            <string key="dialog_3"/>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1"/>
+            <string key="name_2"/>
+          </it_IT>
+        </text>
+      </character>
+    </celebrity>
+  </event>
+  <event id="11">
+    <window_open>2008-06-24 00:00:00</window_open>
+    <window_close>2008-06-30 23:59:59</window_close>
+    <pokemon/>
+    <trade>false</trade>
+    <wanted_species>0</wanted_species>
+    <pokemonlevel>100</pokemonlevel>
+    <metlocation>0</metlocation>
+    <celebrity>
+      <character name="クリスタル・ケイ">
+        <mii/>
+        <text>
+          <en_US>
+            <string key="dialog_1"/>
+            <string key="exchange_1"/>
+            <string key="mail_1"/>
+            <string key="mail_2"/>
+            <string key="dialog_2"/>
+            <string key="dialog_3"/>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1"/>
+            <string key="name_2"/>
+          </en_US>
+          <ja_JP>
+            <string key="dialog_1">ことしの えいがの しゅだいかを\n
+うたっている クリスタル・ケイです。\n
+みんな もう きいてくれたかな？</string>
+            <string key="exchange_1"/>
+            <string key="mail_1">すごく いいおもいでに なったよ!\n
+えいがかんで またあおうね!</string>
+            <string key="mail_2"/>
+            <string key="dialog_2">しばらく ぼくじょうで あそばせて\n
+もらうね!</string>
+            <string key="dialog_3">きょうは、えいがでも かつやくする\n
+レジギガスと いっしょに\n
+あそびにきました!</string>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1">クリスタル・ケイ</string>
+            <string key="name_2">クリスタル・ケイより</string>
+          </ja_JP>
+          <de_DE>
+            <string key="dialog_1"/>
+            <string key="exchange_1"/>
+            <string key="mail_1"/>
+            <string key="mail_2"/>
+            <string key="dialog_2"/>
+            <string key="dialog_3"/>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1"/>
+            <string key="name_2"/>
+          </de_DE>
+          <fr_FR>
+            <string key="dialog_1"/>
+            <string key="exchange_1"/>
+            <string key="mail_1"/>
+            <string key="mail_2"/>
+            <string key="dialog_2"/>
+            <string key="dialog_3"/>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1"/>
+            <string key="name_2"/>
+          </fr_FR>
+          <es_ES>
+            <string key="dialog_1"/>
+            <string key="exchange_1"/>
+            <string key="mail_1"/>
+            <string key="mail_2"/>
+            <string key="dialog_2"/>
+            <string key="dialog_3"/>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1"/>
+            <string key="name_2"/>
+          </es_ES>
+          <it_IT>
+            <string key="dialog_1"/>
+            <string key="exchange_1"/>
+            <string key="mail_1"/>
+            <string key="mail_2"/>
+            <string key="dialog_2"/>
+            <string key="dialog_3"/>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1"/>
+            <string key="name_2"/>
+          </it_IT>
+        </text>
+      </character>
+    </celebrity>
+  </event>
+  <event id="12">
+    <window_open>2008-07-01 00:00:00</window_open>
+    <window_close>2008-07-14 23:59:59</window_close>
+    <pokemon/>
+    <trade>true</trade>
+    <wanted_species>396</wanted_species>
+    <pokemonlevel>50</pokemonlevel>
+    <metlocation>0</metlocation>
+    <celebrity>
+      <character name="ばば">
+        <mii/>
+        <text>
+          <en_US>
+            <string key="dialog_1"/>
+            <string key="exchange_1"/>
+            <string key="mail_1"/>
+            <string key="mail_2"/>
+            <string key="dialog_2"/>
+            <string key="dialog_3"/>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1"/>
+            <string key="name_2"/>
+          </en_US>
+          <ja_JP>
+            <string key="dialog_1">ポケサンカンパニーの\n
+ばばたいいんです!\n
+やっぱり、ぼくは みどりいろの\n
+ポケモンが すきだなー。\n
+\fということで、ぼくの フライゴンの\n
+ババイゴンと あそびにきました。</string>
+            <string key="exchange_1">すごい ムックルを つれてきて\n
+くれたんだ。\n
+さっそく こうかんしよう。</string>
+            <string key="mail_1">たのしかったよ。\n
+どうもありがとう。\n
+ポケモン☆サンデーで また\n
+あえるのを たのしみにしているよ。</string>
+            <string key="mail_2">P.S.\n
+こうかんしてくれて ありがとう!\n
+すごく うれしいな。\n
+これからも みんなのために、\n
+ポケモン☆サンデーで\n
+はりきっちゃうよ!</string>
+            <string key="dialog_2">じつはさ、ぼくじょうで そらを\n
+とんでいる ポケモンが たくさん\n
+いると、スカイパレードが\n
+おこるんだって。\n
+\fぼく、どうしても ムックルの\n
+スカイパレードが みたいんだよね～。\n
+だからさ、きみの ムックルと、ぼくの\n
+フライゴンを こうかんしない?</string>
+            <string key="dialog_3">しばらく、ぼくじょうで\n
+あそんでいこうっと。</string>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1">ばば</string>
+            <string key="name_2">ばばより</string>
+          </ja_JP>
+          <de_DE>
+            <string key="dialog_1"/>
+            <string key="exchange_1"/>
+            <string key="mail_1"/>
+            <string key="mail_2"/>
+            <string key="dialog_2"/>
+            <string key="dialog_3"/>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1"/>
+            <string key="name_2"/>
+          </de_DE>
+          <fr_FR>
+            <string key="dialog_1"/>
+            <string key="exchange_1"/>
+            <string key="mail_1"/>
+            <string key="mail_2"/>
+            <string key="dialog_2"/>
+            <string key="dialog_3"/>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1"/>
+            <string key="name_2"/>
+          </fr_FR>
+          <es_ES>
+            <string key="dialog_1"/>
+            <string key="exchange_1"/>
+            <string key="mail_1"/>
+            <string key="mail_2"/>
+            <string key="dialog_2"/>
+            <string key="dialog_3"/>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1"/>
+            <string key="name_2"/>
+          </es_ES>
+          <it_IT>
+            <string key="dialog_1"/>
+            <string key="exchange_1"/>
+            <string key="mail_1"/>
+            <string key="mail_2"/>
+            <string key="dialog_2"/>
+            <string key="dialog_3"/>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1"/>
+            <string key="name_2"/>
+          </it_IT>
+        </text>
+      </character>
+    </celebrity>
+  </event>
+  <event id="13">
+    <window_open>2008-07-15 00:00:00</window_open>
+    <window_close>2008-07-21 23:59:59</window_close>
+    <pokemon/>
+    <trade>false</trade>
+    <wanted_species>0</wanted_species>
+    <pokemonlevel>100</pokemonlevel>
+    <metlocation>0</metlocation>
+    <celebrity>
+      <character name="しょこたん">
+        <mii/>
+        <text>
+          <en_US>
+            <string key="dialog_1"/>
+            <string key="exchange_1"/>
+            <string key="mail_1"/>
+            <string key="mail_2"/>
+            <string key="dialog_2"/>
+            <string key="dialog_3"/>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1"/>
+            <string key="name_2"/>
+          </en_US>
+          <ja_JP>
+            <string key="dialog_1">ポケサンカンパニーの しょこたんです!\n
+またまた マニューラの ルナと\n
+あそびにきたよ!</string>
+            <string key="exchange_1"/>
+            <string key="mail_1">ギザ たのしかった!\n
+これからも ポケモン☆サンデーを\n
+よろしくね!</string>
+            <string key="mail_2"/>
+            <string key="dialog_2">しばらく ぼくじょうで\n
+あそんでいくよ～!</string>
+            <string key="dialog_3">このなつの えいがの せいゆうを\n
+することになったよ!\n
+ぜひ みんな みにきてね!</string>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1">しょこたん</string>
+            <string key="name_2">しょこたんより</string>
+          </ja_JP>
+          <de_DE>
+            <string key="dialog_1"/>
+            <string key="exchange_1"/>
+            <string key="mail_1"/>
+            <string key="mail_2"/>
+            <string key="dialog_2"/>
+            <string key="dialog_3"/>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1"/>
+            <string key="name_2"/>
+          </de_DE>
+          <fr_FR>
+            <string key="dialog_1"/>
+            <string key="exchange_1"/>
+            <string key="mail_1"/>
+            <string key="mail_2"/>
+            <string key="dialog_2"/>
+            <string key="dialog_3"/>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1"/>
+            <string key="name_2"/>
+          </fr_FR>
+          <es_ES>
+            <string key="dialog_1"/>
+            <string key="exchange_1"/>
+            <string key="mail_1"/>
+            <string key="mail_2"/>
+            <string key="dialog_2"/>
+            <string key="dialog_3"/>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1"/>
+            <string key="name_2"/>
+          </es_ES>
+          <it_IT>
+            <string key="dialog_1"/>
+            <string key="exchange_1"/>
+            <string key="mail_1"/>
+            <string key="mail_2"/>
+            <string key="dialog_2"/>
+            <string key="dialog_3"/>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1"/>
+            <string key="name_2"/>
+          </it_IT>
+        </text>
+      </character>
+    </celebrity>
+  </event>
+  <event id="14">
+    <window_open>2008-07-22 00:00:00</window_open>
+    <window_close>2008-07-28 23:59:59</window_close>
+    <pokemon/>
+    <trade>false</trade>
+    <wanted_species>0</wanted_species>
+    <pokemonlevel>50</pokemonlevel>
+    <metlocation>3006</metlocation>
+    <celebrity>
+      <character name="ＧＦ ますだぶちょう">
+        <mii/>
+        <text>
+          <en_US>
+            <string key="dialog_1"/>
+            <string key="exchange_1"/>
+            <string key="mail_1"/>
+            <string key="mail_2"/>
+            <string key="dialog_2"/>
+            <string key="dialog_3"/>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1"/>
+            <string key="name_2"/>
+          </en_US>
+          <ja_JP>
+            <string key="dialog_1">『ポケットモンスター プラチナ』の\n
+かいはつをしている ゲームフリークの\n
+ますだじゅんいちです。</string>
+            <string key="exchange_1"/>
+            <string key="mail_1">たのしかったよ、ありがとう!\n
+キミも えいがかんで\n
+もらった シェイミを\n
+『ポケットモンスター プラチナ』\n
+に つれていって\n
+フォルムチェンジさせてね!\n
+チャオ!</string>
+            <string key="mail_2"/>
+            <string key="dialog_2">しばらく シェイミと\n
+ぼくじょうで あそんでいきます!</string>
+            <string key="dialog_3">きょうは このなつ、ポケモンえいがを\n
+みにいくともらえる、\n
+シェイミを つれてきました!</string>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1">ＧＦ ますだぶちょう</string>
+            <string key="name_2">ＧＦ ますだぶちょうより</string>
+          </ja_JP>
+          <de_DE>
+            <string key="dialog_1"/>
+            <string key="exchange_1"/>
+            <string key="mail_1"/>
+            <string key="mail_2"/>
+            <string key="dialog_2"/>
+            <string key="dialog_3"/>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1"/>
+            <string key="name_2"/>
+          </de_DE>
+          <fr_FR>
+            <string key="dialog_1"/>
+            <string key="exchange_1"/>
+            <string key="mail_1"/>
+            <string key="mail_2"/>
+            <string key="dialog_2"/>
+            <string key="dialog_3"/>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1"/>
+            <string key="name_2"/>
+          </fr_FR>
+          <es_ES>
+            <string key="dialog_1"/>
+            <string key="exchange_1"/>
+            <string key="mail_1"/>
+            <string key="mail_2"/>
+            <string key="dialog_2"/>
+            <string key="dialog_3"/>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1"/>
+            <string key="name_2"/>
+          </es_ES>
+          <it_IT>
+            <string key="dialog_1"/>
+            <string key="exchange_1"/>
+            <string key="mail_1"/>
+            <string key="mail_2"/>
+            <string key="dialog_2"/>
+            <string key="dialog_3"/>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1"/>
+            <string key="name_2"/>
+          </it_IT>
+        </text>
+      </character>
+    </celebrity>
+  </event>
+  <event id="15">
+    <window_open>2008-11-05 00:00:00</window_open>
+    <window_close>2008-12-08 23:59:59</window_close>
+    <pokemon/>
+    <trade>false</trade>
+    <wanted_species>0</wanted_species>
+    <pokemonlevel>47</pokemonlevel>
+    <metlocation>117</metlocation>
+    <celebrity>
+      <character name="ギラオ">
+        <mii/>
+        <text>
+          <en_US>
+            <string key="dialog_1"/>
+            <string key="exchange_1"/>
+            <string key="mail_1"/>
+            <string key="mail_2"/>
+            <string key="dialog_2"/>
+            <string key="dialog_3"/>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1"/>
+            <string key="name_2"/>
+          </en_US>
+          <ja_JP>
+            <string key="dialog_1">こんにちは！\n
+\f「みてみて☆クラブ」\n
+とくべつ　かいいんの　ギラオだよ！\n
+\fぼくの　じまんの\n
+オリジンフォルムの　ギラティナと\n
+いっしょに　あそびにきたよ！</string>
+            <string key="exchange_1"/>
+            <string key="mail_1">きみたちの ぼくじょう\n
+とっても たのしかったよ!\n
+あたらしくなった ぼくじょうの\n
+たのしみを たくさんみつけてね!\n
+ミテ・ミーテ!</string>
+            <string key="mail_2"/>
+            <string key="dialog_2">ユカリさんと　きみたちの\n
+あたらしい　ぼくじょう、\n
+とっても　ステキだね！</string>
+            <string key="dialog_3">こいつと　いっしょに　しばらく\n
+ぼくじょうで　あそんでいくから、\n
+よろしくね！</string>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1">ギラオ</string>
+            <string key="name_2">ギラオより</string>
+          </ja_JP>
+          <de_DE>
+            <string key="dialog_1"/>
+            <string key="exchange_1"/>
+            <string key="mail_1"/>
+            <string key="mail_2"/>
+            <string key="dialog_2"/>
+            <string key="dialog_3"/>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1"/>
+            <string key="name_2"/>
+          </de_DE>
+          <fr_FR>
+            <string key="dialog_1"/>
+            <string key="exchange_1"/>
+            <string key="mail_1"/>
+            <string key="mail_2"/>
+            <string key="dialog_2"/>
+            <string key="dialog_3"/>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1"/>
+            <string key="name_2"/>
+          </fr_FR>
+          <es_ES>
+            <string key="dialog_1"/>
+            <string key="exchange_1"/>
+            <string key="mail_1"/>
+            <string key="mail_2"/>
+            <string key="dialog_2"/>
+            <string key="dialog_3"/>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1"/>
+            <string key="name_2"/>
+          </es_ES>
+          <it_IT>
+            <string key="dialog_1"/>
+            <string key="exchange_1"/>
+            <string key="mail_1"/>
+            <string key="mail_2"/>
+            <string key="dialog_2"/>
+            <string key="dialog_3"/>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1"/>
+            <string key="name_2"/>
+          </it_IT>
+        </text>
+      </character>
+    </celebrity>
+  </event>
+  <event id="16">
+    <window_open>2008-12-09 00:00:00</window_open>
+    <window_close>2008-12-22 23:59:59</window_close>
+    <pokemon/>
+    <trade>true</trade>
+    <wanted_species>399</wanted_species>
+    <pokemonlevel>21</pokemonlevel>
+    <metlocation>0</metlocation>
+    <celebrity>
+      <character name="ゆっきーな">
+        <mii/>
+        <text>
+          <en_US>
+            <string key="dialog_1"/>
+            <string key="exchange_1"/>
+            <string key="mail_1"/>
+            <string key="mail_2"/>
+            <string key="dialog_2"/>
+            <string key="dialog_3"/>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1"/>
+            <string key="name_2"/>
+          </en_US>
+          <ja_JP>
+            <string key="dialog_1">ポケチョリーッス！\n
+ゆっきーなこと　きのしたゆきな　です。\n
+\fみんな　ゆきなのでた\n
+「ポケモン☆サンデー」は　みてくれた？\n
+\fきょうは　だいすきな\n
+ニャースを　つれてきたよ。</string>
+            <string key="exchange_1">ビッパ、つれてきて　くれたんだ！\n
+さっそく　こうかんしよー！</string>
+            <string key="mail_1">ちょーたのしかった! サンキュー!\n
+またどこかで あえるといいね!</string>
+            <string key="mail_2">P.S.\n
+こうかんしてくれて ありがとう!\n
+ゆきなのニャース、\n
+だいじにしてね。</string>
+            <string key="dialog_2">ねえねえ、きいちゃったんだけど、\n
+あたらしい　ぼくじょうでは\n
+ジグザグマだけじゃなくて、\n
+\fビッパが　20ぴきあつまっても\n
+ジグザグダンス　するらしいじゃん？\n
+\fビッパ、どんなうごきするか\n
+すっごく　みたいんだよね～！\n
+\fゆきなのニャース、きみのビッパと\n
+こうかんしようよ！</string>
+            <string key="dialog_3">しばらく　ぼくじょうで\n
+のんびりしてるね～。</string>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1">ゆっきーな</string>
+            <string key="name_2">ゆっきーなより</string>
+          </ja_JP>
+          <de_DE>
+            <string key="dialog_1"/>
+            <string key="exchange_1"/>
+            <string key="mail_1"/>
+            <string key="mail_2"/>
+            <string key="dialog_2"/>
+            <string key="dialog_3"/>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1"/>
+            <string key="name_2"/>
+          </de_DE>
+          <fr_FR>
+            <string key="dialog_1"/>
+            <string key="exchange_1"/>
+            <string key="mail_1"/>
+            <string key="mail_2"/>
+            <string key="dialog_2"/>
+            <string key="dialog_3"/>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1"/>
+            <string key="name_2"/>
+          </fr_FR>
+          <es_ES>
+            <string key="dialog_1"/>
+            <string key="exchange_1"/>
+            <string key="mail_1"/>
+            <string key="mail_2"/>
+            <string key="dialog_2"/>
+            <string key="dialog_3"/>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1"/>
+            <string key="name_2"/>
+          </es_ES>
+          <it_IT>
+            <string key="dialog_1"/>
+            <string key="exchange_1"/>
+            <string key="mail_1"/>
+            <string key="mail_2"/>
+            <string key="dialog_2"/>
+            <string key="dialog_3"/>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1"/>
+            <string key="name_2"/>
+          </it_IT>
+        </text>
+      </character>
+    </celebrity>
+  </event>
+  <event id="17">
+    <window_open>2008-12-23 00:00:00</window_open>
+    <window_close>2008-12-29 23:59:59</window_close>
+    <pokemon/>
+    <trade>false</trade>
+    <wanted_species>0</wanted_species>
+    <pokemonlevel>70</pokemonlevel>
+    <metlocation>51</metlocation>
+    <celebrity>
+      <character name="まえだまえだ">
+        <mii/>
+        <text>
+          <en_US>
+            <string key="dialog_1"/>
+            <string key="exchange_1"/>
+            <string key="mail_1"/>
+            <string key="mail_2"/>
+            <string key="dialog_2"/>
+            <string key="dialog_3"/>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1"/>
+            <string key="name_2"/>
+          </en_US>
+          <ja_JP>
+            <string key="dialog_1">どうも！まえだまえだです。\n
+「ポケモン☆サンデー」での\n
+ぼくたちのコント、みてくれた？</string>
+            <string key="exchange_1"/>
+            <string key="mail_1">いろんなポケモンがみれて、\n
+めっちゃたのしかった～!\n
+またあそんでや!</string>
+            <string key="mail_2"/>
+            <string key="dialog_2">きょうは ぼくたちの だいすきな\n
+ディアルガと いっしょに\n
+あそびにきたで～！</string>
+            <string key="dialog_3">ちょっと ぼくじょうで
+あそばしてもらうわ～！</string>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1">まえだまえだ</string>
+            <string key="name_2">まえだまえだより</string>
+          </ja_JP>
+          <de_DE>
+            <string key="dialog_1"/>
+            <string key="exchange_1"/>
+            <string key="mail_1"/>
+            <string key="mail_2"/>
+            <string key="dialog_2"/>
+            <string key="dialog_3"/>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1"/>
+            <string key="name_2"/>
+          </de_DE>
+          <fr_FR>
+            <string key="dialog_1"/>
+            <string key="exchange_1"/>
+            <string key="mail_1"/>
+            <string key="mail_2"/>
+            <string key="dialog_2"/>
+            <string key="dialog_3"/>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1"/>
+            <string key="name_2"/>
+          </fr_FR>
+          <es_ES>
+            <string key="dialog_1"/>
+            <string key="exchange_1"/>
+            <string key="mail_1"/>
+            <string key="mail_2"/>
+            <string key="dialog_2"/>
+            <string key="dialog_3"/>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1"/>
+            <string key="name_2"/>
+          </es_ES>
+          <it_IT>
+            <string key="dialog_1"/>
+            <string key="exchange_1"/>
+            <string key="mail_1"/>
+            <string key="mail_2"/>
+            <string key="dialog_2"/>
+            <string key="dialog_3"/>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1"/>
+            <string key="name_2"/>
+          </it_IT>
+        </text>
+      </character>
+    </celebrity>
+  </event>
+  <event id="18">
+    <window_open>2008-12-30 00:00:00</window_open>
+    <window_close>2009-01-05 23:59:59</window_close>
+    <pokemon/>
+    <trade>false</trade>
+    <wanted_species>0</wanted_species>
+    <pokemonlevel>100</pokemonlevel>
+    <metlocation>0</metlocation>
+    <celebrity>
+      <character name="みさわ＆やまもと">
+        <mii/>
+        <text>
+          <en_US>
+            <string key="dialog_1">
+            <string key="exchange_1"/>
+            <string key="mail_1"/>
+            <string key="mail_2"/>
+            <string key="dialog_2"/>
+            <string key="dialog_3"/>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1"/>
+            <string key="name_2"/>
+          </en_US>
+          <ja_JP>
+            <string key="dialog_1">おす！ みさわだ。\n
+「ポケモン☆サンデー」で\n
+あつい バトルを くりひろげてくれた\n
+やまもとたいいんと、</string>
+            <string key="exchange_1"/>
+            <string key="mail_1">なかなか じゅうじつした じかんを\n
+すごせましたね!　これからも\n
+「ポケモン☆サンデー」をよろしく!</string>
+            <string key="mail_2"/>
+            <string key="dialog_2">おきにいりの カメックスと\n
+いっしょに きたぞ。</string>
+            <string key="dialog_3">しばらく ぼくじょうに いるからな！</string>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1">みさわ＆やまもと<string>
+            <string key="name_2">みさわ＆やまもとより</string>
+          </ja_JP>
+          <de_DE>
+            <string key="dialog_1"/>
+            <string key="exchange_1"/>
+            <string key="mail_1"/>
+            <string key="mail_2"/>
+            <string key="dialog_2"/>
+            <string key="dialog_3"/>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1"/>
+            <string key="name_2"/>
+          </de_DE>
+          <fr_FR>
+            <string key="dialog_1"/>
+            <string key="exchange_1"/>
+            <string key="mail_1"/>
+            <string key="mail_2"/>
+            <string key="dialog_2"/>
+            <string key="dialog_3"/>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1"/>
+            <string key="name_2"/>
+          </fr_FR>
+          <es_ES>
+            <string key="dialog_1"/>
+            <string key="exchange_1"/>
+            <string key="mail_1"/>
+            <string key="mail_2"/>
+            <string key="dialog_2"/>
+            <string key="dialog_3"/>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1"/>
+            <string key="name_2"/>
+          </es_ES>
+          <it_IT>
+            <string key="dialog_1"/>
+            <string key="exchange_1"/>
+            <string key="mail_1"/>
+            <string key="mail_2"/>
+            <string key="dialog_2"/>
+            <string key="dialog_3"/>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1"/>
+            <string key="name_2"/>
+          </it_IT>
+        </text>
+      </character>
+    </celebrity>
+  </event>
+  <event id="19">
+    <window_open>2009-01-06 00:00:00</window_open>
+    <window_close>2009-01-19 23:59:59</window_close>
+    <pokemon/>
+    <trade>true</trade>
+    <wanted_species>129</wanted_species>
+    <pokemonlevel>50</pokemonlevel>
+    <metlocation>0</metlocation>
+    <celebrity>
+      <character name="Akiyama">
+        <mii/>
+        <text>
+          <en_US>
+            <string key="dialog_1"/>
+            <string key="exchange_1"/>
+            <string key="mail_1"/>
+            <string key="mail_2"/>
+            <string key="dialog_2"/>
+            <string key="dialog_3"/>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1"/>
+            <string key="name_2"/>
+          </en_US>
+          <ja_JP>
+            <string key="dialog_1">ポケモーニング！\n
+あきやまたいいん　だよ！\n
+\fよいこのみんな、\n
+「ポケモン☆サンデー」で\n
+ぼくのゆうしをみてくれているかな？\n
+\f『ダイヤモンド・パール』で\n
+あいじょうをかけて　そだててきた、\n
+ケッキングの　ジョンを　つれてきたぞ。</string>
+            <string key="exchange_1">コイキング　つれてきてくれた？まじ？
+じゃ、さっそく　こうかんしようぜ！</string>
+            <string key="mail_1">いや～、たのしかった!\n
+これからも どんどんバトルで\n
+つよくなるからな～。\n
+「ポケモン☆サンデー」を\n
+チェックしてくれよ!</string>
+            <string key="mail_2">P.S.\n
+こうかんありがとう!\n
+どうだ～?\n
+おれのケッキング、つよいだろ?\n
+おれが いっしょうけんめい\n
+そだてたから、\n
+だいじにするんだぞ。</string>
+            <string key="dialog_2">じつはさ、あたらしいぼくじょうで\n
+およぎのとくいな　ポケモンを　25ひき\n
+あつめると、スイスイジャンプが\n
+みられるらしいんだよ。\n
+\fぼくじょうなのに　どうやって\n
+およぐんだろうな？\n
+\fすっげー　みたいんだけど、\n
+おれのケッキングの　ジョンと、\n
+きみのコイキング、\n
+こうかんしてくれない？</string>
+            <string key="dialog_3">しばらく、ぼくじょうで　あそばせて\n
+もらうぜ！</string>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1">あきやま</string>
+            <string key="name_2">あきやまより</string>
+          </ja_JP>
+          <de_DE>
+            <string key="dialog_1"/>
+            <string key="exchange_1"/>
+            <string key="mail_1"/>
+            <string key="mail_2"/>
+            <string key="dialog_2"/>
+            <string key="dialog_3"/>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1"/>
+            <string key="name_2"/>
+          </de_DE>
+          <fr_FR>
+            <string key="dialog_1"/>
+            <string key="exchange_1"/>
+            <string key="mail_1"/>
+            <string key="mail_2"/>
+            <string key="dialog_2"/>
+            <string key="dialog_3"/>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1"/>
+            <string key="name_2"/>
+          </fr_FR>
+          <es_ES>
+            <string key="dialog_1"/>
+            <string key="exchange_1"/>
+            <string key="mail_1"/>
+            <string key="mail_2"/>
+            <string key="dialog_2"/>
+            <string key="dialog_3"/>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1"/>
+            <string key="name_2"/>
+          </es_ES>
+          <it_IT>
+            <string key="dialog_1"/>
+            <string key="exchange_1"/>
+            <string key="mail_1"/>
+            <string key="mail_2"/>
+            <string key="dialog_2"/>
+            <string key="dialog_3"/>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1"/>
+            <string key="name_2"/>
+          </it_IT>
+        </text>
+      </character>
+    </celebrity>
+  </event>
+  <event id="20">
+    <window_open>2009-01-20 00:00:00</window_open>
+    <window_close>2009-01-26 23:59:59</window_close>
+    <pokemon/>
+    <trade>false</trade>
+    <wanted_species>0</wanted_species>
+    <pokemonlevel>50</pokemonlevel>
+    <metlocation>0</metlocation>
+    <celebrity>
+      <character name="しょこたん">
+        <mii/>
+        <text>
+          <en_US>
+            <string key="dialog_1"/>
+            <string key="exchange_1"/>
+            <string key="mail_1"/>
+            <string key="mail_2"/>
+            <string key="dialog_2"/>
+            <string key="dialog_3"/>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1"/>
+            <string key="name_2"/>
+          </en_US>
+          <ja_JP>
+            <string key="dialog_1">ポケモーニング!\n
+「ポケモン☆サンデー」から\n
+しょこたんぶちょうが\n
+あそびにきたよ～!</string>
+            <string key="exchange_1"/>
+            <string key="mail_1">ギガントたのしかったぉ～!\n
+これからも\n
+「ポケモン☆サンデー」で\n
+ゲームのじょうほうを\n
+どしどし しょうかいするから、\n
+よろしくね!</string>
+            <string key="mail_2"/>
+            <string key="dialog_2">きょうは あたらしい\n
+わたしのパートナー、\n
+バクフーンの フンフンを\n
+つれてきちゃった!</string>
+            <string key="dialog_3">しばらく ぼくじょうで\n
+ポケモンたちと あそんでても\n
+いいかな?</string>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1">しょこたん</string>
+            <string key="name_2">しょこたんより</string>
+          </ja_JP>
+          <de_DE>
+            <string key="dialog_1"/>
+            <string key="exchange_1"/>
+            <string key="mail_1"/>
+            <string key="mail_2"/>
+            <string key="dialog_2"/>
+            <string key="dialog_3"/>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1"/>
+            <string key="name_2"/>
+          </de_DE>
+          <fr_FR>
+            <string key="dialog_1"/>
+            <string key="exchange_1"/>
+            <string key="mail_1"/>
+            <string key="mail_2"/>
+            <string key="dialog_2"/>
+            <string key="dialog_3"/>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1"/>
+            <string key="name_2"/>
+          </fr_FR>
+          <es_ES>
+            <string key="dialog_1"/>
+            <string key="exchange_1"/>
+            <string key="mail_1"/>
+            <string key="mail_2"/>
+            <string key="dialog_2"/>
+            <string key="dialog_3"/>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1"/>
+            <string key="name_2"/>
+          </es_ES>
+          <it_IT>
+            <string key="dialog_1"/>
+            <string key="exchange_1"/>
+            <string key="mail_1"/>
+            <string key="mail_2"/>
+            <string key="dialog_2"/>
+            <string key="dialog_3"/>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1"/>
+            <string key="name_2"/>
+          </it_IT>
+        </text>
+      </character>
+    </celebrity>
+  </event>
+  <event id="21">
+    <window_open>2009-01-27 00:00:00</window_open>
+    <window_close>2009-02-02 23:59:59</window_close>
+    <pokemon/>
+    <trade>false</trade>
+    <wanted_species>0</wanted_species>
+    <pokemonlevel>50</pokemonlevel>
+    <metlocation>0</metlocation>
+    <celebrity>
+      <character name="ゴルゴしょちょう">
+        <mii/>
+        <text>
+          <en_US>
+            <string key="dialog_1"/>
+            <string key="exchange_1"/>
+            <string key="mail_1"/>
+            <string key="mail_2"/>
+            <string key="dialog_2"/>
+            <string key="dialog_3"/>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1"/>
+            <string key="name_2"/>
+          </en_US>
+          <ja_JP>
+            <string key="dialog_1">ポケモーニング!!\n
+「ポケモン☆サンデー」といえば\n
+このわたし、ゴルゴしょちょうだ!\n
+みんな げんきにしてるかな?</string>
+            <string key="exchange_1"/>
+            <string key="mail_1">すっかり リフレッシュできたよ、\n
+ありがとう。\n
+このかわいい ジバコイルと\n
+バトルをがんばるからな!\n
+これからも はりきっていくぞ～!</string>
+            <string key="mail_2"/>
+            <string key="dialog_2">きょうは わたしのかわいい\n
+ジバコイルの ジバババンを\n
+つれてきたぞ!\n
+なかよくしてやってくれ!</string>
+            <string key="dialog_3">しばらく ぼくじょうで\n
+ゆっくりさせてもらおうじゃないか。</string>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1">ゴルゴしょちょう</string>
+            <string key="name_2">ゴルゴしょちょうより</string>
+          </ja_JP>
+          <de_DE>
+            <string key="dialog_1"/>
+            <string key="exchange_1"/>
+            <string key="mail_1"/>
+            <string key="mail_2"/>
+            <string key="dialog_2"/>
+            <string key="dialog_3"/>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1"/>
+            <string key="name_2"/>
+          </de_DE>
+          <fr_FR>
+            <string key="dialog_1"/>
+            <string key="exchange_1"/>
+            <string key="mail_1"/>
+            <string key="mail_2"/>
+            <string key="dialog_2"/>
+            <string key="dialog_3"/>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1"/>
+            <string key="name_2"/>
+          </fr_FR>
+          <es_ES>
+            <string key="dialog_1"/>
+            <string key="exchange_1"/>
+            <string key="mail_1"/>
+            <string key="mail_2"/>
+            <string key="dialog_2"/>
+            <string key="dialog_3"/>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1"/>
+            <string key="name_2"/>
+          </es_ES>
+          <it_IT>
+            <string key="dialog_1"/>
+            <string key="exchange_1"/>
+            <string key="mail_1"/>
+            <string key="mail_2"/>
+            <string key="dialog_2"/>
+            <string key="dialog_3"/>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1"/>
+            <string key="name_2"/>
+          </it_IT>
+        </text>
+      </character>
+    </celebrity>
+  </event>
+  <event id="22">
+    <window_open>2009-02-03 00:00:00</window_open>
+    <window_close>2009-02-09 23:59:59</window_close>
+    <pokemon/>
+    <trade>false</trade>
+    <wanted_species>0</wanted_species>
+    <pokemonlevel>50</pokemonlevel>
+    <metlocation>0</metlocation>
+    <celebrity>
+      <character name="ばば">
+        <mii/>
+        <text>
+          <en_US>
+            <string key="dialog_1"/>
+            <string key="exchange_1"/>
+            <string key="mail_1"/>
+            <string key="mail_2"/>
+            <string key="dialog_2"/>
+            <string key="dialog_3"/>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1"/>
+            <string key="name_2"/>
+          </en_US>
+          <ja_JP>
+            <string key="dialog_1">ポケモーニング！！\n
+ポケサンカンパニーの\n
+バトルおうじゃ、ばばたいいんだよ～！</string>
+            <string key="exchange_1"/>
+            <string key="mail_1">ぼくのレントラー、どうだった?\n
+これからも\n
+「ポケモン☆サンデー」の\n
+バトルおうじゃに\n
+ふさわしいバトルを するから、\n
+みんな おうえんしててね!</string>
+            <string key="mail_2"/>
+            <string key="dialog_2">ぼくの　じまんのポケモン、\n
+レントラーの　トゴシを\n
+つれてきたんだ！\n
+かっこいいでしょ？</string>
+            <string key="dialog_3">しばらく　ぼくじょうにいるよ～！</string>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1">ばば</string>
+            <string key="name_2">ばばより</string>
+          </ja_JP>
+          <de_DE>
+            <string key="dialog_1"/>
+            <string key="exchange_1"/>
+            <string key="mail_1"/>
+            <string key="mail_2"/>
+            <string key="dialog_2"/>
+            <string key="dialog_3"/>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1"/>
+            <string key="name_2"/>
+          </de_DE>
+          <fr_FR>
+            <string key="dialog_1"/>
+            <string key="exchange_1"/>
+            <string key="mail_1"/>
+            <string key="mail_2"/>
+            <string key="dialog_2"/>
+            <string key="dialog_3"/>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1"/>
+            <string key="name_2"/>
+          </fr_FR>
+          <es_ES>
+            <string key="dialog_1"/>
+            <string key="exchange_1"/>
+            <string key="mail_1"/>
+            <string key="mail_2"/>
+            <string key="dialog_2"/>
+            <string key="dialog_3"/>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1"/>
+            <string key="name_2"/>
+          </es_ES>
+          <it_IT>
+            <string key="dialog_1"/>
+            <string key="exchange_1"/>
+            <string key="mail_1"/>
+            <string key="mail_2"/>
+            <string key="dialog_2"/>
+            <string key="dialog_3"/>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1"/>
+            <string key="name_2"/>
+          </it_IT>
+        </text>
+      </character>
+    </celebrity>
+  </event>
+  <event id="23">
+    <window_open>2009-02-10 00:00:00</window_open>
+    <window_close>2009-02-23 23:59:59</window_close>
+    <pokemon>B0514907000012EA03E2243BA248E7DFBF81BE3F675769D38AAD942D08CE6CA89805E09F446BE7007525F0A541CB06E1FFDB3127A010751CEE6D53D48F5EE88E66FA13015A32250546496302F6AD8CECAB6AEE96F0E5CEB37253D7F8C8BD8C9DA8D7B1C180E361A11B1496F56510A40B9DB7958DEED9015E532E6F482F0AEBF246353B24838D8766</pokemon>
+    <trade>true</trade>
+    <wanted_species>62</wanted_species>
+    <pokemonlevel>3060</pokemonlevel>
+    <metlocation>62</metlocation>
+    <celebrity>
+      <character name="レッドはかせ">
+        <mii>000230EC30C330C9306F304B305B00000000000000007F408108E2EFC2EFA02E44C43E00918008737C890460333030EC8280028A25040000000000000000000000000000000000000000</mii>
+        <text>
+          <en_US>
+            <string key="dialog_1"/>
+            <string key="exchange_1"/>
+            <string key="mail_1"/>
+            <string key="mail_2"/>
+            <string key="dialog_2"/>
+            <string key="dialog_3"/>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1"/>
+            <string key="name_2"/>
+          </en_US>
+          <ja_JP>
+            <string key="dialog_1">ポケモーニング!\n
+「ポケモン☆サンデー」での わたしの\n
+かつやくを みてくれているかな?\n
+レッドはかせです!\n
+\fわたしのメタグロス、ホームランを\n
+つれてきちゃいました～!</string>
+            <string key="exchange_1">お、それはワンリキー!
+つれてきてくれたんですね。
+ありがとう。
+では、こうかんしましょうか。</string>
+            <string key="mail_1">そろそろ ポケサンカンパニーに\n
+かえらなくては……\n
+また 「ポケモン☆サンデー」で\n
+あいましょう!\n
+ポケ・ウィー・ゴー!</string>
+            <string key="mail_2">P.S.\n
+メタグロスと\n
+こうかんしてくれて、ありがとう。\n
+わたしの ホームランは\n
+つよいですよ～!\n
+ちゃんと かわいがってくださいね!</string>
+            <string key="dialog_2">いや～、じつはですね、すごいウワサを\n
+みみにしたんですが、\n
+\fあたらしいぼくじょうで、\n
+かくとうタイプの ポケモンを 8ぴき\n
+あつめると、トーナメントを\n
+するらしいんですよね～。\n
+\fすっごく きになってるんですが、\n
+あなたのワンリキーと\n
+わたしのホームラン、\n
+こうかんしません?</string>
+            <string key="dialog_3">しばらく ぼくじょうで ポケモンたちを\n
+かんさつすることにするよ。</string>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1">レッドはかせ</string>
+            <string key="name_2">レッドはかせより</string>
+          </ja_JP>
+          <de_DE>
+            <string key="dialog_1"/>
+            <string key="exchange_1"/>
+            <string key="mail_1"/>
+            <string key="mail_2"/>
+            <string key="dialog_2"/>
+            <string key="dialog_3"/>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1"/>
+            <string key="name_2"/>
+          </de_DE>
+          <fr_FR>
+            <string key="dialog_1"/>
+            <string key="exchange_1"/>
+            <string key="mail_1"/>
+            <string key="mail_2"/>
+            <string key="dialog_2"/>
+            <string key="dialog_3"/>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1"/>
+            <string key="name_2"/>
+          </fr_FR>
+          <es_ES>
+            <string key="dialog_1"/>
+            <string key="exchange_1"/>
+            <string key="mail_1"/>
+            <string key="mail_2"/>
+            <string key="dialog_2"/>
+            <string key="dialog_3"/>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1"/>
+            <string key="name_2"/>
+          </es_ES>
+          <it_IT>
+            <string key="dialog_1"/>
+            <string key="exchange_1"/>
+            <string key="mail_1"/>
+            <string key="mail_2"/>
+            <string key="dialog_2"/>
+            <string key="dialog_3"/>
+            <string key="dialog_4"/>
+            <string key="dialog_5"/>
+            <string key="name_1"/>
+            <string key="name_2"/>
+          </it_IT>
+        </text>
+      </character>
+    </celebrity>
+  </event>
+</events>
