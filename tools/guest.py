@@ -39,8 +39,8 @@ File map (all multi-byte fields big-endian)::
     0x0908  2*2     text_offsets[4:6]
     0x090C  3       date_a                   {year, month, day}, month 1-12 day 1-31
     0x090F  3       date_b                   {year, month, day}
-    0x0912  2       object_id_a              wanted-Pii species id; gated by OBJECT_A (0x200)
-    0x0914  2       object_id_b              wanted-Pii species id; gated by OBJECT_B (0x400)
+    0x0912  2       object_id_a              met location; gated by OBJECT_A (0x200)
+    0x0914  2       object_id_b              level of the Pokemon; gated by OBJECT_B (0x400)
     0x0916  2       (unchecked)
     0x0918  8       0x00 * 8 (reserved)
     0x0920  2*2     text_offsets[6:8]
@@ -84,12 +84,7 @@ None of this is a field you set here; it is an emergent property of the
 
 Ranch object IDs (object_a / object_b)
 --------------------------------------
-``object_a`` / ``object_b`` (gated by flags 0x200 / 0x400) are the celebrity's
-extra "wanted Pii" -- **ranch Pokemon-species IDs**, not arbitrary object indices:
-
-* Base forms use the **National Dex number** (e.g. ``object_b`` == 62 == Poliwrath).
-* Alternate forms use an extended **3000+ bank** (the game treats 0xBBA == 3002 as
-  a "use the alternate form" sentinel when decoding a Pokemon).
+``object_a`` / ``object_b`` (gated by flags 0x200 / 0x400) are the met location and level of the Pokemon respectively.
 
 This is the *same* species-number space the game classifies decrypted PK4 species
 in: the validator ``0x803A8498`` shares its family bounds table (at SDA2 -0x6900,
@@ -312,7 +307,7 @@ def parse_character(char_node):
     return Character(char_node.findtext("mii"), text)
 
 
-def parse_event(root, event_id):
+def parse_event(root, event_id, locale="en_US"):
     events = root.findall("event")
     matches = [e for e in events if e.get("id") == str(event_id)]
     if matches:
@@ -323,7 +318,14 @@ def parse_event(root, event_id):
         ids = ", ".join(e.get("id", "?") for e in events)
         raise ValueError(f"No event with id {event_id} (available: {ids})")
 
-    pokemon_hex = (event.findtext("pokemon") or "").strip() or ("00" * POKEMON_SIZE)
+    pokemon_hex = "00" * POKEMON_SIZE
+    pokemon_node = event.find("pokemon")
+    if pokemon_node is not None:
+        loc_node = pokemon_node.find(locale)
+        if loc_node is not None and loc_node.text and loc_node.text.strip():
+            pokemon_hex = loc_node.text.strip()
+        elif pokemon_node.text and pokemon_node.text.strip():
+            pokemon_hex = pokemon_node.text.strip()
 
     celeb = event.find("celebrity")
     characters = [parse_character(c) for c in
@@ -491,7 +493,7 @@ def main():
     args = parser.parse_args()
 
     root = ET.parse(XML_PATH).getroot()
-    event = parse_event(root, args.event)
+    event = parse_event(root, args.event, args.locale)
 
     # Flags come from the XML. <trade> sets the trade bit explicitly; if it is
     # omitted we fall back to "trade iff a wanted_species is given". GUEST_2/3
