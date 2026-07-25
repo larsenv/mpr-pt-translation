@@ -187,10 +187,10 @@
     67	= Se ha guardado la foto en\n
 	+ la tarjeta SD con el nombre\n
 	+ %2$.4s%3$04d.JPG en la\n
-	+ carpeta \\DCIM\\%1$03dNIN01.
+	+ carpeta ＼DCIM＼%1$03dNIN01.
     68	= Noticias
     69	= Borrar todas las fotos de\n
-	+ la tarjeta SD\\
+	+ la tarjeta SD
     6a	= Se borrarán todas las fotos\n
 	+ de My Pokémon Ranch\n
 	+ guardadas en la tarjeta SD.
@@ -245,7 +245,7 @@
 	+ del Álbum en una tarjeta SD.
     7f	= ¿Quieres guardar todo?
     80	= Se han guardado todas las fotos\n
-	+ en la carpeta \\DCIM\\%1$03dNIN01\n
+	+ en la carpeta ＼DCIM＼%1$03dNIN01\n
 	+ dentro de la tarjeta SD.
     81	= ¿Borrar todas las fotos\n
 	+ desprotegidas?

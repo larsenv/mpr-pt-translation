@@ -193,7 +193,7 @@
 	+ speichern?
     67	 = Foto wurde als\n
 	+ %2$.4s%3$04d.JPG im\n
-	+ Ordner \\DCIM\\%1$03dNIN01\n
+	+ Ordner ＼DCIM＼%1$03dNIN01\n
 	+ auf der SD Card gespeichert.
     68	 = Pokémon Ranch-News
     69	 = Alle Fotos auf der SD Card\n
@@ -250,7 +250,7 @@
 	+ auf SD Card speichern.
     7f	 = Möchtest du alles speichern?
     80	 = Alle Fotos wurden im Ordner\n
-	+ \\DCIM\\%1$03dNIN01 auf der\n
+	+ ＼DCIM＼%1$03dNIN01 auf der\n
 	+ SD Card gespeichert.
     81	 = Alle schreibgeschützten\n
 	+ Fotos löschen?

@@ -145,7 +145,7 @@
     47	= You must have deposited Pokémon from this Game Card before you can
 	+  complete a Pokémon Wanted request.
     48	= Return
-    49	= Connect to DS\x{ff3c}
+    49	= Connect to DS
     4a	= Cancel connection
     4b	= Disconnect from DS
     4c	= Album
@@ -153,7 +153,7 @@
     4e	= Help
     4f	= BBS
     50	= Look This Way
-    51	= Options＼
+    51	= Options
     52	= Free Mode
     53	= Auto Mode
     54	= Deposit\n
@@ -182,7 +182,7 @@
 	+ to an SD Card?
     67	= Saved the picture as\n
 	+ %2$.4s%3$04d.JPG\n
-	+ to folder \\DCIM\\%03dNIN01\n
+	+ to folder ＼DCIM＼%03dNIN01\n
 	+ in the SD Card.
     68	= Ranch News
     69	= Delete all pictures on\n
@@ -241,7 +241,7 @@
 	+ to the SD Card.
     7f	= Is it okay to save everything?
     80	= All pictures have been saved\n
-	+ to folder \\DCIM\\%03dNIN01\n
+	+ to folder ＼DCIM＼%03dNIN01\n
 	+ in the SD Card.
     81	= Delete all unsecured\n
 	+ pictures?

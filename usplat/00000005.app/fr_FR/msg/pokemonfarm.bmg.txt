@@ -183,7 +183,7 @@
     66	 = Voulez-vous sauvegarder\n
 	+ cette photo sur une carte SD?
     67	 = Photo sauvegardée dans le\n
-	+ répertoire \\DCIM\\%03dNIN01\n
+	+ répertoire ＼DCIM＼%03dNIN01\n
 	+ de la carte SD, sous le nom\n
 	+ %.4s%04d.JPG.
     68	 = Infos du Ranch Pokémon
@@ -251,7 +251,7 @@
 	+ toutes les photos?
     80	 = Toutes les photos ont été\n
 	+ sauvegardées dans le\n
-	+ répertoire \\DCIM\\%03dNIN01\n
+	+ répertoire ＼DCIM＼%03dNIN01\n
 	+ de la carte SD.
     81	 = Voulez-vous effacer toutes les\n
 	+ photos non protégées?
