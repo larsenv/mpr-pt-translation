@@ -372,7 +372,7 @@
 	+ senza preavviso.
     b8	 = Pokémon desiderati
     b9   = (TRANSLATION NEEDED) Today's Music
-    ba	 = (TRANSLATION NEEDED) Club Look-See
+    ba	 = Club Guarda-Guarda
     bb	 = È già pieno di %{}!
     bc	 = È già pieno di Uova!
     bd	 = Livello del Ranch\n
@@ -421,8 +421,7 @@
     db	 = Pagina precedente
     dc	 = Pagina successiva
     dd	 = Indietro
-    de	 = (TRANSLATION NEEDED) Would you like to go to\n
-	+ the %ls Ranch?
+    de	 = Vuoi andare al Ranch di %ls?
     df	 = ???
     e0	 = Domani...
     e1	 = ... il Ranch si espande!
@@ -619,7 +618,7 @@
    19b   = del Drago
    19c   = Terra
    19d   = Gran Cielo
-   19e   = (TRANSLATION NEEDED) Red
+   19e   = Rosso
    19f	 = (TRANSLATION NEEDED) Hungry
    1a0	 = (TRANSLATION NEEDED) Bouncy
    1a1	 = © Pokémon/Nintendo.
@@ -834,13 +833,13 @@
 	+ Ranch dalla scheda SD.
    216	 = 
    217   = 
-   218	 = (TRANSLATION NEEDED) Album (5)
+   218	 = Album (5)
    219	 = Salva in una scheda SD
    21a	 = Salva tutte le foto nell'album\n
 	+ della scheda SD.
    21b	 = Collegamento al DS (1)
    21c	 = Collegati al DS
-   21d	 = (TRANSLATION NEEDED) You can deposit Pokémon to and\n
+   21d	 = You can deposit Pokémon to and\n
 	+ withdraw Pokémon from the Ranch by\n
 	+ connecting with Pokémon Diamond,\n
 	+ Pearl and Platinum.
@@ -965,9 +964,9 @@
    259	 = (TRANSLATION NEEDED) In addition, you can choose\n
 	+ music from a variety of songs.
    25a	 = (TRANSLATION NEEDED) (No Music)
-   25b	 = (TRANSLATION NEEDED) Stop the music.
-   25c	 = (TRANSLATION NEEDED) Club Look-See
-   25d	 = (TRANSLATION NEEDED) Club Look-See
+   25b	 = Ferma la musica.
+   25c	 = Club Guarda-Guarda
+   25d	 = Club Guarda-Guarda
    25e	 = (TRANSLATION NEEDED) You can revisit a\n
 	+ Club Look-See Ranch if \n
 	+ you've been there before.
@@ -1010,18 +1009,20 @@
 	+ senza il tuo consenso.
    273	 = FAQ (1)
    274	 = Domanda
-   275	 = (TRANSLATION NEEDED) Can I withdraw Pokémon that I\n
-	+ deposited from Pokémon Diamond\n
-	+ into Pokémon Pearl?\n
+   275	 = Se deposito un Pokémon da\n
+	+ Pokémon Diamante, posso\n
+	+ ritirarlo usando Pokémon\n
+	+ Perla?
    276	 = Risposta
    277	 = No. Puoi ritirare un Pokémon solo\n
 	+ usando la stessa scheda di gioco\n
 	+ utilizzata per depositarlo.
    278	 = FAQ (2)
    279	 = Domanda
-   27a	 = (TRANSLATION NEEDED) Can I withdraw Pokémon that my friend\n
-	+ deposited to the Ranch to my Pokémon\n
-	+ Diamond, Pearl or Platinum?\n
+   27a	 = Posso utilizzare la mia scheda di\n
+	+ gioco di Pokémon Diamante, Perla\n
+	+ o Platino per ritirare un Pokémon\n
+	+ depositato nel Ranch da un amico?
    27b	 = Risposta
    27c	 = No. Puoi ritirare un Pokémon solo\n
 	+ usando la stessa scheda di gioco\n

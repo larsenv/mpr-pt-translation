@@ -92,10 +92,10 @@
 	+ Pensione Pokémon di Flemminia.
     18	 = Non si sa come catturare\n
 	+ questo Pokémon.
-    19	 = (TRANSLATION NEEDED) You can get it by trading\n
-	+ with other DS Pokémon games.
-    1a	 = (TRANSLATION NEEDED) You can find it roaming\n 
-	+ around the Sinnoh region.
+    19	 = Puoi ottenerlo scambiandolo con\n
+	+ altri giochi Pokémon per DS.
+    1a	 = Puoi trovarlo nella\n 
+	+ regione di Sinnoh.
     1b	 = Percorso 201
     1c	 = Percorso 202
     1d	 = Percorso 203
@@ -499,7 +499,7 @@
 	+ Via Vittoria o sul Percorso 224.
    122	 = Puoi ottenere un Affilodente\n
 	+ nel Giardino Lotta.
-   123	 = (TRANSLATION NEEDED) Puoi ottenere un Razor Fang al Percorso 225.
+   123	 = Puoi ottenere un Razor Fang al Percorso 225.
    124	 = Quando WURMPLE arriva al livello 7,\n\n
 	+ egli si evolve in un SILCOON o CASCOON.
    125	 = Trovi lo strumento sul Lago Verità\n
