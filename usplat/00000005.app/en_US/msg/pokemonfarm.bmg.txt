@@ -145,15 +145,15 @@
     47	= You must have deposited Pokémon from this Game Card before you can
 	+  complete a Pokémon Wanted request.
     48	= Return
-    49	= Connect to DS
+    49	= Connect to DS\x{005c}
     4a	= Cancel connection
     4b	= Disconnect from DS
     4c	= Album
     4d	= Take Picture
-    4e	= Help
-    4f	= BBS
+    4e	= Help%5C
+    4f	= BBS\u005C
     50	= Look This Way
-    51	= Options\x5C\u005C
+    51	= Options\x5C
     52	= Free Mode
     53	= Auto Mode
     54	= Deposit\n
