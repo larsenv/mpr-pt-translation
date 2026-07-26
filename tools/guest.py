@@ -39,8 +39,8 @@ File map (all multi-byte fields big-endian)::
     0x0908  2*2     text_offsets[4:6]
     0x090C  3       date_a                   {year, month, day}, month 1-12 day 1-31
     0x090F  3       date_b                   {year, month, day}
-    0x0912  2       pokemonlevel              met location; gated by POKEMONLEVEL (0x200)
-    0x0914  2       metlocation              level of the Pokemon; gated by METLOCATION (0x400)
+    0x0912  2       pokemon_level              met location; gated by POKEMON_LEVEL (0x200)
+    0x0914  2       met_location              level of the Pokemon; gated by MET_LOCATION (0x400)
     0x0916  2       (unchecked)
     0x0918  8       0x00 * 8 (reserved)
     0x0920  2*2     text_offsets[6:8]
@@ -82,9 +82,9 @@ Gender (``_F`` / ``_M``) is chosen from the PKM's gender via ``0x803B24F4``.
 None of this is a field you set here; it is an emergent property of the
 ``<pokemon>`` blob. Populate ``<pokemon>`` with a qualifying Pikachu to use it.
 
-Ranch object IDs (pokemonlevel / metlocation)
+Ranch object IDs (pokemon_level / met_location)
 --------------------------------------
-``pokemonlevel`` / ``metlocation`` (gated by flags 0x200 / 0x400) are the met location and level of the Pokemon respectively.
+``pokemon_level`` / ``met_location`` (gated by flags 0x200 / 0x400) are the met location and level of the Pokemon respectively.
 
 This is the *same* species-number space the game classifies decrypted PK4 species
 in: the validator ``0x803A8498`` shares its family bounds table (at SDA2 -0x6900,
@@ -149,8 +149,8 @@ class GuestFlags(IntFlag):
     GUEST_2 = 0x0002     # a second guest Mii is present at 0x924
     GUEST_3 = 0x0004     # a third guest Mii is present at 0x970 (requires GUEST_2)
     FORCED_EXIT = 0x0020  # kill switch: the whole payload is ignored if set
-    POKEMONLEVEL = 0x0200    # enables pokemonlevel at 0x912
-    METLOCATION = 0x0400    # enables metlocation at 0x914
+    POKEMON_LEVEL = 0x0200    # enables pokemon_level at 0x912
+    MET_LOCATION = 0x0400    # enables met_location at 0x914
 
     # bits 0x0008 / 0x0010 / 0x0080 / 0x0100 are not validated (free/semantic);
     # bits 0x0040 and 0xF800 must be zero.
@@ -250,13 +250,13 @@ class Character:
 
 
 class Event:
-    def __init__(self, pokemon_hex, characters, wanted_species, pokemonlevel, metlocation,
+    def __init__(self, pokemon_hex, characters, wanted_species, pokemon_level, met_location,
                  trade=None, window_open=None, window_close=None):
         self.pokemon_hex = pokemon_hex
         self.characters = characters       # exactly three (padded)
         self.wanted_species = wanted_species
-        self.pokemonlevel = pokemonlevel
-        self.metlocation = metlocation
+        self.pokemon_level = pokemon_level
+        self.met_location = met_location
         self.trade = trade                 # True/False, or None to auto-infer
         self.window_open = window_open      # seconds since 2000, or None
         self.window_close = window_close
@@ -345,8 +345,8 @@ def parse_event(root, event_id, locale="en_US"):
         pokemon_hex,
         characters,
         wanted_species=_int_field(event, "wanted_species", 0),
-        pokemonlevel=_int_field(event, "pokemonlevel", 0),
-        metlocation=_int_field(event, "metlocation", 0),
+        pokemon_level=_int_field(event, "pokemon_level", 0),
+        met_location=_int_field(event, "met_location", 0),
         trade=_bool_field(event, "trade"),
         window_open=window_open,
         window_close=window_close,
@@ -382,8 +382,8 @@ def build_talent(
     wanted_species,
     region_filter=ANY_REGION,
     language_filter=ANY_LANGUAGE,
-    pokemonlevel=0,
-    metlocation=0,
+    pokemon_level=0,
+    met_location=0,
     date_a=(0, 0, 0),
     date_b=(0, 0, 0),
     window=None,
@@ -455,8 +455,8 @@ def build_talent(
 
     w.at(0x90C, "date_a").raw(bytes(date_a))
     w.at(0x90F, "date_b").raw(bytes(date_b))
-    w.at(0x912, "pokemonlevel").u16(pokemonlevel)
-    w.at(0x914, "metlocation").u16(metlocation)
+    w.at(0x912, "pokemon_level").u16(pokemon_level)
+    w.at(0x914, "met_location").u16(met_location)
     w.at(0x916, "reserved").u16(0)
     w.at(0x918, "reserved").zeros(8)
 
@@ -497,7 +497,7 @@ def main():
 
     # Flags come from the XML. <trade> sets the trade bit explicitly; if it is
     # omitted we fall back to "trade iff a wanted_species is given". GUEST_2/3
-    # and POKEMONLEVEL/B follow from whether those fields are populated.
+    # and POKEMON_LEVEL/B follow from whether those fields are populated.
     trade = event.trade if event.trade is not None else bool(event.wanted_species)
     flags = GuestFlags(0)
     if trade:
@@ -506,10 +506,10 @@ def main():
         flags |= GuestFlags.GUEST_2
     if not event.characters[2].is_empty:
         flags |= GuestFlags.GUEST_3
-    if event.pokemonlevel:
-        flags |= GuestFlags.POKEMONLEVEL
-    if event.metlocation:
-        flags |= GuestFlags.METLOCATION
+    if event.pokemon_level:
+        flags |= GuestFlags.POKEMON_LEVEL
+    if event.met_location:
+        flags |= GuestFlags.MET_LOCATION
 
     window = None
     if event.window_open is not None:
@@ -520,8 +520,8 @@ def main():
         event.characters,
         flags=flags,
         wanted_species=event.wanted_species,
-        pokemonlevel=event.pokemonlevel,
-        metlocation=event.metlocation,
+        pokemon_level=event.pokemon_level,
+        met_location=event.met_location,
         window=window,
         locale=args.locale,
     )

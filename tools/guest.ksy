@@ -106,7 +106,7 @@ types:
       - id: date_b
         type: ymd
         doc: File 0x90F.
-      - id: pokemonlevel
+      - id: pokemon_level
         type: u2
         doc: |
           The celebrity's extra "wanted Pii" -- a ranch Pokemon-species ID, validated
@@ -118,9 +118,9 @@ types:
           with 0x803A83CC, the species classifier used across the Pokemon decode/render
           code. See ranch_pii_table.tsv for the ranch's renderable-model roster (its row
           index is a model index, NOT this species number). File 0x912.
-      - id: metlocation
+      - id: met_location
         type: u2
-        doc: Second wanted-Pii species id (same scheme as pokemonlevel); gated by flag 0x400. File 0x914.
+        doc: Second wanted-Pii species id (same scheme as pokemon_level); gated by flag 0x400. File 0x914.
       - id: reserved_916
         type: u2
         doc: Not validated. File 0x916.
@@ -151,9 +151,9 @@ types:
       forced_exit:
         value: (flags & 0x0020) != 0
         doc: Kill switch; the whole payload is ignored if set.
-      has_pokemonlevel:
+      has_pokemon_level:
         value: (flags & 0x0200) != 0
-      has_metlocation:
+      has_met_location:
         value: (flags & 0x0400) != 0
   mii_block:
     doc: 74-byte Wii Mii (RFLCharData) followed by its CRC-16/XMODEM.

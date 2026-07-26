@@ -1,477 +1,2020 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <events>
-  <event id="1">
-    <pokemon>
-      <en_US/>
-      <ja_JP/>
-      <de_DE/>
-      <fr_FR/>
-      <es_ES/>
-      <it_IT/>
-    </pokemon>
-    <!-- trade: does the celebrity offer a Pokemon exchange? (omit = auto: on when
-              wanted_species is set). Sets the 0x1 flag.
-         wanted_species: National Dex no. the guest asks you to bring (0 = none, < 496).
-         pokemonlevel / metlocation: met location and level of the Pokemon respectively; 0 disables.
-         window_open / window_close: distribution period (UTC "YYYY-MM-DD [HH:MM:SS]").
-              Both or neither; omit to auto-generate a now-relative window. -->
-    <trade>true</trade>
-    <wanted_species>129</wanted_species>
-    <pokemonlevel>0</pokemonlevel>
-    <metlocation>0</metlocation>
-    <celebrity>
-      <character name="Akiyama">
-        <mii>80060041006B006900790061006D006100000000000040408836A1113A017D6284003E00017D0891A48B084084485AAE008A008A25040000000000000000000000000000000000000000</mii>
-        <text>
-          <en_US>
-            <string key="dialog_1"/>
-            <string key="exchange_1"/>
-            <string key="mail_1"/>
-            <string key="mail_2"/>
-            <string key="dialog_2"/>
-            <string key="dialog_3"/>
-            <string key="dialog_4"/>
-            <string key="dialog_5"/>
-            <string key="name_1"/>
-            <string key="name_2"/>
-          </en_US>
-          <ja_JP>
-            <string key="dialog_1">ポケモーニング！
-あきやまたいいんだよ</string>
-            <string key="exchange_1">コイキングをつれてくると、ケッキングと
-こうかんしてくれるそうです。</string>
-            <string key="mail_1"/>
-            <string key="mail_2"/>
-            <string key="dialog_2"/>
-            <string key="dialog_3"/>
-            <string key="dialog_4"/>
-            <string key="dialog_5"/>
-            <string key="name_1"/>
-            <string key="name_2"/>
-          </ja_JP>
-          <de_DE>
-            <string key="dialog_1"/>
-            <string key="exchange_1"/>
-            <string key="mail_1"/>
-            <string key="mail_2"/>
-            <string key="dialog_2"/>
-            <string key="dialog_3"/>
-            <string key="dialog_4"/>
-            <string key="dialog_5"/>
-            <string key="name_1"/>
-            <string key="name_2"/>
-          </de_DE>
-          <fr_FR>
-            <string key="dialog_1"/>
-            <string key="exchange_1"/>
-            <string key="mail_1"/>
-            <string key="mail_2"/>
-            <string key="dialog_2"/>
-            <string key="dialog_3"/>
-            <string key="dialog_4"/>
-            <string key="dialog_5"/>
-            <string key="name_1"/>
-            <string key="name_2"/>
-          </fr_FR>
-          <es_ES>
-            <string key="dialog_1"/>
-            <string key="exchange_1"/>
-            <string key="mail_1"/>
-            <string key="mail_2"/>
-            <string key="dialog_2"/>
-            <string key="dialog_3"/>
-            <string key="dialog_4"/>
-            <string key="dialog_5"/>
-            <string key="name_1"/>
-            <string key="name_2"/>
-          </es_ES>
-          <it_IT>
-            <string key="dialog_1"/>
-            <string key="exchange_1"/>
-            <string key="mail_1"/>
-            <string key="mail_2"/>
-            <string key="dialog_2"/>
-            <string key="dialog_3"/>
-            <string key="dialog_4"/>
-            <string key="dialog_5"/>
-            <string key="name_1"/>
-            <string key="name_2"/>
-          </it_IT>
-        </text>
-      </character>
-    </celebrity>
-  </event>
-  <event id="2">
-    <pokemon>
-      <en_US/>
-      <ja_JP/>
-      <de_DE/>
-      <fr_FR/>
-      <es_ES/>
-      <it_IT/>
-    </pokemon>
-    <trade>true</trade>
-    <wanted_species>396</wanted_species>
-    <pokemonlevel>0</pokemonlevel>
-    <metlocation>0</metlocation>
-    <celebrity>
-      <character name="Babaigon">
-        <mii>8008004200610062006100690067006F006E0000000040408836A0223A017D6240004400017D06A2684C08608640784E008A008A25040000000000000000000000000000000000000000</mii>
-        <text>
-          <en_US>
-            <string key="dialog_1"/>
-            <string key="exchange_1"/>
-            <string key="mail_1"/>
-            <string key="mail_2"/>
-            <string key="dialog_2"/>
-            <string key="dialog_3"/>
-            <string key="dialog_4"/>
-            <string key="dialog_5"/>
-            <string key="name_1"/>
-            <string key="name_2"/>
-          </en_US>
-          <ja_JP>
-            <string key="dialog_1"/>
-            <string key="exchange_1">すこい！ムックルをつれてきて
-さっそくこうかんしよう。</string>
-            <string key="mail_1"/>
-            <string key="mail_2"/>
-            <string key="dialog_2"/>
-            <string key="dialog_3"/>
-            <string key="dialog_4"/>
-            <string key="dialog_5"/>
-            <string key="name_1"/>
-            <string key="name_2"/>
-          </ja_JP>
-          <de_DE>
-            <string key="dialog_1"/>
-            <string key="exchange_1"/>
-            <string key="mail_1"/>
-            <string key="mail_2"/>
-            <string key="dialog_2"/>
-            <string key="dialog_3"/>
-            <string key="dialog_4"/>
-            <string key="dialog_5"/>
-            <string key="name_1"/>
-            <string key="name_2"/>
-          </de_DE>
-          <fr_FR>
-            <string key="dialog_1"/>
-            <string key="exchange_1"/>
-            <string key="mail_1"/>
-            <string key="mail_2"/>
-            <string key="dialog_2"/>
-            <string key="dialog_3"/>
-            <string key="dialog_4"/>
-            <string key="dialog_5"/>
-            <string key="name_1"/>
-            <string key="name_2"/>
-          </fr_FR>
-          <es_ES>
-            <string key="dialog_1"/>
-            <string key="exchange_1"/>
-            <string key="mail_1"/>
-            <string key="mail_2"/>
-            <string key="dialog_2"/>
-            <string key="dialog_3"/>
-            <string key="dialog_4"/>
-            <string key="dialog_5"/>
-            <string key="name_1"/>
-            <string key="name_2"/>
-          </es_ES>
-          <it_IT>
-            <string key="dialog_1"/>
-            <string key="exchange_1"/>
-            <string key="mail_1"/>
-            <string key="mail_2"/>
-            <string key="dialog_2"/>
-            <string key="dialog_3"/>
-            <string key="dialog_4"/>
-            <string key="dialog_5"/>
-            <string key="name_1"/>
-            <string key="name_2"/>
-          </it_IT>
-        </text>
-      </character>
-    </celebrity>
-  </event>
-  <event id="3">
-    <pokemon>
-      <en_US/>
-      <ja_JP/>
-      <de_DE/>
-      <fr_FR/>
-      <es_ES/>
-      <it_IT/>
-    </pokemon>
-    <trade>true</trade>
-    <wanted_species>263</wanted_species>
-    <pokemonlevel>0</pokemonlevel>
-    <metlocation>0</metlocation>
-    <celebrity>
-      <character name="Golko">
-        <mii>80160047006F006C006B006F00000000000000000000404088369F123A017D6284002E00613D08611CAA0640743020CE008A402625040000000000000000000000000000000000000000</mii>
-        <text>
-          <en_US>
-            <string key="dialog_1"/>
-            <string key="exchange_1"/>
-            <string key="mail_1"/>
-            <string key="mail_2"/>
-            <string key="dialog_2"/>
-            <string key="dialog_3"/>
-            <string key="dialog_4"/>
-            <string key="dialog_5"/>
-            <string key="name_1"/>
-            <string key="name_2"/>
-          </en_US>
-          <ja_JP>
-            <string key="dialog_1">やあみんな、ポケサンカンパニーの
+
+
+
+
+
+<event id="1">
+<window_open>2008-04-08 00:00:00</window_open>
+<window_close>2008-04-14 23:59:59</window_close>
+<pokemon/>
+<trade>false</trade>
+<wanted_species>0</wanted_species>
+<pokemon_level>100</pokemon_level>
+<met_location>0</met_location>
+<celebrity>
+<character name="しょこたん">
+<mii/>
+<text>
+<en_us>
+<string key="dialog_1"/></en_us>
+<ja_jp>
+<string key="dialog_1"/>
+<string key="exchange_1"/>
+<string key="mail_1"/>
+<string key="mail_2"/>
+<string key="dialog_2"/>
+<string key="dialog_3"/>
+<string key="dialog_4"/>
+<string key="dialog_5"/>
+<string key="name_1"/>
+<string key="name_2"/>
+</ja_jp>
+<de_de>
+<string key="dialog_1"/>
+<string key="exchange_1"/>
+<string key="mail_1"/>
+<string key="mail_2"/>
+<string key="dialog_2"/>
+<string key="dialog_3"/>
+<string key="dialog_4"/>
+<string key="dialog_5"/>
+<string key="name_1"/>
+<string key="name_2"/>
+</de_de>
+<fr_fr>
+<string key="dialog_1"/>
+<string key="exchange_1"/>
+<string key="mail_1"/>
+<string key="mail_2"/>
+<string key="dialog_2"/>
+<string key="dialog_3"/>
+<string key="dialog_4"/>
+<string key="dialog_5"/>
+<string key="name_1"/>
+<string key="name_2"/>
+</fr_fr>
+<es_es>
+<string key="dialog_1"/>
+<string key="exchange_1"/>
+<string key="mail_1"/>
+<string key="mail_2"/>
+<string key="dialog_2"/>
+<string key="dialog_3"/>
+<string key="dialog_4"/>
+<string key="dialog_5"/>
+<string key="name_1"/>
+<string key="name_2"/>
+</es_es>
+<it_it>
+<string key="dialog_1"/>
+<string key="exchange_1"/>
+<string key="mail_1"/>
+<string key="mail_2"/>
+<string key="dialog_2"/>
+<string key="dialog_3"/>
+<string key="dialog_4"/>
+<string key="dialog_5"/>
+<string key="name_1"/>
+<string key="name_2"/>
+</it_it>
+</text>
+</character>
+</celebrity>
+</event><event id="2">
+<window_open>2008-04-15 00:00:00</window_open>
+<window_close>2008-04-21 23:59:59</window_close>
+<pokemon/>
+<trade>false</trade>
+<wanted_species>0</wanted_species>
+<pokemon_level>32</pokemon_level>
+<met_location>0</met_location>
+<celebrity>
+<character name="アンガールズやまね">
+<mii/>
+<text>
+<en_us>
+<string key="dialog_1"/>
+<string key="exchange_1"/>
+<string key="mail_1"/>
+<string key="mail_2"/>
+<string key="dialog_2"/>
+<string key="dialog_3"/>
+<string key="dialog_4"/>
+<string key="dialog_5"/>
+<string key="name_1"/>
+<string key="name_2"/>
+</en_us>
+<ja_jp>
+<string key="dialog_1"/>
+<string key="exchange_1"/>
+<string key="mail_1"/>
+<string key="mail_2"/>
+<string key="dialog_2"/>
+<string key="dialog_3"/>
+<string key="dialog_4"/>
+<string key="dialog_5"/>
+<string key="name_1"/>
+<string key="name_2"/>
+</ja_jp>
+<de_de>
+<string key="dialog_1"/>
+<string key="exchange_1"/>
+<string key="mail_1"/>
+<string key="mail_2"/>
+<string key="dialog_2"/>
+<string key="dialog_3"/>
+<string key="dialog_4"/>
+<string key="dialog_5"/>
+<string key="name_1"/>
+<string key="name_2"/>
+</de_de>
+<fr_fr>
+<string key="dialog_1"/>
+<string key="exchange_1"/>
+<string key="mail_1"/>
+<string key="mail_2"/>
+<string key="dialog_2"/>
+<string key="dialog_3"/>
+<string key="dialog_4"/>
+<string key="dialog_5"/>
+<string key="name_1"/>
+<string key="name_2"/>
+</fr_fr>
+<es_es>
+<string key="dialog_1"/>
+<string key="exchange_1"/>
+<string key="mail_1"/>
+<string key="mail_2"/>
+<string key="dialog_2"/>
+<string key="dialog_3"/>
+<string key="dialog_4"/>
+<string key="dialog_5"/>
+<string key="name_1"/>
+<string key="name_2"/>
+</es_es>
+<it_it>
+<string key="dialog_1"/>
+<string key="exchange_1"/>
+<string key="mail_1"/>
+<string key="mail_2"/>
+<string key="dialog_2"/>
+<string key="dialog_3"/>
+<string key="dialog_4"/>
+<string key="dialog_5"/>
+<string key="name_1"/>
+<string key="name_2"/>
+</it_it>
+</text>
+</character>
+</celebrity>
+</event><event id="3">
+<window_open>2008-04-22 00:00:00</window_open>
+<window_close>2008-04-28 23:59:59</window_close>
+<pokemon/>
+<trade>false</trade>
+<wanted_species>0</wanted_species>
+<pokemon_level>14</pokemon_level>
+<met_location>0</met_location>
+<celebrity>
+<character name="アンガールズたなか">
+<mii/>
+<text>
+<en_us>
+<string key="dialog_1"/>
+<string key="exchange_1"/>
+<string key="mail_1"/>
+<string key="mail_2"/>
+<string key="dialog_2"/>
+<string key="dialog_3"/>
+<string key="dialog_4"/>
+<string key="dialog_5"/>
+<string key="name_1"/>
+<string key="name_2"/>
+</en_us>
+<ja_jp>
+<string key="dialog_1"/>
+<string key="exchange_1"/>
+<string key="mail_1"/>
+<string key="mail_2"/>
+<string key="dialog_2"/>
+<string key="dialog_3"/>
+<string key="dialog_4"/>
+<string key="dialog_5"/>
+<string key="name_1"/>
+<string key="name_2"/>
+</ja_jp>
+<de_de>
+<string key="dialog_1"/>
+<string key="exchange_1"/>
+<string key="mail_1"/>
+<string key="mail_2"/>
+<string key="dialog_2"/>
+<string key="dialog_3"/>
+<string key="dialog_4"/>
+<string key="dialog_5"/>
+<string key="name_1"/>
+<string key="name_2"/>
+</de_de>
+<fr_fr>
+<string key="dialog_1"/>
+<string key="exchange_1"/>
+<string key="mail_1"/>
+<string key="mail_2"/>
+<string key="dialog_2"/>
+<string key="dialog_3"/>
+<string key="dialog_4"/>
+<string key="dialog_5"/>
+<string key="name_1"/>
+<string key="name_2"/>
+</fr_fr>
+<es_es>
+<string key="dialog_1"/>
+<string key="exchange_1"/>
+<string key="mail_1"/>
+<string key="mail_2"/>
+<string key="dialog_2"/>
+<string key="dialog_3"/>
+<string key="dialog_4"/>
+<string key="dialog_5"/>
+<string key="name_1"/>
+<string key="name_2"/>
+</es_es>
+<it_it>
+<string key="dialog_1"/>
+<string key="exchange_1"/>
+<string key="mail_1"/>
+<string key="mail_2"/>
+<string key="dialog_2"/>
+<string key="dialog_3"/>
+<string key="dialog_4"/>
+<string key="dialog_5"/>
+<string key="name_1"/>
+<string key="name_2"/>
+</it_it>
+</text>
+</character>
+</celebrity>
+</event><event id="4">
+<window_open>2008-04-29 00:00:00</window_open>
+<window_close>2008-05-05 23:59:59</window_close>
+<pokemon/>
+<trade>false</trade>
+<wanted_species>0</wanted_species>
+<pokemon_level>25</pokemon_level>
+<met_location>0</met_location>
+<celebrity>
+<character name="いいじま あかね">
+<mii/>
+<text>
+<en_us>
+<string key="dialog_1"/>
+<string key="exchange_1"/>
+<string key="mail_1"/>
+<string key="mail_2"/>
+            string key="dialog_2"&gt;I came to visit\n
+with PIKACHU.\n
+I love golf,\n
+and Pokémon too!
+<string key="dialog_3"/>
+<string key="dialog_4"/>
+<string key="dialog_5"/>
+<string key="name_1"/>
+<string key="name_2"/>
+</en_us>
+<ja_jp>
+<string key="dialog_1"/>
+<string key="exchange_1"/>
+<string key="mail_1"/>
+<string key="mail_2"/>
+<string key="dialog_2"/>
+<string key="dialog_3"/>
+<string key="dialog_4"/>
+<string key="dialog_5"/>
+<string key="name_1"/>
+<string key="name_2"/>
+</ja_jp>
+<de_de>
+<string key="dialog_1"/>
+<string key="exchange_1"/>
+<string key="mail_1"/>
+<string key="mail_2"/>
+<string key="dialog_2"/>
+<string key="dialog_3"/>
+<string key="dialog_4"/>
+<string key="dialog_5"/>
+<string key="name_1"/>
+<string key="name_2"/>
+</de_de>
+<fr_fr>
+<string key="dialog_1"/>
+<string key="exchange_1"/>
+<string key="mail_1"/>
+<string key="mail_2"/>
+<string key="dialog_2"/>
+<string key="dialog_3"/>
+<string key="dialog_4"/>
+<string key="dialog_5"/>
+<string key="name_1"/>
+<string key="name_2"/>
+</fr_fr>
+<es_es>
+<string key="dialog_1"/>
+<string key="exchange_1"/>
+<string key="mail_1"/>
+<string key="mail_2"/>
+<string key="dialog_2"/>
+<string key="dialog_3"/>
+<string key="dialog_4"/>
+<string key="dialog_5"/>
+<string key="name_1"/>
+<string key="name_2"/>
+</es_es>
+<it_it>
+<string key="dialog_1"/>
+<string key="exchange_1"/>
+<string key="mail_1"/>
+<string key="mail_2"/>
+<string key="dialog_2"/>
+<string key="dialog_3"/>
+<string key="dialog_4"/>
+<string key="dialog_5"/>
+<string key="name_1"/>
+<string key="name_2"/>
+</it_it>
+</text>
+</character>
+</celebrity>
+</event><event id="5">
+<window_open>2008-05-06 00:00:00</window_open>
+<window_close>2008-05-12 23:59:59</window_close>
+<pokemon/>
+<trade>false</trade>
+<wanted_species>0</wanted_species>
+<pokemon_level>19</pokemon_level>
+<met_location>0</met_location>
+<celebrity>
+<character name="アッキーナ">
+<mii/>
+<text>
+<en_us>
+<string key="dialog_1"/>
+<string key="exchange_1"/>
+<string key="mail_1"/>
+<string key="mail_2"/>
+<string key="dialog_2"/>
+<string key="dialog_3"/>
+<string key="dialog_4"/>
+<string key="dialog_5"/>
+<string key="name_1"/>
+<string key="name_2"/>
+</en_us>
+<ja_jp>
+<string key="dialog_1"/>
+<string key="exchange_1"/>
+<string key="mail_1"/>
+<string key="mail_2"/>
+<string key="dialog_2"/>
+<string key="dialog_3"/>
+<string key="dialog_4"/>
+<string key="dialog_5"/>
+<string key="name_1"/>
+<string key="name_2"/>
+</ja_jp>
+<de_de>
+<string key="dialog_1"/>
+<string key="exchange_1"/>
+<string key="mail_1"/>
+<string key="mail_2"/>
+<string key="dialog_2"/>
+<string key="dialog_3"/>
+<string key="dialog_4"/>
+<string key="dialog_5"/>
+<string key="name_1"/>
+<string key="name_2"/>
+</de_de>
+<fr_fr>
+<string key="dialog_1"/>
+<string key="exchange_1"/>
+<string key="mail_1"/>
+<string key="mail_2"/>
+<string key="dialog_2"/>
+<string key="dialog_3"/>
+<string key="dialog_4"/>
+<string key="dialog_5"/>
+<string key="name_1"/>
+<string key="name_2"/>
+</fr_fr>
+<es_es>
+<string key="dialog_1"/>
+<string key="exchange_1"/>
+<string key="mail_1"/>
+<string key="mail_2"/>
+<string key="dialog_2"/>
+<string key="dialog_3"/>
+<string key="dialog_4"/>
+<string key="dialog_5"/>
+<string key="name_1"/>
+<string key="name_2"/>
+</es_es>
+<it_it>
+<string key="dialog_1"/>
+<string key="exchange_1"/>
+<string key="mail_1"/>
+<string key="mail_2"/>
+<string key="dialog_2"/>
+<string key="dialog_3"/>
+<string key="dialog_4"/>
+<string key="dialog_5"/>
+<string key="name_1"/>
+<string key="name_2"/>
+</it_it>
+</text>
+</character>
+</celebrity>
+</event><event id="6">
+<pokemon>
+<en_US/>
+<ja_JP/>
+<de_DE/>
+<fr_FR/>
+<es_ES/>
+<it_IT/>
+</pokemon>
+<trade>true</trade>
+<wanted_species>263</wanted_species>
+<pokemon_level>0</pokemon_level>
+<met_location>0</met_location>
+<celebrity>
+<character name="Golko">
+<mii>80160047006F006C006B006F00000000000000000000404088369F123A017D6284002E00613D08611CAA0640743020CE008A402625040000000000000000000000000000000000000000</mii>
+<text>
+<en_US>
+<string key="dialog_1"/>
+<string key="exchange_1"/>
+<string key="mail_1"/>
+<string key="mail_2"/>
+<string key="dialog_2"/>
+<string key="dialog_3"/>
+<string key="dialog_4"/>
+<string key="dialog_5"/>
+<string key="name_1"/>
+<string key="name_2"/>
+</en_US>
+<ja_JP>
+<string key="dialog_1">やあみんな、ポケサンカンパニーの
 ゴルゴしょちょうだ。
 ポケモン★サンデーをみて、もっと
 ポケモンをすきになってくれよな。                                                  </string>
-            <string key="exchange_1">じつはな、ジグサクマを
+<string key="exchange_1">じつはな、ジグサクマを
 25ひきあつめると
 ジグザグパレードをするんじゃ。
 わしは、と〜ってもそれがみたい！</string>
-            <string key="mail_1">ぜひ、キミの ジグサグマと
+<string key="mail_1">ぜひ、キミの ジグサグマと
 わしの オクタンを
 こうかんしようじゃないか。</string>
-            <string key="mail_2">たのしかった!
+<string key="mail_2">たのしかった!
 ほんとにありがとう。
 このなつは、
 えいがかんで あおうね！</string>
-            <string key="dialog_2"/>
-            <string key="dialog_3">わしは、しばらくほくじょうで
+<string key="dialog_2"/>
+<string key="dialog_3">わしは、しばらくほくじょうで
 あそんでいくぞ。いいな？</string>
-            <string key="dialog_4">ジグザグマをつれてくると
+<string key="dialog_4">ジグザグマをつれてくると
 オクタンと
 こうかんしてくれるそうです。</string>
-            <string key="dialog_5">お、ジグザグマを
+<string key="dialog_5">お、ジグザグマを
 つれてきてくれたのかい。
 さっそく こうかんしょうじゃないか。</string>
-            <string key="name_1">ゴルゴしょちょう</string>
-            <string key="name_2"/>
-          </ja_JP>
-          <de_DE>
-            <string key="dialog_1"/>
-            <string key="exchange_1"/>
-            <string key="mail_1"/>
-            <string key="mail_2"/>
-            <string key="dialog_2"/>
-            <string key="dialog_3"/>
-            <string key="dialog_4"/>
-            <string key="dialog_5"/>
-            <string key="name_1"/>
-            <string key="name_2"/>
-          </de_DE>
-          <fr_FR>
-            <string key="dialog_1"/>
-            <string key="exchange_1"/>
-            <string key="mail_1"/>
-            <string key="mail_2"/>
-            <string key="dialog_2"/>
-            <string key="dialog_3"/>
-            <string key="dialog_4"/>
-            <string key="dialog_5"/>
-            <string key="name_1"/>
-            <string key="name_2"/>
-          </fr_FR>
-          <es_ES>
-            <string key="dialog_1"/>
-            <string key="exchange_1"/>
-            <string key="mail_1"/>
-            <string key="mail_2"/>
-            <string key="dialog_2"/>
-            <string key="dialog_3"/>
-            <string key="dialog_4"/>
-            <string key="dialog_5"/>
-            <string key="name_1"/>
-            <string key="name_2"/>
-          </es_ES>
-          <it_IT>
-            <string key="dialog_1"/>
-            <string key="exchange_1"/>
-            <string key="mail_1"/>
-            <string key="mail_2"/>
-            <string key="dialog_2"/>
-            <string key="dialog_3"/>
-            <string key="dialog_4"/>
-            <string key="dialog_5"/>
-            <string key="name_1"/>
-            <string key="name_2"/>
-          </it_IT>
-        </text>
-      </character>
-    </celebrity>
-  </event>
-  <event id="4">
-    <pokemon>
-      <en_US/>
-      <ja_JP/>
-      <de_DE/>
-      <fr_FR/>
-      <es_ES/>
-      <it_IT/>
-    </pokemon>
-    <trade>false</trade>
-    <wanted_species>0</wanted_species>
-    <pokemonlevel>0</pokemonlevel>
-    <metlocation>0</metlocation>
-    <celebrity>
-      <character name="Yukina">
-        <mii>C00E00590075006B0069006E0061000000000000000040408836A0623A017D6220008F8001BD24A38C6B06A06438B0AD008A008A8C580000000000000000000000000000000000000000</mii>
-        <text>
-          <en_US>
-            <string key="dialog_1"/>
-            <string key="exchange_1"/>
-            <string key="mail_1"/>
-            <string key="mail_2"/>
-            <string key="dialog_2"/>
-            <string key="dialog_3"/>
-            <string key="dialog_4"/>
-            <string key="dialog_5"/>
-            <string key="name_1"/>
-            <string key="name_2"/>
-          </en_US>
-          <ja_JP>
-            <string key="dialog_1">ポケチョリーッス！
+<string key="name_1">ゴルゴしょちょう</string>
+<string key="name_2"/>
+</ja_JP>
+<de_DE>
+<string key="dialog_1"/>
+<string key="exchange_1"/>
+<string key="mail_1"/>
+<string key="mail_2"/>
+<string key="dialog_2"/>
+<string key="dialog_3"/>
+<string key="dialog_4"/>
+<string key="dialog_5"/>
+<string key="name_1"/>
+<string key="name_2"/>
+</de_DE>
+<fr_FR>
+<string key="dialog_1"/>
+<string key="exchange_1"/>
+<string key="mail_1"/>
+<string key="mail_2"/>
+<string key="dialog_2"/>
+<string key="dialog_3"/>
+<string key="dialog_4"/>
+<string key="dialog_5"/>
+<string key="name_1"/>
+<string key="name_2"/>
+</fr_FR>
+<es_ES>
+<string key="dialog_1"/>
+<string key="exchange_1"/>
+<string key="mail_1"/>
+<string key="mail_2"/>
+<string key="dialog_2"/>
+<string key="dialog_3"/>
+<string key="dialog_4"/>
+<string key="dialog_5"/>
+<string key="name_1"/>
+<string key="name_2"/>
+</es_ES>
+<it_IT>
+<string key="dialog_1"/>
+<string key="exchange_1"/>
+<string key="mail_1"/>
+<string key="mail_2"/>
+<string key="dialog_2"/>
+<string key="dialog_3"/>
+<string key="dialog_4"/>
+<string key="dialog_5"/>
+<string key="name_1"/>
+<string key="name_2"/>
+</it_IT>
+</text>
+</character>
+</celebrity>
+</event><event id="7">
+<window_open>2008-05-27 00:00:00</window_open>
+<window_close>2008-06-02 23:59:59</window_close>
+<pokemon/>
+<trade>false</trade>
+<wanted_species>0</wanted_species>
+<pokemon_level>41</pokemon_level>
+<met_location>0</met_location>
+<celebrity>
+<character name="ミッチー＆アカネ">
+<mii/>
+<text>
+<en_us>
+<string key="dialog_1"/>
+<string key="exchange_1"/>
+<string key="mail_1"/>
+<string key="mail_2"/>
+<string key="dialog_2"/>
+<string key="dialog_3"/>
+<string key="dialog_4"/>
+<string key="dialog_5"/>
+<string key="name_1"/>
+<string key="name_2"/>
+</en_us>
+<ja_jp>
+<string key="dialog_1"/>
+<string key="exchange_1"/>
+<string key="mail_1"/>
+<string key="mail_2"/>
+<string key="dialog_2"/>
+<string key="dialog_3"/>
+<string key="dialog_4"/>
+<string key="dialog_5"/>
+<string key="name_1"/>
+<string key="name_2"/>
+</ja_jp>
+<de_de>
+<string key="dialog_1"/>
+<string key="exchange_1"/>
+<string key="mail_1"/>
+<string key="mail_2"/>
+<string key="dialog_2"/>
+<string key="dialog_3"/>
+<string key="dialog_4"/>
+<string key="dialog_5"/>
+<string key="name_1"/>
+<string key="name_2"/>
+</de_de>
+<fr_fr>
+<string key="dialog_1"/>
+<string key="exchange_1"/>
+<string key="mail_1"/>
+<string key="mail_2"/>
+<string key="dialog_2"/>
+<string key="dialog_3"/>
+<string key="dialog_4"/>
+<string key="dialog_5"/>
+<string key="name_1"/>
+<string key="name_2"/>
+</fr_fr>
+<es_es>
+<string key="dialog_1"/>
+<string key="exchange_1"/>
+<string key="mail_1"/>
+<string key="mail_2"/>
+<string key="dialog_2"/>
+<string key="dialog_3"/>
+<string key="dialog_4"/>
+<string key="dialog_5"/>
+<string key="name_1"/>
+<string key="name_2"/>
+</es_es>
+<it_it>
+<string key="dialog_1"/>
+<string key="exchange_1"/>
+<string key="mail_1"/>
+<string key="mail_2"/>
+<string key="dialog_2"/>
+<string key="dialog_3"/>
+<string key="dialog_4"/>
+<string key="dialog_5"/>
+<string key="name_1"/>
+<string key="name_2"/>
+</it_it>
+</text>
+</character>
+</celebrity>
+</event><event id="8">
+<window_open>2008-06-03 00:00:00</window_open>
+<window_close>2008-06-09 23:59:59</window_close>
+<pokemon/>
+<trade>false</trade>
+<wanted_species>0</wanted_species>
+<pokemon_level>100</pokemon_level>
+<met_location>0</met_location>
+<celebrity>
+<character name="レッドはかせ">
+<mii/>
+<text>
+<en_us>
+<string key="dialog_1"/>
+<string key="exchange_1"/>
+<string key="mail_1"/>
+<string key="mail_2"/>
+<string key="dialog_2"/>
+<string key="dialog_3"/>
+<string key="dialog_4"/>
+<string key="dialog_5"/>
+<string key="name_1"/>
+<string key="name_2"/>
+</en_us>
+<ja_jp>
+<string key="dialog_1"/>
+<string key="exchange_1"/>
+<string key="mail_1"/>
+<string key="mail_2"/>
+<string key="dialog_2"/>
+<string key="dialog_3"/></ja_jp>
+<de_de>
+<string key="dialog_1"/>
+<string key="exchange_1"/>
+<string key="mail_1"/>
+<string key="mail_2"/>
+<string key="dialog_2"/>
+<string key="dialog_3"/>
+<string key="dialog_4"/>
+<string key="dialog_5"/>
+<string key="name_1"/>
+<string key="name_2"/>
+</de_de>
+<fr_fr>
+<string key="dialog_1"/>
+<string key="exchange_1"/>
+<string key="mail_1"/>
+<string key="mail_2"/>
+<string key="dialog_2"/>
+<string key="dialog_3"/>
+<string key="dialog_4"/>
+<string key="dialog_5"/>
+<string key="name_1"/>
+<string key="name_2"/>
+</fr_fr>
+<es_es>
+<string key="dialog_1"/>
+<string key="exchange_1"/>
+<string key="mail_1"/>
+<string key="mail_2"/>
+<string key="dialog_2"/>
+<string key="dialog_3"/>
+<string key="dialog_4"/>
+<string key="dialog_5"/>
+<string key="name_1"/>
+<string key="name_2"/>
+</es_es>
+<it_it>
+<string key="dialog_1"/>
+<string key="exchange_1"/>
+<string key="mail_1"/>
+<string key="mail_2"/>
+<string key="dialog_2"/>
+<string key="dialog_3"/>
+<string key="dialog_4"/>
+<string key="dialog_5"/>
+<string key="name_1"/>
+<string key="name_2"/>
+</it_it>
+</text>
+</character>
+</celebrity>
+</event><event id="9">
+<window_open>2008-06-10 00:00:00</window_open>
+<window_close>2008-06-16 23:59:59</window_close>
+<pokemon/>
+<trade>false</trade>
+<wanted_species>0</wanted_species>
+<pokemon_level>100</pokemon_level>
+<met_location>0</met_location>
+<celebrity>
+<character name="あきやま">
+<mii/>
+<text>
+<en_us>
+<string key="dialog_1"/>
+<string key="exchange_1"/>
+<string key="mail_1"/>
+<string key="mail_2"/>
+<string key="dialog_2"/>
+<string key="dialog_3"/>
+<string key="dialog_4"/>
+<string key="dialog_5"/>
+<string key="name_1"/>
+<string key="name_2"/>
+</en_us>
+<ja_jp>
+<string key="dialog_1"/>
+<string key="exchange_1"/>
+<string key="mail_1"/>
+<string key="mail_2"/>
+<string key="dialog_2"/>
+<string key="dialog_3"/>
+<string key="dialog_4"/>
+<string key="dialog_5"/>
+<string key="name_1"/>
+<string key="name_2"/>
+</ja_jp>
+<de_de>
+<string key="dialog_1"/>
+<string key="exchange_1"/>
+<string key="mail_1"/>
+<string key="mail_2"/>
+<string key="dialog_2"/>
+<string key="dialog_3"/>
+<string key="dialog_4"/>
+<string key="dialog_5"/>
+<string key="name_1"/>
+<string key="name_2"/>
+</de_de>
+<fr_fr>
+<string key="dialog_1"/>
+<string key="exchange_1"/>
+<string key="mail_1"/>
+<string key="mail_2"/>
+<string key="dialog_2"/>
+<string key="dialog_3"/>
+<string key="dialog_4"/>
+<string key="dialog_5"/>
+<string key="name_1"/>
+<string key="name_2"/>
+</fr_fr>
+<es_es>
+<string key="dialog_1"/>
+<string key="exchange_1"/>
+<string key="mail_1"/>
+<string key="mail_2"/>
+<string key="dialog_2"/>
+<string key="dialog_3"/>
+<string key="dialog_4"/>
+<string key="dialog_5"/>
+<string key="name_1"/>
+<string key="name_2"/>
+</es_es>
+<it_it>
+<string key="dialog_1"/>
+<string key="exchange_1"/>
+<string key="mail_1"/>
+<string key="mail_2"/>
+<string key="dialog_2"/>
+<string key="dialog_3"/>
+<string key="dialog_4"/>
+<string key="dialog_5"/>
+<string key="name_1"/>
+<string key="name_2"/>
+</it_it>
+</text>
+</character>
+</celebrity>
+</event><event id="10">
+<window_open>2008-06-17 00:00:00</window_open>
+<window_close>2008-06-23 23:59:59</window_close>
+<pokemon/>
+<trade>false</trade>
+<wanted_species>0</wanted_species>
+<pokemon_level>100</pokemon_level>
+<met_location>0</met_location>
+<celebrity>
+<character name="やまもと">
+<mii/>
+<text>
+<en_us>
+<string key="dialog_1"/>
+<string key="exchange_1"/>
+<string key="mail_1"/>
+<string key="mail_2"/>
+<string key="dialog_2"/>
+<string key="dialog_3"/>
+<string key="dialog_4"/>
+<string key="dialog_5"/>
+<string key="name_1"/>
+<string key="name_2"/>
+</en_us>
+<ja_jp>
+<string key="dialog_1"/>
+<string key="exchange_1"/>
+<string key="mail_1"/>
+<string key="mail_2"/>
+<string key="dialog_2"/>
+<string key="dialog_3"/>
+<string key="dialog_4"/>
+<string key="dialog_5"/>
+<string key="name_1"/>
+<string key="name_2"/>
+</ja_jp>
+<de_de>
+<string key="dialog_1"/>
+<string key="exchange_1"/>
+<string key="mail_1"/>
+<string key="mail_2"/>
+<string key="dialog_2"/>
+<string key="dialog_3"/>
+<string key="dialog_4"/>
+<string key="dialog_5"/>
+<string key="name_1"/>
+<string key="name_2"/>
+</de_de>
+<fr_fr>
+<string key="dialog_1"/>
+<string key="exchange_1"/>
+<string key="mail_1"/>
+<string key="mail_2"/>
+<string key="dialog_2"/>
+<string key="dialog_3"/>
+<string key="dialog_4"/>
+<string key="dialog_5"/>
+<string key="name_1"/>
+<string key="name_2"/>
+</fr_fr>
+<es_es>
+<string key="dialog_1"/>
+<string key="exchange_1"/>
+<string key="mail_1"/>
+<string key="mail_2"/>
+<string key="dialog_2"/>
+<string key="dialog_3"/>
+<string key="dialog_4"/>
+<string key="dialog_5"/>
+<string key="name_1"/>
+<string key="name_2"/>
+</es_es>
+<it_it>
+<string key="dialog_1"/>
+<string key="exchange_1"/>
+<string key="mail_1"/>
+<string key="mail_2"/>
+<string key="dialog_2"/>
+<string key="dialog_3"/>
+<string key="dialog_4"/>
+<string key="dialog_5"/>
+<string key="name_1"/>
+<string key="name_2"/>
+</it_it>
+</text>
+</character>
+</celebrity>
+</event><event id="11">
+<window_open>2008-06-24 00:00:00</window_open>
+<window_close>2008-06-30 23:59:59</window_close>
+<pokemon/>
+<trade>false</trade>
+<wanted_species>0</wanted_species>
+<pokemon_level>100</pokemon_level>
+<met_location>0</met_location>
+<celebrity>
+<character name="クリスタル・ケイ">
+<mii/>
+<text>
+<en_us>
+<string key="dialog_1"/>
+<string key="exchange_1"/>
+<string key="mail_1"/>
+<string key="mail_2"/>
+<string key="dialog_2"/>
+<string key="dialog_3"/>
+<string key="dialog_4"/>
+<string key="dialog_5"/>
+<string key="name_1"/>
+<string key="name_2"/>
+</en_us>
+<ja_jp>
+<string key="dialog_1"/>
+<string key="exchange_1"/>
+<string key="mail_1"/>
+<string key="mail_2"/>
+<string key="dialog_2"/>
+<string key="dialog_3"/>
+<string key="dialog_4"/>
+<string key="dialog_5"/>
+<string key="name_1"/>
+<string key="name_2"/>
+</ja_jp>
+<de_de>
+<string key="dialog_1"/>
+<string key="exchange_1"/>
+<string key="mail_1"/>
+<string key="mail_2"/>
+<string key="dialog_2"/>
+<string key="dialog_3"/>
+<string key="dialog_4"/>
+<string key="dialog_5"/>
+<string key="name_1"/>
+<string key="name_2"/>
+</de_de>
+<fr_fr>
+<string key="dialog_1"/>
+<string key="exchange_1"/>
+<string key="mail_1"/>
+<string key="mail_2"/>
+<string key="dialog_2"/>
+<string key="dialog_3"/>
+<string key="dialog_4"/>
+<string key="dialog_5"/>
+<string key="name_1"/>
+<string key="name_2"/>
+</fr_fr>
+<es_es>
+<string key="dialog_1"/>
+<string key="exchange_1"/>
+<string key="mail_1"/>
+<string key="mail_2"/>
+<string key="dialog_2"/>
+<string key="dialog_3"/>
+<string key="dialog_4"/>
+<string key="dialog_5"/>
+<string key="name_1"/>
+<string key="name_2"/>
+</es_es>
+<it_it>
+<string key="dialog_1"/>
+<string key="exchange_1"/>
+<string key="mail_1"/>
+<string key="mail_2"/>
+<string key="dialog_2"/>
+<string key="dialog_3"/>
+<string key="dialog_4"/>
+<string key="dialog_5"/>
+<string key="name_1"/>
+<string key="name_2"/>
+</it_it>
+</text>
+</character>
+</celebrity>
+</event><event id="12">
+<pokemon>
+<en_US/>
+<ja_JP/>
+<de_DE/>
+<fr_FR/>
+<es_ES/>
+<it_IT/>
+</pokemon>
+<trade>true</trade>
+<wanted_species>396</wanted_species>
+<pokemon_level>0</pokemon_level>
+<met_location>0</met_location>
+<celebrity>
+<character name="Babaigon">
+<mii>8008004200610062006100690067006F006E0000000040408836A0223A017D6240004400017D06A2684C08608640784E008A008A25040000000000000000000000000000000000000000</mii>
+<text>
+<en_US>
+<string key="dialog_1"/>
+<string key="exchange_1"/>
+<string key="mail_1"/>
+<string key="mail_2"/>
+<string key="dialog_2"/>
+<string key="dialog_3"/>
+<string key="dialog_4"/>
+<string key="dialog_5"/>
+<string key="name_1"/>
+<string key="name_2"/>
+</en_US>
+<ja_JP>
+<string key="dialog_1"/>
+<string key="exchange_1">すこい！ムックルをつれてきて
+さっそくこうかんしよう。</string>
+<string key="mail_1"/>
+<string key="mail_2"/>
+<string key="dialog_2"/>
+<string key="dialog_3"/>
+<string key="dialog_4"/>
+<string key="dialog_5"/>
+<string key="name_1"/>
+<string key="name_2"/>
+</ja_JP>
+<de_DE>
+<string key="dialog_1"/>
+<string key="exchange_1"/>
+<string key="mail_1"/>
+<string key="mail_2"/>
+<string key="dialog_2"/>
+<string key="dialog_3"/>
+<string key="dialog_4"/>
+<string key="dialog_5"/>
+<string key="name_1"/>
+<string key="name_2"/>
+</de_DE>
+<fr_FR>
+<string key="dialog_1"/>
+<string key="exchange_1"/>
+<string key="mail_1"/>
+<string key="mail_2"/>
+<string key="dialog_2"/>
+<string key="dialog_3"/>
+<string key="dialog_4"/>
+<string key="dialog_5"/>
+<string key="name_1"/>
+<string key="name_2"/>
+</fr_FR>
+<es_ES>
+<string key="dialog_1"/>
+<string key="exchange_1"/>
+<string key="mail_1"/>
+<string key="mail_2"/>
+<string key="dialog_2"/>
+<string key="dialog_3"/>
+<string key="dialog_4"/>
+<string key="dialog_5"/>
+<string key="name_1"/>
+<string key="name_2"/>
+</es_ES>
+<it_IT>
+<string key="dialog_1"/>
+<string key="exchange_1"/>
+<string key="mail_1"/>
+<string key="mail_2"/>
+<string key="dialog_2"/>
+<string key="dialog_3"/>
+<string key="dialog_4"/>
+<string key="dialog_5"/>
+<string key="name_1"/>
+<string key="name_2"/>
+</it_IT>
+</text>
+</character>
+</celebrity>
+</event><event id="13">
+<window_open>2008-07-15 00:00:00</window_open>
+<window_close>2008-07-21 23:59:59</window_close>
+<pokemon/>
+<trade>false</trade>
+<wanted_species>0</wanted_species>
+<pokemon_level>100</pokemon_level>
+<met_location>0</met_location>
+<celebrity>
+<character name="しょこたん">
+<mii/>
+<text>
+<en_us>
+<string key="dialog_1"/>
+<string key="exchange_1"/>
+<string key="mail_1"/>
+<string key="mail_2"/>
+<string key="dialog_2"/>
+<string key="dialog_3"/>
+<string key="dialog_4"/>
+<string key="dialog_5"/>
+<string key="name_1"/>
+<string key="name_2"/>
+</en_us>
+<ja_jp>
+<string key="dialog_1"/>
+<string key="exchange_1"/>
+<string key="mail_1"/>
+<string key="mail_2"/>
+<string key="dialog_2"/>
+<string key="dialog_3"/>
+<string key="dialog_4"/>
+<string key="dialog_5"/>
+<string key="name_1"/>
+<string key="name_2"/>
+</ja_jp>
+<de_de>
+<string key="dialog_1"/>
+<string key="exchange_1"/>
+<string key="mail_1"/>
+<string key="mail_2"/>
+<string key="dialog_2"/>
+<string key="dialog_3"/>
+<string key="dialog_4"/>
+<string key="dialog_5"/>
+<string key="name_1"/>
+<string key="name_2"/>
+</de_de>
+<fr_fr>
+<string key="dialog_1"/>
+<string key="exchange_1"/>
+<string key="mail_1"/>
+<string key="mail_2"/>
+<string key="dialog_2"/>
+<string key="dialog_3"/>
+<string key="dialog_4"/>
+<string key="dialog_5"/>
+<string key="name_1"/>
+<string key="name_2"/>
+</fr_fr>
+<es_es>
+<string key="dialog_1"/>
+<string key="exchange_1"/>
+<string key="mail_1"/>
+<string key="mail_2"/>
+<string key="dialog_2"/>
+<string key="dialog_3"/>
+<string key="dialog_4"/>
+<string key="dialog_5"/>
+<string key="name_1"/>
+<string key="name_2"/>
+</es_es>
+<it_it>
+<string key="dialog_1"/>
+<string key="exchange_1"/>
+<string key="mail_1"/>
+<string key="mail_2"/>
+<string key="dialog_2"/>
+<string key="dialog_3"/>
+<string key="dialog_4"/>
+<string key="dialog_5"/>
+<string key="name_1"/>
+<string key="name_2"/>
+</it_it>
+</text>
+</character>
+</celebrity>
+</event><event id="14">
+<window_open>2008-07-22 00:00:00</window_open>
+<window_close>2008-07-28 23:59:59</window_close>
+<pokemon/>
+<trade>false</trade>
+<wanted_species>0</wanted_species>
+<pokemon_level>50</pokemon_level>
+<met_location>3006</met_location>
+<celebrity>
+<character name="ＧＦ ますだぶちょう">
+<mii/>
+<text>
+<en_us>
+<string key="dialog_1"/>
+<string key="exchange_1"/>
+<string key="mail_1"/>
+<string key="mail_2"/>
+<string key="dialog_2"/>
+<string key="dialog_3"/>
+<string key="dialog_4"/>
+<string key="dialog_5"/>
+<string key="name_1"/>
+<string key="name_2"/>
+</en_us>
+<ja_jp>
+<string key="dialog_1"/>
+<string key="exchange_1"/>
+<string key="mail_1"/>
+<string key="mail_2"/>
+<string key="dialog_2"/>
+<string key="dialog_3"/>
+<string key="dialog_4"/>
+<string key="dialog_5"/>
+<string key="name_1"/>
+<string key="name_2"/>
+</ja_jp>
+<de_de>
+<string key="dialog_1"/>
+<string key="exchange_1"/>
+<string key="mail_1"/>
+<string key="mail_2"/>
+<string key="dialog_2"/>
+<string key="dialog_3"/>
+<string key="dialog_4"/>
+<string key="dialog_5"/>
+<string key="name_1"/>
+<string key="name_2"/>
+</de_de>
+<fr_fr>
+<string key="dialog_1"/>
+<string key="exchange_1"/>
+<string key="mail_1"/>
+<string key="mail_2"/>
+<string key="dialog_2"/>
+<string key="dialog_3"/>
+<string key="dialog_4"/>
+<string key="dialog_5"/>
+<string key="name_1"/>
+<string key="name_2"/>
+</fr_fr>
+<es_es>
+<string key="dialog_1"/>
+<string key="exchange_1"/>
+<string key="mail_1"/>
+<string key="mail_2"/>
+<string key="dialog_2"/>
+<string key="dialog_3"/>
+<string key="dialog_4"/>
+<string key="dialog_5"/>
+<string key="name_1"/>
+<string key="name_2"/>
+</es_es>
+<it_it>
+<string key="dialog_1"/>
+<string key="exchange_1"/>
+<string key="mail_1"/>
+<string key="mail_2"/>
+<string key="dialog_2"/>
+<string key="dialog_3"/>
+<string key="dialog_4"/>
+<string key="dialog_5"/>
+<string key="name_1"/>
+<string key="name_2"/>
+</it_it>
+</text>
+</character>
+</celebrity>
+</event><event id="15">
+<window_open>2008-11-05 00:00:00</window_open>
+<window_close>2008-12-08 23:59:59</window_close>
+<pokemon/>
+<trade>false</trade>
+<wanted_species>0</wanted_species>
+<pokemon_level>47</pokemon_level>
+<met_location>117</met_location>
+<celebrity>
+<character name="ギラオ">
+<mii/>
+<text>
+<en_us>
+<string key="dialog_1"/>
+<string key="exchange_1"/>
+<string key="mail_1"/>
+<string key="mail_2"/>
+<string key="dialog_2"/>
+<string key="dialog_3"/>
+<string key="dialog_4"/>
+<string key="dialog_5"/>
+<string key="name_1"/>
+<string key="name_2"/>
+</en_us>
+<ja_jp>
+<string key="dialog_1"/>
+<string key="exchange_1"/>
+<string key="mail_1"/>
+<string key="mail_2"/>
+<string key="dialog_2"/>
+<string key="dialog_3"/>
+<string key="dialog_4"/>
+<string key="dialog_5"/>
+<string key="name_1"/>
+<string key="name_2"/>
+</ja_jp>
+<de_de>
+<string key="dialog_1"/>
+<string key="exchange_1"/>
+<string key="mail_1"/>
+<string key="mail_2"/>
+<string key="dialog_2"/>
+<string key="dialog_3"/>
+<string key="dialog_4"/>
+<string key="dialog_5"/>
+<string key="name_1"/>
+<string key="name_2"/>
+</de_de>
+<fr_fr>
+<string key="dialog_1"/>
+<string key="exchange_1"/>
+<string key="mail_1"/>
+<string key="mail_2"/>
+<string key="dialog_2"/>
+<string key="dialog_3"/>
+<string key="dialog_4"/>
+<string key="dialog_5"/>
+<string key="name_1"/>
+<string key="name_2"/>
+</fr_fr>
+<es_es>
+<string key="dialog_1"/>
+<string key="exchange_1"/>
+<string key="mail_1"/>
+<string key="mail_2"/>
+<string key="dialog_2"/>
+<string key="dialog_3"/>
+<string key="dialog_4"/>
+<string key="dialog_5"/>
+<string key="name_1"/>
+<string key="name_2"/>
+</es_es>
+<it_it>
+<string key="dialog_1"/>
+<string key="exchange_1"/>
+<string key="mail_1"/>
+<string key="mail_2"/>
+<string key="dialog_2"/>
+<string key="dialog_3"/>
+<string key="dialog_4"/>
+<string key="dialog_5"/>
+<string key="name_1"/>
+<string key="name_2"/>
+</it_it>
+</text>
+</character>
+</celebrity>
+</event><event id="16">
+<pokemon>
+<en_US/>
+<ja_JP/>
+<de_DE/>
+<fr_FR/>
+<es_ES/>
+<it_IT/>
+</pokemon>
+<trade>false</trade>
+<wanted_species>0</wanted_species>
+<pokemon_level>0</pokemon_level>
+<met_location>0</met_location>
+<celebrity>
+<character name="Yukina">
+<mii>C00E00590075006B0069006E0061000000000000000040408836A0623A017D6220008F8001BD24A38C6B06A06438B0AD008A008A8C580000000000000000000000000000000000000000</mii>
+<text>
+<en_US>
+<string key="dialog_1"/>
+<string key="exchange_1"/>
+<string key="mail_1"/>
+<string key="mail_2"/>
+<string key="dialog_2"/>
+<string key="dialog_3"/>
+<string key="dialog_4"/>
+<string key="dialog_5"/>
+<string key="name_1"/>
+<string key="name_2"/>
+</en_US>
+<ja_JP>
+<string key="dialog_1">ポケチョリーッス！
 ゆっきーなこときのしたゆきなです。</string>
-            <string key="exchange_1"/>
-            <string key="mail_1"/>
-            <string key="mail_2">ちょーたのしかった！サンキュー!
+<string key="exchange_1"/>
+<string key="mail_1"/>
+<string key="mail_2">ちょーたのしかった！サンキュー!
 またどこかで あえるといいね！
 P.S.
 こうかんしてくれて ありがとう！
 ゆきなのニャース、だいじにしてね。</string>
-            <string key="dialog_2"/>
-            <string key="dialog_3"/>
-            <string key="dialog_4"/>
-            <string key="dialog_5"/>
-            <string key="name_1"/>
-            <string key="name_2"/>
-          </ja_JP>
-          <de_DE>
-            <string key="dialog_1"/>
-            <string key="exchange_1"/>
-            <string key="mail_1"/>
-            <string key="mail_2"/>
-            <string key="dialog_2"/>
-            <string key="dialog_3"/>
-            <string key="dialog_4"/>
-            <string key="dialog_5"/>
-            <string key="name_1"/>
-            <string key="name_2"/>
-          </de_DE>
-          <fr_FR>
-            <string key="dialog_1"/>
-            <string key="exchange_1"/>
-            <string key="mail_1"/>
-            <string key="mail_2"/>
-            <string key="dialog_2"/>
-            <string key="dialog_3"/>
-            <string key="dialog_4"/>
-            <string key="dialog_5"/>
-            <string key="name_1"/>
-            <string key="name_2"/>
-          </fr_FR>
-          <es_ES>
-            <string key="dialog_1"/>
-            <string key="exchange_1"/>
-            <string key="mail_1"/>
-            <string key="mail_2"/>
-            <string key="dialog_2"/>
-            <string key="dialog_3"/>
-            <string key="dialog_4"/>
-            <string key="dialog_5"/>
-            <string key="name_1"/>
-            <string key="name_2"/>
-          </es_ES>
-          <it_IT>
-            <string key="dialog_1"/>
-            <string key="exchange_1"/>
-            <string key="mail_1"/>
-            <string key="mail_2"/>
-            <string key="dialog_2"/>
-            <string key="dialog_3"/>
-            <string key="dialog_4"/>
-            <string key="dialog_5"/>
-            <string key="name_1"/>
-            <string key="name_2"/>
-          </it_IT>
-        </text>
-      </character>
-    </celebrity>
-  </event>
-  <event id="5">
-    <pokemon>
-      <en_US>B0514907000012EA03E2243BA248E7DFBF81BE3F675769D38AAD942D08CE6CA89805E09F446BE7007525F0A541CB06E1FFDB3127A010751CEE6D53D48F5EE88E66FA13015A32250546496302F6AD8CECAB6AEE96F0E5CEB37253D7F8C8BD8C9DA8D7B1C180E361A11B1496F56510A40B9DB7958DEED9015E532E6F482F0AEBF246353B24838D8766</en_US>
-      <ja_JP>B0514907000012EA03E2243BA248E7DFBF81BE3F675769D38AAD942D08CE6CA89805E09F446BE7007525F0A541CB06E1FFDB3127A010751CEE6D53D48F5EE88E66FA13015A32250546496302F6AD8CECAB6AEE96F0E5CEB37253D7F8C8BD8C9DA8D7B1C180E361A11B1496F56510A40B9DB7958DEED9015E532E6F482F0AEBF246353B24838D8766</ja_JP>
-      <de_DE>B0514907000012EA03E2243BA248E7DFBF81BE3F675769D38AAD942D08CE6CA89805E09F446BE7007525F0A541CB06E1FFDB3127A010751CEE6D53D48F5EE88E66FA13015A32250546496302F6AD8CECAB6AEE96F0E5CEB37253D7F8C8BD8C9DA8D7B1C180E361A11B1496F56510A40B9DB7958DEED9015E532E6F482F0AEBF246353B24838D8766</de_DE>
-      <fr_FR>B0514907000012EA03E2243BA248E7DFBF81BE3F675769D38AAD942D08CE6CA89805E09F446BE7007525F0A541CB06E1FFDB3127A010751CEE6D53D48F5EE88E66FA13015A32250546496302F6AD8CECAB6AEE96F0E5CEB37253D7F8C8BD8C9DA8D7B1C180E361A11B1496F56510A40B9DB7958DEED9015E532E6F482F0AEBF246353B24838D8766</fr_FR>
-      <es_ES>B0514907000012EA03E2243BA248E7DFBF81BE3F675769D38AAD942D08CE6CA89805E09F446BE7007525F0A541CB06E1FFDB3127A010751CEE6D53D48F5EE88E66FA13015A32250546496302F6AD8CECAB6AEE96F0E5CEB37253D7F8C8BD8C9DA8D7B1C180E361A11B1496F56510A40B9DB7958DEED9015E532E6F482F0AEBF246353B24838D8766</es_ES>
-      <it_IT>B0514907000012EA03E2243BA248E7DFBF81BE3F675769D38AAD942D08CE6CA89805E09F446BE7007525F0A541CB06E1FFDB3127A010751CEE6D53D48F5EE88E66FA13015A32250546496302F6AD8CECAB6AEE96F0E5CEB37253D7F8C8BD8C9DA8D7B1C180E361A11B1496F56510A40B9DB7958DEED9015E532E6F482F0AEBF246353B24838D8766</it_IT>
-    </pokemon>
-    <trade>true</trade>
-    <wanted_species>66</wanted_species>
-    <pokemonlevel>3060</pokemonlevel>
-    <metlocation>62</metlocation>
-    <window_open>2025-02-26 19:27:47</window_open>
-    <window_close>2025-03-12 19:27:46</window_close>
-    <celebrity>
-      <character name="Red">
-        <mii>000230EC30C330C9306F304B305B00000000000000007F408108E2EFC2EFA02E44C43E00918008737C890460333030EC8280028A25040000000000000000000000000000000000000000</mii>
-        <text>
-          <en_US>
-            <string key="dialog_1">PokéMorning!
+<string key="dialog_2"/>
+<string key="dialog_3"/>
+<string key="dialog_4"/>
+<string key="dialog_5"/>
+<string key="name_1"/>
+<string key="name_2"/>
+</ja_JP>
+<de_DE>
+<string key="dialog_1"/>
+<string key="exchange_1"/>
+<string key="mail_1"/>
+<string key="mail_2"/>
+<string key="dialog_2"/>
+<string key="dialog_3"/>
+<string key="dialog_4"/>
+<string key="dialog_5"/>
+<string key="name_1"/>
+<string key="name_2"/>
+</de_DE>
+<fr_FR>
+<string key="dialog_1"/>
+<string key="exchange_1"/>
+<string key="mail_1"/>
+<string key="mail_2"/>
+<string key="dialog_2"/>
+<string key="dialog_3"/>
+<string key="dialog_4"/>
+<string key="dialog_5"/>
+<string key="name_1"/>
+<string key="name_2"/>
+</fr_FR>
+<es_ES>
+<string key="dialog_1"/>
+<string key="exchange_1"/>
+<string key="mail_1"/>
+<string key="mail_2"/>
+<string key="dialog_2"/>
+<string key="dialog_3"/>
+<string key="dialog_4"/>
+<string key="dialog_5"/>
+<string key="name_1"/>
+<string key="name_2"/>
+</es_ES>
+<it_IT>
+<string key="dialog_1"/>
+<string key="exchange_1"/>
+<string key="mail_1"/>
+<string key="mail_2"/>
+<string key="dialog_2"/>
+<string key="dialog_3"/>
+<string key="dialog_4"/>
+<string key="dialog_5"/>
+<string key="name_1"/>
+<string key="name_2"/>
+</it_IT>
+</text>
+</character>
+</celebrity>
+</event><event id="17">
+<window_open>2008-12-23 00:00:00</window_open>
+<window_close>2008-12-29 23:59:59</window_close>
+<pokemon/>
+<trade>false</trade>
+<wanted_species>0</wanted_species>
+<pokemon_level>70</pokemon_level>
+<met_location>51</met_location>
+<celebrity>
+<character name="まえだまえだ">
+<mii/>
+<text>
+<en_us>
+<string key="dialog_1"/>
+<string key="exchange_1"/>
+<string key="mail_1"/>
+<string key="mail_2"/>
+<string key="dialog_2"/>
+<string key="dialog_3"/>
+<string key="dialog_4"/>
+<string key="dialog_5"/>
+<string key="name_1"/>
+<string key="name_2"/>
+</en_us>
+<ja_jp>
+<string key="dialog_1"/>
+<string key="exchange_1"/>
+<string key="mail_1"/>
+<string key="mail_2"/>
+<string key="dialog_2"/>
+<string key="dialog_3"/>
+<string key="dialog_4"/>
+<string key="dialog_5"/>
+<string key="name_1"/>
+<string key="name_2"/>
+</ja_jp>
+<de_de>
+<string key="dialog_1"/>
+<string key="exchange_1"/>
+<string key="mail_1"/>
+<string key="mail_2"/>
+<string key="dialog_2"/>
+<string key="dialog_3"/>
+<string key="dialog_4"/>
+<string key="dialog_5"/>
+<string key="name_1"/>
+<string key="name_2"/>
+</de_de>
+<fr_fr>
+<string key="dialog_1"/>
+<string key="exchange_1"/>
+<string key="mail_1"/>
+<string key="mail_2"/>
+<string key="dialog_2"/>
+<string key="dialog_3"/>
+<string key="dialog_4"/>
+<string key="dialog_5"/>
+<string key="name_1"/>
+<string key="name_2"/>
+</fr_fr>
+<es_es>
+<string key="dialog_1"/>
+<string key="exchange_1"/>
+<string key="mail_1"/>
+<string key="mail_2"/>
+<string key="dialog_2"/>
+<string key="dialog_3"/>
+<string key="dialog_4"/>
+<string key="dialog_5"/>
+<string key="name_1"/>
+<string key="name_2"/>
+</es_es>
+<it_it>
+<string key="dialog_1"/>
+<string key="exchange_1"/>
+<string key="mail_1"/>
+<string key="mail_2"/>
+<string key="dialog_2"/>
+<string key="dialog_3"/>
+<string key="dialog_4"/>
+<string key="dialog_5"/>
+<string key="name_1"/>
+<string key="name_2"/>
+</it_it>
+</text>
+</character>
+</celebrity>
+</event><event id="18">
+<window_open>2008-12-30 00:00:00</window_open>
+<window_close>2009-01-05 23:59:59</window_close>
+<pokemon/>
+<trade>false</trade>
+<wanted_species>0</wanted_species>
+<pokemon_level>100</pokemon_level>
+<met_location>0</met_location>
+<celebrity>
+<character name="みさわ＆やまもと">
+<mii/>
+<text>
+<en_us>
+<string key="dialog_1"/></en_us>
+<ja_jp>
+<string key="dialog_1"/>
+<string key="exchange_1"/>
+<string key="mail_1"/>
+<string key="mail_2"/>
+<string key="dialog_2"/>
+<string key="dialog_3"/>
+<string key="dialog_4"/>
+<string key="dialog_5"/>
+<string key="name_1"/></ja_jp>
+<de_de>
+<string key="dialog_1"/>
+<string key="exchange_1"/>
+<string key="mail_1"/>
+<string key="mail_2"/>
+<string key="dialog_2"/>
+<string key="dialog_3"/>
+<string key="dialog_4"/>
+<string key="dialog_5"/>
+<string key="name_1"/>
+<string key="name_2"/>
+</de_de>
+<fr_fr>
+<string key="dialog_1"/>
+<string key="exchange_1"/>
+<string key="mail_1"/>
+<string key="mail_2"/>
+<string key="dialog_2"/>
+<string key="dialog_3"/>
+<string key="dialog_4"/>
+<string key="dialog_5"/>
+<string key="name_1"/>
+<string key="name_2"/>
+</fr_fr>
+<es_es>
+<string key="dialog_1"/>
+<string key="exchange_1"/>
+<string key="mail_1"/>
+<string key="mail_2"/>
+<string key="dialog_2"/>
+<string key="dialog_3"/>
+<string key="dialog_4"/>
+<string key="dialog_5"/>
+<string key="name_1"/>
+<string key="name_2"/>
+</es_es>
+<it_it>
+<string key="dialog_1"/>
+<string key="exchange_1"/>
+<string key="mail_1"/>
+<string key="mail_2"/>
+<string key="dialog_2"/>
+<string key="dialog_3"/>
+<string key="dialog_4"/>
+<string key="dialog_5"/>
+<string key="name_1"/>
+<string key="name_2"/>
+</it_it>
+</text>
+</character>
+</celebrity>
+</event><event id="19">
+<pokemon>
+<en_US/>
+<ja_JP/>
+<de_DE/>
+<fr_FR/>
+<es_ES/>
+<it_IT/>
+</pokemon>
+<!-- trade: does the celebrity offer a Pokemon exchange? (omit = auto: on when
+              wanted_species is set). Sets the 0x1 flag.
+         wanted_species: National Dex no. the guest asks you to bring (0 = none, < 496).
+         pokemon_level / met_location: met location and level of the Pokemon respectively; 0 disables.
+         window_open / window_close: distribution period (UTC "YYYY-MM-DD [HH:MM:SS]").
+              Both or neither; omit to auto-generate a now-relative window. -->
+<trade>true</trade>
+<wanted_species>129</wanted_species>
+<pokemon_level>0</pokemon_level>
+<met_location>0</met_location>
+<celebrity>
+<character name="Akiyama">
+<mii>80060041006B006900790061006D006100000000000040408836A1113A017D6284003E00017D0891A48B084084485AAE008A008A25040000000000000000000000000000000000000000</mii>
+<text>
+<en_US>
+<string key="dialog_1"/>
+<string key="exchange_1"/>
+<string key="mail_1"/>
+<string key="mail_2"/>
+<string key="dialog_2"/>
+<string key="dialog_3"/>
+<string key="dialog_4"/>
+<string key="dialog_5"/>
+<string key="name_1"/>
+<string key="name_2"/>
+</en_US>
+<ja_JP>
+<string key="dialog_1">ポケモーニング！
+あきやまたいいんだよ</string>
+<string key="exchange_1">コイキングをつれてくると、ケッキングと
+こうかんしてくれるそうです。</string>
+<string key="mail_1"/>
+<string key="mail_2"/>
+<string key="dialog_2"/>
+<string key="dialog_3"/>
+<string key="dialog_4"/>
+<string key="dialog_5"/>
+<string key="name_1"/>
+<string key="name_2"/>
+</ja_JP>
+<de_DE>
+<string key="dialog_1"/>
+<string key="exchange_1"/>
+<string key="mail_1"/>
+<string key="mail_2"/>
+<string key="dialog_2"/>
+<string key="dialog_3"/>
+<string key="dialog_4"/>
+<string key="dialog_5"/>
+<string key="name_1"/>
+<string key="name_2"/>
+</de_DE>
+<fr_FR>
+<string key="dialog_1"/>
+<string key="exchange_1"/>
+<string key="mail_1"/>
+<string key="mail_2"/>
+<string key="dialog_2"/>
+<string key="dialog_3"/>
+<string key="dialog_4"/>
+<string key="dialog_5"/>
+<string key="name_1"/>
+<string key="name_2"/>
+</fr_FR>
+<es_ES>
+<string key="dialog_1"/>
+<string key="exchange_1"/>
+<string key="mail_1"/>
+<string key="mail_2"/>
+<string key="dialog_2"/>
+<string key="dialog_3"/>
+<string key="dialog_4"/>
+<string key="dialog_5"/>
+<string key="name_1"/>
+<string key="name_2"/>
+</es_ES>
+<it_IT>
+<string key="dialog_1"/>
+<string key="exchange_1"/>
+<string key="mail_1"/>
+<string key="mail_2"/>
+<string key="dialog_2"/>
+<string key="dialog_3"/>
+<string key="dialog_4"/>
+<string key="dialog_5"/>
+<string key="name_1"/>
+<string key="name_2"/>
+</it_IT>
+</text>
+</character>
+</celebrity>
+</event><event id="20">
+<window_open>2009-01-20 00:00:00</window_open>
+<window_close>2009-01-26 23:59:59</window_close>
+<pokemon/>
+<trade>false</trade>
+<wanted_species>0</wanted_species>
+<pokemon_level>50</pokemon_level>
+<met_location>0</met_location>
+<celebrity>
+<character name="しょこたん">
+<mii/>
+<text>
+<en_us>
+<string key="dialog_1"/>
+<string key="exchange_1"/>
+<string key="mail_1"/>
+<string key="mail_2"/>
+<string key="dialog_2"/>
+<string key="dialog_3"/>
+<string key="dialog_4"/>
+<string key="dialog_5"/>
+<string key="name_1"/>
+<string key="name_2"/>
+</en_us>
+<ja_jp>
+<string key="dialog_1"/>
+<string key="exchange_1"/>
+<string key="mail_1"/>
+<string key="mail_2"/>
+<string key="dialog_2"/>
+<string key="dialog_3"/>
+<string key="dialog_4"/>
+<string key="dialog_5"/>
+<string key="name_1"/>
+<string key="name_2"/>
+</ja_jp>
+<de_de>
+<string key="dialog_1"/>
+<string key="exchange_1"/>
+<string key="mail_1"/>
+<string key="mail_2"/>
+<string key="dialog_2"/>
+<string key="dialog_3"/>
+<string key="dialog_4"/>
+<string key="dialog_5"/>
+<string key="name_1"/>
+<string key="name_2"/>
+</de_de>
+<fr_fr>
+<string key="dialog_1"/>
+<string key="exchange_1"/>
+<string key="mail_1"/>
+<string key="mail_2"/>
+<string key="dialog_2"/>
+<string key="dialog_3"/>
+<string key="dialog_4"/>
+<string key="dialog_5"/>
+<string key="name_1"/>
+<string key="name_2"/>
+</fr_fr>
+<es_es>
+<string key="dialog_1"/>
+<string key="exchange_1"/>
+<string key="mail_1"/>
+<string key="mail_2"/>
+<string key="dialog_2"/>
+<string key="dialog_3"/>
+<string key="dialog_4"/>
+<string key="dialog_5"/>
+<string key="name_1"/>
+<string key="name_2"/>
+</es_es>
+<it_it>
+<string key="dialog_1"/>
+<string key="exchange_1"/>
+<string key="mail_1"/>
+<string key="mail_2"/>
+<string key="dialog_2"/>
+<string key="dialog_3"/>
+<string key="dialog_4"/>
+<string key="dialog_5"/>
+<string key="name_1"/>
+<string key="name_2"/>
+</it_it>
+</text>
+</character>
+</celebrity>
+</event><event id="21">
+<window_open>2009-01-27 00:00:00</window_open>
+<window_close>2009-02-02 23:59:59</window_close>
+<pokemon/>
+<trade>false</trade>
+<wanted_species>0</wanted_species>
+<pokemon_level>50</pokemon_level>
+<met_location>0</met_location>
+<celebrity>
+<character name="ゴルゴしょちょう">
+<mii/>
+<text>
+<en_us>
+<string key="dialog_1"/>
+<string key="exchange_1"/>
+<string key="mail_1"/>
+<string key="mail_2"/>
+<string key="dialog_2"/>
+<string key="dialog_3"/>
+<string key="dialog_4"/>
+<string key="dialog_5"/>
+<string key="name_1"/>
+<string key="name_2"/>
+</en_us>
+<ja_jp>
+<string key="dialog_1"/>
+<string key="exchange_1"/>
+<string key="mail_1"/>
+<string key="mail_2"/>
+<string key="dialog_2"/>
+<string key="dialog_3"/>
+<string key="dialog_4"/>
+<string key="dialog_5"/>
+<string key="name_1"/>
+<string key="name_2"/>
+</ja_jp>
+<de_de>
+<string key="dialog_1"/>
+<string key="exchange_1"/>
+<string key="mail_1"/>
+<string key="mail_2"/>
+<string key="dialog_2"/>
+<string key="dialog_3"/>
+<string key="dialog_4"/>
+<string key="dialog_5"/>
+<string key="name_1"/>
+<string key="name_2"/>
+</de_de>
+<fr_fr>
+<string key="dialog_1"/>
+<string key="exchange_1"/>
+<string key="mail_1"/>
+<string key="mail_2"/>
+<string key="dialog_2"/>
+<string key="dialog_3"/>
+<string key="dialog_4"/>
+<string key="dialog_5"/>
+<string key="name_1"/>
+<string key="name_2"/>
+</fr_fr>
+<es_es>
+<string key="dialog_1"/>
+<string key="exchange_1"/>
+<string key="mail_1"/>
+<string key="mail_2"/>
+<string key="dialog_2"/>
+<string key="dialog_3"/>
+<string key="dialog_4"/>
+<string key="dialog_5"/>
+<string key="name_1"/>
+<string key="name_2"/>
+</es_es>
+<it_it>
+<string key="dialog_1"/>
+<string key="exchange_1"/>
+<string key="mail_1"/>
+<string key="mail_2"/>
+<string key="dialog_2"/>
+<string key="dialog_3"/>
+<string key="dialog_4"/>
+<string key="dialog_5"/>
+<string key="name_1"/>
+<string key="name_2"/>
+</it_it>
+</text>
+</character>
+</celebrity>
+</event><event id="22">
+<window_open>2009-02-03 00:00:00</window_open>
+<window_close>2009-02-09 23:59:59</window_close>
+<pokemon/>
+<trade>false</trade>
+<wanted_species>0</wanted_species>
+<pokemon_level>50</pokemon_level>
+<met_location>0</met_location>
+<celebrity>
+<character name="ばば">
+<mii/>
+<text>
+<en_us>
+<string key="dialog_1"/>
+<string key="exchange_1"/>
+<string key="mail_1"/>
+<string key="mail_2"/>
+<string key="dialog_2"/>
+<string key="dialog_3"/>
+<string key="dialog_4"/>
+<string key="dialog_5"/>
+<string key="name_1"/>
+<string key="name_2"/>
+</en_us>
+<ja_jp>
+<string key="dialog_1"/>
+<string key="exchange_1"/>
+<string key="mail_1"/>
+<string key="mail_2"/>
+<string key="dialog_2"/>
+<string key="dialog_3"/>
+<string key="dialog_4"/>
+<string key="dialog_5"/>
+<string key="name_1"/>
+<string key="name_2"/>
+</ja_jp>
+<de_de>
+<string key="dialog_1"/>
+<string key="exchange_1"/>
+<string key="mail_1"/>
+<string key="mail_2"/>
+<string key="dialog_2"/>
+<string key="dialog_3"/>
+<string key="dialog_4"/>
+<string key="dialog_5"/>
+<string key="name_1"/>
+<string key="name_2"/>
+</de_de>
+<fr_fr>
+<string key="dialog_1"/>
+<string key="exchange_1"/>
+<string key="mail_1"/>
+<string key="mail_2"/>
+<string key="dialog_2"/>
+<string key="dialog_3"/>
+<string key="dialog_4"/>
+<string key="dialog_5"/>
+<string key="name_1"/>
+<string key="name_2"/>
+</fr_fr>
+<es_es>
+<string key="dialog_1"/>
+<string key="exchange_1"/>
+<string key="mail_1"/>
+<string key="mail_2"/>
+<string key="dialog_2"/>
+<string key="dialog_3"/>
+<string key="dialog_4"/>
+<string key="dialog_5"/>
+<string key="name_1"/>
+<string key="name_2"/>
+</es_es>
+<it_it>
+<string key="dialog_1"/>
+<string key="exchange_1"/>
+<string key="mail_1"/>
+<string key="mail_2"/>
+<string key="dialog_2"/>
+<string key="dialog_3"/>
+<string key="dialog_4"/>
+<string key="dialog_5"/>
+<string key="name_1"/>
+<string key="name_2"/>
+</it_it>
+</text>
+</character>
+</celebrity>
+</event><event id="23">
+<pokemon>
+<en_US>B0514907000012EA03E2243BA248E7DFBF81BE3F675769D38AAD942D08CE6CA89805E09F446BE7007525F0A541CB06E1FFDB3127A010751CEE6D53D48F5EE88E66FA13015A32250546496302F6AD8CECAB6AEE96F0E5CEB37253D7F8C8BD8C9DA8D7B1C180E361A11B1496F56510A40B9DB7958DEED9015E532E6F482F0AEBF246353B24838D8766</en_US>
+<ja_JP>B0514907000012EA03E2243BA248E7DFBF81BE3F675769D38AAD942D08CE6CA89805E09F446BE7007525F0A541CB06E1FFDB3127A010751CEE6D53D48F5EE88E66FA13015A32250546496302F6AD8CECAB6AEE96F0E5CEB37253D7F8C8BD8C9DA8D7B1C180E361A11B1496F56510A40B9DB7958DEED9015E532E6F482F0AEBF246353B24838D8766</ja_JP>
+<de_DE>B0514907000012EA03E2243BA248E7DFBF81BE3F675769D38AAD942D08CE6CA89805E09F446BE7007525F0A541CB06E1FFDB3127A010751CEE6D53D48F5EE88E66FA13015A32250546496302F6AD8CECAB6AEE96F0E5CEB37253D7F8C8BD8C9DA8D7B1C180E361A11B1496F56510A40B9DB7958DEED9015E532E6F482F0AEBF246353B24838D8766</de_DE>
+<fr_FR>B0514907000012EA03E2243BA248E7DFBF81BE3F675769D38AAD942D08CE6CA89805E09F446BE7007525F0A541CB06E1FFDB3127A010751CEE6D53D48F5EE88E66FA13015A32250546496302F6AD8CECAB6AEE96F0E5CEB37253D7F8C8BD8C9DA8D7B1C180E361A11B1496F56510A40B9DB7958DEED9015E532E6F482F0AEBF246353B24838D8766</fr_FR>
+<es_ES>B0514907000012EA03E2243BA248E7DFBF81BE3F675769D38AAD942D08CE6CA89805E09F446BE7007525F0A541CB06E1FFDB3127A010751CEE6D53D48F5EE88E66FA13015A32250546496302F6AD8CECAB6AEE96F0E5CEB37253D7F8C8BD8C9DA8D7B1C180E361A11B1496F56510A40B9DB7958DEED9015E532E6F482F0AEBF246353B24838D8766</es_ES>
+<it_IT>B0514907000012EA03E2243BA248E7DFBF81BE3F675769D38AAD942D08CE6CA89805E09F446BE7007525F0A541CB06E1FFDB3127A010751CEE6D53D48F5EE88E66FA13015A32250546496302F6AD8CECAB6AEE96F0E5CEB37253D7F8C8BD8C9DA8D7B1C180E361A11B1496F56510A40B9DB7958DEED9015E532E6F482F0AEBF246353B24838D8766</it_IT>
+</pokemon>
+<trade>true</trade>
+<wanted_species>66</wanted_species>
+<pokemon_level>3060</pokemon_level>
+<met_location>62</met_location>
+<window_open>2025-02-26 19:27:47</window_open>
+<window_close>2025-03-12 19:27:46</window_close>
+<celebrity>
+<character name="Red">
+<mii>000230EC30C330C9306F304B305B00000000000000007F408108E2EFC2EFA02E44C43E00918008737C890460333030EC8280028A25040000000000000000000000000000000000000000</mii>
+<text>
+<en_US>
+<string key="dialog_1">PokéMorning!
 Did you happen to see me on Pokémon Sunday?
 I'm Professor Red!
 I brought my METAGROSS, Homerun!</string>
-            <string key="exchange_1">Oh, that's MACHOP!
+<string key="exchange_1">Oh, that's MACHOP!
 You brought it for me, right?
 Thank you.
 So, let's trade.</string>
-            <string key="mail_1">I have to return to
+<string key="mail_1">I have to return to
 the PokéSun Company soon...
 Let's meet again on Pokémon Sunday!
 Poké we.. GO!</string>
-            <string key="mail_2">P.S.
+<string key="mail_2">P.S.
 Thank you for trading for METAGROSS.
 My Homerun is really strong~!
 Please take good care of it!</string>
-            <string key="dialog_2">Well, actually, I heard an amazing
+<string key="dialog_2">Well, actually, I heard an amazing
 rumor that if you 
 gather 8 Fighting Type Pokémon in the new ranch,
 they'll have a Tournament
 I wonder, would you trade your MACHOP for my Homerun?</string>
-            <string key="dialog_3">I'm going to watch the Pokémon on the ranch for a while.</string>
-            <string key="dialog_4"/>
-            <string key="dialog_5"/>
-            <string key="name_1">Professor Red</string>
-            <string key="name_2">From Professor Red</string>
-          </en_US>
-          <ja_JP>
-            <string key="dialog_1">ポケモーニング!
+<string key="dialog_3">I'm going to watch the Pokémon on the ranch for a while.</string>
+<string key="dialog_4"/>
+<string key="dialog_5"/>
+<string key="name_1">Professor Red</string>
+<string key="name_2">From Professor Red</string>
+</en_US>
+<ja_JP>
+<string key="dialog_1">ポケモーニング!
 「ポケモン☆サンデー」での わたしの
 かつやくを みてくれているかな?
 レッドはかせです!
 わたしのメタグロス、ホームランを
 つれてきちゃいました～!</string>
-            <string key="exchange_1">お、それはワンリキー!
+<string key="exchange_1">お、それはワンリキー!
 つれてきてくれたんですね。
 ありがとう。
 では、こうかんしましょうか。</string>
-            <string key="mail_1">そろそろ ポケサンカンパニーに 
+<string key="mail_1">そろそろ ポケサンカンパニーに 
 かえらなくては……
 また 「ポケモン☆サンデー」で
 あいましょう!
 ポケ・ウィー・ゴー!</string>
-            <string key="mail_2">P.S.
+<string key="mail_2">P.S.
 メタグロスと
 こうかんしてくれて、ありがとう。
 わたしの ホームランは
 つよいですよ～!
 ちゃんと かわいがってくださいね!</string>
-            <string key="dialog_2">いや～、じつはですね、すごいウワサを 
+<string key="dialog_2">いや～、じつはですね、すごいウワサを 
 みみにしたんですが、
 あたらしいぼくじょうで、
 かくとうタイプの ポケモンを 8ぴき 
@@ -481,63 +2024,62 @@ I wonder, would you trade your MACHOP for my Homerun?</string>
 あなたのワンリキーと 
 わたしのホームラン、
 こうかんしません?</string>
-            <string key="dialog_3">しばらく ぼくじょうで ポケモンたちを
+<string key="dialog_3">しばらく ぼくじょうで ポケモンたちを
 かんさつすることにするよ。</string>
-            <string key="dialog_4"/>
-            <string key="dialog_5"/>
-            <string key="name_1">レッドはかせ</string>
-            <string key="name_2">レッドはかせより</string>
-          </ja_JP>
-          <de_DE>
-            <string key="dialog_1"/>
-            <string key="exchange_1"/>
-            <string key="mail_1"/>
-            <string key="mail_2"/>
-            <string key="dialog_2"/>
-            <string key="dialog_3"/>
-            <string key="dialog_4"/>
-            <string key="dialog_5"/>
-            <string key="name_1"/>
-            <string key="name_2"/>
-          </de_DE>
-          <fr_FR>
-            <string key="dialog_1"/>
-            <string key="exchange_1"/>
-            <string key="mail_1"/>
-            <string key="mail_2"/>
-            <string key="dialog_2"/>
-            <string key="dialog_3"/>
-            <string key="dialog_4"/>
-            <string key="dialog_5"/>
-            <string key="name_1"/>
-            <string key="name_2"/>
-          </fr_FR>
-          <es_ES>
-            <string key="dialog_1"/>
-            <string key="exchange_1"/>
-            <string key="mail_1"/>
-            <string key="mail_2"/>
-            <string key="dialog_2"/>
-            <string key="dialog_3"/>
-            <string key="dialog_4"/>
-            <string key="dialog_5"/>
-            <string key="name_1"/>
-            <string key="name_2"/>
-          </es_ES>
-          <it_IT>
-            <string key="dialog_1"/>
-            <string key="exchange_1"/>
-            <string key="mail_1"/>
-            <string key="mail_2"/>
-            <string key="dialog_2"/>
-            <string key="dialog_3"/>
-            <string key="dialog_4"/>
-            <string key="dialog_5"/>
-            <string key="name_1"/>
-            <string key="name_2"/>
-          </it_IT>
-        </text>
-      </character>
-    </celebrity>
-  </event>
-</events>
+<string key="dialog_4"/>
+<string key="dialog_5"/>
+<string key="name_1">レッドはかせ</string>
+<string key="name_2">レッドはかせより</string>
+</ja_JP>
+<de_DE>
+<string key="dialog_1"/>
+<string key="exchange_1"/>
+<string key="mail_1"/>
+<string key="mail_2"/>
+<string key="dialog_2"/>
+<string key="dialog_3"/>
+<string key="dialog_4"/>
+<string key="dialog_5"/>
+<string key="name_1"/>
+<string key="name_2"/>
+</de_DE>
+<fr_FR>
+<string key="dialog_1"/>
+<string key="exchange_1"/>
+<string key="mail_1"/>
+<string key="mail_2"/>
+<string key="dialog_2"/>
+<string key="dialog_3"/>
+<string key="dialog_4"/>
+<string key="dialog_5"/>
+<string key="name_1"/>
+<string key="name_2"/>
+</fr_FR>
+<es_ES>
+<string key="dialog_1"/>
+<string key="exchange_1"/>
+<string key="mail_1"/>
+<string key="mail_2"/>
+<string key="dialog_2"/>
+<string key="dialog_3"/>
+<string key="dialog_4"/>
+<string key="dialog_5"/>
+<string key="name_1"/>
+<string key="name_2"/>
+</es_ES>
+<it_IT>
+<string key="dialog_1"/>
+<string key="exchange_1"/>
+<string key="mail_1"/>
+<string key="mail_2"/>
+<string key="dialog_2"/>
+<string key="dialog_3"/>
+<string key="dialog_4"/>
+<string key="dialog_5"/>
+<string key="name_1"/>
+<string key="name_2"/>
+</it_IT>
+</text>
+</character>
+</celebrity>
+</event></events>
