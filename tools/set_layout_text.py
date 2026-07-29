@@ -26,6 +26,7 @@ STRINGS = {
         "text_up": "Panneau d'affichage",
         "next_text_up": "Panneau d'affichage",
     },
+    # (font sizes for these live in FONTS below)
     "dlg_de.brlyt": {
         "text_up": "Schwarzes Brett",
         "next_text_up": "Schwarzes Brett",
@@ -37,6 +38,27 @@ STRINGS = {
     # dlg_es is untranslated upstream -- its text_up reads "BBS" like the
     # English layout.  Add the Spanish term here when it is decided.
     # dlg_en / dlg_b4 keep "BBS", which already fits.
+}
+
+# layout -> pane -> (fontSizeX, fontSizeY).  Every dialog layout ships with
+# dlg_b4's metrics -- 28.80 x 34.20 in a 320px pane -- because the localized
+# layouts are dlg_b4 with the strings swapped and nothing else touched.  There
+# is no auto-fit in nw4r: a string wider than the pane wraps, which is why
+# "Panneau d'affichage" spilled its final "e" onto a second line while the
+# original European build fits it on one.
+#
+# Measured from that overflow: 18 of the 19 glyphs occupied the full 320px, so
+# the average advance is ~17.8px at fontX 28.80 with charSpace -2.00.  Scaling
+# to 26.00 (~0.90) leaves the string on one line with margin to spare, and the
+# 34.20/28.80 aspect ratio is preserved.  Tune here if it reads too small.
+#
+# German ("Schwarzes Brett", 15 chars) and Italian ("Bacheca", 7) fit at the
+# stock size and are deliberately left alone.
+FONTS = {
+    "dlg_fr.brlyt": {
+        "text_up": (26.00, 30.88),
+        "next_text_up": (26.00, 30.88),
+    },
 }
 
 MIN_BUF = 128
@@ -57,7 +79,7 @@ def sections(d):
         off += size
 
 
-def set_strings(path, wanted):
+def set_strings(path, wanted, fonts=None):
     d = open(path, "rb").read()
     out = bytearray(d[:0x10])
     changed = []
@@ -65,6 +87,9 @@ def set_strings(path, wanted):
         sect = bytearray(d[off:off + size])
         if magic == b"txt1":
             name = bytes(sect[0x0C:0x1C]).split(b"\0")[0].decode("ascii", "replace")
+            if fonts and name in fonts:
+                struct.pack_into(">ff", sect, 0x64, *fonts[name])
+                changed.append((name, "fontSize=%.2fx%.2f" % fonts[name], 0, 0))
             if name in wanted:
                 str_off = struct.unpack(">I", sect[0x58:0x5C])[0]
                 old_bytes = struct.unpack(">H", sect[0x4E:0x50])[0]
@@ -96,8 +121,11 @@ for layout, wanted in STRINGS.items():
         print(f"{layout}: missing, skipped")
         continue
     before = os.path.getsize(path)
-    for name, text, old, new in set_strings(path, wanted):
-        print(f"{layout:<14} {name:<14} {old:>3} -> {new:>3} bytes  {text!r}")
+    for name, text, old, new in set_strings(path, wanted, FONTS.get(layout)):
+        if old == 0 and new == 0:
+            print(f"{layout:<14} {name:<14} {text}")
+        else:
+            print(f"{layout:<14} {name:<14} {old:>3} -> {new:>3} bytes  {text!r}")
         total += 1
     after = os.path.getsize(path) if not dry_run else before
     print(f"{layout:<14} file {before} -> {after} bytes")
