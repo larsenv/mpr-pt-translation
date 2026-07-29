@@ -46,25 +46,49 @@ with open(filepath, "r+b") as f:
         hook_addr = 0x8036EBC4
         hook_offset = 0x2B2184
     
+        # The hook sits on `mr r6, r3` at 0x8036EBC4, right after the call that
+        # returns the locale string ("en_GB", "de_DE", ...).  Two globals hold
+        # the BRLYT name of the four-button dialog and both default to "dlg_b4":
+        #
+        #   0x807BF308 (r13-0x3798)  used by sub_80336280
+        #   0x807BFD88 (r13-0x2D18)  used by sub_803D7EA8
+        #
+        # ui.arc ships wider clones of that layout for the languages whose
+        # button text does not fit: dlg_de / dlg_es / dlg_fr / dlg_it.  There is
+        # no dlg_en (English uses the stock dlg_b4) and no dlg_ja / dlg_nl, so
+        # the substitution has to be restricted to those four languages --
+        # writing "dlg_en" makes the layout load fail outright.
+        #
+        # NOTE: the layout name is also the animation prefix; the loader looks
+        # up "<layout>_<anim>.brlan".  dlg_XX_*.brlan must exist in ui.arc or
+        # every animation resolves to NULL and the dialog crashes.  Run
+        # tools/dlg_locale_anims.py to clone them from dlg_b4_*.brlan.
         payload_hex = (
-            "9421FFE090610008"
-            "9361000C48000011"
-            "646C675F252E3273"
-            "000000007F6802A6"
-            "3C60807C3863F308"
-            "388000087F65DB78"
-            "80C100083D80800C"
-            "398C1BD87D8903A6"
-            "4E8004213C60807C"
-            "3863FD8838800008"
-            "7F65DB7880C10008"
-            "3D80800C398C1BD8"
-            "7D8903A64E800421"
-            "8361000C80610008"
-            "7C661B7838210020"
+            "A0030000"    # lhz    r0, 0(r3)          ; first two chars of locale
+            "28006465"    # cmplwi r0, 0x6465         ; "de"
+            "4182001C"    # beq    apply
+            "28006672"    # cmplwi r0, 0x6672         ; "fr"
+            "41820014"    # beq    apply
+            "28006573"    # cmplwi r0, 0x6573         ; "es"
+            "4182000C"    # beq    apply
+            "28006974"    # cmplwi r0, 0x6974         ; "it"
+            "40820034"    # bne    done               ; anything else keeps dlg_b4
+            "3D60807C"    # apply: lis  r11, 0x807C
+            "3D20646C"    # lis    r9, 0x646C         ; "dl"
+            "6129675F"    # ori    r9, r9, 0x675F     ; "dlg_"
+            "39000000"    # li     r8, 0
+            "394BF308"    # addi   r10, r11, -0xCF8   ; 0x807BF308
+            "912A0000"    # stw    r9, 0(r10)
+            "B00A0004"    # sth    r0, 4(r10)
+            "990A0006"    # stb    r8, 6(r10)
+            "394BFD88"    # addi   r10, r11, -0x278   ; 0x807BFD88
+            "912A0000"    # stw    r9, 0(r10)
+            "B00A0004"    # sth    r0, 4(r10)
+            "990A0006"    # stb    r8, 6(r10)
+            "7C661B78"    # done:  mr r6, r3          ; displaced instruction
         )
         payload_bytes = bytearray.fromhex(payload_hex)
-        branch_back_addr = payload_addr + 120
+        branch_back_addr = payload_addr + len(payload_bytes)
         branch_back_inst = make_branch(branch_back_addr, hook_addr + 4)
         payload_bytes.extend(struct.pack(">I", branch_back_inst))
         payload_bytes.extend(bytes.fromhex("00000000"))
