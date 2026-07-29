@@ -53,27 +53,30 @@ with open(filepath, "r+b") as f:
         #   0x807BF308 (r13-0x3798)  used by sub_80336280
         #   0x807BFD88 (r13-0x2D18)  used by sub_803D7EA8
         #
-        # ui.arc ships wider clones of that layout for the languages whose
-        # button text does not fit: dlg_de / dlg_es / dlg_fr / dlg_it.  There is
-        # no dlg_en (English uses the stock dlg_b4) and no dlg_ja / dlg_nl, so
-        # the substitution has to be restricted to those four languages --
-        # writing "dlg_en" makes the layout load fail outright.
+        # For the EUR build, 61.sh renames dlg_b4 -> dlg_en and then derives
+        # dlg_es / dlg_de / dlg_it / dlg_fr from it, animations included, so the
+        # names that exist in the built ui.arc are exactly en/de/es/fr/it.
+        # dlg_b4 is GONE from that archive -- never fall back to it here.
         #
-        # NOTE: the layout name is also the animation prefix; the loader looks
-        # up "<layout>_<anim>.brlan".  dlg_XX_*.brlan must exist in ui.arc or
-        # every animation resolves to NULL and the dialog crashes.  Run
-        # tools/dlg_locale_anims.py to clone them from dlg_b4_*.brlan.
+        # The layout name doubles as the animation prefix (sub_80154674 stores
+        # "<layout>_" and sub_80155540 resolves "<prefix><anim>.brlan",
+        # returning NULL on a miss), so a name without matching BRLANs crashes
+        # the dialog.  Locales 61.sh does not generate -- nl_NL, and anything
+        # else the table in sub_80337A78 can return -- fall back to dlg_en.
         payload_hex = (
             "A0030000"    # lhz    r0, 0(r3)          ; first two chars of locale
             "28006465"    # cmplwi r0, 0x6465         ; "de"
-            "4182001C"    # beq    apply
+            "41820028"    # beq    apply
             "28006672"    # cmplwi r0, 0x6672         ; "fr"
-            "41820014"    # beq    apply
+            "41820020"    # beq    apply
             "28006573"    # cmplwi r0, 0x6573         ; "es"
-            "4182000C"    # beq    apply
+            "41820018"    # beq    apply
             "28006974"    # cmplwi r0, 0x6974         ; "it"
-            "40820034"    # bne    done               ; anything else keeps dlg_b4
-            "3D60807C"    # apply: lis  r11, 0x807C
+            "41820010"    # beq    apply
+            "2800656E"    # cmplwi r0, 0x656E         ; "en"
+            "41820008"    # beq    apply
+            "3800656E"    # li     r0, 0x656E         ; unhandled locale -> "en"
+            "3D60807C"    # apply: lis r11, 0x807C
             "3D20646C"    # lis    r9, 0x646C         ; "dl"
             "6129675F"    # ori    r9, r9, 0x675F     ; "dlg_"
             "39000000"    # li     r8, 0
@@ -85,7 +88,7 @@ with open(filepath, "r+b") as f:
             "912A0000"    # stw    r9, 0(r10)
             "B00A0004"    # sth    r0, 4(r10)
             "990A0006"    # stb    r8, 6(r10)
-            "7C661B78"    # done:  mr r6, r3          ; displaced instruction
+            "7C661B78"    # mr     r6, r3             ; displaced instruction
         )
         payload_bytes = bytearray.fromhex(payload_hex)
         branch_back_addr = payload_addr + len(payload_bytes)
