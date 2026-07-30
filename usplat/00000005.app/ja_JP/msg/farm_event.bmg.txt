@@ -390,13 +390,13 @@
     91	= See ya!
     92	= The number of Pokémon at the\n
 	+ Ranch has become %ls!
-    93	= 
+    93	= The number of Pokémon at the\n
     94	= Okay. Let's expand the Ranch!\n
 	+ Its construction is expected to\n
 	+ be done on %ls!
     95	= Oh? The number of Pokémon at\n
 	+ the Ranch is already %ls!
-    96	= 
+    96	= Oh? The number of Pokémon at\n
     97	= Okay.\n
 	+ Let's expand the Ranch again!
     98	= Its construction is expected to\n
@@ -412,7 +412,7 @@
 	+ the Ranch today.
     9d	= So far, I have brought\n
 	+ %ls Pokémon.
-    9e	= 
+    9e	= So far, I have brought\n
     9f	= Here are my precious Pokémon.\n
 	+ Please take good care of them!
     a0	= It's my precious Pokémon.\n
@@ -424,7 +424,7 @@
     a3	= Once the number of Pokémon\n
 	+ becomes %ls, let's expand\n
 	+ the Ranch!
-    a4	= 
+    a4	= Once the number of Pokémon\n
     a5	= Let's keep adding Pokémon to\n
 	+ the Ranch!
     a6	= Let's expand the Ranch by\n
@@ -432,7 +432,7 @@
     a7	= Once the number of Pokémon\n
 	+ becomes %ls, let's expand\n
 	+ the Ranch!
-    a8	= 
+    a8	= Once the number of Pokémon\n
     a9	= ...Oh!?
     aa	= You are familiar now with the\n
 	+ Pokémon Ranch, aren't you?
