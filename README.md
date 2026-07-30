@@ -6,6 +6,25 @@ jpnormal contains files extracted from the original Japanese release.
 usupdate contains files extracted from the updated US release.
 jpplat contains files extracted from the Japanese Platinum Update, in various states of translation.
 
+## Building
+
+`tools/61.sh` builds the USA and EUR WADs. **It is a tracked mirror, not the copy
+that runs** — compilation still happens on the server, from
+`/opt/ranch/www/61.sh` in the `pokemon` incus container on vine. Edit the server
+copy, then sync it back here so the history stays useful:
+
+```sh
+ssh vine 'incus exec pokemon -- cat /opt/ranch/www/61.sh' > tools/61.sh
+```
+
+The script `git clone`s this repo fresh on every run and calls `$TMPDIR/tools/*`
+for the patch tools, so **changes to `tools/` only take effect once pushed**. It
+never re-executes itself from the clone, which is why `tools/61.sh` is a mirror.
+
+Roughly: `sharpii WAD -u` the base WAD → `lzx -d` the `00000001.app` →
+`tools/appl.py <USA|EUR>` → `tools/patch_tmd_ios.py` on the TMD →
+`sharpii WAD -p` (re-fakesigns) into `/opt/ranch/wad/usplatt-<date>-<locale>.wad`.
+
 ## SDHC card support
 
 SDHC needs **two** independent things, and it only works when both are present.
