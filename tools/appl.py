@@ -38,6 +38,59 @@ with open(filepath, "r+b") as f:
     f.write(bytes.fromhex("7FE6FB787FA7EB787F68DB78"))
     print("Code 1 applied.")
 
+    # --- SDHC support ---------------------------------------------------
+    # Bero's SDHC Extension ported to Ranch's RVL-SDK sdi_api.o / sd_drv.o,
+    # applied as `b` trampolines into free space in Text 0. Converts the SD
+    # driver's byte addressing to the block addressing an SDHC card needs.
+    # Extracted from the known-good tools/00000001.app, so these bytes are
+    # exactly what that (verified) build contains.
+    #
+    # Codecave 0x80004DF4-0x80004F78, SDHC flag 0x80004F04, guard 0x80004F78,
+    # helpers 0x80004F08 / 0x80004F28 / 0x80004F50.  Does not overlap the EUR
+    # dialog payload at 0x800044F0.
+    #
+    # NOTE: this only fixes ADDRESSING.  The card is initialised by IOS, and
+    # Ranch's stock IOS35 has no SDHC support, so the TMD must also be
+    # repointed at an SDHC-capable IOS -- see tools/patch_tmd_ios.py.
+    sdhc_cave_offset = 0x000ef4
+    sdhc_cave = bytes.fromhex(
+        "546302D741820014386000013C80800060844F04906400002C1D00004849EF30"
+        "806100145463025341820028380000098061000C5463C43E386300011CC30400"
+        "3C60804A60631B407C6903A64E80042080A1000C4849CCBC3D608000616B4F78"
+        "816B00002C0B0000418200242C0400404182001C39600001916100083D60804A"
+        "616B3D747D6903A64E8004209421FFC0600000004849F10038C000002C160000"
+        "4182000838C00001600000004849EF74807C001C2C030001806DEFF441820034"
+        "8003000090190000800300049019000480030008901900088003000C9019000C"
+        "3C60804A60633F447C6903A64E800420600000004849F054380000003C608000"
+        "60634F78900300003C60806D4849BE3C000000003EC0800062D64F0482D60000"
+        "2C160000418200087C8023787C0400404E8000203F00800063184F0483180000"
+        "2C1800004182000C7CB92B78480000087F2531D6548006FF4E8000203C608000"
+        "60634F04806300002C0300004182000C3B390001480000087F39BA144E800020"
+    )
+    f.seek(sdhc_cave_offset)
+    f.write(sdhc_cave)
+    print(f"SDHC codecave written at {hex(sdhc_cave_offset)} ({len(sdhc_cave)} bytes)")
+
+    # hook sites (6 trampolines) and bl-redirects (6 helper calls)
+    sdhc_sites = [
+        (0x3e42f8, 0x4bb641b4),  # 804a0d38  was 3c60806d
+        (0x3e4cc8, 0x4bb63821),  # 804a1708  was 7f2531d6
+        (0x3e4e14, 0x4bb636fd),  # 804a1854  was 7f39ba14
+        (0x3e4ec4, 0x4bb63625),  # 804a1904  was 7f2531d6
+        (0x3e5010, 0x4bb63501),  # 804a1a50  was 7f39ba14
+        (0x3e50c0, 0x4bb63314),  # 804a1b00  was 80a1000c
+        (0x3e72fc, 0x4bb610b8),  # 804a3d3c  was 2c1d0000
+        (0x3e73d0, 0x4bb6107c),  # 804a3e10  was 38c00001
+        (0x3e74f8, 0x4bb60f6c),  # 804a3f38  was 806deff4
+        (0x3e7544, 0x4bb60ec8),  # 804a3f84  was 9421ffc0
+        (0x3e7948, 0x4bb60b81),  # 804a4388  was 7c040040
+        (0x3e7c84, 0x4bb60845),  # 804a46c4  was 7c040040
+    ]
+    for off, word in sdhc_sites:
+        f.seek(off)
+        f.write(struct.pack(">I", word))
+    print(f"SDHC hooks applied at {len(sdhc_sites)} sites.")
+
     if region == "EUR":
         # 2. Inject Payload into 128 bytes of free space in Text 0
         payload_addr = 0x800044F0
