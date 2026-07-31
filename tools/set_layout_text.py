@@ -35,8 +35,13 @@ STRINGS = {
         "text_up": "Bacheca",
         "next_text_up": "Bacheca",
     },
-    # dlg_es is untranslated upstream -- its text_up reads "BBS" like the
-    # English layout.  Add the Spanish term here when it is decided.
+    # dlg_es shipped untranslated upstream -- its text_up was byte-identical to
+    # dlg_b4's "BBS".  The term matches es_ES/msg/pokemonfarm.bmg (ids 4f, c3,
+    # ea, 23e, 23f), which already reads "Tablon de anuncios".
+    "dlg_es.brlyt": {
+        "text_up": "Tablón de anuncios",
+        "next_text_up": "Tablón de anuncios",
+    },
     # dlg_en / dlg_b4 keep "BBS", which already fits.
 }
 
@@ -56,6 +61,14 @@ STRINGS = {
 # stock size and are deliberately left alone.
 FONTS = {
     "dlg_fr.brlyt": {
+        "text_up": (26.00, 30.88),
+        "next_text_up": (26.00, 30.88),
+    },
+    # "Tablón de anuncios" is 18 characters -- 18 * 17.8 = 320.4px, a hair over
+    # the 320px pane, so it wraps at the stock size exactly like French did.
+    # Reusing French's 26.00 lands it at ~289px, and keeps the two long-string
+    # locales visually consistent.
+    "dlg_es.brlyt": {
         "text_up": (26.00, 30.88),
         "next_text_up": (26.00, 30.88),
     },
