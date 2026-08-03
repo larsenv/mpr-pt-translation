@@ -712,15 +712,16 @@
     + Vedrai che allegria!
    1d1	 = 
    1d2	 =  
-   1d3	 = Informazioni sull'aggiornamento Platino (1)
+   1d3	 = Info sull'aggiornamento Platino (1)
    1d4	 = 
-   1d5	 = ・My Pokémon Ranch si può ora connettere\n
-	+ 　a Pokémon Versione Platino per\n
+   1d5	 = ・My Pokémon Ranch si può ora\n
+	+ 　connettere a Pokémon Versione Platino per\n
 	+ 　il Nintendo DS.\n
 	+ \n
 	+ ・Mentre il Ranch si espande, puoi\n
-	+ 　mantenere fino ad un massimo di 1,500 Pokémon.\n
-   1d6	 = Informazioni sull'aggiornamento Platino (2)
+	+ 　mantenere fino ad un massimo di\n
+	+ 　1,500 Pokémon.
+   1d6	 = Info sull'aggiornamento Platino (2)
    1d7	 = Bacheca
    1d8	 = Bacheca
    1d9	 = Comandi
