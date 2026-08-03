@@ -1060,9 +1060,9 @@
    28d	 = Domanda
    28e	 = Come faccio a giocare senza musica?
    28f	 = Risposta
-   290	 = Scegli (Nessuna Musica) da "La Musica di Oggi"\n
-	+ nella Bacheca, o tieni premuto \x{e043} e \x{e041}↓\n
-	+ quando avvii il gioco. Poi, puoi\n
+   290	 = Scegli (Nessuna Musica) da "La Musica di Oggi" nella Bacheca, o tieni\n
+	+ premuto \x{e043} e \x{e041}↓\n
+	+ quando avvii il gioco. Poi potrai\n
 	+ giocare senza musica.
    291	 = Mii nel Ranch (1)
    292	 = Scegliere i Mii
