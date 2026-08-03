@@ -715,8 +715,8 @@
    1d3	 = Info sull'aggiornamento Platino (1)
    1d4	 = 
    1d5	 = ・My Pokémon Ranch si può ora\n
-	+ 　connettere a Pokémon Versione Platino per\n
-	+ 　il Nintendo DS.\n
+	+ 　connettere a Pokémon Versione\n
+	+ 　Platino per il Nintendo DS.\n
 	+ \n
 	+ ・Mentre il Ranch si espande, puoi\n
 	+ 　mantenere fino ad un massimo di\n
