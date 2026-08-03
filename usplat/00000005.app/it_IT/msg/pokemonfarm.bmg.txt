@@ -108,7 +108,7 @@
 	+ è stato interrotto.
     25	 = %d nuovi Pokémon al Ranch.
     26	 = Un nuovo Pokémon al Ranch.
-    27	 = (TRANSLATION NEEDED) %d Pokémon joined.
+    27	 = %d Pokémon si sono uniti.
     28	 = %d Pokémon hanno\n
 	+ lasciato il Ranch.
     29	 = Un Pokémon ha lasciato il Ranch.
@@ -371,7 +371,7 @@
     b7	 = Questo servizio può terminare\n
 	+ senza preavviso.
     b8	 = Pokémon desiderati
-    b9   = (TRANSLATION NEEDED) Today's Music
+    b9	 = Musica di oggi
     ba	 = Club Guarda-Guarda
     bb	 = È già pieno di %{}!
     bc	 = È già pieno di Uova!
@@ -531,13 +531,13 @@
    145	 = Shoving Game
    146	 = Flower Dance
    147	 = ●
-   148	 = (TRANSLATION NEEDED) Orbit
-   149	 = (TRANSLATION NEEDED) Resurrection
+   148	 = Orbita
+   149	 = Resurrezione
    14a	 = ♥
    14b	 = ★
    14c	 = ◆
    14d	 = (TRANSLATION NEEDED) Showdown
-   14e	 = (TRANSLATION NEEDED) Palette
+   14e	 = Palette
    14f	 = Controllo dell'ora della\n
 	+ console Wii in corso.
    150	 = Esci
@@ -622,7 +622,7 @@
    19f	 = (TRANSLATION NEEDED) Hungry
    1a0	 = (TRANSLATION NEEDED) Bouncy
    1a1	 = © Pokémon/Nintendo.
-   1a2	 = (TRANSLATION NEEDED) %ls Ranch
+   1a2	 = Ranch di %ls
    1a3	 = Ranch\n
 	+ %ls
    1a4	 = Salvataggio in corso...
@@ -691,7 +691,7 @@
 	+ "Salvataggio in corso...", non\n
 	+ toccare il pulsante POWER\n
 	+ o il pulsante RESET.
-   1c7	 = (TRANSLATION NEEDED) 
+   1c7	 =  
    1c8	 = 
    1c9	 = Come smetto di giocare?
    1ca	 = Tornare al menu Wii
@@ -711,16 +711,16 @@
     + Diamante, Perla e Platino.\n
     + Vedrai che allegria!
    1d1	 = 
-   1d2	 = (TRANSLATION NEEDED) 
-   1d3	 = (TRANSLATION NEEDED) Platinum Update Info (1)
-   1d4	 = (TRANSLATION NEEDED) Platinum Version Features
-   1d5	 = (TRANSLATION NEEDED) ・My Pokémon Ranch can now connect\n
-	+ 　to Pokémon Platinum Version for\n
-	+ 　the Nintendo DS.\n
+   1d2	 =  
+   1d3	 = Informazioni sull'aggiornamento Platino (1)
+   1d4	 = 
+   1d5	 = ・My Pokémon Ranch si può ora connettere\n
+	+ 　a Pokémon Versione Platino per\n
+	+ 　il Nintendo DS.\n
 	+ \n
-	+ ・As the Ranch expands, you can\n
-	+ 　keep up to 1,500 Pokémon.\n
-   1d6	 = (TRANSLATION NEEDED) Platinum Update Info (2)
+	+ ・Mentre il Ranch si espande, puoi\n
+	+ 　mantenere fino ad un massimo di 1,500 Pokémon.\n
+   1d6	 = Informazioni sull'aggiornamento Platino (2)
    1d7	 = Bacheca
    1d8	 = Bacheca
    1d9	 = Comandi
@@ -756,7 +756,7 @@
 	+ segue il Pokémon o il Mii\n
 	+ che stavi guardando.
    1ec   = 
-   1ed   = (TRANSLATION NEEDED) 
+   1ed   =  
    1ee   = Modalità
    1ef	 = Modalità libera
    1f0	 = Questa modalità ti lascia guardare\n
@@ -871,15 +871,15 @@
    229	 = 
    22a	 = Dettagli (2)
    22b	 = Pokémon nel Ranch
-   22c	 = (TRANSLATION NEEDED) You can view the Pokémon\n
-	+ you have stored.\n
-	+ This button opens the\n
-	+ "Release Pokémon?" screen.\n.
-   22d	 = (TRANSLATION NEEDED) Release Pokémon?
-   22e	 = (TRANSLATION NEEDED) Choose which Pokémon you\n
-	+ want to release to the Ranch.\n
-	+ You can sort by type or\n
-	+ amount.
+   22c	 = Puoi vedere i Pokémon\n
+	+ che hai archiviato.\n
+	+ Questo pulsante apre il menu\n
+	+ per lasciare i Pokémon al Ranch.\n.
+   22d	 = Lascia i Pokémon?
+   22e	 = Scegli quali Pokémon vuoi\n
+	+ lasciare al Ranch.\n
+	+ Puoi ordinarli per tipo o\n
+	+ quantità.
    22f	 = Dettagli (3)
    230	 = Parata
    231	 = (TRANSLATION NEEDED) Pokémon selected from Pokémon\n
@@ -916,22 +916,22 @@
 	+ \n
 	+ Puoi anche leggere le\n
 	+ informazioni sul Ranch.
-   241   = (TRANSLATION NEEDED) \n
-	+ You can change "Today's Music".\n
-	+ You can revisit a "Club Look-See"\n
-	+ Ranch you've already visited,
+   241   = \n
+	+ Puoi cambiare "La musica di oggi".\n
+	+ Puoi rivisitare un "Club Guarda-Guarda".\n
+	+ Ranch che hai già visitato.
    242	 = 
    243	 = Pokémon desiderati (1)
    244	 = Pokémon desiderati
-   245	 = (TRANSLATION NEEDED) Hayley often gives advice on how to\n
-	+ complete your Pokédex in Pokémon\n
-	+ Diamond, Pearl and Platinum.\n
-	+ It's done by catching the Wanted\n
-	+ Pokémon in these games and\n
-	+ bringing them to the Ranch.\n
+   245	 = Hayley ti darà dei consigli su come\n
+	+ completare il tuo Pokédex su Pokémon\n
+	+ Diamante, Perla e Platino.\n
+	+ Si fa catturando i Pokémon\n
+	+ desiderati in questi giochi e\n
+	+ portandoli al Ranch.\n
 	+ \n
-	+ If you succeed, maybe something\n
-	+ good will happen.
+	+ Se ci riesci, forse qualcosa\n
+	+ di bello succederà.
    246   = 
    247   = 
    248	 = Pokémon desiderati (2)
@@ -940,36 +940,36 @@
 	+ desiderato in bacheca, puoi\n
 	+ leggere informazioni utili e\n
 	+ consigli su come catturarlo!
-   24b   = (TRANSLATION NEEDED) Switch Versions
-   24c   = (TRANSLATION NEEDED) Press the button to switch\n
-	+ between viewing Pokémon\n
-	+ Platinum, Diamond, or\n
-	+ Pearl.
+   24b   = Cambia Versioni
+   24c   = Premi il pulsante per vedere\n
+	+ Pokémon Platino,\n
+	+ Diamante, o\n
+	+ Perla.
    24d	 = Info sul Ranch
    24e	 = Info sul Ranch
    24f	 = Controlla lo stato\n
 	+ attuale del Ranch.
    250	 = 
    251	 = 
-   252   = (TRANSLATION NEEDED) Today's Music (1)
-   253	 = (TRANSLATION NEEDED) Today's Music
-   254	 = (TRANSLATION NEEDED) You can see the names of the\n
-	+ music heard in the Ranch.\n
-	+ You can also select a song\n
-	+ to change the music.
+   252   = La Musica di Oggi (1)
+   253	 = La Musica di Oggi
+   254	 = Puoi vedere i nomi della musica\n
+	+ del Ranch.\n
+	+ Puoi anche scegliere un'altra canzone\n
+	+ per cambiare la musica.
    255	 = 
    256	 = 
-   257	 = (TRANSLATION NEEDED) Today's Music (2)
-   258	 = (TRANSLATION NEEDED) Others
-   259	 = (TRANSLATION NEEDED) In addition, you can choose\n
-	+ music from a variety of songs.
-   25a	 = (TRANSLATION NEEDED) (No Music)
+   257	 = La Musica di Oggi (2)
+   258	 = Altro
+   259	 = In più, puoi scegliere\n
+	+ musica da una varietà di canzoni.
+   25a	 = (Nessuna Musica)
    25b	 = Ferma la musica.
    25c	 = Club Guarda-Guarda
    25d	 = Club Guarda-Guarda
-   25e	 = (TRANSLATION NEEDED) You can revisit a\n
-	+ Club Look-See Ranch if \n
-	+ you've been there before.
+   25e	 = Puoi rivisitare un\n
+	+ Ranch del Club Guarda-Guarda se\n
+	+ ci sei stato prima.
    25f	 = Opzioni
    260	 = Opzioni
    261	 = Puoi scegliere quali Mii\n
@@ -1060,10 +1060,10 @@
    28d	 = Domanda
    28e	 = Come faccio a giocare senza musica?
    28f	 = Risposta
-   290	 = (TRANSLATION NEEDED) Select (No Music) from "Today's Music"\n
-	+ under the BBS, or hold down \x{e043} and \x{e041}↓\n
-	+ when you start the game. Then you\n
-	+ can play the game without music.
+   290	 = Scegli (Nessuna Musica) da "La Musica di Oggi"\n
+	+ nella Bacheca, o tieni premuto \x{e043} e \x{e041}↓\n
+	+ quando avvii il gioco. Poi, puoi\n
+	+ giocare senza musica.
    291	 = Mii nel Ranch (1)
    292	 = Scegliere i Mii
    293	 = Usa \x{e042} per scegliere il Mii\n
@@ -1116,23 +1116,22 @@
 	+ da un massimo di 8 schede di gioco.
    2a7	 = Collegati al DS
    2a8	 = Capienza scheda
-   2a9	 = (TRANSLATION NEEDED) If you want to deposit Pokémon from a\n
-	+ new DS-Series Pokémon Game Card\n
-	+ withdraw all of the Pokémon\n
-	+ deposited from any one Game Card.
+   2a9	 = Se vuoi depositare Pokémon da una\n
+	+ nuova Scheda di Gioco Pokémon per DS,\n
+	+ ritira tutti i Pokémon\n
+	+ depositati da qualsiasi Scheda di Gioco.
    2aa	 = Collegati al DS
    2ab	 = Pokédex non trovato.
    2ac	 = È necessario un Pokédex per\n
 	+ poter depositare i Pokémon\n
 	+ nel Ranch.
-   2ad	 = (TRANSLATION NEEDED) Please press the power\n
-	+ button on the wii for\n
-	+ 4 seconds to turn off\n
-	+ the power.	
+   2ad	 = Premi il pulsante POWER\n
+	+ nel Wii per\n
+	+ 4 secondi per spegnerla.\n
 	+ \n
-	+ Afterwards, please turn the\n
-	+ power back on and restore\n
-	+ your Console Nickname.
+	+ Dopodichè, riaccendila\n
+	+ e ripristina il Nickname\n
+	+ della Console.
    2ae	 = (TRANSLATION NEEDED) Failed to send save data\n
 	+ to Nintendo.\n
 	+ \fPlease check your Connection\n

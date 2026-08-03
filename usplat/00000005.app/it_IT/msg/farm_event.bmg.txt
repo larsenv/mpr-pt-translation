@@ -700,8 +700,8 @@
 	+ è il tema del ranch di oggi.
    112	 = "6 Pokémon"\n\n
 	+ è il tema del ranch di oggi.
-   113	 = (TRANSLATION NEEDED) "20 Pokémon"\n
-	+ is today's ranch theme.
+   113	 = "20 Pokémon"\n
+	+ è il tema del ranch di oggi.
    114	 = "50 Pokémon"\n\n
 	+ è il tema del ranch di oggi.
    115	 = Ciao! Ho portato delle\n
@@ -728,8 +728,8 @@
 	+ trovarmi quando avrai più\n
    11f	 = "Roccia"\n\n
 	+ è il tema del ranch di oggi.
-   120	 = (TRANSLATION NEEDED) "Bug"\n
-	+ is today's ranch theme.
+   120	 = "Coleottero"\n
+	+ è il tema del ranch di oggi.
    121	 = "Spettro"\n\n
 	+ è il tema del ranch di oggi.
    122	 = Grazie per aver visitato il\n
@@ -746,7 +746,7 @@ Ranch %ls!	Ranch %ls!+Ranch %ls! Ranch %ls!RRanch %ls!aRanch %ls!nRanch %ls!cRan
 	+ è il tema del ranch di oggi.
    127	 = "Elettro"\n\n
 	+ è il tema del ranch di oggi.
-   128	 = (TRANSLATION NEEDED) "Psychic"\n
+   128	 = "Psico"\n
 	+ is today's ranch theme.
    129	 = "Ghiaccio"\n\n
 	+ è il tema del ranch di oggi.
@@ -794,8 +794,8 @@ Ranch %ls!	Ranch %ls!+Ranch %ls! Ranch %ls!RRanch %ls!aRanch %ls!nRanch %ls!cRan
 	+ è il tema del ranch di oggi.
    13e	 = "Leggero"\n\n
 	+ è il tema del ranch di oggi.
-   13f	 = (TRANSLATION NEEDED) "Heavy"\n
-	+ is today's ranch theme.
+   13f	 = "Pesante"\n
+	+ è il tema del ranch di oggi.
    140	 = Davvero? Fantastico!\n
 	+ Forza, andiamo al mio\n
 	+ Verrò a prenderti.\n
@@ -821,7 +821,7 @@ Ranch %ls!	Ranch %ls!+Ranch %ls! Ranch %ls!RRanch %ls!aRanch %ls!nRanch %ls!cRan
 	+ %{}!
    14a	 = "Indifferenza"\n\n
 	+ è il tema del ranch di oggi.
-   14b	 = (TRANSLATION NEEDED) "Stinky"\n
+   14b	 = "Sporco"\n
 	+ è il tema del ranch di oggi.
    14c	 = Ok, stammi bene!
    14d	 = "Profumato"\n\n
@@ -955,7 +955,7 @@ Ranch %ls!	Ranch %ls!+Ranch %ls! Ranch %ls!RRanch %ls!aRanch %ls!nRanch %ls!cRan
 	+ è il tema del ranch di oggi.
    18b	 = "Indifferenza"\n\n
 	+ è il tema del ranch di oggi.
-   18c	 = (TRANSLATION NEEDED) "Stinky"\n
+   18c	 = "Sporco"\n
 	+ è il tema del ranch di oggi.
    18d	 = "Cantare"\n\n
 	+ è il tema del ranch di oggi.
@@ -1277,10 +1277,10 @@ Ranch %ls!	Ranch %ls!+Ranch %ls! Ranch %ls!RRanch %ls!aRanch %ls!nRanch %ls!cRan
    206	 = Controlliamo il tuo Pokédex...\n
 	+ Visti: %d\n
 	+ Catturati: %d
-   207   = (TRANSLATION NEEDED) According to your Pokédex,\n
-	+ you have...\n
-	+ Seen: %d\n
-	+ Obtained: %d
+   207   = Secondo il tuo Pokédex,\n
+	+ hai...\n
+	+ Visto: %d\n
+	+ Ottenuto: %d
    208   = Incredibile! Il tuo Pokédex\n
 	+ è completo!
    209   = Volevo aiutarti a completare\n
@@ -1304,10 +1304,10 @@ Ranch %ls!	Ranch %ls!+Ranch %ls! Ranch %ls!RRanch %ls!aRanch %ls!nRanch %ls!cRan
 	+ rispetto all'ultima volta...\n
 	+ Visti: %d\n
 	+ Catturati: %d
-   210   = (TRANSLATION NEEDED) Since last time,\n
-	+ the number has increased by...\n
-	+ Seen: %d\n
-	+ Obtained: %d
+   210   = Dall'ultima volta,\n
+	+ il numero è cresciuto di...\n
+	+ Visti: %d\n
+	+ Ottenuti: %d
    211   = Ce l'hai fatta! Il tuo Pokédex\n
 	+ è completo!
    212   = Bene, visto che sei in grado\n
@@ -1316,17 +1316,17 @@ Ranch %ls!	Ranch %ls!+Ranch %ls! Ranch %ls!RRanch %ls!aRanch %ls!nRanch %ls!cRan
 	+ Pokémon che mi interessa?
    213   = Wow! Hai completato il\n
 	+ Pokédex! Complimenti!
-   214   = (TRANSLATION NEEDED) Keep this up and you'll\n
-	+ catch all the Pokémon in\n
-	+ the Pokédex!
+   214   = Continua così e catturerai\n
+	+ tutti i Pokémon\n
+	+ nel Pokédex!
    215   = I Pokémon sono aumentati \n
 	+ rispetto all'ultima volta...\n
 	+ Visti: %d\n
 	+ Catturati: %d
-   216   = (TRANSLATION NEEDED) Since last time,\n
-	+ the number has increased by...\n
-	+ Seen: %d\n
-	+ Obtained: %d
+   216   = Dall'ultima volta,\n
+	+ il numero è cresciuto di...\n
+	+ Visti: %d\n
+	+ Ottenuti: %d
    217   = Hai fatto un altro passo\n
 	+ verso il completamento del\n
 	+ Pokédex! Complimenti!
@@ -1474,33 +1474,34 @@ Ranch %ls!	Ranch %ls!+Ranch %ls! Ranch %ls!RRanch %ls!aRanch %ls!nRanch %ls!cRan
 	+ usando MEW anche nelle\n
 	+ lotte!
 
-   233   = Hello! I'm Hayley
-   234   = (TRANSLATION NEEDED) Hello! I'm Hayley\n
-	+ Long time no see!
-   235   = (TRANSLATION NEEDED) Do you have a moment before\n
-	+ I go back to my Ranch?\n
-	+ I have something to tell you!
-   236   = (TRANSLATION NEEDED) Wow!\n
-	+ Our Ranch is now connected\n
-	+ to Pokémon Platinum!
-   237   = (TRANSLATION NEEDED) There's more!\n
-	+ Many parts of the Ranch\n
-	+ have been upgraded!
-   238   = Here's what's new.\n
-   239   = (TRANSLATION NEEDED) Hurry!\n
-	+ Let's see what's new\n
+   233   = Ciao! Sono Hayley
+   234  = Ciao! Sono Hayley\n
+	+ È da tanto tempo che\n
+	+ non ci vediamo!
+   235   = Hai un minuto prima che\n
+	+ torni al mio Ranch?\n
+	+ Ho qualcosa da dirti!
+   236   = Wow!\n
+	+ Il nostro Ranch è connesso\n
+	+ a Pokémon Platino!
+   237   = C'è di più!\n
+	+ Molte parti del Ranch\n
+	+ sono state aggiornate!
+   238   = Ecco le novità.\n
+   239   = Sbrigati!\n
+	+ Vediamo che novità ci sono\n
 	+ at the Ranch!\n
-	+ Let's go!
-   23a   = (TRANSLATION NEEDED) This is our newly upgraded\n
-	+ Ranch!
-   23b   = (TRANSLATION NEEDED) The Ranch has grown since\n
-	+ connecting to Pokémon\n
-	+ Platinum!
-   23c   = (TRANSLATION NEEDED) A lot has changed,\n
-	+ but I won't tell you\n
-	+ about all of it.\n
-	+ The rest is for you\n
-	+ to find!
-   23d   = (TRANSLATION NEEDED) Well then, let's continue\n
-	+ to work together!
+	+ Andiamo!
+   23a   = Questo è il nostro nuovo\n
+	+ Ranch aggiornato!
+   23b   = Il Ranch è cresciuto da quando\n
+	+ è stato connesso a Pokémon\n
+	+ Platino!
+   23c   = Tanto è cambiato,\n
+	+ ma non ti dirò\n
+	+ tutto.\n
+	+ Il resto è per te da\n
+	+ trovare!
+   23d   = Bene, allora, continuiamo\n
+	+ a lavorare insieme!
 
