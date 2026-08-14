@@ -1423,11 +1423,11 @@ Ranch %ls!	Ranch %ls!+Ranch %ls! Ranch %ls!RRanch %ls!aRanch %ls!nRanch %ls!cRan
 	+ \fImparata la mossa Forzantica,\n
 	+ si può evolvere in un Pokémon\n
 	+ molto forte.
-   22a	 = (TRANSLATION NEEDED) LICKITUNG, a Pokémon I caught\n
-	+ near Lake Valor during a\n
-	+ Mass Outbreak.\n
-	+ \fIt's a cute Pokémon with its\n
-	+ tongue sticking out!
+   22a	 = LICKITUNG, un Pokémon che ho preso\n
+	+ vicino al Lago Valore\n
+	+ durante una Comparsa massiccia.\n
+	+ \fIt'è carinissimo con la\n
+	+ lingua che spunta fuori!
    22b	 = Questo WYNAUT è con me\n
 	+ sin da quando è sgusciato \n
 	+ dall'Uovo.\n
@@ -1449,10 +1449,10 @@ Ranch %ls!	Ranch %ls!+Ranch %ls! Ranch %ls!RRanch %ls!aRanch %ls!nRanch %ls!cRan
 	+ \fQuesto Pokémon non si vede\n
 	+ spesso. Se ce l'hai puoi\n
 	+ vantartene con gli amici!
-   22f	 = (TRANSLATION NEEDED) TANGELA, a Pokémon you\n
-	+ can catch in the Pal Park.\n
-	+ \fIt is shrouded by vines...\n
-	+ Such a mysterious Pokémon!
+   22f	 = TANGELA, un Pokémon che puoi\n
+	+ catturare nel Parco Amici.\n
+	+ \fIt è coperto di liane...\n
+	+ Che Pokémon misterioso!
    230	 = Per catturare questo COMBEE\n
 	+ ho messo del Miele su un\n
 	+ Albero Profumato.\n
@@ -1474,8 +1474,8 @@ Ranch %ls!	Ranch %ls!+Ranch %ls! Ranch %ls!RRanch %ls!aRanch %ls!nRanch %ls!cRan
 	+ usando MEW anche nelle\n
 	+ lotte!
 
-   233   = Ciao! Sono Hayley
-   234  = Ciao! Sono Hayley\n
+   233   = Ciao! Sono Giulia
+   234  = Ciao! Sono Giulia\n
 	+ È da tanto tempo che\n
 	+ non ci vediamo!
    235   = Hai un minuto prima che\n
@@ -1490,7 +1490,7 @@ Ranch %ls!	Ranch %ls!+Ranch %ls! Ranch %ls!RRanch %ls!aRanch %ls!nRanch %ls!cRan
    238   = Ecco le novità.\n
    239   = Sbrigati!\n
 	+ Vediamo che novità ci sono\n
-	+ at the Ranch!\n
+	+ al Ranch!\n
 	+ Andiamo!
    23a   = Questo è il nostro nuovo\n
 	+ Ranch aggiornato!
