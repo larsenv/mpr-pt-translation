@@ -389,14 +389,14 @@
     92	 = Finalmente siamo riusciti ad\n
 	+ avere %ls Pokémon\n
 	+ nel Ranch!
-    93	 = Il numero di Pokémon al\n\n
+    93	 = Il numero di Pokémon al\n
 	+ Ranch è diventato %d!
     94	 = Forza, ingrandiamo il Ranch!\n
 	+ I lavori dovrebbero finire\n
 	+ domani, %ls!
     95	 = Wow, nel Ranch ci sono già\n
 	+ %ls Pokémon!
-    96	 = Oh? Il numero di Pokémon al\n\n
+    96	 = Oh? Il numero di Pokémon al\n
 	+ Ranch è già %d%!
     97	 = Ok. Ingrandiamo di nuovo\n
 	+ il Ranch!
@@ -430,8 +430,8 @@
     a3	 = Non appena avremo %ls\n
 	+ Pokémon, ingrandiremo il\n
 	+ Ranch!
-    a4	 = Una volta che il numero di Pokémon\n\n
-	+ diventerà %d, possiamo espandere\n\n
+    a4	 = Una volta che il numero di Pokémon\n
+	+ diventerà %d, possiamo espandere\n
 	+ il Ranch!
     a5	 = Continuiamo a portare\n
 	+ Pokémon al Ranch!
@@ -442,7 +442,7 @@
 	+ Pokémon, dovremo ampliare\n
 	+ il Ranch!
     a8   = Una volta che il numero di Pokémon\n\n
-	+ diventerà %d, possiamo espandere\n\n
+	+ diventerà %d, possiamo espandere\n
 	+ il Ranch!
     a9	 = Oh!?
     aa	 = Ti senti già più a tuo agio nel\n
@@ -583,8 +583,8 @@
     e2	 = Il numero di Pokémon di cui\n
 	+ possiamo prenderci cura è\n
 	+ salito da %ls a %ls!
-    e3	 = Il numero di Pokémon che\n\n
-	+ puoi tenere è salito da\n\n
+    e3	 = Il numero di Pokémon che\n
+	+ puoi tenere è salito da\n
 	+ %d% a %d!
     e4	 = Il numero di Mii che puoi\n
 	+ portare al Ranch è salito\n
@@ -1094,19 +1094,19 @@ Ranch %ls!	Ranch %ls!+Ranch %ls! Ranch %ls!RRanch %ls!aRanch %ls!nRanch %ls!cRan
 	+ accetterai il mio invito!
    1c5	 = Alla prossima!\n
 	+ E... Guarda-Guarda!
-   1c6   = Il mio nome è %2$ls,\n\n
-	+ un membro del Club Guarda-Guarda.\n\n
+   1c6   = Il mio nome è %2$ls,\n
+	+ un membro del Club Guarda-Guarda.\n
 	+ Il mio N° Membro è %1$d!
    1c7   = Quindi... Ho sentito dire che sei venuto per\n\n
 	+ visitare il mio Ranch, giusto?
-   1c8   = Il mio nome è %2$ls,\n\n
-	+ un membro del Club Guarda-Guarda.\n\n
+   1c8   = Il mio nome è %2$ls,\n
+	+ un membro del Club Guarda-Guarda.\n
 	+ Il mio N° Membro è %1$d!
-   1c9   = Quindi... Ho sentito dire che ti piacerebbe vedere il\n\n
+   1c9   = Quindi... Ho sentito dire che ti piacerebbe vedere il\n
 	+ mio Ranch, vero?
-   1ca   = Non ti andrebbe di visitare il\n\n
+   1ca   = Non ti andrebbe di visitare il\n
 	+ mio Ranch di nuovo qualche volta?
-   1cb   = Vieni a visitare di nuovo il mio Ranch\n\n
+   1cb   = Vieni a visitare di nuovo il mio Ranch\n
 	+ qualche volta!
    1cc   = Grazie per aver accettato\n
 	+ di visitare il mio Ranch!
@@ -1121,10 +1121,10 @@ Ranch %ls!	Ranch %ls!+Ranch %ls! Ranch %ls!RRanch %ls!aRanch %ls!nRanch %ls!cRan
 	+ Guarda-Guarda vengono a\n
 	+ trovarti, vai a visitare\n
 	+ anche i loro Ranch!
-   1d0   = Ah, e un'altra cosa!\n\n
-	+ Se mi chiami dal  BBS,\n\n
-	+ verrò a prenderti.\n\n
-	+ Vieni a visitarmi un'altra volta\n\n
+   1d0   = Ah, e un'altra cosa!\n
+	+ Se mi chiami dal  BBS,\n
+	+ verrò a prenderti.\n
+	+ Vieni a visitarmi un'altra volta\n
 	+ quando vuoi.
    1d1   = Buon ritorno a casa!
    1d2	 = Allora? Che ne pensi?\n
@@ -1137,7 +1137,7 @@ Ranch %ls!	Ranch %ls!+Ranch %ls! Ranch %ls!RRanch %ls!aRanch %ls!nRanch %ls!cRan
 	+ ricambiare la visita!
    1d5   = Se mi chiami dal BBS,\n\n
 	+ verrò a prenderti.\n\n
-	+ Vieni a visitarmi qualche altra\n\n
+	+ Vieni a visitarmi qualche altra\n
 	+ volta, ok?
    1d6	 = Ok, stammi bene!
    1d7	 = Grazie per aver visitato il\n
@@ -1149,9 +1149,9 @@ Ranch %ls!	Ranch %ls!+Ranch %ls! Ranch %ls!RRanch %ls!aRanch %ls!nRanch %ls!cRan
 	+ Guarda-Guarda, vai anche tu\n
 	+ a visitare i loro Ranch.\n
 	+ Ci tengono!
-   1da   = Se mi chiami dal BBS,\n\n
+   1da   = Se mi chiami dal BBS,\n
 	+ verrò a prenderti.\n\n
-	+ Vieni a visitarmi di nuovo\n\n
+	+ Vieni a visitarmi di nuovo\n
 	+ quando vuoi, va bene?
    1db   = Ok, buon ritorno a casa!
    1dc   = Guarda-Guarda!
@@ -1472,9 +1472,7 @@ Ranch %ls!	Ranch %ls!+Ranch %ls! Ranch %ls!RRanch %ls!aRanch %ls!nRanch %ls!cRan
 	+ gli altri Pokémon!\n
 	+ \fSorprendi i tuoi amici\n
 	+ usando MEW anche nelle\n
-	+ lotte!
-
-   233   = Ciao! Sono Giulia
+	+ lotte!   233   = Ciao! Sono Giulia
    234  = Ciao! Sono Giulia\n
 	+ È da tanto tempo che\n
 	+ non ci vediamo!
