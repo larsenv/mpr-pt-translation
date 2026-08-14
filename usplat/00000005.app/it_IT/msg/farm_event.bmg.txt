@@ -124,9 +124,8 @@
 	+ piano riusciremo a riempire\n
 	+ questo Ranch di Pokémon!
     23	 = Se hai catturato dei Pokémon\n
-	+ you caught in Pokémon game versions\n
-	+ for the Nintendo DS.
-	+ pure qui.
+	+ in dei giochi per Nintendo DS\n
+	+ portali pure qui!
     24	 = In questo modo, nel Ranch\n
 	+ ce ne saranno sempre di più!
     25	 = Insomma, se hai dei Pokémon,\n
@@ -742,13 +741,13 @@ Ranch %ls!	Ranch %ls!+Ranch %ls! Ranch %ls!RRanch %ls!aRanch %ls!nRanch %ls!cRan
 	+ Ranch %ls!
 	+ Ranch? Ho sentito che c'è un\n
 	+ buon affare!
-   126	 = "Erba"\n\n
+   126	 = "Erba"\n
 	+ è il tema del ranch di oggi.
-   127	 = "Elettro"\n\n
+   127	 = "Elettro"\n
 	+ è il tema del ranch di oggi.
    128	 = "Psico"\n
-	+ is today's ranch theme.
-   129	 = "Ghiaccio"\n\n
+	+ è il tema del ranch di oggi.
+   129	 = "Ghiaccio"\n
 	+ è il tema del ranch di oggi.
    12a	 = Io sono il membro N° %1$d\n
    12b	 = "Buio"\n\n
@@ -757,7 +756,7 @@ Ranch %ls!	Ranch %ls!+Ranch %ls! Ranch %ls!RRanch %ls!aRanch %ls!nRanch %ls!cRan
 	+ Devi essere esigente e \n
 	+ al mio Ranch, alla prossima\n
 	+ volta!
-   12d	 = "▲"\n\n
+   12d	 = "▲"\n
 	+ è il tema del ranch di oggi.
    12e	 = Questi sono i motti del Club.
 	+ Ranch? Ho sentito molto\n
@@ -772,27 +771,27 @@ Ranch %ls!	Ranch %ls!+Ranch %ls! Ranch %ls!RRanch %ls!aRanch %ls!nRanch %ls!cRan
    132	 = Vorrei che anche tu scoprissi\n
 	+ Vuoi indovinare\n
 	+ Guarda-Guarda!
-   133	 = "Blu"\n\n
+   133	 = "Blu"\n
 	+ è il tema del ranch di oggi.
-   134	 = "Giallo"\n\n
+   134	 = "Giallo"\n
 	+ è il tema del ranch di oggi.
    135	 = Io sono il membro numero %1$d\n
-   136	 = "Nero"\n\n
+   136	 = "Nero"\n
 	+ è il tema del ranch di oggi.
-   137	 = "Marrone"\n\n
+   137	 = "Marrone"\n
 	+ è il tema del ranch di oggi.
-   138	 = "Viola"\n\n
+   138	 = "Viola"\n
 	+ è il tema del ranch di oggi.
-   139	 = "Grigio"\n\n
+   139	 = "Grigio"\n
 	+ è il tema del ranch di oggi.
-   13a	 = "Bianco"\n\n
+   13a	 = "Bianco"\n
 	+ è il tema del ranch di oggi.
-   13b	 = "Rosa"\n\n
+   13b	 = "Rosa"\n
 	+ è il tema del ranch di oggi.
    13c	 = Quindi questo Ranch \n
-   13d	 = "Alto"\n\n
+   13d	 = "Alto"\n
 	+ è il tema del ranch di oggi.
-   13e	 = "Leggero"\n\n
+   13e	 = "Leggero"\n
 	+ è il tema del ranch di oggi.
    13f	 = "Pesante"\n
 	+ è il tema del ranch di oggi.
@@ -801,50 +800,50 @@ Ranch %ls!	Ranch %ls!+Ranch %ls! Ranch %ls!RRanch %ls!aRanch %ls!nRanch %ls!cRan
 	+ Verrò a prenderti.\n
 	+ Come and visit again at any time,\n
 	+ che lo vedessi. Che peccato!
-   141	 = "Freddo"\n\n
+   141	 = "Freddo"\n
 	+ è il tema del ranch di oggi.
    142	 = Prima o poi tornerò per\n
    143	 = Alla prossima!\n
 	+ ora di visitare i loro Ranch,\n
 	+ vero?
-   144	 = "Rotondo"\n\n
+   144	 = "Rotondo"\n
 	+ è il tema del ranch di oggi.
-   145	 = "Volante"\n\n
+   145	 = "Volante"\n
 	+ è il tema del ranch di oggi.
-   146	 = "Forte"\n\n
+   146	 = "Forte"\n
 	+ è il tema del ranch di oggi.
    147	 = Se altri membri del Club\n
 	+ Guarda-Guarda vengono a\n
-   148	 = "Paralizzante"\n\n
+   148	 = "Paralizzante"\n
 	+ è il tema del ranch di oggi.
    149	 = Allora? Che ne pensi?\n
 	+ %{}!
-   14a	 = "Indifferenza"\n\n
+   14a	 = "Indifferenza"\n
 	+ è il tema del ranch di oggi.
    14b	 = "Sporco"\n
 	+ è il tema del ranch di oggi.
    14c	 = Ok, stammi bene!
-   14d	 = "Profumato"\n\n
+   14d	 = "Profumato"\n
 	+ è il tema del ranch di oggi.
-   14e	 = "Raro"\n\n
+   14e	 = "Raro"\n
 	+ è il tema del ranch di oggi.
-   14f	 = "Preferito"\n\n
+   14f	 = "Preferito"\n
 	+ è il tema del ranch di oggi.
-   150	 = "Proprietario"\n\n
+   150	 = "Proprietario"\n
 	+ è il tema del ranch di oggi.
-   151	 = "Pokémon depositati"\n\n
+   151	 = "Pokémon depositati"\n
 	+ è il tema del ranch di oggi.
    152	 = %ls è in visita\n
-   153	 = "6 Pokémon"\n\n
+   153	 = "6 Pokémon"\n
 	+ è il tema del ranch di oggi.
-   154	 = "20 Pokémon"\n\n
+   154	 = "20 Pokémon"\n
 	+ è il tema del ranch di oggi.
    155	 = Hai ospiti al Ranch!
-   156	 = "100 Pokémon"\n\n
+   156	 = "100 Pokémon"\n
 	+ è il tema del ranch di oggi.
-   157	 = "200 Pokémon"\n\n
+   157	 = "200 Pokémon"\n
 	+ è il tema del ranch di oggi.
-   158	 = "500 Pokémon"\n\n
+   158	 = "500 Pokémon"\n
 	+ è il tema del ranch di oggi.
    159	 = Prenditi cura di questo\n
 	+ %{}, va bene?
@@ -852,7 +851,7 @@ Ranch %ls!	Ranch %ls!+Ranch %ls! Ranch %ls!RRanch %ls!aRanch %ls!nRanch %ls!cRan
 	+ %{}! È proprio\n
 	+ quello che stava cercando\n
 	+ Per favore, porta %ls\n
-   15a	 = "1000 Pokémon"\n\n
+   15a	 = "1000 Pokémon"\n
 	+ è il tema del ranch di oggi.
    15b	 = Vuoi scambiare il tuo\n
 	+ %1${} con l'esem-\n
@@ -864,104 +863,104 @@ Ranch %ls!	Ranch %ls!+Ranch %ls! Ranch %ls!RRanch %ls!aRanch %ls!nRanch %ls!cRan
    15d	 = Capisco. Non fa niente. Però\n
 	+ per sapere quale Pokémon\n
 	+ si schiuderà!
-   15e	 = "Veleno"\n\n
+   15e	 = "Veleno"\n
 	+ è il tema del ranch di oggi..
-   15f	 = "Terra"\n\n
+   15f	 = "Terra"\n
 	+ è il tema del ranch di oggi.
-   160	 = "Roccia"\n\n
+   160	 = "Roccia"\n
 	+ è il tema del ranch di oggi.
-   161	 = "Coleottero"\n\n
+   161	 = "Coleottero"\n
 	+ è il tema del ranch di oggi.
-   162	 = "Spettro"\n\n
+   162	 = "Spettro"\n
 	+ è il tema del ranch di oggi.
-   163	 = "Acciaio"\n\n
+   163	 = "Acciaio"\n
 	+ è il tema del ranch di oggi.
    164	 = ?
-   165	 = "Fuoco"\n\n
+   165	 = "Fuoco"\n
 	+ è il tema del ranch di oggi.
-   166	 = "Acqua"\n\n
+   166	 = "Acqua"\n
 	+ è il tema del ranch di oggi.
-   167	 = "Erba"\n\n
+   167	 = "Erba"\n
 	+ è il tema del ranch di oggi.
-   168	 = "Elettro"\n\n
+   168	 = "Elettro"\n
 	+ è il tema del ranch di oggi.
-   169	 = "Psico"\n\n
+   169	 = "Psico"\n
 	+ è il tema del ranch di oggi.
-   16a	 = "Ghiaccio"\n\n
+   16a	 = "Ghiaccio"\n
 	+ è il tema del ranch di oggi.
-   16b	 = "Drago"\n\n
+   16b	 = "Drago"\n
 	+ è il tema del ranch di oggi.
-   16c	 = "Ombra"\n\n
+   16c	 = "Ombra"\n
 	+ è il tema del ranch di oggi.
-   16d	 = "●"\n\n
+   16d	 = "●"\n
 	+ è il tema del ranch di oggi.
-   16e	 = "▲"\n\n
+   16e	 = "▲"\n
 	+ è il tema del ranch di oggi.
-   16f	 = "■"\n\n
+   16f	 = "■"\n
 	+ è il tema del ranch di oggi.
-   170	 = "♥"\n\n
+   170	 = "♥"\n
 	+ è il tema del ranch di oggi.
-   171	 = "★"\n\n
+   171	 = "★"\n
 	+ è il tema del ranch di oggi.
-   172	 = "◆"\n\n
+   172	 = "◆"\n
 	+ è il tema del ranch di oggi.
-   173	 = "Rosso"\n\n
+   173	 = "Rosso"\n
 	+ è il tema del ranch di oggi.
-   174	 = "Blu"\n\n
+   174	 = "Blu"\n
 	+ è il tema del ranch di oggi.
-   175	 = "Giallo"\n\n
+   175	 = "Giallo"\n
 	+ è il tema del ranch di oggi.
-   176	 = "Verde"\n\n
+   176	 = "Verde"\n
 	+ è il tema del ranch di oggi.
-   177	 = "Nero"\n\n
+   177	 = "Nero"\n
 	+ è il tema del ranch di oggi.
-   178	 = "Marrone"\n\n
+   178	 = "Marrone"\n
 	+ è il tema del ranch di oggi.
-   179	 = "Viola"\n\n
+   179	 = "Viola"\n
 	+ è il tema del ranch di oggi.
-   17a	 = "Grigio"\n\n
+   17a	 = "Grigio"\n
 	+ è il tema del ranch di oggi.
-   17b	 = "Bianco"\n\n
+   17b	 = "Bianco"\n
 	+ è il tema del ranch di oggi.
-   17c	 = "Rosa"\n\n
+   17c	 = "Rosa"\n
 	+ è il tema del ranch di oggi.
-   17d	 = "Basso"\n\n
+   17d	 = "Basso"\n
 	+ è il tema del ranch di oggi.
-   17e	 = "Alto"\n\n
+   17e	 = "Alto"\n
 	+ è il tema del ranch di oggi.
-   17f	 = "Leggero"\n\n
+   17f	 = "Leggero"\n
 	+ è il tema del ranch di oggi.
-   180	 = "Pesante"\n\n
+   180	 = "Pesante"\n
 	+ è il tema del ranch di oggi.
-   181	 = "Ardente"\n\n
+   181	 = "Ardente"\n
 	+ è il tema del ranch di oggi.
-   182	 = "Freddo"\n\n
+   182	 = "Freddo"\n
 	+ è il tema del ranch di oggi.
-   183	 = "Spaventoso"\n\n
+   183	 = "Spaventoso"\n
 	+ è il tema del ranch di oggi.
-   184	 = "Veloce"\n\n
+   184	 = "Veloce"\n
 	+ è il tema del ranch di oggi.
-   185	 = "Rotondo"\n\n
+   185	 = "Rotondo"\n
 	+ è il tema del ranch di oggi.
-   186	 = "Volante"\n\n
+   186	 = "Volante"\n
 	+ è il tema del ranch di oggi.
-   187	 = "Forte"\n\n
+   187	 = "Forte"\n
 	+ è il tema del ranch di oggi.
-   188	 = "Concentrato"\n\n
+   188	 = "Concentrato"\n
 	+ è il tema del ranch di oggi.
-   189	 = "Paralizzante"\n\n
+   189	 = "Paralizzante"\n
 	+ è il tema del ranch di oggi.
-   18a	 = "Compiacenza"\n\n
+   18a	 = "Compiacenza"\n
 	+ è il tema del ranch di oggi.
-   18b	 = "Indifferenza"\n\n
+   18b	 = "Indifferenza"\n
 	+ è il tema del ranch di oggi.
    18c	 = "Sporco"\n
 	+ è il tema del ranch di oggi.
-   18d	 = "Cantare"\n\n
+   18d	 = "Cantare"\n
 	+ è il tema del ranch di oggi.
-   18e	 = "Profumato"\n\n
+   18e	 = "Profumato"\n
 	+ è il tema del ranch di oggi.
-   18f	 = "Raro"\n\n
+   18f	 = "Raro"\n
 	+ è il tema del ranch di oggi.
    190	 = Questo è il mio Ranch. È il\n
 	+ mio orgoglio. Esploralo pure\n
@@ -985,8 +984,8 @@ Ranch %ls!	Ranch %ls!+Ranch %ls! Ranch %ls!RRanch %ls!aRanch %ls!nRanch %ls!cRan
    197	 = Ciao! Ho portato delle\n
 	+ foto fatte al Ranch \n
 	+ %ls!
-   198	 = Ciao!\n\n
-	+ Sono %ls\n\n
+   198	 = Ciao!\n
+	+ Sono %ls\n
 	+ dal Ranch di %ls!
    199   = Ciao! Ho portato delle\n
 	+ foto fatte al Ranch\n
