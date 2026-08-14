@@ -363,8 +363,8 @@
     f2	 = Può capitare di trovare una Pietralunare\n
 	+ scavando nei Sotterranei. Possono\n
 	+ averla anche i LUNATONE selvatici.
-    f3	 = Puoi scoprire un Uovo lasciando\n\n
-	+ ELECTABUZZ♀ e un altro Pokémon con cui\n\n
+    f3	 = Puoi scoprire un Uovo lasciando\n
+	+ ELECTABUZZ♀ e un altro Pokémon con cui\n
 	+ va d'accordo al Centro Pokémon.
     f4	 = Puoi ottenere una Neropietra nel\n
 	+ deposito del Team Galassia o in\n
@@ -377,8 +377,8 @@
 	+ catturare un ELEKID all'Impianto\n
 	+ Turbine.\n
 	+ Dual Slot: Rosso Fuoco.
-    f9	 = L'Elettritore è un oggetto che un ELECTABUZZ selvatico\n\n
-	+ ha qualche volta. Puoi ottenere\n\n
+    f9	 = L'Elettritore è un oggetto che un ELECTABUZZ selvatico\n
+	+ ha qualche volta. Puoi ottenere\n
 	+ ELECTABUZZ al Percorso 222.
     fa	 = Puoi ottenere una Pietrabrillo sull'Isola\n
 	+ Ferrosa o sul Percorso 228.
@@ -500,7 +500,7 @@
    122	 = Puoi ottenere un Affilodente\n
 	+ nel Giardino Lotta.
    123	 = Puoi ottenere un Razor Fang al Percorso 225.
-   124	 = Quando WURMPLE arriva al livello 7,\n\n
+   124	 = Quando WURMPLE arriva al livello 7,\n
 	+ egli si evolve in un SILCOON o CASCOON.
    125	 = Trovi lo strumento sul Lago Verità\n
 	+ nella borsa lasciata da Prof. Rowan.
@@ -522,7 +522,7 @@
 	+ al Tempio Nevepoli.
    12f	 = Puoi trovare questo Pokémon\n
 	+ presso la Grotta Ritorno.
-   130	 = Puoi incontrarlo nel\n\n
+   130	 = Puoi incontrarlo nel\n
 	+ Mondo Distorto.
    131	 = Una volta visto sull'Isola Lunapiena,\n
 	+ si aggirerà nella regione di Sinnoh.
