@@ -416,7 +416,7 @@
     d6	 = ♪Andiamo!
     d7	 = ♪Benvenuti al Ranch!
     d8	 = ♪La mia parata Pokémon
-    d9	 = ♪La canzone di Jigglypuff
+    d9	 = ♪La canzone di JIGGLYPUFF
     da	 = Club Guarda-Guarda
     db	 = Pagina precedente
     dc	 = Pagina successiva
