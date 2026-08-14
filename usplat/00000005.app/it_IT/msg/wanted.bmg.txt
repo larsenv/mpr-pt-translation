@@ -564,7 +564,7 @@
 	+ Parla con l'anziano di Memoride.\n
 	+ Richiede una Splendisfera.
    148	 = Dopo aver ottenuto il Pokédex Nazionale,\n
-	+ vai ad Evoopoli e\n
+	+ vai ad Evopoli e\n
 	+ cerca il Prof. Oak.
    149	 = 
    14a	 = NUOVO!
