@@ -162,7 +162,7 @@
 	+ informazioni, leggere il\n
 	+ manuale di istruzioni della console.
     2c	 = Impossibile collegarsi ad Internet.\n
-	+ WiiConnect24 non puo essere\n\n
+	+ WiiConnect24 non puo essere\n
 	+ utilizzato. Controlla le\n
 	+ impostazioni Internet\n
 	+ della console.\n
