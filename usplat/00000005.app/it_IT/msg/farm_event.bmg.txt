@@ -735,7 +735,7 @@
    122	 = Grazie per aver visitato il\n
 Ranch %ls!	Ranch %ls!+Ranch %ls! Ranch %ls!RRanch %ls!aRanch %ls!nRanch %ls!cRanch %ls!hRanch %ls! Ranch %ls!%Ranch %ls!lRanch %ls!sRanch %ls!!Ranch %ls!
    123	 = Tornerò a trovarti e ti inviterò\n
-	+ Il club Look-See puo essere!
+	+ Il club Guarda-Guarda puo essere!
    124	 = "Fuoco"\n\n
 	+ è il tema del ranch di oggi.
    125	 = Ti ringrazio della visita al\n
@@ -765,7 +765,7 @@ Ranch %ls!	Ranch %ls!+Ranch %ls! Ranch %ls!RRanch %ls!aRanch %ls!nRanch %ls!cRan
    12f	 = "♥"\n\n
 	+ è il tema del ranch di oggi.
    130	 = Vuoi venire a visitarlo?
-	+ un membro del Club Look-See.\n
+	+ un membro del Club Guarda-Guarda.\n
 	+ Il mio Membro N° is %1$d!
    131	 = "◆"\n\n
 	+ è il tema del ranch di oggi.
@@ -1095,12 +1095,12 @@ Ranch %ls!	Ranch %ls!+Ranch %ls! Ranch %ls!RRanch %ls!aRanch %ls!nRanch %ls!cRan
    1c5	 = Alla prossima!\n
 	+ E... Guarda-Guarda!
    1c6   = Il mio nome è %2$ls,\n\n
-	+ un membro del Club Look-See.\n\n
+	+ un membro del Club Guarda-Guarda.\n\n
 	+ Il mio N° Membro è %1$d!
    1c7   = Quindi... Ho sentito dire che sei venuto per\n\n
 	+ visitare il mio Ranch, giusto?
    1c8   = Il mio nome è %2$ls,\n\n
-	+ un membro del Club Look-See.\n\n
+	+ un membro del Club Guarda-Guarda.\n\n
 	+ Il mio N° Membro è %1$d!
    1c9   = Quindi... Ho sentito dire che ti piacerebbe vedere il\n\n
 	+ mio Ranch, vero?
