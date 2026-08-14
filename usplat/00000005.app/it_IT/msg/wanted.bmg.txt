@@ -557,15 +557,15 @@
 	+ maschio di Pokémon dello stesso gruppo\n
 	+ Uovo presso la Pensione Pokémon, \n
 	+ otterrai un Uovo.
-   146	 = (TRANSLATION NEEDED) After entering the Hall of Fame,\n
-	+ talk to the elder of Celestic Town.\n
-	+ Requires an Adamant Orb.
-   147	 = (TRANSLATION NEEDED) After entering the Hall of Fame,\n
-	+ talk to the elder of Celestic Town.\n
-	+ Requires a Lustrous Orb.
-   148	 = (TRANSLATION NEEDED) After obtaining the National Dex,\n
-	+  go to Eterna City and\n
-	+ see Prof. Oak.
+   146	 = Dopo l'ingresso nella Sala D'Onore,\n
+	+ Parla con l'anziano di Memoride.\n
+	+ Richiede un' Adamasfera.
+   147	 = Dopo l'ingresso nella Sala D'Onore,\n
+	+ Parla con l'anziano di Memoride.\n
+	+ Richiede una Splendisfera.
+   148	 = Dopo aver ottenuto il Pokédex Nazionale,\n
+	+ vai ad Evoopoli e\n
+	+ cerca il Prof. Oak.
    149	 = 
    14a	 = NUOVO!
 
