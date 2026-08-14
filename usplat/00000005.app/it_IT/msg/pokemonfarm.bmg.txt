@@ -188,7 +188,7 @@
 	+ in una scheda SD?
     67	 = Foto salvata come\n
 	+ %2$.4s%3$04d.JPG nella\n
-	+ directory ＼DCIM＼%03dNIN01\n\n
+	+ directory ＼DCIM＼%03dNIN01\n
 	+ della scheda SD.
     68	 = Notizie dal Ranch
     69	 = Cancella tutte le foto\n
@@ -578,9 +578,9 @@
    173	 = Anita
    174	 = Arturo
    175	 = Luca
-   176	 = (TRANSLATION NEEDED) Rita
-   177	 = (TRANSLATION NEEDED) Munchin
-   178	 = (TRANSLATION NEEDED) Bunny
+   176	 = Rita
+   177	 = Munchin
+   178	 = Bunny
    179	 = dei Fiori
    17a	 = dell'Acqua
    17b	 = del Fuoco
@@ -619,8 +619,8 @@
    19c   = Terra
    19d   = Gran Cielo
    19e   = Rosso
-   19f	 = (TRANSLATION NEEDED) Hungry
-   1a0	 = (TRANSLATION NEEDED) Bouncy
+   19f	 = Affamato
+   1a0	 = Rimbalzante
    1a1	 = © Pokémon/Nintendo.
    1a2	 = Ranch di %ls
    1a3	 = Ranch\n
@@ -883,9 +883,9 @@
 	+ quantità.
    22f	 = Dettagli (3)
    230	 = Parata
-   231	 = (TRANSLATION NEEDED) Pokémon selected from Pokémon\n
-	+ on the Ranch and their Caretakers\n
-	+ march in a parade.
+   231	 = Pokémon selezionati dai Pokémon\n
+	+ nel Ranch e i loro custodi\n
+	+ marciano in una parata.
    232	 = Guardiano
    233	 = Puoi cambiare il guardiano \n
 	+ selezionando il Mii e \n
@@ -1133,35 +1133,35 @@
 	+ Dopodichè, riaccendila\n
 	+ e ripristina il Nickname\n
 	+ della Console.
-   2ae	 = (TRANSLATION NEEDED) Failed to send save data\n
-	+ to Nintendo.\n
-	+ \fPlease check your Connection\n
-	+ Settings and try again later.
-   2af	 = (TRANSLATION NEEDED) Send your save data\n
-	+ to Nintendo?
-   2b0	 = (TRANSLATION NEEDED) Sending your save data\n
-	+ to Nintendo…
-   2b1	 = (TRANSLATION NEEDED) Sent your save data\n
-	+ to Nintendo.
-   2b2	 = (TRANSLATION NEEDED) Failed to send save data\n
-	+ to Nintendo.\n
-	+ \fPlease check your Connection\n
-	+ Settings and try again later.
-   2b3	 = (TRANSLATION NEEDED) Receive your save data\n
-	+ from Nintendo?
-   2b4	 = (TRANSLATION NEEDED) Receiving your save data\n
-	+ from Nintendo…
-   2b5	 = (TRANSLATION NEEDED) Received your save data\n
-	+ from Nintendo.
-   2b6	 = (TRANSLATION NEEDED) No save data was found\n
-	+ at Nintendo.\n
-	+ Please contact Nintendo\n
-	+ Consumer Service.
-   2b7	 = (TRANSLATION NEEDED) Failed to write save data.\n
-	+ Please contact Nintendo\n
-	+ Consumer Service.
-   2b8	 = (TRANSLATION NEEDED) Checking network connection\n
-	+ please wait a moment…
+   2ae	 = Impossibile inviare i dati di\n
+	+ salvataggio a Nintendo.\n
+	+ \fControlla le impostazioni\n
+	+ di connessione e riprova.
+   2af	 = Iniviare i tuoi dati di salvataggio\n
+	+ a Nintendo?
+   2b0	 = Inviando i dati di salvataggio\n
+	+ a Nintendo…
+   2b1	 = Salvataggi inviati\n
+	+ a Nintendo.
+   2b2	 = Impossibile mandare i dati di\n
+	+ salvataggio a Nintendo.\n
+	+ \fControlla le impostazioni\n
+	+ di connessione e riprova.
+   2b3	 = Ricevere dati di salvataggio\n
+	+ da Nintendo?
+   2b4	 = Ricezione dei dati di\n
+	+ salvataggio da Nintendo...
+   2b5	 = Dati di salvataggio ricevuti\n
+	+ da Nintendo.
+   2b6	 = Nessun dato di salvataggio trovato\n
+	+ a Nintendo.\n
+	+ Contattare il Servizio Clienti\n
+	+ di Nintendo.
+   2b7	 = Impossibile scrivere dati di salvataggio.\n
+	+ Contattare il Servizio Clienti\n
+	+ di Nintendo.
+   2b8	 = Controllo connessione a Internet\n
+	+ Attendere prego…
    2b9	 = Per utilizzare questi dati\n
 	+ salvati, sulla tua console \n
 	+ Wii devi impostare come\n
