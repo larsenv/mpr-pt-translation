@@ -66,48 +66,56 @@
     11	/
     12	/
     13	/
-    14	 = La batteria del Telecomando Wii\n
-	+ è quasi scarica.
+    14	 = La batteria del Telecomando\n
+	+ Wii è quasi scarica.
     15	/
     16	/
     17	/
     18	 = Non c'è abbastanza spazio nella\n
 	+ memoria della console Wii.\n
-	+ Libera %d blocchi spostando i\n
+	+ \fLibera %d blocchi spostando i\n
 	+ dati su una Scheda SD o\n
-	+ cancellandoli dalla memoria della console.
+	+ cancellandoli dalla memoria\n
+	+ della console.
     19	 = Non c'è abbastanza spazio nella\n
 	+ memoria della console Wii per\n
-	+ My Pokémon Ranch: Versione Platino.\n
-	+ Libera %d blocchi spostando i\n
+	+ la Versione Platino.\n
+	+ \fLibera %d blocchi spostando i\n
 	+ dati su una Scheda SD o\n
-	+ cancellandoli dalla memoria della console.
+	+ cancellandoli dalla memoria\n
+	+ della console.
     1a	 = Non c'è abbastanza spazio nella\n
 	+ memoria della console Wii.\n
-	+ Libera 1 blocco spostando i\n
+	+ \fLibera 1 blocco spostando i\n
 	+ dati su una Scheda SD o\n
-	+ cancellandoli dalla memoria della console.
+	+ cancellandoli dalla memoria\n
+	+ della console.
     1b	 = Non c'è abbastanza spazio nella\n
 	+ memoria della console Wii per\n
-	+ My Pokémon Ranch: Versione Platino.\n
-	+ Libera 1 blocco spostando i\n
+	+ la Versione Platino.\n
+	+ \fLibera 1 blocco spostando i\n
 	+ dati su una Scheda SD o\n
-	+ cancellandoli dalla memoria della console.
+	+ cancellandoli dalla memoria\n
+	+ della console.
     1c	 = Non c'è abbastanza spazio nella\n
 	+ memoria della console Wii.\n
-	+ Sposta i dati su una Scheda SD o\n
-	+ cancellali dalla memoria della console.
+	+ \fSposta i dati su una Scheda SD\n
+	+  o cancellandoli dalla\n
+	+  memoria della console.
     1d	 = Non c'è abbastanza spazio nella\n
 	+ memoria della console Wii per\n
-	+ My Pokémon Ranch: Versione Platino.\n
-	+ Sposta i dati su una Scheda SD o\n
-	+ cancellali dalla memoria della console.
-    1e	 = Si è verificato un errore con i blocchi\n
-	+ liberi nella memoria della console Wii.\n
+	+ la Versione Platino.\n
+	+ \fSposta i dati su una Scheda SD o\n
+	+ cancellali dalla memoria\n
+	+ ella console.
+    1e	 = Si è verificato un errore\n
+	+ con i blocchi liberi nella\n
+	+ memoria della console Wii.\n
 	+ \n
 	+ \fPer maggiori informazioni, leggere il\n
-	+ manuale di istruzioni della console.
-    1f	 = Si è verificato un errore con i file\n
+	+ leggere il manuale di istruzioni\n
+	+ della console.
+    1f	 = Si è verificato un errore con i file\n WHY IS THIS INCONSISTENTLY TRANSLATED GRAAAAAAAAAAH STUPID AI ILL STOP HERE
 	+ nella memoria della console Wii.\n
 	+ \n
 	+ \fPer maggiori informazioni, leggere il\n
