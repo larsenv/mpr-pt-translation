@@ -112,19 +112,20 @@
 	+ con i blocchi liberi nella\n
 	+ memoria della console Wii.\n
 	+ \n
-	+ \fPer maggiori informazioni, leggere il\n
+	+ Per maggiori informazioni,\n
 	+ leggere il manuale di istruzioni\n
 	+ della console.
-    1f	 = Si è verificato un errore con i file\n
-	+ nella memoria della console Wii.\n
-	+ \n
-	+ \fPer maggiori informazioni, leggere il\n
-	+ manuale di istruzioni della console.
+    1f	 = Si è verificato un errore con\n
+	+ i file nella memoria della\n
+	+ console Wii.\n
+	+ Per maggiori informazioni,\n
+	+ leggere il manuale di\n
+	+ istruzioni della console.
     20	/
     21	 = La memoria della console Wii\n
 	+ è stata danneggiata.\n
 	+ \n
-	+ \fPer maggiori informazioni,\n
+	+ Per maggiori informazioni,\n
 	+ leggere il manuale di
 	+ istruzioni della console.
     22	 = Salvataggio in corso...\n
