@@ -245,7 +245,7 @@
     7c	 = Fotodaten konnten nicht\n
 	+ geladen werden.
     7d	 = Alle Fotos auf SD Card\n
-	+ speichern.
+	+ speichern
     7e	 = Alle Fotos in dem Album\n
 	+ auf SD Card speichern.
     7f	 = Möchtest du alles speichern?
