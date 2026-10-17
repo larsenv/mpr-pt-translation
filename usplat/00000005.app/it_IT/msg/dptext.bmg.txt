@@ -146,10 +146,10 @@
 	+ Uovo di Pokémon molto\n
 	+ misterioso ottenuto a:\n
 	+ $8$.
-    13	 = $7$ $6$ 20$5$\n
+    13	= $7$ $6$ 20$5$\n
 	+ Uovo di Pokémon molto\n
 	+ misterioso arrivato da:\n
-	+ $8$.
+	+ $8$.\n
     14	 = Zona Misteriosa
     15	 = Duefoglie
     16	 = Sabbiafine
@@ -271,25 +271,25 @@
     8a	 = Centro Globale
     8b	 = Villa
     8c	 = Casa Lotta
-    8d	 = Stanza di ROTOM
-    8e	 = Edificio T. G.
+    8d	= Stanza di Rotom
+    8e	= T.G. Eterna Bldg
     8f	 = Rovine Ferro
     90	 = Rovine Iceberg
     91	 = Rovine Picco
-    92	 = Luogo grazioso
+    92	= Luogo Grazioso
     93	 = Pokémon Ranger
-    94	 = Luogo Remoto
-    95	 = Film Pokémon
-    96	 = Film Pokémon 06
-    97	 = Film Pokémon 07
-    98	 = Film Pokémon 08
-    99	 = Film Pokémon 09
-    9a	 = Film Pokémon 10
-    9b	 = Film Pokémon 11
-    9c	 = Film Pokémon 12
-    9d	 = Film Pokémon 13
-    9e	 = Film Pokémon 14
-    9f	 = Film Pokémon 15
+    94	= Film Pokémon
+    95	= Film Pokémon 06
+    96	= Film Pokémon 07
+    97	= Film Pokémon 08
+    98	= Film Pokémon 09
+    99	= Film Pokémon 10
+    9a	= Film Pokémon 11
+    9b	= Film Pokémon 12
+    9c	= Film Pokémon 13
+    9d	= Film Pokémon 14
+    9e	= Film Pokémon 15
+    9f	= Film Pokémon 16
     a0	 = Film Pokémon 16
     a1	 = Cartone Pokémon
     a2	 = Space World
