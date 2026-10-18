@@ -27,7 +27,7 @@
 @INF-SIZE = 0x08
 
 # Default attribute values for this BMG (MKW=[1])
-@DEFAULT-ATTRIBS = [4,4,2,1]
+@DEFAULT-ATTRIBS = [2,2,,1]
 
 # Use MKW specific color names: 0=off, 1=auto, 2=on
 @COLOR-NAMES = 1
@@ -46,44 +46,81 @@
 #
 #------------------------------------------------------------------------------
 
-     0	= Molla
-     1	= Molla
+     0	= Gigamolla
+     1	= Gigamolla
      2	= Campana
      3	= Campana
-     6	= Buccia di banana
-     7	= Buccia di banana
-     8	= Balzopalla
+     4	= Tamburo
+     5	= Tamburo
+     6	= Buccia
+     7	= Buccia
+     8	= Balzopalla 
      9	= Balzopalla
+     a	= Pokéboom
+     b	= Pokéboom
+     c	= Cuscino
+     d	= Cuscino
+     e	= Falò
+     f	= Falò
     10	= Bandiera
     11	= Bandiera
     12	= Fontana
     13	= Fontana
+    14 [2,3,,1] = Ghiaccio
+    15 [2,3,,1] = Ghiaccio
+    16	= Microfono
+    17	= Microfono
     18	= Sorprepalla
     19	= Sorprepalla
+    1a	= Pokécolori
+    1b	= Pokécolori
+    1c	= Pendolo
+    1d	= Pendolo
     1e	= Trappola
     1f	= Trappola
+    20	= Sacco
+    21	= Sacco
     22	= Puzzopalla
     23	= Puzzopalla
+    24	= Uomodineve
+    25	= Uomodineve
     26	= Rotoroccia
     27	= Rotoroccia
+    28	= Girello
+    29	= Girello
+    2a [2,3,,1] = Aspiratore
+    2b [2,3,,1] = Aspiratore
     2c	= Sfidomatic
     2d	= Sfidomatic
+    2e	= Box Giochi
+    2f	= Box Giochi
     30	= Poké Ball
     31	= Poké Ball
-
-    34	 = Torta di compleanno
-    35	 = Torta di compleanno
-    36	 = Scatola di mele
-    37	= Scatola di mele
-    3e	 = Gracidea
-    3f	 = Gracidea
-    40	 = Lampada
+    32 [2,,,2] = Palloncini
+    33 [2,,,2] = Palloncini
+    34	= Torta Compleanno
+    35	= Torta Compleanno
+    36 [2,3,,1] = Scatola
+    37 [2,3,,1] = Scatola
+    38	= Tricorno
+    39	= Tricorno
+    3a	= Dado
+    3b	= Dado
+    3c	= Cornice
+    3d	= Cornice
+    3e	= Fiore
+    3f	= Fiore
+    40	= Lampada
     41	= Lampada
-    44	 = Turbina
-    45	 = Turbina
-    46	 = Tappeto elastico
-    47	= Tappeto elastico
-    4a	 = Scatola grande di mele 
-    4b	= Scatola grande di mele
-
-
+    42	= Calamita
+    43	= Calamita
+    44	= Roteatore
+    45	= Roteatore
+    46	= Rimbalzomatto
+    47	= Rimbalzomatto
+    48	= Albero Ranch
+    49	= Albero Ranch
+    4a	= Scatola Grande
+    4b	= Scatola Grande
+    4c	= Grancornice
+    4d	= Grancornice
