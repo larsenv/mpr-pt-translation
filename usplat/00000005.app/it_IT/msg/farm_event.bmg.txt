@@ -1112,7 +1112,7 @@
 	+ trovarti, vai a visitare\n
 	+ anche i loro Ranch!
    1d0  = Ah, e un'altra cosa!\n
-	+ Se mi chiami dal BBS,\n
+	+ Se mi chiami dalla bacheca,\n
 	+ verrò a prenderti.\n
 	+ Vieni a visitarmi un'altra volta\n
 	+ quando vuoi!
@@ -1125,7 +1125,7 @@
    + Guarda-Guarda visitano il tuo\n
    + Ranch, trova il tempo di\n
    + ricambiare la visita!
-   1d5  = Se mi chiami dal BBS,\n
+   1d5  = Se mi chiami dalla bacheca,\n
 	+ verrò a prenderti.\n
 	+ Vieni a visitarmi qualche altra\n
 	+ volta, ok?
@@ -1139,7 +1139,7 @@
 	+ Guarda-Guarda, vai anche tu\n
 	+ a visitare i loro Ranch.\n
 	+ Ci tengono!
-   1da  = Se mi chiami dal BBS,\n
+   1da  = Se mi chiami dalla bacheca,\n
 	+ verrò a prenderti.\n
 	+ Vieni a visitarmi di nuovo\n
 	+ quando vuoi, va bene?
