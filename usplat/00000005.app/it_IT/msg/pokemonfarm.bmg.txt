@@ -420,7 +420,8 @@
     d7	= ♪Benvenuti al Ranch!
     d8	= ♪La mia parata Pokémon
     d9	= ♪La canzone di JIGGLYPUFF
-    da	= Club Guarda-Guarda
+    da	= Club\n
+	+ Guarda-Guarda
     db	= Pagina precedente
     dc	= Pagina successiva
     dd	= Indietro
@@ -435,7 +436,7 @@
     e5	= Introduzione
     e6	= Comandi
     e7	= Foto
-    e8	= Collegati alla
+    e8	= Collegati alla\n
 	+ console DS
     e9	= Dettagli
     ea	= Bacheca
@@ -637,11 +638,11 @@
    1aa	= ◆
    1ab	= My Pokémon Ranch utilizza\n
 	+ i Mii creati nel Canale Mii.\n
-   1ac   = Crea un Mii accedendo al\n
+   1ac  = Crea un Mii accedendo al\n
 	+ Canale Mii dal menu Wii.\n
 	+ Premi \x{e042} per tornare\n
 	+ al menu Wii.
-   1ad   = Controllo dell'ora della\n
+   1ad  = Controllo dell'ora della\n
 	+ console Wii in corso.
    1ae	= Calendario: %ls %ls\n
    + Va bene?
@@ -676,7 +677,7 @@
 	+ guardare e premi \x{e042}.
    1bf	= I comandi di base (2)
    1c0	= Scatta una foto\n
-	+ (Anche con \x{e047}!).\n
+	+ (Anche con \x{e047}!).
    1c1	= Scatta una foto.\n
 	+ Il numero indica quante\n
 	+ foto puoi ancora scattare.
@@ -687,7 +688,7 @@
    1c4	= Salvataggio
    1c5	= Salvataggio
    1c6	= I dati di gioco vengono\n
-	salvati automaticamente.\n
+	+ salvati automaticamente.\n
 	+ \n
 	+ Quando appare il messaggio\n
 	+ "Salvataggio in corso...", non\n
@@ -713,8 +714,8 @@
 	+ Diamante, Perla o Platino. Vedrai che allegria!
    1d1	= 
    1d2	=
-   1d3	= Info Aggiornamento Platino (1)
-   1d4	= Funzionalità della Versione Platino
+   1d3	= Info Versione Platino (1)
+   1d4	= Novità della Versione Platino
    1d5	= ・My Pokémon Ranch è ora compatibile\n
 	+ 　con Pokémon Versione Platino per\n
 	+ 　Nintendo DS.\n
@@ -722,18 +723,17 @@
 	+ ・Il Ranch è stato ampliato,\n
 	+  adesso puoi prenderti cura di ben\n
 	+  1500 Pokémon!
-   1d6	= Info Aggiornamento Platino (2)
-   1d7	= "Ci sono altre cose da provare!"
+   1d6	= Info Versione Platino (2)
+   1d7	= Ci sono altre novità!
    1d8	= ・Nuove opzioni sono state aggiunte\n
     + 　al menu.\n
 	+ \n
-	+ ・Ora puoi salvare fino a\n
-	+ 　30 foto.\n
+	+ ・Ora puoi salvare fino a 30 foto.\n
 	+ \n
 	+ ・La musica può essere cambiata.\n
 	+ \n
 	+ ・Ora puoi visitare un Ranch di\n
-	+  un membro del Club Guarda-Guarda
+	+  un membro del Club Guarda-Guarda\n
 	+  più di una volta!
    1d9	= Schema comandi
    1da	= Focus
@@ -747,7 +747,7 @@
    1e2	= Zoom -
    1e3	= Quando usi la modalità libera
    1e4	= Cerca
-   1e5	= Usa \x{e041} per cercare nella lista.\n
+   1e5	= Usa \x{e041} per cercare nella lista.
    1e6	= Puoi usare \x{e041} per cercare\n
 	+ Pokémon, Mii o giocattoli.\n
 	\n
@@ -755,8 +755,8 @@
 	+ ←→  Scorri più alla volta
    1e7	= 
    1e8	= 
-   1e9	= Blocco Focus\n
-   1ea	= Blocco Focus\n
+   1e9	= Blocco Focus
+   1ea	= Blocco Focus
    1eb	= Premi \x{e042} mentre guardi\n
 	+ un Pokémon o un Mii per\n
 	+ attivare il Blocco Focus.\n
@@ -866,8 +866,8 @@
 	+ nella scheda o inizi un nuovo gioco,\n
 	+ non potrai ritirare i Pokémon\n
 	+ depositati in precedenza.
-   223   = 
-   224   = 
+   223  = 
+   224  = 
    225	= Dettagli (1)
    226	= Dettagli
    227	= Controlla quanti Pokémon sono stati\n
@@ -921,10 +921,9 @@
 	+ Puoi anche leggere le\n
 	+ informazioni sul Ranch.
    241  = \n
-	+ Puoi cambiare la musica di oggi\n
-	+ Puoi rivisitare un Ranch di\n
-	+ un membro del Club Guarda-Guarda\n
-	+ che hai già visitato.
+	+ Puoi cambiare la musica di oggi.\n
+	+ Puoi nuovamente visitare i Ranch di\n
+	+ membri del Club Guarda-Guarda\n
    242	= 
    243	= Pokémon desiderati (1)
    244	= Pokémon desiderati
@@ -935,7 +934,7 @@
 	+ Pokémon Diamante, Perla e Platino\n
 	+ e portarli nel Ranch.
 	+ \n
-	+ Se ce la farai potresti ricevere
+	+ Se ce la farai potresti ricevere\n
 	+ una ricompensa!
    246  = 
    247  = 
@@ -947,22 +946,23 @@
 	+ consigli su come catturarlo!
    24b  = Cambia versione
    24c  = Qui puoi cambiare descrizioni\n
-	+ tra Pokémon Diamante, Perla e Platino.
+	+ tra Pokémon Diamante, Perla\n
+	+ e Platino.
    24d	= Informazioni sul Ranch
    24e	= Informazioni sul Ranch
    24f	= Controlla lo stato\n
 	+ attuale del Ranch.
    250	= 
    251	= 
-   252  = La musica di oggi (1)
-   253	= La musica di oggi
+   252  = Musica di oggi (1)
+   253	= Musica di oggi
    254	= Qui puoi vedere il nome della\n
 	+ traccia in riproduzione al Ranch\n
 	+ Puoi anche cambiarla selezionando\n
 	+ un'altra traccia.
    255	= 
    256	= 
-   257	= La musica di oggi (2)
+   257	= Musica di oggi (2)
    258	= Altro
    259	= Inoltre, puoi cambiare la\n
 	+ musica da un elenco di tracce.
@@ -971,8 +971,8 @@
    25c	= Club Guarda-Guarda
    25d	= Club Guarda-Guarda
    25e	= Puoi rivisitare un Ranch\n
-	+ del Club Guarda-Guarda dopo\n
-	+ la prima visita.
+	+ del Club Guarda-Guarda\n
+	+ dopo la prima visita.
    25f	= Opzioni
    260	= Opzioni
    261	= Puoi scegliere quali Mii\n
@@ -1064,10 +1064,10 @@
    28e	= Come faccio a giocare senza musica?
    28f	= Risposta
    290	= Seleziona (Nessuna traccia) in\n
-    + "La musica di oggi" dalla bacheca\n
-	+ o tieni premuti \x{e043} e \x{e041}↓\n
-	+ all'avvio. In questo modo puoi\n
-	+ giocare senza musica.
+    + "Musica di oggi" dalla bacheca\n
+	+ o tieni premuti \x{e043} e \x{e041}↓ all'avvio.\n
+	+ In questo modo puoi giocare\n
+	+ senza musica.
    291	= Mii nel Ranch (1)
    292	= Scegliere i Mii
    293	= Usa \x{e042} per scegliere il Mii\n
@@ -1100,14 +1100,14 @@
 	+ depositati in precedenza.
    29e	= Collegamento al DS
    29f	= Salvataggio dati...
-   2a0	= Salvataggio in corso.
-	+ Non toccare il pulsante
+   2a0	= Salvataggio in corso.\n
+	+ Non toccare il pulsante\n
 	+ POWER o il pulsante RESET.\n
 	+ \n
 	+ Attenzione: se cancelli i\n
 	+ dati salvati, non puoi\n
-	+ ritirare i Pokémon
-	+ depositati.\n
+	+ ritirare i Pokémon\n
+	+ depositati.
    2a1	= Collegamento al DS
    2a2	= 
    2a3	= Il collegamento alla console \n

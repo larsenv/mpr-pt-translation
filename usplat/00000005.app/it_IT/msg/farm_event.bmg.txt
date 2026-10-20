@@ -1264,10 +1264,10 @@
 	+ Pokémon, non sarebbe bello\n
 	+ prendere quelli che mancano\n
 	+ nel tuo Pokédex?
-   206	= Controlliamo il tuo Pokédex...
+   206	= Controlliamo il tuo Pokédex...\n
 	+ Visti: %d\n
 	+ Catturati: %d
-   207	= Controlliamo il tuo Pokédex...
+   207	= Controlliamo il tuo Pokédex...\n
 	+ Visti: %d%ls\n
 	+ Catturati: %d%ls
    208	= Incredibile! Il tuo Pokédex\n
@@ -1467,13 +1467,14 @@
 	+ io torni nel mio Ranch?\n
 	+ Ho una notizia per te!
    236	= Wow!\n
-	+ Il nostro Ranch è ora compatibile\n
-	+ con Pokémon Platino!
+	+ Adesso il nostro Ranch è\n
+	+ compatibile con\n 
+	+ Pokémon Platino!
    237	= Non ho finito!\n
 	+ Molte funzionalità del Ranch\n
 	+ sono state migliorate!
    238	= Ecco cosa c'è di nuovo.\n
-   239  = Sbrigati!\n
+   239  = Che aspetti?\n
 	+ Vediamo che novità ci sono\n
 	+ al Ranch!\n
 	+ Andiamo!
@@ -1483,10 +1484,9 @@
 	+ grazie al collegamento\n
 	+ con Pokémon Platino!
    23c	= Molte cose sono cambiate,\n
-	+ ma non ti spiegherò\n
-	+ tutti i dettagli.\n
-	+ Lascio a te il resto\n
-	+ da scoprire!
+	+ ma non ti spiegherò tutti\n
+	+ i dettagli. Lascio a te\n
+	+ il resto da scoprire!
    23d	= Allora, continuiamo a\n
 	+ lavorare insieme!
 
