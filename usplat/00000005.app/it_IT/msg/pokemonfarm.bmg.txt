@@ -885,8 +885,8 @@
    22c	= Scegli quali Pokémon far\n
 	+ rimanere nel Ranch.\n
    22d	= Quali Pokémon?
-   22e	= Puoi scegliere i Pokémon\n
-	+ da far rimanere nel Ranch per\n
+   22e	= Puoi scegliere quali Pokémon\n
+	+ far rimanere nel Ranch per\n
 	+ tipo, carattere e quantità.
    22f	= Dettagli (3)
    230	= Parata
@@ -1071,8 +1071,8 @@
    28f	= Risposta
    290	= Seleziona (Nessuna traccia) in "Musica \n
     + di oggi" dalla bacheca o tieni premuti\n
-	+ \x{e043} e \x{e041}↓ all'avvio.\n
-	+ In questo modo puoi giocare senza musica.
+	+ \x{e043} e \x{e041}↓ all'avvio. In questo\n
+	+ modo puoi giocare senza musica.
    291	= Mii nel Ranch (1)
    292	= Scegliere i Mii
    293	= Usa \x{e042} per scegliere il Mii\n
