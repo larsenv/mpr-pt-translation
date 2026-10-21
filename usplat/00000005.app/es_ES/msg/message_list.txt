@@ -79,14 +79,14 @@
 	+ no necesites en la pantalla\n
 	+ de gestión de datos.
     19	= No hay suficiente espacio\n
-        + libre en la memoria de la\n
-        + consola Wii para la\n
-        + Edición Platino.\n
-        + \fBloques libres necesarios: %d.\n
-        + \fTransfiere datos a una\n
-        + tarjeta SD o borra los que\n
-        + no necesites en la pantalla\n
-        + de gestión de datos.\n
+    + libre en la memoria de la\n
+    + consola Wii para la\n
+    + Edición Platino.\n
+    + \fBloques libres necesarios: %d.\n
+    + \fTransfiere datos a una\n
+    + tarjeta SD o borra los que\n
+    + no necesites en la pantalla\n
+    + de gestión de datos.
     1a	= No hay suficiente espacio libre\n
 	+ en la memoria de la consola Wii.\n
 	+ Bloques libres necesarios: 1.\n
@@ -95,14 +95,14 @@
 	+ no necesites en la pantalla\n
 	+ de gestión de datos.
     1b	= No hay suficiente espacio\n
-        + libre en la memoria de la\n
-        + consola Wii para la\n
-        + Edición Platino.\n
-        + \fBloques libres necesarios: 1.\n
-        + \fTransfiere datos a una\n
-        + tarjeta SD o borra los que\n
-        + no necesites en la pantalla\n
-        + de gestión de datos.\n
+    + libre en la memoria de la\n
+    + consola Wii para la\n
+    + Edición Platino.\n
+    + \fBloques libres necesarios: 1.\n
+    + \fTransfiere datos a una\n
+    + tarjeta SD o borra los que\n
+    + no necesites en la pantalla\n
+    + de gestión de datos.
     1c	= No hay suficiente espacio libre\n
 	+ en la memoria de la consola Wii.\n
 	+ \fTransfiere datos a una\n
@@ -110,13 +110,9 @@
 	+ no necesites en la pantalla\n
 	+ de gestión de datos.
     1d	= No queda espacio libre\n
-        + en la memoria de la\n
-        + consola Wii para la\n
-        + Edición Platino.\n
-	+ \fTransfiere datos a una\n
-        + tarjeta SD o borra los que\n
-        + no necesites en la pantalla\n
-        + de gestión de datos.\n
+    + en la memoria de la\n
+    + consola Wii para la\n
+    + Edición Platino.\n
     1e	= No queda espacio libre en la\n
 	+ memoria de la consola Wii.\n
 	+ Consulta el manual de\n

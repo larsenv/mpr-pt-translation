@@ -73,10 +73,10 @@
     17	/
     18	= There is not enough available\n
 	+ space in Wii system memory.\n
-	+ \fCreate %d blocks of free space\n
-	+ either by moving data to\n
-	+ an SD Card or by deleting data\n
-	+ in the Save Data screen.
+	+ \fCreate %d blocks\n
+	+ of free space by moving data to\n
+	+ an SD Card or deleting data in\n
+	+ the Data Management screen.
     19	= There is not enough available\n
 	+ space in Wii system memory for\n
 	+ the Platinum Version.\n
@@ -88,10 +88,10 @@
 	+ data to the SD Card.
     1a	= There is not enough available\n
 	+ space in Wii system memory.\n
-	+ \fCreate 1 block of free space\n
-	+ either by moving data to\n
-	+ an SD Card or by deleting data\n
-	+ in the Save Data screen.
+	+ \fCreate 1 block\n
+	+ of free space by moving data to\n
+	+ an SD Card or deleting data in\n
+	+ the Data Management screen.
     1b	= There is not enough available\n
 	+ space in Wii system memory for\n
 	+ the Platinum Version.\n
@@ -102,10 +102,10 @@
 	+ \fDo not move My Pokémon Ranch\n
 	+ data to the SD Card.
     1c	= There is not enough available\n
-	+ space in Wii system memory.\f
-	+ Either move data to an\n
-	+ SD Card or delete data in\n
-	+ the Save Data screen.
+	+ space in Wii system memory.\n
+	+ \fEither move data to an\n
+	+ SD Card or delete data on the\n
+	+ Data Management screen.
     1d	= There is not enough available\n
 	+ space in Wii system memory for\n
 	+ the Platinum Version.\f
@@ -114,87 +114,85 @@
 	+ the Save Data screen.
 	+ \fDo not move My Pokémon Ranch\n
 	+ data to the SD Card.
-    1e	= There is an abnormal amount\n
-	+ of free space in\n
-	+ Wii system memory\n
+    1e	= There is no more available space in\n
+	+ Wii system memory.\n
 	+ \n
-	+ Please refer to the Wii\n
-	+ Operations Manual for details.
-    1f	= There is an abnormal number\n
-	+ of files in Wii system memory.\n
+	+ Refer to the Wii Operations Manual\n
+	+ for details.
+    1f	= There is no more available space in\n
+	+ Wii system memory.\n
 	+ \n
-	+ Please refer to the Wii\n
-	+ Operations Manual for details.
+	+ Refer to the Wii Operations Manual\n
+	+ for details.
     20	/
     21	= The Wii system memory\n
 	+ has been damaged.\n
 	+ \n
-	+ Please Refer to the Wii\n
-	+ Operations Manual for details.
+	+ Refer to the Wii Operations\n
+	+ Manual for details.
     22	= Saving...\n
-	+ Please do not touch the\n
-	+ POWER Button or RESET.
+	+ Please do not turn the power\n
+	+ off or reset the game.
     23	/
-    24	= Could not access\n
-	+ Wii system memory.\n
-	+ \fPlease refer to the Wii\n
-	+ Operations Manual for details.
-    25	= An error occurred while\n
-	+ accessing Wii system memory.\n
-	+ \fPlease refer to the Wii\n
-	+ Operations Manual for details.
-    26	= The save data cannot be read.\n
-	+ You cannot start the game.\n
-	+ Please contact a Nintendo\n
-	+ Service Centre.
-	+ For more information,\n
-	+ see the Wii Operations Manual.\n
-	+ The error code is %03d%03d.\n
-	+ Press and hold the POWER\n
-	+ Button for at least 4 seconds\n
-	+ to turn the Wii console off.
+    24	= Could not access Wii system\n
+	+ memory.\n
+	+ \fRefer to the Wii Operations\n
+	+ Manual for details.
+    25	= An error has occurred while\n
+	+ saving or reading the Wii\n
+	+ system memory.\n
+	+ \fRefer to the Wii Operations\n
+	+ Manual for details.
+    26	= Could not access the save data,\n
+	+ so the game cannot be played.\n
+	+ \n
+	+ Visit support.nintendo.com\n
+	+ ERROR CODE:  %03d%03d\n
+	+ \n
+	+ Press the Power Button for more\n
+	+ than 4 seconds and turn off the\n
+	+ power.
     27	= There is a problem with the\n
 	+ Wii system memory, so\n
-	+ WiiConnect24 cannot be\n
-	+ used.
-    28	= To use WiiConnect24, a\n
-	+ system update is required.\n
-	+ Please refer to the Wii\n
-	+ Operations Manual for details.
-    29	= WiiConnect24 cannot be\n
-	+ used because an error has\n
-	+ occurred. Reset and try\n
-	+ again.
-    2a	= WiiConnect24 is\n
-	+ temporarily unavailable.\n
-	+ Please try again later.
-    2b	= The WiiConnect24 setting\n
-	+ is not turned on. Please\n
-	+ check the settings under\n
-	+ Wii Options.
-    2c	= An Internet connection\n
-	+ cannot be established, so\n
+	+ WiiConnect24 cannot be used.
+    28	= To use WiiConnect24, a system\n
+	+ update is required.\n
+	+ \fRefer to the Wii Operations\n
+	+ Manual for details.
+    29	= WiiConnect24 cannot be used\n
+	+ because an error has occurred.\n
+	+ \fReset and try again.
+    2a	= WiiConnect24 is temporarily\n
+	+ unavailable.\n
+	+ \fPlease try again later.
+    2b	= The WiiConnect24 setting is not\n
+	+ turned on.\n
+	+ Please check the setting under\n
+	+ Wii Options.\n
+	+ \fRefer to the Wii Operations\n
+	+ Manual for details.
+    2c	= An Internet connection could\n
+	+ not be established, so\n
 	+ WiiConnect24 cannot be used.\n
-	+ \fCheck the Internet\n
-	+ settings and connection.\n
-    2d	= WiiConnect24 is\n
-	+ temporarily unavailable.\n
-	+ Please try again later.
-    2e	= WiiConnect24 is\n
-	+ temporarily unavailable.\n
-	+ Please try again later.
+	+ \fCheck the Internet settings\n
+	+ and connection.\n
+	+ \fRefer to the Wii Operations\n
+	+ Manual for details.
+    2d	= There is a problem with\n
+	+ the WiiConnect24 service.\n
+	+ \fPlease try again later.
+    2e	= WiiConnect24 is temporarily\n
+	+ unavailable.\n
+	+ \fPlease try again later.
     2f	= There is a problem with the\n
 	+ Wii system memory, so\n
-	+ WiiConnect24 cannot be\n
-	+ used.
-    30	= WiiConnect24 cannot be\n
-	+ used because an error has\n
-	+ occurred. Reset and try\n
-	+ again.\n
+	+ WiiConnect24 cannot be used.
+    30	= WiiConnect24 cannot be used\n
+	+ because an error has occurred.\n
+	+ \fReset and try again.
     31	/
     32	= Use of network features has\n
 	+ been restricted.\n
-	+ \n
 	+ \fPlease check the settings\n
 	+ for Parental Controls under\n
 	+ Wii Options.
@@ -205,11 +203,11 @@
     37	= Yes
     38	= No
     39	/
-    3a	= Return
+    3a	= Back
     3b	/
     3c	/
     3d	/
-    3e	= Return to the Wii Menu.
+    3e	= Wii Menu
     3f	/
     40	/
     41	/
@@ -221,11 +219,11 @@
     47	/
     48	/
     49	/
-    4a	= Unable to load\n
-	+ Mii Channel data.\n
-	+ Please access the Mii Channel\n
-	+ and check Mii Channel data.
+    4a	= Could not access Mii Channel\n
+	+ save data. Please check the\n
+	+ settings in the Mii Channel.
     4b	= My Pokémon Ranch
+
     4c	/
     4d	/
     4e	/
