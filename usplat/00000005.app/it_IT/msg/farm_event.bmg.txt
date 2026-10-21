@@ -1308,8 +1308,8 @@
 	+ Pokémon del Pokédex!
    215	= I Pokémon sono aumentati \n
 	+ rispetto all'ultima volta...\n
-	+ Visti: %d%\n
-	+ Catturati: %d%
+	+ Visti: %d\n
+	+ Catturati: %d
    216	= I Pokémon sono aumentati \n
 	+ rispetto all'ultima volta...\n
 	+ Visti: %d%ls\n
@@ -1467,8 +1467,8 @@
 	+ io torni nel mio Ranch?\n
 	+ Ho una notizia per te!
    236	= Wow!\n
-	+ Adesso il nostro Ranch è\n
-	+ compatibile con\n 
+	+ Adesso il nostro Ranch\n
+	+ è compatibile con\n 
 	+ Pokémon Platino!
    237	= Non ho finito!\n
 	+ Molte funzionalità del Ranch\n

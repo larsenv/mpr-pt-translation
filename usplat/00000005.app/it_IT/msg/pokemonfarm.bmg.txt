@@ -409,7 +409,7 @@
     cc	= Pagina precedente
     cd	= Pagina successiva
     ce	= Ok, indietro
-    cf	= Altre
+    cf	= Altro
     d0	= (Nessuna traccia)
     d1	= ♪Fattoria Platino
     d2	= ♪Dolce Luce del Sole
@@ -711,7 +711,8 @@
 	+ Visita ogni giorno il Ranch per\n
 	+ prenderti cura dei tuoi Pokémon!\n
 	+ Prova a portare anche i Pokémon di\n
-	+ Diamante, Perla o Platino. Vedrai che allegria!
+	+ Diamante, Perla o Platino.\n
+	+ Vedrai che allegria!
    1d1	= 
    1d2	=
    1d3	= Info Versione Platino (1)
@@ -957,7 +958,8 @@
    252  = Musica di oggi (1)
    253	= Musica di oggi
    254	= Qui puoi vedere il nome della\n
-	+ traccia in riproduzione al Ranch\n
+	+ traccia in riproduzione al\n
+	+ Ranch.\n
 	+ Puoi anche cambiarla selezionando\n
 	+ un'altra traccia.
    255	= 
