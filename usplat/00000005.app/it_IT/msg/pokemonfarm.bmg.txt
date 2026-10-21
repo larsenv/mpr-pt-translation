@@ -884,10 +884,12 @@
    22b	= Pokémon nel Ranch
    22c	= Scegli quali Pokémon far\n
 	+ rimanere nel Ranch.\n
+	+ Quest'opzione aprirà la finestra\n
+	+ "Quali Pokémon?"
    22d	= Quali Pokémon?
    22e	= Puoi scegliere quali Pokémon\n
 	+ far rimanere nel Ranch per\n
-	+ tipo, carattere e quantità.
+	+ tipi e quantità.
    22f	= Dettagli (3)
    230	= Parata
    231	= I Pokémon selezionati nel\n
