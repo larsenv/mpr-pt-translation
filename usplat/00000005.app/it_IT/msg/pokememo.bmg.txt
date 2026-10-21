@@ -71,7 +71,7 @@
     16	 = Ho visto il Carosello.
     17	 = Ho visto l'Orologio.
     18	 = Ho visto la Tastiera.
-    19	 = Ho visto the Dizzy dance.
+    19	 = Ho visto la Danza Confusa.
     1a	 = Ho visto la Parata Sumo.
     1b	 = Ho visto il Torneo.
     1c	 = Ho visto Acchiappa la Talpa.
