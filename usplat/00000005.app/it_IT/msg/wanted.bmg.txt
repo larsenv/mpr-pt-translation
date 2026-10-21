@@ -270,8 +270,8 @@
     be	= ・Fossile: Fossilscudo
     bf	= ・Fossile: Fossilunghia
     c0	= ・Fossile: Fossilcranio
-    c1	= ・Dug up with an even Trainer ID number.
-    c2	= ・Dug up with an odd Trainer ID number.
+    c1	= ・Scavato con un ID allenatore pari.
+    c2	= ・Scavato con un ID allenatore dispari.
     c3	= ・Se la Difesa è uguale all'Attacco
     c4	= ・Se l'Attacco è più alto della Difesa
     c5	= ・In acqua (usando Surf)
@@ -317,7 +317,7 @@
     e6	= Il Pokémon e il luogo del Raduno cambiano\n
 	+ ogni giorno. Cerca qualcuno a Sabbiafine\n
 	+ che ti possa dare informazioni utili.
-	+ e7	= I Pokémon che puoi catturare nel Giardino\n
+	e7	= I Pokémon che puoi catturare nel Giardino\n
 	+ Trofeo cambiano ogni volta che parli con\n
 	+ Granlotto, ma puoi farlo solo una volta \n
 	+ al giorno.
