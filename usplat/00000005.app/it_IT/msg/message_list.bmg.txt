@@ -78,12 +78,14 @@
 	+ schermo Gestione dati e\n
 	+ cancella alcuni dati o\n
 	+ trasferiscili in una scheda SD.
-    19	= Non c'è abbastanza spazio nella\n
-	+ memoria della console Wii per\n
-	+ My Pokémon Ranch: Versione Platino.\n
-	+ Libera %d blocchi spostando i\n
-	+ dati su una Scheda SD o\n
-	+ cancellandoli dalla memoria della console.
+    19	= Non c'è abbastanza spazio\n
+	+ libero nella memoria della\n
+	+ console Wii per Versione Platino.\n
+	+ Blocchi liberi necessari: %d.\n
+	+ \fPer creare spazio, vai allo\n
+	+ schermo Gestione dati e\n
+	+ cancella alcuni dati o\n
+	+ trasferiscili in una scheda SD.
     1a	= Non c'è abbastanza spazio\n
 	+ libero nella memoria della\n
 	+ console Wii.\n
@@ -92,12 +94,14 @@
 	+ allo schermo Gestione dati\n
 	+ e cancella alcuni dati o\n
 	+ trasferiscili in una scheda SD.
-    1b	= Non c'è abbastanza spazio nella\n
-	+ memoria della console Wii per\n
-	+ My Pokémon Ranch: Versione Platino.\n
-	+ Libera 1 blocco spostando i\n
-	+ dati su una Scheda SD o\n
-	+ cancellandoli dalla memoria della console.
+    1b	= Non c'è abbastanza spazio\n
+	+ libero nella memoria della\n
+	+ console Wii per Versione Platino.\n
+	+ Blocchi liberi necessari: 1.\n
+	+ \fPer creare spazio, vai\n
+	+ allo schermo Gestione dati\n
+	+ e cancella alcuni dati o\n
+	+ trasferiscili in una scheda SD.
     1c	= Non c'è abbastanza spazio\n
 	+ libero nella memoria della\n
 	+ console Wii.\n
@@ -105,11 +109,13 @@
 	+ schermo Gestione dati e\n
 	+ cancella alcuni dati o\n
 	+ trasferiscili in una scheda SD.
-    1d	= Non c'è abbastanza spazio nella\n
-	+ memoria della console Wii per\n
-	+ My Pokémon Ranch: Versione Platino.\n
-	+ Sposta i dati su una Scheda SD o\n
-	+ cancellali dalla memoria della console.
+    1d	= Non c'è abbastanza spazio\n
+	+ libero nella memoria della\n
+	+ console Wii per Versione Platino.\n
+	+ \fPer creare spazio, vai\n
+	+ allo schermo Gestione dati\n
+	+ e cancella alcuni dati o\n
+	+ trasferiscili in una scheda SD.
     1e	= Non c'è più spazio libero\n
 	+ nella memoria della console Wii.\n
 	+ \n

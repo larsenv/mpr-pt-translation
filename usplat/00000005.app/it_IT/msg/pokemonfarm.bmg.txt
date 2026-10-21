@@ -461,10 +461,11 @@
     fa	= Pokémon al Ranch
     fb	= Tutti
     fc	= Preferiti
-    fd	= Pokémon depositati
+    fd	= Pokémon\n
+	+ depositati
     fe	= %d
-    ff	= %d depositato.
-   100	= %d%ls depositato.
+    ff	= %d Pokémon al Ranch.
+   100	= %d%ls Pokémon al Ranch.
    101	= Pagina precedente
    102	= Pagina successiva
    103	= Indietro
@@ -475,7 +476,8 @@
    108	= Guardiano
    109	= Parata
    10a	= 
-   10b	= Liberare il Pokémon?
+   10b	= Quali Pokémon vuoi\n
+   + far rimanere?
    10c	= Predefinito
    10d	= Per quantità
    10e	= Per tipo
@@ -960,8 +962,9 @@
    254	= Qui puoi vedere il nome della\n
 	+ traccia in riproduzione al\n
 	+ Ranch.\n
-	+ Puoi anche cambiarla selezionando\n
-	+ un'altra traccia.
+	+ Puoi anche cambiarla selezio\n
+	+ selezionando un'altra\n
+	+ traccia.
    255	= 
    256	= 
    257	= Musica di oggi (2)
@@ -1099,7 +1102,7 @@
 	+ Se cancelli i dati salvati nella\n
 	+ scheda di gioco o inizi un nuovo\n
 	+ gioco, non puoi ritirare i Pokémon\n
-	+ depositati in precedenza.
+	+ depositati in precedenza.\n
    29e	= Collegamento al DS
    29f	= Salvataggio dati...
    2a0	= Salvataggio in corso.\n
@@ -1132,10 +1135,9 @@
    2ac	= È necessario un Pokédex per\n
 	+ poter depositare i Pokémon
 	+ nel Ranch.
-   2ad	= Spegni la console tenendo\n
-	+ premuto il pulsante POWER
-	+ della console Wii per\n
-	+ 4 secondi.\n	
+   2ad	= Premi il pulsante POWER
+    + per più di 4 secondi\n
+	+ per spegnere la console.\n
 	+ \n
 	+ Dopo riaccendi la console\n
 	+ e ripristina il Nickname\n

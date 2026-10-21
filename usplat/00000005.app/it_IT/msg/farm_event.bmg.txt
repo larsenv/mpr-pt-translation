@@ -1468,7 +1468,7 @@
 	+ Ho una notizia per te!
    236	= Wow!\n
 	+ Adesso il nostro Ranch\n
-	+ è compatibile con\n 
+	+ è compatibile con\n
 	+ Pokémon Platino!
    237	= Non ho finito!\n
 	+ Molte funzionalità del Ranch\n
