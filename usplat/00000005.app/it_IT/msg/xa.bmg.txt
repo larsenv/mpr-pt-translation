@@ -121,7 +121,7 @@
     48	= %{} sembra incuriosito %(02)%(12)%{}.
     49	= %{} sembra incuriosita %(02)%(12)%{}.
     4a	= %{} sembra incuriosito %(02)%(12)%{}.
-    4b	=Sembra che a %{} interessi qualcosa.
+    4b	= Sembra che a %{} interessi qualcosa.
     4c	= %{} sembra interessata a qualcosa.
     4d	= Sembra che a %{} interessi qualcosa.
     4e	= %{} è incuriosito %(02)%(12)%{}?

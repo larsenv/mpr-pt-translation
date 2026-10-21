@@ -514,7 +514,7 @@
     c6   = Il Ranch continuerà a\n
 	+ crescere...
     c7   = Proviamo a riempirlo con\n
-	+ 1000 Pokémon!
+	+ tantissimi Pokémon!
     c8	= Buone nuove! Da oggi in poi \n
 	+ verranno consegnati al Ranch\n
 	+ cinque Box Giochi al giorno.\n

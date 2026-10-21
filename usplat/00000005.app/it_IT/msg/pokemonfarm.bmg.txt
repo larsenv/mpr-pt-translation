@@ -476,8 +476,7 @@
    108	= Guardiano
    109	= Parata
    10a	= 
-   10b	= Quali Pokémon vuoi\n
-   + far rimanere?
+   10b	= Quali Pokémon?
    10c	= Predefinito
    10d	= Per quantità
    10e	= Per tipo
@@ -543,7 +542,7 @@
    14a	= Rivolto a Nord
    14b	= Acqua Jumping
    14c	= ROTOM Roulette
-   14d	= Resa dei conti
+   14d	= Resa dei Conti
    14e	= Palette
    14f	= Buon Compleanno
    150	= Esci
@@ -723,8 +722,8 @@
 	+ 　con Pokémon Versione Platino per\n
 	+ 　Nintendo DS.\n
 	+ \n
-	+ ・Il Ranch è stato ampliato,\n
-	+  adesso puoi prenderti cura di ben\n
+	+ ・Il Ranch è stato ampliato,\n 
+	+  adesso puoi prenderti cura di ben\n 
 	+  1500 Pokémon!
    1d6	= Info Versione Platino (2)
    1d7	= Ci sono altre novità!
@@ -735,8 +734,8 @@
 	+ \n
 	+ ・La musica può essere cambiata.\n
 	+ \n
-	+ ・Ora puoi visitare un Ranch di\n
-	+  un membro del Club Guarda-Guarda\n
+	+ ・Ora puoi visitare un Ranch di\n 
+	+  un membro del Club Guarda-Guarda\n 
 	+  più di una volta!
    1d9	= Schema comandi
    1da	= Focus
@@ -962,7 +961,7 @@
    254	= Qui puoi vedere il nome della\n
 	+ traccia in riproduzione al\n
 	+ Ranch.\n
-	+ Puoi anche cambiarla selezio\n
+	+ Puoi anche cambiarla\n
 	+ selezionando un'altra\n
 	+ traccia.
    255	= 
