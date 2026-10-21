@@ -408,7 +408,7 @@
     cb	= Scegli musica
     cc	= Pagina precedente
     cd	= Pagina successiva
-    ce	= Ok, indietro
+    ce	= Ok e torna al Ranch
     cf	= Altro
     d0	= (Nessuna traccia)
     d1	= ♪Fattoria Platino
@@ -1069,11 +1069,10 @@
    28d	= Domanda
    28e	= Come faccio a giocare senza musica?
    28f	= Risposta
-   290	= Seleziona (Nessuna traccia) in\n
-    + "Musica di oggi" dalla bacheca\n
-	+ o tieni premuti \x{e043} e \x{e041}↓ all'avvio.\n
-	+ In questo modo puoi giocare\n
-	+ senza musica.
+   290	= Seleziona (Nessuna traccia) in "Musica \n
+    + di oggi" dalla bacheca o tieni premuti\n
+	+ \x{e043} e \x{e041}↓ all'avvio.\n
+	+ In questo modo puoi giocare senza musica.
    291	= Mii nel Ranch (1)
    292	= Scegliere i Mii
    293	= Usa \x{e042} per scegliere il Mii\n
