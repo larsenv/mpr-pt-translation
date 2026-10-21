@@ -411,15 +411,15 @@
     ce	= Ok e torna al Ranch
     cf	= Altro
     d0	= (Nessuna traccia)
-    d1	= ♪Fattoria Platino
+    d1	= ♪Ranch Platino
     d2	= ♪Dolce Luce del Sole
-    d3	= ♪Passeggiata tranquilla
+    d3	= ♪Passeggiata Tranquilla
     d4	= ♪Mondo Interconnesso
-    d5	= ♪Il mio sogno
+    d5	= ♪Il mio Sogno
     d6	= ♪Andiamo!
     d7	= ♪Benvenuti al Ranch!
-    d8	= ♪La mia parata Pokémon
-    d9	= ♪La canzone di JIGGLYPUFF
+    d8	= ♪La mia Parata Pokémon
+    d9	= ♪La Canzone di JIGGLYPUFF
     da	= Club\n
 	+ Guarda-Guarda
     db	= Pagina precedente
@@ -1071,7 +1071,7 @@
    28f	= Risposta
    290	= Seleziona (Nessuna traccia) in "Musica \n
     + di oggi" dalla bacheca o tieni premuti\n
-	+ \x{e043} e \x{e041}↓ all'avvio. In questo\n
+	+ \x{e043} e \x{e041}↓ all'avvio del canale. In questo\n
 	+ modo puoi giocare senza musica.
    291	= Mii nel Ranch (1)
    292	= Scegliere i Mii

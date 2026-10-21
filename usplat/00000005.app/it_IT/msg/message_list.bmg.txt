@@ -86,6 +86,8 @@
 	+ schermo Gestione dati e\n
 	+ cancella alcuni dati o\n
 	+ trasferiscili in una scheda SD.
+	+ \fNon spostare i dati di\n
+	+ My Pokémon Ranch sulla scheda SD.
     1a	= Non c'è abbastanza spazio\n
 	+ libero nella memoria della\n
 	+ console Wii.\n
@@ -102,6 +104,8 @@
 	+ allo schermo Gestione dati\n
 	+ e cancella alcuni dati o\n
 	+ trasferiscili in una scheda SD.
+	+ \fNon spostare i dati di\n
+	+ My Pokémon Ranch sulla scheda SD.
     1c	= Non c'è abbastanza spazio\n
 	+ libero nella memoria della\n
 	+ console Wii.\n
@@ -116,6 +120,8 @@
 	+ allo schermo Gestione dati\n
 	+ e cancella alcuni dati o\n
 	+ trasferiscili in una scheda SD.
+	+ \fNon spostare i dati di\n
+	+ My Pokémon Ranch sulla scheda SD.
     1e	= Non c'è più spazio libero\n
 	+ nella memoria della console Wii.\n
 	+ \n

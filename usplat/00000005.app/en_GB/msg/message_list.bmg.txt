@@ -78,12 +78,12 @@
 	+ an SD Card or deleting data in\n
 	+ the Data Management screen.
     19	= There is not enough available\n
-	+ space in Wii system memory for\n
-	+ the Platinum Version.\n
-	+ \fCreate %d blocks of free space\n
-	+ either by moving data to\n
-	+ an SD Card or by deleting data\n
-	+ in the Save Data screen.
+	+ space in the Wii System\n
+	+ Memory for the Platinum Version.\n
+	+ \fCreate %d blocks of free\n
+	+ space by either moving data to\n
+	+ an SD Card or deleting data on\n
+	+ the Data Management Screen.
 	+ \fDo not move My Pokémon Ranch\n
 	+ data to the SD Card.
     1a	= There is not enough available\n
@@ -93,12 +93,12 @@
 	+ an SD Card or deleting data in\n
 	+ the Data Management screen.
     1b	= There is not enough available\n
-	+ space in Wii system memory for\n
-	+ the Platinum Version.\n
-	+ \fCreate 1 block of free space\n
-	+ either by moving data to\n
-	+ an SD Card or by deleting data\n
-	+ in the Save Data screen.
+	+ space in the Wii System\n
+	+ Memory for the Platinum Version.\n
+	+ \fCreate 1 block of free\n
+	+ space by either moving data to\n
+	+ an SD Card or deleting data on\n
+	+ the Data Management Screen.
 	+ \fDo not move My Pokémon Ranch\n
 	+ data to the SD Card.
     1c	= There is not enough available\n
@@ -107,11 +107,11 @@
 	+ SD Card or delete data on the\n
 	+ Data Management screen.
     1d	= There is not enough available\n
-	+ space in Wii system memory for\n
-	+ the Platinum Version.\f
-	+ \fEither move data to an\n
-	+ SD Card or delete data in\n
-	+ the Save Data screen.
+	+ space in the Wii System\n
+	+ Memory for the Platinum Version.\n
+	+ \fEither move data to an SD Card\n
+	+ or delete data on the Data\n
+	+ Management Screen.
 	+ \fDo not move My Pokémon Ranch\n
 	+ data to the SD Card.
     1e	= There is no more available space in\n

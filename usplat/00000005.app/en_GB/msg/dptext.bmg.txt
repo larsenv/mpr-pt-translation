@@ -271,7 +271,7 @@
     8a	= Global Terminal
     8b	= Villa
     8c	= Battleground
-    8d	= Rotom's Room
+    8d	= ROTOM's Room
     8e	= T.G. Eterna Bldg
     8f	= Iron Ruins
     90	= Iceberg Ruins
