@@ -722,9 +722,9 @@
 	+ 　con Pokémon Versione Platino per\n
 	+ 　Nintendo DS.\n
 	+ \n
-	+ ・Il Ranch è stato ampliato,\n 
-	+  adesso puoi prenderti cura di ben\n 
-	+  1500 Pokémon!
+	+ ・Il Ranch è stato ampliato,\n
+	+  　adesso puoi prenderti cura di ben\n
+	+  　1500 Pokémon! 　
    1d6	= Info Versione Platino (2)
    1d7	= Ci sono altre novità!
    1d8	= ・Nuove opzioni sono state aggiunte\n
@@ -735,8 +735,8 @@
 	+ ・La musica può essere cambiata.\n
 	+ \n
 	+ ・Ora puoi visitare un Ranch di\n 
-	+  un membro del Club Guarda-Guarda\n 
-	+  più di una volta!
+	+  　un membro del Club Guarda-Guarda\n 
+	+  　più di una volta!
    1d9	= Schema comandi
    1da	= Focus
    1db	= Cerca
@@ -925,7 +925,7 @@
    241  = \n
 	+ Puoi cambiare la musica di oggi.\n
 	+ Puoi nuovamente visitare i Ranch di\n
-	+ membri del Club Guarda-Guarda\n
+	+ membri del Club Guarda-Guarda.\n
    242	= 
    243	= Pokémon desiderati (1)
    244	= Pokémon desiderati

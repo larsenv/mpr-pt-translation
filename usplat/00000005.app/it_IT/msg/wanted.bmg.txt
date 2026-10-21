@@ -75,8 +75,8 @@
 	+ Camilla a Evopoli.
     10	= Fai evolvere NINCADA con almeno\n
 	+ un posto libero in squadra.
-    11	= EIl Pokémon %ls%ls\n
-	+ si evolve dandogli uno strumento..
+    11	= Il Pokémon %ls%ls\n
+	+ si evolve dandogli uno strumento.
     12	= %ls%ls si evolve\n
 	+ quando raggiunge il L. %d.
     13	= %ls%ls si evolve se\n
@@ -93,10 +93,10 @@
 	+ Pensione Pokémon di Flemminia.
     18	= Non si sa come catturare\n
 	+ questo Pokémon.
-    19	= You can get it by trading\n
-	+ with other DS Pokémon games.
-    1a	= You can find it roaming\n 
-	+ around the Sinnoh region.
+    19	= Lo puoi ottenere tramite scambio\n
+	+ con altri giochi di Pokémon DS.
+    1a	= Puoi trovarlo nei dintorni\n
+	+ di Sinnoh.
     1b	= Percorso 201
     1c	= Percorso 202
     1d	= Percorso 203
@@ -465,11 +465,11 @@
    112	= Una volta ottenuto il Pokédex Nazionale\n
 	+ in Pokémon Perla, apparirà nel Giardino\n
 	+ Trofeo dopo aver parlato con Granlotto.
-   113	= 1. Porta la Roccianima nella Torre di Pietra 
+   113	= 1. Porta la Roccianima nella Torre di Pietra \n
     + in Rovina.\n
 	+ 2. Accedi ai Sotterranei con l'Esplorokit.\n
 	+ 3. Parla a 32 persone nei Sotterranei.\n
-	+ 4. SPIRITOMB apparirà nel Pozzo Memoria..
+	+ 4. SPIRITOMB apparirà nel Pozzo Memoria.
    114	= Puoi ottenere un esemplare di SHEDINJA se\n
 	+ hai un posto in squadra, una Poké Ball, e\n
 	+ porti un NINCADA che ha raggiunto il L. 20.
