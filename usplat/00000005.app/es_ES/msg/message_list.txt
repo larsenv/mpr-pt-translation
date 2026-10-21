@@ -1,0 +1,260 @@
+#BMG  <<<  The first 4 characters '#BMG' are the magic for a BMG text file.
+#     <<<  Don't remove them!
+#
+# Details about BMG text files are available in the Web:
+#  * Syntax and Semantics: https://szs.wiimm.de/doc/bmg/text
+#  * The BMG file format:  https://szs.wiimm.de/r/wiki/BMG
+#
+#
+#------------------------------------------------------------------------------
+
+# The endianness of binary files: 0=big endian (default), 1=little endian.
+# Little endian is only tested for encoding UTF-8 (need examples of analysis).
+@ENDIAN = 0
+
+# If 1, then enable legacy (GameCube) mode for old binary BMG files.
+# If enabled, ENCODING is always CP1252.
+@LEGACY = 0
+
+# Define encoding of BMG: 1=CP1252, 2=UTF-16/be, 3=Shift-JIS, 4=UTF-8
+@ENCODING = 2
+
+# Create »MID1« section: 0=off, 1=on
+@BMG-MID = 0
+
+# Size of each element of section 'INF1' (MKW=8).
+# This setting has impact to attributes and MKW features.
+@INF-SIZE = 0x08
+
+# Default attribute values for this BMG (MKW=[1])
+@DEFAULT-ATTRIBS = [0]
+
+# Use MKW specific color names: 0=off, 1=auto, 2=on
+@COLOR-NAMES = 1
+
+# Use MKW messages and track names: 0=off, 1=auto, 2=on
+@MKW-MESSAGES = 1
+
+#
+#------------------------------------------------------------------------------
+
+# This part defines values for unknown parameters of section headers.
+@UNKNOWN-INF32-0C =   0x100000	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
+@UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
+
+#
+#------------------------------------------------------------------------------
+
+     0	/
+     1	/
+     2	/
+     3	/
+     4	/
+     5	/
+     6	/
+     7	/
+     8	/
+     9	/
+     a	/
+     b	/
+     c	/
+     d	/
+     e	/
+     f	/
+    10	/
+    11	/
+    12	/
+    13	/
+    14	= Las pilas están a punto\n
+	+ de agotarse.
+    15	/
+    16	/
+    17	/
+    18	= No hay suficiente espacio libre\n
+	+ en la memoria de la consola Wii.\n
+	+ Bloques libres necesarios: %d.\n
+	+ \fTransfiere datos a una\n
+	+ tarjeta SD o borra los que\n
+	+ no necesites en la pantalla\n
+	+ de gestión de datos.
+    19	= No hay suficiente espacio\n
+        + libre en la memoria de la\n
+        + consola Wii para la\n
+        + Edición Platino.\n
+        + \fBloques libres necesarios: %d.\n
+        + \fTransfiere datos a una\n
+        + tarjeta SD o borra los que\n
+        + no necesites en la pantalla\n
+        + de gestión de datos.\n
+    1a	= No hay suficiente espacio libre\n
+	+ en la memoria de la consola Wii.\n
+	+ Bloques libres necesarios: 1.\n
+	+ \fTransfiere datos a una\n
+	+ tarjeta SD o borra los que\n
+	+ no necesites en la pantalla\n
+	+ de gestión de datos.
+    1b	= No hay suficiente espacio\n
+        + libre en la memoria de la\n
+        + consola Wii para la\n
+        + Edición Platino.\n
+        + \fBloques libres necesarios: 1.\n
+        + \fTransfiere datos a una\n
+        + tarjeta SD o borra los que\n
+        + no necesites en la pantalla\n
+        + de gestión de datos.\n
+    1c	= No hay suficiente espacio libre\n
+	+ en la memoria de la consola Wii.\n
+	+ \fTransfiere datos a una\n
+	+ tarjeta SD o borra los que\n
+	+ no necesites en la pantalla\n
+	+ de gestión de datos.
+    1d	= No queda espacio libre\n
+        + en la memoria de la\n
+        + consola Wii para la\n
+        + Edición Platino.\n
+	+ \fTransfiere datos a una\n
+        + tarjeta SD o borra los que\n
+        + no necesites en la pantalla\n
+        + de gestión de datos.\n
+    1e	= No queda espacio libre en la\n
+	+ memoria de la consola Wii.\n
+	+ Consulta el manual de\n
+	+ instrucciones de la consola Wii\n
+	+ para obtener más información.
+    1f	= No se han podido guardar\n
+	+ más datos en la memoria de\n
+	+ la consola Wii.\n
+	+ Consulta el manual de\n
+	+ instrucciones de la consola Wii\n
+	+ para obtener más información.
+    20	/
+    21	= La memoria de la consola Wii\n
+	+ contiene datos dañados.\n
+	+ Consulta el manual de\n
+	+ instrucciones de la consola Wii\n
+	+ para obtener más información.
+    22	= Guardando. No toques el Botón\n
+	+ POWER ni el Botón RESET.
+    23	/
+    24	= No se ha podido acceder a la\n
+	+ memoria de la consola Wii.\n
+	+ \fConsulta el manual de\n
+	+ instrucciones de la consola Wii\n
+	+ para obtener más información.
+    25	= Se ha producido un error al\n
+	+ guardar o leer los datos de\n
+	+ la memoria de la consola Wii.\n
+	+ \fConsulta el manual de\n
+	+ instrucciones de la consola Wii\n
+	+ para obtener más información.
+    26	= No se ha podido acceder a los\n
+	+ datos guardados, así que no se\n
+	+ puede iniciar el título.\n
+	+ \n
+	+ Para obtener más información,\n
+	+ visita support.nintendo.com.\n
+	+ Error:  %03d%03d \n
+	+ \n
+	+ Mantén pulsado el Botón POWER\n
+	+ durante más de 4 segundos para\n
+	+ apagar la consola.
+    27	= No se puede usar WiiConnect24\n
+	+ debido a un problema de la\n
+	+ memoria de la consola Wii.
+    28	= Es necesario actualizar la\n
+	+ consola Wii para poder usar\n
+	+ WiiConnect24.\n
+	+ \fConsulta el manual de\n
+	+ instrucciones de la consola Wii\n
+	+ para obtener más información.
+    29	= Se ha producido un error. No\n
+	+ se puede usar WiiConnect24.\n
+	+ \fReinicia la consola y\n
+	+ vuelve a intentarlo.
+    2a	= En estos momentos\n
+	+ WiiConnect24 no\n
+	+ está disponible.\n
+	+ \fInténtalo más tarde.
+    2b	= WiiConnect24 no está activado.\n
+	+ Comprueba su configuración en\n
+	+ las opciones de Wii.\n
+	+ \fConsulta el manual de\n
+	+ instrucciones de la consola Wii\n
+	+ para obtener más información.
+    2c	= WiiConnect24 no está\n
+	+ disponible porque no\n
+	+ se puede establecer una\n
+	+ conexión con internet.\n
+	+ \fComprueba las opciones\n
+	+ de internet en la\n
+	+ configuración de Wii.\n
+	+ \fConsulta el manual de\n
+	+ instrucciones de la consola Wii\n
+	+ para obtener más información.
+    2d	= En estos momentos\n
+	+ WiiConnect24 no\n
+	+ está disponible.\n
+	+ \fInténtalo más tarde.
+    2e	= En estos momentos\n
+	+ WiiConnect24 no\n
+	+ está disponible.\n
+	+ \fInténtalo más tarde.
+    2f	= No se puede usar WiiConnect24\n
+	+ debido a un problema de la\n
+	+ memoria de la consola Wii.
+    30	= Se ha producido un error y no\n
+	+ se puede usar WiiConnect24.\n
+	+ \fReinicia la consola y\n
+	+ vuelve a intentarlo.
+    31	/
+    32	= El uso de la comunicación en\n
+	+ línea está restringido.\n
+	+ \fConsulta los ajustes del control\n
+	+ parental en las opciones de Wii.
+    33	/
+    34	/
+    35	/
+    36	/
+    37	= Sí
+    38	= No
+    39	/
+    3a	= Atrás
+    3b	/
+    3c	/
+    3d	/
+    3e	= Menú de Wii
+    3f	/
+    40	/
+    41	/
+    42	/
+    43	/
+    44	/
+    45	/
+    46	/
+    47	/
+    48	/
+    49	/
+    4a	= No se ha podido acceder\n
+	+ a los datos guardados del\n
+	+ Canal Mii. Comprueba la\n
+	+ configuración del Canal Mii.
+    4b	= My Pokémon Ranch
+
+    4c	/
+    4d	/
+    4e	/
+    4f	/
+    50	/
+    51	/
+    52	/
+    53	/
+    54	/
+    55	/
+    56	/
+    57	/
+    58	/
+    59	/
+    5a	/
+    5b	/
+
