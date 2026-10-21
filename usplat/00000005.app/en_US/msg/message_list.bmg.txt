@@ -139,7 +139,7 @@
     23	/
     24	= Could not write to/read from\n
 	+ Wii System Memory.\n
-	+ For details, please read the Wii\n
+	+ \fFor details, please read the Wii\n
 	+ Operations Manual.
     25	= An error has occurred while\n
 	+ saving or reading the Wii\n
