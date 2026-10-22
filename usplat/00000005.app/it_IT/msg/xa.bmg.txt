@@ -258,7 +258,7 @@
     d1	 = %{} sta guardando da questa parte.
     d2	 = %{} sta guardando da questa parte.
     d3	 = %{} è rimbalzato all'indietro.
-    d4	 = %{} è rimbalzato all'indietro.
+    d4	 = %{} è rimbalzata all'indietro.
     d5	 = %{} è rimbalzato all'indietro.
     d6	 = %{} vuole farsi fotografare?
     d7	 = %{} vuole farsi fotografare?
@@ -276,14 +276,14 @@
     e3	 = %{} sta brillando.
     e4	 = %{} sta brillando.
     e5	 = %{} è scomparso.
-    e6	 = %{} è scomparso.
+    e6	 = %{} è scomparsa.
     e7	 = %{} è scomparso.
     e8	 = %{} è scomparso.
-    e9	 = %{} è scomparso.
+    e9	 = %{} è scomparsa.
     ea	 = %{} è scomparso.
-    eb	 = %{} è scioccato.
-    ec	 = %{} è scioccato.
-    ed	 = %{} è scioccato.
+    eb	 = %{} è impressionato.
+    ec	 = %{} è impressionata.
+    ed	 = %{} è impressionato.
     ee	 = %{} sembra stanco di aspettare.
     ef	 = %{} sembra stanco di aspettare.
     f0	 = %{} sembra stanco di aspettare.
@@ -315,6 +315,6 @@
    10a	 = %1${} ha fatto uno scherzo a %2${}.
    10b	 = %1${} ha fatto uno scherzo a %2${}.
    10c	 = %1${} si è trasformato in %2${}.
-   10d	 = %1${} si è trasformato in %2${}.
+   10d	 = %1${} si è trasformata in %2${}.
    10e	 = %1${} si è trasformato in %2${}.
 
