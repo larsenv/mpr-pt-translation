@@ -133,7 +133,7 @@
     26	= A proposito, tu hai un gioco\n
 	+ di Pokémon per Nintendo DS?
     27	= Sì? Fantastico! Allora\n
-	+ puoi portare al Ranch!
+	+ puoi portare al Ranch!\n
 	+ tutti i tuoi Pokémon!
     28	= In questo modo, nel Ranch\n
 	+ ne avrai sempre di più!
@@ -293,7 +293,7 @@
 	+ porterò un Pokémon\n
 	+ %ls!
     72	= E va bene, decido io!\n
-	+ Domani porterò un
+	+ Domani porterò un\n
 	+ Pokémon rosso!
     73	= E va bene, decido io!\n
 	+ Domani porterò un\n
@@ -1014,8 +1014,8 @@
    1a9	= Grazie, buon ritorno a casa!
    1aa  = Come stai?
    1ab	= Dunque questo Ranch\n
-	+ appartiene a te e a
-	+ Giulia. Devo dire che
+	+ appartiene a te e a\n
+	+ Giulia. Devo dire che\n
 	+ è proprio un bel posto!
    1ac	= Io sono il membro N° %1$d\n
 	+ del Club Guarda-Guarda.\n
@@ -1164,14 +1164,14 @@
    1e4	= Prenditi cura di questo\n
 	+ %{}, va bene?
    1e5	= Eh? È un esemplare di\n
-	+ %{}! È proprio
-	+ quello che stava cercando
+	+ %{}! È proprio\n
+	+ quello che stava cercando\n
 	+ %{}!
    1e6	= Vuoi scambiare il tuo\n
 	+ %1${} con l'esem-\n
 	+ plare di %3${}\n
 	+ di %2${}?
-   1e7	= L'esemplare di
+   1e7	= L'esemplare di\n
 	+ %2${} di\n
 	+ %1${} è così.
    1e8	= Capisco. Non fa niente. Però\n
@@ -1187,7 +1187,7 @@
 	+ sempre desiderato uno!
    1eb	= Lo scambieresti con il mio\n
 	+ %ls?
-   1ec	= Oh! Un esemplare di
+   1ec	= Oh! Un esemplare di\n
     + %ls!\n
 	+ Ne ho sempre desiderato uno!
    1ed	= Ehi, perché non mi dai il tuo\n
@@ -1287,7 +1287,7 @@
 	+ Pokémon al Ranch.
    20e	= Sapendo che sei in grado di\n
 	+ completare il tuo Pokédex, \n
-	+ posso chiederti di nuovo un
+	+ posso chiederti di nuovo un\n
 	+ favore?
    20f	= Controlliamo il tuo Pokédex...\n
 	+ Visti: %d\n
