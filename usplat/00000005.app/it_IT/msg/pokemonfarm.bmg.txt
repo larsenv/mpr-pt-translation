@@ -928,7 +928,7 @@
 	+ informazioni sul Ranch.
    241  = \n
 	+ Puoi cambiare la musica di oggi.\n
-	+ Puoi nuovamente visitare i Ranch di\n
+	+ Puoi nuovamente visitare i Ranch dei\n
 	+ membri del Club Guarda-Guarda.\n
    242	= 
    243	= Pokémon desiderati (1)
