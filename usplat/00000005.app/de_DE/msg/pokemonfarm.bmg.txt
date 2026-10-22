@@ -415,7 +415,7 @@
     ce	 = O.K. und zurück
     cf	 = Weitere
     d0	 = (Keine Musik)
-    d1	 = ♪Platin Farm
+    d1	 = ♪Platin Ranch
     d2	 = ♪Seichtes Sonnenlicht
     d3	 = ♪Ruhiger Spaziergang
     d4	 = ♪Verbundene Welt

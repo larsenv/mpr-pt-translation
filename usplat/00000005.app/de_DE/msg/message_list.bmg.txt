@@ -77,13 +77,18 @@
 	+ \f...um Daten auf eine SD Card\n
 	+ zu verschieben oder zu löschen\n
 	+ (erforderliche Blöcke: %d).
-    19	= Es steht nicht genug Speicherplatz\n
-	+ für My Pokémon Ranch Platin im Speicher\n
-	+ der Wii zur verfügung.
-	+ \fBitte schaffe %d Blöcke an freiem\n
-	+ Speicherplatz, indem du in den\n
-	+ Speicherdateneinstellungen Daten\n
-	+ auf die SD Card verschiebst oder löschst.
+    19	= Der Speicher der Wii-Konsole\n
+	+ beinhaltet nicht genügend Platz\n
+	+ für My Pokémon Ranch Platin.\n
+	+ \fBitte rufe den Daten-\n
+	+ verwaltungsbildschirm auf\n
+	+ um Daten auf eine SD Card...\n
+	+ \f...zu verschieben oder\n
+	+ zu löschen.\n
+	+ (erforderliche Blöcke: %d).\n
+	+ \fVerschiebe nicht die Daten\n
+	+ von My Pokémon Ranch Platin\n
+	+ auf eine SD Card.
     1a	= Der Speicher der Wii-Konsole\n
 	+ ist belegt.\n
 	+ Bitte rufe den Daten-\n
@@ -91,13 +96,18 @@
 	+ \f...um Daten auf eine SD Card\n
 	+ zu verschieben oder zu löschen\n
 	+ (erforderliche Blöcke: 1).
-    1b	= Es steht nicht genug Speicherplatz\n
-	+ für My Pokémon Ranch Platin im Speicher\n
-	+ der Wii zur verfügung.
-	+ \fBitte schaffe 1 Block an freiem\n
-	+ Speicherplatz, indem du in den\n
-	+ Speicherdateneinstellungen Daten\n
-	+ auf die SD Card verschiebst oder löschst.
+    1b	= Der Speicher der Wii-Konsole\n
+	+ beinhaltet nicht genügend Platz\n
+	+ für My Pokémon Ranch Platin.\n
+	+ \fBitte rufe den Daten-\n
+	+ verwaltungsbildschirm auf\n
+	+ um Daten auf eine SD Card...\n
+	+ \f...zu verschieben oder\n
+	+ zu löschen.\n
+	+ (erforderliche Blöcke: 1).\n
+	+ \fVerschiebe nicht die Daten\n
+	+ von My Pokémon Ranch Platin\n
+	+ auf eine SD Card.
     1c	= Es können keine weiteren\n
 	+ Dateien im Speicher der\n
 	+ Wii-Konsole gespeichert\n
@@ -106,13 +116,17 @@
 	+ verwaltungsbildschirm auf, um\n
 	+ Daten auf eine SD Card zu\n
 	+ verschieben oder zu löschen.
-    1d = Es steht nicht genug Speicherplatz\n
-	+ für My Pokémon Ranch Platin im Speicher\n
-	+ der Wii zur verfügung.
-	+ \fBitte schaffe Speicherplatz, indem\n
-	+ du in den Speicherdateneinstellungen\n
-	+ Daten auf die SD card\n
-	+ verschiebst oder löschst.
+    1d = Es können keine weiteren\n
+	+ Dateien im Speicher der\n
+	+ Wii-Konsole für My Pokémon\n
+	+ Ranch Platin gespeichert werden.\n
+	+ \fBitte rufe den Daten-\n
+	+ verwaltungsbildschirm auf, um\n
+	+ Daten auf eine SD Card zu\n
+	+ verschieben oder zu löschen.\n
+	+ \fVerschiebe nicht die Daten\n
+	+ von My Pokémon Ranch Platin\n
+	+ auf eine SD Card.
     1e	= Der Speicher der Wii-Konsole ist\n
 	+ belegt. Bitte lies die Wii-\n
 	+ Bedienungsanleitung, um weitere\n
