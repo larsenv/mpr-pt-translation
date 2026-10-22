@@ -72,11 +72,12 @@
     16	/
     17	/
     18	= There is not enough available\n
-	+ space in Wii system memory.\n
-	+ \fCreate %d blocks\n
-	+ of free space by moving data to\n
-	+ an SD Card or deleting data in\n
-	+ the Data Management screen.
+	+ space in the Wii System\n
+	+ Memory.\n
+	+ \fCreate %d blocks of free\n
+	+ space by either moving data to\n
+	+ an SD Card or deleting data on\n
+	+ the Data Management Screen.
     19	= There is not enough available\n
 	+ space in the Wii System\n
 	+ Memory for the Platinum Version.\n
@@ -87,11 +88,12 @@
 	+ \fDo not move My Pokémon Ranch\n
 	+ data to the SD Card.
     1a	= There is not enough available\n
-	+ space in Wii system memory.\n
-	+ \fCreate 1 block\n
-	+ of free space by moving data to\n
-	+ an SD Card or deleting data in\n
-	+ the Data Management screen.
+	+ space in the Wii System\n
+	+ Memory.\n
+	+ \fCreate 1 block of free\n
+	+ space by either moving data to\n
+	+ an SD Card or deleting data on\n
+	+ the Data Management Screen.
     1b	= There is not enough available\n
 	+ space in the Wii System\n
 	+ Memory for the Platinum Version.\n
@@ -102,10 +104,11 @@
 	+ \fDo not move My Pokémon Ranch\n
 	+ data to the SD Card.
     1c	= There is not enough available\n
-	+ space in Wii system memory.\n
-	+ \fEither move data to an\n
-	+ SD Card or delete data on the\n
-	+ Data Management screen.
+	+ space in the Wii System\n
+	+ Memory.\n
+	+ \fEither move data to an SD Card\n
+	+ or delete data on the Data\n
+	+ Management Screen.
     1d	= There is not enough available\n
 	+ space in the Wii System\n
 	+ Memory for the Platinum Version.\n
@@ -115,32 +118,32 @@
 	+ \fDo not move My Pokémon Ranch\n
 	+ data to the SD Card.
     1e	= There is no more available space in\n
-	+ Wii system memory.\n
+	+ the Wii System Memory.\n
 	+ \n
 	+ Refer to the Wii Operations Manual\n
-	+ for details.
-    1f	= There is no more available space in\n
-	+ Wii system memory.\n
+	+ for further information.
+    1f	= Unable to save any more data to\n
+	+ the Wii System Memory.\n
 	+ \n
 	+ Refer to the Wii Operations Manual\n
-	+ for details.
+	+ for further information.
     20	/
-    21	= The Wii system memory\n
-	+ has been damaged.\n
+    21	= The Wii System Memory has been\n
+	+ corrupted.\n
 	+ \n
-	+ Refer to the Wii Operations\n
-	+ Manual for details.
-    22	= Saving...\n
-	+ Please do not turn the power\n
-	+ off or reset the game.
+	+ Refer to the Wii Operations Manual\n
+	+ for further instructions.
+    22	= Saving in progress.\n
+	+ Please do not touch the\n
+	+ POWER Button or RESET.
     23	/
-    24	= Could not access Wii system\n
-	+ memory.\n
-	+ \fRefer to the Wii Operations\n
-	+ Manual for details.
+    24	= Could not write to/read from\n
+	+ Wii System Memory.\n
+	+ \fFor details, please read the Wii\n
+	+ Operations Manual.
     25	= An error has occurred while\n
 	+ saving or reading the Wii\n
-	+ system memory.\n
+	+ System Memory.\n
 	+ \fRefer to the Wii Operations\n
 	+ Manual for details.
     26	= Could not access the save data,\n
@@ -153,7 +156,7 @@
 	+ than 4 seconds and turn off the\n
 	+ power.
     27	= There is a problem with the\n
-	+ Wii system memory, so\n
+	+ Wii System Memory, so\n
 	+ WiiConnect24 cannot be used.
     28	= To use WiiConnect24, a system\n
 	+ update is required.\n
@@ -178,14 +181,14 @@
 	+ and connection.\n
 	+ \fRefer to the Wii Operations\n
 	+ Manual for details.
-    2d	= There is a problem with\n
-	+ the WiiConnect24 service.\n
+    2d	= WiiConnect24 is temporarily\n
+	+ unavailable.\n
 	+ \fPlease try again later.
     2e	= WiiConnect24 is temporarily\n
 	+ unavailable.\n
 	+ \fPlease try again later.
     2f	= There is a problem with the\n
-	+ Wii system memory, so\n
+	+ Wii System Memory, so\n
 	+ WiiConnect24 cannot be used.
     30	= WiiConnect24 cannot be used\n
 	+ because an error has occurred.\n
