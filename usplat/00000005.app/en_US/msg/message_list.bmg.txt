@@ -84,7 +84,7 @@
 	+ \fCreate %d blocks of free\n
 	+ space by either moving data to\n
 	+ an SD Card or deleting data on\n
-	+ the Data Management Screen.
+	+ the Data Management Screen.\n
 	+ \fDo not move My Pokémon Ranch\n
 	+ data to the SD Card.
     1a	= There is not enough available\n
@@ -100,7 +100,7 @@
 	+ \fCreate 1 block of free\n
 	+ space by either moving data to\n
 	+ an SD Card or deleting data on\n
-	+ the Data Management Screen.
+	+ the Data Management Screen.\n
 	+ \fDo not move My Pokémon Ranch\n
 	+ data to the SD Card.
     1c	= There is not enough available\n
@@ -114,7 +114,7 @@
 	+ Memory for the Platinum Version.\n
 	+ \fEither move data to an SD Card\n
 	+ or delete data on the Data\n
-	+ Management Screen.
+	+ Management Screen.\n
 	+ \fDo not move My Pokémon Ranch\n
 	+ data to the SD Card.
     1e	= There is no more available space in\n

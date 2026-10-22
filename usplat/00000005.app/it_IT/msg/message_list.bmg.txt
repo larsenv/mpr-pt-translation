@@ -85,7 +85,7 @@
 	+ \fPer creare spazio, vai allo\n
 	+ schermo Gestione dati e\n
 	+ cancella alcuni dati o\n
-	+ trasferiscili in una scheda SD.
+	+ trasferiscili in una scheda SD.\n
 	+ \fNon spostare i dati di\n
 	+ My Pokémon Ranch sulla scheda SD.
     1a	= Non c'è abbastanza spazio\n
@@ -103,7 +103,7 @@
 	+ \fPer creare spazio, vai\n
 	+ allo schermo Gestione dati\n
 	+ e cancella alcuni dati o\n
-	+ trasferiscili in una scheda SD.
+	+ trasferiscili in una scheda SD.\n
 	+ \fNon spostare i dati di\n
 	+ My Pokémon Ranch sulla scheda SD.
     1c	= Non c'è abbastanza spazio\n
@@ -119,7 +119,7 @@
 	+ \fPer creare spazio, vai\n
 	+ allo schermo Gestione dati\n
 	+ e cancella alcuni dati o\n
-	+ trasferiscili in una scheda SD.
+	+ trasferiscili in una scheda SD.\n
 	+ \fNon spostare i dati di\n
 	+ My Pokémon Ranch sulla scheda SD.
     1e	= Non c'è più spazio libero\n
