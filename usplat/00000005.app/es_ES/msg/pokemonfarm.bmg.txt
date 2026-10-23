@@ -476,7 +476,7 @@
    108	= Encargado:
    109	= Desfile
    10a	= 
-   10b	= Soltar Pokémon
+   10b	= ¿Soltar Pokémon?
    10c	= Predeterminados
    10d	= Cantidad
    10e	= Tipo
