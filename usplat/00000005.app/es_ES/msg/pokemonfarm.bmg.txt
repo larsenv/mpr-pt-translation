@@ -406,12 +406,12 @@
     c8	= Por %ls
     c9	= hasta %ls
     ca	= ¡Cambiar con %ls!
-    cb	= Elegir melodía
+    cb	= Elige música
     cc	= Página anterior
     cd	= Página siguiente
     ce	= Aceptar y volver
     cf	= Otros
-    d0	= (Silenciar)
+    d0	= (Sin música)
     d1	= ♪Rancho Platino
     d2	= ♪Luz solar
     d3	= ♪Paseo sereno
@@ -476,7 +476,7 @@
    108	= Encargado:
    109	= Desfile
    10a	= 
-   10b	= ¿Soltar Pokémon?
+   10b	= ¿Cuáles sueltas?
    10c	= Predeterminados
    10d	= Cantidad
    10e	= Tipo
@@ -879,9 +879,9 @@
    22b	= Pokémon en el rancho
    22c	= Puedes ver los Pokémon\n
 	+ que hayas depositado.\n
-	+ Este botón abre el\n
-        + menú Soltar Pokémon.
-   22d	= Soltar Pokémon
+	+ Abre el menú ¿Cuáles sueltas?\n
+    + pulsando el botón.
+   22d	= ¿Cuáles sueltas?
    22e	= Elige los Pokémon que\n
 	+ andan sueltos por el rancho.\n
 	+ Puedes filtrar por tipo o\n
@@ -964,14 +964,14 @@
    254	= Aquí puedes ver los nombres\n
 	+ de las melodías del juego.\n
 	+ Pulsa sobre el nombre para\n
-	+ cambiar la melodía que\n
+	+ cambiar la música que\n
 	+ suena.
    255	= 
    256	= 
    257	= Música de hoy (2)
    258	= Otros
    259	= Otro apartado con otro\n
-        + tipo de melodías para\n
+        + tipo de música para\n
         + escoger.
    25a	= (Sin música)
    25b	= Te permite jugar\n
