@@ -529,7 +529,7 @@
     c6   = Le Ranch va encore continuer à\n
 	+ s'agrandir, niveau par niveau...
     c7   = Il ne te reste plus qu'à trouver\n
-	+ 1 000 Pokémon pour le remplir!
+	+ des Pokémon pour le remplir!
     c8	 = Et encore une bonne nouvelle!\n
 	+ A partir d'aujourd'hui,\n
 	+ le Ranch recevra chaque jour\n
