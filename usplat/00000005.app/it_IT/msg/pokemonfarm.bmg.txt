@@ -411,7 +411,7 @@
     ce	= Ok e torna al Ranch
     cf	= Altro
     d0	= (Nessuna traccia)
-    d1	= ♪Ranch Platino
+    d1	= ♪Fattoria Platino
     d2	= ♪Dolce Luce del Sole
     d3	= ♪Passeggiata Tranquilla
     d4	= ♪Mondo Interconnesso
@@ -541,7 +541,7 @@
    149	= Rianimazione
    14a	= Rivolto a Nord
    14b	= Salto Acquatico
-   14c	= ROTOM Roulette
+   14c	= Rotom Roulette
    14d	= Resa dei Conti
    14e	= Palette
    14f	= Buon Compleanno
