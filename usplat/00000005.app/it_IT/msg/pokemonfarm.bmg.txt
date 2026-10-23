@@ -189,7 +189,7 @@
 	+ in una scheda SD?
     67	= Foto salvata come\n
 	+ %2$.4s%3$04d.JPG nella\n
-	+ directory \DCIM\%1$03dNIN01\n
+	+ directory ＼DCIM＼%1$03dNIN01\n
 	+ della scheda SD.
     68	= Notizie dal Ranch
 	69	= Cancella tutte le foto\n
@@ -252,7 +252,7 @@
     7f	= Vuoi salvare tutte le foto?
     80	= Tutte le foto sono\n
 	+ salvate nella directory\n
-	+ \DCIM\%1$03dNIN01\n
+	+ ＼DCIM＼%1$03dNIN01\n
 	+ della scheda SD.
     81	= Cancellare tutte le foto\n
 	+ non protette?
