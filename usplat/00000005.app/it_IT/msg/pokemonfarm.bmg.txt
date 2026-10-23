@@ -540,7 +540,7 @@
    148	= Orbita
    149	= Rianimazione
    14a	= Rivolto a Nord
-   14b	= Acqua Jumping
+   14b	= Salto Acquatico
    14c	= ROTOM Roulette
    14d	= Resa dei Conti
    14e	= Palette

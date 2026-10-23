@@ -540,7 +540,7 @@
    148	= Órbita
    149	= Resurrección
    14a	= Mirando al norte
-   14b	= Salto surfista
+   14b	= Salto acuático
    14c	= Ruleta Rotom
    14d	= Confrontación
    14e	= Paleta de colores
