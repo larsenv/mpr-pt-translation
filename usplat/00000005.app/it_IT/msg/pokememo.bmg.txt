@@ -81,7 +81,7 @@
     20	 = Ho visto l'Orbita.
     21	 = Ho visto la Rianimazione.
     22	 = Ho visto Rivolto a Nord.
-    23	 = Ho visto Acqua Jumping.
+    23	 = Ho visto Salto Acquatico.
     24	 = Ho visto la ROTOM Roulette.
     25	 = Ho visto la Resa dei conti.
     26	 = Ho scattato una foto di gruppo.

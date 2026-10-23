@@ -81,7 +81,7 @@
     20	 = J'ai vu l'orbite des Pokémon.
     21	 = J'ai vu la résurrection.
     22	 = J'ai vu les regards au nord.
-    23	 = J'ai vu les sauts en surf.
+    23	 = J'ai vu les sauts à la nage.
     24	 = J'ai vu la ronde des Motisma.
     25	 = J'ai vu l'affrontement.
     26	 = J'ai pris une photo de groupe.

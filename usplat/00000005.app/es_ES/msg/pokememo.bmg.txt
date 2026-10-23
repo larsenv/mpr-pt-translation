@@ -81,7 +81,7 @@
     20	= ¡Vi la Órbita!
     21	= ¡Vi la Resurrección!
     22	= ¡Vi el Mirando al norte!
-    23	= ¡Vi el Salto surfista!
+    23	= ¡Vi el Salto acuático!
     24	= ¡Vi la Ruleta rotom!
     25	= ¡Vi la Confrontación!
     26	= ¡Tomé una foto grupal!
