@@ -879,8 +879,8 @@
    22b	= Pokémon en el rancho
    22c	= Puedes ver los Pokémon\n
 	+ que hayas depositado.\n
-	+ Abre el menú ¿Cuáles sueltas?\n
-    + pulsando el botón.
+	+ Abre el menú ¿Cuáles\n
+    + sueltas? pulsando el botón.
    22d	= ¿Cuáles sueltas?
    22e	= Elige los Pokémon que\n
 	+ andan sueltos por el rancho.\n
