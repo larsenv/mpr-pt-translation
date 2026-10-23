@@ -528,7 +528,7 @@
     c6  = El rancho seguirá ampliándose\n
 	+ conforme suba de nivel.
     c7  = ¡Ahora, trataremos de llenarlo\n
-	+ con 1000 Pokémon!
+	+ con un montón de Pokémon!
     c8	= Otra cosa...\n
 	+ Desde hoy, ¡recibiremos cinco\n
 	+ Cajas de Juegos cada día!\n
