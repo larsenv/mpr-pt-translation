@@ -508,8 +508,8 @@
     c5	= Congratulations!
     c6	= The Ranch will continue to\n
 	+ expand by leveling up...
-    c7	= Let's try to get 1,000 Pokémon\n
-	+ on the Ranch!
+    c7	= Let's do our best to fill\n
+	+ the Ranch with Pokémon!
     c8	= More great news!\n
 	+ Five Toy Boxes will be delivered\n
 	+ to the Ranch every day starting\n
