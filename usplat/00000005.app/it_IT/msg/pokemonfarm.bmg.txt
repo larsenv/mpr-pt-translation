@@ -409,8 +409,8 @@
     cc	= Pagina precedente
     cd	= Pagina successiva
     ce	= Ok e torna al Ranch
-    cf	= Altro
-    d0	= (Nessuna traccia)
+    cf	= Altre
+    d0	= (Nessuna musica)
     d1	= ♪Fattoria Platino
     d2	= ♪Dolce Luce del Sole
     d3	= ♪Passeggiata Tranquilla
@@ -971,10 +971,10 @@
    255	= 
    256	= 
    257	= Musica di oggi (2)
-   258	= Altro
+   258	= Altre
    259	= Inoltre, puoi cambiare la\n
 	+ musica da un elenco di tracce.
-   25a	= (Nessuna traccia)
+   25a	= (Nessuna musica)
    25b	= Ferma la musica.
    25c	= Club Guarda-Guarda
    25d	= Club Guarda-Guarda
@@ -1071,7 +1071,7 @@
    28d	= Domanda
    28e	= Come faccio a giocare senza musica?
    28f	= Risposta
-   290	= Seleziona (Nessuna traccia) in "Musica \n
+   290	= Seleziona (Nessuna musica) in "Musica \n
     + di oggi" dalla bacheca o tieni premuti\n
 	+ \x{e043} e \x{e041}↓ all'avvio del canale. In questo\n
 	+ modo puoi giocare senza musica.
