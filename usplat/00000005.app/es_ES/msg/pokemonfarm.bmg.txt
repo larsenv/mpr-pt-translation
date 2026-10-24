@@ -412,7 +412,7 @@
     ce	= Aceptar y volver
     cf	= Otros
     d0	= (Sin música)
-    d1	= ♪Rancho Platino
+    d1	= ♪Granja Platino
     d2	= ♪Luz solar
     d3	= ♪Paseo sereno
     d4	= ♪Un mundo conectado
