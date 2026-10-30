@@ -415,7 +415,7 @@
     ce	 = O.K. und zurück
     cf	 = Weitere
     d0	 = (Keine Musik)
-    d1	 = ♪Platin Farm
+    d1	 = ♪Platin Ranch
     d2	 = ♪Seichtes Sonnenlicht
     d3	 = ♪Ruhiger Spaziergang
     d4	 = ♪Verbundene Welt
@@ -731,7 +731,7 @@
 	+ Pokémon Platin-Edition für den\n
 	+ Nintendo DS verbunden werden.\n
 	+ \n
-	+ ・Während sich die Ranch vergrößert\n
+	+ ・Durch Erweiterungen der Ranch\n
 	+ kannst du nun bis zu 1.500 Pokémon\n
 	+ in ihr halten.
    1d6	 = Platin-Update-Info (2)
@@ -940,7 +940,7 @@
 	+ den Status der Ranch.
    241   = ・Du kannst die "Heutige Musik" ändern.\n
 	+ ・Du kannst eine Pokéschau-Club\n
-	+ Ranch, wieder besuchen.
+	+ Ranch wieder besuchen.
    242	 = 
    243	 = Gesuchte Pokémon (1)
    244	 = Gesuchte Pokémon

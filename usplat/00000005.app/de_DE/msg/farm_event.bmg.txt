@@ -563,7 +563,7 @@
     c6   = Die Ranch wächst dann aber\n
 	+ weiter, wenn ihr Level steigt.
     c7   = Jetzt musst du sie nur noch mit\n
-	+ 1 000 Pokémon füllen!
+	+ vielen Pokémon füllen!
     c8	 = Ah, eins noch...\n
 	+ Von heute an werden täglich\n
 	+ fünf Spaßkisten an die Ranch\n
