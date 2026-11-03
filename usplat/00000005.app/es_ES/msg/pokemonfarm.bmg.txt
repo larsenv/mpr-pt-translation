@@ -464,8 +464,8 @@
     fc	= Favoritos
     fd	= Mis Pokémon
     fe	= %d
-    ff	= Se han soltado %d Pokémon.
-   100	= Se ha soltado %d Pokémon.
+    ff	= Se ha(n) soltado %d Pokémon.
+   100	= Se ha(n) soltado %d Pokémon.
    101	= Página anterior
    102	= Página siguiente
    103	= Atrás
