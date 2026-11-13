@@ -906,7 +906,7 @@
    241	=  \n
 	+ You can change "Today's Music".\n
 	+ You can revisit a "Club Look-See"\n
-	+ Ranch you've already visited,
+	+ Ranch you've already visited.
    242	= 
    243	= Pokémon Wanted (1)
    244	= Pokémon Wanted
