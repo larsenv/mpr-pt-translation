@@ -411,7 +411,7 @@
     cd	= Página siguiente
     ce	= Aceptar y volver
     cf	= Otros
-    d0	= Sin música
+    d0	= (Sin música)
     d1	= ♪Granja Platino
     d2	= ♪Luz solar
     d3	= ♪Paseo sereno
@@ -730,7 +730,7 @@
 	+ ・Ahora puedes almacenar\n
 	+ 　hasta 30 fotos.\n
 	+ \n
-	+ ・También puedes elegir la melodía.\n
+	+ ・También puedes cambiar la música.\n
 	+ \n
 	+ ・Además puedes visitar los ranchos\n
         + 　del Club Mírame de nuevo.
@@ -926,7 +926,7 @@
 	+ opción Informe del rancho.
    241  =  \n
         + Además puedes cambiar la\n
-        + melodía o visitar ranchos\n
+        + Música de hoy o visitar ranchos\n
         + del Club Mírame ya vistos.
    242	= 
    243	= Pokémon buscados (1)
@@ -962,20 +962,20 @@
    252  = Música de hoy (1)
    253	= Música de hoy
    254	= Aquí puedes ver los nombres\n
-	+ de las melodías del juego.\n
+	+ de la música del rancho.\n
 	+ Pulsa sobre el nombre para\n
 	+ cambiar la música que\n
 	+ suena.
    255	= 
    256	= 
    257	= Música de hoy (2)
-   258	= Otros
-   259	= Otro apartado con otro\n
-        + tipo de música para\n
-        + escoger.
-   25a	= Sin música
-   25b	= Te permite jugar\n
-        + sin música.
+   258	= Otra
+   259	= Además, puedes elegir\n
+        + música entre una gran\n
+        + variedad de canciones.
+   25a	= (Sin música)
+   25b	= Pulsa el botón\n
+        + para detener la música.
    25c	= Club Mírame
    25d	= Club Mírame
    25e	= Puedes volver a visitar\n
@@ -1070,7 +1070,7 @@
    28d	= Pregunta
    28e	= ¿Cómo se desactiva la música?
    28f	= Respuesta
-   290	= Selecciona la opción Sin música en\n
+   290	= Selecciona la opción (Sin música) en\n
 	+ el menú Música de hoy o mantén\n
 	+ pulsados \x{e043} y \x{e041}↓ al comenzar el juego.\n
    291	= Miis en el rancho (1)
