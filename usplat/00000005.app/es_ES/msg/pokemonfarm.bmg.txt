@@ -411,7 +411,7 @@
     cd	= Página siguiente
     ce	= Aceptar y volver
     cf	= Otros
-    d0	= (Sin música)
+    d0	= Sin música
     d1	= ♪Granja Platino
     d2	= ♪Luz solar
     d3	= ♪Paseo sereno
@@ -465,7 +465,7 @@
     fd	= Mis Pokémon
     fe	= %d
     ff	= Se ha(n) soltado %d Pokémon.
-   100	= Se ha(n) soltado %d Pokémon.
+   100	= Se ha(n) soltado %d%ls Pokémon.
    101	= Página anterior
    102	= Página siguiente
    103	= Atrás
@@ -973,7 +973,7 @@
    259	= Otro apartado con otro\n
         + tipo de música para\n
         + escoger.
-   25a	= (Sin música)
+   25a	= Sin música
    25b	= Te permite jugar\n
         + sin música.
    25c	= Club Mírame
@@ -1070,7 +1070,7 @@
    28d	= Pregunta
    28e	= ¿Cómo se desactiva la música?
    28f	= Respuesta
-   290	= Selecciona la opción (Sin música) en\n
+   290	= Selecciona la opción Sin música en\n
 	+ el menú Música de hoy o mantén\n
 	+ pulsados \x{e043} y \x{e041}↓ al comenzar el juego.\n
    291	= Miis en el rancho (1)
