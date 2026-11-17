@@ -6,6 +6,13 @@
 # repo and uses $TMPDIR/tools/* for the patch tools, but never re-executes
 # itself from the clone.  Edit the server copy, then sync it back to the repo.
 #
+# Targets:
+#   61.sh        USA + EUR translated WADs, then the JPN WAD (if its base exists)
+#   61.sh JPN    only the JPN WAD: the untouched Japanese Platinum WAD with just
+#                00000001.app replaced by the appl.py-patched DOL (RC24 server,
+#                SDHC, Classic/GameCube controller support) and the TMD moved
+#                to IOS58 for SDHC.  No translation, no 00000004/5 rebuild.
+#
 if [ "$(id -u)" -eq 0 ] && id caddy >/dev/null 2>&1; then
     chown -R caddy:caddy /opt/ranch || true
     exec su -s /bin/bash caddy -c "$(realpath "$0" 2>/dev/null || echo "$0") $*"
@@ -26,20 +33,65 @@ DATE_SUFFIX="$(date +"%Y-%m-%d_%H%M%p")"
 LOCALES=(USA EUR)
 ASH_COMPRESS=0
 RECOMPRESS_LZX=0
+TARGET="$(echo "${1:-ALL}" | tr '[:lower:]' '[:upper:]')"
+JPN_BASE_WAD="$TOOLS_DIR/Minna no Pokemon Bokujou - Platina Taiouban (Japan) (WiiWare).wad"
+JPN_BUILD_DIR="$TOOLS_DIR/Minna no Pokemon Bokujou - Platina Taiouban (Japan) (WiiWare)"
 
 cd "$(dirname "$0")/.." || true
 
-# Fail early if the base WAD is missing
-if [ ! -f "$BASE_WAD" ]; then
+case "$TARGET" in
+    ALL|JPN) ;;
+    *) echo "ERROR: unknown target '$TARGET' (expected nothing or JPN)"; exit 1 ;;
+esac
+
+# Fail early if a needed base WAD is missing
+if [ "$TARGET" = "JPN" ]; then
+    if [ ! -f "$JPN_BASE_WAD" ]; then
+        echo "ERROR: Japanese Platinum WAD not found at $JPN_BASE_WAD"
+        exit 1
+    fi
+elif [ ! -f "$BASE_WAD" ]; then
     echo "ERROR: Base WAD not found at $BASE_WAD"
     echo "Please place the base .wad file in $TOOLS_DIR before running."
     exit 1
 fi
 
+# JPN: the original Japanese Platinum WAD with only 00000001.app swapped for
+# the patched DOL.  Its DOL is the same build the T-Eng base WAD was made
+# from (they differ only in the three spots appl.py rewrites), so every
+# appl.py address applies unchanged.  Region "JPN" skips the EUR-only dialog
+# payload.
+build_jpn() {
+    echo "=== Building locale: JPN (patched 00000001.app only) ==="
+    rm -rf "$JPN_BUILD_DIR"
+    mkdir -p "$JPN_BUILD_DIR"
+    sharpii WAD -u "$JPN_BASE_WAD" "$JPN_BUILD_DIR"
+
+    lzx -d "$JPN_BUILD_DIR/00000001.app" "$JPN_BUILD_DIR/00000001.app.dec" || true
+    python3 "$TMPDIR/tools/appl.py" JPN "$JPN_BUILD_DIR/00000001.app.dec"
+    mv "$JPN_BUILD_DIR/00000001.app.dec" "$JPN_BUILD_DIR/00000001.app"
+    rm -f "$JPN_BUILD_DIR/00000001.app.dec.bak"
+    if [ "$RECOMPRESS_LZX" -eq 1 ]; then
+        lzx -evb "$JPN_BUILD_DIR/00000001.app" "$JPN_BUILD_DIR/00000001.app.enc" || true
+        mv "$JPN_BUILD_DIR/00000001.app.enc" "$JPN_BUILD_DIR/00000001.app" || true
+    fi
+
+    python3 "$TMPDIR/tools/patch_tmd_ios.py" "$JPN_BUILD_DIR"/*.tmd 58 --no-backup
+    rm -f "$JPN_BUILD_DIR"/*.tmd.bak
+
+    sharpii WAD -p "$JPN_BUILD_DIR/" "/opt/ranch/wad/jpplatt-${DATE_SUFFIX}-JPN.wad" -id WBMJ
+    rm -rf "$JPN_BUILD_DIR"
+}
+
 # Clean prior workspace & clone
 rm -rf "$BUILD_DIR" "$TMPDIR"
 git clone "$REPO" "$TMPDIR"
 chmod -R 777 "$TMPDIR" || true
+
+if [ "$TARGET" = "JPN" ]; then
+    build_jpn
+    exit 0
+fi
 
 # Normalize PNGs
 find "$TMPDIR/usplat/00000005.app" -type f -path "*/l10n_ui/arc/timg/*.png" -exec mogrify {} + || true
@@ -187,3 +239,9 @@ for LOCALE in "${LOCALES[@]}"; do
 
     sharpii WAD -p "$BUILD_DIR/" "/opt/ranch/wad/usplatt-${DATE_SUFFIX}-${LOCALE}.wad" -id "$TITLE_ID"
 done
+
+if [ -f "$JPN_BASE_WAD" ]; then
+    build_jpn
+else
+    echo "NOTE: skipping JPN build, $JPN_BASE_WAD not found"
+fi

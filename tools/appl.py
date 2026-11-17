@@ -91,6 +91,55 @@ with open(filepath, "r+b") as f:
         f.write(struct.pack(">I", word))
     print(f"SDHC hooks applied at {len(sdhc_sites)} sites.")
 
+    # --- Classic Controller / GameCube controller -----------------------
+    # tools/classic_pad/classic_pad.c, prebuilt into classic_pad.bin by
+    # tools/classic_pad/build.sh (needs devkitPPC; rerun it and commit the
+    # .bin after editing the C).  The 30 Hz pad sampler's `bl KPADRead` is
+    # redirected to a wrapper that makes a Classic Controller, or a
+    # GameCube controller in the same port, look like a Wii Remote +
+    # Nunchuk: left stick = pointer, right stick / C-stick = Nunchuk stick.
+    # The code is split over several zero-filled gaps in Text 0 (see
+    # classic_pad.ld); none overlaps the SDHC cave or the EUR payload.
+    TEXT0_ADDR, TEXT0_OFF, TEXT0_SIZE = 0x80004000, 0x100, 0x24E0
+    TEXT1_ADDR, TEXT1_OFF = 0x800BF020, 0x25E0
+
+    cp_path = os.path.join(os.path.dirname(os.path.abspath(__file__)),
+                           "classic_pad", "classic_pad.bin")
+    with open(cp_path, "rb") as cpf:
+        cp = cpf.read()
+    if cp[:4] != b"CPAD":
+        print(f"Error: {cp_path} is not a classic_pad blob.")
+        exit(1)
+    cp_entry, cp_count = struct.unpack_from(">II", cp, 4)
+    pos = 12
+    for _ in range(cp_count):
+        addr, size = struct.unpack_from(">II", cp, pos)
+        pos += 8
+        data = cp[pos:pos + size]
+        pos += size + (-size % 4)
+        if not (TEXT0_ADDR <= addr and addr + size <= TEXT0_ADDR + TEXT0_SIZE):
+            print(f"Error: classic_pad piece {hex(addr)} is outside Text 0.")
+            exit(1)
+        off = TEXT0_OFF + addr - TEXT0_ADDR
+        f.seek(off)
+        if f.read(size) != bytes(size):
+            print(f"Error: classic_pad piece {hex(addr)}+{hex(size)} would overwrite "
+                  "non-zero bytes -- does another patch use this gap?")
+            exit(1)
+        f.seek(off)
+        f.write(data)
+
+    kpad_call_addr = 0x8038C434              # bl KPADRead (0x80586910)
+    kpad_call_off = TEXT1_OFF + kpad_call_addr - TEXT1_ADDR
+    f.seek(kpad_call_off)
+    if struct.unpack(">I", f.read(4))[0] != (make_branch(kpad_call_addr, 0x80586910) | 1):
+        print("Error: unexpected instruction at the KPADRead call site.")
+        exit(1)
+    f.seek(kpad_call_off)
+    f.write(struct.pack(">I", make_branch(kpad_call_addr, cp_entry) | 1))
+    print(f"Classic/GameCube controller patch applied ({cp_count} pieces, "
+          f"entry {hex(cp_entry)}).")
+
     if region == "EUR":
         # 2. Inject Payload into 128 bytes of free space in Text 0
         payload_addr = 0x800044F0
