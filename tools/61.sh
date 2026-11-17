@@ -79,7 +79,7 @@ build_jpn() {
     python3 "$TMPDIR/tools/patch_tmd_ios.py" "$JPN_BUILD_DIR"/*.tmd 58 --no-backup
     rm -f "$JPN_BUILD_DIR"/*.tmd.bak
 
-    sharpii WAD -p "$JPN_BUILD_DIR/" "/opt/ranch/wad/jpplatt-${DATE_SUFFIX}-JPN.wad" -id WBMJ
+    sharpii WAD -p "$JPN_BUILD_DIR/" "/opt/ranch/wad/usplatt-${DATE_SUFFIX}-JPN.wad" -id WBMJ
     rm -rf "$JPN_BUILD_DIR"
 }
 

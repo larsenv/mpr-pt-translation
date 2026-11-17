@@ -32,9 +32,18 @@ A plain run of `61.sh` also builds a third WAD after USA and EUR, and
 (`/opt/ranch/www/Minna no Pokemon Bokujou - Platina Taiouban (Japan) (WiiWare).wad`),
 replaces **only** `00000001.app` with the `appl.py`-patched DOL (RC24 server,
 SDHC, Classic/GameCube controllers), moves the TMD to IOS58, and packs
-`/opt/ranch/wad/jpplatt-<date>-JPN.wad` as `WBMJ`. Nothing is translated and
+`/opt/ranch/wad/usplatt-<date>-JPN.wad` as `WBMJ`. Nothing is translated and
 `00000004`/`00000005` are not rebuilt. If that WAD is missing, the plain run
-skips this step with a note.
+skips this step with a note. The `usplatt-` prefix is on purpose: the download
+page lists files by name, so this keeps the JPN WAD next to its USA and EUR
+siblings.
+
+A push to GitHub starts a full build on the server through
+`mypokemonranch.cgi`. Every run uses the same clone directory, so don't push
+again until the previous build has finished. To update the server script, push
+it under a temporary name and `mv` it over `61.sh`. Overwriting it in place
+corrupts a build that is still running, because bash reads the script as it
+goes.
 
 This works because the Japanese DOL is the same build the T-Eng base WAD was made
 from: the two differ only in the three spots `appl.py` rewrites (code 1 at
